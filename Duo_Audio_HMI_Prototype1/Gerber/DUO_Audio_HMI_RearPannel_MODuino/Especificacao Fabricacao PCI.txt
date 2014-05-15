@@ -1,0 +1,49 @@
+Especificações para fabricação da PCI DUO_AUDIO_HMI_REAR_PANNEL_MODUINO_PROTOTYPE1_REV_5.0
+
+
+Material base: FR-4
+
+Espessura do cobre base final:
+   Camadas Externas: 35um
+
+Espessura final da placa: 1,6mm
+
+Dimensões: 5,5 x 9,52 pol
+
+Número de layers de cobre: 2
+
+Máscara de solda: Verde
+
+Simbologia: Branca
+
+Acabamento superficial: HAL Sn/Pb
+
+
+Arquivos Gerber:
+
+Layers de cobre
+--------------------------------------------------
+Posição   Layer   Extensão   Observação
+--------------------------------------------------
+01        Top       .GTL
+02        Bottom    .GBL
+--------------------------------------------------
+
+
+Outros layers
+--------------------------------------------------
+Layer         Extensão   Observação
+--------------------------------------------------
+Top Silk      .GTO
+Top Paste     .GTP
+Top Solder    .GTS
+Bottom Silk   .GBO
+Bottom Paste  .GBP
+Bottom Solder .GBS
+
+
+PCB Edge      .GBR
+     
+  
+NC Drill      .DRL       Furação
+NC Drill MAP  .PHO       Mapa da Furação
