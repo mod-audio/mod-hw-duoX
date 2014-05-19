@@ -762,14 +762,11 @@ Text GLabel 2200 1650 0    50   Output ~ 0
 TXD0_HMI_FIRMWARE
 Text GLabel 2200 1750 0    50   Input ~ 0
 RXD0_HMI_FIRMWARE
-NoConn ~ 5600 2850
-NoConn ~ 5600 2950
 NoConn ~ 5600 3050
 NoConn ~ 5600 3150
 NoConn ~ 5600 3250
-NoConn ~ 5600 3350
-NoConn ~ 5600 3550
 NoConn ~ 5600 3650
+NoConn ~ 5600 3550
 NoConn ~ 2400 1450
 NoConn ~ 2400 1550
 NoConn ~ 2400 2250
@@ -1227,4 +1224,16 @@ Wire Wire Line
 Wire Wire Line
 	5700 4050 5700 3950
 Connection ~ 5700 3950
+Text GLabel 5800 2850 2    50   Output ~ 0
+TX1_UC_CHAIN
+Text GLabel 5800 2950 2    50   Input ~ 0
+RX1_UC_CHAIN
+Text GLabel 5800 3350 2    50   Output ~ 0
+RTS1_UC_CHAIN
+Wire Wire Line
+	5600 2850 5800 2850
+Wire Wire Line
+	5600 2950 5800 2950
+Wire Wire Line
+	5600 3350 5800 3350
 $EndSCHEMATC
