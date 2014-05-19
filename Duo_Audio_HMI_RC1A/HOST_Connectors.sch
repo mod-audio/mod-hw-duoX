@@ -30,14 +30,14 @@ LIBS:contrib
 LIBS:valves
 LIBS:Duo_Audio_HMI_RC1A
 LIBS:Duo_Audio_HMI_RC1A-cache
-EELAYER 27 0
+EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 10
-Title ""
+Title "MOD Duo Baseboard RC1A"
 Date "14 may 2014"
-Rev ""
+Rev "RC1A"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -77,7 +77,7 @@ F 3 "~" H 3150 7650 60  0000 C CNN
 	1    3150 7650
 	1    0    0    -1  
 $EndComp
-Text Notes 3050 700  0    100  ~ 20
+Text Notes 3050 850  0    100  ~ 20
 CORE BOARD\n ITEAD A20
 Text GLabel 2700 2900 2    50   Input ~ 0
 RX4_HOST_MIDI
@@ -828,7 +828,7 @@ Text GLabel 4500 7000 0    50   Output ~ 0
 DTR1_HOST_FIRMWARE
 NoConn ~ 1400 6600
 NoConn ~ 2500 6600
-Text Notes 7050 7000 0    50   ~ 0
+Text Notes 7000 6800 0    50   ~ 0
 TODO\nDefine I2S directions and master/slave definitions.\nMove USB0_VBUSDET divisor to Rear Pannel Board
 NoConn ~ 1400 6500
 NoConn ~ 1400 1200
@@ -1299,11 +1299,11 @@ Wire Wire Line
 Wire Wire Line
 	1200 6000 1400 6000
 Wire Notes Line
-	4250 850  4250 600 
+	4250 1000 4250 750 
 Wire Notes Line
-	4250 600  4200 650 
+	4250 750  4200 800 
 Wire Notes Line
-	4250 600  4300 650 
+	4250 750  4300 800 
 Wire Wire Line
 	2500 6000 2700 6000
 Wire Wire Line
@@ -1350,11 +1350,11 @@ Wire Wire Line
 Wire Wire Line
 	6200 3100 6300 3100
 Wire Notes Line
-	4250 850  4000 850 
+	4250 1000 4000 1000
 Wire Notes Line
-	4000 850  4050 900 
+	4000 1000 4050 1050
 Wire Notes Line
-	4000 850  4050 800 
+	4000 1000 4050 950 
 Wire Wire Line
 	7300 2200 8200 2200
 Wire Wire Line
