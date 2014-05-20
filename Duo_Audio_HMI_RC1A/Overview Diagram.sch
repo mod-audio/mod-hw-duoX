@@ -30,13 +30,13 @@ LIBS:contrib
 LIBS:valves
 LIBS:Duo_Audio_HMI_RC1A
 LIBS:Duo_Audio_HMI_RC1A-cache
-EELAYER 24 0
+EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 10
 Title "MOD Duo Baseboard RC1A"
-Date "14 may 2014"
+Date "20 may 2014"
 Rev "RC1A"
 Comp ""
 Comment1 ""
@@ -46,7 +46,7 @@ Comment4 ""
 $EndDescr
 Text Notes 5400 3250 0    100  ~ 20
 ITEAD A20 CORE BOARD
-Text Notes 2500 3450 0    60   ~ 0
+Text Notes 2500 3300 0    60   ~ 0
    ARM \nCortex-M3\n LPC175x
 Text Notes 7900 3100 0    60   ~ 0
 I2S x5
@@ -206,7 +206,7 @@ Wire Notes Line
 	3000 3200 2500 3200
 Text Notes 2600 2650 0    100  ~ 20
 HMI
-Text Notes 2550 5500 0    50   ~ 0
+Text Notes 2550 5450 0    50   ~ 0
 TRANSCIEVER\nRS422 CHAIN
 Wire Notes Line
 	2550 5350 3050 5350
@@ -234,9 +234,9 @@ Wire Notes Line
 	2500 3500 3000 3500
 Wire Notes Line
 	3000 3500 3000 3200
-Text Notes 6350 5650 0    50   ~ 0
+Text Notes 6300 5600 0    50   ~ 0
 USB A\n(HOST)\n
-Text Notes 6850 5650 0    50   ~ 0
+Text Notes 6850 5600 0    50   ~ 0
  USB B\n(DEVICE)\n
 Wire Notes Line
 	6250 5700 6250 5500

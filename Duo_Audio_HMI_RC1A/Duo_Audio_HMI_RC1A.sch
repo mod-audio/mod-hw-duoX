@@ -30,13 +30,13 @@ LIBS:contrib
 LIBS:valves
 LIBS:Duo_Audio_HMI_RC1A
 LIBS:Duo_Audio_HMI_RC1A-cache
-EELAYER 24 0
+EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 10
 Title "MOD Duo Baseboard RC1A"
-Date "14 may 2014"
+Date "20 may 2014"
 Rev "RC1A"
 Comp "MOD"
 Comment1 ""

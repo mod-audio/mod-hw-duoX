@@ -1,4 +1,4 @@
-update=30/04/2014 16:35:48
+update=20/05/2014 01:51:14
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -51,10 +51,10 @@ LibName30=Libs/Duo_Audio_HMI_RC1A
 version=1
 LastNetListRead=Duo_Audio_HMI_Prototype1.net
 UseCmpFile=1
-PadDrill=0.000000000000
-PadDrillOvalY=0.000000000000
-PadSizeH=2.800000000000
-PadSizeV=1.000000000000
+PadDrill=0.750000000000
+PadDrillOvalY=0.750000000000
+PadSizeH=1.350000000000
+PadSizeV=1.350000000000
 PcbTextSizeV=1.500000000000
 PcbTextSizeH=1.500000000000
 PcbTextThickness=0.300000000000
