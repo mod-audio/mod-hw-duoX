@@ -30,11 +30,11 @@ LIBS:contrib
 LIBS:valves
 LIBS:Duo_Audio_HMI_RC1A
 LIBS:Duo_Audio_HMI_RC1A-cache
-EELAYER 27 0
+EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 10
+Sheet 1 9
 Title "MOD Duo Baseboard RC1A"
 Date "20 may 2014"
 Rev "RC1A"
@@ -52,18 +52,6 @@ F1 "Overview Diagram.sch" 50
 $EndSheet
 $Sheet
 S 3450 3650 1500 1000
-U 531F6D38
-F0 "HMI_IO" 50
-F1 "HMI_IO.sch" 50
-$EndSheet
-$Sheet
-S 3450 2450 1500 1000
-U 531FDB5F
-F0 "HMI_Microcontroler" 50
-F1 "HMI_Microcontroler.sch" 50
-$EndSheet
-$Sheet
-S 3450 4850 1500 1000
 U 53216662
 F0 "HMI_Communication" 50
 F1 "HMI_Communication.sch" 50
@@ -75,7 +63,7 @@ F0 "Power" 50
 F1 "Power.sch" 50
 $EndSheet
 $Sheet
-S 3450 6050 1500 1000
+S 3450 4850 1500 1000
 U 5321AB9D
 F0 "HOST_Connectors" 50
 F1 "HOST_Connectors.sch" 50
@@ -97,5 +85,11 @@ S 5350 1250 1500 1000
 U 535AD1BC
 F0 "Audio_CODEC" 50
 F1 "Audio_CODEC.sch" 50
+$EndSheet
+$Sheet
+S 3450 2450 1500 1000
+U 537BCE69
+F0 "Rear_Pannel" 50
+F1 "Rear_Pannel.sch" 50
 $EndSheet
 $EndSCHEMATC

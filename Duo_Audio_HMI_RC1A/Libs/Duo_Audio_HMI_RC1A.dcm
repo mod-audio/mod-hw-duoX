@@ -1,4 +1,9 @@
-EESchema-DOCLIB  Version 2.0  Date: 19/05/2014 23:08:59
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CONN_PANNEL_2X2
+D Symbole general de connecteur
+K CONN
+$ENDCMP
 #
 $CMP DOUBLE_SCHOTTKY_CA
 D Double diode Shottky (Serie)
