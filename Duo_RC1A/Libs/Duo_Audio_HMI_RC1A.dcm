@@ -1,0 +1,35 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BC849
+D BC849, 30V Vce, 0.1A Ic, Low noise, NPN, SOT-23
+K NPN Low Noise Small Signal Transistor
+F http://www.fairchildsemi.com/ds/BC/BC850.pdf
+$ENDCMP
+#
+$CMP CONN_PANNEL_2X2
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP DOUBLE_SCHOTTKY
+D Double diode Shottky (Serie)
+K DEV DIODE
+$ENDCMP
+#
+$CMP DOUBLE_SCHOTTKY_CA
+D Double diode Shottky (Serie)
+K DEV DIODE
+$ENDCMP
+#
+$CMP NPN_SOT23
+D BC850, 45V Vce, 0.1A Ic, Low noise, NPN, SOT-23
+K NPN Low Noise Small Signal Transistor
+F http://www.fairchildsemi.com/ds/BC/BC850.pdf
+$ENDCMP
+#
+$CMP SW_TACTILE_6X6_4PIN
+D Push Button
+K Switch
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,11 @@
+(module GNDPAD_12_6MIL (layer F.Cu)
+  (descr "Connecteurs 1 pin")
+  (tags "CONN DEV")
+  (fp_text reference REF*** (at 0.4 -1.55) (layer F.SilkS)
+    (effects (font (size 0.762 0.762) (thickness 0.1524)))
+  )
+  (fp_text value Val** (at 0.3 1.725) (layer F.SilkS) hide
+    (effects (font (size 0.762 0.762) (thickness 0.1524)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 0.3048 0.3048) (drill 0.1524) (layers *.Cu *.Mask F.SilkS))
+)
