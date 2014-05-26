@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Sex 23 Mai 2014 15:27:24 BRT
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Seg 26 Mai 2014 11:57:17 BRT
 
 BeginCmp
 TimeStamp = /53216662/53217389;
@@ -921,14 +921,14 @@ BeginCmp
 TimeStamp = /537BCE69/537BD96B;
 Reference = F1;
 ValeurCmp = FUSE;
-IdModule  = Duo_Audio_HMI_RC1A:SM0603;
+IdModule  = Duo_Audio_HMI_RC1A:SM2920;
 EndCmp
 
 BeginCmp
 TimeStamp = /537BCE69/537BD96A;
 Reference = F2;
 ValeurCmp = FUSE;
-IdModule  = Duo_Audio_HMI_RC1A:SM0603;
+IdModule  = Duo_Audio_HMI_RC1A:SM2920;
 EndCmp
 
 BeginCmp

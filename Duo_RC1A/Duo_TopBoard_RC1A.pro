@@ -1,5 +1,5 @@
-update=Ter 20 Mai 2014 16:58:50 BRT
-last_client=eeschema
+update=Seg 26 Mai 2014 09:30:57 BRT
+last_client=pcbnew
 [eeschema]
 version=1
 PageLayoutDescrFile=
@@ -43,3 +43,25 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=Libs/Duo_Audio_HMI_RC1A
+[pcbnew]
+version=1
+PageLayoutDescrFile=
+LastNetListRead=Duo_TopBoard_RC1A.net
+UseCmpFile=1
+PadDrill=0
+PadDrillOvalY=0
+PadSizeH=2
+PadSizeV=3
+PcbTextSizeV=0.8128
+PcbTextSizeH=0.8128
+PcbTextThickness=0.1524
+ModuleTextSizeV=0.8128
+ModuleTextSizeH=0.8128
+ModuleTextSizeThickness=0.1524
+SolderMaskClearance=0
+SolderMaskMinWidth=0
+DrawSegmentWidth=0.1524
+BoardOutlineThickness=0.1524
+ModuleOutlineThickness=0.1524
+[pcbnew/libraries]
+LibDir=
