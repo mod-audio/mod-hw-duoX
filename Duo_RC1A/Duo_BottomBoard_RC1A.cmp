@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Seg 26 Mai 2014 18:47:14 BRT
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Ter 27 Mai 2014 11:24:10 BRT
 
 BeginCmp
 TimeStamp = /53216662/53217389;
@@ -242,7 +242,7 @@ BeginCmp
 TimeStamp = /53225C2D/537BBE8F;
 Reference = CAP5;
 ValeurCmp = 470uF;
-IdModule  = Duo_Audio_HMI_RC1A:Capacitor10x21RM5;
+IdModule  = Duo_Audio_HMI_RC1A:Capacitor8x13RM3.5;
 EndCmp
 
 BeginCmp
@@ -1208,7 +1208,7 @@ BeginCmp
 TimeStamp = /53216662/5383BF02;
 Reference = P2;
 ValeurCmp = KK3.96_2;
-IdModule  = ;
+IdModule  = Duo_Audio_HMI_RC1A:KK3.96_2PIN;
 EndCmp
 
 BeginCmp
@@ -2402,6 +2402,20 @@ IdModule  = Duo_Audio_HMI_RC1A:Resistor_PTH_6.35x2.35mm;
 EndCmp
 
 BeginCmp
+TimeStamp = /532B4CF2/5384B980;
+Reference = RAS57;
+ValeurCmp = 75k;
+IdModule  = Duo_Audio_HMI_RC1A:Resistor_PTH_6.35x2.35mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /532B4CF2/5384B98B;
+Reference = RAS58;
+ValeurCmp = 75k;
+IdModule  = Duo_Audio_HMI_RC1A:Resistor_PTH_6.35x2.35mm;
+EndCmp
+
+BeginCmp
 TimeStamp = /5321AB9D/537B019C;
 Reference = SW1;
 ValeurCmp = SW_TACT_2PIN_SMD;
@@ -2444,7 +2458,7 @@ IdModule  = Duo_Audio_HMI_RC1A:DPAK(369C);
 EndCmp
 
 BeginCmp
-TimeStamp = /53225C2D/537BBEE1;
+TimeStamp = /53225C2D/53849D6A;
 Reference = U3;
 ValeurCmp = NCP1117DT33G;
 IdModule  = Duo_Audio_HMI_RC1A:DPAK(369C);
@@ -2486,7 +2500,7 @@ IdModule  = Duo_Audio_HMI_RC1A:DPAK(369C);
 EndCmp
 
 BeginCmp
-TimeStamp = /53225C2D/537BBEBD;
+TimeStamp = /53225C2D/53849DCD;
 Reference = UA2;
 ValeurCmp = NCP1117DT33G;
 IdModule  = Duo_Audio_HMI_RC1A:DPAK(369C);
