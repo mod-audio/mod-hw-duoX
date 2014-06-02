@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Qui 29 Mai 2014 18:35:23 BRT
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Sex 30 Mai 2014 12:02:28 BRT
 
 BeginCmp
 TimeStamp = /537BE609;
@@ -59,8 +59,8 @@ EndCmp
 BeginCmp
 TimeStamp = /531F6D38/537299CC;
 Reference = C9;
-ValeurCmp = 100uF;
-IdModule  = Duo_Audio_HMI_RC1A:Capacitor5x11RM2;
+ValeurCmp = 10uF;
+IdModule  = Duo_Audio_HMI_RC1A:SM0805;
 EndCmp
 
 BeginCmp
@@ -143,8 +143,8 @@ EndCmp
 BeginCmp
 TimeStamp = /531F6D38/53718F6C;
 Reference = C21;
-ValeurCmp = 100uF;
-IdModule  = Duo_Audio_HMI_RC1A:Capacitor5x11RM2;
+ValeurCmp = 10uF;
+IdModule  = Duo_Audio_HMI_RC1A:SM0805;
 EndCmp
 
 BeginCmp
@@ -330,6 +330,20 @@ IdModule  = Duo_Audio_HMI_RC1A:CONN_PANNEL;
 EndCmp
 
 BeginCmp
+TimeStamp = /531F6D38/537299AF;
+Reference = CONN_LCD1;
+ValeurCmp = ZIF_30_PIN;
+IdModule  = Duo_Audio_HMI_RC1A:ER_CON30HB_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /531F6D38/537150DB;
+Reference = CONN_LCD2;
+ValeurCmp = ZIF_30_PIN;
+IdModule  = Duo_Audio_HMI_RC1A:ER_CON30HB_1;
+EndCmp
+
+BeginCmp
 TimeStamp = /537BF4A0;
 Reference = D1;
 ValeurCmp = 1N4148;
@@ -376,20 +390,6 @@ TimeStamp = /531FDB5F/533B4836;
 Reference = FB3;
 ValeurCmp = FB_1kOHM400mA;
 IdModule  = Duo_Audio_HMI_RC1A:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /531F6D38/537299AF;
-Reference = LCD1;
-ValeurCmp = ZIF_30_PIN;
-IdModule  = Duo_Audio_HMI_RC1A:ER_CON30HB_1;
-EndCmp
-
-BeginCmp
-TimeStamp = /531F6D38/537150DB;
-Reference = LCD2;
-ValeurCmp = ZIF_30_PIN;
-IdModule  = Duo_Audio_HMI_RC1A:ER_CON30HB_1;
 EndCmp
 
 BeginCmp

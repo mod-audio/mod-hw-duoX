@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/rafael/devel/mod-hw-duo/Duo_RC1A/Duo_BottomBoard_RC1A.sch)
-    (date "Qui 29 Mai 2014 16:55:17 BRT")
+    (date "Sex 30 Mai 2014 12:03:42 BRT")
     (tool "eeschema (2014-03-19 BZR 4756)-product"))
   (components
     (comp (ref U1)
@@ -1662,7 +1662,7 @@
       (tstamp 53697734))
     (comp (ref CAP29)
       (value 10uF)
-      (footprint Duo_Audio_HMI_RC1A:Capacitor5x11RM2)
+      (footprint Duo_Audio_HMI_RC1A:SM0805)
       (libsource (lib device) (part CP1))
       (sheetpath (names /Audio_CODEC/) (tstamps /535AD1BC/))
       (tstamp 53697CB5))
@@ -2809,10 +2809,10 @@
         (pin (num 2) (name S) (type passive))
         (pin (num 3) (name G) (type input)))))
   (libraries
-    (library (logical Duo_BottomBoard_RC1A-cache)
-      (uri /home/rafael/devel/mod-hw-duo/Duo_RC1A/Duo_BottomBoard_RC1A-cache.lib))
     (library (logical device)
       (uri /usr/local/share/kicad/library/device.lib))
+    (library (logical Duo_BottomBoard_RC1A-cache)
+      (uri /home/rafael/devel/mod-hw-duo/Duo_RC1A/Duo_BottomBoard_RC1A-cache.lib))
     (library (logical conn)
       (uri /usr/local/share/kicad/library/conn.lib))
     (library (logical Duo_Audio_HMI_RC1A)

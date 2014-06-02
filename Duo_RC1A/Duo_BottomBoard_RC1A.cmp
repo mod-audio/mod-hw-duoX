@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Qui 29 Mai 2014 16:36:12 BRT
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Sex 30 Mai 2014 12:03:29 BRT
 
 BeginCmp
 TimeStamp = /53216662/53217389;
@@ -403,7 +403,7 @@ BeginCmp
 TimeStamp = /535AD1BC/53697CB5;
 Reference = CAP29;
 ValeurCmp = 10uF;
-IdModule  = Duo_Audio_HMI_RC1A:Capacitor5x11RM2;
+IdModule  = Duo_Audio_HMI_RC1A:SM0805;
 EndCmp
 
 BeginCmp
