@@ -232,7 +232,7 @@ Wire Wire Line
 	4000 2800 4000 3000
 Connection ~ 4000 3000
 Wire Wire Line
-	4700 3400 5000 3400
+	4600 3400 5000 3400
 Wire Wire Line
 	4000 2200 4000 2300
 Wire Wire Line
@@ -1005,4 +1005,7 @@ Wire Wire Line
 	2550 5650 2450 5650
 Wire Wire Line
 	2450 5650 2450 5550
+Text GLabel 4600 3400 0    50   Input ~ 0
+CODEC_RST
+Connection ~ 4700 3400
 $EndSCHEMATC
