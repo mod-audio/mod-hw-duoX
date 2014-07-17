@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Sex 30 Mai 2014 12:02:28 BRT
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Thu 17 Jul 2014 17:48:46 BRT
 
 BeginCmp
 TimeStamp = /537BE609;
@@ -22,79 +22,79 @@ IdModule  = Duo_Audio_HMI_RC1A:Capacitor5x11RM2;
 EndCmp
 
 BeginCmp
-TimeStamp = /531F6D38/53729A4B;
+TimeStamp = /53C6E7AF;
 Reference = C4;
-ValeurCmp = 1uF_X7R;
-IdModule  = Duo_Audio_HMI_RC1A:SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /531F6D38/53729A45;
-Reference = C5;
-ValeurCmp = 1uF_X7R;
-IdModule  = Duo_Audio_HMI_RC1A:SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /531F6D38/53729A3F;
-Reference = C6;
-ValeurCmp = 1uF_X7R;
-IdModule  = Duo_Audio_HMI_RC1A:SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /531F6D38/53729A39;
-Reference = C7;
-ValeurCmp = 1uF_X7R;
-IdModule  = Duo_Audio_HMI_RC1A:SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /531F6D38/53729A03;
-Reference = C8;
-ValeurCmp = 1uF_X7R;
-IdModule  = Duo_Audio_HMI_RC1A:SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /531F6D38/537299CC;
-Reference = C9;
-ValeurCmp = 10uF;
-IdModule  = Duo_Audio_HMI_RC1A:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /531F6D38/537299EA;
-Reference = C10;
-ValeurCmp = 1uF_X7R;
-IdModule  = Duo_Audio_HMI_RC1A:SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /531F6D38/537299C6;
-Reference = C11;
 ValeurCmp = 100nF_X7R;
 IdModule  = Duo_Audio_HMI_RC1A:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /531F6D38/53729A2E;
+TimeStamp = /53C5ABB2;
+Reference = C5;
+ValeurCmp = 100uF;
+IdModule  = Duo_Audio_HMI_RC1A:Capacitor5x11RM2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C5ABA5;
+Reference = C6;
+ValeurCmp = 100nF_X7R;
+IdModule  = Duo_Audio_HMI_RC1A:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /531F6D38/53A44140;
+Reference = C7;
+ValeurCmp = 10uF;
+IdModule  = Duo_Audio_HMI_RC1A:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /531F6D38/53A4412A;
+Reference = C8;
+ValeurCmp = 100nF_X7R;
+IdModule  = Duo_Audio_HMI_RC1A:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /531F6D38/53A4644A;
+Reference = C9;
+ValeurCmp = 2.2uF;
+IdModule  = Duo_Audio_HMI_RC1A:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /531F6D38/53A466F2;
+Reference = C10;
+ValeurCmp = 2.2uF;
+IdModule  = Duo_Audio_HMI_RC1A:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /531F6D38/53A45CC2;
+Reference = C11;
+ValeurCmp = 330nF_X7R_25V;
+IdModule  = Duo_Audio_HMI_RC1A:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /531F6D38/53A46BB8;
 Reference = C12;
-ValeurCmp = 1uF_X7R;
+ValeurCmp = 10uF;
 IdModule  = Duo_Audio_HMI_RC1A:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /531F6D38/53729A0F;
+TimeStamp = /531F6D38/53A46BB2;
 Reference = C13;
-ValeurCmp = 1uF_X7R;
+ValeurCmp = 100nF_X7R;
 IdModule  = Duo_Audio_HMI_RC1A:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /531F6D38/53729A09;
+TimeStamp = /531F6D38/53A46C31;
 Reference = C14;
-ValeurCmp = 1uF_X7R;
+ValeurCmp = 2.2uF;
 IdModule  = Duo_Audio_HMI_RC1A:SM0603;
 EndCmp
 
@@ -106,79 +106,16 @@ IdModule  = Duo_Audio_HMI_RC1A:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /531F6D38/5371FECB;
+TimeStamp = /531F6D38/53A46C3B;
 Reference = C16;
-ValeurCmp = 1uF_X7R;
+ValeurCmp = 2.2uF;
 IdModule  = Duo_Audio_HMI_RC1A:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /531F6D38/5371F41A;
+TimeStamp = /531F6D38/53A46C12;
 Reference = C17;
-ValeurCmp = 1uF_X7R;
-IdModule  = Duo_Audio_HMI_RC1A:SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /531F6D38/5371F414;
-Reference = C18;
-ValeurCmp = 1uF_X7R;
-IdModule  = Duo_Audio_HMI_RC1A:SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /531F6D38/5371F40E;
-Reference = C19;
-ValeurCmp = 1uF_X7R;
-IdModule  = Duo_Audio_HMI_RC1A:SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /531F6D38/5371B968;
-Reference = C20;
-ValeurCmp = 1uF_X7R;
-IdModule  = Duo_Audio_HMI_RC1A:SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /531F6D38/53718F6C;
-Reference = C21;
-ValeurCmp = 10uF;
-IdModule  = Duo_Audio_HMI_RC1A:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /531F6D38/53719C4C;
-Reference = C22;
-ValeurCmp = 1uF_X7R;
-IdModule  = Duo_Audio_HMI_RC1A:SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /531F6D38/53718F60;
-Reference = C23;
-ValeurCmp = 100nF_X7R;
-IdModule  = Duo_Audio_HMI_RC1A:SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /531F6D38/5371CD0F;
-Reference = C24;
-ValeurCmp = 1uF_X7R;
-IdModule  = Duo_Audio_HMI_RC1A:SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /531F6D38/5371C10E;
-Reference = C25;
-ValeurCmp = 1uF_X7R;
-IdModule  = Duo_Audio_HMI_RC1A:SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /531F6D38/5371B976;
-Reference = C26;
-ValeurCmp = 1uF_X7R;
+ValeurCmp = 330nF_X7R_25V;
 IdModule  = Duo_Audio_HMI_RC1A:SM0603;
 EndCmp
 
@@ -330,20 +267,6 @@ IdModule  = Duo_Audio_HMI_RC1A:CONN_PANNEL;
 EndCmp
 
 BeginCmp
-TimeStamp = /531F6D38/537299AF;
-Reference = CONN_LCD1;
-ValeurCmp = ZIF_30_PIN;
-IdModule  = Duo_Audio_HMI_RC1A:ER_CON30HB_1;
-EndCmp
-
-BeginCmp
-TimeStamp = /531F6D38/537150DB;
-Reference = CONN_LCD2;
-ValeurCmp = ZIF_30_PIN;
-IdModule  = Duo_Audio_HMI_RC1A:ER_CON30HB_1;
-EndCmp
-
-BeginCmp
 TimeStamp = /537BF4A0;
 Reference = D1;
 ValeurCmp = 1N4148;
@@ -393,6 +316,20 @@ IdModule  = Duo_Audio_HMI_RC1A:SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /531F6D38/53A32AE4;
+Reference = LCD1;
+ValeurCmp = ERC12864-655;
+IdModule  = Duo_Audio_HMI_RC1A:ERC12864-655;
+EndCmp
+
+BeginCmp
+TimeStamp = /531F6D38/53A46BA0;
+Reference = LCD2;
+ValeurCmp = ERC12864-655;
+IdModule  = Duo_Audio_HMI_RC1A:ERC12864-655;
+EndCmp
+
+BeginCmp
 TimeStamp = /531F6D38/531F920E;
 Reference = LED1;
 ValeurCmp = LED_RGB;
@@ -437,7 +374,7 @@ EndCmp
 BeginCmp
 TimeStamp = /537BE045;
 Reference = P1;
-ValeurCmp = PIN_ARRAY_2X10;
+ValeurCmp = HEADER_180_2.54_10X2;
 IdModule  = Duo_Audio_HMI_RC1A:Pin_Header_180_2.54_2x10;
 EndCmp
 
@@ -449,30 +386,16 @@ IdModule  = Duo_Audio_HMI_RC1A:KK3.96_2PIN;
 EndCmp
 
 BeginCmp
-TimeStamp = /531F6D38/53729A86;
-Reference = P3;
-ValeurCmp = CONN_2_SMD_BACKLIGHT;
-IdModule  = Duo_Audio_HMI_RC1A:ER_CON2.0_2P_SMD;
-EndCmp
-
-BeginCmp
-TimeStamp = /531F6D38/537239D7;
-Reference = P4;
-ValeurCmp = CONN_2_SMD_BACKLIGHT;
-IdModule  = Duo_Audio_HMI_RC1A:ER_CON2.0_2P_SMD;
-EndCmp
-
-BeginCmp
 TimeStamp = /531F6D38/5341E916;
-Reference = P5;
-ValeurCmp = PIN_ARRAY_4X1;
+Reference = P3;
+ValeurCmp = HEADER_180_2.54_4X1;
 IdModule  = Duo_Audio_HMI_RC1A:Pin_Header_180_2.54_1x4;
 EndCmp
 
 BeginCmp
 TimeStamp = /531FDB5F/537577BD;
-Reference = P6;
-ValeurCmp = PIN_ARRAY_2X5;
+Reference = P4;
+ValeurCmp = HEADER_180_2.54_5X2;
 IdModule  = Duo_Audio_HMI_RC1A:Pin_Header_180_2.54_2x5;
 EndCmp
 
@@ -500,7 +423,7 @@ EndCmp
 BeginCmp
 TimeStamp = /537BF008;
 Reference = R2;
-ValeurCmp = 51k;
+ValeurCmp = 47k;
 IdModule  = Duo_Audio_HMI_RC1A:SM0603;
 EndCmp
 
@@ -514,7 +437,7 @@ EndCmp
 BeginCmp
 TimeStamp = /537BEFCF;
 Reference = R4;
-ValeurCmp = 51k;
+ValeurCmp = 47k;
 IdModule  = Duo_Audio_HMI_RC1A:SM0603;
 EndCmp
 
@@ -778,6 +701,34 @@ IdModule  = Duo_Audio_HMI_RC1A:SM0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /531F6D38/53A45E6C;
+Reference = R42;
+ValeurCmp = 1M;
+IdModule  = Duo_Audio_HMI_RC1A:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /531F6D38/53A46C1B;
+Reference = R43;
+ValeurCmp = 1M;
+IdModule  = Duo_Audio_HMI_RC1A:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C72962;
+Reference = R44;
+ValeurCmp = 0R;
+IdModule  = Duo_Audio_HMI_RC1A:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /531FDB5F/5388B71D;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = Duo_Audio_HMI_RC1A:SWITCH_SMD_FSMSM;
+EndCmp
+
+BeginCmp
 TimeStamp = /5387B717;
 Reference = TP1;
 ValeurCmp = CONN_1;
@@ -794,7 +745,7 @@ EndCmp
 BeginCmp
 TimeStamp = /531FDB5F/5320AEA5;
 Reference = U1;
-ValeurCmp = LPC175XFBD80;
+ValeurCmp = LPC1754FBD80;
 IdModule  = Duo_Audio_HMI_RC1A:LQFP80;
 EndCmp
 
@@ -810,6 +761,13 @@ TimeStamp = /531FDB5F/532103D6;
 Reference = U3;
 ValeurCmp = 74LVC1G125;
 IdModule  = Duo_Audio_HMI_RC1A:SOT353;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C5AAFF;
+Reference = U4;
+ValeurCmp = NCP1117DT33G;
+IdModule  = Duo_Audio_HMI_RC1A:DPAK(369C);
 EndCmp
 
 BeginCmp
