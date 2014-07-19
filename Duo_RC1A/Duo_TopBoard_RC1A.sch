@@ -110,9 +110,9 @@ Text GLabel 8900 2950 2    50   Output ~ 0
 LED_OVFL1
 Text GLabel 8900 2850 2    50   Output ~ 0
 LED_OVFL2
-Text GLabel 8900 2150 2    50   Output ~ 0
+Text GLabel 6500 2150 0    50   Output ~ 0
 LED_OVFL3
-Text GLabel 8900 2250 2    50   Output ~ 0
+Text GLabel 8900 2150 2    50   Output ~ 0
 LED_OVFL4
 $Comp
 L R R9
@@ -184,7 +184,7 @@ Text GLabel 6500 2450 0    50   Input ~ 0
 TX1_UC_CHAIN
 Text GLabel 8900 2350 2    50   Output ~ 0
 RX1_UC_CHAIN
-Text GLabel 6500 2350 0    50   Output ~ 0
+Text GLabel 6500 2350 0    50   Input ~ 0
 RTS1_UC_CHAIN
 $Comp
 L CONN_10X2 P1
@@ -660,7 +660,7 @@ F 3 "" H 6850 2350 30  0000 C CNN
 	1    6850 2350
 	0    -1   1    0   
 $EndComp
-Text GLabel 6500 2150 0    60   Output ~ 0
+Text GLabel 8900 2250 2    60   Output ~ 0
 NTC_TEMP
 $Comp
 L CONN_1 TP1

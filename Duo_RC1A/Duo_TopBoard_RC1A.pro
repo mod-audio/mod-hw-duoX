@@ -1,4 +1,4 @@
-update=Seg 26 Mai 2014 09:30:57 BRT
+update=Fri 18 Jul 2014 14:46:39 BRT
 last_client=pcbnew
 [eeschema]
 version=1
@@ -48,10 +48,10 @@ version=1
 PageLayoutDescrFile=
 LastNetListRead=Duo_TopBoard_RC1A.net
 UseCmpFile=1
-PadDrill=0
-PadDrillOvalY=0
-PadSizeH=2
-PadSizeV=3
+PadDrill=0.5
+PadDrillOvalY=0.5
+PadSizeH=0.7999999999999999
+PadSizeV=0.7999999999999999
 PcbTextSizeV=0.8128
 PcbTextSizeH=0.8128
 PcbTextThickness=0.1524
