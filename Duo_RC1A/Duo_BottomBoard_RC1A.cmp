@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Mon 21 Jul 2014 13:12:45 BRT
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Tue 22 Jul 2014 14:33:58 BRT
 
 BeginCmp
 TimeStamp = /53216662/53217389;
@@ -43,8 +43,22 @@ IdModule  = Duo_Audio_HMI_RC1A:Capacitor5x11RM2;
 EndCmp
 
 BeginCmp
+TimeStamp = /53225C2D/53CEFDAC;
+Reference = C7;
+ValeurCmp = 100uF;
+IdModule  = Duo_Audio_HMI_RC1A:Capacitor5x11RM2;
+EndCmp
+
+BeginCmp
 TimeStamp = /53225C2D/537BBEEC;
 Reference = C8;
+ValeurCmp = 100nF_X7R;
+IdModule  = Duo_Audio_HMI_RC1A:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53225C2D/53CEFDA6;
+Reference = C9;
 ValeurCmp = 100nF_X7R;
 IdModule  = Duo_Audio_HMI_RC1A:SM0603;
 EndCmp
@@ -190,6 +204,20 @@ IdModule  = Duo_Audio_HMI_RC1A:Capacitor5x11RM2;
 EndCmp
 
 BeginCmp
+TimeStamp = /53225C2D/537BBEA1;
+Reference = C30;
+ValeurCmp = 100uF;
+IdModule  = Duo_Audio_HMI_RC1A:Capacitor5x11RM2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53225C2D/53CEFD38;
+Reference = C31;
+ValeurCmp = 100nF_X7R;
+IdModule  = Duo_Audio_HMI_RC1A:SM0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /53225C2D/537BBE95;
 Reference = CAP1;
 ValeurCmp = 100nF_MF;
@@ -253,22 +281,8 @@ IdModule  = Duo_Audio_HMI_RC1A:Capacitor5x11RM2;
 EndCmp
 
 BeginCmp
-TimeStamp = /53225C2D/537BBEA1;
-Reference = CAP10;
-ValeurCmp = 100uF;
-IdModule  = Duo_Audio_HMI_RC1A:Capacitor5x11RM2;
-EndCmp
-
-BeginCmp
 TimeStamp = /53225C2D/537BBE87;
 Reference = CAP11;
-ValeurCmp = 100nF_MF_S;
-IdModule  = Duo_Audio_HMI_RC1A:CapacitorMetalFilm_7.2x2.5MM_P5MM;
-EndCmp
-
-BeginCmp
-TimeStamp = /53225C2D/537BBEA4;
-Reference = CAP12;
 ValeurCmp = 100nF_MF_S;
 IdModule  = Duo_Audio_HMI_RC1A:CapacitorMetalFilm_7.2x2.5MM_P5MM;
 EndCmp
@@ -1088,14 +1102,14 @@ EndCmp
 BeginCmp
 TimeStamp = /532B4CF2/5367776D;
 Reference = K1;
-ValeurCmp = IMC03TS;
+ValeurCmp = IMC03G;
 IdModule  = Duo_Audio_HMI_RC1A:IMC03G;
 EndCmp
 
 BeginCmp
 TimeStamp = /532B4CF2/53677795;
 Reference = K2;
-ValeurCmp = IMC03TS;
+ValeurCmp = IMC03G;
 IdModule  = Duo_Audio_HMI_RC1A:IMC03G;
 EndCmp
 
