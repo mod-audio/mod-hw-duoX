@@ -1,4 +1,4 @@
-update=Seg 26 Mai 2014 11:21:37 BRT
+update=Fri 25 Jul 2014 11:42:45 BRT
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -55,20 +55,20 @@ version=1
 PageLayoutDescrFile=
 LastNetListRead=
 UseCmpFile=1
-PadDrill=0.75
-PadDrillOvalY=0.75
-PadSizeH=1.35
-PadSizeV=1.35
+PadDrill=0.2032
+PadDrillOvalY=0.2032
+PadSizeH=0.4572
+PadSizeV=0.4572
 PcbTextSizeV=1
 PcbTextSizeH=1
 PcbTextThickness=0.3
-ModuleTextSizeV=0.8128
-ModuleTextSizeH=0.8128
-ModuleTextSizeThickness=0.1524
+ModuleTextSizeV=0.254
+ModuleTextSizeH=0.254
+ModuleTextSizeThickness=0.0635
 SolderMaskClearance=0
 SolderMaskMinWidth=0
-DrawSegmentWidth=0.2
-BoardOutlineThickness=0.15
+DrawSegmentWidth=0.1524
+BoardOutlineThickness=0.1524
 ModuleOutlineThickness=0.1524
 [pcbnew/libraries]
 LibDir=
