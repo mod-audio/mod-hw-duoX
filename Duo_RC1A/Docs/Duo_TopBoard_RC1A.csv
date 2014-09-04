@@ -1,7 +1,7 @@
 Source:,/home/rafael/devel/mod-hw-duo/Duo_RC1A/Duo_TopBoard_RC1A.sch
-Date:,Wed 16 Jul 2014 15:34:20 BRT
+Date:,Thu 04 Sep 2014 11:49:14 BRT
 Tool:,eeschema (2014-03-19 BZR 4756)-product
-Component Count:,109
+Component Count:,107
 
 Individual Components:
 
@@ -30,18 +30,17 @@ Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet
 ,,C37,100nF_X7R,device:C,Duo_Audio_HMI_RC1A:SM0603,
 ,,C38,100nF_X7R,device:C,Duo_Audio_HMI_RC1A:SM0603,
 ,,C39,100nF_X7R,device:C,Duo_Audio_HMI_RC1A:SM0603,
-,,C4,100nF_X7R,device:C,Duo_Audio_HMI_RC1A:SM0603,
 ,,C40,100nF_X7R,device:C,Duo_Audio_HMI_RC1A:SM0603,
 ,,C41,100nF_X7R,device:C,Duo_Audio_HMI_RC1A:SM0603,
 ,,C42,100nF_X7R,device:C,Duo_Audio_HMI_RC1A:SM0603,
 ,,C43,100nF_X7R,device:C,Duo_Audio_HMI_RC1A:SM0603,
 ,,C44,100nF_X7R,device:C,Duo_Audio_HMI_RC1A:SM0603,
 ,,C45,100nF_X7R,device:C,Duo_Audio_HMI_RC1A:SM0603,
-,,C5,100uF,device:CP1,Duo_Audio_HMI_RC1A:SM0603,
+,,C5,100uF,device:CP1,Duo_Audio_HMI_RC1A:Capacitor5x11RM2,
 ,,C6,100nF_X7R,device:C,Duo_Audio_HMI_RC1A:SM0603,
 ,,C7,10uF,device:C,Duo_Audio_HMI_RC1A:SM0603,
 ,,C8,100nF_X7R,device:C,Duo_Audio_HMI_RC1A:SM0603,
-,,C9,2.2uF,device:C,Duo_Audio_HMI_RC1A:SM0805,
+,,C9,2.2uF,device:C,Duo_Audio_HMI_RC1A:SM0603,
 ,,CN1,CONN_PANNEL_2X2,Duo_Audio_HMI_RC1A:CONN_PANNEL_2X2,Duo_Audio_HMI_RC1A:CONN_PANNEL,
 ,,CN2,CONN_PANNEL_2X2,Duo_Audio_HMI_RC1A:CONN_PANNEL_2X2,Duo_Audio_HMI_RC1A:CONN_PANNEL,
 ,,D1,1N4148,device:DIODE,Duo_Audio_HMI_RC1A:SOD323,
@@ -103,7 +102,6 @@ Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet
 ,,R41,10k,device:R,Duo_Audio_HMI_RC1A:SM0603,
 ,,R42,1M,device:R,Duo_Audio_HMI_RC1A:SM0603,
 ,,R43,1M,device:R,Duo_Audio_HMI_RC1A:SM0603,
-,,R44,0R,device:R,Duo_Audio_HMI_RC1A:SM0805,
 ,,R5,1k,device:R,Duo_Audio_HMI_RC1A:SM0603,
 ,,R6,1k,device:R,Duo_Audio_HMI_RC1A:SM0603,
 ,,R7,1k,device:R,Duo_Audio_HMI_RC1A:SM0603,
@@ -121,7 +119,7 @@ Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet
 Collated Components:
 
 Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet
-1,24,"C1, C13, C15, C2, C27, C28, C29, C30, C31, C32, C33, C36, C37, C38, C39, C4, C40, C41, C42, C43, C44, C45, C6, C8",100nF_X7R,device:C,Duo_Audio_HMI_RC1A:SM0603,
+1,23,"C1, C13, C15, C2, C27, C28, C29, C30, C31, C32, C33, C36, C37, C38, C39, C40, C41, C42, C43, C44, C45, C6, C8",100nF_X7R,device:C,Duo_Audio_HMI_RC1A:SM0603,
 2,4,"C10, C14, C16, C9",2.2uF,device:C,Duo_Audio_HMI_RC1A:SM0603,
 3,2,"C11, C17",330nF_X7R_25V,device:C,Duo_Audio_HMI_RC1A:SM0603,
 4,2,"C12, C7",10uF,device:C,Duo_Audio_HMI_RC1A:SM0603,
@@ -144,10 +142,9 @@ Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet
 21,11,"R18, R19, R20, R22, R23, R24, R35, R5, R6, R7, R8",1k,device:R,Duo_Audio_HMI_RC1A:SM0603,
 22,2,"R2, R4",47k,device:R,Duo_Audio_HMI_RC1A:SM0603,
 23,2,"R42, R43",1M,device:R,Duo_Audio_HMI_RC1A:SM0603,
-24,1,R44,0R,device:R,Duo_Audio_HMI_RC1A:SM0805,
-25,1,SW1,SW_PUSH,device:SW_PUSH,Duo_Audio_HMI_RC1A:SWITCH_SMD_FSMSM,
-26,1,U1,LPC1754FBD80,Duo_Audio_HMI_RC1A:LPC175XFBD80,Duo_Audio_HMI_RC1A:LQFP80,
-27,1,U2,TLV803,Duo_Audio_HMI_RC1A:TLV803,Duo_Audio_HMI_RC1A:SOT23,
-28,1,U3,74LVC1G125,Duo_Audio_HMI_RC1A:74LVC1G125,Duo_Audio_HMI_RC1A:SOT353,
-29,1,U4,NCP1117DT33G,Duo_Audio_HMI_RC1A:NCP1117DT33G,Duo_Audio_HMI_RC1A:DPAK(369C),
-30,1,X1,10MHz,device:CRYSTAL,Duo_Audio_HMI_RC1A:HC_49US,
+24,1,SW1,SW_PUSH,device:SW_PUSH,Duo_Audio_HMI_RC1A:SWITCH_SMD_FSMSM,
+25,1,U1,LPC1754FBD80,Duo_Audio_HMI_RC1A:LPC175XFBD80,Duo_Audio_HMI_RC1A:LQFP80,
+26,1,U2,TLV803,Duo_Audio_HMI_RC1A:TLV803,Duo_Audio_HMI_RC1A:SOT23,
+27,1,U3,74LVC1G125,Duo_Audio_HMI_RC1A:74LVC1G125,Duo_Audio_HMI_RC1A:SOT353,
+28,1,U4,NCP1117DT33G,Duo_Audio_HMI_RC1A:NCP1117DT33G,Duo_Audio_HMI_RC1A:DPAK(369C),
+29,1,X1,10MHz,device:CRYSTAL,Duo_Audio_HMI_RC1A:HC_49US,
