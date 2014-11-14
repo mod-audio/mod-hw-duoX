@@ -31,7 +31,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:Duo_Audio_HMI_RC1A
 LIBS:Duo_TopBoard_RC1A-cache
-EELAYER 24 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -195,7 +195,7 @@ F 1 "HEADER_180_2.54_10X2" H 7700 3150 50  0000 C CNN
 F 2 "Duo_Audio_HMI_RC1A:Pin_Header_180_2.54_2x10" H 7700 2600 60  0001 C CNN
 F 3 "" H 7700 2600 60  0000 C CNN
 	1    7700 2600
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 $Comp
 L R R16
