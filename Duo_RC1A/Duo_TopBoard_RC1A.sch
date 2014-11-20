@@ -90,18 +90,18 @@ F 3 "" H 8200 3050 60  0000 C CNN
 	1    8200 3050
 	0    -1   -1   0   
 $EndComp
-Text GLabel 6500 2650 0    50   Input ~ 0
+Text GLabel 6550 2650 0    50   Input ~ 0
 TXD3_CONSOLE
 Text GLabel 8900 2650 2    50   Output ~ 0
 RXD3_CONSOLE
-Text GLabel 6500 2850 0    50   Output ~ 0
-DTR_HMI
-Text GLabel 6500 2950 0    50   Output ~ 0
-RTS_HMI
-Text GLabel 6500 2750 0    50   Input ~ 0
-TXD0_HMI
+Text GLabel 6550 2850 0    50   Output ~ 0
+UC_RESET_CONTROL
+Text GLabel 6550 2950 0    50   Output ~ 0
+UC_ISP_MODE_ENABLE
+Text GLabel 6550 2750 0    50   Input ~ 0
+TXD0_UI
 Text GLabel 8900 2750 2    50   Output ~ 0
-RXD0_HMI
+RXD0_UI
 Text GLabel 8900 2950 2    50   Output ~ 0
 LED_OVFL1
 Text GLabel 8900 2850 2    50   Output ~ 0
@@ -265,9 +265,9 @@ F 3 "" H 2400 5050 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 2750 5450 2    50   Input ~ 0
-DTR_HMI
+UC_RESET_CONTROL
 Text GLabel 2800 6700 2    50   Input ~ 0
-RTS_HMI
+UC_ISP_MODE_ENABLE
 Text GLabel 1550 6400 0    50   Output ~ 0
 ISP_UC_CTL
 Text GLabel 1550 5150 0    50   Output ~ 0
@@ -808,7 +808,7 @@ Wire Wire Line
 Wire Wire Line
 	9150 1200 9150 1300
 Wire Wire Line
-	6500 2950 7300 2950
+	6550 2950 7300 2950
 Wire Wire Line
 	7100 2750 7300 2750
 Wire Wire Line
@@ -931,11 +931,11 @@ Wire Wire Line
 Wire Wire Line
 	8800 2750 8900 2750
 Wire Wire Line
-	6500 2750 6600 2750
+	6550 2750 6600 2750
 Wire Wire Line
 	8900 2650 8800 2650
 Wire Wire Line
-	6500 2650 6600 2650
+	6550 2650 6600 2650
 Wire Wire Line
 	8200 3050 8100 3050
 Wire Wire Line
@@ -947,7 +947,7 @@ Wire Wire Line
 Wire Wire Line
 	7850 4650 7850 5050
 Wire Wire Line
-	6500 2850 7300 2850
+	6550 2850 7300 2850
 Wire Wire Line
 	8100 2750 8300 2750
 $Comp

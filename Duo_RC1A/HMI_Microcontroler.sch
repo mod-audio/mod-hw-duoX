@@ -684,9 +684,9 @@ TXD3_CONSOLE
 Text GLabel 5800 4250 2    50   Input ~ 0
 RXD3_CONSOLE
 Text GLabel 2200 1650 0    50   Output ~ 0
-TXD0_HMI
+TXD0_UI
 Text GLabel 2200 1750 0    50   Input ~ 0
-RXD0_HMI
+RXD0_UI
 NoConn ~ 5600 3050
 NoConn ~ 5600 3150
 NoConn ~ 5600 3250
