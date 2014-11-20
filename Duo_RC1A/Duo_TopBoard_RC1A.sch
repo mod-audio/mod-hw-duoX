@@ -91,17 +91,17 @@ F 3 "" H 8200 3050 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 6500 2650 0    50   Input ~ 0
-TXD3_UC_CONSOLE
+TXD3_CONSOLE
 Text GLabel 8900 2650 2    50   Output ~ 0
-RXD3_UC_CONSOLE
+RXD3_CONSOLE
 Text GLabel 6500 2850 0    50   Output ~ 0
-DTR_HOST_FIRMWARE
+DTR_HMI
 Text GLabel 6500 2950 0    50   Output ~ 0
-RTS_HOST_FIRMWARE
+RTS_HMI
 Text GLabel 6500 2750 0    50   Input ~ 0
-TXD0_UC_FIRMWARE
+TXD0_HMI
 Text GLabel 8900 2750 2    50   Output ~ 0
-RXD0_UC_FIRMWARE
+RXD0_HMI
 Text GLabel 8900 2950 2    50   Output ~ 0
 LED_OVFL1
 Text GLabel 8900 2850 2    50   Output ~ 0
@@ -265,9 +265,9 @@ F 3 "" H 2400 5050 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 2750 5450 2    50   Input ~ 0
-DTR_HOST_FIRMWARE
+DTR_HMI
 Text GLabel 2800 6700 2    50   Input ~ 0
-RTS_HOST_FIRMWARE
+RTS_HMI
 Text GLabel 1550 6400 0    50   Output ~ 0
 ISP_UC_CTL
 Text GLabel 1550 5150 0    50   Output ~ 0
