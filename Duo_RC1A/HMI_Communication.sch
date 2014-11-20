@@ -120,10 +120,6 @@ Text GLabel 4250 4600 0    50   Output ~ 0
 RX0_HOST_CONSOLE
 Text GLabel 6850 4600 2    50   Input ~ 0
 TX0_HOST_CONSOLE
-Text GLabel 4250 4700 0    50   Output ~ 0
-RX2_HOST_UI
-Text GLabel 6850 4700 2    50   Input ~ 0
-TX2_HOST_UI
 $Comp
 L R R10
 U 1 1 53409682
@@ -159,40 +155,6 @@ F 3 "~" H 6050 2350 30  0000 C CNN
 $EndComp
 Text GLabel 4250 4900 0    50   Input ~ 0
 DTR1_HOST_FIRMWARE
-Wire Wire Line
-	5800 2650 5500 2650
-Wire Wire Line
-	5700 2550 5500 2550
-Wire Wire Line
-	5500 2450 5800 2450
-Wire Wire Line
-	5800 2350 5500 2350
-Wire Wire Line
-	4700 1950 4700 2350
-Wire Wire Line
-	4700 2350 4800 2350
-Wire Wire Line
-	4700 2050 4800 2050
-Connection ~ 4700 2050
-Wire Wire Line
-	5300 2050 5200 2050
-Wire Wire Line
-	4800 2650 4700 2650
-Wire Wire Line
-	4700 2650 4700 2750
-Wire Wire Line
-	5700 2550 5700 2450
-Connection ~ 5700 2450
-Wire Wire Line
-	4400 2450 4800 2450
-Wire Wire Line
-	4400 2550 4800 2550
-Wire Wire Line
-	3900 2450 3600 2450
-Wire Wire Line
-	3600 2550 3900 2550
-Wire Wire Line
-	6300 2350 7200 2350
 $Comp
 L +5V #PWR03
 U 1 1 5340D40A
@@ -204,24 +166,12 @@ F 3 "" H 4700 1950 60  0000 C CNN
 	1    4700 1950
 	1    0    0    -1  
 $EndComp
-Wire Notes Line
-	8000 1150 8000 3150
-Wire Notes Line
-	3100 3150 3100 1150
 Text GLabel 4250 4800 0    50   Output ~ 0
 RX1_HOST_FIRMWARE
 Text GLabel 6850 4800 2    50   Input ~ 0
 TX1_HOST_FIRMWARE
 Text GLabel 4250 5000 0    50   Input ~ 0
 RTS1_HOST_FIRMWARE
-Wire Wire Line
-	6300 2650 7200 2650
-Wire Wire Line
-	6300 2450 7200 2450
-Wire Notes Line
-	8000 3150 3100 3150
-Wire Notes Line
-	3100 1150 8000 1150
 Text GLabel 7200 2350 2    50   Output ~ 0
 RX3_HOST_CHAIN
 Text GLabel 7200 2450 2    50   Output ~ 0
@@ -239,8 +189,6 @@ F 3 "~" H 6050 5100 60  0000 C CNN
 	1    6050 5100
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	6050 5100 5950 5100
 $Comp
 L CONN_10X2 P1
 U 1 1 537BE38F
@@ -263,8 +211,6 @@ F 3 "~" H 6050 4500 60  0000 C CNN
 	1    6050 4500
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	5950 4500 6050 4500
 $Comp
 L DGND #PWR07
 U 1 1 537BEDA2
@@ -328,18 +274,8 @@ F 3 "~" H 6400 4200 30  0000 C CNN
 	1    6400 4200
 	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	6650 4900 6850 4900
-Wire Wire Line
-	6650 5000 6850 5000
-Wire Wire Line
-	6650 4200 6850 4200
-Wire Wire Line
-	4450 4200 4250 4200
 Text Notes 6500 4000 2    100  ~ 20
 HMI BOARD CONNECTOR
-Wire Notes Line
-	3150 3800 7950 3800
 $Comp
 L CONN_2 P2
 U 1 1 5383BF02
@@ -362,10 +298,6 @@ F 3 "~" H 5100 5900 60  0000 C CNN
 	1    5100 5900
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	5100 5900 5100 5800
-Wire Wire Line
-	5100 5800 5200 5800
 $Comp
 L CP1 C29
 U 1 1 5383CD1B
@@ -377,7 +309,6 @@ F 3 "" H 4800 5600 60  0000 C CNN
 	1    4800 5600
 	0    1    1    0   
 $EndComp
-Connection ~ 5100 5600
 $Comp
 L DGND #PWR09
 U 1 1 5383CE13
@@ -389,48 +320,6 @@ F 3 "~" H 4500 5600 60  0000 C CNN
 	1    4500 5600
 	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	4500 5600 4600 5600
-Wire Notes Line
-	7950 3800 7950 6450
-Wire Notes Line
-	7950 6450 3150 6450
-Wire Notes Line
-	3150 6450 3150 3800
-Wire Wire Line
-	6150 4200 5950 4200
-Wire Wire Line
-	4950 4200 5150 4200
-Wire Wire Line
-	5150 4300 5050 4300
-Wire Wire Line
-	5150 4900 4950 4900
-Wire Wire Line
-	4450 4900 4250 4900
-Wire Wire Line
-	4950 4700 5150 4700
-Wire Wire Line
-	4450 4700 4250 4700
-Wire Wire Line
-	6650 4800 6850 4800
-Wire Wire Line
-	6150 4800 5950 4800
-Wire Wire Line
-	5950 4600 6150 4600
-Wire Wire Line
-	6650 4600 6850 4600
-Wire Wire Line
-	4250 5000 4450 5000
-Wire Wire Line
-	4250 4600 4450 4600
-Wire Wire Line
-	4250 4800 4450 4800
-Wire Wire Line
-	4950 5000 5150 5000
-Wire Wire Line
-	4950 4600 5150 4600
-Wire Wire Line
-	4950 4800 5150 4800
 $Comp
 L R R4
 U 1 1 53885B4C
@@ -452,17 +341,6 @@ F 2 "Duo_Audio_HMI_RC1A:SM0603" V 4630 4900 30  0001 C CNN
 F 3 "~" H 4700 4900 30  0000 C CNN
 	1    4700 4900
 	0    -1   1    0   
-$EndComp
-$Comp
-L R R7
-U 1 1 53885B86
-P 4700 4700
-F 0 "R7" V 4750 4950 40  0000 C CNN
-F 1 "100R" V 4707 4701 40  0000 C CNN
-F 2 "Duo_Audio_HMI_RC1A:SM0603" V 4630 4700 30  0001 C CNN
-F 3 "~" H 4700 4700 30  0000 C CNN
-	1    4700 4700
-	0    -1   -1   0   
 $EndComp
 $Comp
 L R R8
@@ -487,17 +365,6 @@ F 3 "~" H 6400 4600 30  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L R R3
-U 1 1 53885BAD
-P 6400 4700
-F 0 "R3" V 6350 4950 40  0000 C CNN
-F 1 "100R" V 6407 4701 40  0000 C CNN
-F 2 "Duo_Audio_HMI_RC1A:SM0603" V 6330 4700 30  0001 C CNN
-F 3 "~" H 6400 4700 30  0000 C CNN
-	1    6400 4700
-	0    1    1    0   
-$EndComp
-$Comp
 L R R5
 U 1 1 53885BE0
 P 4700 4600
@@ -519,12 +386,6 @@ F 3 "~" H 4700 4800 30  0000 C CNN
 	1    4700 4800
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	5950 4700 6150 4700
-Wire Wire Line
-	6850 4700 6650 4700
-Wire Wire Line
-	5950 4300 6150 4300
 $Comp
 L R RT1
 U 1 1 53879D3D
@@ -547,16 +408,6 @@ F 3 "~" H 6750 4300 60  0000 C CNN
 	1    6750 4300
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	6650 4300 6750 4300
-Wire Wire Line
-	5000 5600 5200 5600
-Wire Wire Line
-	5100 5500 5100 5600
-Wire Wire Line
-	5950 4900 6150 4900
-Wire Wire Line
-	6150 5000 5950 5000
 $Comp
 L DGND #PWR011
 U 1 1 53D0119D
@@ -568,8 +419,6 @@ F 3 "~" H 5050 5100 60  0000 C CNN
 	1    5050 5100
 	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	5050 5100 5150 5100
 $Comp
 L +9V #PWR012
 U 1 1 53D06F72
@@ -592,8 +441,6 @@ F 3 "~" H 6150 4400 60  0000 C CNN
 	1    6150 4400
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	5950 4400 6150 4400
 $Comp
 L DGND #PWR?
 U 1 1 546E10A2
@@ -616,8 +463,153 @@ F 3 "~" H 5050 4500 60  0000 C CNN
 	1    5050 4500
 	0    1    -1   0   
 $EndComp
+$Comp
+L DGND #PWR?
+U 1 1 546E3395
+P 6050 4700
+F 0 "#PWR?" H 6050 4700 40  0001 C CNN
+F 1 "DGND" H 6050 4630 40  0000 C CNN
+F 2 "~" H 6050 4700 60  0000 C CNN
+F 3 "~" H 6050 4700 60  0000 C CNN
+	1    6050 4700
+	0    -1   1    0   
+$EndComp
+$Comp
+L DGND #PWR?
+U 1 1 546E34A7
+P 5050 4700
+F 0 "#PWR?" H 5050 4700 40  0001 C CNN
+F 1 "DGND" H 5050 4630 40  0000 C CNN
+F 2 "~" H 5050 4700 60  0000 C CNN
+F 3 "~" H 5050 4700 60  0000 C CNN
+	1    5050 4700
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	5800 2650 5500 2650
+Wire Wire Line
+	5700 2550 5500 2550
+Wire Wire Line
+	5500 2450 5800 2450
+Wire Wire Line
+	5800 2350 5500 2350
+Wire Wire Line
+	4700 1950 4700 2350
+Wire Wire Line
+	4700 2350 4800 2350
+Wire Wire Line
+	4700 2050 4800 2050
+Connection ~ 4700 2050
+Wire Wire Line
+	5300 2050 5200 2050
+Wire Wire Line
+	4800 2650 4700 2650
+Wire Wire Line
+	4700 2650 4700 2750
+Wire Wire Line
+	5700 2550 5700 2450
+Connection ~ 5700 2450
+Wire Wire Line
+	4400 2450 4800 2450
+Wire Wire Line
+	4400 2550 4800 2550
+Wire Wire Line
+	3900 2450 3600 2450
+Wire Wire Line
+	3600 2550 3900 2550
+Wire Wire Line
+	6300 2350 7200 2350
+Wire Notes Line
+	8000 1150 8000 3150
+Wire Notes Line
+	3100 3150 3100 1150
+Wire Wire Line
+	6300 2650 7200 2650
+Wire Wire Line
+	6300 2450 7200 2450
+Wire Notes Line
+	8000 3150 3100 3150
+Wire Notes Line
+	3100 1150 8000 1150
+Wire Wire Line
+	6050 5100 5950 5100
+Wire Wire Line
+	5950 4500 6050 4500
+Wire Wire Line
+	6650 4900 6850 4900
+Wire Wire Line
+	6650 5000 6850 5000
+Wire Wire Line
+	6650 4200 6850 4200
+Wire Wire Line
+	4450 4200 4250 4200
+Wire Notes Line
+	3150 3800 7950 3800
+Wire Wire Line
+	5100 5900 5100 5800
+Wire Wire Line
+	5100 5800 5200 5800
+Connection ~ 5100 5600
+Wire Wire Line
+	4500 5600 4600 5600
+Wire Notes Line
+	7950 3800 7950 6450
+Wire Notes Line
+	7950 6450 3150 6450
+Wire Notes Line
+	3150 6450 3150 3800
+Wire Wire Line
+	6150 4200 5950 4200
+Wire Wire Line
+	4950 4200 5150 4200
+Wire Wire Line
+	5150 4300 5050 4300
+Wire Wire Line
+	5150 4900 4950 4900
+Wire Wire Line
+	4450 4900 4250 4900
+Wire Wire Line
+	6650 4800 6850 4800
+Wire Wire Line
+	6150 4800 5950 4800
+Wire Wire Line
+	5950 4600 6150 4600
+Wire Wire Line
+	6650 4600 6850 4600
+Wire Wire Line
+	4250 5000 4450 5000
+Wire Wire Line
+	4250 4600 4450 4600
+Wire Wire Line
+	4250 4800 4450 4800
+Wire Wire Line
+	4950 5000 5150 5000
+Wire Wire Line
+	4950 4600 5150 4600
+Wire Wire Line
+	4950 4800 5150 4800
+Wire Wire Line
+	5950 4300 6150 4300
+Wire Wire Line
+	6650 4300 6750 4300
+Wire Wire Line
+	5000 5600 5200 5600
+Wire Wire Line
+	5100 5500 5100 5600
+Wire Wire Line
+	5950 4900 6150 4900
+Wire Wire Line
+	6150 5000 5950 5000
+Wire Wire Line
+	5050 5100 5150 5100
+Wire Wire Line
+	5950 4400 6150 4400
 Wire Wire Line
 	4950 4400 5150 4400
 Wire Wire Line
 	5050 4500 5150 4500
+Wire Wire Line
+	5950 4700 6050 4700
+Wire Wire Line
+	5050 4700 5150 4700
 $EndSCHEMATC

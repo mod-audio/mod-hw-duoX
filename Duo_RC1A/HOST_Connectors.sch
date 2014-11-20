@@ -160,10 +160,6 @@ Text GLabel 4400 7000 0    50   Output ~ 0
 BYPASS_A_EN
 Text GLabel 4400 7100 0    50   Output ~ 0
 BYPASS_B_EN
-Text GLabel 6400 6400 2    50   Output ~ 0
-TX2_HOST_UI
-Text GLabel 6400 6500 2    50   Input ~ 0
-RX2_HOST_UI
 Text GLabel 4900 6000 0    50   Output ~ 0
 TX0_HOST_CONSOLE
 Text GLabel 4900 5900 0    50   Input ~ 0
@@ -1458,10 +1454,6 @@ Wire Wire Line
 Wire Wire Line
 	5200 6000 4900 6000
 Wire Wire Line
-	6300 6400 6400 6400
-Wire Wire Line
-	6400 6500 6300 6500
-Wire Wire Line
 	7650 5500 7600 5500
 Wire Wire Line
 	7600 4800 7700 4800
@@ -1694,4 +1686,6 @@ Wire Wire Line
 	4750 2300 4650 2300
 Wire Wire Line
 	4650 2200 5200 2200
+NoConn ~ 6300 6400
+NoConn ~ 6300 6500
 $EndSCHEMATC
