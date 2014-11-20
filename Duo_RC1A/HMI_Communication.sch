@@ -55,10 +55,6 @@ F 3 "" H 5150 2500 60  0000 C CNN
 	1    5150 2500
 	-1   0    0    -1  
 $EndComp
-Text GLabel 7200 2250 2    50   Output ~ 0
-RX1_UC_CHAIN
-Text GLabel 7200 2450 2    50   Input ~ 0
-RTS1_UC_CHAIN
 $Comp
 L C C1
 U 1 1 53217389
@@ -161,8 +157,6 @@ F 3 "~" H 6050 2350 30  0000 C CNN
 	1    6050 2350
 	0    1    -1   0   
 $EndComp
-Text GLabel 7200 2650 2    50   Input ~ 0
-TX1_UC_CHAIN
 Text GLabel 4250 4900 0    50   Input ~ 0
 DTR1_HOST_FIRMWARE
 Wire Wire Line
@@ -199,10 +193,6 @@ Wire Wire Line
 	3600 2550 3900 2550
 Wire Wire Line
 	6300 2350 7200 2350
-Wire Wire Line
-	6300 2450 6600 2450
-Wire Wire Line
-	6300 2650 6600 2650
 $Comp
 L +5V #PWR03
 U 1 1 5340D40A
@@ -224,70 +214,20 @@ Text GLabel 6850 4800 2    50   Input ~ 0
 TX1_HOST_FIRMWARE
 Text GLabel 4250 5000 0    50   Input ~ 0
 RTS1_HOST_FIRMWARE
-$Comp
-L R R19
-U 1 1 537C2686
-P 6850 2650
-F 0 "R19" V 6800 2900 40  0000 C CNN
-F 1 "0R/NC" V 6857 2651 40  0000 C CNN
-F 2 "Duo_Audio_HMI_RC1A:SM0603" V 6780 2650 30  0001 C CNN
-F 3 "~" H 6850 2650 30  0000 C CNN
-	1    6850 2650
-	0    -1   1    0   
-$EndComp
-$Comp
-L R R20
-U 1 1 537C2691
-P 6850 2450
-F 0 "R20" V 6800 2700 40  0000 C CNN
-F 1 "0R/NC" V 6857 2451 40  0000 C CNN
-F 2 "Duo_Audio_HMI_RC1A:SM0603" V 6780 2450 30  0001 C CNN
-F 3 "~" H 6850 2450 30  0000 C CNN
-	1    6850 2450
-	0    -1   1    0   
-$EndComp
-$Comp
-L R R21
-U 1 1 537C26A7
-P 6850 2250
-F 0 "R21" V 6800 2500 40  0000 C CNN
-F 1 "0R/NC" V 6857 2251 40  0000 C CNN
-F 2 "Duo_Audio_HMI_RC1A:SM0603" V 6780 2250 30  0001 C CNN
-F 3 "~" H 6850 2250 30  0000 C CNN
-	1    6850 2250
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
-	6500 2750 7200 2750
+	6300 2650 7200 2650
 Wire Wire Line
-	6500 2750 6500 2650
-Connection ~ 6500 2650
-Wire Wire Line
-	6500 2550 7200 2550
-Wire Wire Line
-	6500 2550 6500 2450
-Connection ~ 6500 2450
-Wire Wire Line
-	6500 2350 6500 2250
-Wire Wire Line
-	6500 2250 6600 2250
-Connection ~ 6500 2350
+	6300 2450 7200 2450
 Wire Notes Line
 	8000 3150 3100 3150
 Wire Notes Line
 	3100 1150 8000 1150
 Text GLabel 7200 2350 2    50   Output ~ 0
 RX3_HOST_CHAIN
-Text GLabel 7200 2550 2    50   Output ~ 0
+Text GLabel 7200 2450 2    50   Output ~ 0
 RTS3_HOST_CHAIN
-Text GLabel 7200 2750 2    50   Input ~ 0
+Text GLabel 7200 2650 2    50   Input ~ 0
 TX3_HOST_CHAIN
-Wire Wire Line
-	7100 2250 7200 2250
-Wire Wire Line
-	7100 2450 7200 2450
-Wire Wire Line
-	7100 2650 7200 2650
 $Comp
 L DGND #PWR05
 U 1 1 537C830A
@@ -312,14 +252,6 @@ F 3 "" H 5550 4650 60  0000 C CNN
 	1    5550 4650
 	1    0    0    1   
 $EndComp
-Text GLabel 6850 4400 2    50   Input ~ 0
-RX1_UC_CHAIN
-Text GLabel 4250 4500 0    50   Output ~ 0
-TX1_UC_CHAIN
-Wire Wire Line
-	4250 4400 5150 4400
-Wire Wire Line
-	4250 4500 5150 4500
 $Comp
 L DGND #PWR06
 U 1 1 537BED9B
@@ -344,10 +276,6 @@ F 3 "~" H 5050 4300 60  0000 C CNN
 	1    5050 4300
 	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	5950 4400 6850 4400
-Text GLabel 4250 4400 0    50   Output ~ 0
-RTS1_UC_CHAIN
 Text GLabel 6850 5000 2    50   Input ~ 0
 LED_OVFL1
 Text GLabel 6850 4900 2    50   Input ~ 0
@@ -653,4 +581,43 @@ F 3 "" H 5100 5500 60  0000 C CNN
 	1    5100 5500
 	1    0    0    -1  
 $EndComp
+$Comp
+L DGND #PWR?
+U 1 1 546E0FC5
+P 6150 4400
+F 0 "#PWR?" H 6150 4400 40  0001 C CNN
+F 1 "DGND" H 6150 4330 40  0000 C CNN
+F 2 "~" H 6150 4400 60  0000 C CNN
+F 3 "~" H 6150 4400 60  0000 C CNN
+	1    6150 4400
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5950 4400 6150 4400
+$Comp
+L DGND #PWR?
+U 1 1 546E10A2
+P 4950 4400
+F 0 "#PWR?" H 4950 4400 40  0001 C CNN
+F 1 "DGND" H 4950 4330 40  0000 C CNN
+F 2 "~" H 4950 4400 60  0000 C CNN
+F 3 "~" H 4950 4400 60  0000 C CNN
+	1    4950 4400
+	0    1    -1   0   
+$EndComp
+$Comp
+L DGND #PWR?
+U 1 1 546E10C4
+P 5050 4500
+F 0 "#PWR?" H 5050 4500 40  0001 C CNN
+F 1 "DGND" H 5050 4430 40  0000 C CNN
+F 2 "~" H 5050 4500 60  0000 C CNN
+F 3 "~" H 5050 4500 60  0000 C CNN
+	1    5050 4500
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4950 4400 5150 4400
+Wire Wire Line
+	5050 4500 5150 4500
 $EndSCHEMATC

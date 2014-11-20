@@ -1094,18 +1094,6 @@ Wire Wire Line
 Wire Wire Line
 	5700 4050 5700 3950
 Connection ~ 5700 3950
-Text GLabel 5800 2850 2    50   Output ~ 0
-TX1_UC_CHAIN
-Text GLabel 5800 2950 2    50   Input ~ 0
-RX1_UC_CHAIN
-Text GLabel 5800 3350 2    50   Output ~ 0
-RTS1_UC_CHAIN
-Wire Wire Line
-	5600 2850 5800 2850
-Wire Wire Line
-	5600 2950 5800 2950
-Wire Wire Line
-	5600 3350 5800 3350
 Wire Notes Line
 	1250 5250 3500 5250
 Wire Notes Line
@@ -1193,4 +1181,7 @@ F 3 "~" H 4500 6200 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	4500 6200 4600 6200
+NoConn ~ 5600 2850
+NoConn ~ 5600 2950
+NoConn ~ 5600 3350
 $EndSCHEMATC
