@@ -582,24 +582,17 @@ NoConn ~ 2000 1500
 NoConn ~ 2000 1600
 NoConn ~ 2000 1700
 NoConn ~ 2000 1800
-NoConn ~ 2000 1900
-NoConn ~ 2000 2000
-NoConn ~ 2000 2100
 NoConn ~ 2000 2300
 NoConn ~ 2000 2400
 NoConn ~ 2000 2500
 NoConn ~ 2000 2600
 NoConn ~ 2000 2800
-NoConn ~ 3100 1200
 NoConn ~ 3100 1300
 NoConn ~ 3100 1400
 NoConn ~ 3100 1500
 NoConn ~ 3100 1600
 NoConn ~ 3100 1700
 NoConn ~ 3100 1800
-NoConn ~ 3100 1900
-NoConn ~ 3100 2000
-NoConn ~ 3100 2100
 NoConn ~ 3100 2200
 NoConn ~ 3100 2300
 NoConn ~ 3100 2400
@@ -682,7 +675,6 @@ DTR1_HMI
 NoConn ~ 2000 6300
 NoConn ~ 3100 6300
 NoConn ~ 2000 1000
-NoConn ~ 3100 1100
 NoConn ~ 3100 5300
 NoConn ~ 2000 5300
 Text GLabel 7700 2900 2    50   Output ~ 0
@@ -1442,11 +1434,11 @@ Wire Wire Line
 Wire Wire Line
 	1800 5700 2000 5700
 Wire Notes Line
-	4150 1250 4150 1000
+	4950 850  4950 600 
 Wire Notes Line
-	4150 1000 4100 1050
+	4950 600  4900 650 
 Wire Notes Line
-	4150 1000 4200 1050
+	4950 600  5000 650 
 Wire Wire Line
 	3100 5700 3300 5700
 Wire Wire Line
@@ -1466,11 +1458,11 @@ Wire Wire Line
 Wire Wire Line
 	7600 2000 7700 2000
 Wire Notes Line
-	4150 1250 3900 1250
+	4950 850  4700 850 
 Wire Notes Line
-	3900 1250 3950 1300
+	4700 850  4750 900 
 Wire Notes Line
-	3900 1250 3950 1200
+	4700 850  4750 800 
 Wire Wire Line
 	7000 5500 7000 5600
 Connection ~ 7000 5600
@@ -1688,4 +1680,48 @@ Wire Wire Line
 	4650 2200 5200 2200
 NoConn ~ 6300 6400
 NoConn ~ 6300 6500
+Text GLabel 1900 1900 0    60   BiDi ~ 0
+SDCARD_DATA0
+Text GLabel 1900 2000 0    60   Output ~ 0
+SDCARD_CMD
+Text GLabel 1900 2100 0    60   BiDi ~ 0
+SDCARD_DATA3
+Text GLabel 3500 1450 2    60   BiDi ~ 0
+SDCARD_DATA1
+Text GLabel 3500 1550 2    60   Output ~ 0
+SDCARD_CLK
+Text GLabel 3500 1650 2    60   BiDi ~ 0
+SDCARD_DATA2
+Wire Wire Line
+	3500 1650 3450 1650
+Wire Wire Line
+	3450 1650 3450 2100
+Wire Wire Line
+	3450 2100 3100 2100
+Wire Wire Line
+	3100 2000 3400 2000
+Wire Wire Line
+	3400 2000 3400 1550
+Wire Wire Line
+	3400 1550 3500 1550
+Wire Wire Line
+	3500 1450 3350 1450
+Wire Wire Line
+	3350 1450 3350 1900
+Wire Wire Line
+	3350 1900 3100 1900
+Wire Wire Line
+	1900 1900 2000 1900
+Wire Wire Line
+	1900 2000 2000 2000
+Wire Wire Line
+	1900 2100 2000 2100
+Text GLabel 3350 1100 2    60   Input ~ 0
+SDCARD_WP
+Wire Wire Line
+	3350 1100 3100 1100
+Text GLabel 3350 1200 2    60   Input ~ 0
+SDCARD_CHIP_DETECT
+Wire Wire Line
+	3350 1200 3100 1200
 $EndSCHEMATC
