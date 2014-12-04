@@ -47,7 +47,7 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=Libs/Duo_Audio_HMI_RC1A
+LibName30=Libs/MOD_Footprints_Lib
 [general]
 version=1
 [pcbnew]
