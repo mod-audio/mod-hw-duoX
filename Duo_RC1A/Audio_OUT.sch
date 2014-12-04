@@ -28,7 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:MOD_Footprints_Lib
+LIBS:Duo_Audio_HMI_RC1A
 LIBS:Duo_BottomBoard_RC1A-cache
 EELAYER 25 0
 EELAYER END
