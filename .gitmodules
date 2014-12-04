@@ -1,0 +1,3 @@
+[submodule "Duo_RC1A/Libs/mod-kicad-footprints"]
+	path = Duo_RC1A/Libs/mod-kicad-footprints
+	url = https://github.com/portalmod/mod-kicad-footprints.git
