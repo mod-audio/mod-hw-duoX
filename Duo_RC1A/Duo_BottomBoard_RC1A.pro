@@ -1,6 +1,6 @@
-update=Mon 28 Jul 2014 13:57:11 BRT
+update=Qui 11 Dez 2014 13:48:31 BRST
 version=1
-last_client=pcbnew
+last_client=eeschema
 [cvpcb]
 version=1
 NetIExt=net
@@ -72,3 +72,16 @@ BoardOutlineThickness=0.1524
 ModuleOutlineThickness=0.1524
 [pcbnew/libraries]
 LibDir=
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=/home/fsanches/Documents/modduo
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
