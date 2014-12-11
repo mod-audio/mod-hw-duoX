@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 9
+Sheet 5 10
 Title "MOD Duo BottomBoard"
 Date "December/2014"
 Rev "RC2 (wip)"
