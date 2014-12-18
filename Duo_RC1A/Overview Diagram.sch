@@ -57,7 +57,7 @@ Text Notes 3600 3200 0    60   ~ 0
 Text Notes 4550 3750 2    50   ~ 0
 HEADER 3x1
 Text Notes 2800 5250 1    60   ~ 0
-RS422 CHAIN x3 (UART1)
+RS485 CHAIN x3 (UART1)
 Wire Notes Line
 	5250 2200 7300 2200
 Wire Notes Line
@@ -207,7 +207,7 @@ Wire Notes Line
 Text Notes 2600 2650 0    100  ~ 20
 HMI
 Text Notes 2550 5450 0    50   ~ 0
-TRANSCIEVER\nRS422 CHAIN
+TRANSCIEVER\nRS485 CHAIN
 Wire Notes Line
 	2550 5350 3050 5350
 Wire Notes Line
@@ -307,7 +307,7 @@ Wire Notes Line
 Text Notes 9100 3250 0    100  ~ 20
 AUDIO
 Text Notes 5100 5450 2    60   ~ 0
-RS422 CHAIN x3 (UART1)
+RS485 CHAIN x3 (UART1)
 Wire Notes Line
 	5500 4300 5450 4350
 Wire Notes Line
