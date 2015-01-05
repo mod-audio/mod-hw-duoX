@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:Duo_Audio_HMI_RC1A
+LIBS:icnovaa20
 LIBS:Duo_BottomBoard_RC1A-cache
 EELAYER 25 0
 EELAYER END
@@ -154,7 +155,7 @@ F 3 "~" H 6050 2350 30  0000 C CNN
 	0    1    -1   0   
 $EndComp
 Text GLabel 4250 4900 0    50   Input ~ 0
-DTR1_HMI
+DTR4_HMI
 $Comp
 L +5V #PWR03
 U 1 1 5340D40A
@@ -167,11 +168,11 @@ F 3 "" H 4700 1950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 4250 4800 0    50   Output ~ 0
-RX1_HMI
+RX4_HMI
 Text GLabel 6850 4800 2    50   Input ~ 0
-TX1_HMI
+TX4_HMI
 Text GLabel 4250 5000 0    50   Input ~ 0
-RTS1_HMI
+RTS4_HMI
 Text GLabel 7000 2350 2    50   Output ~ 0
 RX3_CONTROLCHAIN
 Text GLabel 7000 2450 2    50   Output ~ 0

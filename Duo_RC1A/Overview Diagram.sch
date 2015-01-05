@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:Duo_Audio_HMI_RC1A
+LIBS:icnovaa20
 LIBS:Duo_BottomBoard_RC1A-cache
 EELAYER 25 0
 EELAYER END
