@@ -29,12 +29,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:Duo_Audio_HMI_RC1A
+LIBS:icnovaa20
 LIBS:Duo_BottomBoard_RC1A-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 9
+Sheet 2 10
 Title "MOD Duo BottomBoard"
 Date "December/2014"
 Rev "RC2 (wip)"

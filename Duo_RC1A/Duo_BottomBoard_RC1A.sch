@@ -29,12 +29,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:Duo_Audio_HMI_RC1A
+LIBS:icnovaa20
 LIBS:Duo_BottomBoard_RC1A-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 1 10
 Title "MOD Duo BottomBoard"
 Date "December/2014"
 Rev "RC2 (wip)"
@@ -91,5 +92,11 @@ S 3450 2450 1500 1000
 U 537BCE69
 F0 "Rear_Pannel" 50
 F1 "Rear_Pannel.sch" 50
+$EndSheet
+$Sheet
+S 5350 4850 1500 1000
+U 548BFDB4
+F0 "Audio _HEADPHONES" 60
+F1 "Audio_HEADPHONES.sch" 60
 $EndSheet
 $EndSCHEMATC
