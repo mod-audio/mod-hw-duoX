@@ -1,4 +1,4 @@
-update=Seg 05 Jan 2015 11:18:40 BRST
+update=Qua 07 Jan 2015 10:34:12 BRST
 version=1
 last_client=kicad
 [cvpcb]
@@ -30,19 +30,6 @@ BoardOutlineThickness=0.1524
 ModuleOutlineThickness=0.1524
 [pcbnew/libraries]
 LibDir=
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=/home/fsanches/Documents/modduo
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
 [eeschema]
 version=1
 LibDir=
@@ -78,3 +65,16 @@ LibName28=contrib
 LibName29=valves
 LibName30=Libs/Duo_Audio_HMI_RC1A
 LibName31=Libs/icnovaa20
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=Docs/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60

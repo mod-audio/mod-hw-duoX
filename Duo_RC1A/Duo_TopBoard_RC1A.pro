@@ -1,5 +1,5 @@
-update=Fri 18 Jul 2014 14:46:39 BRT
-last_client=pcbnew
+update=Qua 07 Jan 2015 10:34:36 BRST
+last_client=eeschema
 [eeschema]
 version=1
 PageLayoutDescrFile=
@@ -65,3 +65,16 @@ BoardOutlineThickness=0.1524
 ModuleOutlineThickness=0.1524
 [pcbnew/libraries]
 LibDir=
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=Docs/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
