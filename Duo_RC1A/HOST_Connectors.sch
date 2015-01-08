@@ -415,9 +415,9 @@ I2S_LRCK
 Text GLabel 3150 5150 3    50   Output ~ 0
 I2S_BCLK
 Text GLabel 3350 5150 3    50   Output ~ 0
-I2S_SDOUT
+CODEC_I2S_SDIN
 Text GLabel 3750 5150 3    50   Input ~ 0
-I2S_SDIN
+CODEC_I2S_SDOUT
 $Comp
 L R R50
 U 1 1 53735B9B
