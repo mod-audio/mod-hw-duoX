@@ -1713,11 +1713,8 @@ Text Notes 8650 850  0    50   ~ 10
 CONTROL CHAIN
 Wire Wire Line
 	10500 1950 10500 2050
-Connection ~ 8400 1850
 Wire Wire Line
 	8300 1850 8400 1850
-Wire Wire Line
-	8300 1750 8400 1750
 Wire Wire Line
 	8300 1450 10500 1450
 Connection ~ 7450 2150
@@ -1751,8 +1748,6 @@ F 3 "~" H 8400 2200 30  0000 C CNN
 	1    8400 2200
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	8400 1750 8400 1950
 Text GLabel 8900 2000 2    60   Input ~ 0
 RS485_TX+
 Text GLabel 8900 2150 2    60   Input ~ 0
@@ -1847,4 +1842,7 @@ Wire Notes Line
 	7050 550  10850 550 
 Wire Notes Line
 	10850 550  10850 2900
+Wire Wire Line
+	8400 1850 8400 1950
+NoConn ~ 8300 1750
 $EndSCHEMATC
