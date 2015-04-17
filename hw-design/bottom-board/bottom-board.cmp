@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-03-11 BZR 5507)-product   date = Wed 15 Apr 2015 05:35:25 PM CEST
+Cmp-Mod V01 Created by Cvpcb (2015-03-11 BZR 5507)-product   date = Fri 17 Apr 2015 04:25:31 PM CEST
 
 BeginCmp
 TimeStamp = /54F7244B/54F87BFD;
@@ -71,316 +71,288 @@ IdModule  = Capacitors_ThroughHole:C_Radial_D5_L11_P2;
 EndCmp
 
 BeginCmp
-TimeStamp = /54F7244B/5501DE2A;
+TimeStamp = /54F7244B/551387C7;
 Reference = C11;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54F7244B/55070413;
+TimeStamp = /54F7244B/551387E0;
 Reference = C12;
 ValeurCmp = 100uF;
 IdModule  = Capacitors_ThroughHole:C_Radial_D5_L11_P2;
 EndCmp
 
 BeginCmp
-TimeStamp = /54F7244B/551387C7;
+TimeStamp = /54F7244B/55021671;
 Reference = C13;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54F7244B/551387E0;
+TimeStamp = /54F7244B/5506FD67;
 Reference = C14;
 ValeurCmp = 100uF;
 IdModule  = Capacitors_ThroughHole:C_Radial_D5_L11_P2;
 EndCmp
 
 BeginCmp
-TimeStamp = /54F7244B/551387D5;
+TimeStamp = /54F7244B/55130AAA;
 Reference = C15;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54F7244B/551387E6;
+TimeStamp = /54F7244B/55130AB2;
 Reference = C16;
 ValeurCmp = 100uF;
 IdModule  = Capacitors_ThroughHole:C_Radial_D5_L11_P2;
 EndCmp
 
 BeginCmp
-TimeStamp = /54F7244B/55021671;
+TimeStamp = /54F72B97/550D58F8;
 Reference = C17;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54F7244B/5506FD67;
-Reference = C18;
-ValeurCmp = 100uF;
-IdModule  = Capacitors_ThroughHole:C_Radial_D5_L11_P2;
-EndCmp
-
-BeginCmp
-TimeStamp = /54F7244B/55130AAA;
-Reference = C19;
-ValeurCmp = 100nF;
-IdModule  = Capacitors_SMD:C_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /54F7244B/55130AB2;
-Reference = C20;
-ValeurCmp = 100uF;
-IdModule  = Capacitors_ThroughHole:C_Radial_D5_L11_P2;
-EndCmp
-
-BeginCmp
-TimeStamp = /54F72B97/550D58F8;
-Reference = C21;
-ValeurCmp = 100nF;
-IdModule  = Capacitors_SMD:C_0603;
-EndCmp
-
-BeginCmp
 TimeStamp = /54F72B97/550D58A0;
-Reference = C22;
+Reference = C18;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F72B97/551A1CD5;
-Reference = C23;
+Reference = C19;
 ValeurCmp = 10uF;
 IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F72B97/55032683;
-Reference = C24;
+Reference = C20;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F72B97/550382B1;
-Reference = C25;
+Reference = C21;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F72B97/551A0285;
-Reference = C26;
+Reference = C22;
 ValeurCmp = 10uF;
 IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F72B97/550B1CC9;
-Reference = C27;
+Reference = C23;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F72B97/551A0659;
-Reference = C28;
+Reference = C24;
 ValeurCmp = 10uF;
 IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F72B97/55123FB7;
-Reference = C29;
+Reference = C25;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F72B97/5519DE58;
-Reference = C30;
+Reference = C26;
 ValeurCmp = 10uF;
 IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F72B97/55124079;
-Reference = C31;
+Reference = C27;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F72B97/551A0221;
-Reference = C32;
+Reference = C28;
 ValeurCmp = 10uF;
 IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F72B97/5512411F;
-Reference = C33;
+Reference = C29;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F72B97/551AE418;
-Reference = C34;
+Reference = C30;
 ValeurCmp = 47uF;
 IdModule  = Capacitors_SMD:C_1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F72B97/551238B2;
-Reference = C35;
+Reference = C31;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F72B97/551AEB09;
-Reference = C36;
+Reference = C32;
 ValeurCmp = 47uF;
 IdModule  = Capacitors_SMD:C_1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F725AE/551A8356;
-Reference = C37;
+Reference = C33;
 ValeurCmp = 10uF;
 IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F725AE/5508B4B2;
-Reference = C38;
+Reference = C34;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F72C8D/550BCFA7;
-Reference = C39;
+Reference = C35;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F72C8D/550C0B48;
-Reference = C40;
+Reference = C36;
 ValeurCmp = 100uF;
 IdModule  = Capacitors_SMD:c_elec_6.3x5.3;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F72CD0/550CDA7D;
-Reference = C41;
+Reference = C37;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F72CD0/5518B095;
-Reference = C42;
+Reference = C38;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F72CD0/550CFCC3;
-Reference = C43;
+Reference = C39;
 ValeurCmp = 100uF;
 IdModule  = Capacitors_SMD:c_elec_6.3x5.3;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F72F64/550E0879;
-Reference = C44;
+Reference = C40;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F72FB2/55085190;
-Reference = C45;
+Reference = C41;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F72FB2/551A8035;
-Reference = C46;
+Reference = C42;
 ValeurCmp = 10uF;
 IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F72FB2/5509FB54;
-Reference = C47;
+Reference = C43;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F72FB2/551E6B81;
-Reference = C48;
+Reference = C44;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F72FB2/5509EF6F;
-Reference = C49;
+Reference = C45;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F72FB4/5518B571;
-Reference = C50;
+Reference = C46;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F72FB6/550F8A1E;
-Reference = C51;
+Reference = C47;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F72FB8/550C63C7;
-Reference = C52;
+Reference = C48;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F72FB8/550DBECD;
-Reference = C53;
+Reference = C49;
 ValeurCmp = 100uF;
 IdModule  = Capacitors_SMD:c_elec_6.3x5.3;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F72FB8/550C9E8B;
-Reference = C54;
+Reference = C50;
 ValeurCmp = 100uF;
 IdModule  = Capacitors_SMD:c_elec_6.3x5.3;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F72FB8/550C9E35;
-Reference = C55;
+Reference = C51;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
@@ -757,17 +729,17 @@ IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /54F72FB2/552ECCA3;
+TimeStamp = /54F72FB2/552EAFAF;
 Reference = P1;
-ValeurCmp = USB_A;
-IdModule  = Connect:USB_A_Vertical;
+ValeurCmp = USB_B;
+IdModule  = Connect:USB_B;
 EndCmp
 
 BeginCmp
-TimeStamp = /54F72FB2/552EAFAF;
+TimeStamp = /54F72FB2/552ECCA3;
 Reference = P2;
-ValeurCmp = USB_B;
-IdModule  = Connect:USB_B;
+ValeurCmp = USB_A;
+IdModule  = Connect:USB_A_Vertical;
 EndCmp
 
 BeginCmp
@@ -1271,7 +1243,7 @@ BeginCmp
 TimeStamp = /54F72FB6/550F230C;
 Reference = R50;
 ValeurCmp = 100R;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = Resistors_SMD:R_0805;
 EndCmp
 
 BeginCmp
