@@ -245,7 +245,7 @@ Text GLabel 8000 5050 3    50   BiDi ~ 0
 CODEC_I2C_SDA
 Text GLabel 8100 5050 3    50   Output ~ 0
 CODEC_I2C_SCL
-Text GLabel 6900 2000 1    50   Output ~ 0
+Text GLabel 8400 2000 1    50   Output ~ 0
 CODEC_~RESET
 Text GLabel 3100 2000 1    50   Input ~ 0
 UART_RX_CHAIN
@@ -255,17 +255,17 @@ Text GLabel 8900 5050 3    50   Input ~ 0
 UART_RX4_MIDI
 Text GLabel 9000 5050 3    50   Output ~ 0
 UART_TX4_MIDI
-Text GLabel 7150 5050 3    50   Output ~ 0
+Text GLabel 9900 2050 1    50   Output ~ 0
 LEFT_GAIN_CTRL1
-Text GLabel 7050 5050 3    50   Output ~ 0
+Text GLabel 9800 2050 1    50   Output ~ 0
 LEFT_GAIN_CTRL2
-Text GLabel 7400 5050 3    50   Output ~ 0
+Text GLabel 9700 2050 1    50   Output ~ 0
 RIGHT_GAIN_CTRL1
-Text GLabel 7300 5050 3    50   Output ~ 0
+Text GLabel 9600 2050 1    50   Output ~ 0
 RIGHT_GAIN_CTRL2
-Text GLabel 6900 5050 3    50   Output ~ 0
-LEFT_BYPASS_CTRL
 Text GLabel 6800 5050 3    50   Output ~ 0
+LEFT_BYPASS_CTRL
+Text GLabel 6900 5050 3    50   Output ~ 0
 RIGHT_BYPASS_CTRL
 Text GLabel 6650 5050 3    50   Output ~ 0
 HP_CLOCK
@@ -283,9 +283,9 @@ Text GLabel 4550 5050 3    50   Input ~ 0
 USB_VBUS
 Text GLabel 4450 5050 3    50   Input ~ 0
 USB_VBUS_DET
-Text GLabel 6800 2000 1    50   Input ~ 0
+Text GLabel 8300 2000 1    50   Input ~ 0
 CODEC_INT
-Text GLabel 6700 2000 1    50   Input ~ 0
+Text GLabel 8200 2000 1    50   Input ~ 0
 CODEC_OVFL
 Text GLabel 4150 5050 3    50   Output ~ 0
 SD0_CLK
@@ -315,7 +315,7 @@ Text GLabel 1650 6900 0    50   Output ~ 0
 UBOOT_BUTTON
 Text GLabel 1650 5050 3    50   Input ~ 0
 POWER_BUTTON
-Text GLabel 6550 2000 1    50   Input ~ 0
+Text GLabel 8500 2000 1    50   Input ~ 0
 CODEC_~MUTEC
 Text GLabel 3000 2000 1    50   Output ~ 0
 UART_RE_CHAIN
@@ -380,10 +380,6 @@ NoConn ~ 7750 2250
 NoConn ~ 7850 2250
 NoConn ~ 8000 2250
 NoConn ~ 8100 2250
-NoConn ~ 8200 2250
-NoConn ~ 8300 2250
-NoConn ~ 8400 2250
-NoConn ~ 8500 2250
 NoConn ~ 8600 2250
 NoConn ~ 8700 2250
 NoConn ~ 8800 2250
@@ -397,8 +393,6 @@ NoConn ~ 9500 2250
 NoConn ~ 10100 2250
 NoConn ~ 10000 2250
 NoConn ~ 10300 4850
-NoConn ~ 8750 4850
-NoConn ~ 8650 4850
 NoConn ~ 8500 4850
 NoConn ~ 8400 4850
 NoConn ~ 3450 4850
@@ -424,16 +418,14 @@ NoConn ~ 2800 2250
 NoConn ~ 2200 2250
 NoConn ~ 7650 4850
 NoConn ~ 7550 4850
-NoConn ~ 9600 2250
-NoConn ~ 9700 2250
 Text GLabel 7750 5050 3    50   BiDi ~ 0
 I2C_SDA_HMI
 Text GLabel 7850 5050 3    50   Output ~ 0
 I2C_SCL_HMI
-Text GLabel 9900 2000 1    50   BiDi ~ 0
-GPIO_PH08_HMI
-Text GLabel 9800 2000 1    50   BiDi ~ 0
-GPIO_PH09_HMI
+Text GLabel 8650 5100 3    50   BiDi ~ 0
+RFU_01_HMI
+Text GLabel 8750 5100 3    50   BiDi ~ 0
+RFU_02_HMI
 Wire Wire Line
 	600  2600 600  4650
 Wire Wire Line
@@ -559,7 +551,7 @@ Wire Wire Line
 Wire Wire Line
 	10900 2200 10900 2250
 Wire Wire Line
-	6900 2250 6900 2000
+	8400 2250 8400 2000
 Wire Wire Line
 	3200 2250 3200 2000
 Wire Wire Line
@@ -569,9 +561,9 @@ Wire Wire Line
 Wire Wire Line
 	8900 4850 8900 5050
 Wire Wire Line
-	7150 5050 7150 4850
+	9900 2050 9900 2250
 Wire Wire Line
-	7050 4850 7050 5050
+	9800 2250 9800 2050
 Wire Wire Line
 	6900 4850 6900 5050
 Wire Wire Line
@@ -593,9 +585,9 @@ Wire Wire Line
 Wire Wire Line
 	4450 5050 4450 4850
 Wire Wire Line
-	6800 2000 6800 2250
+	8300 2000 8300 2250
 Wire Wire Line
-	6700 2000 6700 2250
+	8200 2000 8200 2250
 Wire Wire Line
 	4150 5050 4150 4850
 Wire Wire Line
@@ -633,15 +625,15 @@ Wire Wire Line
 Wire Wire Line
 	1650 4850 1650 5050
 Wire Wire Line
-	6550 2000 6550 2250
+	8500 2000 8500 2250
 Wire Wire Line
 	3000 2250 3000 2000
 Wire Wire Line
 	2900 2000 2900 2250
 Wire Wire Line
-	7300 4850 7300 5050
+	9600 2250 9600 2050
 Wire Wire Line
-	7400 4850 7400 5050
+	9700 2250 9700 2050
 Connection ~ 600  2700
 Connection ~ 600  2800
 Connection ~ 600  2900
@@ -688,7 +680,15 @@ Wire Wire Line
 Wire Wire Line
 	7850 5050 7850 4850
 Wire Wire Line
-	9900 2000 9900 2250
+	8650 5100 8650 4850
 Wire Wire Line
-	9800 2250 9800 2000
+	8750 4850 8750 5100
+NoConn ~ 6550 2250
+NoConn ~ 6700 2250
+NoConn ~ 6800 2250
+NoConn ~ 6900 2250
+NoConn ~ 7050 4850
+NoConn ~ 7150 4850
+NoConn ~ 7300 4850
+NoConn ~ 7400 4850
 $EndSCHEMATC
