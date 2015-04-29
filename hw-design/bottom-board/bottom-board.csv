@@ -1,277 +1,11 @@
-Source:,/home/ricardo/devel/mod-hw-duo/hw-design/bottom-board/bottom-board.sch,,,,,,
-Date:,Wed 15 Apr 2015 11:43:35 AM CEST,,,,,,
-Tool:,Eeschema (2015-03-11 BZR 5507)-product,,,,,,
-Generator:,/home/ricardo/devel/kicad-utils/bom-in-python/bom_csv_grouped_by_value.py,,,,,,
-Component Count:,252,,,,,,
-,,,,,,,
-Individual Components:,,,,,,,
-,,,,,,,
 Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,MPN
-,,C1,100nF,device:C,Capacitors_SMD:C_0603,,C1608X7R1E104K080AA
-,,C10,100uF,device:CP,Capacitors_ThroughHole:C_Radial_D5_L11_P2,,UVY1E101MDD
-,,C11,100nF,device:C,Capacitors_SMD:C_0603,,C1608X7R1E104K080AA
-,,C12,100uF,device:CP,Capacitors_ThroughHole:C_Radial_D5_L11_P2,,UVY1E101MDD
-,,C13,100nF,device:C,Capacitors_SMD:C_0603,,C1608X7R1E104K080AA
-,,C14,100uF,device:CP,Capacitors_ThroughHole:C_Radial_D5_L11_P2,,UVY1E101MDD
-,,C15,100nF,device:C,Capacitors_SMD:C_0603,,C1608X7R1E104K080AA
-,,C16,100uF,device:CP,Capacitors_ThroughHole:C_Radial_D5_L11_P2,,UVY1E101MDD
-,,C17,100nF,device:C,Capacitors_SMD:C_0603,,C1608X7R1E104K080AA
-,,C18,100uF,device:CP,Capacitors_ThroughHole:C_Radial_D5_L11_P2,,UVY1E101MDD
-,,C19,100nF,device:C,Capacitors_SMD:C_0603,,C1608X7R1E104K080AA
-,,C2,1000uF,device:CP,Capacitors_ThroughHole:C_Radial_D10_L20_P5,,UVR1E102MPD
-,,C20,100uF,device:CP,Capacitors_ThroughHole:C_Radial_D5_L11_P2,,UVY1E101MDD
-,,C21,100nF,device:C_Small,Capacitors_SMD:C_0603,,C1608X7R1E104K080AA
-,,C22,100nF,device:C_Small,Capacitors_SMD:C_0603,,C1608X7R1E104K080AA
-,,C23,10uF,device:C_Small,Capacitors_SMD:C_0805,,GRM219R61E106KA12D
-,,C24,100nF,device:C_Small,Capacitors_SMD:C_0603,,C1608X7R1E104K080AA
-,,C25,100nF,device:C_Small,Capacitors_SMD:C_0603,,C1608X7R1E104K080AA
-,,C26,10uF,device:C_Small,Capacitors_SMD:C_0805,,GRM219R61E106KA12D
-,,C27,100nF,device:C_Small,Capacitors_SMD:C_0603,,C1608X7R1E104K080AA
-,,C28,10uF,device:C_Small,Capacitors_SMD:C_0805,,GRM219R61E106KA12D
-,,C29,100nF,device:C_Small,Capacitors_SMD:C_0603,,C1608X7R1E104K080AA
-,,C3,100nF,device:C,Capacitors_SMD:C_0603,,C1608X7R1E104K080AA
-,,C30,10uF,device:C_Small,Capacitors_SMD:C_0805,,GRM219R61E106KA12D
-,,C31,100nF,device:C_Small,Capacitors_SMD:C_0603,,C1608X7R1E104K080AA
-,,C32,10uF,device:C_Small,Capacitors_SMD:C_0805,,GRM219R61E106KA12D
-,,C33,100nF,device:C_Small,Capacitors_SMD:C_0603,,C1608X7R1E104K080AA
-,,C34,47uF,device:C_Small,Capacitors_SMD:C_1210,,GRM32ER61C476ME15K
-,,C35,100nF,device:C_Small,Capacitors_SMD:C_0603,,C1608X7R1E104K080AA
-,,C36,47uF,device:C_Small,Capacitors_SMD:C_1210,,GRM32ER61C476ME15K
-,,C37,10uF,device:C_Small,Capacitors_SMD:C_0805,,GRM219R61E106KA12D
-,,C38,100nF,device:C_Small,Capacitors_SMD:C_0603,,C1608X7R1E104K080AA
-,,C39,100nF,device:C_Small,Capacitors_SMD:C_0603,,C1608X7R1E104K080AA
-,,C4,1000uF,device:CP,Capacitors_ThroughHole:C_Radial_D10_L20_P5,,UVR1E102MPD
-,,C40,100uF,device:CP_Small,Capacitors_SMD:c_elec_6.3x5.3,,UWX1C101MCL1GB
-,,C41,100nF,device:C_Small,Capacitors_SMD:C_0603,,C1608X7R1E104K080AA
-,,C42,100nF,device:C_Small,Capacitors_SMD:C_0603,,C1608X7R1E104K080AA
-,,C43,100uF,device:CP_Small,Capacitors_SMD:c_elec_6.3x5.3,,UWX1C101MCL1GB
-,,C44,100nF,device:C_Small,Capacitors_SMD:C_0603,,C1608X7R1E104K080AA
-,,C45,100nF,device:C_Small,Capacitors_SMD:C_0603,,C1608X7R1E104K080AA
-,,C46,10uF,device:C_Small,Capacitors_SMD:C_0805,,GRM219R61E106KA12D
-,,C47,100nF,device:C_Small,Capacitors_SMD:C_0603,,C1608X7R1E104K080AA
-,,C48,100nF,device:C_Small,Capacitors_SMD:C_0603,,C1608X7R1E104K080AA
-,,C49,100nF,device:C_Small,Capacitors_SMD:C_0603,,C1608X7R1E104K080AA
-,,C5,100nF,device:C,Capacitors_SMD:C_0603,,C1608X7R1E104K080AA
-,,C50,100nF,device:C_Small,Capacitors_SMD:C_0603,,C1608X7R1E104K080AA
-,,C51,100nF,device:C_Small,Capacitors_SMD:C_0603,,C1608X7R1E104K080AA
-,,C52,100nF,device:C_Small,Capacitors_SMD:C_0603,,C1608X7R1E104K080AA
-,,C53,100uF,device:CP_Small,Capacitors_SMD:c_elec_6.3x5.3,,UWX1C101MCL1GB
-,,C54,100uF,device:CP_Small,Capacitors_SMD:c_elec_6.3x5.3,,UWX1C101MCL1GB
-,,C55,100nF,device:C_Small,Capacitors_SMD:C_0603,,C1608X7R1E104K080AA
-,,C6,100uF,device:CP,Capacitors_ThroughHole:C_Radial_D5_L11_P2,,UVY1E101MDD
-,,C7,100nF,device:C,Capacitors_SMD:C_0603,,C1608X7R1E104K080AA
-,,C8,100uF,device:CP,Capacitors_ThroughHole:C_Radial_D5_L11_P2,,UVY1E101MDD
-,,C9,100nF,device:C,Capacitors_SMD:C_0603,,C1608X7R1E104K080AA
-,,CA1,2.2nF,device:C_Small,Capacitors_SMD:C_0603,,GRM1885C1H222JA01D
-,,CA10,100pF,device:C_Small,Capacitors_SMD:C_0603,,C1608C0G1H101J080AA
-,,CA11,33pF,device:C_Small,Capacitors_SMD:C_0603,,C1608C0G1H330J080AA
-,,CA12,47pF,device:C_Small,Capacitors_SMD:C_0603,,C1608C0G1H470J080AA
-,,CA13,10uF,device:CP_Small,Capacitors_SMD:c_elec_5x5.3,,UWX1E100MCL1GB
-,,CA14,100uF,device:CP_Small,Capacitors_SMD:c_elec_6.3x5.3,,UWX1C101MCL1GB
-,,CA15,10uF,device:CP_Small,Capacitors_SMD:c_elec_5x5.3,,UWX1E100MCL1GB
-,,CA16,33pF,device:C_Small,Capacitors_SMD:C_0603,,C1608C0G1H330J080AA
-,,CA17,47pF,device:C_Small,Capacitors_SMD:C_0603,,C1608C0G1H470J080AA
-,,CA18,10uF,device:CP_Small,Capacitors_SMD:c_elec_5x5.3,,UWX1E100MCL1GB
-,,CA19,100uF,device:CP_Small,Capacitors_SMD:c_elec_6.3x5.3,,UWX1C101MCL1GB
-,,CA2,2.2nF,device:C_Small,Capacitors_SMD:C_0603,,GRM1885C1H222JA01D
-,,CA20,10uF,device:CP_Small,Capacitors_SMD:c_elec_5x5.3,,UWX1E100MCL1GB
-,,CA21,1uF,device:C_Small,Capacitors_SMD:C_0805,,C2012X7R1E105K125AB
-,,CA22,10uF,device:CP_Small,Capacitors_SMD:c_elec_5x5.3,,UWX1E100MCL1GB
-,,CA23,1uF,device:C_Small,Capacitors_SMD:C_0805,,C2012X7R1E105K125AB
-,,CA24,10uF,device:CP_Small,Capacitors_SMD:c_elec_5x5.3,,UWX1E100MCL1GB
-,,CA25,10uF,device:CP_Small,Capacitors_SMD:c_elec_5x5.3,,UWX1E100MCL1GB
-,,CA3,100nF,device:C_Small,Capacitors_SMD:C_1206,,C1206C104J3GACTU
-,,CA4,10uF,device:CP_Small,Capacitors_SMD:c_elec_5x5.3,,UWX1E100MCL1GB
-,,CA5,100pF,device:C_Small,Capacitors_SMD:C_0603,,C1608C0G1H101J080AA
-,,CA6,100pF,device:C_Small,Capacitors_SMD:C_0603,,C1608C0G1H101J080AA
-,,CA7,100nF,device:C_Small,Capacitors_SMD:C_1206,,C1206C104J3GACTU
-,,CA8,10uF,device:CP_Small,Capacitors_SMD:c_elec_5x5.3,,UWX1E100MCL1GB
-,,CA9,100pF,device:C_Small,Capacitors_SMD:C_0603,,C1608C0G1H101J080AA
-,,D1,B130LB,device:D,Diodes_SMD:Diode-SMB_Standard,,B130LB-13-F
-,,D10,1N4148,device:D_Small,Diodes_SMD:SOD-323,,1N4148WX-TP
-,,D11,1N4148,device:D_Small,Diodes_SMD:SOD-323,,1N4148WX-TP
-,,D12,1N4148,device:D_Small,Diodes_SMD:SOD-323,,1N4148WX-TP
-,,D13,PRTR5V0U2X,special:PRTR5V0U2X,Housings_SOT-23_SOT-143_TSOT-6:SOT-143,,"PRTR5V0U2X,215"
-,,D14,PRTR5V0U2X,special:PRTR5V0U2X,Housings_SOT-23_SOT-143_TSOT-6:SOT-143,,"PRTR5V0U2X,215"
-,,D15,1N4148,device:D_Small,Diodes_SMD:SOD-323,,1N4148WX-TP
-,,D16,1N4148,device:D_Small,Diodes_SMD:SOD-323,,1N4148WX-TP
-,,D2,B130LB,device:D,Diodes_SMD:Diode-SMB_Standard,,B130LB-13-F
-,,D3,BAS70-04,device:D_Schottky_x2_Serial_AKC,Housings_SOT-23_SOT-143_TSOT-6:SOT-23,,BAS70-04-TP
-,,D4,BAS70-04,device:D_Schottky_x2_Serial_AKC,Housings_SOT-23_SOT-143_TSOT-6:SOT-23,,BAS70-04-TP
-,,D5,BAS70-04,device:D_Schottky_x2_Serial_AKC,Housings_SOT-23_SOT-143_TSOT-6:SOT-23,,BAS70-04-TP
-,,D6,BAS70-04,device:D_Schottky_x2_Serial_AKC,Housings_SOT-23_SOT-143_TSOT-6:SOT-23,,BAS70-04-TP
-,,D7,1N4148,device:D_Small,Diodes_SMD:SOD-323,,1N4148WX-TP
-,,D8,1N4148,device:D_Small,Diodes_SMD:SOD-323,,1N4148WX-TP
-,,D9,1N4148,device:D_Small,Diodes_SMD:SOD-323,,1N4148WX-TP
-,,F1,FUSE,device:FUSE,Fuse_Holders_and_Fuses:Fuse_SMD2920,,0ZCF0200FF2C
-,,FB1,100uH,device:FILTER,Inductors:SELF-WE-PD-XXL,,SRR1260-101M
-,,J1,RJ45_LEDS,conn:RJ45_LEDS,Connect:RJHSE538X,,RJHSE-5381
-,,J2,JACK_TRS_6PINS,conn:JACK_TRS_6PINS,Connect:NMJ6HCD2,,NMJ6HCD2-RM
-,,J3,JACK_TRS_6PINS,conn:JACK_TRS_6PINS,Connect:NMJ6HCD2,,NMJ6HCD2-RM
-,,J4,JACK_TRS_6PINS,conn:JACK_TRS_6PINS,Connect:NMJ6HCD2,,NMJ6HCD2-RM
-,,J5,JACK_TRS_6PINS,conn:JACK_TRS_6PINS,Connect:NMJ6HCD2,,NMJ6HCD2-RM
-,,J6,JACK_TRS_6PINS,conn:JACK_TRS_6PINS,Connect:NMJ6HCD2,,NMJ6HCD2-RM
-,,K1,IM03,relays:IM03,"Relays_ThroughHole:Relay_DPDT_IM0(3,6,7)NS",,IM03GR
-,,K2,IM03,relays:IM03,"Relays_ThroughHole:Relay_DPDT_IM0(3,6,7)NS",,IM03GR
-,,L1,600R 1.5A,device:L_Small,Capacitors_SMD:C_0805,,MI0805K601R-10
-,,L2,600R 1.5A,device:L_Small,Capacitors_SMD:C_0805,,MI0805K601R-10
-,,P1,~,bottom-board-cache:USB_A,Connect:USB_A_Vertical,,73725-0110BLF
-,,P2,~,bottom-board-cache:USB_B,Connect:USB_B,,61729-1011BLF
-,,P3,DIN_5,conn:DIN_5,Connect:SDS-50J,,
-,,P4,DIN_5,conn:DIN_5,Connect:SDS-50J,,
-,,P5,BARREL_JACK,conn:BARREL_JACK,Connect:BARREL_JACK,,PJ-002AH
-,,P6,CONN_02X10,conn:CONN_02X10,Pin_Headers:Pin_Header_Straight_2x10,,SBH11-PBPC-D10-ST-BK
-,,P7,CONN_01X10,conn:CONN_01X10,Pin_Headers:Pin_Header_Straight_1x10,,-
-,,P8,~,conn:CONN_01X02,Pin_Headers:Pin_Header_Straight_1x02_Pitch3.96mm_Friction_Lock,,640445-2
-,,P9,CONN_01X03,conn:CONN_01X03,Pin_Headers:Pin_Header_Straight_1x03,,-
-,,Q1,J112,device:Q_NJFET_DSG,Housings_SOT-23_SOT-143_TSOT-6:SOT-23,,MMBFJ112
-,,Q10,MMBT3904,transistors:MMBT3904,Housings_SOT-23_SOT-143_TSOT-6:SOT-23,,MMBT3904-TP
-,,Q11,MMBT3904,transistors:MMBT3904,Housings_SOT-23_SOT-143_TSOT-6:SOT-23,,MMBT3904-TP
-,,Q12,MMBT3904,transistors:MMBT3904,Housings_SOT-23_SOT-143_TSOT-6:SOT-23,,MMBT3904-TP
-,,Q13,MMBT3904,transistors:MMBT3904,Housings_SOT-23_SOT-143_TSOT-6:SOT-23,,MMBT3904-TP
-,,Q14,MMBT3904,transistors:MMBT3904,Housings_SOT-23_SOT-143_TSOT-6:SOT-23,,MMBT3904-TP
-,,Q15,MMBT3904,transistors:MMBT3904,Housings_SOT-23_SOT-143_TSOT-6:SOT-23,,MMBT3904-TP
-,,Q2,J112,device:Q_NJFET_DSG,Housings_SOT-23_SOT-143_TSOT-6:SOT-23,,MMBFJ112
-,,Q3,MMBT3904,transistors:MMBT3904,Housings_SOT-23_SOT-143_TSOT-6:SOT-23,,MMBT3904-TP
-,,Q4,MMBT3904,transistors:MMBT3904,Housings_SOT-23_SOT-143_TSOT-6:SOT-23,,MMBT3904-TP
-,,Q5,J112,device:Q_NJFET_DSG,Housings_SOT-23_SOT-143_TSOT-6:SOT-23,,MMBFJ112
-,,Q6,J112,device:Q_NJFET_DSG,Housings_SOT-23_SOT-143_TSOT-6:SOT-23,,MMBFJ112
-,,Q7,MMBT3904,transistors:MMBT3904,Housings_SOT-23_SOT-143_TSOT-6:SOT-23,,MMBT3904-TP
-,,Q8,MMBT3904,transistors:MMBT3904,Housings_SOT-23_SOT-143_TSOT-6:SOT-23,,MMBT3904-TP
-,,Q9,MMBT3904,transistors:MMBT3904,Housings_SOT-23_SOT-143_TSOT-6:SOT-23,,MMBT3904-TP
-,,R1,10k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT10K0
-,,R10,10k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT10K0
-,,R11,10k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT10K0
-,,R12,100k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT100K
-,,R13,1M,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT1M00
-,,R14,100k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT100K
-,,R15,1M,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT1M00
-,,R16,100k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT100K
-,,R17,100k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT100K
-,,R18,100k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT100K
-,,R19,1M,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT1M00
-,,R2,10k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT10K0
-,,R20,100k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT100K
-,,R21,1M,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT1M00
-,,R22,100k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT100K
-,,R23,100k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT100K
-,,R24,1k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT1K00
-,,R25,10k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT10K0
-,,R26,47k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT47K0
-,,R27,1k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT1K00
-,,R28,10k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT10K0
-,,R29,47k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT47K0
-,,R3,10k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT10K0
-,,R30,10k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT10K0
-,,R31,100k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT100K
-,,R32,10k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT10K0
-,,R33,0R,device:R_Small,,,-
-,,R34,47k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT47K0
-,,R35,100k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT100K
-,,R36,10k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT10K0
-,,R37,220R,device:R_Small,Resistors_SMD:R_0805,,ERJ-P06J221V
-,,R38,10k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT10K0
-,,R39,220R,device:R_Small,Resistors_SMD:R_0805,,ERJ-P06J221V
-,,R4,100R,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT100R
-,,R40,10k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT10K0
-,,R41,220R,device:R_Small,Resistors_SMD:R_0805,,ERJ-P06J221V
-,,R42,10k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT10K0
-,,R43,10k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT10K0
-,,R44,10k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT10K0
-,,R45,10k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT10K0
-,,R46,10k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT10K0
-,,R47,10k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT10K0
-,,R48,56R,device:R_Small,Resistors_SMD:R_0805,,ERJ-P6WJ560V
-,,R49,100R,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT100R
-,,R5,100R,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT100R
-,,R50,100R,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT100R
-,,R51,56R,device:R_Small,Resistors_SMD:R_0805,,ERJ-P6WJ560V
-,,R52,56R,device:R_Small,Resistors_SMD:R_0805,,ERJ-P6WJ560V
-,,R53,10k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT10K0
-,,R54,100R,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT100R
-,,R55,56R,device:R_Small,Resistors_SMD:R_0805,,ERJ-P6WJ560V
-,,R56,10k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT10K0
-,,R57,10k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT10K0
-,,R58,10k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT10K0
-,,R59,10k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT10K0
-,,R6,10k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT10K0
-,,R60,10k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT10K0
-,,R61,10k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT10K0
-,,R62,10k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT10K0
-,,R63,10k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT10K0
-,,R64,1k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT1K00
-,,R65,1k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT1K00
-,,R66,100R,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT100R
-,,R7,10k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT10K0
-,,R8,10k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT10K0
-,,R9,10k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT10K0
-,,RA1,1M,device:R_Small,Resistors_SMD:R_0603,,CPF0603B1M0E
-,,RA10,47R,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB470V
-,,RA11,100R,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB101V
-,,RA12,1M,device:R_Small,Resistors_SMD:R_0603,,CPF0603B1M0E
-,,RA13,21k,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB2102V
-,,RA14,4k99,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB4991V
-,,RA15,1k5,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB152V
-,,RA16,1k5,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB152V
-,,RA17,10k,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB103V
-,,RA18,10k,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB103V
-,,RA19,15k,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB153V
-,,RA2,47R,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB470V
-,,RA20,10k,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB103V
-,,RA21,10k,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB103V
-,,RA22,10k,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB103V
-,,RA23,66R,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB66R5V
-,,RA24,10k,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB103V
-,,RA25,22k,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB223V
-,,RA26,33R,device:R_Small,Resistors_SMD:R_0603,,CPF0603B33RE
-,,RA27,33R,device:R_Small,Resistors_SMD:R_0603,,CPF0603B33RE
-,,RA28,15k,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB153V
-,,RA29,10k,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB103V
-,,RA3,100R,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB101V
-,,RA30,10k,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB103V
-,,RA31,10k,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB103V
-,,RA32,66R,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB66R5V
-,,RA33,10k,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB103V
-,,RA34,22k,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB223V
-,,RA35,33R,device:R_Small,Resistors_SMD:R_0603,,CPF0603B33RE
-,,RA36,33R,device:R_Small,Resistors_SMD:R_0603,,CPF0603B33RE
-,,RA37,10k,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB103V
-,,RA38,10k,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB103V
-,,RA39,75k,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB753V
-,,RA4,1M,device:R_Small,Resistors_SMD:R_0603,,CPF0603B1M0E
-,,RA40,75k,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB753V
-,,RA5,21k,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB2102V
-,,RA6,4k99,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB4991V
-,,RA7,1M,device:R_Small,Resistors_SMD:R_0603,,CPF0603B1M0E
-,,RA8,1k5,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB152V
-,,RA9,1k5,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB152V
-,,SW1,SW_PUSH,device:SW_PUSH,,,1825027-2
-,,U1,MCP1754ST-5002E/MB,regul:MCP1754ST-5002E/MB,Housings_SOT-89:SOT89-3_Housing,,MCP1754ST-5002E/MB
-,,U10,LM4811,digital-audio:LM4811,Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm,,LM4811MM/NOPB
-,,U11,RT9701,special:RT9701,Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5,,RT9701GB
-,,U12,6N137S,opto:6N136,SMD_Packages:DIP-8_SMD,,6N137S
-,,U13,ISL83491,interface:ISL83491,Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm,,ISL83491IBZ
-,,U2,KA7809,regul:LM7809CT,SMD_Packages:DPAK-2,,MC7809CD2TR4G
-,,U3,NCP1117ST50T3G,regul:NCP1117ST50T3G,SMD_Packages:DPAK-2,,NCP1117ST50T3G
-,,U4,NCP1117ST33T3G,regul:NCP1117ST33T3G,SMD_Packages:DPAK-2,,NCP1117ST33T3G
-,,U5,CS4245,digital-audio:CS4245,Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm,,CS4245-CQZ
-,,U6,ICnova_A20_SODIMM,in-circuit:ICnova_A20_SODIMM,Sockets:Socket_SODIMM_DDR1-2_TE_1612618,,1612618-4
-,,U7,LM4562,linear:OP275,Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm,,LM4562MAX/NOPB
-,,U8,LM4562,linear:OP275,Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm,,LM4562MAX/NOPB
-,,U9,LM4562,linear:OP275,Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm,,LM4562MAX/NOPB
-,,,,,,,
-,,,,,,,
-,,,,,,,
-Collated Components:,,,,,,,
-,,,,,,,
-Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,MPN
-1,10,"C1, C11, C13, C15, C17, C19, C3, C5, C7, C9",100nF,device:C,Capacitors_SMD:C_0603,,C1608X7R1E104K080AA
-2,8,"C10, C12, C14, C16, C18, C20, C6, C8",100uF,device:CP,Capacitors_ThroughHole:C_Radial_D5_L11_P2,,UVY1E101MDD
-3,2,"C2, C4",1000uF,device:CP,Capacitors_ThroughHole:C_Radial_D10_L20_P5,,UVR1E102MPD
-4,22,"C21, C22, C24, C25, C27, C29, C31, C33, C35, C38, C39, C41, C42, C44, C45, C47, C48, C49, C50, C51, C52, C55",100nF,device:C_Small,Capacitors_SMD:C_0603,,C1608X7R1E104K080AA
-5,7,"C23, C26, C28, C30, C32, C37, C46",10uF,device:C_Small,Capacitors_SMD:C_0805,,GRM219R61E106KA12D
-6,2,"C34, C36",47uF,device:C_Small,Capacitors_SMD:C_1210,,GRM32ER61C476ME15K
-7,6,"C40, C43, C53, C54, CA14, CA19",100uF,device:CP_Small,Capacitors_SMD:c_elec_6.3x5.3,,UWX1C101MCL1GB
+1,8,"C1, C11, C13, C15, C3, C5, C7, C9",100nF,device:C,Capacitors_SMD:C_0603,,C1608X7R1E104K080AA
+2,6,"C10, C12, C14, C16, C6, C8",100uF,device:CP,Capacitors_ThroughHole:C_Radial_D5_L11_P2,,UVY1E101MDD
+3,22,"C17, C18, C20, C21, C23, C25, C27, C29, C31, C34, C35, C37, C38, C40, C41, C43, C44, C45, C46, C47, C48, C51",100nF,device:C_Small,Capacitors_SMD:C_0603,,C1608X7R1E104K080AA
+4,7,"C19, C22, C24, C26, C28, C33, C42",10uF,device:C_Small,Capacitors_SMD:C_0805,,GRM219R61E106KA12D
+5,2,"C2, C4",1000uF,device:CP,Capacitors_ThroughHole:C_Radial_D10_L20_P5,,UVR1E102MPD
+6,2,"C30, C32",47uF,device:C_Small,Capacitors_SMD:C_1210,,GRM32ER61C476ME15K
+7,5,"C36, C39, C50, CA14, CA19",100uF,device:CP_Small,Capacitors_SMD:c_elec_6.3x5.3,,UWX1C101MCL1GB
 8,2,"CA1, CA2",2.2nF,device:C_Small,Capacitors_SMD:C_0603,,GRM1885C1H222JA01D
 9,4,"CA10, CA5, CA6, CA9",100pF,device:C_Small,Capacitors_SMD:C_0603,,C1608C0G1H101J080AA
 10,2,"CA11, CA16",33pF,device:C_Small,Capacitors_SMD:C_0603,,C1608C0G1H330J080AA
@@ -287,48 +21,50 @@ Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,MPN
 20,1,FB1,100uH,device:FILTER,Inductors:SELF-WE-PD-XXL,,SRR1260-101M
 21,1,J1,RJ45_LEDS,conn:RJ45_LEDS,Connect:RJHSE538X,,RJHSE-5381
 22,5,"J2, J3, J4, J5, J6",JACK_TRS_6PINS,conn:JACK_TRS_6PINS,Connect:NMJ6HCD2,,NMJ6HCD2-RM
-23,2,"K1, K2",IM03,relays:IM03,"Relays_ThroughHole:Relay_DPDT_IM0(3,6,7)NS",,IM03GR
-24,2,"L1, L2",600R 1.5A,device:L_Small,Capacitors_SMD:C_0805,,MI0805K601R-10
-25,1,P1,~,bottom-board-cache:USB_A,Connect:USB_A_Vertical,,73725-0110BLF
-26,1,P2,~,bottom-board-cache:USB_B,Connect:USB_B,,61729-1011BLF
-27,2,"P3, P4",DIN_5,conn:DIN_5,Connect:SDS-50J,,SDS-50J
-28,1,P5,BARREL_JACK,conn:BARREL_JACK,Connect:BARREL_JACK,,PJ-002AH
-29,1,P6,CONN_02X10,conn:CONN_02X10,Pin_Headers:Pin_Header_Straight_2x10,,SBH11-PBPC-D10-ST-BK
-30,1,P7,CONN_01X10,conn:CONN_01X10,Pin_Headers:Pin_Header_Straight_1x10,,-
-31,1,P8,~,conn:CONN_01X02,Pin_Headers:Pin_Header_Straight_1x02_Pitch3.96mm_Friction_Lock,,640445-2
-32,1,P9,CONN_01X03,conn:CONN_01X03,Pin_Headers:Pin_Header_Straight_1x03,,-
-33,4,"Q1, Q2, Q5, Q6",J112,device:Q_NJFET_DSG,Housings_SOT-23_SOT-143_TSOT-6:SOT-23,,MMBFJ112
-34,11,"Q10, Q11, Q12, Q13, Q14, Q15, Q3, Q4, Q7, Q8, Q9",MMBT3904,transistors:MMBT3904,Housings_SOT-23_SOT-143_TSOT-6:SOT-23,,MMBT3904-TP
-35,31,"R1, R10, R11, R2, R25, R28, R3, R30, R32, R36, R38, R40, R42, R43, R44, R45, R46, R47, R53, R56, R57, R58, R59, R6, R60, R61, R62, R63, R7, R8, R9",10k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT10K0
-36,10,"R12, R14, R16, R17, R18, R20, R22, R23, R31, R35",100k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT100K
-37,4,"R13, R15, R19, R21",1M,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT1M00
-38,4,"R24, R27, R64, R65",1k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT1K00
-39,3,"R26, R29, R34",47k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT47K0
-40,1,R33,0R,device:R_Small,Resistors_SMD:R_0603,,-
-41,3,"R37, R39, R41",220R,device:R_Small,Resistors_SMD:R_0805,,ERJ-P06J221V
-42,6,"R4, R49, R5, R50, R54, R66",100R,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT100R
-43,4,"R48, R51, R52, R55",56R,device:R_Small,Resistors_SMD:R_0805,,ERJ-P6WJ560V
-44,4,"RA1, RA12, RA4, RA7",1M,device:R_Small,Resistors_SMD:R_0603,,CPF0603B1M0E
-45,2,"RA10, RA2",47R,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB470V
-46,2,"RA11, RA3",100R,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB101V
-47,2,"RA13, RA5",21k,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB2102V
-48,2,"RA14, RA6",4k99,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB4991V
-49,4,"RA15, RA16, RA8, RA9",1k5,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB152V
-50,12,"RA17, RA18, RA20, RA21, RA22, RA24, RA29, RA30, RA31, RA33, RA37, RA38",10k,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB103V
-51,2,"RA19, RA28",15k,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB153V
-52,2,"RA23, RA32",66R,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB66R5V
-53,2,"RA25, RA34",22k,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB223V
-54,4,"RA26, RA27, RA35, RA36",33R,device:R_Small,Resistors_SMD:R_0603,,CPF0603B33RE
-55,2,"RA39, RA40",75k,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB753V
-56,1,SW1,SW_PUSH,device:SW_PUSH,Buttons_Switches_ThroughHole:SW_Tactile_SPST_Angled,,1825027-2
-57,1,U1,MCP1754ST-5002E/MB,regul:MCP1754ST-5002E/MB,Housings_SOT-89:SOT89-3_Housing,,MCP1754ST-5002E/MB
-58,1,U10,LM4811,digital-audio:LM4811,Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm,,LM4811MM/NOPB
-59,1,U11,RT9701,special:RT9701,Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5,,RT9701GB
-60,1,U12,6N137S,opto:6N136,SMD_Packages:DIP-8_SMD,,6N137S
-61,1,U13,ISL83491,interface:ISL83491,Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm,,ISL83491IBZ
-62,1,U2,KA7809,regul:LM7809CT,SMD_Packages:DPAK-2,,MC7809CD2TR4G
-63,1,U3,NCP1117ST50T3G,regul:NCP1117ST50T3G,SMD_Packages:DPAK-2,,NCP1117ST50T3G
-64,1,U4,NCP1117ST33T3G,regul:NCP1117ST33T3G,SMD_Packages:DPAK-2,,NCP1117ST33T3G
-65,1,U5,CS4245,digital-audio:CS4245,Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm,,CS4245-CQZ
-66,1,U6,ICnova_A20_SODIMM,in-circuit:ICnova_A20_SODIMM,Sockets:Socket_SODIMM_DDR1-2_TE_1612618,,1612618-4
-67,3,"U7, U8, U9",LM4562,linear:OP275,Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm,,LM4562MAX/NOPB
+23,1,JMP1,0R,device:R,Oddities:NetTie-I_Connected,,
+24,2,"K1, K2",IM03,relays:IM03,"Relays_ThroughHole:Relay_DPDT_IM0(3,6,7)NS",,IM03GR
+25,2,"L1, L2",600R 1.5A,device:L_Small,Capacitors_SMD:C_0805,,MI0805K601R-10
+26,1,P1,USB_B,bottom-board-cache:USB_B,Connect:USB_B,,61729-1011BLF
+27,1,P2,USB_A,bottom-board-cache:USB_A,Connect:USB_A_Vertical,,73725-0110BLF
+28,2,"P3, P4",DIN_5,conn:DIN_5,Connect:SDS-50J,,SDS-50J
+29,1,P5,BARREL_JACK,conn:BARREL_JACK,Connect:BARREL_JACK,,PJ-002AH
+30,1,P6,CONN_02X10,conn:CONN_02X10,Pin_Headers:Pin_Header_Straight_2x10,,SBH11-PBPC-D10-ST-BK
+31,1,P7,CONN_01X10,conn:CONN_01X10,Pin_Headers:Pin_Header_Straight_1x10,,-
+32,1,P8,~,conn:CONN_01X02,Pin_Headers:Pin_Header_Straight_1x02_Pitch3.96mm_Friction_Lock,,640445-2
+33,1,P9,CONN_01X03,conn:CONN_01X03,Pin_Headers:Pin_Header_Straight_1x03,,-
+34,4,"Q1, Q2, Q5, Q6",J112,device:Q_NJFET_DSG,Housings_SOT-23_SOT-143_TSOT-6:SOT-23,,MMBFJ112
+35,11,"Q10, Q11, Q12, Q13, Q14, Q15, Q3, Q4, Q7, Q8, Q9",MMBT3904,transistors:MMBT3904,Housings_SOT-23_SOT-143_TSOT-6:SOT-23,,MMBT3904-TP
+36,31,"R1, R10, R11, R2, R25, R28, R3, R30, R32, R36, R38, R40, R42, R43, R44, R45, R46, R47, R53, R56, R57, R58, R59, R6, R60, R61, R62, R63, R7, R8, R9",10k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT10K0
+37,10,"R12, R14, R16, R17, R18, R20, R22, R23, R31, R35",100k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT100K
+38,4,"R13, R15, R19, R21",1M,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT1M00
+39,4,"R24, R27, R64, R65",1k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT1K00
+40,3,"R26, R29, R34",47k,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT47K0
+41,1,R33,0R,device:R_Small,Resistors_SMD:R_0603,,-
+42,3,"R37, R39, R41",220R,device:R_Small,Resistors_SMD:R_0805,,ERJ-P06J221V
+43,5,"R4, R49, R5, R54, R66",100R,device:R_Small,Resistors_SMD:R_0603,,RMCF0603JT100R
+44,4,"R48, R51, R52, R55",56R,device:R_Small,Resistors_SMD:R_0805,,ERJ-P6WJ560V
+45,1,R50,100R,device:R_Small,Resistors_SMD:R_0805,,ERJ-P06J101V
+46,4,"RA1, RA12, RA4, RA7",1M,device:R_Small,Resistors_SMD:R_0603,,CPF0603B1M0E
+47,2,"RA10, RA2",47R,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB470V
+48,2,"RA11, RA3",100R,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB101V
+49,2,"RA13, RA5",21k,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB2102V
+50,2,"RA14, RA6",4k99,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB4991V
+51,4,"RA15, RA16, RA8, RA9",1k5,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB152V
+52,12,"RA17, RA18, RA20, RA21, RA22, RA24, RA29, RA30, RA31, RA33, RA37, RA38",10k,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB103V
+53,2,"RA19, RA28",15k,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB153V
+54,2,"RA23, RA32",66R,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB66R5V
+55,2,"RA25, RA34",22k,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB223V
+56,4,"RA26, RA27, RA35, RA36",33R,device:R_Small,Resistors_SMD:R_0603,,CPF0603B33RE
+57,2,"RA39, RA40",75k,device:R_Small,Resistors_SMD:R_0603,,ERA-3AEB753V
+58,1,SW1,SW_PUSH,device:SW_PUSH,Buttons_Switches_ThroughHole:SW_Tactile_SPST_Angled,,1825027-2
+59,1,U1,MCP1754ST-5002E/MB,regul:MCP1754ST-5002E/MB,Housings_SOT-89:SOT89-3_Housing,,MCP1754ST-5002E/MB
+60,1,U10,LM4811,digital-audio:LM4811,Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm,,LM4811MM/NOPB
+61,1,U11,RT9701,special:RT9701,Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5,,RT9701GB
+62,1,U12,6N137S,opto:6N136,SMD_Packages:DIP-8_SMD,,6N137S
+63,1,U13,ISL83491,interface:ISL83491,Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm,,ISL83491IBZ
+64,1,U2,KA7809,regul:LM7809CT,SMD_Packages:DPAK-2,,MC7809CD2TR4G
+65,1,U3,NCP1117ST50T3G,regul:NCP1117ST50T3G,SMD_Packages:DPAK-2,,NCP1117ST50T3G
+66,1,U4,NCP1117ST33T3G,regul:NCP1117ST33T3G,SMD_Packages:DPAK-2,,NCP1117ST33T3G
+67,1,U5,CS4245,digital-audio:CS4245,Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm,,CS4245-CQZ
+68,1,U6,ICnova_A20_SODIMM,in-circuit:ICnova_A20_SODIMM,Sockets:Socket_SODIMM_DDR1-2_TE_1612618,,1612618-4
+69,3,"U7, U8, U9",LM4562,linear:OP275,Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm,,LM4562MAX/NOPB
