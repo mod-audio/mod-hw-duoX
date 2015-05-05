@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-03-11 BZR 5507)-product   date = Fri 17 Apr 2015 04:25:31 PM CEST
+Cmp-Mod V01 Created by Cvpcb (2015-05-04 BZR 5641)-product   date = Tue 05 May 2015 10:34:31 AM CEST
 
 BeginCmp
 TimeStamp = /54F7244B/54F87BFD;
@@ -334,13 +334,6 @@ TimeStamp = /54F72FB8/550C63C7;
 Reference = C48;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /54F72FB8/550DBECD;
-Reference = C49;
-ValeurCmp = 100uF;
-IdModule  = Capacitors_SMD:c_elec_6.3x5.3;
 EndCmp
 
 BeginCmp
@@ -701,6 +694,13 @@ IdModule  = Connect:NMJ6HCD2;
 EndCmp
 
 BeginCmp
+TimeStamp = /54F7244B/55418B88;
+Reference = JMP1;
+ValeurCmp = 0R;
+IdModule  = Oddities:NetTie-I_Connected;
+EndCmp
+
+BeginCmp
 TimeStamp = /54F72CD0/550822BA;
 Reference = K1;
 ValeurCmp = IM03;
@@ -806,16 +806,16 @@ IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
 
 BeginCmp
-TimeStamp = /54F72C8D/55064366;
+TimeStamp = /54F72C8D/55429796;
 Reference = Q3;
-ValeurCmp = MMBT3904;
+ValeurCmp = 2N7002;
 IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
 
 BeginCmp
-TimeStamp = /54F72C8D/55064F2D;
+TimeStamp = /54F72C8D/55432817;
 Reference = Q4;
-ValeurCmp = MMBT3904;
+ValeurCmp = 2N7002;
 IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
 
@@ -834,65 +834,65 @@ IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
 
 BeginCmp
-TimeStamp = /54F72C8D/5517BC99;
+TimeStamp = /54F72C8D/554338A4;
 Reference = Q7;
-ValeurCmp = MMBT3904;
+ValeurCmp = 2N7002;
 IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
 
 BeginCmp
-TimeStamp = /54F72C8D/5517BC9F;
+TimeStamp = /54F72C8D/5543396E;
 Reference = Q8;
-ValeurCmp = MMBT3904;
+ValeurCmp = 2N7002;
 IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
 
 BeginCmp
-TimeStamp = /54F72CD0/55083F12;
+TimeStamp = /54F72CD0/55491C4A;
 Reference = Q9;
-ValeurCmp = MMBT3904;
+ValeurCmp = 2N7002;
 IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
 
 BeginCmp
-TimeStamp = /54F72CD0/5518B0CB;
+TimeStamp = /54F72CD0/554876EB;
 Reference = Q10;
-ValeurCmp = MMBT3904;
+ValeurCmp = 2N7002;
 IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
 
 BeginCmp
-TimeStamp = /54F72F64/550DB807;
+TimeStamp = /54F72F64/5548D8E8;
 Reference = Q11;
-ValeurCmp = MMBT3904;
+ValeurCmp = 2N7002;
 IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
 
 BeginCmp
-TimeStamp = /54F72FB4/550EF72D;
+TimeStamp = /54F72FB4/5550D667;
 Reference = Q12;
-ValeurCmp = MMBT3904;
+ValeurCmp = 2N7002;
 IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
 
 BeginCmp
-TimeStamp = /54F72FB4/550F03BF;
+TimeStamp = /54F72FB4/5550D961;
 Reference = Q13;
-ValeurCmp = MMBT3904;
+ValeurCmp = 2N7002;
 IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
 
 BeginCmp
-TimeStamp = /54F72FB6/5522D5F9;
+TimeStamp = /54F72FB6/55501E9F;
 Reference = Q14;
-ValeurCmp = MMBT3904;
+ValeurCmp = 2N7002;
 IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
 
 BeginCmp
-TimeStamp = /54F72FB6/5522FFBB;
+TimeStamp = /54F72FB6/55502483;
 Reference = Q15;
-ValeurCmp = MMBT3904;
+ValeurCmp = 2N7002;
 IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
 
@@ -1004,14 +1004,14 @@ EndCmp
 BeginCmp
 TimeStamp = /54F72C8D/5506F27C;
 Reference = R16;
-ValeurCmp = 100k;
+ValeurCmp = 10k;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F72C8D/5506F1FC;
 Reference = R17;
-ValeurCmp = 100k;
+ValeurCmp = 10k;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
@@ -1046,21 +1046,14 @@ EndCmp
 BeginCmp
 TimeStamp = /54F72C8D/5517BCC3;
 Reference = R22;
-ValeurCmp = 100k;
+ValeurCmp = 10k;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F72C8D/5517BCBD;
 Reference = R23;
-ValeurCmp = 100k;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /54F72CD0/550A8518;
-Reference = R24;
-ValeurCmp = 1k;
+ValeurCmp = 10k;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
@@ -1074,14 +1067,7 @@ EndCmp
 BeginCmp
 TimeStamp = /54F72CD0/55083E79;
 Reference = R26;
-ValeurCmp = 47k;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /54F72CD0/5518B116;
-Reference = R27;
-ValeurCmp = 1k;
+ValeurCmp = 100k;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
@@ -1095,7 +1081,7 @@ EndCmp
 BeginCmp
 TimeStamp = /54F72CD0/5518B0C5;
 Reference = R29;
-ValeurCmp = 47k;
+ValeurCmp = 100k;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
@@ -1109,13 +1095,6 @@ EndCmp
 BeginCmp
 TimeStamp = /54F72F64/5509BA8D;
 Reference = R31;
-ValeurCmp = 100k;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /54F72F64/5509BA93;
-Reference = R32;
 ValeurCmp = 10k;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
@@ -1191,36 +1170,8 @@ IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54F72FB4/550EFAF6;
-Reference = R43;
-ValeurCmp = 10k;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /54F72FB4/5509169A;
-Reference = R44;
-ValeurCmp = 10k;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /54F72FB4/55090CA5;
-Reference = R45;
-ValeurCmp = 10k;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
 TimeStamp = /54F72FB6/5522DDB6;
 Reference = R46;
-ValeurCmp = 10k;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /54F72FB6/5522E84A;
-Reference = R47;
 ValeurCmp = 10k;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
@@ -1279,13 +1230,6 @@ TimeStamp = /54F72FB6/551AAAAD;
 Reference = R55;
 ValeurCmp = 56R;
 IdModule  = Resistors_SMD:R_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /54F72FB6/5522FFD2;
-Reference = R56;
-ValeurCmp = 10k;
-IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
