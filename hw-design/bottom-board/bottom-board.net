@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/ricardo/devel/mod-hw-duo/hw-design/bottom-board/bottom-board.sch)
-    (date "Tue 05 May 2015 10:34:26 AM CEST")
+    (date "Wed 06 May 2015 12:09:17 PM CEST")
     (tool "Eeschema (2015-05-04 BZR 5641)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1501,6 +1501,7 @@
       (tstamp 551BDF86))
     (comp (ref Q11)
       (value 2N7002)
+      (footprint Housings_SOT-23_SOT-143_TSOT-6:SOT-23)
       (fields
         (field (name MPN) 2N7002P,215))
       (libsource (lib device) (part Q_NMOS_GSD))
@@ -1732,6 +1733,7 @@
       (tstamp 552F86CD))
     (comp (ref Q12)
       (value 2N7002)
+      (footprint Housings_SOT-23_SOT-143_TSOT-6:SOT-23)
       (fields
         (field (name MPN) 2N7002P,215))
       (libsource (lib device) (part Q_NMOS_GSD))
@@ -1739,6 +1741,7 @@
       (tstamp 5550D667))
     (comp (ref Q13)
       (value 2N7002)
+      (footprint Housings_SOT-23_SOT-143_TSOT-6:SOT-23)
       (fields
         (field (name MPN) 2N7002P,215))
       (libsource (lib device) (part Q_NMOS_GSD))
@@ -1834,6 +1837,7 @@
       (tstamp 5522FFCB))
     (comp (ref Q14)
       (value 2N7002)
+      (footprint Housings_SOT-23_SOT-143_TSOT-6:SOT-23)
       (fields
         (field (name MPN) 2N7002P,215))
       (libsource (lib device) (part Q_NMOS_GSD))
@@ -1841,6 +1845,7 @@
       (tstamp 55501E9F))
     (comp (ref Q15)
       (value 2N7002)
+      (footprint Housings_SOT-23_SOT-143_TSOT-6:SOT-23)
       (fields
         (field (name MPN) 2N7002P,215))
       (libsource (lib device) (part Q_NMOS_GSD))
@@ -2830,10 +2835,10 @@
       (uri /home/ricardo/devel/kicad-stuff/kicad-library-ricardocrudo/library/linear.lib))
     (library (logical opto)
       (uri /home/ricardo/devel/kicad-stuff/kicad-library-ricardocrudo/library/opto.lib))
-    (library (logical regul)
-      (uri /home/ricardo/devel/kicad-stuff/kicad-library-ricardocrudo/library/regul.lib))
     (library (logical relays)
       (uri /home/ricardo/devel/kicad-stuff/kicad-library-ricardocrudo/library/relays.lib))
+    (library (logical regul)
+      (uri /home/ricardo/devel/kicad-stuff/kicad-library-ricardocrudo/library/regul.lib))
     (library (logical special)
       (uri /usr/share/kicad/library/special.lib))
     (library (logical in-circuit)
