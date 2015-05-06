@@ -251,9 +251,9 @@ Text GLabel 9350 5100 3    50   Input ~ 0
 UART_RX_CHAIN
 Text GLabel 9450 5100 3    50   Output ~ 0
 UART_TX_CHAIN
-Text GLabel 8900 5050 3    50   Input ~ 0
+Text GLabel 1850 5050 3    50   Input ~ 0
 UART_RX4_MIDI
-Text GLabel 9000 5050 3    50   Output ~ 0
+Text GLabel 1950 5050 3    50   Output ~ 0
 UART_TX4_MIDI
 Text GLabel 9900 2050 1    50   Output ~ 0
 LEFT_GAIN_CTRL1
@@ -263,13 +263,13 @@ Text GLabel 9700 2050 1    50   Output ~ 0
 RIGHT_GAIN_CTRL1
 Text GLabel 9600 2050 1    50   Output ~ 0
 RIGHT_GAIN_CTRL2
-Text GLabel 6800 5050 3    50   Output ~ 0
+Text GLabel 2450 5050 3    50   Output ~ 0
 LEFT_BYPASS_CTRL
-Text GLabel 6900 5050 3    50   Output ~ 0
+Text GLabel 2550 5050 3    50   Output ~ 0
 RIGHT_BYPASS_CTRL
-Text GLabel 6650 5050 3    50   Output ~ 0
+Text GLabel 2250 5050 3    50   Output ~ 0
 HP_CLOCK
-Text GLabel 6550 5050 3    50   Output ~ 0
+Text GLabel 2350 5050 3    50   Output ~ 0
 HP_UP/DN
 Text GLabel 4350 5050 3    50   BiDi ~ 0
 USB_DP0_DEV
@@ -404,14 +404,8 @@ NoConn ~ 2950 4850
 NoConn ~ 2850 4850
 NoConn ~ 2750 4850
 NoConn ~ 2650 4850
-NoConn ~ 2550 4850
-NoConn ~ 2450 4850
-NoConn ~ 2350 4850
-NoConn ~ 2250 4850
 NoConn ~ 2150 4850
 NoConn ~ 2050 4850
-NoConn ~ 1950 4850
-NoConn ~ 1850 4850
 NoConn ~ 1750 4850
 NoConn ~ 1500 4850
 NoConn ~ 2800 2250
@@ -557,21 +551,21 @@ Wire Wire Line
 Wire Wire Line
 	9350 4850 9350 5100
 Wire Wire Line
-	9000 5050 9000 4850
+	1950 5050 1950 4850
 Wire Wire Line
-	8900 4850 8900 5050
+	1850 4850 1850 5050
 Wire Wire Line
 	9900 2050 9900 2250
 Wire Wire Line
 	9800 2250 9800 2050
 Wire Wire Line
-	6900 4850 6900 5050
+	2550 4850 2550 5050
 Wire Wire Line
-	6800 4850 6800 5050
+	2450 4850 2450 5050
 Wire Wire Line
-	6650 5050 6650 4850
+	2250 5050 2250 4850
 Wire Wire Line
-	6550 4850 6550 5050
+	2350 4850 2350 5050
 Wire Wire Line
 	4250 4850 4250 5050
 Wire Wire Line
@@ -691,4 +685,10 @@ NoConn ~ 7050 4850
 NoConn ~ 7150 4850
 NoConn ~ 7300 4850
 NoConn ~ 7400 4850
+NoConn ~ 8900 4850
+NoConn ~ 9000 4850
+NoConn ~ 6550 4850
+NoConn ~ 6650 4850
+NoConn ~ 6800 4850
+NoConn ~ 6900 4850
 $EndSCHEMATC
