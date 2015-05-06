@@ -223,13 +223,13 @@ Text GLabel 8200 5050 3    50   Input ~ 0
 UART_RX0_CLI
 Text GLabel 8300 5050 3    50   Output ~ 0
 UART_TX0_CLI
-Text GLabel 9350 5050 3    50   Input ~ 0
+Text GLabel 3100 2050 1    50   Input ~ 0
 UART_RX3_HMI
-Text GLabel 9450 5050 3    50   Output ~ 0
+Text GLabel 3200 2050 1    50   Output ~ 0
 UART_TX3_HMI
-Text GLabel 9250 5050 3    50   Output ~ 0
+Text GLabel 2900 2050 1    50   Output ~ 0
 UART_RTS3_HMI
-Text GLabel 9150 5050 3    50   Output ~ 0
+Text GLabel 3000 2050 1    50   Output ~ 0
 UART_CTS3_HMI
 Text GLabel 7000 2000 1    50   Output ~ 0
 CODEC_I2S_SDIN
@@ -247,9 +247,9 @@ Text GLabel 8100 5050 3    50   Output ~ 0
 CODEC_I2C_SCL
 Text GLabel 8400 2000 1    50   Output ~ 0
 CODEC_~RESET
-Text GLabel 3100 2000 1    50   Input ~ 0
+Text GLabel 9350 5100 3    50   Input ~ 0
 UART_RX_CHAIN
-Text GLabel 3200 2000 1    50   Output ~ 0
+Text GLabel 9450 5100 3    50   Output ~ 0
 UART_TX_CHAIN
 Text GLabel 8900 5050 3    50   Input ~ 0
 UART_RX4_MIDI
@@ -317,9 +317,9 @@ Text GLabel 1650 5050 3    50   Input ~ 0
 POWER_BUTTON
 Text GLabel 8500 2000 1    50   Input ~ 0
 CODEC_~MUTEC
-Text GLabel 3000 2000 1    50   Output ~ 0
+Text GLabel 9150 5100 3    50   Output ~ 0
 UART_RE_CHAIN
-Text GLabel 2900 2000 1    50   Output ~ 0
+Text GLabel 9250 5100 3    50   Output ~ 0
 UART_DE_CHAIN
 NoConn ~ 3300 2250
 NoConn ~ 3400 2250
@@ -519,13 +519,13 @@ Wire Wire Line
 Wire Wire Line
 	8200 4850 8200 5050
 Wire Wire Line
-	9450 4850 9450 5050
+	3200 2250 3200 2050
 Wire Wire Line
-	9350 4850 9350 5050
+	3100 2250 3100 2050
 Wire Wire Line
-	9250 4850 9250 5050
+	2900 2250 2900 2050
 Wire Wire Line
-	9150 4850 9150 5050
+	3000 2250 3000 2050
 Wire Wire Line
 	7450 2000 7450 2250
 Wire Wire Line
@@ -553,9 +553,9 @@ Wire Wire Line
 Wire Wire Line
 	8400 2250 8400 2000
 Wire Wire Line
-	3200 2250 3200 2000
+	9450 4850 9450 5100
 Wire Wire Line
-	3100 2250 3100 2000
+	9350 4850 9350 5100
 Wire Wire Line
 	9000 5050 9000 4850
 Wire Wire Line
@@ -627,9 +627,9 @@ Wire Wire Line
 Wire Wire Line
 	8500 2000 8500 2250
 Wire Wire Line
-	3000 2250 3000 2000
+	9150 4850 9150 5100
 Wire Wire Line
-	2900 2000 2900 2250
+	9250 5100 9250 4850
 Wire Wire Line
 	9600 2250 9600 2050
 Wire Wire Line

@@ -608,13 +608,13 @@ Text GLabel 8900 2700 0    50   Input ~ 0
 UART_TX0_CLI
 Text GLabel 8900 2800 0    50   Output ~ 0
 UART_RX0_CLI
-Text GLabel 9650 2050 2    50   Output ~ 0
+Text GLabel 9650 1950 2    50   Output ~ 0
 UART_RX3_HMI
-Text GLabel 9650 1950 2    50   Input ~ 0
+Text GLabel 9650 2050 2    50   Input ~ 0
 UART_TX3_HMI
-Text GLabel 9650 2150 2    50   Input ~ 0
-UART_RTS3_HMI
 Text GLabel 9650 2250 2    50   Input ~ 0
+UART_RTS3_HMI
+Text GLabel 9650 2150 2    50   Input ~ 0
 UART_CTS3_HMI
 Text GLabel 8750 1650 0    50   Input ~ 0
 UART_TX0_CLI
@@ -785,13 +785,13 @@ Wire Wire Line
 Wire Wire Line
 	8950 1650 8750 1650
 Wire Wire Line
-	9650 1950 9450 1950
+	9650 2050 9450 2050
 Wire Wire Line
-	9450 2050 9650 2050
+	9450 1950 9650 1950
 Wire Wire Line
-	9650 2150 9450 2150
+	9650 2250 9450 2250
 Wire Wire Line
-	9450 2250 9650 2250
+	9450 2150 9650 2150
 Wire Notes Line
 	7700 850  7700 3250
 Wire Notes Line
