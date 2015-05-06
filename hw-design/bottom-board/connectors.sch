@@ -616,7 +616,7 @@ Text GLabel 9650 2150 2    50   Input ~ 0
 UART_RTS3_HMI
 Text GLabel 9650 2250 2    50   Input ~ 0
 UART_CTS3_HMI
-Text GLabel 8750 1850 0    50   Input ~ 0
+Text GLabel 8750 1650 0    50   Input ~ 0
 UART_TX0_CLI
 Text GLabel 8750 1750 0    50   Output ~ 0
 UART_RX0_CLI
@@ -644,7 +644,7 @@ Text GLabel 9650 1750 2    50   Input ~ 0
 SPI0_CS0_HMI
 Text GLabel 9650 1550 2    50   Output ~ 0
 SPI0_MOSI_HMI
-Text GLabel 8750 1350 0    50   Output ~ 0
+Text GLabel 8750 1950 0    50   Output ~ 0
 POWER_BUTTON
 Text GLabel 10000 4450 2    50   Input ~ 0
 RS422_TX_LED
@@ -666,9 +666,9 @@ NoConn ~ 2300 5800
 NoConn ~ 2300 5600
 NoConn ~ 2300 5400
 NoConn ~ 6300 2100
-Text GLabel 8750 1550 0    50   BiDi ~ 0
+Text GLabel 8750 2250 0    50   BiDi ~ 0
 I2C_SDA_HMI
-Text GLabel 8750 1650 0    50   Input ~ 0
+Text GLabel 8750 2150 0    50   Input ~ 0
 I2C_SCL_HMI
 Wire Wire Line
 	2100 1500 2300 1500
@@ -781,11 +781,7 @@ Wire Notes Line
 Wire Notes Line
 	7600 5750 7600 3800
 Wire Wire Line
-	8750 1850 8950 1850
-Wire Wire Line
 	8750 1750 8950 1750
-Wire Wire Line
-	8750 1550 8950 1550
 Wire Wire Line
 	8950 1650 8750 1650
 Wire Wire Line
@@ -919,18 +915,10 @@ Connection ~ 5800 1250
 Connection ~ 5950 1250
 Connection ~ 6100 1250
 Connection ~ 9550 1850
-Wire Wire Line
-	8850 1450 8850 2350
-Wire Wire Line
-	8850 1950 8950 1950
-Text GLabel 8750 2050 0    50   BiDi ~ 0
+Text GLabel 8750 1450 0    50   BiDi ~ 0
 RFU_01_HMI
-Text GLabel 8750 2150 0    50   BiDi ~ 0
+Text GLabel 8750 1350 0    50   BiDi ~ 0
 RFU_02_HMI
-Wire Wire Line
-	8950 2150 8750 2150
-Wire Wire Line
-	8750 2050 8950 2050
 $Comp
 L +9V #PWR0156
 U 1 1 5537DC1C
@@ -950,10 +938,22 @@ Wire Wire Line
 	1650 2450 1900 2450
 Wire Wire Line
 	1900 2450 1900 2550
-Connection ~ 8850 1950
 Wire Wire Line
-	8850 1450 8950 1450
+	8750 1450 8950 1450
 Wire Wire Line
-	8950 2250 8850 2250
-Connection ~ 8850 2250
+	8950 1550 8850 1550
+Wire Wire Line
+	8850 1550 8850 2350
+Wire Wire Line
+	8950 2150 8750 2150
+Wire Wire Line
+	8750 2250 8950 2250
+Wire Wire Line
+	8950 1850 8850 1850
+Connection ~ 8850 1850
+Wire Wire Line
+	8950 1950 8750 1950
+Wire Wire Line
+	8950 2050 8850 2050
+Connection ~ 8850 2050
 $EndSCHEMATC
