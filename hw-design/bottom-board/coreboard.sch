@@ -263,9 +263,9 @@ Text GLabel 9700 2050 1    50   Output ~ 0
 RIGHT_GAIN_CTRL1
 Text GLabel 9600 2050 1    50   Output ~ 0
 RIGHT_GAIN_CTRL2
-Text GLabel 2450 5050 3    50   Output ~ 0
-LEFT_BYPASS_CTRL
 Text GLabel 2550 5050 3    50   Output ~ 0
+LEFT_BYPASS_CTRL
+Text GLabel 2450 5050 3    50   Output ~ 0
 RIGHT_BYPASS_CTRL
 Text GLabel 2350 5050 3    50   Output ~ 0
 HP_CLOCK
@@ -559,9 +559,9 @@ Wire Wire Line
 Wire Wire Line
 	9800 2250 9800 2050
 Wire Wire Line
-	2550 4850 2550 5050
-Wire Wire Line
 	2450 4850 2450 5050
+Wire Wire Line
+	2550 4850 2550 5050
 Wire Wire Line
 	2350 5050 2350 4850
 Wire Wire Line
