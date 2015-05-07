@@ -267,9 +267,9 @@ Text GLabel 2450 5050 3    50   Output ~ 0
 LEFT_BYPASS_CTRL
 Text GLabel 2550 5050 3    50   Output ~ 0
 RIGHT_BYPASS_CTRL
-Text GLabel 2250 5050 3    50   Output ~ 0
-HP_CLOCK
 Text GLabel 2350 5050 3    50   Output ~ 0
+HP_CLOCK
+Text GLabel 2250 5050 3    50   Output ~ 0
 HP_UP/DN
 Text GLabel 4350 5050 3    50   BiDi ~ 0
 USB_DP0_DEV
@@ -563,9 +563,9 @@ Wire Wire Line
 Wire Wire Line
 	2450 4850 2450 5050
 Wire Wire Line
-	2250 5050 2250 4850
+	2350 5050 2350 4850
 Wire Wire Line
-	2350 4850 2350 5050
+	2250 4850 2250 5050
 Wire Wire Line
 	4250 4850 4250 5050
 Wire Wire Line
