@@ -1,0 +1,231 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:top-board-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X02 P?
+U 1 1 5551B74C
+P 1950 1900
+F 0 "P?" H 1950 2050 50  0000 C CNN
+F 1 "CONN_01X02" V 2050 1900 50  0000 C CNN
+F 2 "" H 1950 1900 60  0000 C CNN
+F 3 "" H 1950 1900 60  0000 C CNN
+	1    1950 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L GNDD #PWR?
+U 1 1 5551B8FC
+P 2300 2050
+F 0 "#PWR?" H 2300 1800 50  0001 C CNN
+F 1 "GNDD" H 2300 1900 50  0000 C CNN
+F 2 "" H 2300 2050 60  0000 C CNN
+F 3 "" H 2300 2050 60  0000 C CNN
+	1    2300 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 1950 2300 1950
+Wire Wire Line
+	2300 1950 2300 2050
+$Comp
+L NCP1117ST33T3G U?
+U 1 1 5551B92C
+P 3650 1900
+F 0 "U?" H 3650 2150 40  0000 C CNN
+F 1 "NCP1117DT33G" H 3650 2100 40  0000 C CNN
+F 2 "" H 3650 1900 60  0000 C CNN
+F 3 "" H 3650 1900 60  0000 C CNN
+	1    3650 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C?
+U 1 1 5551BAB9
+P 2750 2100
+F 0 "C?" H 2775 2200 50  0000 L CNN
+F 1 "100uF" H 2775 2000 50  0000 L CNN
+F 2 "" H 2788 1950 30  0000 C CNN
+F 3 "" H 2750 2100 60  0000 C CNN
+	1    2750 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5551BAF5
+P 3050 2100
+F 0 "C?" H 3075 2200 50  0000 L CNN
+F 1 "100nF" H 3075 2000 50  0000 L CNN
+F 2 "" H 3088 1950 30  0000 C CNN
+F 3 "" H 3050 2100 60  0000 C CNN
+	1    3050 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDD #PWR?
+U 1 1 5551BC3B
+P 2750 2350
+F 0 "#PWR?" H 2750 2100 50  0001 C CNN
+F 1 "GNDD" H 2750 2200 50  0000 C CNN
+F 2 "" H 2750 2350 60  0000 C CNN
+F 3 "" H 2750 2350 60  0000 C CNN
+	1    2750 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDD #PWR?
+U 1 1 5551BC4E
+P 3050 2350
+F 0 "#PWR?" H 3050 2100 50  0001 C CNN
+F 1 "GNDD" H 3050 2200 50  0000 C CNN
+F 2 "" H 3050 2350 60  0000 C CNN
+F 3 "" H 3050 2350 60  0000 C CNN
+	1    3050 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 2250 2750 2350
+Wire Wire Line
+	3050 2350 3050 2250
+$Comp
+L CP C?
+U 1 1 5551C1E0
+P 4650 2100
+F 0 "C?" H 4675 2200 50  0000 L CNN
+F 1 "100uF" H 4675 2000 50  0000 L CNN
+F 2 "" H 4688 1950 30  0000 C CNN
+F 3 "" H 4650 2100 60  0000 C CNN
+	1    4650 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5551C1E6
+P 4350 2100
+F 0 "C?" H 4375 2200 50  0000 L CNN
+F 1 "100nF" H 4375 2000 50  0000 L CNN
+F 2 "" H 4388 1950 30  0000 C CNN
+F 3 "" H 4350 2100 60  0000 C CNN
+	1    4350 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDD #PWR?
+U 1 1 5551C1EC
+P 4350 2350
+F 0 "#PWR?" H 4350 2100 50  0001 C CNN
+F 1 "GNDD" H 4350 2200 50  0000 C CNN
+F 2 "" H 4350 2350 60  0000 C CNN
+F 3 "" H 4350 2350 60  0000 C CNN
+	1    4350 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDD #PWR?
+U 1 1 5551C1F2
+P 4650 2350
+F 0 "#PWR?" H 4650 2100 50  0001 C CNN
+F 1 "GNDD" H 4650 2200 50  0000 C CNN
+F 2 "" H 4650 2350 60  0000 C CNN
+F 3 "" H 4650 2350 60  0000 C CNN
+	1    4650 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 2250 4350 2350
+Wire Wire Line
+	4650 2350 4650 2250
+Wire Wire Line
+	2150 1850 3250 1850
+Wire Wire Line
+	2750 1700 2750 1950
+Connection ~ 2750 1850
+Wire Wire Line
+	3050 1950 3050 1850
+Connection ~ 3050 1850
+$Comp
+L +3.3V #PWR?
+U 1 1 5551C4DE
+P 4650 1700
+F 0 "#PWR?" H 4650 1550 50  0001 C CNN
+F 1 "+3.3V" H 4650 1840 50  0000 C CNN
+F 2 "" H 4650 1700 60  0000 C CNN
+F 3 "" H 4650 1700 60  0000 C CNN
+	1    4650 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 1850 4650 1850
+Wire Wire Line
+	4650 1700 4650 1950
+Connection ~ 4650 1850
+Wire Wire Line
+	4350 1950 4350 1850
+Connection ~ 4350 1850
+$Comp
+L GNDD #PWR?
+U 1 1 5551C60E
+P 3650 2250
+F 0 "#PWR?" H 3650 2000 50  0001 C CNN
+F 1 "GNDD" H 3650 2100 50  0000 C CNN
+F 2 "" H 3650 2250 60  0000 C CNN
+F 3 "" H 3650 2250 60  0000 C CNN
+	1    3650 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 2150 3650 2250
+$Comp
+L +9V #PWR?
+U 1 1 5551CBE7
+P 2750 1700
+F 0 "#PWR?" H 2750 1550 50  0001 C CNN
+F 1 "+9V" H 2750 1840 50  0000 C CNN
+F 2 "" H 2750 1700 60  0000 C CNN
+F 3 "" H 2750 1700 60  0000 C CNN
+	1    2750 1700
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

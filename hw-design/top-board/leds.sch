@@ -1,0 +1,271 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:top-board-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LED_RGB D?
+U 1 1 5551D0C7
+P 3000 2050
+F 0 "D?" H 3000 2500 50  0000 C CNN
+F 1 "LED_RGB" H 3000 2400 50  0000 C CNN
+F 2 "" H 3000 2000 60  0000 C CNN
+F 3 "" H 3000 2000 60  0000 C CNN
+F 4 "LTRBGFSF-ABCB-QKYO-Z" H 3000 2050 60  0001 C CNN "MPN"
+	1    3000 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5551D2F4
+P 2350 1850
+F 0 "R?" V 2300 2000 50  0000 C CNN
+F 1 "220R" V 2350 1850 50  0000 C CNN
+F 2 "" V 2280 1850 30  0000 C CNN
+F 3 "" H 2350 1850 30  0000 C CNN
+	1    2350 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5551D481
+P 2350 2050
+F 0 "R?" V 2300 2200 50  0000 C CNN
+F 1 "220R" V 2350 2050 50  0000 C CNN
+F 2 "" V 2280 2050 30  0000 C CNN
+F 3 "" H 2350 2050 30  0000 C CNN
+	1    2350 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5551D4A1
+P 2350 2250
+F 0 "R?" V 2300 2400 50  0000 C CNN
+F 1 "220R" V 2350 2250 50  0000 C CNN
+F 2 "" V 2280 2250 30  0000 C CNN
+F 3 "" H 2350 2250 30  0000 C CNN
+	1    2350 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2700 1850 2500 1850
+Wire Wire Line
+	2500 2050 2700 2050
+Wire Wire Line
+	2700 2250 2500 2250
+$Comp
+L +3.3V #PWR?
+U 1 1 5551D612
+P 3400 1700
+F 0 "#PWR?" H 3400 1550 50  0001 C CNN
+F 1 "+3.3V" H 3400 1840 50  0000 C CNN
+F 2 "" H 3400 1700 60  0000 C CNN
+F 3 "" H 3400 1700 60  0000 C CNN
+	1    3400 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 1700 3400 2250
+Wire Wire Line
+	3400 2250 3300 2250
+Wire Wire Line
+	3300 2050 3400 2050
+Connection ~ 3400 2050
+Wire Wire Line
+	3300 1850 3650 1850
+Connection ~ 3400 1850
+$Comp
+L C C?
+U 1 1 5551D701
+P 3650 2050
+F 0 "C?" H 3675 2150 50  0000 L CNN
+F 1 "100nF" H 3675 1950 50  0000 L CNN
+F 2 "" H 3688 1900 30  0000 C CNN
+F 3 "" H 3650 2050 60  0000 C CNN
+	1    3650 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 1850 3650 1900
+$Comp
+L GNDD #PWR?
+U 1 1 5551D77F
+P 3650 2250
+F 0 "#PWR?" H 3650 2000 50  0001 C CNN
+F 1 "GNDD" H 3650 2100 50  0000 C CNN
+F 2 "" H 3650 2250 60  0000 C CNN
+F 3 "" H 3650 2250 60  0000 C CNN
+	1    3650 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 2200 3650 2250
+Text GLabel 1950 1850 0    50   Input ~ 0
+LED_FS1_R
+Text GLabel 1950 2050 0    50   Input ~ 0
+LED_FS1_G
+Text GLabel 1950 2250 0    50   Input ~ 0
+LED_FS1_B
+Wire Wire Line
+	1950 1850 2200 1850
+Wire Wire Line
+	2200 2050 1950 2050
+Wire Wire Line
+	1950 2250 2200 2250
+$Comp
+L LED_RGB D?
+U 1 1 5551E569
+P 3000 3150
+F 0 "D?" H 3000 3600 50  0000 C CNN
+F 1 "LED_RGB" H 3000 3500 50  0000 C CNN
+F 2 "" H 3000 3100 60  0000 C CNN
+F 3 "" H 3000 3100 60  0000 C CNN
+F 4 "LTRBGFSF-ABCB-QKYO-Z" H 3000 3150 60  0001 C CNN "MPN"
+	1    3000 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5551E56F
+P 2350 2950
+F 0 "R?" V 2300 3100 50  0000 C CNN
+F 1 "220R" V 2350 2950 50  0000 C CNN
+F 2 "" V 2280 2950 30  0000 C CNN
+F 3 "" H 2350 2950 30  0000 C CNN
+	1    2350 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5551E575
+P 2350 3150
+F 0 "R?" V 2300 3300 50  0000 C CNN
+F 1 "220R" V 2350 3150 50  0000 C CNN
+F 2 "" V 2280 3150 30  0000 C CNN
+F 3 "" H 2350 3150 30  0000 C CNN
+	1    2350 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5551E57B
+P 2350 3350
+F 0 "R?" V 2300 3500 50  0000 C CNN
+F 1 "220R" V 2350 3350 50  0000 C CNN
+F 2 "" V 2280 3350 30  0000 C CNN
+F 3 "" H 2350 3350 30  0000 C CNN
+	1    2350 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2700 2950 2500 2950
+Wire Wire Line
+	2500 3150 2700 3150
+Wire Wire Line
+	2700 3350 2500 3350
+$Comp
+L +3.3V #PWR?
+U 1 1 5551E584
+P 3400 2800
+F 0 "#PWR?" H 3400 2650 50  0001 C CNN
+F 1 "+3.3V" H 3400 2940 50  0000 C CNN
+F 2 "" H 3400 2800 60  0000 C CNN
+F 3 "" H 3400 2800 60  0000 C CNN
+	1    3400 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 2800 3400 3350
+Wire Wire Line
+	3400 3350 3300 3350
+Wire Wire Line
+	3300 3150 3400 3150
+Connection ~ 3400 3150
+Wire Wire Line
+	3300 2950 3650 2950
+Connection ~ 3400 2950
+$Comp
+L C C?
+U 1 1 5551E590
+P 3650 3150
+F 0 "C?" H 3675 3250 50  0000 L CNN
+F 1 "100nF" H 3675 3050 50  0000 L CNN
+F 2 "" H 3688 3000 30  0000 C CNN
+F 3 "" H 3650 3150 60  0000 C CNN
+	1    3650 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 2950 3650 3000
+$Comp
+L GNDD #PWR?
+U 1 1 5551E597
+P 3650 3350
+F 0 "#PWR?" H 3650 3100 50  0001 C CNN
+F 1 "GNDD" H 3650 3200 50  0000 C CNN
+F 2 "" H 3650 3350 60  0000 C CNN
+F 3 "" H 3650 3350 60  0000 C CNN
+	1    3650 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 3300 3650 3350
+Text GLabel 1950 2950 0    50   Input ~ 0
+LED_FS2_R
+Text GLabel 1950 3150 0    50   Input ~ 0
+LED_FS2_G
+Text GLabel 1950 3350 0    50   Input ~ 0
+LED_FS2_B
+Wire Wire Line
+	1950 2950 2200 2950
+Wire Wire Line
+	2200 3150 1950 3150
+Wire Wire Line
+	1950 3350 2200 3350
+Text Notes 1450 1350 0    100  ~ 0
+FOOTSWITCH LEDS
+Wire Notes Line
+	4800 950  4800 6000
+$EndSCHEMATC
