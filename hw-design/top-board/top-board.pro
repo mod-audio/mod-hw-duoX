@@ -1,4 +1,4 @@
-update=Thu 14 May 2015 02:48:55 PM CEST
+update=Thu 14 May 2015 05:04:21 PM CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -62,3 +62,4 @@ LibName28=contrib
 LibName29=valves
 LibName30=nxp_armmcu
 LibName31=Power_Management
+LibName32=sensors
