@@ -301,13 +301,13 @@ RS422_TX+
 Text GLabel 6600 3900 2    50   Output ~ 0
 RS422_TX-
 Text GLabel 4350 3300 0    50   Output ~ 0
-UART_RX_CHAIN
+CHAIN_UART_RX
 Text GLabel 4350 3800 0    50   Input ~ 0
-UART_TX_CHAIN
+CHAIN_UART_TX
 Text GLabel 4350 4000 0    50   Input ~ 0
-UART_DE_CHAIN
+CHAIN_UART_DE
 Text GLabel 4350 3500 0    50   Input ~ 0
-UART_RE_CHAIN
+CHAIN_UART_RE
 Text GLabel 3550 2400 0    50   Output ~ 0
 RS422_TX_LED
 Text GLabel 3000 3300 0    50   Output ~ 0

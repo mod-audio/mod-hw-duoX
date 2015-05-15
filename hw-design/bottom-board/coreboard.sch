@@ -221,17 +221,13 @@ F 4 "GRM219R61E106KA12D" H 5250 -3250 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 Text GLabel 8200 5050 3    50   Input ~ 0
-UART_RX0_CLI
+CLI_UART_RX0
 Text GLabel 8300 5050 3    50   Output ~ 0
-UART_TX0_CLI
+CLI_UART_TX0
 Text GLabel 3100 2050 1    50   Input ~ 0
-UART_RX3_HMI
+HMI_UART_RX3
 Text GLabel 3200 2050 1    50   Output ~ 0
-UART_TX3_HMI
-Text GLabel 2900 2050 1    50   Output ~ 0
-UART_RTS3_HMI
-Text GLabel 3000 2050 1    50   Output ~ 0
-UART_CTS3_HMI
+HMI_UART_TX3
 Text GLabel 7000 2000 1    50   Output ~ 0
 CODEC_I2S_SDIN
 Text GLabel 7100 2000 1    50   Input ~ 0
@@ -249,13 +245,13 @@ CODEC_I2C_SCL
 Text GLabel 8400 2000 1    50   Output ~ 0
 CODEC_~RESET
 Text GLabel 9350 5100 3    50   Input ~ 0
-UART_RX_CHAIN
+CHAIN_UART_RX
 Text GLabel 9450 5100 3    50   Output ~ 0
-UART_TX_CHAIN
+CHAIN_UART_TX
 Text GLabel 1850 5050 3    50   Input ~ 0
-UART_RX4_MIDI
+MIDI_UART_RX4
 Text GLabel 1950 5050 3    50   Output ~ 0
-UART_TX4_MIDI
+MIDI_UART_TX4
 Text GLabel 9900 2050 1    50   Output ~ 0
 LEFT_GAIN_CTRL1
 Text GLabel 9800 2050 1    50   Output ~ 0
@@ -303,13 +299,13 @@ SD0_D3
 Text GLabel 3550 5050 3    50   Input ~ 0
 SD0_DETECT
 Text GLabel 2600 2000 1    50   Output ~ 0
-SPI0_MOSI_HMI
+HMI_SPI0_MOSI
 Text GLabel 2400 2000 1    50   Output ~ 0
-SPI0_CLK_HMI
+HMI_SPI0_CLK
 Text GLabel 2300 2000 1    50   Output ~ 0
-SPI0_CS0_HMI
+HMI_SPI0_CS0
 Text GLabel 2500 2000 1    50   Input ~ 0
-SPI0_MISO_HMI
+HMI_SPI0_MISO
 Text GLabel 1350 5050 3    50   Input ~ 0
 UBOOT_BUTTON
 Text GLabel 1650 6900 0    50   Output ~ 0
@@ -319,9 +315,9 @@ POWER_BUTTON
 Text GLabel 8500 2000 1    50   Input ~ 0
 CODEC_~MUTEC
 Text GLabel 9150 5100 3    50   Output ~ 0
-UART_RE_CHAIN
+CHAIN_UART_RE
 Text GLabel 9250 5100 3    50   Output ~ 0
-UART_DE_CHAIN
+CHAIN_UART_DE
 NoConn ~ 3300 2250
 NoConn ~ 3400 2250
 NoConn ~ 3500 2250
@@ -413,14 +409,10 @@ NoConn ~ 2800 2250
 NoConn ~ 2200 2250
 NoConn ~ 7650 4850
 NoConn ~ 7550 4850
-Text GLabel 7750 5050 3    50   BiDi ~ 0
-I2C_SDA_HMI
-Text GLabel 7850 5050 3    50   Output ~ 0
-I2C_SCL_HMI
 Text GLabel 8650 5100 3    50   BiDi ~ 0
-RFU_01_HMI
+HMI_RFU_01
 Text GLabel 8750 5100 3    50   BiDi ~ 0
-RFU_02_HMI
+HMI_RFU_02
 Wire Wire Line
 	600  2600 600  4650
 Wire Wire Line
@@ -685,11 +677,22 @@ NoConn ~ 6900 2250
 NoConn ~ 7050 4850
 NoConn ~ 7150 4850
 NoConn ~ 7300 4850
-NoConn ~ 7400 4850
 NoConn ~ 8900 4850
 NoConn ~ 9000 4850
 NoConn ~ 6550 4850
 NoConn ~ 6650 4850
 NoConn ~ 6800 4850
 NoConn ~ 6900 4850
+Text GLabel 7750 5050 3    50   BiDi ~ 0
+PM_LEDS_SDA
+Text GLabel 7850 5050 3    50   Output ~ 0
+PM_LEDS_SCL
+Text GLabel 7400 5050 3    50   Output ~ 0
+PM_LEDS_OE
+Wire Wire Line
+	7400 5050 7400 4850
+Text GLabel 2900 2050 1    50   Output ~ 0
+HMI_ISP_ENABLE
+Text GLabel 3000 2050 1    50   Output ~ 0
+HMI_RESET
 $EndSCHEMATC

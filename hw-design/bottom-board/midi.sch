@@ -314,13 +314,13 @@ F 3 "" H 3700 3200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 4650 3750 2    50   Output ~ 0
-UART_RX4_MIDI
+MIDI_UART_RX4
 Text Notes 1700 2950 0    100  ~ 0
 MIDI IN
 Text Notes 6150 2950 0    100  ~ 0
 MIDI OUT
 Text GLabel 8950 4150 2    50   Input ~ 0
-UART_TX4_MIDI
+MIDI_UART_TX4
 NoConn ~ 4050 3550
 NoConn ~ 6650 3350
 NoConn ~ 7450 3350
