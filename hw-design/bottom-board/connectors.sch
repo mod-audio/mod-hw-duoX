@@ -639,9 +639,9 @@ Text Notes 4600 1050 0    100  ~ 0
 SD CARD
 Text GLabel 10200 1450 2    50   Input ~ 0
 HMI_SPI0_MISO
-Text GLabel 10200 1650 2    50   Input ~ 0
+Text GLabel 10200 1650 2    50   Output ~ 0
 HMI_SPI0_CLK
-Text GLabel 10200 1750 2    50   Input ~ 0
+Text GLabel 10200 1750 2    50   Output ~ 0
 HMI_SPI0_CS0
 Text GLabel 10200 1550 2    50   Output ~ 0
 HMI_SPI0_MOSI
