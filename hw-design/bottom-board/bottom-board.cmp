@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-04 BZR 5641)-product   date = Wed 06 May 2015 12:09:21 PM CEST
+Cmp-Mod V01 Created by Cvpcb (2015-05-04 BZR 5641)-product   date = Fri 15 May 2015 04:38:33 PM CEST
 
 BeginCmp
 TimeStamp = /54F7244B/54F87BFD;
@@ -1058,6 +1058,13 @@ IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /54F72FB8/5556F9D6;
+Reference = R24;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /54F72CD0/550A851E;
 Reference = R25;
 ValeurCmp = 10k;
@@ -1068,6 +1075,13 @@ BeginCmp
 TimeStamp = /54F72CD0/55083E79;
 Reference = R26;
 ValeurCmp = 100k;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F72FB8/5556F9DC;
+Reference = R27;
+ValeurCmp = 2K7;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
@@ -1096,6 +1110,13 @@ BeginCmp
 TimeStamp = /54F72F64/5509BA8D;
 Reference = R31;
 ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F72FB8/5556DD0C;
+Reference = R32;
+ValeurCmp = 2K7;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
