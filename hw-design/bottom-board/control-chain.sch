@@ -54,7 +54,6 @@ LIBS:rfcom
 LIBS:sensors
 LIBS:silabs
 LIBS:siliconi
-LIBS:special
 LIBS:stm8
 LIBS:stm32
 LIBS:supertex
@@ -66,6 +65,8 @@ LIBS:ttl_ieee
 LIBS:valves
 LIBS:video
 LIBS:xilinx
+LIBS:ESD_Protection
+LIBS:Power_Management
 LIBS:in-circuit
 LIBS:bottom-board-cache
 EELAYER 25 0
