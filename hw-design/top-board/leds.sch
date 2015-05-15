@@ -124,12 +124,6 @@ F 3 "" H 3450 2250 60  0000 C CNN
 	1    3450 2250
 	1    0    0    -1  
 $EndComp
-Text GLabel 1750 1850 0    50   Input ~ 0
-LED_FS1_R
-Text GLabel 1750 2050 0    50   Input ~ 0
-LED_FS1_G
-Text GLabel 1750 2250 0    50   Input ~ 0
-LED_FS1_B
 $Comp
 L LED_RGB D?
 U 1 1 5551E569
@@ -208,12 +202,6 @@ F 3 "" H 3450 3350 60  0000 C CNN
 	1    3450 3350
 	1    0    0    -1  
 $EndComp
-Text GLabel 1750 2950 0    50   Input ~ 0
-LED_FS2_R
-Text GLabel 1750 3150 0    50   Input ~ 0
-LED_FS2_G
-Text GLabel 1750 3350 0    50   Input ~ 0
-LED_FS2_B
 Text Notes 1850 1350 0    100  ~ 0
 FOOTSWITCH LEDS
 $Comp
@@ -846,4 +834,16 @@ Wire Wire Line
 	7350 4450 7350 5550
 NoConn ~ 7250 4550
 NoConn ~ 7250 4150
+Text GLabel 1750 1850 0    50   Input ~ 0
+FS1_LED_R
+Text GLabel 1750 2050 0    50   Input ~ 0
+FS1_LED_G
+Text GLabel 1750 2250 0    50   Input ~ 0
+FS1_LED_B
+Text GLabel 1750 2950 0    50   Input ~ 0
+FS2_LED_R
+Text GLabel 1750 3150 0    50   Input ~ 0
+FS2_LED_G
+Text GLabel 1750 3350 0    50   Input ~ 0
+FS2_LED_B
 $EndSCHEMATC
