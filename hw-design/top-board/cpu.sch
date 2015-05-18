@@ -392,9 +392,9 @@ PM_LEDS_SCL
 Text GLabel 1700 3650 0    50   Output ~ 0
 PM_LEDS_OE
 Text GLabel 5350 3250 0    50   Output ~ 0
-UART_RX3_HMI
+HMI_UART_RX3
 Text GLabel 5350 3350 0    50   Input ~ 0
-UART_TX3_HMI
+HMI_UART_TX3
 Text GLabel 8850 5150 2    50   Input ~ 0
 HMI_ISP_ENABLE
 $Comp
