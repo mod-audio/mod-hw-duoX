@@ -53,16 +53,16 @@ F0 "power" 60
 F1 "power.sch" 60
 $EndSheet
 $Sheet
-S 1000 2200 2150 450 
-U 5550E03C
-F0 "display" 60
-F1 "display.sch" 60
-$EndSheet
-$Sheet
 S 1000 1500 2150 450 
 U 5550E0EB
 F0 "cpu" 60
 F1 "cpu.sch" 60
+$EndSheet
+$Sheet
+S 1000 2200 2150 450 
+U 5550E03C
+F0 "display" 60
+F1 "display.sch" 60
 $EndSheet
 $Sheet
 S 1000 2900 2150 450 
