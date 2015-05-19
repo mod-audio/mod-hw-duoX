@@ -318,101 +318,20 @@ Text GLabel 9150 5100 3    50   Output ~ 0
 CHAIN_UART_RE
 Text GLabel 9250 5100 3    50   Output ~ 0
 CHAIN_UART_DE
-NoConn ~ 3300 2250
-NoConn ~ 3400 2250
-NoConn ~ 3500 2250
-NoConn ~ 3600 2250
-NoConn ~ 3750 2250
-NoConn ~ 3850 2250
-NoConn ~ 4000 2250
-NoConn ~ 4100 2250
-NoConn ~ 4250 2250
-NoConn ~ 4350 2250
-NoConn ~ 4500 2250
-NoConn ~ 4600 2250
-NoConn ~ 4700 2250
-NoConn ~ 4800 2250
-NoConn ~ 4950 2250
-NoConn ~ 5050 2250
-NoConn ~ 5150 2250
-NoConn ~ 5250 2250
-NoConn ~ 5150 4850
-NoConn ~ 5250 4850
-NoConn ~ 5400 4850
-NoConn ~ 5500 4850
-NoConn ~ 4950 4850
-NoConn ~ 5050 4850
-NoConn ~ 5650 4850
-NoConn ~ 5750 4850
-NoConn ~ 5900 4850
-NoConn ~ 6000 4850
-NoConn ~ 6150 4850
-NoConn ~ 6250 4850
-NoConn ~ 6350 4850
-NoConn ~ 6450 4850
-NoConn ~ 1350 2250
-NoConn ~ 1450 2250
-NoConn ~ 1600 2250
-NoConn ~ 1700 2250
-NoConn ~ 1850 2250
-NoConn ~ 1950 2250
-NoConn ~ 2100 2250
-NoConn ~ 9550 4850
-NoConn ~ 9650 4850
-NoConn ~ 9750 4850
-NoConn ~ 9850 4850
-NoConn ~ 6450 2250
-NoConn ~ 6350 2250
-NoConn ~ 6200 2250
-NoConn ~ 6100 2250
-NoConn ~ 5950 2250
-NoConn ~ 5850 2250
-NoConn ~ 5700 2250
-NoConn ~ 5600 2250
-NoConn ~ 5450 2250
-NoConn ~ 5350 2250
-NoConn ~ 7550 2250
-NoConn ~ 7650 2250
-NoConn ~ 7750 2250
-NoConn ~ 7850 2250
-NoConn ~ 8000 2250
-NoConn ~ 8100 2250
-NoConn ~ 8600 2250
-NoConn ~ 8700 2250
-NoConn ~ 8800 2250
-NoConn ~ 8900 2250
-NoConn ~ 9000 2250
-NoConn ~ 9100 2250
-NoConn ~ 9200 2250
-NoConn ~ 9300 2250
-NoConn ~ 9400 2250
-NoConn ~ 9500 2250
-NoConn ~ 10100 2250
-NoConn ~ 10000 2250
-NoConn ~ 10300 4850
-NoConn ~ 8500 4850
-NoConn ~ 8400 4850
-NoConn ~ 3450 4850
-NoConn ~ 3350 4850
-NoConn ~ 3250 4850
-NoConn ~ 3150 4850
-NoConn ~ 3050 4850
-NoConn ~ 2950 4850
-NoConn ~ 2850 4850
-NoConn ~ 2750 4850
-NoConn ~ 2650 4850
-NoConn ~ 2150 4850
-NoConn ~ 2050 4850
-NoConn ~ 1750 4850
-NoConn ~ 1500 4850
-NoConn ~ 2800 2250
-NoConn ~ 2200 2250
-NoConn ~ 7650 4850
-NoConn ~ 7550 4850
 Text GLabel 8650 5100 3    50   BiDi ~ 0
 HMI_RFU_01
 Text GLabel 8750 5100 3    50   BiDi ~ 0
 HMI_RFU_02
+Text GLabel 7750 5050 3    50   BiDi ~ 0
+PM_LEDS_SDA
+Text GLabel 7850 5050 3    50   Output ~ 0
+PM_LEDS_SCL
+Text GLabel 7400 5050 3    50   Output ~ 0
+PM_LEDS_OE
+Text GLabel 2900 2050 1    50   Output ~ 0
+HMI_ISP_ENABLE
+Text GLabel 3000 2050 1    50   Output ~ 0
+HMI_RESET
 Wire Wire Line
 	600  2600 600  4650
 Wire Wire Line
@@ -621,6 +540,16 @@ Wire Wire Line
 	9600 2250 9600 2050
 Wire Wire Line
 	9700 2250 9700 2050
+Wire Wire Line
+	7750 4850 7750 5050
+Wire Wire Line
+	7850 5050 7850 4850
+Wire Wire Line
+	8650 5100 8650 4850
+Wire Wire Line
+	8750 4850 8750 5100
+Wire Wire Line
+	7400 5050 7400 4850
 Connection ~ 600  2700
 Connection ~ 600  2800
 Connection ~ 600  2900
@@ -662,14 +591,97 @@ Connection ~ 10350 2150
 Connection ~ 10350 1950
 Connection ~ 10550 1950
 Connection ~ 1750 6900
-Wire Wire Line
-	7750 4850 7750 5050
-Wire Wire Line
-	7850 5050 7850 4850
-Wire Wire Line
-	8650 5100 8650 4850
-Wire Wire Line
-	8750 4850 8750 5100
+NoConn ~ 3300 2250
+NoConn ~ 3400 2250
+NoConn ~ 3500 2250
+NoConn ~ 3600 2250
+NoConn ~ 3750 2250
+NoConn ~ 3850 2250
+NoConn ~ 4000 2250
+NoConn ~ 4100 2250
+NoConn ~ 4250 2250
+NoConn ~ 4350 2250
+NoConn ~ 4500 2250
+NoConn ~ 4600 2250
+NoConn ~ 4700 2250
+NoConn ~ 4800 2250
+NoConn ~ 4950 2250
+NoConn ~ 5050 2250
+NoConn ~ 5150 2250
+NoConn ~ 5250 2250
+NoConn ~ 5150 4850
+NoConn ~ 5250 4850
+NoConn ~ 5400 4850
+NoConn ~ 5500 4850
+NoConn ~ 4950 4850
+NoConn ~ 5050 4850
+NoConn ~ 5650 4850
+NoConn ~ 5750 4850
+NoConn ~ 5900 4850
+NoConn ~ 6000 4850
+NoConn ~ 6150 4850
+NoConn ~ 6250 4850
+NoConn ~ 6350 4850
+NoConn ~ 6450 4850
+NoConn ~ 1350 2250
+NoConn ~ 1450 2250
+NoConn ~ 1600 2250
+NoConn ~ 1700 2250
+NoConn ~ 1850 2250
+NoConn ~ 1950 2250
+NoConn ~ 2100 2250
+NoConn ~ 9550 4850
+NoConn ~ 9650 4850
+NoConn ~ 9750 4850
+NoConn ~ 9850 4850
+NoConn ~ 6450 2250
+NoConn ~ 6350 2250
+NoConn ~ 6200 2250
+NoConn ~ 6100 2250
+NoConn ~ 5950 2250
+NoConn ~ 5850 2250
+NoConn ~ 5700 2250
+NoConn ~ 5600 2250
+NoConn ~ 5450 2250
+NoConn ~ 5350 2250
+NoConn ~ 7550 2250
+NoConn ~ 7650 2250
+NoConn ~ 7750 2250
+NoConn ~ 7850 2250
+NoConn ~ 8000 2250
+NoConn ~ 8100 2250
+NoConn ~ 8600 2250
+NoConn ~ 8700 2250
+NoConn ~ 8800 2250
+NoConn ~ 8900 2250
+NoConn ~ 9000 2250
+NoConn ~ 9100 2250
+NoConn ~ 9200 2250
+NoConn ~ 9300 2250
+NoConn ~ 9400 2250
+NoConn ~ 9500 2250
+NoConn ~ 10100 2250
+NoConn ~ 10000 2250
+NoConn ~ 10300 4850
+NoConn ~ 8500 4850
+NoConn ~ 8400 4850
+NoConn ~ 3450 4850
+NoConn ~ 3350 4850
+NoConn ~ 3250 4850
+NoConn ~ 3150 4850
+NoConn ~ 3050 4850
+NoConn ~ 2950 4850
+NoConn ~ 2850 4850
+NoConn ~ 2750 4850
+NoConn ~ 2650 4850
+NoConn ~ 2150 4850
+NoConn ~ 2050 4850
+NoConn ~ 1750 4850
+NoConn ~ 1500 4850
+NoConn ~ 2800 2250
+NoConn ~ 2200 2250
+NoConn ~ 7650 4850
+NoConn ~ 7550 4850
 NoConn ~ 6550 2250
 NoConn ~ 6700 2250
 NoConn ~ 6800 2250
@@ -683,16 +695,4 @@ NoConn ~ 6550 4850
 NoConn ~ 6650 4850
 NoConn ~ 6800 4850
 NoConn ~ 6900 4850
-Text GLabel 7750 5050 3    50   BiDi ~ 0
-PM_LEDS_SDA
-Text GLabel 7850 5050 3    50   Output ~ 0
-PM_LEDS_SCL
-Text GLabel 7400 5050 3    50   Output ~ 0
-PM_LEDS_OE
-Wire Wire Line
-	7400 5050 7400 4850
-Text GLabel 2900 2050 1    50   Output ~ 0
-HMI_ISP_ENABLE
-Text GLabel 3000 2050 1    50   Output ~ 0
-HMI_RESET
 $EndSCHEMATC

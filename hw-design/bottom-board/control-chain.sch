@@ -292,26 +292,6 @@ F 3 "" H 3200 2900 60  0000 C CNN
 	1    3200 2900
 	1    0    0    -1  
 $EndComp
-Text GLabel 6950 3150 2    50   Input ~ 0
-RS422_RX+
-Text GLabel 6950 3450 2    50   Input ~ 0
-RS422_RX-
-Text GLabel 6600 3700 2    50   Output ~ 0
-RS422_TX+
-Text GLabel 6600 3900 2    50   Output ~ 0
-RS422_TX-
-Text GLabel 4350 3300 0    50   Output ~ 0
-CHAIN_UART_RX
-Text GLabel 4350 3800 0    50   Input ~ 0
-CHAIN_UART_TX
-Text GLabel 4350 4000 0    50   Input ~ 0
-CHAIN_UART_DE
-Text GLabel 4350 3500 0    50   Input ~ 0
-CHAIN_UART_RE
-Text GLabel 3550 2400 0    50   Output ~ 0
-RS422_TX_LED
-Text GLabel 3000 3300 0    50   Output ~ 0
-RS422_RX_LED
 $Comp
 L Q_NMOS_GSD Q14
 U 1 1 55501E9F
@@ -340,6 +320,26 @@ F 4 "2N7002P,215" H 3300 3650 60  0001 C CNN "MPN"
 	1    3300 3650
 	-1   0    0    -1  
 $EndComp
+Text GLabel 6950 3150 2    50   Input ~ 0
+RS422_RX+
+Text GLabel 6950 3450 2    50   Input ~ 0
+RS422_RX-
+Text GLabel 6600 3700 2    50   Output ~ 0
+RS422_TX+
+Text GLabel 6600 3900 2    50   Output ~ 0
+RS422_TX-
+Text GLabel 4350 3300 0    50   Output ~ 0
+CHAIN_UART_RX
+Text GLabel 4350 3800 0    50   Input ~ 0
+CHAIN_UART_TX
+Text GLabel 4350 4000 0    50   Input ~ 0
+CHAIN_UART_DE
+Text GLabel 4350 3500 0    50   Input ~ 0
+CHAIN_UART_RE
+Text GLabel 3550 2400 0    50   Output ~ 0
+RS422_TX_LED
+Text GLabel 3000 3300 0    50   Output ~ 0
+RS422_RX_LED
 Wire Wire Line
 	4750 3300 4900 3300
 Wire Wire Line
@@ -414,6 +414,12 @@ Wire Wire Line
 	3750 2000 3750 2050
 Wire Wire Line
 	3200 2900 3200 2950
+Wire Wire Line
+	4800 3650 4800 3800
+Wire Wire Line
+	4350 3500 4900 3500
+Wire Wire Line
+	4350 4000 4900 4000
 Connection ~ 5300 2750
 Connection ~ 5200 2750
 Connection ~ 5500 4400
@@ -422,11 +428,5 @@ Connection ~ 6650 3150
 Connection ~ 3750 2400
 Connection ~ 4450 3300
 Connection ~ 3200 3300
-Wire Wire Line
-	4800 3650 4800 3800
 Connection ~ 4800 3800
-Wire Wire Line
-	4350 3500 4900 3500
-Wire Wire Line
-	4350 4000 4900 4000
 $EndSCHEMATC
