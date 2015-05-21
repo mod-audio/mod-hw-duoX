@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-18 BZR 5668)-product   date = Thu 21 May 2015 05:45:47 PM CEST
+Cmp-Mod V01 Created by Cvpcb (2015-05-18 BZR 5668)-product   date = Thu 21 May 2015 06:40:45 PM CEST
 
 BeginCmp
 TimeStamp = /5550DDF1/5551BAB9;
@@ -417,14 +417,14 @@ BeginCmp
 TimeStamp = /5550E03C/555517B2;
 Reference = P2;
 ValeurCmp = BACKLIGHT;
-IdModule  = footprints:SMD_Pin_Header_Angled_2x01_Pitch2mm;
+IdModule  = Pin_Headers:SMD_Pin_Header_Angled_2x01_Pitch2.00mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /5550E03C/55557460;
 Reference = P3;
 ValeurCmp = BACKLIGHT;
-IdModule  = ;
+IdModule  = Pin_Headers:SMD_Pin_Header_Angled_2x01_Pitch2.00mm;
 EndCmp
 
 BeginCmp
