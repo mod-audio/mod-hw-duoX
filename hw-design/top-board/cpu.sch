@@ -676,17 +676,17 @@ Text GLabel 5350 4150 0    50   Input ~ 0
 CLI_UART_TX0
 Text GLabel 5350 4050 0    50   Output ~ 0
 CLI_UART_RX0
-Text GLabel 5350 4650 0    50   Input ~ 0
-ENC1_B
-Text GLabel 5350 4550 0    50   Input ~ 0
-ENC1_A
-Text GLabel 5350 4850 0    50   Input ~ 0
-ENC2_B
-Text GLabel 5350 4750 0    50   Input ~ 0
-ENC2_A
 Text GLabel 5350 4350 0    50   Input ~ 0
-ENC1_SW
+ENC1_B
 Text GLabel 5350 4450 0    50   Input ~ 0
+ENC1_A
+Text GLabel 5350 4550 0    50   Input ~ 0
+ENC2_B
+Text GLabel 5350 4650 0    50   Input ~ 0
+ENC2_A
+Text GLabel 5350 4250 0    50   Input ~ 0
+ENC1_SW
+Text GLabel 8050 3950 2    50   Input ~ 0
 ENC2_SW
 Text GLabel 8050 4750 2    50   Input ~ 0
 FS1
@@ -728,7 +728,7 @@ Text GLabel 5400 2750 0    50   Input ~ 0
 RESET
 Text Notes 1200 850  0    100  ~ 0
 RESET
-Text GLabel 8050 3950 2    50   Output ~ 0
+Text GLabel 8050 2150 2    50   Output ~ 0
 ENABLE_RESET
 Text GLabel 2450 6200 2    50   Output ~ 0
 JTAG_TMS_SDWIO
@@ -746,7 +746,7 @@ Text GLabel 1750 6300 0    50   Input ~ 0
 SPI0_CLK_HMI
 Text GLabel 1750 6200 0    50   Input ~ 0
 SPI0_CS0_HMI
-Text GLabel 8050 3850 2    50   Output ~ 0
+Text GLabel 8050 2050 2    50   Output ~ 0
 POWER_BUTTON
 Wire Wire Line
 	7000 6150 7000 6300
@@ -987,21 +987,21 @@ Wire Wire Line
 Wire Wire Line
 	8050 4850 7900 4850
 Wire Wire Line
-	5350 4350 5500 4350
+	5350 4250 5500 4250
 Wire Wire Line
-	5500 4450 5350 4450
+	7900 3950 8050 3950
 Wire Wire Line
 	7900 3350 8050 3350
 Wire Wire Line
 	8050 3050 7900 3050
 Wire Wire Line
-	5350 4550 5500 4550
+	5350 4450 5500 4450
+Wire Wire Line
+	5350 4350 5500 4350
 Wire Wire Line
 	5350 4650 5500 4650
 Wire Wire Line
-	5350 4750 5500 4750
-Wire Wire Line
-	5350 4850 5500 4850
+	5350 4550 5500 4550
 Wire Wire Line
 	7900 2850 8050 2850
 Wire Wire Line
@@ -1059,7 +1059,7 @@ Wire Notes Line
 Wire Notes Line
 	1000 650  1000 2400
 Wire Wire Line
-	8050 3950 7900 3950
+	8050 2150 7900 2150
 Wire Wire Line
 	1750 1750 1750 1650
 Wire Wire Line
@@ -1085,7 +1085,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 6400 2450 6400
 Wire Wire Line
-	8050 3850 7900 3850
+	8050 2050 7900 2050
 Connection ~ 6300 6250
 Connection ~ 6400 6250
 Connection ~ 6500 6250
@@ -1129,7 +1129,6 @@ NoConn ~ 5500 2850
 NoConn ~ 5500 2450
 NoConn ~ 1450 5250
 NoConn ~ 1450 5550
-NoConn ~ 5500 4250
 NoConn ~ 5500 3950
 NoConn ~ 5500 3850
 NoConn ~ 7900 5450
@@ -1144,6 +1143,7 @@ NoConn ~ 7900 2550
 NoConn ~ 7900 2450
 NoConn ~ 7900 2350
 NoConn ~ 7900 2250
-NoConn ~ 7900 2150
-NoConn ~ 7900 2050
+NoConn ~ 7900 3850
+NoConn ~ 5500 4750
+NoConn ~ 5500 4850
 $EndSCHEMATC
