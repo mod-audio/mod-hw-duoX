@@ -347,13 +347,13 @@ $EndComp
 $Comp
 L CONN_02X10 P4
 U 1 1 5555C389
-P 2150 3400
-F 0 "P4" H 2150 3950 50  0000 C CNN
-F 1 "BOTTOM_CONN" V 2150 3400 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x10" H 2150 2200 60  0001 C CNN
-F 3 "" H 2150 2200 60  0000 C CNN
-F 4 "SBH11-PBPC-D10-ST-BK" H 0   0   50  0001 C CNN "MPN"
-	1    2150 3400
+P 2200 3400
+F 0 "P4" H 2200 3950 50  0000 C CNN
+F 1 "BOTTOM_CONN" V 2200 3400 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x10" H 2200 2200 60  0001 C CNN
+F 3 "" H 2200 2200 60  0000 C CNN
+F 4 "SBH11-PBPC-D10-ST-BK" H 50  0   50  0001 C CNN "MPN"
+	1    2200 3400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -463,23 +463,23 @@ $EndComp
 $Comp
 L GNDD #PWR031
 U 1 1 5557BBA5
-P 2500 3950
-F 0 "#PWR031" H 2500 3700 50  0001 C CNN
-F 1 "GNDD" H 2500 3800 50  0000 C CNN
-F 2 "" H 2500 3950 60  0000 C CNN
-F 3 "" H 2500 3950 60  0000 C CNN
-	1    2500 3950
+P 2550 3950
+F 0 "#PWR031" H 2550 3700 50  0001 C CNN
+F 1 "GNDD" H 2550 3800 50  0000 C CNN
+F 2 "" H 2550 3950 60  0000 C CNN
+F 3 "" H 2550 3950 60  0000 C CNN
+	1    2550 3950
 	1    0    0    -1  
 $EndComp
 $Comp
 L GNDD #PWR032
 U 1 1 5557C69D
-P 1800 3950
-F 0 "#PWR032" H 1800 3700 50  0001 C CNN
-F 1 "GNDD" H 1800 3800 50  0000 C CNN
-F 2 "" H 1800 3950 60  0000 C CNN
-F 3 "" H 1800 3950 60  0000 C CNN
-	1    1800 3950
+P 1850 3950
+F 0 "#PWR032" H 1850 3700 50  0001 C CNN
+F 1 "GNDD" H 1850 3800 50  0000 C CNN
+F 2 "" H 1850 3950 60  0000 C CNN
+F 3 "" H 1850 3950 60  0000 C CNN
+	1    1850 3950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -598,31 +598,31 @@ F 3 "" H 2350 2100 60  0000 C CNN
 	1    2350 2100
 	1    0    0    -1  
 $EndComp
-Text GLabel 1700 2950 0    50   BiDi ~ 0
-HMI_RFU_02
-Text GLabel 1700 3050 0    50   BiDi ~ 0
-HMI_RFU_01
-Text GLabel 1700 3250 0    50   Output ~ 0
+Text GLabel 1750 2950 0    50   BiDi ~ 0
+HMI_RFU_02(TX)
+Text GLabel 1750 3050 0    50   BiDi ~ 0
+HMI_RFU_01(RX)
+Text GLabel 1750 3250 0    50   Output ~ 0
 CLI_UART_TX0
-Text GLabel 1700 3350 0    50   Input ~ 0
+Text GLabel 1750 3350 0    50   Input ~ 0
 CLI_UART_RX0
-Text GLabel 1700 3550 0    50   Input ~ 0
+Text GLabel 1750 3550 0    50   Input ~ 0
 POWER_BUTTON
-Text GLabel 2600 3050 2    50   Input ~ 0
+Text GLabel 2650 3050 2    50   Input ~ 0
 SPI0_MISO_HMI
-Text GLabel 2600 3150 2    50   Output ~ 0
+Text GLabel 2650 3150 2    50   Output ~ 0
 SPI0_MOSI_HMI
-Text GLabel 2600 3250 2    50   Output ~ 0
+Text GLabel 2650 3250 2    50   Output ~ 0
 SPI0_CLK_HMI
-Text GLabel 2600 3350 2    50   Output ~ 0
+Text GLabel 2650 3350 2    50   Output ~ 0
 SPI0_CS0_HMI
-Text GLabel 2600 3550 2    50   Input ~ 0
+Text GLabel 2650 3550 2    50   Input ~ 0
 HMI_UART_RX3
-Text GLabel 2600 3650 2    50   Output ~ 0
+Text GLabel 2650 3650 2    50   Output ~ 0
 HMI_UART_TX3
-Text GLabel 2600 3750 2    50   Output ~ 0
+Text GLabel 2650 3750 2    50   Output ~ 0
 HMI_RESET
-Text GLabel 2600 3850 2    50   Output ~ 0
+Text GLabel 2650 3850 2    50   Output ~ 0
 HMI_ISP_ENABLE
 Text GLabel 8050 4150 2    50   Output ~ 0
 FS1_LED_R
@@ -636,11 +636,11 @@ Text GLabel 8050 4550 2    50   Output ~ 0
 FS2_LED_G
 Text GLabel 8050 4650 2    50   Output ~ 0
 FS2_LED_B
-Text GLabel 1700 3850 0    50   BiDi ~ 0
+Text GLabel 1750 3850 0    50   BiDi ~ 0
 PM_LEDS_SDA
-Text GLabel 1700 3750 0    50   Output ~ 0
+Text GLabel 1750 3750 0    50   Output ~ 0
 PM_LEDS_SCL
-Text GLabel 1700 3650 0    50   Output ~ 0
+Text GLabel 1750 3650 0    50   Output ~ 0
 PM_LEDS_OE
 Text GLabel 5350 3250 0    50   Output ~ 0
 HMI_UART_RX3
@@ -668,13 +668,13 @@ Text GLabel 5400 2250 0    50   Input ~ 0
 JTAG_TDI
 Text Notes 1150 4550 0    100  ~ 0
 JTAG
-Text GLabel 5350 4150 0    50   BiDi ~ 0
-HMI_RFU_02
-Text GLabel 5350 4050 0    50   BiDi ~ 0
-HMI_RFU_01
-Text GLabel 5350 3150 0    50   Input ~ 0
+Text GLabel 5350 3150 0    50   BiDi ~ 0
+HMI_RFU_02(TX)
+Text GLabel 5350 3050 0    50   BiDi ~ 0
+HMI_RFU_01(RX)
+Text GLabel 5350 4150 0    50   Input ~ 0
 CLI_UART_TX0
-Text GLabel 5350 3050 0    50   Output ~ 0
+Text GLabel 5350 4050 0    50   Output ~ 0
 CLI_UART_RX0
 Text GLabel 5350 4650 0    50   Input ~ 0
 ENC1_B
@@ -734,13 +734,13 @@ Text GLabel 2450 6200 2    50   Output ~ 0
 JTAG_TMS_SDWIO
 Text GLabel 2450 6300 2    50   Output ~ 0
 JTAG_TCK_SWDCLK
-Text GLabel 2450 6400 2    50   Input ~ 0
+Text GLabel 2450 6500 2    50   Input ~ 0
 JTAG_TDO_SWO
-Text GLabel 2450 6500 2    50   Output ~ 0
+Text GLabel 2450 6400 2    50   Output ~ 0
 JTAG_TDI
-Text GLabel 1750 6400 0    50   Output ~ 0
+Text GLabel 1750 6500 0    50   Output ~ 0
 SPI0_MISO_HMI
-Text GLabel 1750 6500 0    50   Input ~ 0
+Text GLabel 1750 6400 0    50   Input ~ 0
 SPI0_MOSI_HMI
 Text GLabel 1750 6300 0    50   Input ~ 0
 SPI0_CLK_HMI
@@ -871,21 +871,21 @@ Wire Wire Line
 Wire Wire Line
 	8050 4650 7900 4650
 Wire Wire Line
-	1900 3750 1700 3750
+	1950 3750 1750 3750
 Wire Wire Line
-	1700 3850 1900 3850
+	1750 3850 1950 3850
 Wire Wire Line
 	5500 3250 5350 3250
 Wire Wire Line
 	5500 3350 5350 3350
 Wire Wire Line
-	2400 3550 2600 3550
+	2450 3550 2650 3550
 Wire Wire Line
-	2600 3650 2400 3650
+	2650 3650 2450 3650
 Wire Wire Line
-	2400 3750 2600 3750
+	2450 3750 2650 3750
 Wire Wire Line
-	2600 3850 2400 3850
+	2650 3850 2450 3850
 Wire Wire Line
 	7900 5150 8850 5150
 Wire Wire Line
@@ -943,45 +943,45 @@ Wire Notes Line
 Wire Notes Line
 	3350 4350 1000 4350
 Wire Wire Line
-	1700 3250 1900 3250
+	1750 3250 1950 3250
 Wire Wire Line
-	1700 3350 1900 3350
+	1750 3350 1950 3350
 Wire Wire Line
-	1700 2950 1900 2950
+	1750 2950 1950 2950
 Wire Wire Line
-	1900 3050 1700 3050
+	1950 3050 1750 3050
 Wire Wire Line
-	1700 3550 1900 3550
+	1750 3550 1950 3550
 Wire Wire Line
-	1700 3650 1900 3650
+	1750 3650 1950 3650
 Wire Wire Line
-	2400 3050 2600 3050
+	2450 3050 2650 3050
 Wire Wire Line
-	2600 3150 2400 3150
+	2650 3150 2450 3150
 Wire Wire Line
-	2400 3250 2600 3250
+	2450 3250 2650 3250
 Wire Wire Line
-	2600 3350 2400 3350
+	2650 3350 2450 3350
 Wire Wire Line
-	2400 2950 2500 2950
+	2450 2950 2550 2950
 Wire Wire Line
-	2500 2950 2500 3950
+	2550 2950 2550 3950
 Wire Wire Line
-	2400 3450 2500 3450
+	2450 3450 2550 3450
 Wire Wire Line
-	1900 3150 1800 3150
+	1950 3150 1850 3150
 Wire Wire Line
-	1800 3150 1800 3950
+	1850 3150 1850 3950
 Wire Wire Line
-	1900 3450 1800 3450
-Wire Wire Line
-	5350 3050 5500 3050
-Wire Wire Line
-	5500 3150 5350 3150
+	1950 3450 1850 3450
 Wire Wire Line
 	5350 4050 5500 4050
 Wire Wire Line
 	5500 4150 5350 4150
+Wire Wire Line
+	5350 3050 5500 3050
+Wire Wire Line
+	5500 3150 5350 3150
 Wire Wire Line
 	8050 4750 7900 4750
 Wire Wire Line
@@ -1075,15 +1075,15 @@ Wire Wire Line
 Wire Wire Line
 	1750 6300 1850 6300
 Wire Wire Line
-	1750 6400 1850 6400
-Wire Wire Line
 	1750 6500 1850 6500
+Wire Wire Line
+	1750 6400 1850 6400
 Wire Wire Line
 	2350 6300 2450 6300
 Wire Wire Line
-	2350 6400 2450 6400
-Wire Wire Line
 	2350 6500 2450 6500
+Wire Wire Line
+	2350 6400 2450 6400
 Wire Wire Line
 	8050 3850 7900 3850
 Connection ~ 6300 6250
@@ -1119,8 +1119,8 @@ Connection ~ 2350 5550
 Connection ~ 2150 4750
 Connection ~ 2250 4750
 Connection ~ 2050 4750
-Connection ~ 2500 3450
-Connection ~ 1800 3450
+Connection ~ 2550 3450
+Connection ~ 1850 3450
 Connection ~ 3150 1550
 Connection ~ 1750 1650
 NoConn ~ 5500 5350
