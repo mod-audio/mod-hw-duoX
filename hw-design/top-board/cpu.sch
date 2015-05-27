@@ -688,9 +688,9 @@ Text GLabel 5350 4250 0    50   Input ~ 0
 ENC1_SW
 Text GLabel 8050 3950 2    50   Input ~ 0
 ENC2_SW
-Text GLabel 8050 4750 2    50   Input ~ 0
+Text GLabel 8050 2950 2    50   Input ~ 0
 FS1
-Text GLabel 8050 4850 2    50   Input ~ 0
+Text GLabel 8050 2850 2    50   Input ~ 0
 FS2
 Text GLabel 8050 3350 2    50   Output ~ 0
 GLCD_SI
@@ -698,11 +698,11 @@ Text GLabel 8050 3050 2    50   Output ~ 0
 GLCD_SCL
 Text GLabel 8050 3150 2    50   Output ~ 0
 GLCD_A0
-Text GLabel 8050 2950 2    50   Output ~ 0
+Text GLabel 5350 3850 0    50   Output ~ 0
 GLCD2_CS
 Text GLabel 8050 3450 2    50   Output ~ 0
 GLCD_RESET
-Text GLabel 8050 2850 2    50   Output ~ 0
+Text GLabel 5350 3950 0    50   Output ~ 0
 GLCD1_CS
 Text GLabel 5350 3750 0    50   Output ~ 0
 SPI0_MISO_HMI
@@ -983,9 +983,9 @@ Wire Wire Line
 Wire Wire Line
 	5500 3150 5350 3150
 Wire Wire Line
-	8050 4750 7900 4750
+	8050 2950 7900 2950
 Wire Wire Line
-	8050 4850 7900 4850
+	8050 2850 7900 2850
 Wire Wire Line
 	5350 4250 5500 4250
 Wire Wire Line
@@ -1003,9 +1003,9 @@ Wire Wire Line
 Wire Wire Line
 	5350 4550 5500 4550
 Wire Wire Line
-	7900 2850 8050 2850
+	5500 3950 5350 3950
 Wire Wire Line
-	8050 2950 7900 2950
+	5350 3850 5500 3850
 Wire Wire Line
 	8050 3150 7900 3150
 Wire Wire Line
@@ -1129,8 +1129,6 @@ NoConn ~ 5500 2850
 NoConn ~ 5500 2450
 NoConn ~ 1450 5250
 NoConn ~ 1450 5550
-NoConn ~ 5500 3950
-NoConn ~ 5500 3850
 NoConn ~ 7900 5450
 NoConn ~ 7900 5350
 NoConn ~ 7900 5050
@@ -1146,4 +1144,6 @@ NoConn ~ 7900 2250
 NoConn ~ 7900 3850
 NoConn ~ 5500 4750
 NoConn ~ 5500 4850
+NoConn ~ 7900 4850
+NoConn ~ 7900 4750
 $EndSCHEMATC
