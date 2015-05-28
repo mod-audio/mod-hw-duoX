@@ -624,17 +624,17 @@ Text GLabel 2650 3750 2    50   Output ~ 0
 HMI_RESET
 Text GLabel 2650 3850 2    50   Output ~ 0
 HMI_ISP_ENABLE
-Text GLabel 8050 4150 2    50   Output ~ 0
+Text GLabel 8050 4350 2    50   Output ~ 0
 FS1_LED_R
 Text GLabel 8050 4250 2    50   Output ~ 0
 FS1_LED_G
-Text GLabel 8050 4350 2    50   Output ~ 0
+Text GLabel 8050 4150 2    50   Output ~ 0
 FS1_LED_B
-Text GLabel 8050 4450 2    50   Output ~ 0
+Text GLabel 8050 4650 2    50   Output ~ 0
 FS2_LED_R
 Text GLabel 8050 4550 2    50   Output ~ 0
 FS2_LED_G
-Text GLabel 8050 4650 2    50   Output ~ 0
+Text GLabel 8050 4450 2    50   Output ~ 0
 FS2_LED_B
 Text GLabel 1750 3850 0    50   BiDi ~ 0
 PM_LEDS_SDA
@@ -712,9 +712,9 @@ Text GLabel 5350 3550 0    50   Input ~ 0
 SPI0_CLK_HMI
 Text GLabel 5350 3450 0    50   Input ~ 0
 SPI0_CS0_HMI
-Text GLabel 8050 3550 2    50   Output ~ 0
-GLCD1_BL
 Text GLabel 8050 3650 2    50   Output ~ 0
+GLCD1_BL
+Text GLabel 8050 3550 2    50   Output ~ 0
 GLCD2_BL
 Text Notes 1150 2750 0    100  ~ 0
 Bottom Interface
@@ -859,17 +859,17 @@ Wire Wire Line
 Wire Wire Line
 	5250 5000 5250 4950
 Wire Wire Line
-	7900 4150 8050 4150
+	7900 4350 8050 4350
 Wire Wire Line
 	8050 4250 7900 4250
 Wire Wire Line
-	7900 4350 8050 4350
+	7900 4150 8050 4150
 Wire Wire Line
-	8050 4450 7900 4450
+	8050 4650 7900 4650
 Wire Wire Line
 	7900 4550 8050 4550
 Wire Wire Line
-	8050 4650 7900 4650
+	8050 4450 7900 4450
 Wire Wire Line
 	1950 3750 1750 3750
 Wire Wire Line
@@ -1019,9 +1019,9 @@ Wire Wire Line
 Wire Wire Line
 	5350 3450 5500 3450
 Wire Wire Line
-	7900 3550 8050 3550
+	7900 3650 8050 3650
 Wire Wire Line
-	8050 3650 7900 3650
+	8050 3550 7900 3550
 Wire Notes Line
 	1000 4200 3350 4200
 Wire Notes Line
