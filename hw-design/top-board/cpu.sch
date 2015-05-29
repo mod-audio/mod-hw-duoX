@@ -728,7 +728,7 @@ Text GLabel 5400 2750 0    50   Input ~ 0
 RESET
 Text Notes 1200 850  0    100  ~ 0
 RESET
-Text GLabel 8050 3850 2    50   Output ~ 0
+Text GLabel 5350 4850 0    50   Output ~ 0
 ENABLE_RESET
 Text GLabel 2450 6200 2    50   Output ~ 0
 JTAG_TMS_SDWIO
@@ -1059,7 +1059,7 @@ Wire Notes Line
 Wire Notes Line
 	1000 650  1000 2400
 Wire Wire Line
-	8050 3850 7900 3850
+	5350 4850 5500 4850
 Wire Wire Line
 	1750 1750 1750 1650
 Wire Wire Line
@@ -1142,8 +1142,8 @@ NoConn ~ 7900 2450
 NoConn ~ 7900 2350
 NoConn ~ 7900 2250
 NoConn ~ 5500 4750
-NoConn ~ 5500 4850
 NoConn ~ 7900 4850
 NoConn ~ 7900 4750
 NoConn ~ 7900 2150
+NoConn ~ 7900 3850
 $EndSCHEMATC
