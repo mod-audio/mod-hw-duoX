@@ -746,7 +746,7 @@ Text GLabel 1750 6300 0    50   Input ~ 0
 SPI0_CLK_HMI
 Text GLabel 1750 6200 0    50   Input ~ 0
 SPI0_CS0_HMI
-Text GLabel 8050 2050 2    50   Output ~ 0
+Text GLabel 8050 5350 2    50   Output ~ 0
 POWER_BUTTON
 Wire Wire Line
 	7000 6150 7000 6300
@@ -1085,7 +1085,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 6400 2450 6400
 Wire Wire Line
-	8050 2050 7900 2050
+	8050 5350 7900 5350
 Connection ~ 6300 6250
 Connection ~ 6400 6250
 Connection ~ 6500 6250
@@ -1130,7 +1130,6 @@ NoConn ~ 5500 2450
 NoConn ~ 1450 5250
 NoConn ~ 1450 5550
 NoConn ~ 7900 5450
-NoConn ~ 7900 5350
 NoConn ~ 7900 5050
 NoConn ~ 7900 4950
 NoConn ~ 7900 3250
@@ -1146,4 +1145,5 @@ NoConn ~ 7900 4850
 NoConn ~ 7900 4750
 NoConn ~ 7900 2150
 NoConn ~ 7900 3850
+NoConn ~ 7900 2050
 $EndSCHEMATC
