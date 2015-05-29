@@ -3,12 +3,12 @@
   (general
     (links 318)
     (no_connects 0)
-    (area 71.624905 39.007697 241.724909 105.045908)
+    (area 71.6026 38.989 241.757201 105.079801)
     (thickness 1.6)
     (drawings 9)
     (tracks 1313)
     (zones 0)
-    (modules 118)
+    (modules 123)
     (nets 141)
   )
 
@@ -69,13 +69,13 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 1.6 1.6)
-    (pad_drill 1)
+    (pad_size 3.5 3.5)
+    (pad_drill 3.5)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
+      (layerselection 0x01030_80000001)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
@@ -96,9 +96,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory gerber))
   )
 
   (net 0 "")
@@ -390,6 +390,50 @@
     (add_net SPI0_CS0_HMI)
     (add_net SPI0_MISO_HMI)
     (add_net SPI0_MOSI_HMI)
+  )
+
+  (module footprints:drill (layer F.Cu) (tedit 5568A271) (tstamp 5569C5EF)
+    (at 238.1758 42.5577)
+    (fp_text reference REF** (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value drill (at 0 -1.25) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.5) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module footprints:drill (layer F.Cu) (tedit 5568A271) (tstamp 5569C5EB)
+    (at 238.1631 101.4984)
+    (fp_text reference REF** (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value drill (at 0 -1.25) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.5) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module footprints:drill (layer F.Cu) (tedit 5568A271) (tstamp 5569C5E6)
+    (at 156.6672 89.0524)
+    (fp_text reference REF** (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value drill (at 0 -1.25) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.5) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module footprints:drill (layer F.Cu) (tedit 5568A271) (tstamp 5569C5E1)
+    (at 75.1713 42.5577)
+    (fp_text reference REF** (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value drill (at 0 -1.25) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.5) (layers *.Cu *.Mask F.SilkS))
   )
 
   (module Capacitors_SMD:c_elec_5x5.3 (layer F.Cu) (tedit 5565872A) (tstamp 555F09B9)
@@ -4293,6 +4337,17 @@
     )
     (pad "" smd circle (at 0 0) (size 1 1) (layers F.Cu F.Paste F.Mask))
     (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask))
+  )
+
+  (module footprints:drill (layer F.Cu) (tedit 5568A271) (tstamp 5569C5D0)
+    (at 75.1713 101.4984)
+    (fp_text reference REF** (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value drill (at 0 -1.25) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.5) (layers *.Cu *.Mask F.SilkS))
   )
 
   (gr_line (start 71.674906 39.057698) (end 71.674906 104.995907) (layer Edge.Cuts) (width 0.1))
