@@ -12,11 +12,11 @@ Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,MPN
 11,2,"DS1, DS2",ERC12864-2,display:ERC12864-2,footprints:ER-CON30HB-1,,ERC12864FSF-2
 12,2,"E1, E2",PEC11R,sensors:PEC11R,footprints:PEC11R-4xxxF-Sxxxx,,PEC11R-4020F-S0024
 13,1,P1,POWER_CONN,conn:CONN_01X02,Pin_Headers:Pin_Header_Straight_1x02_Pitch3.96mm_Friction_Lock,,640445-2
-14,2,"P2, P3",BACKLIGHT,conn:CONN_01X02,footprints:SMD_Pin_Header_Angled_2x01_Pitch2mm,,ER-CON2.0-2P-SMD
+14,2,"P2, P3",BACKLIGHT,conn:CONN_01X02,Pin_Headers:SMD_Pin_Header_Angled_2x01_Pitch2.00mm,,ER-CON2.0-2P-SMD
 15,1,P4,BOTTOM_CONN,conn:CONN_02X10,Pin_Headers:Pin_Header_Straight_2x10,,SBH11-PBPC-D10-ST-BK
 16,1,P5,ISP,conn:CONN_02X05,Pin_Headers:Pin_Header_Straight_2x05_Pitch1.27mm,,
 17,1,P6,SPI_JTAG,conn:CONN_02X04,Pin_Headers:Pin_Header_Straight_2x04_Pitch1.27mm,,
-18,2,"P7, P8",FOOTSWITCH,conn:CONN_01X02,Pin_Headers:Pin_Header_Straight_1x02,,68000-102HLF
+18,2,"P7, P8",FOOTSWITCH,conn:CONN_01X02,Pin_Headers:Pin_Header_Angled_1x02,,M20-9960245
 19,2,"Q1, Q2",2N7002,device:Q_NMOS_GSD,Housings_SOT-23_SOT-143_TSOT-6:SOT-23,,"2N7002P,215"
 20,2,"R1, R3",100K,device:R,Resistors_SMD:R_0603,,RMCF0603JT100K
 21,19,"R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R5, R6, R7, R8, R9",10K,device:R,Resistors_SMD:R_0603,,RMCF0603JT10K0
@@ -25,6 +25,6 @@ Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,MPN
 24,1,SW1,SW_PUSH,device:SW_PUSH,Buttons_Switches_SMD:SW_SPST_FSMSM,,FSMSM
 25,1,U1,NCP1117DT33G,regul:NCP1117ST33T3G,SMD_Packages:DPAK-2,,NCP1117DT33G
 26,1,U2,74AHC1G00,74xx:74AHC1G00,SMD_Packages:SOT-353,,74AHC1G00SE-7
-27,1,U3,LPC1759FBD80,nxp_armmcu:LPC1759FBD80,LQFP80,,"LPC1759FBD80,551"
+27,1,U3,LPC1759FBD80,nxp_armmcu:LPC1759FBD80,Housings_QFP:LQFP-80_12x12mm_Pitch0.5mm,,"LPC1759FBD80,551"
 28,1,U4,PCA9685,Power_Management:PCA9685,Housings_SSOP:TSSOP-28_4.4x9.7mm_Pitch0.65mm,,"PCA9685PW,112"
 29,1,Y1,10MHz,device:Crystal_Small,Crystals:Crystal_HC49-SD_SMD,,FOXSDLF/100-20
