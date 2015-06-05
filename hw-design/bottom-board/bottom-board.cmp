@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-04 BZR 5641)-product   date = Fri 15 May 2015 04:38:33 PM CEST
+Cmp-Mod V01 Created by Cvpcb (2015-05-18 BZR 5668)-product   date = Fri 05 Jun 2015 12:45:08 PM CEST
 
 BeginCmp
 TimeStamp = /54F7244B/54F87BFD;
@@ -596,14 +596,14 @@ IdModule  = Diodes_SMD:SOD-323;
 EndCmp
 
 BeginCmp
-TimeStamp = /54F72CD0/55083D2E;
+TimeStamp = /54F72CD0/5571C9ED;
 Reference = D11;
 ValeurCmp = 1N4148;
 IdModule  = Diodes_SMD:SOD-323;
 EndCmp
 
 BeginCmp
-TimeStamp = /54F72CD0/5518B0BF;
+TimeStamp = /54F72CD0/55721C61;
 Reference = D12;
 ValeurCmp = 1N4148;
 IdModule  = Diodes_SMD:SOD-323;
@@ -633,6 +633,20 @@ EndCmp
 BeginCmp
 TimeStamp = /54F72FB4/550F7A15;
 Reference = D16;
+ValeurCmp = 1N4148;
+IdModule  = Diodes_SMD:SOD-323;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F72CD0/55744CED;
+Reference = D17;
+ValeurCmp = 1N4148;
+IdModule  = Diodes_SMD:SOD-323;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F72CD0/55744CF6;
+Reference = D18;
 ValeurCmp = 1N4148;
 IdModule  = Diodes_SMD:SOD-323;
 EndCmp
@@ -701,17 +715,17 @@ IdModule  = Oddities:NetTie-I_Connected;
 EndCmp
 
 BeginCmp
-TimeStamp = /54F72CD0/550822BA;
+TimeStamp = /54F72CD0/55717F45;
 Reference = K1;
-ValeurCmp = IM03;
-IdModule  = Relays_ThroughHole:Relay_DPDT_IM0(3,6,7)NS;
+ValeurCmp = EC2-12TNU;
+IdModule  = Relays_ThroughHole:Relay_EC2-12TNU;
 EndCmp
 
 BeginCmp
-TimeStamp = /54F72CD0/5518B0B9;
+TimeStamp = /54F72CD0/55744CE6;
 Reference = K2;
-ValeurCmp = IM03;
-IdModule  = Relays_ThroughHole:Relay_DPDT_IM0(3,6,7)NS;
+ValeurCmp = EC2-12TNU;
+IdModule  = Relays_ThroughHole:Relay_EC2-12TNU;
 EndCmp
 
 BeginCmp
@@ -848,14 +862,14 @@ IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
 
 BeginCmp
-TimeStamp = /54F72CD0/55491C4A;
+TimeStamp = /54F72CD0/55723A34;
 Reference = Q9;
 ValeurCmp = 2N7002;
 IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
 
 BeginCmp
-TimeStamp = /54F72CD0/554876EB;
+TimeStamp = /54F72CD0/55725E18;
 Reference = Q10;
 ValeurCmp = 2N7002;
 IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
@@ -892,6 +906,20 @@ EndCmp
 BeginCmp
 TimeStamp = /54F72FB6/55502483;
 Reference = Q15;
+ValeurCmp = 2N7002;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F72CD0/55744D10;
+Reference = Q16;
+ValeurCmp = 2N7002;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F72CD0/55744D2B;
+Reference = Q17;
 ValeurCmp = 2N7002;
 IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
@@ -1060,19 +1088,19 @@ EndCmp
 BeginCmp
 TimeStamp = /54F72FB8/5556F9D6;
 Reference = R24;
-ValeurCmp = 10K;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /54F72CD0/550A851E;
-Reference = R25;
 ValeurCmp = 10k;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54F72CD0/55083E79;
+TimeStamp = /54F72CD0/55737540;
+Reference = R25;
+ValeurCmp = 100k;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F72CD0/557390A9;
 Reference = R26;
 ValeurCmp = 100k;
 IdModule  = Resistors_SMD:R_0603;
@@ -1081,21 +1109,21 @@ EndCmp
 BeginCmp
 TimeStamp = /54F72FB8/5556F9DC;
 Reference = R27;
-ValeurCmp = 2K7;
+ValeurCmp = 2k7;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54F72CD0/5518B11C;
+TimeStamp = /54F72CD0/55723A27;
 Reference = R28;
 ValeurCmp = 10k;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54F72CD0/5518B0C5;
+TimeStamp = /54F72CD0/55725E0B;
 Reference = R29;
-ValeurCmp = 100k;
+ValeurCmp = 10k;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
@@ -1116,7 +1144,7 @@ EndCmp
 BeginCmp
 TimeStamp = /54F72FB8/5556DD0C;
 Reference = R32;
-ValeurCmp = 2K7;
+ValeurCmp = 2k7;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
@@ -1191,8 +1219,36 @@ IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /54F72CD0/55744D3F;
+Reference = R43;
+ValeurCmp = 100k;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F72CD0/55744D4C;
+Reference = R44;
+ValeurCmp = 100k;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F72CD0/55744D03;
+Reference = R45;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /54F72FB6/5522DDB6;
 Reference = R46;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F72CD0/55744D1E;
+Reference = R47;
 ValeurCmp = 10k;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
@@ -1611,10 +1667,10 @@ IdModule  = Buttons_Switches_ThroughHole:SW_Tactile_SPST_Angled;
 EndCmp
 
 BeginCmp
-TimeStamp = /54F7244B/54F8ACA0;
+TimeStamp = /54F7244B/55712DAC;
 Reference = U1;
-ValeurCmp = MCP1754ST-5002E/MB;
-IdModule  = Housings_SOT-89:SOT89-3_Housing;
+ValeurCmp = NCP1117DT50G;
+IdModule  = SMD_Packages:DPAK-2;
 EndCmp
 
 BeginCmp
@@ -1627,14 +1683,14 @@ EndCmp
 BeginCmp
 TimeStamp = /54F7244B/55133069;
 Reference = U3;
-ValeurCmp = NCP1117ST50T3G;
+ValeurCmp = NCP1117DT50G;
 IdModule  = SMD_Packages:DPAK-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F7244B/5501FDF2;
 Reference = U4;
-ValeurCmp = NCP1117ST33T3G;
+ValeurCmp = NCP1117DT33G;
 IdModule  = SMD_Packages:DPAK-2;
 EndCmp
 

@@ -1,4 +1,4 @@
-update=Fri 15 May 2015 03:37:02 PM CEST
+update=Fri 05 Jun 2015 12:45:35 PM CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -8,26 +8,6 @@ NetIExt=net
 EquName1=devcms
 [general]
 version=1
-[pcbnew]
-version=1
-PageLayoutDescrFile=
-LastNetListRead=
-UseCmpFile=1
-PadDrill=1.5
-PadDrillOvalY=1.5
-PadSizeH=3
-PadSizeV=3
-PcbTextSizeV=1.5
-PcbTextSizeH=1.5
-PcbTextThickness=0.3
-ModuleTextSizeV=1
-ModuleTextSizeH=1
-ModuleTextSizeThickness=0.15
-SolderMaskClearance=0
-SolderMaskMinWidth=0
-DrawSegmentWidth=0.09999999999999999
-BoardOutlineThickness=0.09999999999999999
-ModuleOutlineThickness=0.15
 [eeschema]
 version=1
 LibDir=/home/ricardo/devel/kicad-stuff/kicad-library-ricardocrudo/library
@@ -101,3 +81,23 @@ LibName66=xilinx
 LibName67=ESD_Protection
 LibName68=Power_Management
 LibName69=/home/ricardo/devel/mod-hw-duo/hw-design/lib/symbols/in-circuit
+[pcbnew]
+version=1
+PageLayoutDescrFile=
+LastNetListRead=bottom-board.net
+UseCmpFile=0
+PadDrill=3.5
+PadDrillOvalY=3.5
+PadSizeH=3.5
+PadSizeV=3.5
+PcbTextSizeV=1.5
+PcbTextSizeH=1.5
+PcbTextThickness=0.3
+ModuleTextSizeV=1
+ModuleTextSizeH=1
+ModuleTextSizeThickness=0.15
+SolderMaskClearance=0
+SolderMaskMinWidth=0
+DrawSegmentWidth=0.09999999999999999
+BoardOutlineThickness=0.09999999999999999
+ModuleOutlineThickness=0.15
