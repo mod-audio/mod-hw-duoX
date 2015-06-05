@@ -260,10 +260,10 @@ Text GLabel 9700 2050 1    50   Output ~ 0
 RIGHT_GAIN_CTRL1
 Text GLabel 9600 2050 1    50   Output ~ 0
 RIGHT_GAIN_CTRL2
+Text GLabel 2750 5050 3    50   Output ~ 0
+LEFT_TBP_SET
 Text GLabel 2550 5050 3    50   Output ~ 0
-LEFT_BYPASS_CTRL
-Text GLabel 2450 5050 3    50   Output ~ 0
-RIGHT_BYPASS_CTRL
+RIGHT_TBP_SET
 Text GLabel 2350 5050 3    50   Output ~ 0
 HP_CLOCK
 Text GLabel 2250 5050 3    50   Output ~ 0
@@ -471,9 +471,9 @@ Wire Wire Line
 Wire Wire Line
 	9800 2250 9800 2050
 Wire Wire Line
-	2450 4850 2450 5050
-Wire Wire Line
 	2550 4850 2550 5050
+Wire Wire Line
+	2750 4850 2750 5050
 Wire Wire Line
 	2350 5050 2350 4850
 Wire Wire Line
@@ -672,8 +672,6 @@ NoConn ~ 3150 4850
 NoConn ~ 3050 4850
 NoConn ~ 2950 4850
 NoConn ~ 2850 4850
-NoConn ~ 2750 4850
-NoConn ~ 2650 4850
 NoConn ~ 2150 4850
 NoConn ~ 2050 4850
 NoConn ~ 1750 4850
@@ -695,4 +693,12 @@ NoConn ~ 6550 4850
 NoConn ~ 6650 4850
 NoConn ~ 6800 4850
 NoConn ~ 6900 4850
+Text GLabel 2650 5050 3    50   Output ~ 0
+LEFT_TBP_RESET
+Text GLabel 2450 5050 3    50   Output ~ 0
+RIGHT_TBP_RESET
+Wire Wire Line
+	2450 4850 2450 5050
+Wire Wire Line
+	2650 4850 2650 5050
 $EndSCHEMATC
