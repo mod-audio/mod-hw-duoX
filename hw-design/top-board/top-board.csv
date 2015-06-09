@@ -9,7 +9,7 @@ Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,MPN
 8,1,D1,D,device:D,Diodes_SMD:SOD-323,,1N4148WX-TP
 9,1,D2,1N4148,device:D,Diodes_SMD:SOD-323,,1N4148WX-TP
 10,6,"D3, D4, D5, D6, D7, D8",LED_RGB,device:LED_RGB,LEDs:LED_RGB_PLLC-6,,LTRBGFSF-ABCB-QKYO-Z
-11,2,"DS1, DS2",ERC12864-2,display:ERC12864-2,footprints:ER-CON30HB-1,,ERC12864FSF-2
+11,2,"DS1, DS2",ERC12864-2,display:ERC12864-2,footprints:ER-CON30HB-1,,ER-CON30HT-1
 12,2,"E1, E2",PEC11R,sensors:PEC11R,footprints:PEC11R-4xxxF-Sxxxx,,PEC11R-4020F-S0024
 13,1,P1,POWER_CONN,conn:CONN_01X02,Pin_Headers:Pin_Header_Straight_1x02_Pitch3.96mm_Friction_Lock,,640445-2
 14,2,"P2, P3",BACKLIGHT,conn:CONN_01X02,Pin_Headers:SMD_Pin_Header_Angled_2x01_Pitch2.00mm,,ER-CON2.0-2P-SMD

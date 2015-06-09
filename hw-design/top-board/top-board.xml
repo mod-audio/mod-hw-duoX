@@ -402,7 +402,7 @@
       <value>ERC12864-2</value>
       <footprint>footprints:ER-CON30HB-1</footprint>
       <fields>
-        <field name="MPN">ERC12864FSF-2</field>
+        <field name="MPN">ER-CON30HT-1</field>
       </fields>
       <libsource lib="display" part="ERC12864-2"/>
       <sheetpath names="/display/" tstamps="/5550E03C/"/>
@@ -512,7 +512,7 @@
       <value>ERC12864-2</value>
       <footprint>footprints:ER-CON30HB-1</footprint>
       <fields>
-        <field name="MPN">ERC12864FSF-2</field>
+        <field name="MPN">ER-CON30HT-1</field>
       </fields>
       <libsource lib="display" part="ERC12864-2"/>
       <sheetpath names="/display/" tstamps="/5550E03C/"/>
