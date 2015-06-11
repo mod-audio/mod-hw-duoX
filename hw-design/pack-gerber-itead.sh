@@ -42,8 +42,34 @@ for suffix in ${suffixes[@]}; do
     fi
 done
 
+
+######
+# from: http://stackoverflow.com/a/3879077/1283578
+require_clean_work_tree () {
+    # Update the index
+    git update-index -q --ignore-submodules --refresh
+    err=0
+
+    # Disallow unstaged changes in the working tree
+    if ! git diff-files --quiet --ignore-submodules --; then
+        #echo >&2 "cannot $1: you have unstaged changes."
+        #git diff-files --name-status -r --ignore-submodules -- >&2
+        err=1
+    fi
+
+    # Disallow uncommitted changes in the index
+    if ! git diff-index --cached --quiet HEAD --ignore-submodules --; then
+        #echo >&2 "cannot $1: your index contains uncommitted changes."
+        #git diff-index --cached --name-status -r --ignore-submodules HEAD -- >&2
+        err=1
+    fi
+
+    echo "$err"
+}
+
 # check if the repository has uncommited work
-if [[ ! `git diff --quiet HEAD` ]]; then
+retval=$(require_clean_work_tree)
+if [[ "$retval" == "1" ]]; then
     while true; do
         read -p "There are uncommited work in your git stage. Continue anyway? " yn
         case $yn in
@@ -76,6 +102,8 @@ filename="$project-gerber-$date-$id.zip"
 # create zip file
 zip -r "$filename" "$path"
 mv "$filename" "$output"
+
+echo "gerber package created"
 
 # remove tmp dir
 rm -rf tmp
