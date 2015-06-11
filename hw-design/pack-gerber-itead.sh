@@ -16,16 +16,13 @@ if [ ! -d "$path/gerber" ]; then
     exit 1
 fi
 
-# check and define the output directory
-output="."
+# check output directory
 if [ ! -z "$2" ]; then
     # check if output directory exists
     if [ ! -d "$2" ]; then
         echo "Can't find the destination directory \"$2\""
         exit 1
     fi
-
-    output="$2"
 fi
 
 # adds gerber to path
@@ -100,8 +97,14 @@ date=`date +%F`
 filename="$project-gerber-$date-$id.zip"
 
 # create zip file
-zip -r "$filename" "$path"
-mv "$filename" "$output"
+cd tmp
+zip -r "../$filename" "$project"
+cd -
+
+# move to destination
+if [ ! -z "$2" ]; then
+    mv "$filename" "$2"
+fi
 
 echo "gerber package created"
 
