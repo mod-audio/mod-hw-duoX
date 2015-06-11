@@ -1,0 +1,94 @@
+#!/usr/bin/bash
+
+if [  $# -lt 1 ]; then
+    echo "Usage: $0 <project_directory> [output_path]"
+    exit 1
+fi
+
+# defines path removing slash from the end
+# defines project name
+path=${1%/}
+project=`basename $path`
+
+# check if gerber directory exists
+if [ ! -d "$path/gerber" ]; then
+    echo "Can't find gerber directory inside of \"$path\""
+    exit 1
+fi
+
+# check and define the output directory
+output="."
+if [ ! -z "$2" ]; then
+    # check if output directory exists
+    if [ ! -d "$2" ]; then
+        echo "Can't find the destination directory \"$2\""
+        exit 1
+    fi
+
+    output="$2"
+fi
+
+# adds gerber to path
+path=${path}/gerber
+
+# check if gerber directory contains all required files
+suffixes=(.drl -B_Cu.gbr -B_Mask.gbr -B_SilkS.gbr -Edge_Cuts.gbr -F_Cu.gbr -F_Mask.gbr -F_SilkS.gbr)
+for suffix in ${suffixes[@]}; do
+    file="$path/$project$suffix"
+    if [ ! -f "$file" ]; then
+        echo "Can't find the file: $file"
+        echo "Please plot the gerber including this layer"
+        exit 1
+    fi
+done
+
+# check if the repository has uncommited work
+if [[ ! `git diff --quiet HEAD` ]]; then
+    while true; do
+        read -p "There are uncommited work in your git stage. Continue anyway? " yn
+        case $yn in
+            [Yy]* ) break;;
+            [Nn]* ) exit 1;;
+            * ) echo "Please answer yes or no.";;
+        esac
+    done
+fi
+
+echo "packing gerber of $project"
+
+# rename files following the itead requirements
+# http://support.iteadstudio.com/support/solutions/articles/1000156317-gerber-files-requirements
+itead=(.TXT .GBL .GBS .GBO .GKO .GTL .GTS .GTO)
+tmp="tmp/$project"
+mkdir -p $tmp
+cp "$path"/* "$tmp"
+for (( i = 0; i < ${#suffixes[@]}; i++ )); do
+    old="$tmp/$project${suffixes[$i]}"
+    new="$tmp/$project${itead[$i]}"
+    mv "$old" "$new"
+done
+
+# defines parameters of the zip file
+id=`git rev-parse --short HEAD`
+date=`date +%F`
+filename="$project-gerber-$date-$id.zip"
+
+# create zip file
+zip -r "$filename" "$path"
+mv "$filename" "$output"
+
+# remove tmp dir
+rm -rf tmp
+
+# check if user want create a git tag
+tag=itead-$project-$date
+while true; do
+    read -p "Do you want create a git tag named: \"$tag\"? " yn
+    case $yn in
+        [Yy]* ) break;;
+        [Nn]* ) exit 0;;
+        * ) echo "Please answer yes or no.";;
+    esac
+done
+
+git tag "$tag"
