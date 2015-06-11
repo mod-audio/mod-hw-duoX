@@ -321,13 +321,13 @@ F 4 "2N7002P,215" H 3300 3650 60  0001 C CNN "MPN"
 	-1   0    0    -1  
 $EndComp
 Text GLabel 6950 3150 2    50   Input ~ 0
-RS422_RX+
+RS485_RX+
 Text GLabel 6950 3450 2    50   Input ~ 0
-RS422_RX-
+RS485_RX-
 Text GLabel 6600 3700 2    50   Output ~ 0
-RS422_TX+
+RS485_TX+
 Text GLabel 6600 3900 2    50   Output ~ 0
-RS422_TX-
+RS485_TX-
 Text GLabel 4350 3300 0    50   Output ~ 0
 CHAIN_UART_RX
 Text GLabel 4350 3800 0    50   Input ~ 0
@@ -336,10 +336,10 @@ Text GLabel 4350 4000 0    50   Input ~ 0
 CHAIN_UART_DE
 Text GLabel 4350 3500 0    50   Input ~ 0
 CHAIN_UART_RE
-Text GLabel 3550 2400 0    50   Output ~ 0
-RS422_TX_LED
 Text GLabel 3000 3300 0    50   Output ~ 0
-RS422_RX_LED
+RS485_TX_LED
+Text GLabel 3550 2400 0    50   Output ~ 0
+RS485_RX_LED
 Wire Wire Line
 	4750 3300 4900 3300
 Wire Wire Line
