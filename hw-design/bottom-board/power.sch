@@ -68,6 +68,7 @@ LIBS:xilinx
 LIBS:ESD_Protection
 LIBS:Power_Management
 LIBS:in-circuit
+LIBS:itead
 LIBS:bottom-board-cache
 EELAYER 25 0
 EELAYER END
