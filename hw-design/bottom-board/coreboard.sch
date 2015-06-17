@@ -184,7 +184,7 @@ Text GLabel 3300 2300 1    50   BiDi ~ 0
 CODEC_I2C_SDA
 Text GLabel 3200 2300 1    50   Output ~ 0
 CODEC_I2C_SCL
-Text GLabel 9000 2300 1    50   Output ~ 0
+Text GLabel 9100 2300 1    50   Output ~ 0
 CODEC_~RESET
 Text GLabel 6500 2300 1    50   Input ~ 0
 CHAIN_UART_RX
@@ -222,7 +222,7 @@ Text GLabel 3900 2300 1    50   Input ~ 0
 USB_DEV_DET
 Text GLabel 8900 2300 1    50   Input ~ 0
 CODEC_INT
-Text GLabel 8800 2300 1    50   Input ~ 0
+Text GLabel 9000 2300 1    50   Input ~ 0
 CODEC_OVFL
 Text GLabel 3700 4850 3    50   Output ~ 0
 SD0_CLK
@@ -244,7 +244,7 @@ Text GLabel 1650 6900 0    50   Output ~ 0
 UBOOT_BUTTON
 Text GLabel 1000 2300 1    50   Input ~ 0
 POWER_BUTTON
-Text GLabel 9100 2300 1    50   Input ~ 0
+Text GLabel 8800 2300 1    50   Input ~ 0
 CODEC_~MUTEC
 Text GLabel 6700 2300 1    50   Output ~ 0
 CHAIN_UART_RE
@@ -269,7 +269,7 @@ Wire Wire Line
 Wire Wire Line
 	3300 2500 3300 2300
 Wire Wire Line
-	9000 2500 9000 2300
+	9100 2500 9100 2300
 Wire Wire Line
 	6400 2500 6400 2300
 Wire Wire Line
@@ -303,7 +303,7 @@ Wire Wire Line
 Wire Wire Line
 	8900 2300 8900 2500
 Wire Wire Line
-	8800 2300 8800 2500
+	9000 2300 9000 2500
 Wire Wire Line
 	3700 4850 3700 4500
 Wire Wire Line
@@ -333,7 +333,7 @@ Wire Wire Line
 Wire Wire Line
 	1000 2500 1000 2300
 Wire Wire Line
-	9100 2300 9100 2500
+	8800 2300 8800 2500
 Wire Wire Line
 	6700 2500 6700 2300
 Wire Wire Line
