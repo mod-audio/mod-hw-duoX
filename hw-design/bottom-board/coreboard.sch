@@ -202,9 +202,9 @@ Text GLabel 8600 2300 1    50   Output ~ 0
 RIGHT_GAIN_CTRL1
 Text GLabel 8700 2300 1    50   Output ~ 0
 RIGHT_GAIN_CTRL2
-Text GLabel 8300 2300 1    50   Output ~ 0
-LEFT_TBP_SET
 Text GLabel 8100 2300 1    50   Output ~ 0
+LEFT_TBP_SET
+Text GLabel 8300 2300 1    50   Output ~ 0
 RIGHT_TBP_SET
 Text GLabel 7900 2300 1    50   Output ~ 0
 HP_CLOCK
@@ -283,9 +283,9 @@ Wire Wire Line
 Wire Wire Line
 	8500 2500 8500 2300
 Wire Wire Line
-	8100 2500 8100 2300
-Wire Wire Line
 	8300 2500 8300 2300
+Wire Wire Line
+	8100 2500 8100 2300
 Wire Wire Line
 	7900 2300 7900 2500
 Wire Wire Line
@@ -353,14 +353,14 @@ Wire Wire Line
 Wire Wire Line
 	3700 2300 3700 2500
 Connection ~ 1750 6900
-Text GLabel 8200 2300 1    50   Output ~ 0
-LEFT_TBP_RESET
 Text GLabel 8000 2300 1    50   Output ~ 0
+LEFT_TBP_RESET
+Text GLabel 8200 2300 1    50   Output ~ 0
 RIGHT_TBP_RESET
 Wire Wire Line
-	8000 2500 8000 2300
-Wire Wire Line
 	8200 2500 8200 2300
+Wire Wire Line
+	8000 2500 8000 2300
 NoConn ~ 15050 2850
 $Comp
 L Core_AW204x U6
