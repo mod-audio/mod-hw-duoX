@@ -194,13 +194,13 @@ Text GLabel 6900 2300 1    50   Input ~ 0
 MIDI_UART_RX
 Text GLabel 6800 2300 1    50   Output ~ 0
 MIDI_UART_TX
-Text GLabel 8700 2300 1    50   Output ~ 0
-LEFT_GAIN_CTRL1
-Text GLabel 8600 2300 1    50   Output ~ 0
-LEFT_GAIN_CTRL2
-Text GLabel 8500 2300 1    50   Output ~ 0
-RIGHT_GAIN_CTRL1
 Text GLabel 8400 2300 1    50   Output ~ 0
+LEFT_GAIN_CTRL1
+Text GLabel 8500 2300 1    50   Output ~ 0
+LEFT_GAIN_CTRL2
+Text GLabel 8600 2300 1    50   Output ~ 0
+RIGHT_GAIN_CTRL1
+Text GLabel 8700 2300 1    50   Output ~ 0
 RIGHT_GAIN_CTRL2
 Text GLabel 8300 2300 1    50   Output ~ 0
 LEFT_TBP_SET
@@ -279,9 +279,9 @@ Wire Wire Line
 Wire Wire Line
 	6900 2500 6900 2300
 Wire Wire Line
-	8700 2300 8700 2500
+	8400 2300 8400 2500
 Wire Wire Line
-	8600 2500 8600 2300
+	8500 2500 8500 2300
 Wire Wire Line
 	8100 2500 8100 2300
 Wire Wire Line
@@ -339,9 +339,9 @@ Wire Wire Line
 Wire Wire Line
 	6600 2300 6600 2500
 Wire Wire Line
-	8400 2500 8400 2300
+	8700 2500 8700 2300
 Wire Wire Line
-	8500 2500 8500 2300
+	8600 2500 8600 2300
 Wire Wire Line
 	3100 2500 3100 2300
 Wire Wire Line
