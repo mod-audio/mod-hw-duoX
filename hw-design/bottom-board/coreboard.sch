@@ -218,7 +218,7 @@ Text GLabel 3300 4850 3    50   BiDi ~ 0
 USB_HOST_DP
 Text GLabel 3200 4850 3    50   BiDi ~ 0
 USB_HOST_DM
-Text GLabel 3900 2300 1    50   Input ~ 0
+Text GLabel 3800 2300 1    50   Input ~ 0
 USB_DEV_DET
 Text GLabel 8900 2300 1    50   Input ~ 0
 CODEC_INT
@@ -236,7 +236,7 @@ Text GLabel 4100 4850 3    50   BiDi ~ 0
 SD0_D2
 Text GLabel 4200 4850 3    50   BiDi ~ 0
 SD0_D3
-Text GLabel 3800 2300 1    50   Input ~ 0
+Text GLabel 4000 2300 1    50   Input ~ 0
 SD0_DETECT
 Text GLabel 800  2300 1    50   Input ~ 0
 UBOOT_BUTTON
@@ -250,15 +250,15 @@ Text GLabel 6700 2300 1    50   Output ~ 0
 CHAIN_UART_RE
 Text GLabel 6600 2300 1    50   Output ~ 0
 CHAIN_UART_DE
-Text GLabel 4900 2300 1    50   BiDi ~ 0
+Text GLabel 7100 2300 1    50   BiDi ~ 0
 HMI_RFU_01(RX)
-Text GLabel 4800 2300 1    50   BiDi ~ 0
+Text GLabel 7000 2300 1    50   BiDi ~ 0
 HMI_RFU_02(TX)
 Text GLabel 3100 2300 1    50   BiDi ~ 0
 PM_LEDS_SDA
 Text GLabel 3000 2300 1    50   Output ~ 0
 PM_LEDS_SCL
-Text GLabel 3700 2300 1    50   Output ~ 0
+Text GLabel 4200 2300 1    50   Output ~ 0
 PM_LEDS_OE
 Wire Wire Line
 	3400 2500 3400 2300
@@ -299,7 +299,7 @@ Wire Wire Line
 Wire Wire Line
 	3300 4850 3300 4500
 Wire Wire Line
-	3900 2300 3900 2500
+	3800 2300 3800 2500
 Wire Wire Line
 	8900 2300 8900 2500
 Wire Wire Line
@@ -317,7 +317,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 4500 4200 4850
 Wire Wire Line
-	3800 2300 3800 2500
+	4000 2300 4000 2500
 Wire Wire Line
 	800  2500 800  2300
 Wire Wire Line
@@ -347,11 +347,11 @@ Wire Wire Line
 Wire Wire Line
 	3000 2300 3000 2500
 Wire Wire Line
-	4900 2300 4900 2500
+	7100 2300 7100 2500
 Wire Wire Line
-	4800 2500 4800 2300
+	7000 2500 7000 2300
 Wire Wire Line
-	3700 2300 3700 2500
+	4200 2300 4200 2500
 Connection ~ 1750 6900
 Text GLabel 8000 2300 1    50   Output ~ 0
 LEFT_TBP_RESET
@@ -657,7 +657,7 @@ Wire Wire Line
 Wire Wire Line
 	10500 2300 10500 2500
 NoConn ~ 4100 2500
-NoConn ~ 4200 2500
+NoConn ~ 3900 2500
 NoConn ~ 3400 4500
 NoConn ~ 3500 4500
 $Comp
@@ -732,8 +732,6 @@ NoConn ~ 5900 2500
 NoConn ~ 6000 2500
 NoConn ~ 6100 2500
 NoConn ~ 6200 2500
-NoConn ~ 7000 2500
-NoConn ~ 7100 2500
 NoConn ~ 7200 2500
 NoConn ~ 7300 2500
 NoConn ~ 7400 2500
@@ -746,10 +744,10 @@ NoConn ~ 9500 2500
 Wire Wire Line
 	4300 2500 4300 2400
 Connection ~ 4300 2400
-Text GLabel 4000 2300 1    50   Input ~ 0
+Text GLabel 3700 2300 1    50   Input ~ 0
 USB_HOST_DRV
 Wire Wire Line
-	4000 2300 4000 2500
+	3700 2300 3700 2500
 NoConn ~ 10400 2500
 $Comp
 L +3.3V #PWR059
@@ -773,4 +771,6 @@ Wire Wire Line
 Wire Wire Line
 	1300 4550 1200 4550
 Connection ~ 1200 4550
+NoConn ~ 4800 2500
+NoConn ~ 4900 2500
 $EndSCHEMATC

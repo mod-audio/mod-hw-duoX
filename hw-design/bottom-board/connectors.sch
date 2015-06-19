@@ -668,13 +668,13 @@ Text GLabel 9450 2700 0    50   Input ~ 0
 CLI_UART_TX
 Text GLabel 9450 2800 0    50   Output ~ 0
 CLI_UART_RX
-Text GLabel 10200 1950 2    50   Output ~ 0
+Text GLabel 10200 2250 2    50   Output ~ 0
 HMI_UART_RX
-Text GLabel 10200 2050 2    50   Input ~ 0
-HMI_UART_TX
-Text GLabel 10200 2250 2    50   Input ~ 0
-HMI_ISP_ENABLE
 Text GLabel 10200 2150 2    50   Input ~ 0
+HMI_UART_TX
+Text GLabel 10200 1950 2    50   Input ~ 0
+HMI_ISP_ENABLE
+Text GLabel 10200 2050 2    50   Input ~ 0
 HMI_RESET
 Text GLabel 9350 1650 0    50   Input ~ 0
 CLI_UART_TX
@@ -714,9 +714,9 @@ Text GLabel 8250 2250 0    50   BiDi ~ 0
 PM_LEDS_SDA
 Text GLabel 8250 2150 0    50   Input ~ 0
 PM_LEDS_SCL
-Text GLabel 9350 1450 0    50   BiDi ~ 0
-HMI_RFU_01(RX)
 Text GLabel 9350 1350 0    50   BiDi ~ 0
+HMI_RFU_01(RX)
+Text GLabel 9350 1450 0    50   BiDi ~ 0
 HMI_RFU_02(TX)
 Text GLabel 8250 2050 0    50   Input ~ 0
 PM_LEDS_OE
@@ -923,7 +923,7 @@ Wire Wire Line
 Wire Wire Line
 	10000 1850 10100 1850
 Wire Wire Line
-	9500 1350 9350 1350
+	9500 1450 9350 1450
 Wire Wire Line
 	10100 1350 10000 1350
 Wire Wire Line
@@ -953,7 +953,7 @@ Wire Wire Line
 Wire Wire Line
 	1900 2450 1900 2550
 Wire Wire Line
-	9350 1450 9500 1450
+	9350 1350 9500 1350
 Wire Wire Line
 	9500 1550 9400 1550
 Wire Wire Line
