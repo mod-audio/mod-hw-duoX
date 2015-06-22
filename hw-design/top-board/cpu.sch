@@ -600,14 +600,14 @@ F 3 "" H 2350 2100 60  0000 C CNN
 	1    2350 2100
 	1    0    0    -1  
 $EndComp
-Text GLabel 1750 2950 0    50   BiDi ~ 0
-HMI_RFU_02(TX)
 Text GLabel 1750 3050 0    50   BiDi ~ 0
+HMI_RFU_02(TX)
+Text GLabel 1750 2950 0    50   BiDi ~ 0
 HMI_RFU_01(RX)
 Text GLabel 1750 3250 0    50   Output ~ 0
-CLI_UART_TX0
+CLI_UART_TX
 Text GLabel 1750 3350 0    50   Input ~ 0
-CLI_UART_RX0
+CLI_UART_RX
 Text GLabel 1750 3550 0    50   Input ~ 0
 POWER_BUTTON
 Text GLabel 2650 3050 2    50   Input ~ 0
@@ -618,13 +618,13 @@ Text GLabel 2650 3250 2    50   Output ~ 0
 SPI0_CLK_HMI
 Text GLabel 2650 3350 2    50   Output ~ 0
 SPI0_CS0_HMI
-Text GLabel 2650 3550 2    50   Input ~ 0
-HMI_UART_RX3
-Text GLabel 2650 3650 2    50   Output ~ 0
-HMI_UART_TX3
+Text GLabel 2650 3850 2    50   Input ~ 0
+HMI_UART_RX
 Text GLabel 2650 3750 2    50   Output ~ 0
+HMI_UART_TX
+Text GLabel 2650 3650 2    50   Output ~ 0
 HMI_RESET
-Text GLabel 2650 3850 2    50   Output ~ 0
+Text GLabel 2650 3550 2    50   Output ~ 0
 HMI_ISP_ENABLE
 Text GLabel 8450 4350 2    50   Output ~ 0
 FS1_LED_R
@@ -645,9 +645,9 @@ PM_LEDS_SCL
 Text GLabel 1750 3650 0    50   Output ~ 0
 PM_LEDS_OE
 Text GLabel 4950 3250 0    50   Output ~ 0
-HMI_UART_RX3
+HMI_UART_RX
 Text GLabel 4950 3350 0    50   Input ~ 0
-HMI_UART_TX3
+HMI_UART_TX
 Text GLabel 9250 5150 2    50   Input ~ 0
 HMI_ISP_ENABLE
 Text GLabel 2450 5250 2    50   Output ~ 0
@@ -675,9 +675,9 @@ HMI_RFU_02(TX)
 Text GLabel 4950 3050 0    50   BiDi ~ 0
 HMI_RFU_01(RX)
 Text GLabel 4950 4150 0    50   Input ~ 0
-CLI_UART_TX0
+CLI_UART_TX
 Text GLabel 4950 4050 0    50   Output ~ 0
-CLI_UART_RX0
+CLI_UART_RX
 Text GLabel 4950 4350 0    50   Input ~ 0
 ENC1_B
 Text GLabel 4950 4450 0    50   Input ~ 0
