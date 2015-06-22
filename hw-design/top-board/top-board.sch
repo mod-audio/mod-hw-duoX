@@ -31,6 +31,7 @@ LIBS:valves
 LIBS:nxp_armmcu
 LIBS:Power_Management
 LIBS:sensors
+LIBS:74xgxx
 LIBS:top-board-cache
 EELAYER 25 0
 EELAYER END
