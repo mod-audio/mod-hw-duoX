@@ -744,7 +744,7 @@ NoConn ~ 9500 2500
 Wire Wire Line
 	4300 2500 4300 2400
 Connection ~ 4300 2400
-Text GLabel 3700 2300 1    50   Input ~ 0
+Text GLabel 3700 2300 1    50   Output ~ 0
 USB_HOST_DRV
 Wire Wire Line
 	3700 2300 3700 2500
