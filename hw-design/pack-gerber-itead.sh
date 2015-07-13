@@ -123,3 +123,5 @@ while true; do
 done
 
 git tag "$tag"
+
+echo "Done. Do not forget to push to remote using --tags flag"
