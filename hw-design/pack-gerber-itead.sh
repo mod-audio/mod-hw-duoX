@@ -77,6 +77,40 @@ if [[ "$retval" == "1" ]]; then
     done
 fi
 
+# check if gerber files were updated in the last commit
+
+function array_has() {
+    local array=$1[@]
+    local a=("${!array}")
+    local b=$2
+
+    for i in "${a[@]}" ; do
+        if [ "$i" == "$b" ]; then
+            return "1"
+        fi
+    done
+    return "0"
+}
+
+thisdir=$(basename `pwd`)
+updated_files=($(git log --name-only --oneline --no-color -1))
+
+for suffix in ${suffixes[@]}; do
+    file="$path/$project$suffix"
+    array_has updated_files "$thisdir/$file"
+
+    if [[ "$?" == "0" ]]; then
+        while true; do
+            read -p "File $file wasn't updated in the last commit. Continue? " yn
+            case $yn in
+                [Yy]* ) break;;
+                [Nn]* ) exit 1;;
+                * ) echo "Please answer yes or no.";;
+            esac
+        done
+    fi
+done
+
 echo "packing gerber of $project"
 
 # rename files following the itead requirements
