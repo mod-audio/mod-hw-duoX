@@ -2,7 +2,6 @@ EESchema Schematic File Version 2
 LIBS:power
 LIBS:device
 LIBS:conn
-LIBS:linear
 LIBS:regul
 LIBS:74xgxx
 LIBS:local-components
