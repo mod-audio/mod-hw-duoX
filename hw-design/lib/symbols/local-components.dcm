@@ -12,6 +12,12 @@ K ARM 32bit Cortex M3 NXP Microcontroller
 F http://www.nxp.com/documents/data_sheet/LPC1759_58_56_54_52_51.pdf
 $ENDCMP
 #
+$CMP MCP6001
+D general purpose operational amplifier, 1MHz, 1.8V - 6V
+K opamp
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf
+$ENDCMP
+#
 $CMP PCA9685
 D 16 channel RGB/RGBA LED driver, I2C controlled, PWM control 12-bit
 K LED RGB RGBA I2C PWM

@@ -1,4 +1,4 @@
-update=Wed 09 Sep 2015 01:29:37 PM CEST
+update=Wed 09 Sep 2015 01:56:13 PM CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -35,7 +35,6 @@ LibDir=../../../kicad-stuff/kicad-library-ricardocrudo/library;../lib/symbols
 LibName1=power
 LibName2=device
 LibName3=conn
-LibName4=linear
-LibName5=regul
-LibName6=74xgxx
-LibName7=local-components
+LibName4=regul
+LibName5=74xgxx
+LibName6=local-components
