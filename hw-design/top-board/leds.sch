@@ -601,17 +601,17 @@ Text GLabel 6000 3950 0    50   Input ~ 0
 PM_LEDS_SCL
 Text GLabel 6000 4150 0    50   Input ~ 0
 PM_LEDS_OE
-Text GLabel 1850 1850 0    50   Input ~ 0
-FS1_LED_R
 Text GLabel 1850 2050 0    50   Input ~ 0
-FS1_LED_G
+FS1_LED_R
 Text GLabel 1850 2250 0    50   Input ~ 0
+FS1_LED_G
+Text GLabel 1850 1850 0    50   Input ~ 0
 FS1_LED_B
-Text GLabel 1850 2950 0    50   Input ~ 0
-FS2_LED_R
 Text GLabel 1850 3150 0    50   Input ~ 0
-FS2_LED_G
+FS2_LED_R
 Text GLabel 1850 3350 0    50   Input ~ 0
+FS2_LED_G
+Text GLabel 1850 2950 0    50   Input ~ 0
 FS2_LED_B
 Wire Wire Line
 	2600 1850 2400 1850

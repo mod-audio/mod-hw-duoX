@@ -507,17 +507,17 @@ Text GLabel 3350 4500 2    50   Output ~ 0
 HMI_RESET
 Text GLabel 3350 4400 2    50   Output ~ 0
 HMI_ISP_ENABLE
-Text GLabel 9450 4350 2    50   Output ~ 0
-FS1_LED_R
 Text GLabel 9450 4250 2    50   Output ~ 0
-FS1_LED_G
+FS1_LED_R
 Text GLabel 9450 4150 2    50   Output ~ 0
+FS1_LED_G
+Text GLabel 9450 4350 2    50   Output ~ 0
 FS1_LED_B
-Text GLabel 9450 4650 2    50   Output ~ 0
-FS2_LED_R
 Text GLabel 9450 4550 2    50   Output ~ 0
-FS2_LED_G
+FS2_LED_R
 Text GLabel 9450 4450 2    50   Output ~ 0
+FS2_LED_G
+Text GLabel 9450 4650 2    50   Output ~ 0
 FS2_LED_B
 Text GLabel 1800 4700 0    50   BiDi ~ 0
 PM_LEDS_SDA
