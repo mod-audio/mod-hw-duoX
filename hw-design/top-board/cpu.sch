@@ -583,8 +583,8 @@ Text GLabel 9450 3150 2    50   Output ~ 0
 GLCD_A0
 Text GLabel 5950 3850 0    50   Output ~ 0
 GLCD2_CS
-Text GLabel 9450 3450 2    50   Output ~ 0
-GLCD_RESET
+Text GLabel 9450 3650 2    50   Output ~ 0
+GLCD2_RESET
 Text GLabel 5950 3950 0    50   Output ~ 0
 GLCD1_CS
 Text GLabel 5950 3750 0    50   Output ~ 0
@@ -595,9 +595,9 @@ Text GLabel 5950 3550 0    50   Input ~ 0
 SPI0_CLK_HMI
 Text GLabel 5950 3450 0    50   Input ~ 0
 SPI0_CS0_HMI
-Text GLabel 9450 3650 2    50   Output ~ 0
-GLCD1_BL
 Text GLabel 9450 3550 2    50   Output ~ 0
+GLCD1_BL
+Text GLabel 9450 3450 2    50   Output ~ 0
 GLCD2_BL
 Text Notes 1150 2850 0    100  ~ 0
 Bottom Interface
@@ -635,7 +635,6 @@ NoConn ~ 9300 5450
 NoConn ~ 9300 5050
 NoConn ~ 9300 4950
 NoConn ~ 9300 3250
-NoConn ~ 9300 3750
 NoConn ~ 9300 2750
 NoConn ~ 9300 2650
 NoConn ~ 9300 2550
@@ -1101,7 +1100,7 @@ Wire Wire Line
 Wire Wire Line
 	9450 3150 9300 3150
 Wire Wire Line
-	9450 3450 9300 3450
+	9450 3650 9300 3650
 Wire Wire Line
 	6100 3750 5950 3750
 Wire Wire Line
@@ -1111,9 +1110,9 @@ Wire Wire Line
 Wire Wire Line
 	5950 3450 6100 3450
 Wire Wire Line
-	9300 3650 9450 3650
+	9300 3550 9450 3550
 Wire Wire Line
-	9450 3550 9300 3550
+	9450 3450 9300 3450
 Wire Notes Line
 	1000 5050 4050 5050
 Wire Notes Line
@@ -1335,4 +1334,8 @@ Wire Wire Line
 Wire Wire Line
 	6000 2850 6000 2750
 Connection ~ 6000 2750
+Text GLabel 9450 3750 2    50   Output ~ 0
+GLCD1_RESET
+Wire Wire Line
+	9450 3750 9300 3750
 $EndSCHEMATC
