@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EC2-12TNU
+D miniature signal relay, double coil, latch, 12V/140mW coil
+K 12V relay latch
+F http://www.kemet.com/Lists/ProductCatalog/Attachments/524/KEM_R7002_EC2_EE2.pdf
+$ENDCMP
+#
+$CMP LPC1759FBD80
+D LPC1759, 32-bit ARM Cortex-M3 microcontroller, 512 kB Flash, 64 kB SRAM, Ethernet, USB 2.0 Host/Device/OTG, CAN, I2S, DAC, RTC
+K ARM 32bit Cortex M3 NXP Microcontroller
+F http://www.nxp.com/documents/data_sheet/LPC1759_58_56_54_52_51.pdf
+$ENDCMP
+#
+$CMP PCA9685
+D 16 channel RGB/RGBA LED driver, I2C controlled, PWM control 12-bit
+K LED RGB RGBA I2C PWM
+F http://www.nxp.com/documents/data_sheet/PCA9685.pdf
+$ENDCMP
+#
+$CMP PEC11R
+D PEC11R, incremental rotary encoder, 2-bit quadrature, push button switch, SPST
+K PEC11R encoder 2-bit switch SPST
+F http://www.bourns.com/data/global/pdfs/PEC11R.pdf
+$ENDCMP
+#
+#End Doc Library
