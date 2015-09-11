@@ -468,17 +468,6 @@ F 4 "FSMSM" H 1100 -50 50  0001 C CNN "MPN"
 	1    3900 1950
 	0    1    1    0   
 $EndComp
-$Comp
-L CONN_02X04 P3
-U 1 1 555B5BE1
-P 2150 7150
-F 0 "P3" H 2150 7400 50  0000 C CNN
-F 1 "SPI_JTAG" H 2150 6900 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x04_Pitch1.27mm" H 2150 5950 60  0001 C CNN
-F 3 "" H 2150 5950 60  0000 C CNN
-	1    2150 7150
-	1    0    0    -1  
-$EndComp
 Text GLabel 1850 3900 0    50   BiDi ~ 0
 HMI_RFU_02(TX)
 Text GLabel 1850 3800 0    50   BiDi ~ 0
@@ -605,13 +594,13 @@ Text GLabel 5400 2750 0    50   Input ~ 0
 RESET
 Text Notes 1200 850  0    100  ~ 0
 RESET
-Text GLabel 2500 7000 2    50   Output ~ 0
+Text GLabel 2400 7000 2    50   Output ~ 0
 JTAG_TMS_SDWIO
-Text GLabel 2500 7100 2    50   Output ~ 0
+Text GLabel 2400 7100 2    50   Output ~ 0
 JTAG_TCK_SWDCLK
-Text GLabel 2500 7300 2    50   Input ~ 0
+Text GLabel 2400 7300 2    50   Input ~ 0
 JTAG_TDO_SWO
-Text GLabel 2500 7200 2    50   Output ~ 0
+Text GLabel 2400 7200 2    50   Output ~ 0
 JTAG_TDI
 Text GLabel 1800 7300 0    50   Output ~ 0
 SPI0_MISO_HMI
@@ -1115,7 +1104,7 @@ Wire Notes Line
 Wire Wire Line
 	1800 7000 1900 7000
 Wire Wire Line
-	2400 7000 2500 7000
+	2300 7000 2400 7000
 Wire Wire Line
 	1800 7100 1900 7100
 Wire Wire Line
@@ -1123,11 +1112,11 @@ Wire Wire Line
 Wire Wire Line
 	1800 7200 1900 7200
 Wire Wire Line
-	2400 7100 2500 7100
+	2300 7100 2400 7100
 Wire Wire Line
-	2400 7300 2500 7300
+	2300 7300 2400 7300
 Wire Wire Line
-	2400 7200 2500 7200
+	2300 7200 2400 7200
 Wire Wire Line
 	9000 5350 8850 5350
 Connection ~ 6850 6250
@@ -1376,6 +1365,17 @@ F 2 "Resistors_SMD:R_0603" V 3530 1200 30  0001 C CNN
 F 3 "" H 3600 1200 30  0000 C CNN
 F 4 "RMCF0603JT10K0" H 450 -100 50  0001 C CNN "MPN"
 	1    3600 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_PACK4 RP1
+U 1 1 55F2C432
+P 2100 7350
+F 0 "RP1" H 2100 7800 50  0000 C CNN
+F 1 "R_PACK4" H 2100 7300 50  0000 C CNN
+F 2 "Resistors_SMD:R_Array_Concave_4x0402" H 2100 7350 60  0001 C CNN
+F 3 "" H 2100 7350 60  0000 C CNN
+	1    2100 7350
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
