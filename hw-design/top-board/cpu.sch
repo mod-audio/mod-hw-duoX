@@ -558,19 +558,19 @@ Text GLabel 5500 4250 0    50   Input ~ 0
 ENC1_SW
 Text GLabel 9000 3950 2    50   Input ~ 0
 ENC2_SW
-Text GLabel 9000 2950 2    50   Input ~ 0
+Text GLabel 9000 3750 2    50   Input ~ 0
 FS1
-Text GLabel 9000 2850 2    50   Input ~ 0
+Text GLabel 9000 3650 2    50   Input ~ 0
 FS2
 Text GLabel 9000 3350 2    50   Output ~ 0
 GLCD_SI
 Text GLabel 9000 3050 2    50   Output ~ 0
 GLCD_SCL
-Text GLabel 9000 3150 2    50   Output ~ 0
+Text GLabel 9000 2950 2    50   Output ~ 0
 GLCD_A0
-Text GLabel 5500 3850 0    50   Output ~ 0
+Text GLabel 5500 4750 0    50   Output ~ 0
 GLCD2_CS
-Text GLabel 9000 3650 2    50   Output ~ 0
+Text GLabel 5500 4850 0    50   Output ~ 0
 GLCD2_RESET
 Text GLabel 5500 3950 0    50   Output ~ 0
 GLCD1_CS
@@ -582,7 +582,7 @@ Text GLabel 5500 3550 0    50   Input ~ 0
 SPI0_CLK_HMI
 Text GLabel 5500 3450 0    50   Input ~ 0
 SPI0_CS0_HMI
-Text GLabel 9000 3550 2    50   Output ~ 0
+Text GLabel 9000 2850 2    50   Output ~ 0
 GLCD1_BL
 Text GLabel 9000 3450 2    50   Output ~ 0
 GLCD2_BL
@@ -628,7 +628,6 @@ NoConn ~ 8850 2550
 NoConn ~ 8850 2450
 NoConn ~ 8850 2350
 NoConn ~ 8850 2250
-NoConn ~ 5650 4750
 NoConn ~ 8850 4850
 NoConn ~ 8850 4750
 NoConn ~ 8850 2150
@@ -681,7 +680,6 @@ F 4 "RMCF0603JT100K" H -6400 -1400 50  0001 C CNN "MPN"
 	1    2300 3550
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5650 4850
 $Comp
 L MCP6001 U3
 U 1 1 55F0ECA7
@@ -1044,9 +1042,9 @@ Wire Wire Line
 Wire Wire Line
 	5650 3150 5500 3150
 Wire Wire Line
-	9000 2950 8850 2950
+	9000 3750 8850 3750
 Wire Wire Line
-	9000 2850 8850 2850
+	9000 3650 8850 3650
 Wire Wire Line
 	5500 4250 5650 4250
 Wire Wire Line
@@ -1066,11 +1064,11 @@ Wire Wire Line
 Wire Wire Line
 	5650 3950 5500 3950
 Wire Wire Line
-	5500 3850 5650 3850
+	5500 4750 5650 4750
 Wire Wire Line
-	9000 3150 8850 3150
+	9000 2950 8850 2950
 Wire Wire Line
-	9000 3650 8850 3650
+	5500 4850 5650 4850
 Wire Wire Line
 	5650 3750 5500 3750
 Wire Wire Line
@@ -1080,7 +1078,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 3450 5650 3450
 Wire Wire Line
-	8850 3550 9000 3550
+	8850 2850 9000 2850
 Wire Wire Line
 	9000 3450 8850 3450
 Wire Notes Line
@@ -1299,10 +1297,10 @@ Wire Wire Line
 Wire Wire Line
 	5550 2850 5550 2750
 Connection ~ 5550 2750
-Text GLabel 9000 3750 2    50   Output ~ 0
+Text GLabel 5500 3850 0    50   Output ~ 0
 GLCD1_RESET
 Wire Wire Line
-	9000 3750 8850 3750
+	5500 3850 5650 3850
 $Comp
 L Q_NMOS_GSD Q1
 U 1 1 55F4008F
@@ -1378,4 +1376,6 @@ F 3 "" H 2100 7350 60  0000 C CNN
 	1    2100 7350
 	1    0    0    -1  
 $EndComp
+NoConn ~ 8850 3150
+NoConn ~ 8850 3550
 $EndSCHEMATC
