@@ -550,13 +550,13 @@ Text GLabel 5500 4350 0    50   Input ~ 0
 ENC1_B
 Text GLabel 5500 4450 0    50   Input ~ 0
 ENC1_A
-Text GLabel 5500 4550 0    50   Input ~ 0
+Text GLabel 9000 4850 2    50   Input ~ 0
 ENC2_B
-Text GLabel 5500 4650 0    50   Input ~ 0
+Text GLabel 9000 4750 2    50   Input ~ 0
 ENC2_A
 Text GLabel 5500 4250 0    50   Input ~ 0
 ENC1_SW
-Text GLabel 9000 3950 2    50   Input ~ 0
+Text GLabel 9000 4950 2    50   Input ~ 0
 ENC2_SW
 Text GLabel 9000 3750 2    50   Input ~ 0
 FS1
@@ -620,7 +620,6 @@ NoConn ~ 1450 6150
 NoConn ~ 1450 6450
 NoConn ~ 8850 5450
 NoConn ~ 8850 5050
-NoConn ~ 8850 4950
 NoConn ~ 8850 3250
 NoConn ~ 8850 2750
 NoConn ~ 8850 2650
@@ -628,8 +627,6 @@ NoConn ~ 8850 2550
 NoConn ~ 8850 2450
 NoConn ~ 8850 2350
 NoConn ~ 8850 2250
-NoConn ~ 8850 4850
-NoConn ~ 8850 4750
 NoConn ~ 8850 2150
 NoConn ~ 8850 3850
 NoConn ~ 8850 2050
@@ -1048,7 +1045,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 4250 5650 4250
 Wire Wire Line
-	8850 3950 9000 3950
+	8850 4950 9000 4950
 Wire Wire Line
 	8850 3350 9000 3350
 Wire Wire Line
@@ -1058,9 +1055,9 @@ Wire Wire Line
 Wire Wire Line
 	5500 4350 5650 4350
 Wire Wire Line
-	5500 4650 5650 4650
+	9000 4750 8850 4750
 Wire Wire Line
-	5500 4550 5650 4550
+	9000 4850 8850 4850
 Wire Wire Line
 	5650 3950 5500 3950
 Wire Wire Line
@@ -1378,4 +1375,7 @@ F 3 "" H 2100 7350 60  0000 C CNN
 $EndComp
 NoConn ~ 8850 3150
 NoConn ~ 8850 3550
+NoConn ~ 8850 3950
+NoConn ~ 5650 4550
+NoConn ~ 5650 4650
 $EndSCHEMATC
