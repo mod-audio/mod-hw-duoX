@@ -496,15 +496,15 @@ Text GLabel 3300 4400 2    50   Output ~ 0
 HMI_ISP_ENABLE
 Text GLabel 9000 4250 2    50   Output ~ 0
 FS1_LED_R
-Text GLabel 9000 4150 2    50   Output ~ 0
-FS1_LED_G
 Text GLabel 9000 4350 2    50   Output ~ 0
+FS1_LED_G
+Text GLabel 9000 4150 2    50   Output ~ 0
 FS1_LED_B
 Text GLabel 9000 4550 2    50   Output ~ 0
 FS2_LED_R
-Text GLabel 9000 4450 2    50   Output ~ 0
-FS2_LED_G
 Text GLabel 9000 4650 2    50   Output ~ 0
+FS2_LED_G
+Text GLabel 9000 4450 2    50   Output ~ 0
 FS2_LED_B
 Text GLabel 1850 4700 0    50   BiDi ~ 0
 PM_LEDS_SDA
@@ -929,17 +929,17 @@ Wire Wire Line
 Wire Wire Line
 	5400 5000 5400 4950
 Wire Wire Line
-	8850 4350 9000 4350
+	8850 4150 9000 4150
 Wire Wire Line
 	9000 4250 8850 4250
 Wire Wire Line
-	8850 4150 9000 4150
+	8850 4350 9000 4350
 Wire Wire Line
-	9000 4650 8850 4650
+	9000 4450 8850 4450
 Wire Wire Line
 	8850 4550 9000 4550
 Wire Wire Line
-	9000 4450 8850 4450
+	9000 4650 8850 4650
 Wire Wire Line
 	1850 4600 2500 4600
 Wire Wire Line
