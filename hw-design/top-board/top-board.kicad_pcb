@@ -8,7 +8,7 @@
     (drawings 10)
     (tracks 1838)
     (zones 0)
-    (modules 134)
+    (modules 139)
     (nets 143)
   )
 
@@ -75,8 +75,8 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 3 3)
-    (pad_drill 0)
+    (pad_size 3.5 3.5)
+    (pad_drill 3.5)
     (pad_to_mask_clearance 0.1)
     (aux_axis_origin 0 0)
     (grid_origin 9.88 9.8728)
@@ -401,6 +401,50 @@
     (add_net SPI0_CS0_HMI)
     (add_net SPI0_MISO_HMI)
     (add_net SPI0_MOSI_HMI)
+  )
+
+  (module footprints:drill (layer F.Cu) (tedit 55F8265A) (tstamp 55F8282D)
+    (at 238.1752 42.5626)
+    (fp_text reference REF** (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value drill (at 0 -1.25) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.5) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module footprints:drill (layer F.Cu) (tedit 55F8265A) (tstamp 55F82829)
+    (at 238.1752 101.4906)
+    (fp_text reference REF** (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value drill (at 0 -1.25) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.5) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module footprints:drill (layer F.Cu) (tedit 55F8265A) (tstamp 55F82825)
+    (at 156.6666 89.07)
+    (fp_text reference REF** (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value drill (at 0 -1.25) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.5) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module footprints:drill (layer F.Cu) (tedit 55F8265A) (tstamp 55F8281F)
+    (at 75.1834 101.4906)
+    (fp_text reference REF** (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value drill (at 0 -1.25) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.5) (layers *.Cu *.Mask F.SilkS))
   )
 
   (module footprints:fiducial_in-circuit (layer B.Cu) (tedit 55F7FFFA) (tstamp 55F802A9)
@@ -5038,6 +5082,17 @@
     )
     (pad "" smd circle (at 0 0) (size 1 1) (layers F.Cu F.Paste F.Mask))
     (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask))
+  )
+
+  (module footprints:drill (layer F.Cu) (tedit 55F8265A) (tstamp 55F827F4)
+    (at 75.1834 42.5626)
+    (fp_text reference REF** (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value drill (at 0 -1.25) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.5) (layers *.Cu *.Mask F.SilkS))
   )
 
   (gr_text "Musical Operating Devices\nhttp://moddevices.com\n\nMOD Duo - Top Board\nRev.: 2015.07.15" (at 180.6956 69.088) (layer F.SilkS)
