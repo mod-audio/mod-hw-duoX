@@ -648,7 +648,7 @@ Text GLabel 5050 1800 0    50   BiDi ~ 0
 SD0_D2
 Text GLabel 5050 1900 0    50   BiDi ~ 0
 SD0_D3
-Text GLabel 5050 2700 0    50   Output ~ 0
+Text GLabel 5050 2100 0    50   Output ~ 0
 SD0_DETECT
 Text Notes 4600 1050 0    100  ~ 0
 SD CARD
@@ -819,7 +819,7 @@ Wire Wire Line
 Wire Wire Line
 	5050 2600 6300 2600
 Wire Wire Line
-	5050 2700 6300 2700
+	5050 2100 6300 2100
 Wire Wire Line
 	5200 1550 5200 1800
 Wire Wire Line
@@ -832,8 +832,6 @@ Wire Wire Line
 	5800 1550 5800 2500
 Wire Wire Line
 	5950 1550 5950 2600
-Wire Wire Line
-	6100 1550 6100 2700
 Wire Wire Line
 	5200 1350 5200 1250
 Wire Wire Line
@@ -939,7 +937,6 @@ Connection ~ 5500 2000
 Connection ~ 5650 2200
 Connection ~ 5800 2500
 Connection ~ 5950 2600
-Connection ~ 6100 2700
 Connection ~ 5650 1250
 Connection ~ 5500 1250
 Connection ~ 5350 1250
@@ -967,7 +964,6 @@ NoConn ~ 2300 4950
 NoConn ~ 2300 5800
 NoConn ~ 2300 5600
 NoConn ~ 2300 5400
-NoConn ~ 6300 2100
 $Comp
 L GNDD #PWR?
 U 1 1 55FAAD4C
@@ -1024,4 +1020,8 @@ F 3 "" H 2000 2500 60  0000 C CNN
 	1    2000 2500
 	1    0    0    -1  
 $EndComp
+NoConn ~ 6300 2700
+Wire Wire Line
+	6100 1550 6100 2100
+Connection ~ 6100 2100
 $EndSCHEMATC
