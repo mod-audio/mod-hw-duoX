@@ -10,7 +10,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title "MOD Duo - Top Board"
 Date ""
 Rev ""
@@ -49,5 +49,11 @@ S 1000 3600 2150 450
 U 5550E1C1
 F0 "LEDs" 60
 F1 "leds.sch" 60
+$EndSheet
+$Sheet
+S 1000 4300 2150 450 
+U 55F842EE
+F0 "mechanics" 60
+F1 "mechanics.sch" 60
 $EndSheet
 $EndSCHEMATC

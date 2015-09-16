@@ -6,6 +6,16 @@ K 12V relay latch
 F http://www.kemet.com/Lists/ProductCatalog/Attachments/524/KEM_R7002_EC2_EE2.pdf
 $ENDCMP
 #
+$CMP FIDUCIAL
+D fiducial
+K fid
+$ENDCMP
+#
+$CMP HOLE
+D mounting hole
+K drill
+$ENDCMP
+#
 $CMP LPC1759FBD80
 D LPC1759, 32-bit ARM Cortex-M3 microcontroller, 512 kB Flash, 64 kB SRAM, Ethernet, USB 2.0 Host/Device/OTG, CAN, I2S, DAC, RTC
 K ARM 32bit Cortex M3 NXP Microcontroller
