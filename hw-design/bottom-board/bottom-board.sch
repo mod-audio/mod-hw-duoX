@@ -69,12 +69,13 @@ LIBS:ESD_Protection
 LIBS:Power_Management
 LIBS:in-circuit
 LIBS:itead
+LIBS:local-components
 LIBS:bottom-board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 11
+Sheet 1 12
 Title "MOD Duo - Bottom Board"
 Date ""
 Rev ""
@@ -160,4 +161,10 @@ Wire Notes Line
 	1200 4250 1200 4500
 Wire Notes Line
 	1200 4500 6850 4500
+$Sheet
+S 1300 2250 2150 400 
+U 55FC02AF
+F0 "mechanics" 60
+F1 "mechanics.sch" 60
+$EndSheet
 $EndSCHEMATC
