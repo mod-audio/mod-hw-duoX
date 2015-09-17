@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 24AA02E48T-I/OT
+D 2K (256x8) Serial EEPROM, 400KHz, TWI, I2C, EUI-48TM Node Identity
+K memory EUI unique mac 48-bit
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002124F.pdf
+$ENDCMP
+#
+$CMP 24AA02E64T-I/OT
+D 2K (256x8) Serial EEPROM, 400KHz, TWI, I2C, EUI-64TM Node Identity
+K memory EUI unique mac 64-bit
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002124F.pdf
+$ENDCMP
+#
 $CMP EC2-12TNU
 D miniature signal relay, double coil, latch, 12V/140mW coil
 K 12V relay latch
