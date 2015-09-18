@@ -8316,20 +8316,6 @@
     (pad "" thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.5) (layers *.Cu))
   )
 
-  (module footprints:9774027151R locked (layer F.Cu) (tedit 55FBE2FE) (tstamp 55FBF76F)
-    (at 138.72464 101.46792)
-    (descr "Wurth Round Standoff, 9774027151R")
-    (tags "9774027151R spacer")
-    (path /55FC02AF/55FBDF5C)
-    (fp_text reference H6 (at 0 -4.0894) (layer F.SilkS) hide
-      (effects (font (size 0.7 0.7) (thickness 0.105)))
-    )
-    (fp_text value Standoff (at 0 4.7752) (layer F.Fab) hide
-      (effects (font (size 0.7 0.7) (thickness 0.105)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 6 6) (drill 3.7) (layers *.Cu))
-  )
-
   (module footprints:Relay_DPDT_IMXXTS (layer F.Cu) (tedit 55FC3B1A) (tstamp 55FBF794)
     (at 92.2782 116.1923)
     (descr "IM Signal Relay, DPDT, IMXXTS")
@@ -8980,6 +8966,20 @@
       (scale (xyz 0.11 0.11 0.11))
       (rotate (xyz 0 0 90))
     )
+  )
+
+  (module footprints:9774027151R (layer F.Cu) (tedit 55FC4AB3) (tstamp 55FBF76F)
+    (at 138.72464 101.46792)
+    (descr "Wurth Round Standoff, 9774027151R")
+    (tags "9774027151R spacer")
+    (path /55FC02AF/55FBDF5C)
+    (fp_text reference H6 (at 0 -4.0894) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Standoff (at 0 4.7752) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 6 6) (drill 3.7) (layers *.Cu *.Mask))
   )
 
   (gr_line (start 146.06816 23.05776) (end 146.06816 156.56016) (angle 90) (layer Dwgs.User) (width 0.15))
