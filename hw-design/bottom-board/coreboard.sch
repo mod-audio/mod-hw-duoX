@@ -134,9 +134,9 @@ Text GLabel 5800 2300 1    50   Input ~ 0
 CHAIN_UART_RX
 Text GLabel 5700 2300 1    50   Output ~ 0
 CHAIN_UART_TX
-Text GLabel 6900 2300 1    50   Input ~ 0
+Text GLabel 9400 4700 3    50   Input ~ 0
 MIDI_UART_RX
-Text GLabel 6800 2300 1    50   Output ~ 0
+Text GLabel 9300 4700 3    50   Output ~ 0
 MIDI_UART_TX
 Text GLabel 8400 2300 1    50   Output ~ 0
 LEFT_GAIN_CTRL1
@@ -194,9 +194,9 @@ Text GLabel 6000 2300 1    50   Output ~ 0
 CHAIN_UART_RE
 Text GLabel 5900 2300 1    50   Output ~ 0
 CHAIN_UART_DE
-Text GLabel 7100 2300 1    50   BiDi ~ 0
+Text GLabel 6900 2300 1    50   BiDi ~ 0
 HMI_RFU_01(RX)
-Text GLabel 7000 2300 1    50   BiDi ~ 0
+Text GLabel 6800 2300 1    50   BiDi ~ 0
 HMI_RFU_02(TX)
 Text GLabel 3100 2050 1    50   BiDi ~ 0
 TWI1_SDA
@@ -219,9 +219,9 @@ Wire Wire Line
 Wire Wire Line
 	5800 2500 5800 2300
 Wire Wire Line
-	6800 2300 6800 2500
+	9300 4700 9300 4500
 Wire Wire Line
-	6900 2500 6900 2300
+	9400 4500 9400 4700
 Wire Wire Line
 	8400 2300 8400 2500
 Wire Wire Line
@@ -291,25 +291,13 @@ Wire Wire Line
 Wire Wire Line
 	3000 2050 3000 2500
 Wire Wire Line
-	7100 2300 7100 2500
+	6900 2300 6900 2500
 Wire Wire Line
-	7000 2500 7000 2300
+	6800 2500 6800 2300
 Wire Wire Line
 	4200 2150 4200 2500
 Connection ~ 1750 6900
 NoConn ~ 15050 2850
-$Comp
-L Core_AW204x U5
-U 1 1 557FC8D7
-P 5800 3500
-F 0 "U5" H 5150 8600 50  0000 C CNN
-F 1 "Core_AW204x" H 6250 8600 50  0000 C CNN
-F 2 "footprints:Socket_SODIMM_DDR3_TE_2013289" H 5800 -1800 60  0001 C CNN
-F 3 "" H 4950 -3000 60  0000 C CNN
-F 4 "2-2013289-1" H 5800 3500 60  0001 C CNN "MPN"
-	1    5800 3500
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	900  4500 900  4900
 Wire Wire Line
@@ -560,22 +548,22 @@ NoConn ~ 8600 4500
 NoConn ~ 8700 4500
 NoConn ~ 8800 4500
 NoConn ~ 8900 4500
-Text GLabel 4700 2300 1    50   Input ~ 0
+Text GLabel 10200 4700 3    50   Input ~ 0
 HMI_UART_RX
-Text GLabel 4600 2300 1    50   Output ~ 0
+Text GLabel 10100 4700 3    50   Output ~ 0
 HMI_UART_TX
-Text GLabel 4400 2300 1    50   Output ~ 0
+Text GLabel 10300 4700 3    50   Output ~ 0
 HMI_ISP_ENABLE
-Text GLabel 4500 2300 1    50   Output ~ 0
+Text GLabel 10400 4700 3    50   Output ~ 0
 HMI_RESET
 Wire Wire Line
-	4600 2500 4600 2300
+	10100 4500 10100 4700
 Wire Wire Line
-	4700 2500 4700 2300
+	10200 4500 10200 4700
 Wire Wire Line
-	4400 2500 4400 2300
+	10300 4500 10300 4700
 Wire Wire Line
-	4500 2500 4500 2300
+	10400 4500 10400 4700
 Text GLabel 10700 2300 1    50   Output ~ 0
 HMI_SPI0_MOSI
 Text GLabel 10600 2300 1    50   Output ~ 0
@@ -636,20 +624,12 @@ Wire Wire Line
 Connection ~ 2400 2400
 NoConn ~ 9100 4500
 NoConn ~ 9200 4500
-NoConn ~ 9300 4500
-NoConn ~ 9400 4500
 NoConn ~ 9500 4500
 NoConn ~ 9600 4500
 NoConn ~ 9700 4500
 NoConn ~ 9800 4500
 NoConn ~ 9900 4500
 NoConn ~ 10000 4500
-NoConn ~ 10100 4500
-NoConn ~ 10200 4500
-NoConn ~ 10300 4500
-NoConn ~ 10400 4500
-NoConn ~ 10500 4500
-NoConn ~ 10600 4500
 NoConn ~ 10700 4500
 NoConn ~ 10800 4500
 NoConn ~ 4400 4500
@@ -839,4 +819,24 @@ Wire Wire Line
 Wire Wire Line
 	4050 2300 4200 2300
 Connection ~ 4200 2300
+NoConn ~ 7000 2500
+NoConn ~ 7100 2500
+NoConn ~ 10500 4500
+NoConn ~ 10600 4500
+NoConn ~ 4400 2500
+NoConn ~ 4500 2500
+NoConn ~ 4600 2500
+NoConn ~ 4700 2500
+$Comp
+L Core_AW204x U5
+U 1 1 557FC8D7
+P 5800 3500
+F 0 "U5" H 5150 8600 50  0000 C CNN
+F 1 "Core_AW204x" H 6250 8600 50  0000 C CNN
+F 2 "footprints:Socket_SODIMM_DDR3_TE_2013289" H 5800 -1800 60  0001 C CNN
+F 3 "" H 4950 -3000 60  0000 C CNN
+F 4 "2-2013289-1" H 5800 3500 60  0001 C CNN "MPN"
+	1    5800 3500
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
