@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/ricardo/devel/mod-hw-duo/hw-design/bottom-board/bottom-board.sch</source>
-    <date>Thu 17 Sep 2015 07:29:46 PM CEST</date>
+    <date>Fri 18 Sep 2015 11:04:51 AM CEST</date>
     <tool>Eeschema (2015-05-18 BZR 5668)-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -2623,6 +2623,16 @@
       <sheetpath names="/mechanics/" tstamps="/55FC02AF/"/>
       <tstamp>55FC234C</tstamp>
     </comp>
+    <comp ref="H7">
+      <value>Standoff</value>
+      <footprint>footprints:9774027151R</footprint>
+      <fields>
+        <field name="MPN">9774027151R</field>
+      </fields>
+      <libsource lib="local-components" part="HOLE"/>
+      <sheetpath names="/mechanics/" tstamps="/55FC02AF/"/>
+      <tstamp>55FBDF5C</tstamp>
+    </comp>
   </components>
   <libparts>
     <libpart lib="conn" part="BARREL_JACK">
@@ -3532,11 +3542,11 @@
     <library logical="relays">
       <uri>/home/ricardo/devel/kicad-stuff/kicad-library-ricardocrudo/library/relays.lib</uri>
     </library>
-    <library logical="Power_Management">
-      <uri>/home/ricardo/devel/kicad-stuff/kicad-library-ricardocrudo/library/Power_Management.lib</uri>
-    </library>
     <library logical="ESD_Protection">
       <uri>/home/ricardo/devel/kicad-stuff/kicad-library-ricardocrudo/library/ESD_Protection.lib</uri>
+    </library>
+    <library logical="Power_Management">
+      <uri>/home/ricardo/devel/kicad-stuff/kicad-library-ricardocrudo/library/Power_Management.lib</uri>
     </library>
     <library logical="itead">
       <uri>/home/ricardo/devel/mod-hw-duo/hw-design/lib/symbols/itead.lib</uri>
