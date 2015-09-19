@@ -124,9 +124,9 @@ Text GLabel 3500 2300 1    50   Input ~ 0
 CLI_UART_RX
 Text GLabel 3400 2300 1    50   Output ~ 0
 CLI_UART_TX
-Text GLabel 3300 2300 1    50   BiDi ~ 0
+Text GLabel 4500 4850 3    50   BiDi ~ 0
 CODEC_I2C_SDA
-Text GLabel 3200 2300 1    50   Output ~ 0
+Text GLabel 4400 4850 3    50   Output ~ 0
 CODEC_I2C_SCL
 Text GLabel 9100 2300 1    50   Output ~ 0
 CODEC_~RESET
@@ -138,13 +138,13 @@ Text GLabel 9400 4700 3    50   Input ~ 0
 MIDI_UART_RX
 Text GLabel 9300 4700 3    50   Output ~ 0
 MIDI_UART_TX
-Text GLabel 8400 2300 1    50   Output ~ 0
+Text GLabel 3000 2300 1    50   Output ~ 0
 LEFT_GAIN_CTRL1
-Text GLabel 8500 2300 1    50   Output ~ 0
+Text GLabel 3100 2300 1    50   Output ~ 0
 LEFT_GAIN_CTRL2
-Text GLabel 8600 2300 1    50   Output ~ 0
+Text GLabel 3200 2300 1    50   Output ~ 0
 RIGHT_GAIN_CTRL1
-Text GLabel 8700 2300 1    50   Output ~ 0
+Text GLabel 3300 2300 1    50   Output ~ 0
 RIGHT_GAIN_CTRL2
 Text GLabel 8200 2300 1    50   Output ~ 0
 LEFT_TRUE_BYPASS
@@ -198,9 +198,9 @@ Text GLabel 6900 2300 1    50   BiDi ~ 0
 HMI_RFU_01(RX)
 Text GLabel 6800 2300 1    50   BiDi ~ 0
 HMI_RFU_02(TX)
-Text GLabel 3100 2050 1    50   BiDi ~ 0
+Text GLabel 4700 5050 3    50   BiDi ~ 0
 TWI1_SDA
-Text GLabel 3000 2050 1    50   Output ~ 0
+Text GLabel 4600 5050 3    50   Output ~ 0
 TWI1_SCL
 Text GLabel 4200 2150 1    50   Output ~ 0
 PM_LEDS_OE
@@ -209,9 +209,9 @@ Wire Wire Line
 Wire Wire Line
 	3500 2500 3500 2300
 Wire Wire Line
-	3200 2300 3200 2500
+	4400 4850 4400 4500
 Wire Wire Line
-	3300 2500 3300 2300
+	4500 4500 4500 4850
 Wire Wire Line
 	9100 2500 9100 2300
 Wire Wire Line
@@ -223,9 +223,9 @@ Wire Wire Line
 Wire Wire Line
 	9400 4500 9400 4700
 Wire Wire Line
-	8400 2300 8400 2500
+	3000 2300 3000 2500
 Wire Wire Line
-	8500 2500 8500 2300
+	3100 2500 3100 2300
 Wire Wire Line
 	8300 2500 8300 2300
 Wire Wire Line
@@ -283,13 +283,9 @@ Wire Wire Line
 Wire Wire Line
 	5900 2300 5900 2500
 Wire Wire Line
-	8700 2500 8700 2300
+	3300 2500 3300 2300
 Wire Wire Line
-	8600 2500 8600 2300
-Wire Wire Line
-	3100 2050 3100 2500
-Wire Wire Line
-	3000 2050 3000 2500
+	3200 2500 3200 2300
 Wire Wire Line
 	6900 2300 6900 2500
 Wire Wire Line
@@ -632,10 +628,6 @@ NoConn ~ 9900 4500
 NoConn ~ 10000 4500
 NoConn ~ 10700 4500
 NoConn ~ 10800 4500
-NoConn ~ 4400 4500
-NoConn ~ 4500 4500
-NoConn ~ 4600 4500
-NoConn ~ 4700 4500
 NoConn ~ 5100 2500
 NoConn ~ 5200 2500
 NoConn ~ 5300 2500
@@ -740,14 +732,14 @@ Wire Wire Line
 $Comp
 L R_Small R13
 U 1 1 55FB0BD7
-P 2850 1900
-F 0 "R13" V 2820 1990 50  0000 L CNN
-F 1 "2k7" V 2850 1840 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 2850 1900 60  0001 C CNN
-F 3 "" H 2850 1900 60  0000 C CNN
-F 4 "RMCF0603JT2K70" H -5700 50  50  0001 C CNN "MPN"
-	1    2850 1900
-	1    0    0    -1  
+P 4900 4950
+F 0 "R13" V 4950 5050 50  0000 L CNN
+F 1 "2k7" V 4900 4890 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 4900 4950 60  0001 C CNN
+F 3 "" H 4900 4950 60  0000 C CNN
+F 4 "RMCF0603JT2K70" H -3650 3100 50  0001 C CNN "MPN"
+	1    4900 4950
+	0    1    1    0   
 $EndComp
 $Comp
 L R_Small R14
@@ -764,43 +756,26 @@ $EndComp
 $Comp
 L R_Small R12
 U 1 1 55FB0BE7
-P 2750 1900
-F 0 "R12" V 2710 1990 50  0000 L CNN
-F 1 "2k7" V 2750 1840 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 2750 1900 60  0001 C CNN
-F 3 "" H 2750 1900 60  0000 C CNN
-F 4 "RMCF0603JT2K70" H -5700 50  50  0001 C CNN "MPN"
-	1    2750 1900
-	1    0    0    -1  
+P 4900 4850
+F 0 "R12" V 4850 4600 50  0000 L CNN
+F 1 "2k7" V 4900 4790 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 4900 4850 60  0001 C CNN
+F 3 "" H 4900 4850 60  0000 C CNN
+F 4 "RMCF0603JT2K70" H -3550 3000 50  0001 C CNN "MPN"
+	1    4900 4850
+	0    -1   -1   0   
 $EndComp
 $Comp
 L +3.3V #PWR059
 U 1 1 55FB0BEE
-P 2750 1600
-F 0 "#PWR059" H 2750 1450 50  0001 C CNN
-F 1 "+3.3V" H 2750 1740 50  0000 C CNN
-F 2 "" H 2750 1600 60  0000 C CNN
-F 3 "" H 2750 1600 60  0000 C CNN
-	1    2750 1600
+P 5200 4750
+F 0 "#PWR059" H 5200 4600 50  0001 C CNN
+F 1 "+3.3V" H 5200 4890 50  0000 C CNN
+F 2 "" H 5200 4750 60  0000 C CNN
+F 3 "" H 5200 4750 60  0000 C CNN
+	1    5200 4750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2750 2000 2750 2250
-Wire Wire Line
-	2850 2000 2850 2200
-Wire Wire Line
-	2750 1700 2850 1700
-Wire Wire Line
-	2850 1700 2850 1800
-Wire Wire Line
-	2750 1600 2750 1800
-Connection ~ 2750 1700
-Wire Wire Line
-	2850 2200 3100 2200
-Connection ~ 3100 2200
-Wire Wire Line
-	2750 2250 3000 2250
-Connection ~ 3000 2250
 $Comp
 L +3.3V #PWR060
 U 1 1 55FB10C1
@@ -839,4 +814,25 @@ F 4 "2-2013289-1" H 5800 3500 60  0001 C CNN "MPN"
 	1    5800 3500
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	4600 5050 4600 4500
+Wire Wire Line
+	4700 4500 4700 5050
+Wire Wire Line
+	4800 4850 4600 4850
+Connection ~ 4600 4850
+Wire Wire Line
+	4800 4950 4700 4950
+Connection ~ 4700 4950
+Wire Wire Line
+	5000 4950 5200 4950
+Wire Wire Line
+	5200 4950 5200 4750
+Wire Wire Line
+	5000 4850 5200 4850
+Connection ~ 5200 4850
+NoConn ~ 8400 2500
+NoConn ~ 8500 2500
+NoConn ~ 8600 2500
+NoConn ~ 8700 2500
 $EndSCHEMATC
