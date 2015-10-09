@@ -838,10 +838,8 @@ NoConn ~ 4900 5200
 NoConn ~ 4900 5400
 NoConn ~ 4900 5600
 NoConn ~ 2300 4350
-NoConn ~ 2300 4550
 NoConn ~ 2300 4750
 NoConn ~ 2300 5600
-NoConn ~ 2300 5400
 NoConn ~ 2300 5200
 $Comp
 L GNDD #PWR0165
@@ -903,4 +901,10 @@ NoConn ~ 6300 2700
 Wire Wire Line
 	6100 1550 6100 2100
 Connection ~ 6100 2100
+Wire Wire Line
+	2300 5400 2450 5400
+Connection ~ 2450 5400
+Wire Wire Line
+	2300 4550 2450 4550
+Connection ~ 2450 4550
 $EndSCHEMATC
