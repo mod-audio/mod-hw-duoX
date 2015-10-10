@@ -11,7 +11,7 @@ Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,MPN
 10,6,"FID1, FID2, FID3, FID4, FID5, FID6",FIDUCIAL,local-components:FIDUCIAL,footprints:fiducial_in-circuit,,
 11,2,"GLCD1, GLCD2",ERC12864-2,local-components:ERC12864-2,footprints:ER-CON30HB-1,,ER-CON30HT-1
 12,5,"H1, H2, H3, H4, H5",HOLE,local-components:HOLE,footprints:Hole_3.5mm,,
-13,1,P1,POWER_CONN,conn:CONN_01X02,footprints:Pin_Header_Angled_1x02_Pitch2.00mm_Shrouded,,440055-2
+13,1,P1,POWER_CONN,conn:CONN_01X02,footprints:S2B-XH-A,,S2B-XH-A(LF)(SN)
 14,1,P2,ISP,conn:CONN_02X05,Pin_Headers:Pin_Header_Straight_2x05_Pitch1.27mm,,
 15,1,P4,BOTTOM_CONN,conn:CONN_02X10,Pin_Headers:Pin_Header_Angled_2x10,,68021-220HLF
 16,2,"P5, P6",BACKLIGHT,conn:CONN_01X02,Pin_Headers:SMD_Pin_Header_Angled_2x01_Pitch2.00mm,,ER-CON2.0-2P-SMD
