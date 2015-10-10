@@ -3,7 +3,7 @@
   (general
     (links 342)
     (no_connects 0)
-    (area 71.624905 39.007697 241.724909 105.045908)
+    (area 71.5645 32.471999 241.808001 106.1156)
     (thickness 1.6)
     (drawings 5)
     (tracks 1854)
@@ -42,7 +42,7 @@
   )
 
   (setup
-    (last_trace_width 0.508)
+    (last_trace_width 0.3048)
     (user_trace_width 0.2032)
     (user_trace_width 0.254)
     (user_trace_width 0.3048)
@@ -79,7 +79,7 @@
     (pad_drill 1.8)
     (pad_to_mask_clearance 0.1)
     (pad_to_paste_clearance -0.003)
-    (aux_axis_origin 0 0)
+    (aux_axis_origin 75.1834 42.5626)
     (grid_origin 78.51334 97.579)
     (visible_elements FFFFFF7F)
     (pcbplotparams
@@ -90,7 +90,7 @@
       (plotframeref false)
       (viasonmask false)
       (mode 1)
-      (useauxorigin false)
+      (useauxorigin true)
       (hpglpennumber 1)
       (hpglpenspeed 20)
       (hpglpendiameter 15)
@@ -5132,7 +5132,7 @@
       (net 1 GNDD))
   )
 
-  (gr_text "Musical Operating Devices\nhttp://moddevices.com\n\nMOD Duo - Top Board\nRev.: 2015.09.29" (at 180.6956 69.088) (layer F.SilkS)
+  (gr_text "Musical Operating Devices\nhttp://moddevices.com\n\nMOD Duo - Top Board\nRev.: 2015.10.10" (at 180.6956 69.088) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
   (gr_line (start 71.674906 39.057698) (end 71.674906 104.995907) (layer Edge.Cuts) (width 0.1))
