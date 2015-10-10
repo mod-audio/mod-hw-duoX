@@ -29,10 +29,10 @@ Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,MPN
 28,1,P2,USB_A,conn:USB_A,Connect:USB_A_Vertical,,73725-0110BLF
 29,2,"P3, P4",DIN_5,conn:DIN_5,Connect:SDS-50J,,SDS-50J
 30,1,P5,BARREL_JACK,conn:BARREL_JACK,Connect:BARREL_JACK,,PJ-002AH
-31,1,P6,~,conn:CONN_01X02,footprints:Pin_Header_Straight_1x02_Pitch2.00mm_Shrouded,,440054-2
-32,1,P7,CONN_01X10,conn:CONN_01X10,Pin_Headers:Pin_Header_Straight_1x10,,-
-33,1,P8,CONN_02X10,conn:CONN_02X10,footprints:Pin_Header_Straight_2x10_Shrouded,,SBH11-PBPC-D10-ST-BK
-34,1,P9,CONN_01X03,conn:CONN_01X03,Pin_Headers:Pin_Header_Straight_1x03,,-
+31,1,P6,HMI_POWER,conn:CONN_01X02,footprints:B2B-XH-A,,B2B-XH-A(LF)(SN)
+32,1,P7,SD_CARD,conn:CONN_01X10,Pin_Headers:Pin_Header_Straight_1x10,,-
+33,1,P8,HMI_DATA,conn:CONN_02X10,footprints:Pin_Header_Straight_2x10_Shrouded,,SBH11-PBPC-D10-ST-BK
+34,1,P9,SERIAL_DEBUG,conn:CONN_01X03,Pin_Headers:Pin_Header_Straight_1x03,,-
 35,9,"Q1, Q10, Q11, Q12, Q13, Q2, Q7, Q8, Q9",2N7002,device:Q_NMOS_GSD,Housings_SOT-23_SOT-143_TSOT-6:SOT-23,,"2N7002P,215"
 36,2,"Q14, Q15",BSS84,device:Q_PMOS_GSD,Housings_SOT-23_SOT-143_TSOT-6:SOT-23,,BSS84
 37,4,"Q3, Q4, Q5, Q6",J112,device:Q_NJFET_DSG,Housings_SOT-23_SOT-143_TSOT-6:SOT-23,,MMBFJ112
