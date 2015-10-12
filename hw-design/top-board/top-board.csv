@@ -30,5 +30,5 @@ Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,MPN
 29,1,U2,NCP1117DT33G,regul:NCP1117ST33T3G,SMD_Packages:DPAK-2,,NCP1117DT33G
 30,1,U3,MCP6001,local-components:MCP6001,Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5,,MCP6001T-I/OT
 31,1,U4,LPC1759FBD80,local-components:LPC1759FBD80,Housings_QFP:LQFP-80_12x12mm_Pitch0.5mm,,"LPC1759FBD80,551"
-32,1,U5,PCA9685,local-components:PCA9685,Housings_SSOP:TSSOP-28_4.4x9.7mm_Pitch0.65mm,,"PCA9685PW,112"
+32,1,U5,PCA9685,local-components:PCA9685,Housings_SSOP:TSSOP-28_4.4x9.7mm_Pitch0.65mm,,"PCA9685PW,118"
 33,1,Y1,10MHz,device:Crystal_Small,Crystals:Crystal_HC49-SD_SMD,,FOXSDLF/100-20

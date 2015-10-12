@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/ricardo/devel/mod-hw-duo/hw-design/top-board/top-board.sch</source>
-    <date>Mon 12 Oct 2015 10:46:40 AM BRT</date>
+    <date>Mon 12 Oct 2015 07:00:27 PM BRT</date>
     <tool>Eeschema no-vcs-found-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1335,7 +1335,7 @@
       <value>PCA9685</value>
       <footprint>Housings_SSOP:TSSOP-28_4.4x9.7mm_Pitch0.65mm</footprint>
       <fields>
-        <field name="MPN">PCA9685PW,112</field>
+        <field name="MPN">PCA9685PW,118</field>
       </fields>
       <libsource lib="local-components" part="PCA9685"/>
       <sheetpath names="/LEDs/" tstamps="/5550E1C1/"/>
@@ -1420,67 +1420,50 @@
     </comp>
   </components>
   <libparts>
-    <libpart lib="device" part="C">
-      <description>Unpolarized capacitor</description>
-      <footprints>
-        <fp>C?</fp>
-        <fp>C_????_*</fp>
-        <fp>C_????</fp>
-        <fp>SMD*_c</fp>
-        <fp>Capacitor*</fp>
-      </footprints>
+    <libpart lib="device" part="Q_NPN_BEC">
+      <description>Transistor NPN (general)</description>
       <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C</field>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_BEC</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="D">
-      <description>Diode</description>
+    <libpart lib="conn" part="CONN_02X10">
       <footprints>
-        <fp>Diode_*</fp>
-        <fp>D-Pak_TO252AA</fp>
-        <fp>*SingleDiode</fp>
-        <fp>*_Diode_*</fp>
-        <fp>*SingleDiode*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">D</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="SW_PUSH">
-      <description>Push Button</description>
-      <fields>
-        <field name="Reference">SW</field>
-        <field name="Value">SW_PUSH</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_01X02">
-      <footprints>
-        <fp>Pin_Header_Straight_1X02</fp>
-        <fp>Pin_Header_Angled_1X02</fp>
-        <fp>Socket_Strip_Straight_1X02</fp>
-        <fp>Socket_Strip_Angled_1X02</fp>
+        <fp>Pin_Header_Straight_2X10</fp>
+        <fp>Pin_Header_Angled_2X10</fp>
+        <fp>Socket_Strip_Straight_2X10</fp>
+        <fp>Socket_Strip_Angled_2X10</fp>
       </footprints>
       <fields>
         <field name="Reference">P</field>
-        <field name="Value">CONN_01X02</field>
+        <field name="Value">CONN_02X10</field>
       </fields>
       <pins>
         <pin num="1" name="P1" type="passive"/>
         <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+        <pin num="17" name="P17" type="passive"/>
+        <pin num="18" name="P18" type="passive"/>
+        <pin num="19" name="P19" type="passive"/>
+        <pin num="20" name="P20" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="device" part="R">
@@ -1498,65 +1481,34 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="Crystal_Small">
-      <description>Two pin crystal</description>
-      <footprints>
-        <fp>Crystal_</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">Y</field>
-        <field name="Value">Crystal_Small</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="Q_NPN_BEC">
-      <description>Transistor NPN (general)</description>
+    <libpart lib="device" part="Q_NMOS_GSD">
+      <description>Transistor N-MOSFET (general)</description>
       <fields>
         <field name="Reference">Q</field>
-        <field name="Value">Q_NPN_BEC</field>
+        <field name="Value">Q_NMOS_GSD</field>
       </fields>
       <pins>
-        <pin num="1" name="B" type="input"/>
-        <pin num="2" name="E" type="passive"/>
-        <pin num="3" name="C" type="passive"/>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="R_PACK4">
-      <description>4 resistors Pack</description>
-      <fields>
-        <field name="Reference">RP</field>
-        <field name="Value">R_PACK4</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-        <pin num="4" name="P4" type="passive"/>
-        <pin num="5" name="R4" type="passive"/>
-        <pin num="6" name="R3" type="passive"/>
-        <pin num="7" name="R2" type="passive"/>
-        <pin num="8" name="R1" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="LED_RGB">
-      <description>RGB LED 6-pins</description>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
       <footprints>
-        <fp>LED*</fp>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
       </footprints>
       <fields>
-        <field name="Reference">D</field>
-        <field name="Value">LED_RGB</field>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
       </fields>
       <pins>
-        <pin num="1" name="RC" type="passive"/>
-        <pin num="2" name="GC" type="passive"/>
-        <pin num="3" name="BC" type="passive"/>
-        <pin num="4" name="BA" type="passive"/>
-        <pin num="5" name="GA" type="passive"/>
-        <pin num="6" name="RA" type="passive"/>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="device" part="CP">
@@ -1578,16 +1530,79 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="Q_NMOS_GSD">
-      <description>Transistor N-MOSFET (general)</description>
+    <libpart lib="device" part="R_PACK4">
+      <description>4 resistors Pack</description>
       <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">Q_NMOS_GSD</field>
+        <field name="Reference">RP</field>
+        <field name="Value">R_PACK4</field>
       </fields>
       <pins>
-        <pin num="1" name="G" type="input"/>
-        <pin num="2" name="S" type="passive"/>
-        <pin num="3" name="D" type="passive"/>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="R4" type="passive"/>
+        <pin num="6" name="R3" type="passive"/>
+        <pin num="7" name="R2" type="passive"/>
+        <pin num="8" name="R1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X05">
+      <footprints>
+        <fp>Pin_Header_Straight_2X05</fp>
+        <fp>Pin_Header_Angled_2X05</fp>
+        <fp>Socket_Strip_Straight_2X05</fp>
+        <fp>Socket_Strip_Angled_2X05</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="local-components" part="ERC12864-2">
@@ -1626,64 +1641,6 @@
         <pin num="28" name="A0" type="input"/>
         <pin num="29" name="~RES~" type="input"/>
         <pin num="30" name="~CS~" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_02X10">
-      <footprints>
-        <fp>Pin_Header_Straight_2X10</fp>
-        <fp>Pin_Header_Angled_2X10</fp>
-        <fp>Socket_Strip_Straight_2X10</fp>
-        <fp>Socket_Strip_Angled_2X10</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_02X10</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-        <pin num="4" name="P4" type="passive"/>
-        <pin num="5" name="P5" type="passive"/>
-        <pin num="6" name="P6" type="passive"/>
-        <pin num="7" name="P7" type="passive"/>
-        <pin num="8" name="P8" type="passive"/>
-        <pin num="9" name="P9" type="passive"/>
-        <pin num="10" name="P10" type="passive"/>
-        <pin num="11" name="P11" type="passive"/>
-        <pin num="12" name="P12" type="passive"/>
-        <pin num="13" name="P13" type="passive"/>
-        <pin num="14" name="P14" type="passive"/>
-        <pin num="15" name="P15" type="passive"/>
-        <pin num="16" name="P16" type="passive"/>
-        <pin num="17" name="P17" type="passive"/>
-        <pin num="18" name="P18" type="passive"/>
-        <pin num="19" name="P19" type="passive"/>
-        <pin num="20" name="P20" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_02X05">
-      <footprints>
-        <fp>Pin_Header_Straight_2X05</fp>
-        <fp>Pin_Header_Angled_2X05</fp>
-        <fp>Socket_Strip_Straight_2X05</fp>
-        <fp>Socket_Strip_Angled_2X05</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_02X05</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-        <pin num="4" name="P4" type="passive"/>
-        <pin num="5" name="P5" type="passive"/>
-        <pin num="6" name="P6" type="passive"/>
-        <pin num="7" name="P7" type="passive"/>
-        <pin num="8" name="P8" type="passive"/>
-        <pin num="9" name="P9" type="passive"/>
-        <pin num="10" name="P10" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="local-components" part="FIDUCIAL">
@@ -1800,6 +1757,31 @@
         <pin num="80" name="P0[3]/RXD0/AD0[6]" type="BiDi"/>
       </pins>
     </libpart>
+    <libpart lib="regul" part="NCP1117ST50T3G">
+      <aliases>
+        <alias>NCP1117ST12T3G</alias>
+        <alias>NCP1117ST15T3G</alias>
+        <alias>NCP1117ST18T3G</alias>
+        <alias>NCP1117ST20T3G</alias>
+        <alias>NCP1117ST25T3G</alias>
+        <alias>NCP1117ST285T3G</alias>
+        <alias>NCP1117ST33T3G</alias>
+      </aliases>
+      <description>NCP1117ST50T3G, 1A Low drop-out regulator, Fixed Output 5V, SOT223</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF</docs>
+      <footprints>
+        <fp>SOT223</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NCP1117ST50T3G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
     <libpart lib="local-components" part="MCP6001">
       <description>general purpose operational amplifier, 1MHz, 1.8V - 6V</description>
       <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf</docs>
@@ -1872,44 +1854,62 @@
         <pin num="5" name="B" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="regul" part="NCP1117ST50T3G">
-      <aliases>
-        <alias>NCP1117ST12T3G</alias>
-        <alias>NCP1117ST15T3G</alias>
-        <alias>NCP1117ST18T3G</alias>
-        <alias>NCP1117ST20T3G</alias>
-        <alias>NCP1117ST25T3G</alias>
-        <alias>NCP1117ST285T3G</alias>
-        <alias>NCP1117ST33T3G</alias>
-      </aliases>
-      <description>NCP1117ST50T3G, 1A Low drop-out regulator, Fixed Output 5V, SOT223</description>
-      <docs>http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF</docs>
+    <libpart lib="device" part="LED_RGB">
+      <description>RGB LED 6-pins</description>
       <footprints>
-        <fp>SOT223</fp>
+        <fp>LED*</fp>
       </footprints>
       <fields>
-        <field name="Reference">U</field>
-        <field name="Value">NCP1117ST50T3G</field>
+        <field name="Reference">D</field>
+        <field name="Value">LED_RGB</field>
       </fields>
       <pins>
-        <pin num="1" name="GND" type="power_in"/>
-        <pin num="2" name="VO" type="power_out"/>
-        <pin num="3" name="VI" type="power_in"/>
+        <pin num="1" name="RC" type="passive"/>
+        <pin num="2" name="GC" type="passive"/>
+        <pin num="3" name="BC" type="passive"/>
+        <pin num="4" name="BA" type="passive"/>
+        <pin num="5" name="GA" type="passive"/>
+        <pin num="6" name="RA" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Crystal_Small">
+      <description>Two pin crystal</description>
+      <footprints>
+        <fp>Crystal_</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SW_PUSH">
+      <description>Push Button</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
   </libparts>
   <libraries>
-    <library logical="conn">
-      <uri>/home/ricardo/devel/kicad-stuff/kicad-library-ricardocrudo/library/conn.lib</uri>
-    </library>
     <library logical="regul">
       <uri>/home/ricardo/devel/kicad-stuff/kicad-library-ricardocrudo/library/regul.lib</uri>
     </library>
-    <library logical="local-components">
-      <uri>/home/ricardo/devel/mod-hw-duo/hw-design/lib/symbols/local-components.lib</uri>
+    <library logical="conn">
+      <uri>/home/ricardo/devel/kicad-stuff/kicad-library-ricardocrudo/library/conn.lib</uri>
     </library>
     <library logical="device">
       <uri>/home/ricardo/devel/kicad-stuff/kicad-library-ricardocrudo/library/device.lib</uri>
+    </library>
+    <library logical="local-components">
+      <uri>/home/ricardo/devel/mod-hw-duo/hw-design/lib/symbols/local-components.lib</uri>
     </library>
   </libraries>
   <nets>
