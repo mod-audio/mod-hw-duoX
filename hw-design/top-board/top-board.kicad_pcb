@@ -99,7 +99,7 @@
       (psa4output false)
       (plotreference true)
       (plotvalue true)
-      (plotinvisibletext false)
+      (plotinvisibletext true)
       (padsonsilk false)
       (subtractmaskfromsilk false)
       (outputformat 1)
