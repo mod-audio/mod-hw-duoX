@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/ricardo/devel/mod-hw-duo/hw-design/bottom-board/bottom-board.sch</source>
-    <date>Fri 09 Oct 2015 09:29:39 PM BRT</date>
+    <date>Thu 15 Oct 2015 10:43:09 AM BRT</date>
     <tool>Eeschema no-vcs-found-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -2334,7 +2334,7 @@
       <value>JACK_TRS_6PINS</value>
       <footprint>Connect:NMJ6HCD2</footprint>
       <fields>
-        <field name="MPN">NMJ6HCD2-RM</field>
+        <field name="MPN">NMJ6HCD2</field>
       </fields>
       <libsource lib="conn" part="JACK_TRS_6PINS"/>
       <sheetpath names="/connectors/" tstamps="/54F72FB8/"/>
@@ -2384,7 +2384,7 @@
       <value>JACK_TRS_6PINS</value>
       <footprint>Connect:NMJ6HCD2</footprint>
       <fields>
-        <field name="MPN">NMJ6HCD2-RM</field>
+        <field name="MPN">NMJ6HCD2</field>
       </fields>
       <libsource lib="conn" part="JACK_TRS_6PINS"/>
       <sheetpath names="/connectors/" tstamps="/54F72FB8/"/>
@@ -2394,7 +2394,7 @@
       <value>JACK_TRS_6PINS</value>
       <footprint>Connect:NMJ6HCD2</footprint>
       <fields>
-        <field name="MPN">NMJ6HCD2-RM</field>
+        <field name="MPN">NMJ6HCD2</field>
       </fields>
       <libsource lib="conn" part="JACK_TRS_6PINS"/>
       <sheetpath names="/connectors/" tstamps="/54F72FB8/"/>
@@ -2404,7 +2404,7 @@
       <value>JACK_TRS_6PINS</value>
       <footprint>Connect:NMJ6HCD2</footprint>
       <fields>
-        <field name="MPN">NMJ6HCD2-RM</field>
+        <field name="MPN">NMJ6HCD2</field>
       </fields>
       <libsource lib="conn" part="JACK_TRS_6PINS"/>
       <sheetpath names="/connectors/" tstamps="/54F72FB8/"/>
@@ -2414,7 +2414,7 @@
       <value>JACK_TRS_6PINS</value>
       <footprint>Connect:NMJ6HCD2</footprint>
       <fields>
-        <field name="MPN">NMJ6HCD2-RM</field>
+        <field name="MPN">NMJ6HCD2</field>
       </fields>
       <libsource lib="conn" part="JACK_TRS_6PINS"/>
       <sheetpath names="/connectors/" tstamps="/54F72FB8/"/>
@@ -2628,43 +2628,213 @@
     </comp>
   </components>
   <libparts>
-    <libpart lib="device" part="D_Small">
-      <description>Diode</description>
-      <footprints>
-        <fp>Diode_*</fp>
-        <fp>D-Pak_TO252AA</fp>
-        <fp>*SingleDiode</fp>
-        <fp>*SingleDiode*</fp>
-        <fp>*_Diode_*</fp>
-      </footprints>
+    <libpart lib="conn" part="BARREL_JACK">
+      <description>DC Barrel Jack</description>
       <fields>
-        <field name="Reference">D</field>
-        <field name="Value">D_Small</field>
+        <field name="Reference">CON</field>
+        <field name="Value">BARREL_JACK</field>
       </fields>
       <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="linear" part="OP275">
-      <aliases>
-        <alias>ADA4075</alias>
-      </aliases>
-      <description>Dual Op amp (low power)</description>
-      <docs>analog-dev/op275.pdf</docs>
+    <libpart lib="conn" part="CONN_01X02">
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
       <fields>
-        <field name="Reference">U</field>
-        <field name="Value">OP275</field>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="output"/>
-        <pin num="2" name="-" type="input"/>
-        <pin num="3" name="+" type="input"/>
-        <pin num="4" name="V-" type="power_in"/>
-        <pin num="5" name="+" type="input"/>
-        <pin num="6" name="-" type="input"/>
-        <pin num="7" name="~" type="output"/>
-        <pin num="8" name="V+" type="power_in"/>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X10">
+      <footprints>
+        <fp>Pin_Header_Straight_1X10</fp>
+        <fp>Pin_Header_Angled_1X10</fp>
+        <fp>Socket_Strip_Straight_1X10</fp>
+        <fp>Socket_Strip_Angled_1X10</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X10">
+      <footprints>
+        <fp>Pin_Header_Straight_2X10</fp>
+        <fp>Pin_Header_Angled_2X10</fp>
+        <fp>Socket_Strip_Straight_2X10</fp>
+        <fp>Socket_Strip_Angled_2X10</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+        <pin num="17" name="P17" type="passive"/>
+        <pin num="18" name="P18" type="passive"/>
+        <pin num="19" name="P19" type="passive"/>
+        <pin num="20" name="P20" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="DIN_5">
+      <description>DIN 5 pins connector, 41524</description>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">DIN_5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="JACK_TRS_6PINS">
+      <description>audio jack TRS 6 pins</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">JACK_TRS_6PINS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="T" type="passive"/>
+        <pin num="3" name="R" type="passive"/>
+        <pin num="4" name="SN" type="passive"/>
+        <pin num="5" name="TN" type="passive"/>
+        <pin num="6" name="RN" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="RJ45_LEDS">
+      <description>RJ45, status leds</description>
+      <footprints>
+        <fp>RJ45*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">RJ45_LEDS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+        <pin num="9" name="~" type="passive"/>
+        <pin num="10" name="~" type="passive"/>
+        <pin num="11" name="~" type="passive"/>
+        <pin num="12" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="USB_A">
+      <description>USB A connector</description>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">USB_A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="USB_B">
+      <description>USB B connector</description>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">USB_B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP_Small">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="device" part="C_Small">
@@ -2685,34 +2855,6 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="relays" part="IM00">
-      <aliases>
-        <alias>IM01</alias>
-        <alias>IM02</alias>
-        <alias>IM03</alias>
-        <alias>IM04</alias>
-        <alias>IM05</alias>
-        <alias>IM06</alias>
-        <alias>IM07</alias>
-        <alias>IM08</alias>
-      </aliases>
-      <description>IM Relay, standard version, monostable, switching current 2/5A, power 60W/62.5VA, voltage 220VDC/250VAC</description>
-      <docs>http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=108-98001&amp;DocType=SS&amp;DocLang=EN</docs>
-      <fields>
-        <field name="Reference">K</field>
-        <field name="Value">IM00</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-        <pin num="3" name="~" type="passive"/>
-        <pin num="4" name="~" type="passive"/>
-        <pin num="5" name="~" type="passive"/>
-        <pin num="6" name="~" type="passive"/>
-        <pin num="7" name="~" type="passive"/>
-        <pin num="8" name="~" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="device" part="D">
       <description>Diode</description>
       <footprints>
@@ -2731,6 +2873,123 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="device" part="D_Schottky_x2_Serial_AKC">
+      <description>Double diode Shottky (Serie)</description>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky_x2_Serial_AKC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+        <pin num="3" name="common" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Small">
+      <description>Diode</description>
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="FILTER">
+      <description>Filtre EMI</description>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FILTER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="FUSE">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">FUSE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="L_Small">
+      <description>Inductor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_NJFET_DSG">
+      <description>Transistor N-JFET (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NJFET_DSG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="G" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_NMOS_GSD">
+      <description>Transistor N-MOSFET (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_PMOS_GSD">
+      <description>Transistor P-MOSFET (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_GSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="device" part="R_Small">
       <description>Resistor</description>
       <footprints>
@@ -2746,50 +3005,6 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="conn" part="DIN_5">
-      <description>DIN 5 pins connector, 41524</description>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">DIN_5</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-        <pin num="3" name="3" type="passive"/>
-        <pin num="4" name="4" type="passive"/>
-        <pin num="5" name="5" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="opto" part="6N135">
-      <aliases>
-        <alias>6N136</alias>
-      </aliases>
-      <description>6N135, DIP8, High Speed Optocoupler, TTL Compatible, CTR 18%</description>
-      <docs>http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/6N135_6N136_en_datasheet_071001.pdf</docs>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">6N135</field>
-        <field name="Footprint">DIP-8</field>
-      </fields>
-      <pins>
-        <pin num="2" name="~" type="passive"/>
-        <pin num="3" name="~" type="passive"/>
-        <pin num="5" name="~" type="passive"/>
-        <pin num="6" name="~" type="passive"/>
-        <pin num="7" name="~" type="passive"/>
-        <pin num="8" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="FUSE">
-      <fields>
-        <field name="Reference">F</field>
-        <field name="Value">FUSE</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="input"/>
-        <pin num="2" name="~" type="input"/>
-      </pins>
-    </libpart>
     <libpart lib="device" part="SW_PUSH">
       <description>Push Button</description>
       <fields>
@@ -2799,67 +3014,6 @@
       <pins>
         <pin num="1" name="1" type="passive"/>
         <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="interface" part="ISL83491">
-      <description>10Mbps RS485/RS422 transceiver, full duplex, receiver/driver enable, low power shutdown</description>
-      <docs>http://www.intersil.com/content/dam/Intersil/documents/isl8/isl83483-85-88-90-91.pdf</docs>
-      <footprints>
-        <fp>SOIC*</fp>
-        <fp>PDIP*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">ISL83491</field>
-      </fields>
-      <pins>
-        <pin num="2" name="RO" type="output"/>
-        <pin num="3" name="~RE" type="input"/>
-        <pin num="4" name="DE" type="input"/>
-        <pin num="5" name="DI" type="input"/>
-        <pin num="6" name="GND" type="power_in"/>
-        <pin num="7" name="GND" type="power_in"/>
-        <pin num="9" name="Y" type="output"/>
-        <pin num="10" name="~Z~" type="output"/>
-        <pin num="11" name="~B" type="input"/>
-        <pin num="12" name="A" type="input"/>
-        <pin num="13" name="VCC" type="power_in"/>
-        <pin num="14" name="VCC" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="regul" part="LM7805CT">
-      <aliases>
-        <alias>LM7806CT</alias>
-        <alias>LM7808CT</alias>
-        <alias>LM7809CT</alias>
-        <alias>LM7810CT</alias>
-        <alias>LM7812CT</alias>
-        <alias>LM7815CT</alias>
-        <alias>LM7818CT</alias>
-        <alias>LM7824CT</alias>
-        <alias>LM7806ACT</alias>
-        <alias>LM7808ACT</alias>
-        <alias>LM7809ACT</alias>
-        <alias>LM7810ACT</alias>
-        <alias>LM7812ACT</alias>
-        <alias>LM7815ACT</alias>
-        <alias>LM7818ACT</alias>
-        <alias>LM7824ACT</alias>
-      </aliases>
-      <description>LM7805CT, Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220</description>
-      <docs>http://www.fairchildsemi.com/ds/LM/LM7805.pdf</docs>
-      <footprints>
-        <fp>TO*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">LM7805CT</field>
-        <field name="Footprint">TO-220</field>
-      </fields>
-      <pins>
-        <pin num="1" name="IN" type="input"/>
-        <pin num="2" name="GND" type="power_in"/>
-        <pin num="3" name="OUT" type="power_out"/>
       </pins>
     </libpart>
     <libpart lib="digital-audio" part="CS4245">
@@ -2920,45 +3074,6 @@
         <pin num="48" name="OVFL" type="output"/>
       </pins>
     </libpart>
-    <libpart lib="conn" part="RJ45_LEDS">
-      <description>RJ45, status leds</description>
-      <footprints>
-        <fp>RJ45*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">RJ45_LEDS</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-        <pin num="3" name="~" type="passive"/>
-        <pin num="4" name="~" type="passive"/>
-        <pin num="5" name="~" type="passive"/>
-        <pin num="6" name="~" type="passive"/>
-        <pin num="7" name="~" type="passive"/>
-        <pin num="8" name="~" type="passive"/>
-        <pin num="9" name="~" type="passive"/>
-        <pin num="10" name="~" type="passive"/>
-        <pin num="11" name="~" type="passive"/>
-        <pin num="12" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="R">
-      <description>Resistor</description>
-      <footprints>
-        <fp>R_*</fp>
-        <fp>Resistor_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="digital-audio" part="LM4811">
       <description>LM4811, Dual105mW Headphone Amplifier, Digital Volume Control, Shutdown Mode</description>
       <docs>http://www.ti.com/lit/ds/symlink/lm4811.pdf</docs>
@@ -2984,23 +3099,106 @@
         <pin num="10" name="VDD" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="CP_Small">
-      <description>Polarised capacitor</description>
+    <libpart lib="interface" part="ISL83491">
+      <description>10Mbps RS485/RS422 transceiver, full duplex, receiver/driver enable, low power shutdown</description>
+      <docs>http://www.intersil.com/content/dam/Intersil/documents/isl8/isl83483-85-88-90-91.pdf</docs>
       <footprints>
-        <fp>CP*</fp>
-        <fp>Elko*</fp>
-        <fp>TantalC*</fp>
-        <fp>C*elec</fp>
-        <fp>c_elec*</fp>
-        <fp>SMD*_Pol</fp>
+        <fp>SOIC*</fp>
+        <fp>PDIP*</fp>
       </footprints>
       <fields>
-        <field name="Reference">C</field>
-        <field name="Value">CP_Small</field>
+        <field name="Reference">U</field>
+        <field name="Value">ISL83491</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="RO" type="output"/>
+        <pin num="3" name="~RE" type="input"/>
+        <pin num="4" name="DE" type="input"/>
+        <pin num="5" name="DI" type="input"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="9" name="Y" type="output"/>
+        <pin num="10" name="~Z~" type="output"/>
+        <pin num="11" name="~B" type="input"/>
+        <pin num="12" name="A" type="input"/>
+        <pin num="13" name="VCC" type="power_in"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="linear" part="OP275">
+      <aliases>
+        <alias>ADA4075</alias>
+      </aliases>
+      <description>Dual Op amp (low power)</description>
+      <docs>analog-dev/op275.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">OP275</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="opto" part="6N135">
+      <aliases>
+        <alias>6N136</alias>
+      </aliases>
+      <description>6N135, DIP8, High Speed Optocoupler, TTL Compatible, CTR 18%</description>
+      <docs>http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/6N135_6N136_en_datasheet_071001.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">6N135</field>
+        <field name="Footprint">DIP-8</field>
+      </fields>
+      <pins>
         <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="regul" part="LM7805CT">
+      <aliases>
+        <alias>LM7806CT</alias>
+        <alias>LM7808CT</alias>
+        <alias>LM7809CT</alias>
+        <alias>LM7810CT</alias>
+        <alias>LM7812CT</alias>
+        <alias>LM7815CT</alias>
+        <alias>LM7818CT</alias>
+        <alias>LM7824CT</alias>
+        <alias>LM7806ACT</alias>
+        <alias>LM7808ACT</alias>
+        <alias>LM7809ACT</alias>
+        <alias>LM7810ACT</alias>
+        <alias>LM7812ACT</alias>
+        <alias>LM7815ACT</alias>
+        <alias>LM7818ACT</alias>
+        <alias>LM7824ACT</alias>
+      </aliases>
+      <description>LM7805CT, Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220</description>
+      <docs>http://www.fairchildsemi.com/ds/LM/LM7805.pdf</docs>
+      <footprints>
+        <fp>TO*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM7805CT</field>
+        <field name="Footprint">TO-220</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
       </pins>
     </libpart>
     <libpart lib="regul" part="NCP1117ST50T3G">
@@ -3028,76 +3226,47 @@
         <pin num="3" name="VI" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="Q_PMOS_GSD">
-      <description>Transistor P-MOSFET (general)</description>
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">Q_PMOS_GSD</field>
-      </fields>
-      <pins>
-        <pin num="1" name="G" type="input"/>
-        <pin num="2" name="S" type="passive"/>
-        <pin num="3" name="D" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="local-components" part="FIDUCIAL">
-      <description>fiducial</description>
-      <footprints>
-        <fp>Fiducial*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">FID</field>
-        <field name="Value">FIDUCIAL</field>
-      </fields>
-    </libpart>
-    <libpart lib="local-components" part="24AA02E48T-I/OT">
+    <libpart lib="relays" part="IM00">
       <aliases>
-        <alias>24AA02E64T-I/OT</alias>
+        <alias>IM01</alias>
+        <alias>IM02</alias>
+        <alias>IM03</alias>
+        <alias>IM04</alias>
+        <alias>IM05</alias>
+        <alias>IM06</alias>
+        <alias>IM07</alias>
+        <alias>IM08</alias>
       </aliases>
-      <description>2K (256x8) Serial EEPROM, 400KHz, TWI, I2C, EUI-48TM Node Identity</description>
-      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20002124F.pdf</docs>
-      <footprints>
-        <fp>SOT-23*</fp>
-      </footprints>
+      <description>IM Relay, standard version, monostable, switching current 2/5A, power 60W/62.5VA, voltage 220VDC/250VAC</description>
+      <docs>http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=108-98001&amp;DocType=SS&amp;DocLang=EN</docs>
       <fields>
-        <field name="Reference">U</field>
-        <field name="Value">24AA02E48T-I/OT</field>
-        <field name="Footprint">SOT-23-5</field>
+        <field name="Reference">K</field>
+        <field name="Value">IM00</field>
       </fields>
       <pins>
-        <pin num="1" name="SCL" type="input"/>
-        <pin num="2" name="VSS" type="power_in"/>
-        <pin num="3" name="SDA" type="BiDi"/>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESD_Protection" part="PRTR5V0U2X">
+      <footprints>
+        <fp>SOT143B*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">PRTR5V0U2X</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="IO1" type="passive"/>
+        <pin num="3" name="IO2" type="passive"/>
         <pin num="4" name="VCC" type="power_in"/>
-        <pin num="5" name="NC" type="NotConnected"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="Q_NMOS_GSD">
-      <description>Transistor N-MOSFET (general)</description>
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">Q_NMOS_GSD</field>
-      </fields>
-      <pins>
-        <pin num="1" name="G" type="input"/>
-        <pin num="2" name="S" type="passive"/>
-        <pin num="3" name="D" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Power_Management" part="RT9701">
-      <footprints>
-        <fp>SOT-23-5*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">RT9701</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VOUT" type="power_out"/>
-        <pin num="2" name="GND" type="power_in"/>
-        <pin num="3" name="VIN" type="power_in"/>
-        <pin num="4" name="VIN/EN" type="input"/>
-        <pin num="5" name="VOUT" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="itead" part="Core_AW204x">
@@ -3317,20 +3486,53 @@
         <pin num="204" name="GND" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="ESD_Protection" part="PRTR5V0U2X">
+    <libpart lib="Power_Management" part="RT9701">
       <footprints>
-        <fp>SOT143B*</fp>
+        <fp>SOT-23-5*</fp>
       </footprints>
       <fields>
-        <field name="Reference">D</field>
-        <field name="Value">PRTR5V0U2X</field>
+        <field name="Reference">U</field>
+        <field name="Value">RT9701</field>
       </fields>
       <pins>
-        <pin num="1" name="GND" type="power_in"/>
-        <pin num="2" name="IO1" type="passive"/>
-        <pin num="3" name="IO2" type="passive"/>
-        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="1" name="VOUT" type="power_out"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VIN" type="power_in"/>
+        <pin num="4" name="VIN/EN" type="input"/>
+        <pin num="5" name="VOUT" type="passive"/>
       </pins>
+    </libpart>
+    <libpart lib="local-components" part="24AA02E48T-I/OT">
+      <aliases>
+        <alias>24AA02E64T-I/OT</alias>
+      </aliases>
+      <description>2K (256x8) Serial EEPROM, 400KHz, TWI, I2C, EUI-48TM Node Identity</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20002124F.pdf</docs>
+      <footprints>
+        <fp>SOT-23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">24AA02E48T-I/OT</field>
+        <field name="Footprint">SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCL" type="input"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="SDA" type="BiDi"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="NC" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="local-components" part="FIDUCIAL">
+      <description>fiducial</description>
+      <footprints>
+        <fp>Fiducial*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">FIDUCIAL</field>
+      </fields>
     </libpart>
     <libpart lib="local-components" part="HOLE">
       <description>mounting hole</description>
@@ -3342,215 +3544,10 @@
         <field name="Value">HOLE</field>
       </fields>
     </libpart>
-    <libpart lib="device" part="L_Small">
-      <description>Inductor</description>
-      <footprints>
-        <fp>CP*</fp>
-        <fp>SM*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">L</field>
-        <field name="Value">L_Small</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="JACK_TRS_6PINS">
-      <description>audio jack TRS 6 pins</description>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">JACK_TRS_6PINS</field>
-      </fields>
-      <pins>
-        <pin num="1" name="S" type="passive"/>
-        <pin num="2" name="T" type="passive"/>
-        <pin num="3" name="R" type="passive"/>
-        <pin num="4" name="SN" type="passive"/>
-        <pin num="5" name="TN" type="passive"/>
-        <pin num="6" name="RN" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_02X10">
-      <footprints>
-        <fp>Pin_Header_Straight_2X10</fp>
-        <fp>Pin_Header_Angled_2X10</fp>
-        <fp>Socket_Strip_Straight_2X10</fp>
-        <fp>Socket_Strip_Angled_2X10</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_02X10</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-        <pin num="4" name="P4" type="passive"/>
-        <pin num="5" name="P5" type="passive"/>
-        <pin num="6" name="P6" type="passive"/>
-        <pin num="7" name="P7" type="passive"/>
-        <pin num="8" name="P8" type="passive"/>
-        <pin num="9" name="P9" type="passive"/>
-        <pin num="10" name="P10" type="passive"/>
-        <pin num="11" name="P11" type="passive"/>
-        <pin num="12" name="P12" type="passive"/>
-        <pin num="13" name="P13" type="passive"/>
-        <pin num="14" name="P14" type="passive"/>
-        <pin num="15" name="P15" type="passive"/>
-        <pin num="16" name="P16" type="passive"/>
-        <pin num="17" name="P17" type="passive"/>
-        <pin num="18" name="P18" type="passive"/>
-        <pin num="19" name="P19" type="passive"/>
-        <pin num="20" name="P20" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="USB_A">
-      <description>USB A connector</description>
-      <footprints>
-        <fp>USB*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">USB_A</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VCC" type="power_in"/>
-        <pin num="2" name="D-" type="passive"/>
-        <pin num="3" name="D+" type="passive"/>
-        <pin num="4" name="GND" type="power_in"/>
-        <pin num="5" name="shield" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="BARREL_JACK">
-      <description>DC Barrel Jack</description>
-      <fields>
-        <field name="Reference">CON</field>
-        <field name="Value">BARREL_JACK</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-        <pin num="3" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="FILTER">
-      <description>Filtre EMI</description>
-      <fields>
-        <field name="Reference">FB</field>
-        <field name="Value">FILTER</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="USB_B">
-      <description>USB B connector</description>
-      <footprints>
-        <fp>USB*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">USB_B</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VCC" type="power_out"/>
-        <pin num="2" name="D-" type="passive"/>
-        <pin num="3" name="D+" type="passive"/>
-        <pin num="4" name="GND" type="power_in"/>
-        <pin num="5" name="shield" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="Q_NJFET_DSG">
-      <description>Transistor N-JFET (general)</description>
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">Q_NJFET_DSG</field>
-      </fields>
-      <pins>
-        <pin num="1" name="D" type="passive"/>
-        <pin num="2" name="S" type="passive"/>
-        <pin num="3" name="G" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_01X02">
-      <footprints>
-        <fp>Pin_Header_Straight_1X02</fp>
-        <fp>Pin_Header_Angled_1X02</fp>
-        <fp>Socket_Strip_Straight_1X02</fp>
-        <fp>Socket_Strip_Angled_1X02</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_01X02</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_01X03">
-      <footprints>
-        <fp>Pin_Header_Straight_1X03</fp>
-        <fp>Pin_Header_Angled_1X03</fp>
-        <fp>Socket_Strip_Straight_1X03</fp>
-        <fp>Socket_Strip_Angled_1X03</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_01X03</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="D_Schottky_x2_Serial_AKC">
-      <description>Double diode Shottky (Serie)</description>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">D_Schottky_x2_Serial_AKC</field>
-      </fields>
-      <pins>
-        <pin num="1" name="A" type="passive"/>
-        <pin num="2" name="K" type="passive"/>
-        <pin num="3" name="common" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_01X10">
-      <footprints>
-        <fp>Pin_Header_Straight_1X10</fp>
-        <fp>Pin_Header_Angled_1X10</fp>
-        <fp>Socket_Strip_Straight_1X10</fp>
-        <fp>Socket_Strip_Angled_1X10</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_01X10</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-        <pin num="4" name="P4" type="passive"/>
-        <pin num="5" name="P5" type="passive"/>
-        <pin num="6" name="P6" type="passive"/>
-        <pin num="7" name="P7" type="passive"/>
-        <pin num="8" name="P8" type="passive"/>
-        <pin num="9" name="P9" type="passive"/>
-        <pin num="10" name="P10" type="passive"/>
-      </pins>
-    </libpart>
   </libparts>
   <libraries>
     <library logical="conn">
       <uri>/home/ricardo/devel/kicad-stuff/kicad-library-ricardocrudo/library/conn.lib</uri>
-    </library>
-    <library logical="linear">
-      <uri>/home/ricardo/devel/kicad-stuff/kicad-library-ricardocrudo/library/linear.lib</uri>
     </library>
     <library logical="device">
       <uri>/home/ricardo/devel/kicad-stuff/kicad-library-ricardocrudo/library/device.lib</uri>
@@ -3558,29 +3555,32 @@
     <library logical="digital-audio">
       <uri>/home/ricardo/devel/kicad-stuff/kicad-library-ricardocrudo/library/digital-audio.lib</uri>
     </library>
-    <library logical="relays">
-      <uri>/home/ricardo/devel/kicad-stuff/kicad-library-ricardocrudo/library/relays.lib</uri>
-    </library>
-    <library logical="opto">
-      <uri>/home/ricardo/devel/kicad-stuff/kicad-library-ricardocrudo/library/opto.lib</uri>
-    </library>
-    <library logical="Power_Management">
-      <uri>/home/ricardo/devel/kicad-stuff/kicad-library-ricardocrudo/library/Power_Management.lib</uri>
-    </library>
-    <library logical="itead">
-      <uri>/home/ricardo/devel/mod-hw-duo/hw-design/lib/symbols/itead.lib</uri>
-    </library>
-    <library logical="local-components">
-      <uri>/home/ricardo/devel/mod-hw-duo/hw-design/lib/symbols/local-components.lib</uri>
+    <library logical="linear">
+      <uri>/home/ricardo/devel/kicad-stuff/kicad-library-ricardocrudo/library/linear.lib</uri>
     </library>
     <library logical="interface">
       <uri>/home/ricardo/devel/kicad-stuff/kicad-library-ricardocrudo/library/interface.lib</uri>
     </library>
-    <library logical="ESD_Protection">
-      <uri>/home/ricardo/devel/kicad-stuff/kicad-library-ricardocrudo/library/ESD_Protection.lib</uri>
+    <library logical="opto">
+      <uri>/home/ricardo/devel/kicad-stuff/kicad-library-ricardocrudo/library/opto.lib</uri>
     </library>
     <library logical="regul">
       <uri>/home/ricardo/devel/kicad-stuff/kicad-library-ricardocrudo/library/regul.lib</uri>
+    </library>
+    <library logical="relays">
+      <uri>/home/ricardo/devel/kicad-stuff/kicad-library-ricardocrudo/library/relays.lib</uri>
+    </library>
+    <library logical="ESD_Protection">
+      <uri>/home/ricardo/devel/kicad-stuff/kicad-library-ricardocrudo/library/ESD_Protection.lib</uri>
+    </library>
+    <library logical="itead">
+      <uri>/home/ricardo/devel/mod-hw-duo/hw-design/lib/symbols/itead.lib</uri>
+    </library>
+    <library logical="Power_Management">
+      <uri>/home/ricardo/devel/kicad-stuff/kicad-library-ricardocrudo/library/Power_Management.lib</uri>
+    </library>
+    <library logical="local-components">
+      <uri>/home/ricardo/devel/mod-hw-duo/hw-design/lib/symbols/local-components.lib</uri>
     </library>
   </libraries>
   <nets>

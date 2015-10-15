@@ -20,7 +20,7 @@ Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,MPN
 19,3,"FID1, FID2, FID3",FIDUCIAL,local-components:FIDUCIAL,footprints:fiducial_in-circuit,,
 20,5,"H1, H2, H3, H4, H5",HOLE,local-components:HOLE,footprints:Hole_3.5mm,,
 21,1,H6,Standoff,local-components:HOLE,footprints:9774027151R,,9774027151R
-22,5,"J1, J2, J3, J4, J5",JACK_TRS_6PINS,conn:JACK_TRS_6PINS,Connect:NMJ6HCD2,,NMJ6HCD2-RM
+22,5,"J1, J2, J3, J4, J5",JACK_TRS_6PINS,conn:JACK_TRS_6PINS,Connect:NMJ6HCD2,,NMJ6HCD2
 23,1,J6,RJ45_LEDS,conn:RJ45_LEDS,Connect:RJHSE538X,,RJHSE-5381
 24,1,JMP1,0R,device:R,Oddities:NetTie-I_Connected,,
 25,2,"K1, K2",IM06TS,relays:IM06,footprints:Relay_DPDT_IMXXTS,,IM06TS
