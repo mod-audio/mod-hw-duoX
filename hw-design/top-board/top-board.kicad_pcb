@@ -474,6 +474,7 @@
     (at 100.33 43.942)
     (descr "SMT capacitor, aluminium electrolytic, 6.3x5.3")
     (path /5550DDF1/5551C1E0)
+    (attr smd)
     (fp_text reference C4 (at 4.191 -1.524) (layer F.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.1)))
     )
