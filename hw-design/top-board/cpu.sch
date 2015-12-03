@@ -584,7 +584,7 @@ Text GLabel 5500 3450 0    50   Input ~ 0
 SPI0_CS0_HMI
 Text GLabel 9000 2850 2    50   Output ~ 0
 GLCD1_BL
-Text GLabel 9000 3450 2    50   Output ~ 0
+Text GLabel 9000 3550 2    50   Output ~ 0
 GLCD2_BL
 Text Notes 1150 2850 0    100  ~ 0
 Bottom Interface
@@ -1077,7 +1077,7 @@ Wire Wire Line
 Wire Wire Line
 	8850 2850 9000 2850
 Wire Wire Line
-	9000 3450 8850 3450
+	9000 3550 8850 3550
 Wire Notes Line
 	1000 5050 4050 5050
 Wire Notes Line
@@ -1374,7 +1374,7 @@ F 3 "" H 2100 7350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 8850 3150
-NoConn ~ 8850 3550
+NoConn ~ 8850 3450
 NoConn ~ 8850 3950
 NoConn ~ 5650 4550
 NoConn ~ 5650 4650
