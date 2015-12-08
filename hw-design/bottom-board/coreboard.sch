@@ -164,10 +164,6 @@ Text GLabel 3200 4850 3    50   BiDi ~ 0
 USB_HOST_DM
 Text GLabel 3800 2300 1    50   Input ~ 0
 USB_DEV_DET
-Text GLabel 8900 2300 1    50   Input ~ 0
-CODEC_INT
-Text GLabel 9000 2300 1    50   Input ~ 0
-CODEC_OVFL
 Text GLabel 3700 4850 3    50   Output ~ 0
 SD0_CLK
 Text GLabel 3800 4850 3    50   Output ~ 0
@@ -188,8 +184,6 @@ Text GLabel 1650 6900 0    50   Output ~ 0
 UBOOT_BUTTON
 Text GLabel 1000 2300 1    50   Input ~ 0
 POWER_BUTTON
-Text GLabel 8800 2300 1    50   Input ~ 0
-CODEC_~MUTEC
 Text GLabel 6000 2300 1    50   Output ~ 0
 CHAIN_UART_RE
 Text GLabel 5900 2300 1    50   Output ~ 0
@@ -245,10 +239,6 @@ Wire Wire Line
 Wire Wire Line
 	3800 2300 3800 2500
 Wire Wire Line
-	8900 2300 8900 2500
-Wire Wire Line
-	9000 2300 9000 2500
-Wire Wire Line
 	3700 4850 3700 4500
 Wire Wire Line
 	3800 4500 3800 4850
@@ -276,8 +266,6 @@ Wire Wire Line
 	1750 6550 1750 6450
 Wire Wire Line
 	1000 2500 1000 2300
-Wire Wire Line
-	8800 2300 8800 2500
 Wire Wire Line
 	6000 2500 6000 2300
 Wire Wire Line
@@ -887,4 +875,7 @@ Wire Wire Line
 Wire Wire Line
 	800  4550 900  4550
 Connection ~ 900  4550
+NoConn ~ 8800 2500
+NoConn ~ 8900 2500
+NoConn ~ 9000 2500
 $EndSCHEMATC

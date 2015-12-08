@@ -261,53 +261,6 @@ F 3 "" H 5650 5650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R3
-U 1 1 550C9564
-P 3950 3850
-F 0 "R3" V 3900 3800 50  0000 L CNN
-F 1 "10k" V 3900 3600 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 3950 3850 60  0001 C CNN
-F 3 "" H 3950 3850 60  0000 C CNN
-F 4 "RMCF0603JT10K0" H 0   0   50  0001 C CNN "MPN"
-	1    3950 3850
-	-1   0    0    1   
-$EndComp
-$Comp
-L R_Small R4
-U 1 1 550CA206
-P 4050 3850
-F 0 "R4" V 4000 3800 50  0000 L CNN
-F 1 "10k" V 4000 3600 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 4050 3850 60  0001 C CNN
-F 3 "" H 4050 3850 60  0000 C CNN
-F 4 "RMCF0603JT10K0" H 0   0   50  0001 C CNN "MPN"
-	1    4050 3850
-	-1   0    0    1   
-$EndComp
-$Comp
-L R_Small R8
-U 1 1 550CAE8B
-P 4150 3850
-F 0 "R8" V 4100 3800 50  0000 L CNN
-F 1 "10k" V 4100 3600 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 4150 3850 60  0001 C CNN
-F 3 "" H 4150 3850 60  0000 C CNN
-F 4 "RMCF0603JT10K0" H 0   0   50  0001 C CNN "MPN"
-	1    4150 3850
-	-1   0    0    1   
-$EndComp
-$Comp
-L +3.3V #PWR036
-U 1 1 550CC90C
-P 4050 3500
-F 0 "#PWR036" H 4050 3350 50  0001 C CNN
-F 1 "+3.3V" H 4050 3640 50  0000 C CNN
-F 2 "" H 4050 3500 60  0000 C CNN
-F 3 "" H 4050 3500 60  0000 C CNN
-	1    4050 3500
-	1    0    0    -1  
-$EndComp
-$Comp
 L C_Small C16
 U 1 1 550D58A0
 P 4450 1700
@@ -465,10 +418,6 @@ Text GLabel 3650 2350 0    50   BiDi ~ 0
 CODEC_I2C_SDA
 Text GLabel 3650 2450 0    50   Input ~ 0
 CODEC_I2C_SCL
-Text GLabel 3800 4200 0    50   Output ~ 0
-CODEC_OVFL
-Text GLabel 3800 4100 0    50   Output ~ 0
-CODEC_INT
 Text GLabel 5750 1650 2    50   Input ~ 0
 CODEC_~RESET
 Text GLabel 7450 2850 2    50   Input ~ 0
@@ -489,8 +438,6 @@ Text GLabel 3850 2950 0    50   Input ~ 0
 CODEC_I2S_LRCK
 Text GLabel 3850 2850 0    50   Input ~ 0
 CODEC_I2S_MCLK
-Text GLabel 3800 4000 0    50   Output ~ 0
-CODEC_~MUTEC
 Text GLabel 6550 3650 2    50   Output ~ 0
 CODEC_AUX_B
 Text GLabel 6550 3750 2    50   Output ~ 0
@@ -628,32 +575,6 @@ Wire Wire Line
 Wire Wire Line
 	4350 3550 4550 3550
 Wire Wire Line
-	3800 4200 4450 4200
-Wire Wire Line
-	4450 4200 4450 3950
-Wire Wire Line
-	4450 3950 4550 3950
-Wire Wire Line
-	4550 3850 4350 3850
-Wire Wire Line
-	4350 3850 4350 4100
-Wire Wire Line
-	4350 4100 3800 4100
-Wire Wire Line
-	4250 4000 4250 3750
-Wire Wire Line
-	3800 4000 4250 4000
-Wire Wire Line
-	3950 3750 3950 3600
-Wire Wire Line
-	4150 3600 4150 3750
-Wire Wire Line
-	4150 3950 4150 4200
-Wire Wire Line
-	4050 3950 4050 4100
-Wire Wire Line
-	3950 3950 3950 4000
-Wire Wire Line
 	5250 1250 5250 1850
 Wire Wire Line
 	5150 1350 5150 1850
@@ -673,8 +594,6 @@ Wire Wire Line
 	5550 1250 5550 1300
 Wire Wire Line
 	5750 1650 5550 1650
-Wire Wire Line
-	4250 3750 4550 3750
 Wire Wire Line
 	4500 4450 4500 4700
 Wire Wire Line
@@ -705,8 +624,6 @@ Wire Wire Line
 	6850 1850 6850 1750
 Wire Wire Line
 	6850 1750 7250 1750
-Wire Wire Line
-	4050 3500 4050 3750
 Wire Wire Line
 	6550 3650 6350 3650
 Wire Wire Line
@@ -747,9 +664,6 @@ Connection ~ 6150 5550
 Connection ~ 6350 5550
 Connection ~ 4450 2950
 Connection ~ 4400 3050
-Connection ~ 4150 4200
-Connection ~ 4050 4100
-Connection ~ 3950 4000
 Connection ~ 5250 1350
 Connection ~ 5350 1550
 Connection ~ 5250 1500
@@ -761,7 +675,6 @@ Connection ~ 6600 2750
 Connection ~ 7000 2850
 Connection ~ 7250 2500
 Connection ~ 7250 1750
-Connection ~ 4050 3600
 Connection ~ 4650 4550
 NoConn ~ 4550 3250
 NoConn ~ 6350 3950
@@ -878,8 +791,6 @@ Wire Wire Line
 Wire Wire Line
 	4100 2650 4100 2550
 Connection ~ 4100 2550
-Wire Wire Line
-	3950 3600 4150 3600
 $Comp
 L C_Small C20
 U 1 1 5662699F
@@ -993,4 +904,7 @@ F 3 "" H 3950 2650 60  0000 C CNN
 	1    3950 2650
 	1    0    0    -1  
 $EndComp
+NoConn ~ 4550 3750
+NoConn ~ 4550 3850
+NoConn ~ 4550 3950
 $EndSCHEMATC
