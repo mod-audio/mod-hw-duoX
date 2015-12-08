@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 60.024343 19.516365 232.124351 160.11637)
     (thickness 1.6)
-    (drawings 40)
+    (drawings 38)
     (tracks 2386)
     (zones 0)
     (modules 272)
@@ -10295,9 +10295,7 @@
     )
   )
 
-  (gr_line (start 77.49032 154.64028) (end 77.63256 154.64028) (angle 90) (layer Dwgs.User) (width 0.15))
   (gr_line (start 74.06894 158.06166) (end 77.49032 154.64028) (angle 90) (layer Dwgs.User) (width 0.15))
-  (gr_line (start 77.50556 158.496) (end 77.92212 158.496) (angle 90) (layer Dwgs.User) (width 0.15))
   (gr_line (start 74.06894 155.05938) (end 77.50556 158.496) (angle 90) (layer Dwgs.User) (width 0.15))
   (gr_line (start 112.34928 101.42982) (end 236.656989 101.42982) (angle 90) (layer Dwgs.User) (width 0.15) (tstamp 5661A1C1))
   (gr_line (start 112.52708 105.49382) (end 112.52708 71.97852) (angle 90) (layer Dwgs.User) (width 0.15) (tstamp 5661A1BC))
@@ -12749,17 +12747,6 @@
   (via (at 188.6712 37.7952) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 182))
   (segment (start 191.77 40.2336) (end 191.77 40.7594) (width 0.3048) (layer F.Cu) (net 182) (tstamp 5665608B))
 
-  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 55A76D31) (hatch edge 0.508)
-    (connect_pads (clearance 0.508))
-    (min_thickness 0.254)
-    (keepout (tracks allowed) (vias not_allowed) (copperpour not_allowed))
-    (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy 213.5124 19.2786) (xy 220.1418 19.2786) (xy 220.1418 26.0096) (xy 203.7588 26.0096) (xy 203.7588 19.2786)
-      )
-    )
-  )
   (zone (net 4) (net_name +5VA) (layer F.Cu) (tstamp 55FC1B8E) (hatch edge 0.508)
     (priority 1)
     (connect_pads yes (clearance 0.508))
@@ -12773,20 +12760,6 @@
     (filled_polygon
       (pts
         (xy 199.30364 98.23196) (xy 187.16244 98.23196) (xy 187.16244 84.10956) (xy 199.30364 84.10956)
-      )
-    )
-  )
-  (zone (net 0) (net_name "") (layer B.Cu) (tstamp 55A76D31) (hatch edge 0.508)
-    (connect_pads (clearance 0.508))
-    (min_thickness 0.254)
-    (keepout (tracks allowed) (vias not_allowed) (copperpour not_allowed))
-    (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy 213.5124 19.2786) (xy 220.1418 19.2786) (xy 220.1418 26.0096) (xy 218.4146 26.0096) (xy 218.4146 28.8036)
-        (xy 233.553 43.942) (xy 233.5911 129.9337) (xy 218.2876 129.9337) (xy 218.2876 125.7681) (xy 228.7397 125.7681)
-        (xy 228.7397 109.728) (xy 218.2876 109.728) (xy 218.2876 105.5624) (xy 228.7397 105.5624) (xy 228.7397 43.942)
-        (xy 214.7824 29.9847) (xy 214.7824 26.0096) (xy 203.7588 26.0096) (xy 203.7588 19.2786)
       )
     )
   )
