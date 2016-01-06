@@ -1,4 +1,4 @@
-update=Thu 17 Sep 2015 05:40:36 PM CEST
+update=Wed 06 Jan 2016 04:14:48 PM BRST
 version=1
 last_client=kicad
 [cvpcb]
@@ -44,5 +44,6 @@ LibName9=relays
 LibName10=switches
 LibName11=ESD_Protection
 LibName12=Power_Management
-LibName13=/home/ricardo/devel/mod-hw-duo/hw-design/lib/symbols/itead
-LibName14=/home/ricardo/devel/mod-hw-duo/hw-design/lib/symbols/local-components
+LibName13=memory
+LibName14=/home/ricardo/devel/mod-hw-duo/hw-design/lib/symbols/itead
+LibName15=/home/ricardo/devel/mod-hw-duo/hw-design/lib/symbols/local-components

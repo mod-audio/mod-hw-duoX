@@ -11,6 +11,7 @@ LIBS:relays
 LIBS:switches
 LIBS:ESD_Protection
 LIBS:Power_Management
+LIBS:memory
 LIBS:itead
 LIBS:local-components
 LIBS:bottom-board-cache

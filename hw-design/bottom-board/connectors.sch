@@ -11,6 +11,7 @@ LIBS:relays
 LIBS:switches
 LIBS:ESD_Protection
 LIBS:Power_Management
+LIBS:memory
 LIBS:itead
 LIBS:local-components
 LIBS:bottom-board-cache
@@ -550,9 +551,9 @@ RS485_TX_LED
 Text GLabel 9450 4350 2    50   Input ~ 0
 RS485_RX_LED
 Text GLabel 8850 2100 0    50   BiDi ~ 0
-TWI1_SDA
+TWI4_SDA
 Text GLabel 8850 2000 0    50   Input ~ 0
-TWI1_SCL
+TWI4_SCL
 Text GLabel 8850 1200 0    50   BiDi ~ 0
 HMI_RFU_01(RX)
 Text GLabel 8850 1300 0    50   BiDi ~ 0
