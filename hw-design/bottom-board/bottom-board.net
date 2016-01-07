@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/ricardo/devel/mod-hw-duo/hw-design/bottom-board/bottom-board.sch)
-    (date "Wed 06 Jan 2016 05:07:46 PM BRST")
+    (date "Wed 06 Jan 2016 06:33:43 PM BRST")
     (tool "Eeschema no-vcs-found-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
