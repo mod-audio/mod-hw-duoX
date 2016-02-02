@@ -1,5 +1,5 @@
 M48
-;DRILL file {KiCad no-vcs-found-product} date Fri 08 Jan 2016 06:00:47 PM BRST
+;DRILL file {KiCad 4.0.1-stable} date Tue 02 Feb 2016 05:18:44 PM CET
 ;FORMAT={-:-/ absolute / inch / decimal}
 FMAT,2
 INCH,TZ
@@ -95,7 +95,6 @@ X4.5175Y-0.5418
 X4.5425Y-1.8418
 X4.552Y-0.2703
 X4.6812Y-1.8431
-X4.79Y-2.1423
 X4.866Y-0.2703
 X4.87Y-0.5393
 X5.0251Y-1.913
