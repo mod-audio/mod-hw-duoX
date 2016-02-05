@@ -1,4 +1,4 @@
-### Module positions - created on Fri 05 Feb 2016 03:50:18 PM CET ###
+### Module positions - created on Fri 05 Feb 2016 03:54:30 PM CET ###
 ### Printed by Pcbnew version kicad 4.0.1-stable
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -75,8 +75,8 @@ CA15     47pF             C_0603             63.2435  -102.8497      90.0    top
 CA16     47pF             C_0603             63.2435  -118.3183      90.0    top
 CA17     10uF             c_elec_5x5.3       55.6997   -96.9315       0.0    top
 CA18     10uF             c_elec_5x5.3       55.6997  -112.3747       0.0    top
-CA19     100uF            c_elec_6.3x7.7     55.7251  -103.6117       0.0    top
-CA20     100uF            c_elec_6.3x7.7     55.7251  -119.0803       0.0    top
+CA19     100uF            c_elec_6.3x5.3     55.7251  -103.6117       0.0    top
+CA20     100uF            c_elec_6.3x5.3     55.7251  -119.0803       0.0    top
 CA21     1uF              C_0805             24.4069   -67.2389       0.0    top
 CA22     1uF              C_0805             24.4069   -69.3725       0.0    top
 CA23     10uF             c_elec_5x5.3       22.2225   -75.1383     180.0    top
