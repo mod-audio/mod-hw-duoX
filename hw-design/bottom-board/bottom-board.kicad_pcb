@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew no-vcs-found-product)
+(kicad_pcb (version 4) (host pcbnew 4.0.1-stable)
 
   (general
     (links 571)
@@ -83,7 +83,7 @@
     (grid_origin 75.56754 156.56052)
     (visible_elements FFFEFF79)
     (pcbplotparams
-      (layerselection 0x3d230_00000000)
+      (layerselection 0x3d2f0_ffffffff)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
