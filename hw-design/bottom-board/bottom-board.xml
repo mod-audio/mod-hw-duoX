@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/ricardo/devel/mod-hw-duo/hw-design/bottom-board/bottom-board.sch</source>
-    <date>Sat 12 Mar 2016 05:05:47 PM CET</date>
+    <source>/home/ricardo/devel/mod/mod-hw-duo/hw-design/bottom-board/bottom-board.sch</source>
+    <date>Wed 15 Jun 2016 04:57:24 PM CEST</date>
     <tool>Eeschema 4.0.1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1372,9 +1372,9 @@
     </comp>
     <comp ref="CA19">
       <value>100uF</value>
-      <footprint>Capacitors_SMD:c_elec_6.3x5.3</footprint>
+      <footprint>Capacitors_SMD:c_elec_6.3x7.7</footprint>
       <fields>
-        <field name="MPN">UWX1C101MCL1GB</field>
+        <field name="MPN">UWT1E101MCL1GS</field>
       </fields>
       <libsource lib="device" part="CP_Small"/>
       <sheetpath names="/audio-outputs/" tstamps="/54F72CD0/"/>
@@ -1572,9 +1572,9 @@
     </comp>
     <comp ref="CA20">
       <value>100uF</value>
-      <footprint>Capacitors_SMD:c_elec_6.3x5.3</footprint>
+      <footprint>Capacitors_SMD:c_elec_6.3x7.7</footprint>
       <fields>
-        <field name="MPN">UWX1C101MCL1GB</field>
+        <field name="MPN">UWT1E101MCL1GS</field>
       </fields>
       <libsource lib="device" part="CP_Small"/>
       <sheetpath names="/audio-outputs/" tstamps="/54F72CD0/"/>
@@ -3648,44 +3648,44 @@
     </libpart>
   </libparts>
   <libraries>
+    <library logical="regul">
+      <uri>/usr/share/kicad/library/regul.lib</uri>
+    </library>
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>
-    </library>
-    <library logical="relays">
-      <uri>/usr/share/kicad/library/relays.lib</uri>
-    </library>
-    <library logical="itead">
-      <uri>/home/ricardo/devel/mod-hw-duo/hw-design/lib/symbols/itead.lib</uri>
-    </library>
-    <library logical="ESD_Protection">
-      <uri>/usr/share/kicad/library/ESD_Protection.lib</uri>
-    </library>
-    <library logical="Power_Management">
-      <uri>/usr/share/kicad/library/Power_Management.lib</uri>
-    </library>
-    <library logical="memory">
-      <uri>/usr/share/kicad/library/memory.lib</uri>
-    </library>
-    <library logical="local-components">
-      <uri>/home/ricardo/devel/mod-hw-duo/hw-design/lib/symbols/local-components.lib</uri>
     </library>
     <library logical="interface">
       <uri>/usr/share/kicad/library/interface.lib</uri>
     </library>
-    <library logical="digital-audio">
-      <uri>/usr/share/kicad/library/digital-audio.lib</uri>
+    <library logical="itead">
+      <uri>/home/ricardo/devel/mod/mod-hw-duo/hw-design/lib/symbols/itead.lib</uri>
+    </library>
+    <library logical="local-components">
+      <uri>/home/ricardo/devel/mod/mod-hw-duo/hw-design/lib/symbols/local-components.lib</uri>
     </library>
     <library logical="device">
       <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
-    <library logical="linear">
-      <uri>/usr/share/kicad/library/linear.lib</uri>
-    </library>
     <library logical="opto">
       <uri>/usr/share/kicad/library/opto.lib</uri>
     </library>
-    <library logical="regul">
-      <uri>/usr/share/kicad/library/regul.lib</uri>
+    <library logical="linear">
+      <uri>/usr/share/kicad/library/linear.lib</uri>
+    </library>
+    <library logical="Power_Management">
+      <uri>/usr/share/kicad/library/Power_Management.lib</uri>
+    </library>
+    <library logical="relays">
+      <uri>/usr/share/kicad/library/relays.lib</uri>
+    </library>
+    <library logical="ESD_Protection">
+      <uri>/usr/share/kicad/library/ESD_Protection.lib</uri>
+    </library>
+    <library logical="digital-audio">
+      <uri>/usr/share/kicad/library/digital-audio.lib</uri>
+    </library>
+    <library logical="memory">
+      <uri>/usr/share/kicad/library/memory.lib</uri>
     </library>
   </libraries>
   <nets>

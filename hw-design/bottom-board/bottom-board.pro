@@ -1,4 +1,4 @@
-update=Wed 06 Jan 2016 04:14:48 PM BRST
+update=Tue 26 Apr 2016 03:13:08 PM CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -47,3 +47,14 @@ LibName12=Power_Management
 LibName13=memory
 LibName14=/home/ricardo/devel/mod-hw-duo/hw-design/lib/symbols/itead
 LibName15=/home/ricardo/devel/mod-hw-duo/hw-design/lib/symbols/local-components
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
+ERC_TestSimilarLabels=1
