@@ -482,8 +482,6 @@ Text GLabel 4600 6350 0    50   Input ~ 0
 HP_LEFT
 Text GLabel 4600 6550 0    50   Input ~ 0
 HP_RIGHT
-Text GLabel 4600 6050 0    50   Output ~ 0
-HP_SW
 Text GLabel 4600 4650 0    50   Input ~ 0
 LEFT_AUDIO_OUTPUT_TIP
 Text GLabel 4600 4850 0    50   Input ~ 0
@@ -602,8 +600,6 @@ Wire Wire Line
 	4600 6350 4900 6350
 Wire Wire Line
 	4600 6550 4900 6550
-Wire Wire Line
-	4600 6050 4900 6050
 Wire Wire Line
 	4900 6150 4750 6150
 Wire Wire Line
@@ -922,4 +918,5 @@ Wire Wire Line
 Wire Wire Line
 	8050 5150 7950 5150
 Connection ~ 7950 5150
+NoConn ~ 4900 6050
 $EndSCHEMATC
