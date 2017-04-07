@@ -3,7 +3,6 @@ LIBS:conn
 LIBS:device
 LIBS:digital-audio
 LIBS:interface
-LIBS:linear
 LIBS:opto
 LIBS:power
 LIBS:regul
