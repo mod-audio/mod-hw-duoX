@@ -687,7 +687,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 5400 4400 5450
 Wire Wire Line
-	3900 5100 4600 5100
+	3900 5100 4900 5100
 Wire Wire Line
 	4600 5100 4600 4900
 Wire Wire Line
@@ -742,7 +742,7 @@ Connection ~ 6000 2950
 Connection ~ 6350 2950
 Connection ~ 2550 2250
 Wire Wire Line
-	5850 2950 6600 2950
+	5850 2950 6850 2950
 Wire Wire Line
 	9450 1650 9450 1800
 Wire Wire Line
@@ -778,7 +778,7 @@ Wire Wire Line
 Wire Wire Line
 	4150 6500 4150 6550
 Wire Wire Line
-	4000 6200 4700 6200
+	4000 6200 5000 6200
 Wire Wire Line
 	4700 6200 4700 6000
 Wire Wire Line
@@ -828,7 +828,7 @@ Connection ~ 4950 1550
 Wire Wire Line
 	3900 1550 4400 1550
 Wire Wire Line
-	4700 1550 5300 1550
+	4700 1550 5600 1550
 $Comp
 L L_Core_Ferrite L2
 U 1 1 591A5216
@@ -915,4 +915,60 @@ Wire Wire Line
 	9200 5300 9200 5200
 Text Notes 7650 4900 0    100  ~ 0
 *** For tests purpose only ***
+$Comp
+L TEST_1P TP2
+U 1 1 5923829E
+P 6850 2850
+F 0 "TP2" H 6908 2970 50  0000 L CNN
+F 1 "+5VD" H 6908 2879 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6908 2833 50  0001 L CNN
+F 3 "" H 950 -2050 50  0000 C CNN
+	1    6850 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 2950 6850 2850
+Connection ~ 6600 2950
+$Comp
+L TEST_1P TP3
+U 1 1 5923A774
+P 4900 4950
+F 0 "TP3" H 4958 5070 50  0000 L CNN
+F 1 "+5VA" H 4958 4979 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4958 4933 50  0001 L CNN
+F 3 "" H -1000 50  50  0000 C CNN
+	1    4900 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 5100 4900 4950
+Connection ~ 4600 5100
+$Comp
+L TEST_1P TP4
+U 1 1 5923B573
+P 5000 6050
+F 0 "TP4" H 5058 6170 50  0000 L CNN
+F 1 "+3.3VA" H 5058 6079 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5058 6033 50  0001 L CNN
+F 3 "" H -900 1150 50  0000 C CNN
+	1    5000 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 6200 5000 6050
+Connection ~ 4700 6200
+$Comp
+L TEST_1P TP1
+U 1 1 5923C875
+P 5600 1400
+F 0 "TP1" H 5658 1520 50  0000 L CNN
+F 1 "+12VA" H 5658 1429 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5658 1383 50  0001 L CNN
+F 3 "" H -300 -3500 50  0000 C CNN
+	1    5600 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 1550 5600 1400
+Connection ~ 5300 1550
 $EndSCHEMATC
