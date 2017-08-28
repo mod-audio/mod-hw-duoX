@@ -165,20 +165,6 @@ Text GLabel 3200 4850 3    50   BiDi ~ 0
 USB_HOST_DM
 Text GLabel 5000 4850 3    50   Input ~ 0
 USB_DEV_DET
-Text GLabel 3700 4850 3    50   Output ~ 0
-SD0_CLK
-Text GLabel 3800 4850 3    50   Output ~ 0
-SD0_CMD
-Text GLabel 3900 4850 3    50   BiDi ~ 0
-SD0_D0
-Text GLabel 4000 4850 3    50   BiDi ~ 0
-SD0_D1
-Text GLabel 4100 4850 3    50   BiDi ~ 0
-SD0_D2
-Text GLabel 4200 4850 3    50   BiDi ~ 0
-SD0_D3
-Text GLabel 6500 2300 1    50   Input ~ 0
-SD0_DETECT
 Text GLabel 800  2300 1    50   Input ~ 0
 UBOOT_BUTTON
 Text GLabel 1650 6450 0    50   Output ~ 0
@@ -239,20 +225,6 @@ Wire Wire Line
 	3300 4850 3300 4500
 Wire Wire Line
 	5000 4850 5000 4500
-Wire Wire Line
-	3700 4850 3700 4500
-Wire Wire Line
-	3800 4500 3800 4850
-Wire Wire Line
-	3900 4850 3900 4500
-Wire Wire Line
-	4000 4500 4000 4850
-Wire Wire Line
-	4100 4850 4100 4500
-Wire Wire Line
-	4200 4500 4200 4850
-Wire Wire Line
-	6500 2300 6500 2500
 Wire Wire Line
 	800  2500 800  2300
 Wire Wire Line
@@ -918,4 +890,37 @@ F 3 "" H 1200 1900 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	1200 1900 1200 2000
+NoConn ~ 3700 4500
+NoConn ~ 3800 4500
+NoConn ~ 3900 4500
+NoConn ~ 4000 4500
+NoConn ~ 4100 4500
+NoConn ~ 4200 4500
+$Comp
+L R_Small R17
+U 1 1 59A54E03
+P 6500 2200
+F 0 "R17" H 6550 2250 50  0000 L CNN
+F 1 "10k" H 6550 2150 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 6500 2200 60  0001 C CNN
+F 3 "" H 6500 2200 60  0000 C CNN
+F 4 "RMCF0603JT10K0" H 4750 -4450 50  0001 C CNN "MPN"
+	1    6500 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 2500 6500 2300
+$Comp
+L +3.3V #PWR03
+U 1 1 59A550A6
+P 6500 2000
+F 0 "#PWR03" H 6500 1850 50  0001 C CNN
+F 1 "+3.3V" H 6500 2140 50  0000 C CNN
+F 2 "" H 6500 2000 60  0000 C CNN
+F 3 "" H 6500 2000 60  0000 C CNN
+	1    6500 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 2000 6500 2100
 $EndSCHEMATC
