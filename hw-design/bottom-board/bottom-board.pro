@@ -1,4 +1,4 @@
-update=Tue 26 Apr 2016 03:13:08 PM CEST
+update=Mon 15 Jan 2018 07:47:42 PM -02
 version=1
 last_client=kicad
 [cvpcb]
@@ -28,25 +28,6 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.15
 BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
-[eeschema]
-version=1
-LibDir=/home/ricardo/devel/kicad-stuff/kicad-library-ricardocrudo/library;../lib/symbols
-[eeschema/libraries]
-LibName1=conn
-LibName2=device
-LibName3=digital-audio
-LibName4=interface
-LibName5=linear
-LibName6=opto
-LibName7=power
-LibName8=regul
-LibName9=relays
-LibName10=switches
-LibName11=ESD_Protection
-LibName12=Power_Management
-LibName13=memory
-LibName14=/home/ricardo/devel/mod-hw-duo/hw-design/lib/symbols/itead
-LibName15=/home/ricardo/devel/mod-hw-duo/hw-design/lib/symbols/local-components
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -58,3 +39,23 @@ SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
 ERC_TestSimilarLabels=1
+[eeschema]
+version=1
+LibDir=/home/ricardo/devel/kicad-stuff/kicad-library-ricardocrudo/library;../lib/symbols
+[eeschema/libraries]
+LibName1=bottom-board-rescue
+LibName2=conn
+LibName3=device
+LibName4=digital-audio
+LibName5=interface
+LibName6=linear
+LibName7=opto
+LibName8=power
+LibName9=regul
+LibName10=relays
+LibName11=switches
+LibName12=ESD_Protection
+LibName13=Power_Management
+LibName14=memory
+LibName15=/home/ricardo/devel/mod-hw-duo/hw-design/lib/symbols/itead
+LibName16=/home/ricardo/devel/mod-hw-duo/hw-design/lib/symbols/local-components

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:bottom-board-rescue
 LIBS:conn
 LIBS:device
 LIBS:digital-audio
@@ -15,7 +16,7 @@ LIBS:memory
 LIBS:itead
 LIBS:local-components
 LIBS:bottom-board-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -273,7 +274,7 @@ F 4 "GRM219R61E106KA12D" H -2500 -1850 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L USB_B P1
+L USB_B-RESCUE-bottom-board P1
 U 1 1 552EAFAF
 P 3350 2700
 F 0 "P1" H 3550 2500 50  0000 C CNN
@@ -285,7 +286,7 @@ F 4 "61729-1011BLF" H 3350 2700 60  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L USB_A P2
+L USB_A-RESCUE-bottom-board P2
 U 1 1 552ECCA3
 P 8950 2750
 F 0 "P2" H 9150 2550 50  0000 C CNN
