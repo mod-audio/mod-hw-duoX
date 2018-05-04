@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:top-board-rescue
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -21,7 +22,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LED_RGB D4
+L LED_RGB-RESCUE-top-board D4
 U 1 1 5551D0C7
 P 2800 2050
 F 0 "D4" H 2800 2500 50  0000 C CNN
@@ -80,7 +81,7 @@ F 3 "" H 3100 1700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RGB D5
+L LED_RGB-RESCUE-top-board D5
 U 1 1 5551E569
 P 2800 3150
 F 0 "D5" H 2800 3600 50  0000 C CNN
@@ -186,7 +187,7 @@ F 4 "RMCF0603JT220R" H 0   0   50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L LED_RGB D9
+L LED_RGB-RESCUE-top-board D9
 U 1 1 555223FB
 P 8900 5350
 F 0 "D9" H 8900 5800 50  0000 C CNN
@@ -234,7 +235,7 @@ F 4 "RMCF0603JT220R" H 0   0   50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L LED_RGB D8
+L LED_RGB-RESCUE-top-board D8
 U 1 1 555223BF
 P 8900 4250
 F 0 "D8" H 8900 4700 50  0000 C CNN
@@ -282,7 +283,7 @@ F 4 "RMCF0603JT220R" H 0   -700 50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L LED_RGB D7
+L LED_RGB-RESCUE-top-board D7
 U 1 1 5551FFC8
 P 8900 2050
 F 0 "D7" H 8900 2500 50  0000 C CNN
@@ -330,7 +331,7 @@ F 4 "RMCF0603JT220R" H 0   1500 50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L LED_RGB D6
+L LED_RGB-RESCUE-top-board D6
 U 1 1 5551FF8C
 P 8900 3150
 F 0 "D6" H 8900 3600 50  0000 C CNN

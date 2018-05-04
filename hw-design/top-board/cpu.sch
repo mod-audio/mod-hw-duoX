@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:top-board-rescue
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -354,87 +355,6 @@ F 3 "" H 9950 4650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_02X05 P2
-U 1 1 5556D1BD
-P 1700 6350
-F 0 "P2" H 1700 6650 50  0000 C CNN
-F 1 "ISP" H 1700 6050 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch1.27mm" H 1700 5150 60  0001 C CNN
-F 3 "" H 1700 5150 60  0000 C CNN
-	1    1700 6350
-	1    0    0    -1  
-$EndComp
-$Comp
-L GNDD #PWR029
-U 1 1 5556D3DF
-P 1350 6650
-F 0 "#PWR029" H 1350 6400 50  0001 C CNN
-F 1 "GNDD" H 1350 6500 50  0000 C CNN
-F 2 "" H 1350 6650 60  0000 C CNN
-F 3 "" H 1350 6650 60  0000 C CNN
-	1    1350 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R5
-U 1 1 5556D746
-P 2050 5900
-F 0 "R5" V 2100 6000 50  0000 L CNN
-F 1 "10K" V 2050 5900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 1980 5900 30  0001 C CNN
-F 3 "" H 2050 5900 30  0000 C CNN
-F 4 "RMCF0603JT10K0" H 0   900 50  0001 C CNN "MPN"
-	1    2050 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R7
-U 1 1 5556DB27
-P 2150 5900
-F 0 "R7" V 2200 6000 50  0000 L CNN
-F 1 "10K" V 2150 5900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2080 5900 30  0001 C CNN
-F 3 "" H 2150 5900 30  0000 C CNN
-F 4 "RMCF0603JT10K0" H 0   900 50  0001 C CNN "MPN"
-	1    2150 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R10
-U 1 1 5556DB65
-P 2400 5900
-F 0 "R10" V 2450 6000 50  0000 L CNN
-F 1 "10K" V 2400 5900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2330 5900 30  0001 C CNN
-F 3 "" H 2400 5900 30  0000 C CNN
-F 4 "RMCF0603JT10K0" H 150 900 50  0001 C CNN "MPN"
-	1    2400 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R8
-U 1 1 5556DB9D
-P 2250 5900
-F 0 "R8" V 2300 6000 50  0000 L CNN
-F 1 "10K" V 2250 5900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2180 5900 30  0001 C CNN
-F 3 "" H 2250 5900 30  0000 C CNN
-F 4 "RMCF0603JT10K0" H -100 900 50  0001 C CNN "MPN"
-	1    2250 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR030
-U 1 1 5556E77E
-P 2050 5500
-F 0 "#PWR030" H 2050 5350 50  0001 C CNN
-F 1 "+3.3V" H 2050 5640 50  0000 C CNN
-F 2 "" H 2050 5500 60  0000 C CNN
-F 3 "" H 2050 5500 60  0000 C CNN
-	1    2050 5500
-	1    0    0    -1  
-$EndComp
-$Comp
 L GNDD #PWR031
 U 1 1 5557BBA5
 P 3100 4800
@@ -518,16 +438,6 @@ Text GLabel 5500 3350 0    50   Input ~ 0
 HMI_UART_TX
 Text GLabel 10400 5450 2    50   Input ~ 0
 HMI_ISP_ENABLE
-Text GLabel 2600 6150 2    50   Output ~ 0
-JTAG_TMS_SDWIO
-Text GLabel 2600 6250 2    50   Output ~ 0
-JTAG_TCK_SWDCLK
-Text GLabel 2600 6350 2    50   Input ~ 0
-JTAG_TDO_SWO
-Text GLabel 2600 6450 2    50   Output ~ 0
-JTAG_TDI
-Text GLabel 2600 6550 2    50   Output ~ 0
-JTAG_RESET
 Text GLabel 5550 2350 0    50   Input ~ 0
 JTAG_TMS_SDWIO
 Text GLabel 5550 2550 0    50   Input ~ 0
@@ -536,8 +446,6 @@ Text GLabel 5550 2150 0    50   Output ~ 0
 JTAG_TDO_SWO
 Text GLabel 5550 2250 0    50   Input ~ 0
 JTAG_TDI
-Text Notes 1150 5350 0    100  ~ 0
-JTAG
 Text GLabel 5500 3150 0    50   BiDi ~ 0
 HMI_RFU_02(TX)
 Text GLabel 5500 3050 0    50   BiDi ~ 0
@@ -594,30 +502,12 @@ Text GLabel 5400 2750 0    50   Input ~ 0
 RESET
 Text Notes 1200 850  0    100  ~ 0
 RESET
-Text GLabel 2400 7000 2    50   Output ~ 0
-JTAG_TMS_SDWIO
-Text GLabel 2400 7100 2    50   Output ~ 0
-JTAG_TCK_SWDCLK
-Text GLabel 2400 7300 2    50   Input ~ 0
-JTAG_TDO_SWO
-Text GLabel 2400 7200 2    50   Output ~ 0
-JTAG_TDI
-Text GLabel 1800 7300 0    50   Output ~ 0
-SPI0_MISO_HMI
-Text GLabel 1800 7200 0    50   Input ~ 0
-SPI0_MOSI_HMI
-Text GLabel 1800 7100 0    50   Input ~ 0
-SPI0_CLK_HMI
-Text GLabel 1800 7000 0    50   Input ~ 0
-SPI0_CS0_HMI
 Text GLabel 9000 5350 2    50   Output ~ 0
 POWER_BUTTON
 NoConn ~ 5650 5350
 NoConn ~ 5650 5450
 NoConn ~ 5650 2850
 NoConn ~ 5650 2450
-NoConn ~ 1450 6150
-NoConn ~ 1450 6450
 NoConn ~ 8850 5450
 NoConn ~ 8850 5050
 NoConn ~ 8850 3250
@@ -957,32 +847,6 @@ Wire Wire Line
 Wire Wire Line
 	3300 4700 3000 4700
 Wire Wire Line
-	1450 6250 1350 6250
-Wire Wire Line
-	1350 6250 1350 6650
-Wire Wire Line
-	1450 6350 1350 6350
-Wire Wire Line
-	1450 6550 1350 6550
-Wire Wire Line
-	1950 6150 2600 6150
-Wire Wire Line
-	1950 6250 2600 6250
-Wire Wire Line
-	1950 6450 2600 6450
-Wire Wire Line
-	2050 6050 2050 6150
-Wire Wire Line
-	2150 6050 2150 6250
-Wire Wire Line
-	2250 6050 2250 6450
-Wire Wire Line
-	2050 5500 2050 5750
-Wire Wire Line
-	2250 5600 2250 5750
-Wire Wire Line
-	2150 5750 2150 5600
-Wire Wire Line
 	5550 2150 5650 2150
 Wire Wire Line
 	5650 2250 5550 2250
@@ -990,14 +854,6 @@ Wire Wire Line
 	5550 2550 5650 2550
 Wire Wire Line
 	5650 2350 5550 2350
-Wire Notes Line
-	1000 5150 1000 7700
-Wire Notes Line
-	1000 7700 3400 7700
-Wire Notes Line
-	3400 7700 3400 5150
-Wire Notes Line
-	3400 5150 1000 5150
 Wire Wire Line
 	1850 4100 2500 4100
 Wire Wire Line
@@ -1097,22 +953,6 @@ Wire Notes Line
 Wire Notes Line
 	1000 650  1000 2550
 Wire Wire Line
-	1800 7000 1900 7000
-Wire Wire Line
-	2300 7000 2400 7000
-Wire Wire Line
-	1800 7100 1900 7100
-Wire Wire Line
-	1800 7300 1900 7300
-Wire Wire Line
-	1800 7200 1900 7200
-Wire Wire Line
-	2300 7100 2400 7100
-Wire Wire Line
-	2300 7300 2400 7300
-Wire Wire Line
-	2300 7200 2400 7200
-Wire Wire Line
 	9000 5350 8850 5350
 Connection ~ 6850 6250
 Connection ~ 6950 6250
@@ -1137,13 +977,6 @@ Connection ~ 7050 1650
 Connection ~ 7350 1650
 Connection ~ 5400 5250
 Connection ~ 5400 4950
-Connection ~ 1350 6350
-Connection ~ 1350 6550
-Connection ~ 2050 6150
-Connection ~ 2150 6250
-Connection ~ 2250 6450
-Connection ~ 2150 5600
-Connection ~ 2050 5600
 Connection ~ 3100 4300
 Connection ~ 2400 4300
 Wire Wire Line
@@ -1168,12 +1001,6 @@ Connection ~ 2150 4600
 Wire Wire Line
 	2000 3700 2000 4700
 Connection ~ 2000 4700
-Wire Wire Line
-	2050 5600 2250 5600
-Wire Wire Line
-	2100 6550 1950 6550
-Wire Wire Line
-	2400 6550 2600 6550
 Wire Wire Line
 	1650 1150 1650 1200
 Wire Wire Line
@@ -1277,18 +1104,6 @@ Wire Wire Line
 Connection ~ 3900 1550
 Text GLabel 5400 2850 0    50   Input ~ 0
 JTAG_RESET
-$Comp
-L D D2
-U 1 1 55F31488
-P 2250 6550
-F 0 "D2" H 2250 6350 50  0000 C CNN
-F 1 "1N4148" H 2250 6450 50  0000 C CNN
-F 2 "Diodes_SMD:SOD-323" H 2250 6550 60  0001 C CNN
-F 3 "" H 2250 6550 60  0000 C CNN
-F 4 "1N4148WX-TP" H -600 5000 50  0001 C CNN "MPN"
-	1    2250 6550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5400 2850 5550 2850
 Wire Wire Line
@@ -1328,28 +1143,6 @@ F 3 "" H 9950 5800 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	9950 5650 9950 5800
-Wire Wire Line
-	1950 6350 2600 6350
-$Comp
-L GNDD #PWR043
-U 1 1 55F44C3F
-P 2700 5750
-F 0 "#PWR043" H 2700 5500 50  0001 C CNN
-F 1 "GNDD" H 2700 5600 50  0000 C CNN
-F 2 "" H 2700 5750 60  0000 C CNN
-F 3 "" H 2700 5750 60  0000 C CNN
-	1    2700 5750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2400 5750 2400 5600
-Wire Wire Line
-	2400 5600 2700 5600
-Wire Wire Line
-	2700 5600 2700 5750
-Wire Wire Line
-	2400 6050 2400 6350
-Connection ~ 2400 6350
 $Comp
 L R R11
 U 1 1 55F47A93
@@ -1360,17 +1153,6 @@ F 2 "Resistors_SMD:R_0603" V 3530 1200 30  0001 C CNN
 F 3 "" H 3600 1200 30  0000 C CNN
 F 4 "RMCF0603JT10K0" H 450 -100 50  0001 C CNN "MPN"
 	1    3600 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_PACK4 RP1
-U 1 1 55F2C432
-P 2100 7350
-F 0 "RP1" H 2100 7800 50  0000 C CNN
-F 1 "R_PACK4" H 2100 7300 50  0000 C CNN
-F 2 "Resistors_SMD:R_Array_Concave_4x0402" H 2100 7350 60  0001 C CNN
-F 3 "" H 2100 7350 60  0000 C CNN
-	1    2100 7350
 	1    0    0    -1  
 $EndComp
 NoConn ~ 8850 3150

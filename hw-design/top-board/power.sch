@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:top-board-rescue
 LIBS:power
 LIBS:device
 LIBS:conn
