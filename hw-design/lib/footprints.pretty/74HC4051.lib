@@ -1,0 +1,46 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 74HC4051
+#
+DEF 74HC4051 U 0 40 Y Y 1 L N
+F0 "U" -100 802 50 H V L BNN
+F1 "74HC4051" -100 -1304 50 H V L BNN
+F3 "Fairchild Semiconductor" 0 0 50 H I L BNN
+F4 "Die Fairchild Semiconductor" 0 0 50 H I L BNN
+F5 "Die Multiplexer 8-Ch Analog" 0 0 50 H I L BNN
+F6 "None" 0 0 50 H I L BNN
+F7 "74HC4051" 0 0 50 H I L BNN
+F8 "Unavailable" 0 0 50 H I L BNN
+$FPLIST
+ SSOP-16
+ TSSOP_16
+ SOIC-16_3.9MM
+$ENDFPLIST
+DRAW
+P 2 0 0 10 200 700 200 -900 N
+P 2 0 0 10 200 -900 -400 -900 N
+P 2 0 0 10 -400 -900 -400 700 N
+P 2 0 0 10 -400 700 200 700 N
+X Y0 13 400 600 200 L 40 40 0 0 B 
+X Y1 14 400 400 200 L 40 40 0 0 B 
+X Y2 15 400 200 200 L 40 40 0 0 B 
+X Y3 12 400 0 200 L 40 40 0 0 B 
+X Y4 1 400 -200 200 L 40 40 0 0 B 
+X Y5 5 400 -400 200 L 40 40 0 0 B 
+X Y6 2 400 -600 200 L 40 40 0 0 B 
+X Y7 4 400 -800 200 L 40 40 0 0 B 
+X Z 3 -100 -1100 200 U 40 40 0 0 B 
+X E 6 -600 -800 200 R 40 40 0 0 B I
+X S0 11 -600 400 200 R 40 40 0 0 B 
+X S1 10 -600 200 200 R 40 40 0 0 B 
+X S2 9 -600 0 200 R 40 40 0 0 B 
+X VCC 16 -600 -200 200 R 40 40 0 0 W 
+X VEE 7 -600 -400 200 R 40 40 0 0 W 
+X GND 8 -600 -600 200 R 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library
