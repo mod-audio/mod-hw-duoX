@@ -1,0 +1,26 @@
+To add:
+    3 illuminated buttons (placed on the board)
+    4 regular buttons (placed on the board)
+    8 pots (connected via pin headers)
+    3 extra holes
+
+To keep:
+    2 encoders
+    4 RGB leds for audio meter
+
+To remove:
+    2 footswitches connectors and related components
+    2 RGB leds and related components
+    JTAG connector and related components
+
+Part numbers:
+
+illuminated buttons:
+https://www.digikey.de/product-detail/en/nkk-switches/JB15HBPC-JB/360-2560-ND/2104205
+
+regular buttons:
+https://www.digikey.de/product-detail/en/nkk-switches/JB15HAP-2B/360-2636-ND/653190
+
+---
+
+DXF file is at hw-design/top-board/PCB-TopBoard-Sibling-Position-of-components.dxf
