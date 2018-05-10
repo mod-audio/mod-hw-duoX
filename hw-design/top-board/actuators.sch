@@ -1140,6 +1140,49 @@ F 3 "" H 2600 950 60  0000 C CNN
 $EndComp
 Text GLabel 1250 3950 2    50   Output ~ 0
 LED_SYS_B1
+$Comp
+L +3.3V #PWR098
+U 1 1 5AF2313E
+P 2450 6500
+F 0 "#PWR098" H 2450 6350 50  0001 C CNN
+F 1 "+3.3V" H 2450 6640 50  0000 C CNN
+F 2 "" H 2450 6500 60  0000 C CNN
+F 3 "" H 2450 6500 60  0000 C CNN
+	1    2450 6500
+	-1   0    0    1   
+$EndComp
+Text GLabel 2100 1450 0    50   Output ~ 0
+POT_2
+Text GLabel 2100 1550 0    50   Output ~ 0
+POT_3
+Text GLabel 2100 1650 0    50   Output ~ 0
+POT_4
+Text GLabel 2100 1750 0    50   Output ~ 0
+POT_1
+Text GLabel 2100 1850 0    50   Output ~ 0
+POT_5
+Text GLabel 2100 1950 0    50   Output ~ 0
+POT_8
+Text GLabel 2100 2050 0    50   Output ~ 0
+POT_6
+Text GLabel 2100 2150 0    50   Output ~ 0
+POT_7
+Text GLabel 1200 2600 2    50   Output ~ 0
+POT_8
+Text GLabel 1200 2500 2    50   Output ~ 0
+POT_7
+Text GLabel 1200 2400 2    50   Output ~ 0
+POT_6
+Text GLabel 1200 2300 2    50   Output ~ 0
+POT_5
+Text GLabel 1200 2200 2    50   Output ~ 0
+POT_4
+Text GLabel 1200 2100 2    50   Output ~ 0
+POT_3
+Text GLabel 1200 2000 2    50   Output ~ 0
+POT_2
+Text GLabel 1200 1900 2    50   Output ~ 0
+POT_1
 Wire Wire Line
 	10150 5450 10600 5450
 Wire Wire Line
@@ -1260,22 +1303,6 @@ Wire Wire Line
 Wire Wire Line
 	1100 2700 1500 2700
 Wire Wire Line
-	1100 1900 1550 1900
-Wire Wire Line
-	1100 2000 1600 2000
-Wire Wire Line
-	1100 2100 1650 2100
-Wire Wire Line
-	1100 2200 1700 2200
-Wire Wire Line
-	1100 2300 1750 2300
-Wire Wire Line
-	1100 2400 1800 2400
-Wire Wire Line
-	1100 2500 1850 2500
-Wire Wire Line
-	1100 2600 1900 2600
-Wire Wire Line
 	2500 2400 2600 2400
 Wire Wire Line
 	2550 2400 2550 2450
@@ -1286,22 +1313,6 @@ Wire Wire Line
 Connection ~ 2550 2400
 Wire Wire Line
 	2600 950  2600 1250
-Wire Wire Line
-	1550 1450 2200 1450
-Wire Wire Line
-	1600 1550 2200 1550
-Wire Wire Line
-	1650 1650 2200 1650
-Wire Wire Line
-	1700 1750 2200 1750
-Wire Wire Line
-	1750 1850 2200 1850
-Wire Wire Line
-	1800 1950 2200 1950
-Wire Wire Line
-	1850 2050 2200 2050
-Wire Wire Line
-	1900 2150 2200 2150
 Wire Wire Line
 	3050 2100 3050 2050
 Wire Wire Line
@@ -1389,22 +1400,6 @@ Wire Wire Line
 Wire Wire Line
 	1150 3950 1150 4000
 Wire Wire Line
-	1900 2600 1900 2150
-Wire Wire Line
-	1850 2500 1850 2050
-Wire Wire Line
-	1800 2400 1800 1950
-Wire Wire Line
-	1750 2300 1750 1850
-Wire Wire Line
-	1700 2200 1700 1750
-Wire Wire Line
-	1650 2100 1650 1650
-Wire Wire Line
-	1600 2000 1600 1550
-Wire Wire Line
-	1550 1900 1550 1450
-Wire Wire Line
 	8250 3000 8300 3000
 Wire Wire Line
 	8300 3000 8300 2850
@@ -1424,17 +1419,6 @@ Wire Wire Line
 	2850 6150 2850 6100
 Wire Wire Line
 	2850 6100 2750 6100
-$Comp
-L +3.3V #PWR098
-U 1 1 5AF2313E
-P 2450 6500
-F 0 "#PWR098" H 2450 6350 50  0001 C CNN
-F 1 "+3.3V" H 2450 6640 50  0000 C CNN
-F 2 "" H 2450 6500 60  0000 C CNN
-F 3 "" H 2450 6500 60  0000 C CNN
-	1    2450 6500
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	2450 6400 2450 6500
 Wire Wire Line
@@ -1453,4 +1437,36 @@ Wire Wire Line
 	4900 5700 4900 5550
 Wire Wire Line
 	4900 5550 4700 5550
+Wire Wire Line
+	2200 1650 2100 1650
+Wire Wire Line
+	2200 1750 2100 1750
+Wire Wire Line
+	2200 1850 2100 1850
+Wire Wire Line
+	2200 1950 2100 1950
+Wire Wire Line
+	2200 2050 2100 2050
+Wire Wire Line
+	2200 2150 2100 2150
+Wire Wire Line
+	1200 1900 1100 1900
+Wire Wire Line
+	1200 2100 1100 2100
+Wire Wire Line
+	1200 2200 1100 2200
+Wire Wire Line
+	1200 2300 1100 2300
+Wire Wire Line
+	1200 2400 1100 2400
+Wire Wire Line
+	1200 2500 1100 2500
+Wire Wire Line
+	1200 2600 1100 2600
+Wire Wire Line
+	2100 1550 2200 1550
+Wire Wire Line
+	2100 1450 2200 1450
+Wire Wire Line
+	1100 2000 1200 2000
 $EndSCHEMATC

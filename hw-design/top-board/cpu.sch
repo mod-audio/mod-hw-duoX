@@ -966,13 +966,13 @@ Text GLabel 9000 2350 2    50   Output ~ 0
 LED_SYS_B2
 Text GLabel 9000 2150 2    50   Output ~ 0
 LED_SYS_B1
-Text GLabel 9000 3150 2    50   Output ~ 0
-LED_B2
-Text GLabel 9000 3750 2    50   Output ~ 0
-B1
-Text GLabel 9000 3250 2    50   Output ~ 0
-B2
 Text GLabel 9000 3650 2    50   Output ~ 0
+LED_B2
+Text GLabel 9000 3250 2    50   Output ~ 0
+B1
+Text GLabel 9000 3750 2    50   Output ~ 0
+B2
+Text GLabel 9000 3150 2    50   Output ~ 0
 LED_B1
 Wire Wire Line
 	7550 6150 7550 6300
@@ -1285,23 +1285,15 @@ Wire Wire Line
 Wire Wire Line
 	9350 3850 8850 3850
 Wire Wire Line
-	9000 3250 8850 3250
-Wire Wire Line
-	9000 3650 8850 3650
-Wire Wire Line
 	9000 2350 8850 2350
-Text GLabel 9000 4450 2    50   Output ~ 0
+Text GLabel 9000 4150 2    50   Output ~ 0
 B4
-Text GLabel 9000 4650 2    50   Output ~ 0
-B3
-Text GLabel 9000 4550 2    50   Output ~ 0
-LED_B3
 Text GLabel 9000 4350 2    50   Output ~ 0
+B3
+Text GLabel 9000 4650 2    50   Output ~ 0
+LED_B3
+Text GLabel 9000 4250 2    50   Output ~ 0
 LED_B4
-Wire Wire Line
-	9000 3150 8850 3150
-Wire Wire Line
-	9000 3750 8850 3750
 Connection ~ 2200 1300
 Connection ~ 2200 1200
 Wire Wire Line
@@ -1316,14 +1308,6 @@ Wire Wire Line
 	3600 1500 3600 1650
 Wire Wire Line
 	3600 2150 3600 2300
-Wire Wire Line
-	9000 4650 8850 4650
-Wire Wire Line
-	9000 4550 8850 4550
-Wire Wire Line
-	9000 4450 8850 4450
-Wire Wire Line
-	9000 4350 8850 4350
 Wire Wire Line
 	6500 800  6500 950 
 Wire Wire Line
@@ -1379,4 +1363,20 @@ Wire Wire Line
 	9450 5450 8850 5450
 Wire Wire Line
 	9000 2750 8850 2750
+Wire Wire Line
+	9000 3150 8850 3150
+Wire Wire Line
+	9000 3250 8850 3250
+Wire Wire Line
+	9000 3650 8850 3650
+Wire Wire Line
+	9000 3750 8850 3750
+Wire Wire Line
+	9000 4650 8850 4650
+Wire Wire Line
+	9000 4350 8850 4350
+Wire Wire Line
+	9000 4250 8850 4250
+Wire Wire Line
+	9000 4150 8850 4150
 $EndSCHEMATC
