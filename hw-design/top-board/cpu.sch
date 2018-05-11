@@ -948,19 +948,19 @@ NoConn ~ 5650 4550
 NoConn ~ 5650 4650
 Text GLabel 9350 3850 2    50   Output ~ 0
 POTS_C_B0
-Text GLabel 5300 6100 3    50   Output ~ 0
+Text GLabel 5500 4650 0    50   Output ~ 0
 POTS_C_B1
-Text GLabel 5200 6100 3    50   Output ~ 0
+Text GLabel 5500 4550 0    50   Output ~ 0
 POTS_C_B2
 Text GLabel 9350 3950 2    50   Output ~ 0
 POTS_INP
-Text GLabel 9000 2750 2    50   Output ~ 0
+Text GLabel 9000 2650 2    50   Output ~ 0
 SYS_B3
 Text GLabel 9000 2250 2    50   Output ~ 0
 SYS_B2
 Text GLabel 9000 2050 2    50   Output ~ 0
 SYS_B1
-Text GLabel 9450 5650 3    50   Output ~ 0
+Text GLabel 9000 2750 2    50   Output ~ 0
 LED_SYS_B3
 Text GLabel 9000 2350 2    50   Output ~ 0
 LED_SYS_B2
@@ -1265,22 +1265,6 @@ Connection ~ 9950 5150
 Wire Wire Line
 	9950 5650 9950 5800
 Wire Wire Line
-	5650 5450 5400 5450
-Wire Wire Line
-	5400 5450 5400 6000
-Wire Wire Line
-	5400 6000 5300 6000
-Wire Wire Line
-	5300 6000 5300 6100
-Wire Wire Line
-	5650 5350 5350 5350
-Wire Wire Line
-	5350 5350 5350 5950
-Wire Wire Line
-	5350 5950 5200 5950
-Wire Wire Line
-	5200 5950 5200 6100
-Wire Wire Line
 	9350 3950 8850 3950
 Wire Wire Line
 	9350 3850 8850 3850
@@ -1358,12 +1342,6 @@ Wire Wire Line
 Wire Wire Line
 	9000 2250 8850 2250
 Wire Wire Line
-	9450 5650 9450 5450
-Wire Wire Line
-	9450 5450 8850 5450
-Wire Wire Line
-	9000 2750 8850 2750
-Wire Wire Line
 	9000 3150 8850 3150
 Wire Wire Line
 	9000 3250 8850 3250
@@ -1379,4 +1357,12 @@ Wire Wire Line
 	9000 4250 8850 4250
 Wire Wire Line
 	9000 4150 8850 4150
+Wire Wire Line
+	9000 2650 8850 2650
+Wire Wire Line
+	9000 2750 8850 2750
+Wire Wire Line
+	5500 4550 5650 4550
+Wire Wire Line
+	5500 4650 5650 4650
 $EndSCHEMATC
