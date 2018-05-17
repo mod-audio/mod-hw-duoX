@@ -24,3 +24,31 @@ https://www.digikey.de/product-detail/en/nkk-switches/JB15HAP-2B/360-2636-ND/653
 ---
 
 DXF file is at hw-design/top-board/PCB-TopBoard-Sibling-Position-of-components.dxf
+
+------------------------------------------------------------------------------------
+
+Pins:
+
+System button's 
+1) signal P1[0] 	/ 76
+   LED    P1[1] 	/ 75
+2) signal P1[4] 	/ 74
+   LED    P1[8] 	/ 73
+3) signal P1[14] 	/ 70
+   LED    P1[15]	/ 69
+
+Actuator button's
+1) signal P1[23]	/ 29
+   LED    P1[22]	/ 28
+2) signal P1[29]	/ 36
+   LED    P1[28]    / 35
+3) signal P2[2]		/ 58
+   LED    P2[5]		/ 53
+4) signal P2[0]		/ 60
+   LED    P2[1]		/ 59
+
+Mux (all of these pins are also analog i/o so it doesnt mather which are used for what)
+Analog in: P1[31] / AD0[5] / 17
+digital B0: P1[30] / AD0[4] / 18
+digital B1: P0[26] / AD0[3] / 6
+digital B2: P0[25] / AD0[2] / 7
