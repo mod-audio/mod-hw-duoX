@@ -1,4 +1,4 @@
-update=Mon 07 May 2018 05:18:09 PM CEST
+update=Fri 18 May 2018 12:07:40 PM CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -221,3 +221,4 @@ LibName186=kicad-symbols/4xxx_IEEE
 LibName187=kicad-symbols/4xxx
 LibName188=/home/jan/CONTROLLER HMI2/mod-hw-duo/hw-design/lib/button_symb
 LibName189=/home/jan/CONTROLLER HMI2/mod-hw-duo/hw-design/lib/button_wLED
+LibName190=/home/jan/CONTROLLER HMI2/mod-hw-duo/hw-design/lib/MAX4781/MAX4781EUET

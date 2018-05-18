@@ -1,0 +1,42 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# MAX4781EUET
+#
+DEF MAX4781EUET U 0 40 Y Y 1 L N
+F0 "U" 1115 359 50 H V L BNN
+F1 "MAX4781EUET" 1091 260 50 H V L BNN
+F2 "21-0066J_16" 0 0 50 H I L BNN
+F3 "TSSOP-16 Maxim Integrated" 0 0 50 H I L BNN
+F4 "MAX4781EUE+" 0 0 50 H I L BNN
+F5 "MAX4781EUE+-ND" 0 0 50 H I L BNN
+F6 "Maxim Integrated" 0 0 50 H I L BNN
+F7 "Interface IC - multiplexers Maxim Integrated MAX4781EUE+ TSSOP 16" 0 0 50 H I L BNN
+F8 "https://www.digikey.nl/product-detail/en/maxim-integrated/MAX4781EUE-/MAX4781EUE--ND/1779813?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 6 300 200 300 -900 N
+P 2 0 0 6 300 -900 2300 -900 N
+P 2 0 0 6 2300 -900 2300 200 N
+P 2 0 0 6 2300 200 300 200 N
+X X4 1 0 0 300 R 40 40 0 0 I 
+X X6 2 0 -100 300 R 40 40 0 0 I 
+X X 3 0 -200 300 R 40 40 0 0 O 
+X X7 4 0 -300 300 R 40 40 0 0 O 
+X X5 5 0 -400 300 R 40 40 0 0 O 
+X *ENABLE 6 0 -500 300 R 40 40 0 0 I 
+X NC 7 0 -600 300 R 40 40 0 0 N 
+X GND 8 0 -700 300 R 40 40 0 0 W 
+X C 9 2600 -700 300 L 40 40 0 0 I 
+X B 10 2600 -600 300 L 40 40 0 0 I 
+X A 11 2600 -500 300 L 40 40 0 0 I 
+X X3 12 2600 -400 300 L 40 40 0 0 I 
+X X0 13 2600 -300 300 L 40 40 0 0 I 
+X X1 14 2600 -200 300 L 40 40 0 0 I 
+X X2 15 2600 -100 300 L 40 40 0 0 I 
+X VCC 16 2600 0 300 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library
