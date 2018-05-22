@@ -935,13 +935,13 @@ F 4 "RMCF0603JT10K0" H 450 -50 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 NoConn ~ 8850 3450
-Text GLabel 9350 3850 2    50   Output ~ 0
+Text GLabel 9000 3850 2    50   Output ~ 0
 POTS_C_B0
 Text GLabel 5500 4650 0    50   Output ~ 0
 POTS_C_B1
 Text GLabel 5500 4550 0    50   Output ~ 0
 POTS_C_B2
-Text GLabel 9350 3950 2    50   Output ~ 0
+Text GLabel 9000 3950 2    50   Output ~ 0
 POTS_INP
 Text GLabel 9000 2650 2    50   Output ~ 0
 SYS_B3
@@ -1204,10 +1204,6 @@ Connection ~ 9950 5150
 Wire Wire Line
 	9950 5650 9950 5800
 Wire Wire Line
-	9350 3950 8850 3950
-Wire Wire Line
-	9350 3850 8850 3850
-Wire Wire Line
 	9000 2350 8850 2350
 Wire Wire Line
 	3600 1500 3600 1650
@@ -1354,4 +1350,8 @@ Wire Wire Line
 	3400 4500 3000 4500
 Wire Wire Line
 	1500 1650 1600 1650
+Wire Wire Line
+	9000 3850 8850 3850
+Wire Wire Line
+	9000 3950 8850 3950
 $EndSCHEMATC
