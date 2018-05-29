@@ -1,187 +1,11 @@
 EESchema Schematic File Version 2
+LIBS:top-board-rescue
 LIBS:power
+LIBS:device
+LIBS:conn
+LIBS:regul
+LIBS:74xgxx
 LIBS:local-components
-LIBS:Video
-LIBS:Valve
-LIBS:Triac_Thyristor
-LIBS:Transistor_IGBT
-LIBS:Transistor_FET
-LIBS:Transistor_BJT
-LIBS:Transistor_Array
-LIBS:Transformer
-LIBS:Timer_RTC
-LIBS:Timer_PLL
-LIBS:Timer
-LIBS:Switch
-LIBS:Sensor_Voltage
-LIBS:Sensor_Touch
-LIBS:Sensor_Temperature
-LIBS:Sensor_Proximity
-LIBS:Sensor_Pressure
-LIBS:Sensor_Optical
-LIBS:Sensor_Motion
-LIBS:Sensor_Magnetic
-LIBS:Sensor_Humidity
-LIBS:Sensor_Gas
-LIBS:Sensor_Current
-LIBS:Sensor_Audio
-LIBS:Sensor
-LIBS:RF_ZigBee
-LIBS:RF_WiFi
-LIBS:RF_Switch
-LIBS:RF_RFID
-LIBS:RF_Module
-LIBS:RF_Mixer
-LIBS:RF_GPS
-LIBS:RF_Bluetooth
-LIBS:RF_Amplifier
-LIBS:RF_AM_FM
-LIBS:RF
-LIBS:Relay_SolidState
-LIBS:Relay
-LIBS:Regulator_Switching
-LIBS:Regulator_SwitchedCapacitor
-LIBS:Regulator_Linear
-LIBS:Regulator_Current
-LIBS:Regulator_Controller
-LIBS:Reference_Voltage
-LIBS:Reference_Current
-LIBS:pspice
-LIBS:Power_Supervisor
-LIBS:Power_Protection
-LIBS:Power_Management
-LIBS:Potentiometer_Digital
-LIBS:Oscillator
-LIBS:Motor
-LIBS:Memory_UniqueID
-LIBS:Memory_ROM
-LIBS:Memory_RAM
-LIBS:Memory_NVRAM
-LIBS:Memory_Flash
-LIBS:Memory_EPROM
-LIBS:Memory_EEPROM
-LIBS:Memory_Controller
-LIBS:Mechanical
-LIBS:MCU_Texas_MSP430
-LIBS:MCU_Texas
-LIBS:MCU_ST_STM32L4+
-LIBS:MCU_ST_STM32L4
-LIBS:MCU_ST_STM32L1
-LIBS:MCU_ST_STM32L0
-LIBS:MCU_ST_STM32H7
-LIBS:MCU_ST_STM32F7
-LIBS:MCU_ST_STM32F4
-LIBS:MCU_ST_STM32F3
-LIBS:MCU_ST_STM32F2
-LIBS:MCU_ST_STM32F1
-LIBS:MCU_ST_STM32F0
-LIBS:MCU_ST_STM8
-LIBS:MCU_SiliconLabs
-LIBS:MCU_SiFive
-LIBS:MCU_Parallax
-LIBS:MCU_NXP_S08
-LIBS:MCU_NXP_MCore
-LIBS:MCU_NXP_MAC7100
-LIBS:MCU_NXP_LPC
-LIBS:MCU_NXP_Kinetis
-LIBS:MCU_NXP_HCS12
-LIBS:MCU_NXP_HC12
-LIBS:MCU_NXP_HC11
-LIBS:MCU_NXP_ColdFire
-LIBS:MCU_Nordic
-LIBS:MCU_Module
-LIBS:MCU_Microchip_SAML
-LIBS:MCU_Microchip_SAME
-LIBS:MCU_Microchip_PIC32
-LIBS:MCU_Microchip_PIC24
-LIBS:MCU_Microchip_PIC18
-LIBS:MCU_Microchip_PIC16
-LIBS:MCU_Microchip_PIC12
-LIBS:MCU_Microchip_PIC10
-LIBS:MCU_Microchip_AVR
-LIBS:MCU_Microchip_ATtiny
-LIBS:MCU_Microchip_ATmega
-LIBS:MCU_Microchip_8051
-LIBS:MCU_Intel
-LIBS:MCU_Espressif
-LIBS:MCU_Cypress
-LIBS:MCU_AnalogDevices
-LIBS:Logic_Programmable
-LIBS:Logic_LevelTranslator
-LIBS:LED
-LIBS:Jumper
-LIBS:Isolator_Analog
-LIBS:Isolator
-LIBS:Interface_USB
-LIBS:Interface_UART
-LIBS:Interface_Telecom
-LIBS:Interface_Optical
-LIBS:Interface_LineDriver
-LIBS:Interface_HID
-LIBS:Interface_Expansion
-LIBS:Interface_Ethernet
-LIBS:Interface_CurrentLoop
-LIBS:Interface_CAN_LIN
-LIBS:Interface
-LIBS:Graphic
-LIBS:GPU
-LIBS:FPGA_Xilinx_Virtex7
-LIBS:FPGA_Xilinx_Virtex6
-LIBS:FPGA_Xilinx_Virtex5
-LIBS:FPGA_Xilinx_Spartan6
-LIBS:FPGA_Xilinx_Kintex7
-LIBS:FPGA_Xilinx_Artix7
-LIBS:FPGA_Xilinx
-LIBS:FPGA_Microsemi
-LIBS:Filter
-LIBS:DSP_Texas
-LIBS:DSP_Motorola
-LIBS:DSP_Microchip_DSPIC33
-LIBS:DSP_Freescale
-LIBS:Driver_Relay
-LIBS:Driver_Motor
-LIBS:Driver_LED
-LIBS:Driver_FET
-LIBS:Driver_Display
-LIBS:Display_Graphic
-LIBS:Display_Character
-LIBS:Diode_Laser
-LIBS:Diode_Bridge
-LIBS:Diode
-LIBS:Device
-LIBS:CPU_PowerPC
-LIBS:CPU_NXP_68000
-LIBS:CPU_NXP_6800
-LIBS:CPU
-LIBS:CPLD_Xilinx
-LIBS:CPLD_Altera
-LIBS:Converter_DCDC
-LIBS:Converter_ACDC
-LIBS:Connector_Generic_Shielded
-LIBS:Connector_Generic_MountingPin
-LIBS:Connector_Generic
-LIBS:Connector
-LIBS:Comparator
-LIBS:Battery_Management
-LIBS:Audio
-LIBS:Analog_Switch
-LIBS:Analog_DAC
-LIBS:Analog_ADC
-LIBS:Analog
-LIBS:Amplifier_Video
-LIBS:Amplifier_Operational
-LIBS:Amplifier_Instrumentation
-LIBS:Amplifier_Difference
-LIBS:Amplifier_Current
-LIBS:Amplifier_Buffer
-LIBS:Amplifier_Audio
-LIBS:74xx_IEEE
-LIBS:74xx
-LIBS:74xGxx
-LIBS:4xxx_IEEE
-LIBS:4xxx
-LIBS:button_wLED
-LIBS:MAX4781EUET
 LIBS:top-board-cache
 EELAYER 25 0
 EELAYER END
@@ -198,7 +22,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L R R15
+L R-RESCUE-top-board R15
 U 1 1 555279BF
 P 9900 5100
 F 0 "R15" V 9980 5100 50  0000 C CNN
@@ -244,7 +68,7 @@ F 3 "" H 4800 1450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R17
+L R-RESCUE-top-board R17
 U 1 1 555627D4
 P 5450 900
 F 0 "R17" V 5530 900 50  0000 C CNN
@@ -267,7 +91,7 @@ F 3 "" H 5450 550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R18
+L R-RESCUE-top-board R18
 U 1 1 55562ED4
 P 5700 1700
 F 0 "R18" H 5800 1700 50  0000 C CNN
@@ -279,7 +103,7 @@ F 4 "RMCF0603JT10K0" H 100 -1250 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R20
+L R-RESCUE-top-board R20
 U 1 1 5556305B
 P 5950 2000
 F 0 "R20" V 5850 2000 50  0000 C CNN
@@ -313,9 +137,11 @@ F 3 "" H 5800 1450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C39
+L C-RESCUE-top-board C39
 U 1 1 555643DB
 P 6250 2250
+AR Path="/555643DB" Ref="C39"  Part="1" 
+AR Path="/5550E14B/555643DB" Ref="C39"  Part="1" 
 F 0 "C39" H 6275 2350 50  0000 L CNN
 F 1 "0.01uF" H 6275 2150 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 6288 2100 30  0001 C CNN
@@ -336,7 +162,7 @@ F 3 "" H 6250 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R19
+L R-RESCUE-top-board R19
 U 1 1 555654C6
 P 5450 2550
 F 0 "R19" H 5550 2550 50  0000 C CNN
@@ -348,7 +174,7 @@ F 4 "RMCF0603JT10K0" H -150 -1250 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R21
+L R-RESCUE-top-board R21
 U 1 1 555654CC
 P 5950 2850
 F 0 "R21" V 5850 2850 50  0000 C CNN
@@ -371,9 +197,11 @@ F 3 "" H 5450 2250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C40
+L C-RESCUE-top-board C40
 U 1 1 555654DD
 P 6250 3150
+AR Path="/555654DD" Ref="C40"  Part="1" 
+AR Path="/5550E14B/555654DD" Ref="C40"  Part="1" 
 F 0 "C40" H 6275 3250 50  0000 L CNN
 F 1 "0.01uF" H 6275 3050 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 6288 3000 30  0001 C CNN
@@ -417,7 +245,7 @@ F 3 "" H 7000 1450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R22
+L R-RESCUE-top-board R22
 U 1 1 55566FB6
 P 7650 950
 F 0 "R22" V 7730 950 50  0000 C CNN
@@ -440,7 +268,7 @@ F 3 "" H 7650 650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R23
+L R-RESCUE-top-board R23
 U 1 1 55566FC9
 P 7900 1650
 F 0 "R23" H 8000 1650 50  0000 C CNN
@@ -452,7 +280,7 @@ F 4 "RMCF0603JT10K0" H 100 -1300 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R25
+L R-RESCUE-top-board R25
 U 1 1 55566FCF
 P 8100 2000
 F 0 "R25" V 8000 2000 50  0000 C CNN
@@ -486,9 +314,11 @@ F 3 "" H 7950 1400 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C41
+L C-RESCUE-top-board C41
 U 1 1 55566FEA
 P 8450 2300
+AR Path="/55566FEA" Ref="C41"  Part="1" 
+AR Path="/5550E14B/55566FEA" Ref="C41"  Part="1" 
 F 0 "C41" H 8475 2400 50  0000 L CNN
 F 1 "0.01uF" H 8475 2200 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 8488 2150 30  0001 C CNN
@@ -509,7 +339,7 @@ F 3 "" H 8450 2600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R24
+L R-RESCUE-top-board R24
 U 1 1 55566FFA
 P 7700 2550
 F 0 "R24" H 7800 2550 50  0000 C CNN
@@ -521,7 +351,7 @@ F 4 "RMCF0603JT10K0" H -100 -1250 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R26
+L R-RESCUE-top-board R26
 U 1 1 55567000
 P 8000 2850
 F 0 "R26" V 7900 2850 50  0000 C CNN
@@ -544,9 +374,11 @@ F 3 "" H 7700 2250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C42
+L C-RESCUE-top-board C42
 U 1 1 55567013
 P 8450 3150
+AR Path="/55567013" Ref="C42"  Part="1" 
+AR Path="/5550E14B/55567013" Ref="C42"  Part="1" 
 F 0 "C42" H 8475 3250 50  0000 L CNN
 F 1 "0.01uF" H 8475 3050 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 8488 3000 30  0001 C CNN
@@ -652,7 +484,7 @@ F 3 "" H 11100 4900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R49
+L R-RESCUE-top-board R49
 U 1 1 5AF0AC31
 P 10600 5400
 F 0 "R49" V 10680 5400 50  0000 C CNN
@@ -666,7 +498,7 @@ $EndComp
 Text GLabel 10600 5750 3    50   Output ~ 0
 LED_B1
 $Comp
-L R R48
+L R-RESCUE-top-board R48
 U 1 1 5AF0B911
 P 7750 5100
 F 0 "R48" V 7830 5100 50  0000 C CNN
@@ -724,7 +556,7 @@ F 3 "" H 8850 4850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R32
+L R-RESCUE-top-board R32
 U 1 1 5AF0B937
 P 8400 5350
 F 0 "R32" V 8480 5350 50  0000 C CNN
@@ -738,7 +570,7 @@ $EndComp
 Text GLabel 8400 5700 3    50   Output ~ 0
 LED_B2
 $Comp
-L R R31
+L R-RESCUE-top-board R31
 U 1 1 5AF0C5F8
 P 5900 5050
 F 0 "R31" V 5980 5050 50  0000 C CNN
@@ -796,7 +628,7 @@ F 3 "" H 6850 4900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R30
+L R-RESCUE-top-board R30
 U 1 1 5AF0C61E
 P 6350 5450
 F 0 "R30" V 6430 5450 50  0000 C CNN
@@ -810,7 +642,7 @@ $EndComp
 Text GLabel 6350 5800 3    50   Output ~ 0
 LED_B3
 $Comp
-L R R29
+L R-RESCUE-top-board R29
 U 1 1 5AF0C627
 P 4200 5000
 F 0 "R29" V 4280 5000 50  0000 C CNN
@@ -868,7 +700,7 @@ F 3 "" H 5200 4800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R28
+L R-RESCUE-top-board R28
 U 1 1 5AF0C64D
 P 4700 5250
 F 0 "R28" V 4780 5250 50  0000 C CNN
@@ -882,7 +714,7 @@ $EndComp
 Text GLabel 4700 5600 3    50   Output ~ 0
 LED_B4
 $Comp
-L R R27
+L R-RESCUE-top-board R27
 U 1 1 5AF0CDF7
 P 2650 4800
 F 0 "R27" V 2730 4800 50  0000 C CNN
@@ -929,7 +761,7 @@ F 3 "" H 3400 4500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R16
+L R-RESCUE-top-board R16
 U 1 1 5AF0CE1D
 P 3000 5050
 F 0 "R16" V 3080 5050 50  0000 C CNN
@@ -943,7 +775,7 @@ $EndComp
 Text GLabel 3000 5400 3    50   Output ~ 0
 LED_SYS_B2
 $Comp
-L R R10
+L R-RESCUE-top-board R10
 U 1 1 5AF0CE26
 P 1500 6600
 F 0 "R10" V 1580 6600 50  0000 C CNN
@@ -1001,7 +833,7 @@ F 3 "" H 2500 6300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R7
+L R-RESCUE-top-board R7
 U 1 1 5AF0CE4C
 P 2100 6850
 F 0 "R7" V 2180 6850 50  0000 C CNN
@@ -1015,7 +847,7 @@ $EndComp
 Text GLabel 2100 7200 3    50   Output ~ 0
 LED_SYS_B3
 $Comp
-L R R8
+L R-RESCUE-top-board R8
 U 1 1 5AF0D4CF
 P 1100 4750
 F 0 "R8" V 1180 4750 50  0000 C CNN
@@ -1062,7 +894,7 @@ F 3 "" H 1900 4500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R5
+L R-RESCUE-top-board R5
 U 1 1 5AF0D4F5
 P 1500 5050
 F 0 "R5" V 1580 5050 50  0000 C CNN

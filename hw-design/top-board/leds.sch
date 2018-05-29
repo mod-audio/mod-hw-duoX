@@ -1,187 +1,11 @@
 EESchema Schematic File Version 2
+LIBS:top-board-rescue
 LIBS:power
+LIBS:device
+LIBS:conn
+LIBS:regul
+LIBS:74xgxx
 LIBS:local-components
-LIBS:Video
-LIBS:Valve
-LIBS:Triac_Thyristor
-LIBS:Transistor_IGBT
-LIBS:Transistor_FET
-LIBS:Transistor_BJT
-LIBS:Transistor_Array
-LIBS:Transformer
-LIBS:Timer_RTC
-LIBS:Timer_PLL
-LIBS:Timer
-LIBS:Switch
-LIBS:Sensor_Voltage
-LIBS:Sensor_Touch
-LIBS:Sensor_Temperature
-LIBS:Sensor_Proximity
-LIBS:Sensor_Pressure
-LIBS:Sensor_Optical
-LIBS:Sensor_Motion
-LIBS:Sensor_Magnetic
-LIBS:Sensor_Humidity
-LIBS:Sensor_Gas
-LIBS:Sensor_Current
-LIBS:Sensor_Audio
-LIBS:Sensor
-LIBS:RF_ZigBee
-LIBS:RF_WiFi
-LIBS:RF_Switch
-LIBS:RF_RFID
-LIBS:RF_Module
-LIBS:RF_Mixer
-LIBS:RF_GPS
-LIBS:RF_Bluetooth
-LIBS:RF_Amplifier
-LIBS:RF_AM_FM
-LIBS:RF
-LIBS:Relay_SolidState
-LIBS:Relay
-LIBS:Regulator_Switching
-LIBS:Regulator_SwitchedCapacitor
-LIBS:Regulator_Linear
-LIBS:Regulator_Current
-LIBS:Regulator_Controller
-LIBS:Reference_Voltage
-LIBS:Reference_Current
-LIBS:pspice
-LIBS:Power_Supervisor
-LIBS:Power_Protection
-LIBS:Power_Management
-LIBS:Potentiometer_Digital
-LIBS:Oscillator
-LIBS:Motor
-LIBS:Memory_UniqueID
-LIBS:Memory_ROM
-LIBS:Memory_RAM
-LIBS:Memory_NVRAM
-LIBS:Memory_Flash
-LIBS:Memory_EPROM
-LIBS:Memory_EEPROM
-LIBS:Memory_Controller
-LIBS:Mechanical
-LIBS:MCU_Texas_MSP430
-LIBS:MCU_Texas
-LIBS:MCU_ST_STM32L4+
-LIBS:MCU_ST_STM32L4
-LIBS:MCU_ST_STM32L1
-LIBS:MCU_ST_STM32L0
-LIBS:MCU_ST_STM32H7
-LIBS:MCU_ST_STM32F7
-LIBS:MCU_ST_STM32F4
-LIBS:MCU_ST_STM32F3
-LIBS:MCU_ST_STM32F2
-LIBS:MCU_ST_STM32F1
-LIBS:MCU_ST_STM32F0
-LIBS:MCU_ST_STM8
-LIBS:MCU_SiliconLabs
-LIBS:MCU_SiFive
-LIBS:MCU_Parallax
-LIBS:MCU_NXP_S08
-LIBS:MCU_NXP_MCore
-LIBS:MCU_NXP_MAC7100
-LIBS:MCU_NXP_LPC
-LIBS:MCU_NXP_Kinetis
-LIBS:MCU_NXP_HCS12
-LIBS:MCU_NXP_HC12
-LIBS:MCU_NXP_HC11
-LIBS:MCU_NXP_ColdFire
-LIBS:MCU_Nordic
-LIBS:MCU_Module
-LIBS:MCU_Microchip_SAML
-LIBS:MCU_Microchip_SAME
-LIBS:MCU_Microchip_PIC32
-LIBS:MCU_Microchip_PIC24
-LIBS:MCU_Microchip_PIC18
-LIBS:MCU_Microchip_PIC16
-LIBS:MCU_Microchip_PIC12
-LIBS:MCU_Microchip_PIC10
-LIBS:MCU_Microchip_AVR
-LIBS:MCU_Microchip_ATtiny
-LIBS:MCU_Microchip_ATmega
-LIBS:MCU_Microchip_8051
-LIBS:MCU_Intel
-LIBS:MCU_Espressif
-LIBS:MCU_Cypress
-LIBS:MCU_AnalogDevices
-LIBS:Logic_Programmable
-LIBS:Logic_LevelTranslator
-LIBS:LED
-LIBS:Jumper
-LIBS:Isolator_Analog
-LIBS:Isolator
-LIBS:Interface_USB
-LIBS:Interface_UART
-LIBS:Interface_Telecom
-LIBS:Interface_Optical
-LIBS:Interface_LineDriver
-LIBS:Interface_HID
-LIBS:Interface_Expansion
-LIBS:Interface_Ethernet
-LIBS:Interface_CurrentLoop
-LIBS:Interface_CAN_LIN
-LIBS:Interface
-LIBS:Graphic
-LIBS:GPU
-LIBS:FPGA_Xilinx_Virtex7
-LIBS:FPGA_Xilinx_Virtex6
-LIBS:FPGA_Xilinx_Virtex5
-LIBS:FPGA_Xilinx_Spartan6
-LIBS:FPGA_Xilinx_Kintex7
-LIBS:FPGA_Xilinx_Artix7
-LIBS:FPGA_Xilinx
-LIBS:FPGA_Microsemi
-LIBS:Filter
-LIBS:DSP_Texas
-LIBS:DSP_Motorola
-LIBS:DSP_Microchip_DSPIC33
-LIBS:DSP_Freescale
-LIBS:Driver_Relay
-LIBS:Driver_Motor
-LIBS:Driver_LED
-LIBS:Driver_FET
-LIBS:Driver_Display
-LIBS:Display_Graphic
-LIBS:Display_Character
-LIBS:Diode_Laser
-LIBS:Diode_Bridge
-LIBS:Diode
-LIBS:Device
-LIBS:CPU_PowerPC
-LIBS:CPU_NXP_68000
-LIBS:CPU_NXP_6800
-LIBS:CPU
-LIBS:CPLD_Xilinx
-LIBS:CPLD_Altera
-LIBS:Converter_DCDC
-LIBS:Converter_ACDC
-LIBS:Connector_Generic_Shielded
-LIBS:Connector_Generic_MountingPin
-LIBS:Connector_Generic
-LIBS:Connector
-LIBS:Comparator
-LIBS:Battery_Management
-LIBS:Audio
-LIBS:Analog_Switch
-LIBS:Analog_DAC
-LIBS:Analog_ADC
-LIBS:Analog
-LIBS:Amplifier_Video
-LIBS:Amplifier_Operational
-LIBS:Amplifier_Instrumentation
-LIBS:Amplifier_Difference
-LIBS:Amplifier_Current
-LIBS:Amplifier_Buffer
-LIBS:Amplifier_Audio
-LIBS:74xx_IEEE
-LIBS:74xx
-LIBS:74xGxx
-LIBS:4xxx_IEEE
-LIBS:4xxx
-LIBS:button_wLED
-LIBS:MAX4781EUET
 LIBS:top-board-cache
 EELAYER 25 0
 EELAYER END
@@ -209,7 +33,7 @@ F 3 "" H 9200 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R44
+L R-RESCUE-top-board R44
 U 1 1 5552240D
 P 8350 5550
 F 0 "R44" V 8300 5700 50  0000 C CNN
@@ -221,7 +45,7 @@ F 4 "RMCF0603JT220R" H 0   0   50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R43
+L R-RESCUE-top-board R43
 U 1 1 55522407
 P 8350 5350
 F 0 "R43" V 8300 5500 50  0000 C CNN
@@ -233,7 +57,7 @@ F 4 "RMCF0603JT220R" H 0   0   50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R42
+L R-RESCUE-top-board R42
 U 1 1 55522401
 P 8350 5150
 F 0 "R42" V 8300 5300 50  0000 C CNN
@@ -257,7 +81,7 @@ F 4 "LTRBGFSF-ABCB-QKYO-Z" H 8900 5350 60  0001 C CNN "MPN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R41
+L R-RESCUE-top-board R41
 U 1 1 555223D1
 P 8350 4450
 F 0 "R41" V 8300 4600 50  0000 C CNN
@@ -269,7 +93,7 @@ F 4 "RMCF0603JT220R" H 0   0   50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R40
+L R-RESCUE-top-board R40
 U 1 1 555223CB
 P 8350 4250
 F 0 "R40" V 8300 4400 50  0000 C CNN
@@ -281,7 +105,7 @@ F 4 "RMCF0603JT220R" H 0   0   50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R39
+L R-RESCUE-top-board R39
 U 1 1 555223C5
 P 8350 4050
 F 0 "R39" V 8300 4200 50  0000 C CNN
@@ -305,7 +129,7 @@ F 4 "LTRBGFSF-ABCB-QKYO-Z" H 8900 4250 60  0001 C CNN "MPN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R38
+L R-RESCUE-top-board R38
 U 1 1 5551FFDA
 P 8350 1850
 F 0 "R38" V 8300 2000 50  0000 C CNN
@@ -317,7 +141,7 @@ F 4 "RMCF0603JT220R" H 0   -1500 50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R37
+L R-RESCUE-top-board R37
 U 1 1 5551FFD4
 P 8350 2050
 F 0 "R37" V 8300 2200 50  0000 C CNN
@@ -341,7 +165,7 @@ F 4 "LTRBGFSF-ABCB-QKYO-Z" H 8900 2050 60  0001 C CNN "MPN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R35
+L R-RESCUE-top-board R35
 U 1 1 5551FF9E
 P 8350 2950
 F 0 "R35" V 8300 3100 50  0000 C CNN
@@ -353,7 +177,7 @@ F 4 "RMCF0603JT220R" H 0   700 50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R34
+L R-RESCUE-top-board R34
 U 1 1 5551FF98
 P 8350 3150
 F 0 "R34" V 8300 3300 50  0000 C CNN
@@ -365,7 +189,7 @@ F 4 "RMCF0603JT220R" H 0   1100 50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R33
+L R-RESCUE-top-board R33
 U 1 1 5551FF92
 P 8350 3350
 F 0 "R33" V 8300 3500 50  0000 C CNN
@@ -503,7 +327,7 @@ F 3 "" H 9200 5650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R47
+L R-RESCUE-top-board R47
 U 1 1 56905A03
 P 6000 4450
 F 0 "R47" V 6050 4550 50  0000 L CNN
@@ -659,7 +483,7 @@ Wire Wire Line
 	6000 4200 6000 4150
 Connection ~ 6000 4150
 $Comp
-L R R36
+L R-RESCUE-top-board R36
 U 1 1 5551FFCE
 P 8350 2250
 F 0 "R36" V 8300 2400 50  0000 C CNN

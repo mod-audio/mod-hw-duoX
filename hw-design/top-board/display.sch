@@ -1,187 +1,11 @@
 EESchema Schematic File Version 2
+LIBS:top-board-rescue
 LIBS:power
+LIBS:device
+LIBS:conn
+LIBS:regul
+LIBS:74xgxx
 LIBS:local-components
-LIBS:Video
-LIBS:Valve
-LIBS:Triac_Thyristor
-LIBS:Transistor_IGBT
-LIBS:Transistor_FET
-LIBS:Transistor_BJT
-LIBS:Transistor_Array
-LIBS:Transformer
-LIBS:Timer_RTC
-LIBS:Timer_PLL
-LIBS:Timer
-LIBS:Switch
-LIBS:Sensor_Voltage
-LIBS:Sensor_Touch
-LIBS:Sensor_Temperature
-LIBS:Sensor_Proximity
-LIBS:Sensor_Pressure
-LIBS:Sensor_Optical
-LIBS:Sensor_Motion
-LIBS:Sensor_Magnetic
-LIBS:Sensor_Humidity
-LIBS:Sensor_Gas
-LIBS:Sensor_Current
-LIBS:Sensor_Audio
-LIBS:Sensor
-LIBS:RF_ZigBee
-LIBS:RF_WiFi
-LIBS:RF_Switch
-LIBS:RF_RFID
-LIBS:RF_Module
-LIBS:RF_Mixer
-LIBS:RF_GPS
-LIBS:RF_Bluetooth
-LIBS:RF_Amplifier
-LIBS:RF_AM_FM
-LIBS:RF
-LIBS:Relay_SolidState
-LIBS:Relay
-LIBS:Regulator_Switching
-LIBS:Regulator_SwitchedCapacitor
-LIBS:Regulator_Linear
-LIBS:Regulator_Current
-LIBS:Regulator_Controller
-LIBS:Reference_Voltage
-LIBS:Reference_Current
-LIBS:pspice
-LIBS:Power_Supervisor
-LIBS:Power_Protection
-LIBS:Power_Management
-LIBS:Potentiometer_Digital
-LIBS:Oscillator
-LIBS:Motor
-LIBS:Memory_UniqueID
-LIBS:Memory_ROM
-LIBS:Memory_RAM
-LIBS:Memory_NVRAM
-LIBS:Memory_Flash
-LIBS:Memory_EPROM
-LIBS:Memory_EEPROM
-LIBS:Memory_Controller
-LIBS:Mechanical
-LIBS:MCU_Texas_MSP430
-LIBS:MCU_Texas
-LIBS:MCU_ST_STM32L4+
-LIBS:MCU_ST_STM32L4
-LIBS:MCU_ST_STM32L1
-LIBS:MCU_ST_STM32L0
-LIBS:MCU_ST_STM32H7
-LIBS:MCU_ST_STM32F7
-LIBS:MCU_ST_STM32F4
-LIBS:MCU_ST_STM32F3
-LIBS:MCU_ST_STM32F2
-LIBS:MCU_ST_STM32F1
-LIBS:MCU_ST_STM32F0
-LIBS:MCU_ST_STM8
-LIBS:MCU_SiliconLabs
-LIBS:MCU_SiFive
-LIBS:MCU_Parallax
-LIBS:MCU_NXP_S08
-LIBS:MCU_NXP_MCore
-LIBS:MCU_NXP_MAC7100
-LIBS:MCU_NXP_LPC
-LIBS:MCU_NXP_Kinetis
-LIBS:MCU_NXP_HCS12
-LIBS:MCU_NXP_HC12
-LIBS:MCU_NXP_HC11
-LIBS:MCU_NXP_ColdFire
-LIBS:MCU_Nordic
-LIBS:MCU_Module
-LIBS:MCU_Microchip_SAML
-LIBS:MCU_Microchip_SAME
-LIBS:MCU_Microchip_PIC32
-LIBS:MCU_Microchip_PIC24
-LIBS:MCU_Microchip_PIC18
-LIBS:MCU_Microchip_PIC16
-LIBS:MCU_Microchip_PIC12
-LIBS:MCU_Microchip_PIC10
-LIBS:MCU_Microchip_AVR
-LIBS:MCU_Microchip_ATtiny
-LIBS:MCU_Microchip_ATmega
-LIBS:MCU_Microchip_8051
-LIBS:MCU_Intel
-LIBS:MCU_Espressif
-LIBS:MCU_Cypress
-LIBS:MCU_AnalogDevices
-LIBS:Logic_Programmable
-LIBS:Logic_LevelTranslator
-LIBS:LED
-LIBS:Jumper
-LIBS:Isolator_Analog
-LIBS:Isolator
-LIBS:Interface_USB
-LIBS:Interface_UART
-LIBS:Interface_Telecom
-LIBS:Interface_Optical
-LIBS:Interface_LineDriver
-LIBS:Interface_HID
-LIBS:Interface_Expansion
-LIBS:Interface_Ethernet
-LIBS:Interface_CurrentLoop
-LIBS:Interface_CAN_LIN
-LIBS:Interface
-LIBS:Graphic
-LIBS:GPU
-LIBS:FPGA_Xilinx_Virtex7
-LIBS:FPGA_Xilinx_Virtex6
-LIBS:FPGA_Xilinx_Virtex5
-LIBS:FPGA_Xilinx_Spartan6
-LIBS:FPGA_Xilinx_Kintex7
-LIBS:FPGA_Xilinx_Artix7
-LIBS:FPGA_Xilinx
-LIBS:FPGA_Microsemi
-LIBS:Filter
-LIBS:DSP_Texas
-LIBS:DSP_Motorola
-LIBS:DSP_Microchip_DSPIC33
-LIBS:DSP_Freescale
-LIBS:Driver_Relay
-LIBS:Driver_Motor
-LIBS:Driver_LED
-LIBS:Driver_FET
-LIBS:Driver_Display
-LIBS:Display_Graphic
-LIBS:Display_Character
-LIBS:Diode_Laser
-LIBS:Diode_Bridge
-LIBS:Diode
-LIBS:Device
-LIBS:CPU_PowerPC
-LIBS:CPU_NXP_68000
-LIBS:CPU_NXP_6800
-LIBS:CPU
-LIBS:CPLD_Xilinx
-LIBS:CPLD_Altera
-LIBS:Converter_DCDC
-LIBS:Converter_ACDC
-LIBS:Connector_Generic_Shielded
-LIBS:Connector_Generic_MountingPin
-LIBS:Connector_Generic
-LIBS:Connector
-LIBS:Comparator
-LIBS:Battery_Management
-LIBS:Audio
-LIBS:Analog_Switch
-LIBS:Analog_DAC
-LIBS:Analog_ADC
-LIBS:Analog
-LIBS:Amplifier_Video
-LIBS:Amplifier_Operational
-LIBS:Amplifier_Instrumentation
-LIBS:Amplifier_Difference
-LIBS:Amplifier_Current
-LIBS:Amplifier_Buffer
-LIBS:Amplifier_Audio
-LIBS:74xx_IEEE
-LIBS:74xx
-LIBS:74xGxx
-LIBS:4xxx_IEEE
-LIBS:4xxx
-LIBS:button_wLED
-LIBS:MAX4781EUET
 LIBS:top-board-cache
 EELAYER 25 0
 EELAYER END
@@ -210,9 +34,11 @@ F 4 "ER-CON30HT-1" H 0   0   50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C23
+L C-RESCUE-top-board C23
 U 1 1 5554C8A8
 P 3600 1900
+AR Path="/5554C8A8" Ref="C23"  Part="1" 
+AR Path="/5550E03C/5554C8A8" Ref="C23"  Part="1" 
 F 0 "C23" H 3625 2000 50  0000 L CNN
 F 1 "1uF" H 3625 1800 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 3638 1750 30  0001 C CNN
@@ -222,9 +48,11 @@ F 4 "C2012X7R1E105K125AB" H 0   0   50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L C C22
+L C-RESCUE-top-board C22
 U 1 1 5554C9A0
 P 3600 1700
+AR Path="/5554C9A0" Ref="C22"  Part="1" 
+AR Path="/5550E03C/5554C9A0" Ref="C22"  Part="1" 
 F 0 "C22" H 3625 1800 50  0000 L CNN
 F 1 "1uF" H 3625 1600 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 3638 1550 30  0001 C CNN
@@ -234,9 +62,11 @@ F 4 "C2012X7R1E105K125AB" H 0   0   50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L C C21
+L C-RESCUE-top-board C21
 U 1 1 5554CA08
 P 3600 1500
+AR Path="/5554CA08" Ref="C21"  Part="1" 
+AR Path="/5550E03C/5554CA08" Ref="C21"  Part="1" 
 F 0 "C21" H 3625 1600 50  0000 L CNN
 F 1 "1uF" H 3625 1400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 3638 1350 30  0001 C CNN
@@ -246,9 +76,11 @@ F 4 "C2012X7R1E105K125AB" H 0   0   50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L C C27
+L C-RESCUE-top-board C27
 U 1 1 5554D01D
 P 6600 2300
+AR Path="/5554D01D" Ref="C27"  Part="1" 
+AR Path="/5550E03C/5554D01D" Ref="C27"  Part="1" 
 F 0 "C27" H 6500 2400 50  0000 L CNN
 F 1 "1uF" H 6625 2200 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 6638 2150 30  0001 C CNN
@@ -258,9 +90,11 @@ F 4 "C2012X7R1E105K125AB" H 0   100 50  0001 C CNN "MPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C31
+L C-RESCUE-top-board C31
 U 1 1 5554D12E
 P 7000 2100
+AR Path="/5554D12E" Ref="C31"  Part="1" 
+AR Path="/5550E03C/5554D12E" Ref="C31"  Part="1" 
 F 0 "C31" H 6900 2200 50  0000 L CNN
 F 1 "1uF" H 7025 2000 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 7038 1950 30  0001 C CNN
@@ -270,9 +104,11 @@ F 4 "C2012X7R1E105K125AB" H 0   100 50  0001 C CNN "MPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C33
+L C-RESCUE-top-board C33
 U 1 1 5554D717
 P 7200 2000
+AR Path="/5554D717" Ref="C33"  Part="1" 
+AR Path="/5550E03C/5554D717" Ref="C33"  Part="1" 
 F 0 "C33" H 7100 2100 50  0000 L CNN
 F 1 "1uF" H 7225 1900 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 7238 1850 30  0001 C CNN
@@ -282,9 +118,11 @@ F 4 "C2012X7R1E105K125AB" H 0   100 50  0001 C CNN "MPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C35
+L C-RESCUE-top-board C35
 U 1 1 5554D74B
 P 7400 1900
+AR Path="/5554D74B" Ref="C35"  Part="1" 
+AR Path="/5550E03C/5554D74B" Ref="C35"  Part="1" 
 F 0 "C35" H 7300 2000 50  0000 L CNN
 F 1 "1uF" H 7425 1800 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 7438 1750 30  0001 C CNN
@@ -294,9 +132,11 @@ F 4 "C2012X7R1E105K125AB" H 0   100 50  0001 C CNN "MPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C37
+L C-RESCUE-top-board C37
 U 1 1 5554D7DE
 P 7600 1800
+AR Path="/5554D7DE" Ref="C37"  Part="1" 
+AR Path="/5550E03C/5554D7DE" Ref="C37"  Part="1" 
 F 0 "C37" H 7500 1900 50  0000 L CNN
 F 1 "1uF" H 7625 1700 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 7638 1650 30  0001 C CNN
@@ -384,9 +224,11 @@ F 4 "ER-CON30HT-1" H 0   0   50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C26
+L C-RESCUE-top-board C26
 U 1 1 5554DE4C
 P 3600 4500
+AR Path="/5554DE4C" Ref="C26"  Part="1" 
+AR Path="/5550E03C/5554DE4C" Ref="C26"  Part="1" 
 F 0 "C26" H 3625 4600 50  0000 L CNN
 F 1 "1uF" H 3625 4400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 3638 4350 30  0001 C CNN
@@ -396,9 +238,11 @@ F 4 "C2012X7R1E105K125AB" H 0   0   50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L C C25
+L C-RESCUE-top-board C25
 U 1 1 5554DE52
 P 3600 4300
+AR Path="/5554DE52" Ref="C25"  Part="1" 
+AR Path="/5550E03C/5554DE52" Ref="C25"  Part="1" 
 F 0 "C25" H 3625 4400 50  0000 L CNN
 F 1 "1uF" H 3625 4200 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 3638 4150 30  0001 C CNN
@@ -408,9 +252,11 @@ F 4 "C2012X7R1E105K125AB" H 0   0   50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L C C24
+L C-RESCUE-top-board C24
 U 1 1 5554DE58
 P 3600 4100
+AR Path="/5554DE58" Ref="C24"  Part="1" 
+AR Path="/5550E03C/5554DE58" Ref="C24"  Part="1" 
 F 0 "C24" H 3625 4200 50  0000 L CNN
 F 1 "1uF" H 3625 4000 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 3638 3950 30  0001 C CNN
@@ -420,9 +266,11 @@ F 4 "C2012X7R1E105K125AB" H 0   0   50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L C C28
+L C-RESCUE-top-board C28
 U 1 1 5554DE5F
 P 6600 4900
+AR Path="/5554DE5F" Ref="C28"  Part="1" 
+AR Path="/5550E03C/5554DE5F" Ref="C28"  Part="1" 
 F 0 "C28" H 6500 5000 50  0000 L CNN
 F 1 "1uF" H 6625 4800 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 6638 4750 30  0001 C CNN
@@ -432,9 +280,11 @@ F 4 "C2012X7R1E105K125AB" H 0   100 50  0001 C CNN "MPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C30
+L C-RESCUE-top-board C30
 U 1 1 5554DE6B
 P 6800 4800
+AR Path="/5554DE6B" Ref="C30"  Part="1" 
+AR Path="/5550E03C/5554DE6B" Ref="C30"  Part="1" 
 F 0 "C30" H 6700 4900 50  0000 L CNN
 F 1 "1uF" H 6825 4700 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 6838 4650 30  0001 C CNN
@@ -444,9 +294,11 @@ F 4 "C2012X7R1E105K125AB" H -200 200 50  0001 C CNN "MPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C32
+L C-RESCUE-top-board C32
 U 1 1 5554DE71
 P 7000 4700
+AR Path="/5554DE71" Ref="C32"  Part="1" 
+AR Path="/5550E03C/5554DE71" Ref="C32"  Part="1" 
 F 0 "C32" H 6900 4800 50  0000 L CNN
 F 1 "1uF" H 7025 4600 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 7038 4550 30  0001 C CNN
@@ -456,9 +308,11 @@ F 4 "C2012X7R1E105K125AB" H -200 200 50  0001 C CNN "MPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C34
+L C-RESCUE-top-board C34
 U 1 1 5554DE77
 P 7200 4600
+AR Path="/5554DE77" Ref="C34"  Part="1" 
+AR Path="/5550E03C/5554DE77" Ref="C34"  Part="1" 
 F 0 "C34" H 7100 4700 50  0000 L CNN
 F 1 "1uF" H 7225 4500 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 7238 4450 30  0001 C CNN
@@ -468,9 +322,11 @@ F 4 "C2012X7R1E105K125AB" H -200 200 50  0001 C CNN "MPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C36
+L C-RESCUE-top-board C36
 U 1 1 5554DE7D
 P 7400 4500
+AR Path="/5554DE7D" Ref="C36"  Part="1" 
+AR Path="/5550E03C/5554DE7D" Ref="C36"  Part="1" 
 F 0 "C36" H 7300 4600 50  0000 L CNN
 F 1 "1uF" H 7425 4400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 7438 4350 30  0001 C CNN
@@ -569,7 +425,7 @@ F 3 "" H 9200 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R13
+L R-RESCUE-top-board R13
 U 1 1 55556029
 P 8600 2050
 F 0 "R13" V 8680 2050 50  0000 C CNN
@@ -604,7 +460,7 @@ F 3 "" H 9200 4950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R14
+L R-RESCUE-top-board R14
 U 1 1 55557487
 P 8600 4650
 F 0 "R14" V 8680 4650 50  0000 C CNN
@@ -628,9 +484,11 @@ F 4 "MMBT2222ALT1G" H 0   0   50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C19
+L C-RESCUE-top-board C19
 U 1 1 555B60DF
 P 3050 1600
+AR Path="/555B60DF" Ref="C19"  Part="1" 
+AR Path="/5550E03C/555B60DF" Ref="C19"  Part="1" 
 F 0 "C19" H 3075 1700 50  0000 L CNN
 F 1 "10uF" H 3075 1500 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 3088 1450 30  0001 C CNN
@@ -640,9 +498,11 @@ F 4 "GRM219R61E106KA12D" H 300 0   50  0001 C CNN "MPN"
 	1    0    0    1   
 $EndComp
 $Comp
-L C C20
+L C-RESCUE-top-board C20
 U 1 1 555B6F5D
 P 3050 4200
+AR Path="/555B6F5D" Ref="C20"  Part="1" 
+AR Path="/5550E03C/555B6F5D" Ref="C20"  Part="1" 
 F 0 "C20" H 3075 4300 50  0000 L CNN
 F 1 "10uF" H 3075 4100 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 3088 4050 30  0001 C CNN
@@ -652,9 +512,11 @@ F 4 "GRM219R61E106KA12D" H 300 2600 50  0001 C CNN "MPN"
 	1    0    0    1   
 $EndComp
 $Comp
-L C C18
+L C-RESCUE-top-board C18
 U 1 1 555B837B
 P 2750 4200
+AR Path="/555B837B" Ref="C18"  Part="1" 
+AR Path="/5550E03C/555B837B" Ref="C18"  Part="1" 
 F 0 "C18" H 2775 4300 50  0000 L CNN
 F 1 "100nF" H 2775 4100 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 2788 4050 30  0001 C CNN
@@ -821,7 +683,7 @@ F 3 "" H 9650 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R45
+L R-RESCUE-top-board R45
 U 1 1 5609C39F
 P 9650 1500
 F 0 "R45" V 9730 1500 50  0000 C CNN
@@ -844,7 +706,7 @@ F 3 "" H 9650 3750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R46
+L R-RESCUE-top-board R46
 U 1 1 5609DE12
 P 9650 4050
 F 0 "R46" V 9730 4050 50  0000 C CNN
@@ -868,9 +730,11 @@ F 4 "MMBT2222ALT1G" H 0   2600 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C17
+L C-RESCUE-top-board C17
 U 1 1 5554EB42
 P 2750 1600
+AR Path="/5554EB42" Ref="C17"  Part="1" 
+AR Path="/5550E03C/5554EB42" Ref="C17"  Part="1" 
 F 0 "C17" H 2775 1700 50  0000 L CNN
 F 1 "100nF" H 2775 1500 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 2788 1450 30  0001 C CNN
@@ -918,9 +782,11 @@ Wire Wire Line
 	3300 1700 3350 1700
 Connection ~ 3300 1600
 $Comp
-L C C29
+L C-RESCUE-top-board C29
 U 1 1 5554D0CA
 P 6800 2200
+AR Path="/5554D0CA" Ref="C29"  Part="1" 
+AR Path="/5550E03C/5554D0CA" Ref="C29"  Part="1" 
 F 0 "C29" H 6700 2300 50  0000 L CNN
 F 1 "1uF" H 6825 2100 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 6838 2050 30  0001 C CNN
@@ -997,9 +863,11 @@ Wire Wire Line
 Wire Wire Line
 	6500 4500 6800 4500
 $Comp
-L C C38
+L C-RESCUE-top-board C38
 U 1 1 5AFE90D7
 P 7600 4400
+AR Path="/5AFE90D7" Ref="C38"  Part="1" 
+AR Path="/5550E03C/5AFE90D7" Ref="C38"  Part="1" 
 F 0 "C38" H 7500 4500 50  0000 L CNN
 F 1 "1uF" H 7625 4300 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 7638 4250 30  0001 C CNN
