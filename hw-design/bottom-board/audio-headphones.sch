@@ -1,5 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:bottom-board-rescue
+LIBS:local-components
 LIBS:conn
 LIBS:device
 LIBS:digital-audio
@@ -14,13 +15,17 @@ LIBS:ESD_Protection
 LIBS:Power_Management
 LIBS:memory
 LIBS:itead
-LIBS:local-components
+LIBS:adc-dac
+LIBS:analog_switches
+LIBS:battery_management
+LIBS:74xgxx
+LIBS:74xx
 LIBS:bottom-board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 12
+Sheet 7 13
 Title "MOD Duo - Bottom Board"
 Date ""
 Rev ""
@@ -83,10 +88,10 @@ L CP_Small CA25
 U 1 1 550E5193
 P 6750 3550
 F 0 "CA25" V 6700 3650 50  0000 L CNN
-F 1 "10uF" V 6850 3500 50  0000 L CNN
-F 2 "Capacitors_SMD:c_elec_5x5.3" H 6750 3550 60  0001 C CNN
+F 1 "100uF" V 6850 3500 50  0000 L CNN
+F 2 "" H 6750 3550 60  0001 C CNN
 F 3 "" H 6750 3550 60  0000 C CNN
-F 4 "UWX1E100MCL1GB" H 0   1050 50  0001 C CNN "MPN"
+F 4 "~" H 0   1050 50  0001 C CNN "MPN"
 	1    6750 3550
 	0    -1   -1   0   
 $EndComp
@@ -107,10 +112,10 @@ L CP_Small CA24
 U 1 1 550E8C8D
 P 6750 2750
 F 0 "CA24" V 6700 2850 50  0000 L CNN
-F 1 "10uF" V 6850 2650 50  0000 L CNN
-F 2 "Capacitors_SMD:c_elec_5x5.3" H 6750 2750 60  0001 C CNN
+F 1 "100uF" V 6850 2650 50  0000 L CNN
+F 2 "" H 6750 2750 60  0001 C CNN
 F 3 "" H 6750 2750 60  0000 C CNN
-F 4 "UWX1E100MCL1GB" H 0   1050 50  0001 C CNN "MPN"
+F 4 "~" H 0   1050 50  0001 C CNN "MPN"
 	1    6750 2750
 	0    -1   -1   0   
 $EndComp
@@ -164,60 +169,14 @@ Text GLabel 4150 3050 0    50   Input ~ 0
 HP_CLOCK
 Text GLabel 4150 3150 0    50   Input ~ 0
 HP_UP/DN
-Text GLabel 7250 3550 2    50   Output ~ 0
+Text GLabel 8650 3200 2    50   Output ~ 0
 HP_RIGHT
-Text GLabel 7250 2750 2    50   Output ~ 0
+Text GLabel 8650 2900 2    50   Output ~ 0
 HP_LEFT
 Text GLabel 3650 2850 0    50   Input ~ 0
 CODEC_AUX_B
 Text GLabel 3650 2750 0    50   Input ~ 0
 CODEC_AUX_A
-Wire Wire Line
-	4600 3350 4600 3450
-Wire Wire Line
-	6850 3550 7250 3550
-Wire Wire Line
-	7000 3700 7000 3550
-Wire Wire Line
-	7000 4000 7000 3900
-Wire Wire Line
-	6850 2750 7250 2750
-Wire Wire Line
-	7000 2900 7000 2750
-Wire Wire Line
-	7000 3200 7000 3100
-Wire Wire Line
-	5550 3750 5550 3650
-Wire Wire Line
-	5350 3650 5350 4100
-Wire Wire Line
-	5550 3950 5550 4050
-Wire Wire Line
-	5550 4050 5350 4050
-Wire Wire Line
-	5350 1950 5350 2450
-Wire Wire Line
-	5500 2300 5350 2300
-Wire Wire Line
-	5950 2750 6650 2750
-Wire Wire Line
-	6650 3550 6200 3550
-Wire Wire Line
-	6200 3550 6200 2850
-Wire Wire Line
-	6200 2850 5950 2850
-Wire Wire Line
-	4550 2750 4750 2750
-Wire Wire Line
-	4750 2850 4150 2850
-Wire Wire Line
-	3650 2850 3950 2850
-Wire Wire Line
-	3650 2750 4350 2750
-Connection ~ 7000 3550
-Connection ~ 7000 2750
-Connection ~ 5350 4050
-Connection ~ 5350 2300
 $Comp
 L GNDA #PWR0121
 U 1 1 5570B05D
@@ -274,24 +233,6 @@ F 4 "UWX1E100MCL1GB" H -1150 -450 50  0001 C CNN "MPN"
 	1    5600 2050
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5500 2050 5350 2050
-Connection ~ 5350 2050
-Wire Wire Line
-	5700 2050 5850 2050
-Wire Wire Line
-	5850 2050 5850 2350
-Wire Wire Line
-	5700 2300 5850 2300
-Connection ~ 5850 2300
-Wire Wire Line
-	4150 3050 4350 3050
-Wire Wire Line
-	4550 3050 4750 3050
-Wire Wire Line
-	4550 3150 4750 3150
-Wire Wire Line
-	4350 3150 4150 3150
 $Comp
 L R_Small R40
 U 1 1 5660F264
@@ -316,6 +257,158 @@ F 4 "RMCF0603JT22R0" H 150 800 50  0001 C CNN "MPN"
 	1    4450 3150
 	0    1    1    0   
 $EndComp
+Text Notes 4050 4500 0    60   ~ 0
+HP circuit values designed for Dual 70mW @ RL=32ohm
+Wire Wire Line
+	4600 3350 4600 3450
+Wire Wire Line
+	6850 3550 7350 3550
+Wire Wire Line
+	7000 3700 7000 3550
+Wire Wire Line
+	7000 4000 7000 3900
+Wire Wire Line
+	6850 2750 7350 2750
+Wire Wire Line
+	7000 2900 7000 2750
+Wire Wire Line
+	7000 3200 7000 3100
+Wire Wire Line
+	5550 3750 5550 3650
+Wire Wire Line
+	5350 3650 5350 4100
+Wire Wire Line
+	5550 3950 5550 4050
+Wire Wire Line
+	5550 4050 5350 4050
+Wire Wire Line
+	5350 1950 5350 2450
+Wire Wire Line
+	5500 2300 5350 2300
+Wire Wire Line
+	5950 2750 6650 2750
+Wire Wire Line
+	6650 3550 6200 3550
+Wire Wire Line
+	6200 3550 6200 2850
+Wire Wire Line
+	6200 2850 5950 2850
+Wire Wire Line
+	4550 2750 4750 2750
+Wire Wire Line
+	4750 2850 4150 2850
+Wire Wire Line
+	3650 2850 3950 2850
+Wire Wire Line
+	3650 2750 4350 2750
+Connection ~ 7000 3550
+Connection ~ 7000 2750
+Connection ~ 5350 4050
+Connection ~ 5350 2300
+Wire Wire Line
+	5500 2050 5350 2050
+Connection ~ 5350 2050
+Wire Wire Line
+	5700 2050 5850 2050
+Wire Wire Line
+	5850 2050 5850 2350
+Wire Wire Line
+	5700 2300 5850 2300
+Connection ~ 5850 2300
+Wire Wire Line
+	4150 3050 4350 3050
+Wire Wire Line
+	4550 3050 4750 3050
+Wire Wire Line
+	4550 3150 4750 3150
+Wire Wire Line
+	4350 3150 4150 3150
 Wire Wire Line
 	4600 3350 4750 3350
+Wire Wire Line
+	7700 3000 7350 3000
+Wire Wire Line
+	7350 3000 7350 2750
+Wire Wire Line
+	7700 3300 7350 3300
+Wire Wire Line
+	7350 3300 7350 3550
+$Comp
+L +5VA #PWR?
+U 1 1 5B3EA214
+P 8100 2650
+F 0 "#PWR?" H 8100 2500 50  0001 C CNN
+F 1 "+5VA" H 8100 2790 50  0000 C CNN
+F 2 "" H 8100 2650 60  0000 C CNN
+F 3 "" H 8100 2650 60  0000 C CNN
+	1    8100 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 2650 8100 2700
+$Comp
+L GNDA #PWR?
+U 1 1 5B3EA32E
+P 8100 3550
+F 0 "#PWR?" H 8100 3300 50  0001 C CNN
+F 1 "GNDA" H 8100 3400 50  0000 C CNN
+F 2 "" H 8100 3550 60  0000 C CNN
+F 3 "" H 8100 3550 60  0000 C CNN
+	1    8100 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 3500 8100 3550
+Wire Wire Line
+	8500 2900 8650 2900
+Wire Wire Line
+	8650 3200 8500 3200
+Text GLabel 7500 2550 0    50   Input ~ 0
+HP_DISABLE
+Wire Wire Line
+	7550 3200 7700 3200
+Wire Wire Line
+	7700 2900 7550 2900
+$Comp
+L TS5A23167 U?
+U 1 1 5B49C507
+P 8100 3100
+F 0 "U?" H 8000 3525 50  0000 R CNN
+F 1 "TS5A23167" H 8000 3450 50  0000 R CNN
+F 2 "" H 8150 2950 50  0001 L CNN
+F 3 "" H 8200 3200 50  0001 C CNN
+	1    8100 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 2550 7550 3400
+Connection ~ 7550 3200
+Wire Wire Line
+	7500 2550 7550 2550
+Connection ~ 7550 2900
+$Comp
+L R_Small R?
+U 1 1 5B4CAA9B
+P 7550 3500
+F 0 "R?" H 7600 3550 50  0000 L CNN
+F 1 "10k" H 7600 3450 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 7550 3500 60  0001 C CNN
+F 3 "" H 7550 3500 60  0000 C CNN
+F 4 "RMCF0603JT10K0" H 5800 -3150 50  0001 C CNN "MPN"
+	1    7550 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR?
+U 1 1 5B4CAAE0
+P 7550 3650
+F 0 "#PWR?" H 7550 3400 50  0001 C CNN
+F 1 "GNDA" H 7550 3500 50  0000 C CNN
+F 2 "" H 7550 3650 60  0000 C CNN
+F 3 "" H 7550 3650 60  0000 C CNN
+	1    7550 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 3600 7550 3650
 $EndSCHEMATC

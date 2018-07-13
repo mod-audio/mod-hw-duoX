@@ -1,5 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:bottom-board-rescue
+LIBS:local-components
 LIBS:conn
 LIBS:device
 LIBS:digital-audio
@@ -14,13 +15,17 @@ LIBS:ESD_Protection
 LIBS:Power_Management
 LIBS:memory
 LIBS:itead
-LIBS:local-components
+LIBS:adc-dac
+LIBS:analog_switches
+LIBS:battery_management
+LIBS:74xgxx
+LIBS:74xx
 LIBS:bottom-board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 12
+Sheet 1 13
 Title "MOD Duo - Bottom Board"
 Date ""
 Rev ""
@@ -90,26 +95,32 @@ U 54F72FB8
 F0 "connectors" 60
 F1 "connectors.sch" 60
 $EndSheet
-Text Notes 1350 5050 0    80   ~ 0
+Text Notes 1350 5600 0    80   ~ 0
 - All resistors named as RA* must have 1% tolerance\n- All non-polarized capacitors named as CA* must use NP0 Temp. Coef.\n- All other non-polarized capacitors should use X7R Temp. Coef.\n- Decoupling caps must be placed as close as possible of the IC power pins
-Text Notes 1300 4450 0    100  ~ 20
+Text Notes 1300 5000 0    100  ~ 20
 Notes\n
 Wire Notes Line
-	1200 4450 1200 5650
+	1200 5000 1200 6200
 Wire Notes Line
-	1200 5650 6850 5650
+	1200 6200 6850 6200
 Wire Notes Line
-	6850 5650 6850 4250
+	6850 6200 6850 4800
 Wire Notes Line
-	6850 4250 1200 4250
+	6850 4800 1200 4800
 Wire Notes Line
-	1200 4250 1200 4500
+	1200 4800 1200 5050
 Wire Notes Line
-	1200 4500 6850 4500
+	1200 5050 6850 5050
 $Sheet
 S 1300 2250 2150 400 
 U 55FC02AF
 F0 "mechanics" 60
 F1 "mechanics.sch" 60
+$EndSheet
+$Sheet
+S 3750 3650 2150 400 
+U 5B3B40FB
+F0 "control-voltage" 60
+F1 "control-voltage.sch" 60
 $EndSheet
 $EndSCHEMATC

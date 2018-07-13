@@ -1,5 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:bottom-board-rescue
+LIBS:local-components
 LIBS:conn
 LIBS:device
 LIBS:digital-audio
@@ -14,13 +15,17 @@ LIBS:ESD_Protection
 LIBS:Power_Management
 LIBS:memory
 LIBS:itead
-LIBS:local-components
+LIBS:adc-dac
+LIBS:analog_switches
+LIBS:battery_management
+LIBS:74xgxx
+LIBS:74xx
 LIBS:bottom-board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 12
+Sheet 11 13
 Title "MOD Duo - Bottom Board"
 Date ""
 Rev ""

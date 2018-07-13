@@ -1,4 +1,4 @@
-update=Mon 28 Sep 2015 09:45:33 PM CEST
+update=Tue 03 Jul 2018 01:08:39 PM CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -32,9 +32,10 @@ ModuleOutlineThickness=0.15
 version=1
 LibDir=../../../kicad-stuff/kicad-library-ricardocrudo/library;../lib/symbols
 [eeschema/libraries]
-LibName1=power
-LibName2=device
-LibName3=conn
-LibName4=regul
-LibName5=74xgxx
-LibName6=local-components
+LibName1=top-board-rescue
+LibName2=power
+LibName3=device
+LibName4=conn
+LibName5=regul
+LibName6=74xgxx
+LibName7=local-components
