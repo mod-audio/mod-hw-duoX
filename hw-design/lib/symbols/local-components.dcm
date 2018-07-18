@@ -34,6 +34,12 @@ K 12V relay latch
 F http://www.kemet.com/Lists/ProductCatalog/Attachments/524/KEM_R7002_EC2_EE2.pdf
 $ENDCMP
 #
+$CMP EXC24CS
+D Common mode choke with ESD Suppressor
+K CMC ESD filter
+F https://industrial.panasonic.com/cdbs/www-data/pdf/AWE0000/AWE0000C291.pdf
+$ENDCMP
+#
 $CMP FIDUCIAL
 D fiducial
 K fid

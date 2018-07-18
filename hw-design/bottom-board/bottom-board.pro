@@ -1,4 +1,4 @@
-update=Fri 13 Jul 2018 12:02:32 PM CEST
+update=Mon 16 Jul 2018 11:16:01 AM CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -64,3 +64,4 @@ LibName18=analog_switches
 LibName19=battery_management
 LibName20=74xgxx
 LibName21=74xx
+LibName22=Oscillators
