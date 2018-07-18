@@ -18,6 +18,12 @@ K adc 2ch sar
 F http://www.ti.com/lit/ds/symlink/adc122s021.pdf
 $ENDCMP
 #
+$CMP AP2120N-3.3
+D 100mA Low Dropout regulator, positive, 3.3V fixed output, low noise
+K ldo
+F https://www.diodes.com/assets/Datasheets/AP2120.pdf
+$ENDCMP
+#
 $CMP AUDIO_TRS_JACK
 D TRS audio jack connector 3-pin with switch
 $ENDCMP
@@ -48,6 +54,12 @@ $ENDCMP
 $CMP HOLE
 D mounting hole
 K drill
+$ENDCMP
+#
+$CMP LM27762
+D Low-Noise Positive and Negative Pump with LDO
+K LDO
+F http://www.ti.com/lit/ds/symlink/lm27762.pdf
 $ENDCMP
 #
 $CMP LM4811
