@@ -26,7 +26,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 13
+Sheet 1 14
 Title "MOD Duo - Bottom Board"
 Date ""
 Rev ""
@@ -123,5 +123,11 @@ S 3750 3650 2150 400
 U 5B3B40FB
 F0 "control-voltage" 60
 F1 "control-voltage.sch" 60
+$EndSheet
+$Sheet
+S 7850 4000 2550 600 
+U 5B52A3DA
+F0 "tmp" 60
+F1 "tmp.sch" 60
 $EndSheet
 $EndSCHEMATC
