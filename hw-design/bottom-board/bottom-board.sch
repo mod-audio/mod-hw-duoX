@@ -91,12 +91,6 @@ U 54F72FB6
 F0 "control-chain" 60
 F1 "control-chain.sch" 60
 $EndSheet
-$Sheet
-S 6200 2950 2150 400 
-U 54F72FB8
-F0 "connectors" 60
-F1 "connectors.sch" 60
-$EndSheet
 Text Notes 1350 6000 0    80   ~ 0
 - All resistors named as RA* must have 1% tolerance\n- All non-polarized capacitors named as CA* must use NP0 Temp. Coef.\n- All other non-polarized capacitors should use X7R Temp. Coef.\n- Decoupling caps must be placed as close as possible of the IC power pins
 Text Notes 1300 5400 0    100  ~ 20
