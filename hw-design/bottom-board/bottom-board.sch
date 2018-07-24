@@ -21,6 +21,7 @@ LIBS:battery_management
 LIBS:74xgxx
 LIBS:74xx
 LIBS:Oscillators
+LIBS:transf
 LIBS:bottom-board-cache
 EELAYER 25 0
 EELAYER END
@@ -125,9 +126,9 @@ F0 "control-voltage" 60
 F1 "control-voltage.sch" 60
 $EndSheet
 $Sheet
-S 7850 4000 2550 600 
-U 5B52A3DA
-F0 "tmp" 60
-F1 "tmp.sch" 60
+S 3750 4350 2150 400 
+U 5B6E0697
+F0 "spdif" 60
+F1 "spdif.sch" 60
 $EndSheet
 $EndSCHEMATC

@@ -21,6 +21,7 @@ LIBS:battery_management
 LIBS:74xgxx
 LIBS:74xx
 LIBS:Oscillators
+LIBS:transf
 LIBS:bottom-board-cache
 EELAYER 25 0
 EELAYER END
@@ -425,9 +426,13 @@ F 3 "" H 6100 4950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3450 3450 4600 3450
+	3450 3450 3900 3450
 Wire Wire Line
-	3450 3550 4600 3550
+	3900 3450 4600 3450
+Wire Wire Line
+	3450 3550 3800 3550
+Wire Wire Line
+	3800 3550 4600 3550
 Wire Wire Line
 	3900 3450 3900 3400
 Wire Wire Line
@@ -437,9 +442,13 @@ Wire Wire Line
 Wire Wire Line
 	6850 3050 6650 3050
 Wire Wire Line
-	4600 2950 5150 2950
+	4600 2950 5100 2950
 Wire Wire Line
-	4600 3050 5150 3050
+	5100 2950 5150 2950
+Wire Wire Line
+	4600 3050 4700 3050
+Wire Wire Line
+	4700 3050 5150 3050
 Wire Wire Line
 	5050 2350 5100 2350
 Wire Wire Line
@@ -451,7 +460,9 @@ Wire Wire Line
 Wire Wire Line
 	4450 2650 4450 2700
 Wire Wire Line
-	4850 2650 4850 2750
+	4850 2650 4850 2700
+Wire Wire Line
+	4850 2700 4850 2750
 Wire Wire Line
 	4450 2700 4850 2700
 Connection ~ 3900 3450
@@ -471,7 +482,9 @@ Wire Wire Line
 Wire Wire Line
 	3800 4950 3800 5000
 Wire Wire Line
-	4250 4450 4250 4550
+	4250 4450 4250 4500
+Wire Wire Line
+	4250 4500 4250 4550
 Wire Wire Line
 	3800 4750 3800 4500
 Wire Wire Line
@@ -483,29 +496,39 @@ Wire Wire Line
 	5150 3550 4800 3550
 Connection ~ 4850 2700
 Wire Wire Line
-	4850 1950 4850 2050
+	4850 1950 4850 2000
+Wire Wire Line
+	4850 2000 4850 2050
 Wire Wire Line
 	4450 2050 4450 2000
 Wire Wire Line
 	4450 2000 4850 2000
 Connection ~ 4850 2000
 Wire Wire Line
-	3450 3650 5150 3650
+	3450 3650 3700 3650
+Wire Wire Line
+	3700 3650 5150 3650
 Wire Wire Line
 	3700 3400 3700 3650
 Connection ~ 3700 3650
 Wire Wire Line
-	3700 3050 3700 3200
+	3700 3050 3700 3100
+Wire Wire Line
+	3700 3100 3700 3200
 Wire Wire Line
 	3900 3100 3900 3200
 Wire Wire Line
-	3700 3100 3900 3100
+	3700 3100 3800 3100
+Wire Wire Line
+	3800 3100 3900 3100
 Connection ~ 3700 3100
 Wire Wire Line
 	3800 3200 3800 3100
 Connection ~ 3800 3100
 Wire Wire Line
-	6650 3500 7250 3500
+	6650 3500 7100 3500
+Wire Wire Line
+	7100 3500 7250 3500
 Wire Wire Line
 	7250 3500 7250 3600
 Wire Wire Line
@@ -520,35 +543,45 @@ Wire Wire Line
 Wire Wire Line
 	6950 3600 6950 3750
 Wire Wire Line
-	6650 3400 7650 3400
+	6650 3400 7500 3400
+Wire Wire Line
+	7500 3400 7650 3400
 Wire Wire Line
 	7650 3400 7650 3500
 Wire Wire Line
 	7500 3500 7500 3400
 Connection ~ 7500 3400
 Wire Wire Line
-	6800 3950 6800 4050
+	6800 3950 6800 4000
+Wire Wire Line
+	6800 4000 6800 4050
 Wire Wire Line
 	6950 3950 6950 4000
 Wire Wire Line
 	6950 4000 6800 4000
 Connection ~ 6800 4000
 Wire Wire Line
-	7100 3800 7100 3900
+	7100 3800 7100 3850
+Wire Wire Line
+	7100 3850 7100 3900
 Wire Wire Line
 	7250 3800 7250 3850
 Wire Wire Line
 	7250 3850 7100 3850
 Connection ~ 7100 3850
 Wire Wire Line
-	7500 3700 7500 3800
+	7500 3700 7500 3750
+Wire Wire Line
+	7500 3750 7500 3800
 Wire Wire Line
 	7650 3700 7650 3750
 Wire Wire Line
 	7650 3750 7500 3750
 Connection ~ 7500 3750
 Wire Wire Line
-	6100 4850 6100 4950
+	6100 4850 6100 4900
+Wire Wire Line
+	6100 4900 6100 4950
 Wire Wire Line
 	6000 4850 6000 4900
 Wire Wire Line
@@ -593,22 +626,8 @@ Wire Wire Line
 	5000 3850 5150 3850
 Text GLabel 7150 4500 2    50   Output ~ 0
 SPDIF_OUT
-$Comp
-L R_Small R?
-U 1 1 5B5436EB
-P 6900 4500
-F 0 "R?" V 6850 4300 50  0000 L CNN
-F 1 "22R" V 6850 4600 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 6900 4500 60  0001 C CNN
-F 3 "" H 6900 4500 60  0000 C CNN
-F 4 "RMCF0603JT22R0" H 2600 2150 50  0001 C CNN "MPN"
-	1    6900 4500
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
-	7150 4500 7000 4500
-Wire Wire Line
-	6800 4500 6650 4500
+	7150 4500 6650 4500
 $Comp
 L C_Small C?
 U 1 1 5B552280
@@ -672,7 +691,9 @@ F 3 "" H 7450 1950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7450 1950 7450 2050
+	7450 1950 7450 2000
+Wire Wire Line
+	7450 2000 7450 2050
 $Comp
 L GNDA #PWR?
 U 1 1 5B55C93D
@@ -685,7 +706,9 @@ F 3 "" H 7450 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7450 2250 7450 2350
+	7450 2250 7450 2300
+Wire Wire Line
+	7450 2300 7450 2350
 $Comp
 L +3.3V #PWR?
 U 1 1 5B55C990
@@ -734,7 +757,9 @@ F 4 "GRM219R61E106KA12D" H 2850 -3200 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7950 1950 7950 2050
+	7950 1950 7950 2000
+Wire Wire Line
+	7950 2000 7950 2050
 $Comp
 L GNDA #PWR?
 U 1 1 5B561481
@@ -747,7 +772,9 @@ F 3 "" H 7950 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7950 2250 7950 2350
+	7950 2250 7950 2300
+Wire Wire Line
+	7950 2300 7950 2350
 Wire Wire Line
 	8150 2050 8150 2000
 Wire Wire Line
@@ -783,7 +810,9 @@ F 4 "GRM219R61E106KA12D" H 3300 -3200 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8400 1950 8400 2050
+	8400 1950 8400 2000
+Wire Wire Line
+	8400 2000 8400 2050
 $Comp
 L GNDA #PWR?
 U 1 1 5B561526
@@ -796,7 +825,9 @@ F 3 "" H 8400 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8400 2250 8400 2350
+	8400 2250 8400 2300
+Wire Wire Line
+	8400 2300 8400 2350
 Wire Wire Line
 	8600 2050 8600 2000
 Wire Wire Line
@@ -841,7 +872,9 @@ F 3 "" H 6200 2450 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6200 2450 6200 2550
+	6200 2450 6200 2500
+Wire Wire Line
+	6200 2500 6200 2550
 Wire Wire Line
 	6100 2550 6100 2500
 Wire Wire Line
@@ -861,7 +894,9 @@ $EndComp
 Wire Wire Line
 	5700 4850 5700 4900
 Wire Wire Line
-	5550 2450 5550 2550
+	5550 2450 5550 2500
+Wire Wire Line
+	5550 2500 5550 2550
 Wire Wire Line
 	5700 2550 5700 2500
 Wire Wire Line
@@ -894,7 +929,9 @@ F 4 "GRM219R61E106KA12D" H 700 -50 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5800 4850 5800 5200
+	5800 4850 5800 5150
+Wire Wire Line
+	5800 5150 5800 5200
 Wire Wire Line
 	6000 5200 6000 5150
 Wire Wire Line
@@ -912,7 +949,9 @@ F 3 "" H 5800 5500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5800 5400 5800 5500
+	5800 5400 5800 5450
+Wire Wire Line
+	5800 5450 5800 5500
 Wire Wire Line
 	6000 5400 6000 5450
 Wire Wire Line
@@ -997,7 +1036,9 @@ $EndComp
 Wire Wire Line
 	1700 2350 1700 2400
 Wire Wire Line
-	1700 1950 1700 2150
+	1700 1950 1700 2050
+Wire Wire Line
+	1700 2050 1700 2150
 Wire Wire Line
 	1800 2050 1700 2050
 Connection ~ 1700 2050
@@ -1014,7 +1055,9 @@ F 4 "GRM219R61E106KA12D" H -2800 -3100 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2500 1950 2500 2150
+	2500 1950 2500 2050
+Wire Wire Line
+	2500 2050 2500 2150
 Wire Wire Line
 	2400 2050 2500 2050
 Connection ~ 2500 2050

@@ -21,6 +21,7 @@ LIBS:battery_management
 LIBS:74xgxx
 LIBS:74xx
 LIBS:Oscillators
+LIBS:transf
 LIBS:bottom-board-cache
 EELAYER 25 0
 EELAYER END

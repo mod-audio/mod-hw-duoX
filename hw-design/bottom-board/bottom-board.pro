@@ -1,4 +1,4 @@
-update=Mon 16 Jul 2018 11:16:01 AM CEST
+update=Mon 23 Jul 2018 06:00:51 PM CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -65,3 +65,4 @@ LibName19=battery_management
 LibName20=74xgxx
 LibName21=74xx
 LibName22=Oscillators
+LibName23=transf
