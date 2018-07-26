@@ -27,7 +27,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 14
+Sheet 3 13
 Title "MOD Duo - Bottom Board"
 Date ""
 Rev ""
@@ -575,7 +575,7 @@ Wire Wire Line
 	4800 4300 5150 4300
 NoConn ~ 5150 4150
 Text GLabel 4700 3850 0    50   Input ~ 0
-SPDIF_SDIN
+CODEC_SPDIF_SDIN
 $Comp
 L R_Small R?
 U 1 1 5B542CA2
@@ -593,7 +593,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 3850 5150 3850
 Text GLabel 7150 4500 2    50   Output ~ 0
-SPDIF_OUT
+CODEC_SPDIF_OUT
 Wire Wire Line
 	7150 4500 6650 4500
 $Comp

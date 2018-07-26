@@ -27,7 +27,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 14
+Sheet 7 13
 Title "MOD Duo - Bottom Board"
 Date ""
 Rev ""
@@ -531,17 +531,13 @@ $EndComp
 Wire Wire Line
 	5400 3350 5400 3450
 Wire Wire Line
-	7650 3550 7800 3550
-Wire Wire Line
-	7800 3550 8150 3550
+	7650 3550 8150 3550
 Wire Wire Line
 	7800 3700 7800 3550
 Wire Wire Line
 	7800 4000 7800 3900
 Wire Wire Line
-	7650 2750 7800 2750
-Wire Wire Line
-	7800 2750 8150 2750
+	7650 2750 8150 2750
 Wire Wire Line
 	7800 2900 7800 2750
 Wire Wire Line
@@ -549,19 +545,13 @@ Wire Wire Line
 Wire Wire Line
 	6350 3750 6350 3650
 Wire Wire Line
-	6150 3650 6150 4050
-Wire Wire Line
-	6150 4050 6150 4100
+	6150 3650 6150 4100
 Wire Wire Line
 	6350 3950 6350 4050
 Wire Wire Line
 	6350 4050 6150 4050
 Wire Wire Line
-	6150 1950 6150 2050
-Wire Wire Line
-	6150 2050 6150 2300
-Wire Wire Line
-	6150 2300 6150 2450
+	6150 1950 6150 2450
 Wire Wire Line
 	6300 2300 6150 2300
 Wire Wire Line
@@ -582,9 +572,7 @@ Connection ~ 6150 2050
 Wire Wire Line
 	6500 2050 6650 2050
 Wire Wire Line
-	6650 2050 6650 2300
-Wire Wire Line
-	6650 2300 6650 2350
+	6650 2050 6650 2350
 Wire Wire Line
 	6500 2300 6650 2300
 Connection ~ 6650 2300
@@ -607,9 +595,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 3300 8150 3550
 Wire Wire Line
-	8900 2500 8900 2600
-Wire Wire Line
-	8900 2600 8900 2700
+	8900 2500 8900 2700
 Wire Wire Line
 	8900 3500 8900 3550
 Wire Wire Line
@@ -621,11 +607,7 @@ Wire Wire Line
 Wire Wire Line
 	8500 2900 8350 2900
 Wire Wire Line
-	8350 2550 8350 2900
-Wire Wire Line
-	8350 2900 8350 3200
-Wire Wire Line
-	8350 3200 8350 3400
+	8350 2550 8350 3400
 Connection ~ 8350 3200
 Wire Wire Line
 	8300 2550 8350 2550
@@ -671,17 +653,13 @@ Wire Wire Line
 	3650 4200 3650 3550
 Connection ~ 3650 3550
 Wire Wire Line
-	3550 2100 3650 2100
-Wire Wire Line
-	3650 2100 4250 2100
+	3550 2100 4250 2100
 Wire Wire Line
 	4250 2100 4250 2750
 Wire Wire Line
 	4250 2750 5550 2750
 Wire Wire Line
-	3550 3550 3650 3550
-Wire Wire Line
-	3650 3550 4250 3550
+	3550 3550 4250 3550
 Wire Wire Line
 	4250 3550 4250 2850
 Wire Wire Line
