@@ -1,29 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:bottom-board-rescue
-LIBS:local-components
-LIBS:conn
-LIBS:device
-LIBS:digital-audio
-LIBS:interface
-LIBS:linear
-LIBS:opto
-LIBS:power
-LIBS:regul
-LIBS:relays
-LIBS:switches
-LIBS:ESD_Protection
-LIBS:Power_Management
-LIBS:memory
-LIBS:itead
-LIBS:adc-dac
-LIBS:analog_switches
-LIBS:battery_management
-LIBS:74xgxx
-LIBS:74xx
-LIBS:Oscillators
-LIBS:transf
+EESchema Schematic File Version 4
 LIBS:bottom-board-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -96,15 +73,11 @@ Text Notes 1350 6000 0    80   ~ 0
 Text Notes 1300 5400 0    100  ~ 20
 Notes\n
 Wire Notes Line
-	1200 5400 1200 6600
-Wire Notes Line
 	1200 6600 6850 6600
 Wire Notes Line
 	6850 6600 6850 5200
 Wire Notes Line
 	6850 5200 1200 5200
-Wire Notes Line
-	1200 5200 1200 5450
 Wire Notes Line
 	1200 5450 6850 5450
 $Sheet
@@ -125,4 +98,8 @@ U 5B6E0697
 F0 "spdif" 60
 F1 "spdif.sch" 60
 $EndSheet
+Wire Notes Line
+	1200 5200 1200 6600
+Wire Notes Line
+	10150 4950 10150 4900
 $EndSCHEMATC

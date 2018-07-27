@@ -1,0 +1,150 @@
+EESchema Schematic File Version 4
+LIBS:bottom-board-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 13 13
+Title "MOD Duo - Bottom Board"
+Date ""
+Rev ""
+Comp "MOD"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 2650 1950 0    50   Input ~ 0
+CODEC_SPDIF_OUT
+$Comp
+L Device:R_Small R?
+U 1 1 5B562CEC
+P 3650 2150
+F 0 "R?" H 3680 2170 50  0000 L CNN
+F 1 "107" H 3680 2110 50  0000 L CNN
+F 2 "" H 3650 2150 50  0001 C CNN
+F 3 "" H 3650 2150 50  0001 C CNN
+	1    3650 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5B562D29
+P 3050 1950
+F 0 "C?" H 3060 2020 50  0000 L CNN
+F 1 "0.01uF" H 3060 1870 50  0000 L CNN
+F 2 "" H 3050 1950 50  0001 C CNN
+F 3 "" H 3050 1950 50  0001 C CNN
+	1    3050 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5B562ED8
+P 3400 1950
+F 0 "R?" H 3430 1970 50  0000 L CNN
+F 1 "243" H 3430 1910 50  0000 L CNN
+F 2 "" H 3400 1950 50  0001 C CNN
+F 3 "" H 3400 1950 50  0001 C CNN
+	1    3400 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDD #PWR0326
+U 1 1 5B56348E
+P 3650 2350
+F 0 "#PWR0326" H 3650 2100 50  0001 C CNN
+F 1 "GNDD" H 3650 2225 50  0000 C CNN
+F 2 "" H 3650 2350 50  0001 C CNN
+F 3 "" H 3650 2350 50  0001 C CNN
+	1    3650 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transformer:TRANSF1 TR?
+U 1 1 5B56F2F0
+P 4400 2150
+F 0 "TR?" H 4400 2400 50  0000 C CNN
+F 1 "PE-65812" H 4400 1900 50  0000 C CNN
+F 2 "" H 4400 2150 50  0001 C CNN
+F 3 "" H 4400 2150 50  0001 C CNN
+F 4 "PE-65812NL" H 4400 2150 60  0001 C CNN "MPN"
+	1    4400 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 1950 2950 1950
+Wire Wire Line
+	3150 1950 3300 1950
+$Comp
+L power:GNDD #PWR0327
+U 1 1 5B56F49A
+P 4100 2450
+F 0 "#PWR0327" H 4100 2200 50  0001 C CNN
+F 1 "GNDD" H 4100 2325 50  0000 C CNN
+F 2 "" H 4100 2450 50  0001 C CNN
+F 3 "" H 4100 2450 50  0001 C CNN
+	1    4100 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 2450 4100 2350
+Wire Wire Line
+	4100 2350 4200 2350
+Wire Wire Line
+	3650 2350 3650 2250
+Wire Wire Line
+	3500 1950 3650 1950
+Wire Wire Line
+	3650 2050 3650 1950
+Connection ~ 3650 1950
+$Comp
+L Device:C_Small C?
+U 1 1 5B56F530
+P 5300 2550
+F 0 "C?" H 5310 2620 50  0000 L CNN
+F 1 "22pF" H 5310 2470 50  0000 L CNN
+F 2 "" H 5300 2550 50  0001 C CNN
+F 3 "" H 5300 2550 50  0001 C CNN
+	1    5300 2550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 2350 5300 2350
+$Comp
+L power:GNDD #PWR0328
+U 1 1 5B56F62E
+P 5300 2725
+F 0 "#PWR0328" H 5300 2475 50  0001 C CNN
+F 1 "GNDD" H 5300 2600 50  0000 C CNN
+F 2 "" H 5300 2725 50  0001 C CNN
+F 3 "" H 5300 2725 50  0001 C CNN
+	1    5300 2725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 2650 5300 2725
+NoConn ~ 5375 1850
+Wire Wire Line
+	3650 1950 4200 1950
+Wire Wire Line
+	5300 2350 5300 2450
+$Comp
+L Connector:AudioJack2_Ground_Switch J?
+U 1 1 5B5D552C
+P 5575 1950
+F 0 "J?" H 5342 1929 50  0000 R CNN
+F 1 "SPDIF" H 5342 2020 50  0000 R CNN
+F 2 "" H 5575 1950 50  0001 C CNN
+F 3 "~" H 5575 1950 50  0001 C CNN
+	1    5575 1950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5375 2050 5300 2050
+Wire Wire Line
+	5300 2050 5300 2350
+Connection ~ 5300 2350
+Wire Wire Line
+	5375 1950 4600 1950
+$EndSCHEMATC

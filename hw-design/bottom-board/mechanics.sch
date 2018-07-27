@@ -1,33 +1,10 @@
-EESchema Schematic File Version 2
-LIBS:bottom-board-rescue
-LIBS:local-components
-LIBS:conn
-LIBS:device
-LIBS:digital-audio
-LIBS:interface
-LIBS:linear
-LIBS:opto
-LIBS:power
-LIBS:regul
-LIBS:relays
-LIBS:switches
-LIBS:ESD_Protection
-LIBS:Power_Management
-LIBS:memory
-LIBS:itead
-LIBS:adc-dac
-LIBS:analog_switches
-LIBS:battery_management
-LIBS:74xgxx
-LIBS:74xx
-LIBS:Oscillators
-LIBS:transf
+EESchema Schematic File Version 4
 LIBS:bottom-board-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 13
+Sheet 11 13
 Title ""
 Date ""
 Rev ""
@@ -38,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L FIDUCIAL FID1
+L local-components:FIDUCIAL FID1
 U 1 1 55FC074E
 P 1400 1400
 F 0 "FID1" H 1400 1125 50  0000 C CNN
@@ -49,7 +26,7 @@ F 3 "" H 1400 1400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HOLE H1
+L local-components:HOLE H1
 U 1 1 55FC0943
 P 3350 1400
 F 0 "H1" H 3350 1220 50  0000 C CNN
@@ -60,7 +37,7 @@ F 3 "" H 3350 1400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FIDUCIAL FID2
+L local-components:FIDUCIAL FID2
 U 1 1 55FC1F87
 P 1900 1400
 F 0 "FID2" H 1900 1125 50  0000 C CNN
@@ -71,7 +48,7 @@ F 3 "" H 1900 1400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FIDUCIAL FID3
+L local-components:FIDUCIAL FID3
 U 1 1 55FC1FBF
 P 2400 1400
 F 0 "FID3" H 2400 1125 50  0000 C CNN
@@ -82,7 +59,7 @@ F 3 "" H 2400 1400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HOLE H2
+L local-components:HOLE H2
 U 1 1 55FC2212
 P 3700 1400
 F 0 "H2" H 3700 1220 50  0000 C CNN
@@ -93,7 +70,7 @@ F 3 "" H 3700 1400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HOLE H3
+L local-components:HOLE H3
 U 1 1 55FC224E
 P 4050 1400
 F 0 "H3" H 4050 1220 50  0000 C CNN
@@ -104,7 +81,7 @@ F 3 "" H 4050 1400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HOLE H4
+L local-components:HOLE H4
 U 1 1 55FC227A
 P 4400 1400
 F 0 "H4" H 4400 1220 50  0000 C CNN
@@ -115,7 +92,7 @@ F 3 "" H 4400 1400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HOLE H5
+L local-components:HOLE H5
 U 1 1 55FC22B0
 P 4750 1400
 F 0 "H5" H 4750 1220 50  0000 C CNN
@@ -126,7 +103,7 @@ F 3 "" H 4750 1400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HOLE H6
+L local-components:HOLE H6
 U 1 1 55FBDF5C
 P 5450 1400
 F 0 "H6" H 5450 1220 50  0000 C CNN

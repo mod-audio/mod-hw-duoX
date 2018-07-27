@@ -1,17 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 24AA02E48T-I/OT
-D 2K (256x8) Serial EEPROM, 400KHz, TWI, I2C, EUI-48TM Node Identity
-K memory EUI unique mac 48-bit
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20002124F.pdf
-$ENDCMP
-#
-$CMP 24AA02E64T-I/OT
-D 2K (256x8) Serial EEPROM, 400KHz, TWI, I2C, EUI-64TM Node Identity
-K memory EUI unique mac 64-bit
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20002124F.pdf
-$ENDCMP
-#
 $CMP ADC122S021
 D 12-bit Analog to Digital Converter, 2-channel, 2.7-5.25V supply, 200ksps, SPI interface
 K adc 2ch sar

@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name local-components)(type Legacy)(uri /home/ricardo/devel/mod/mod-hw-duo/hw-design/lib/symbols/local-components.lib)(options "")(descr ""))
+)
