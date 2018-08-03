@@ -141,10 +141,11 @@ L Connector:AudioJack2_Ground_Switch J24
 U 1 1 5B5D552C
 P 5575 1950
 F 0 "J24" H 5342 1929 50  0000 R CNN
-F 1 "SPDIF" H 5342 2020 50  0000 R CNN
+F 1 "MJ-3536N" H 5342 2020 50  0000 R CNN
 F 2 "footprints:MJ-3536N" H 5575 1950 50  0001 C CNN
 F 3 "https://www.cui.com/product/resource/digikeypdf/mj-3536n.pdf" H 5575 1950 50  0001 C CNN
 F 4 "MJ-3536N" H 5575 1950 50  0001 C CNN "MPN"
+F 5 "SPDIF" H 0   0   50  0001 C CNN "Comment"
 	1    5575 1950
 	-1   0    0    1   
 $EndComp
