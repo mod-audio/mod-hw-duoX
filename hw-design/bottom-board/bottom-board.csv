@@ -1,75 +1,96 @@
-Item,Qty,Reference(s),Value,LibPart,Footprint,MPN,Note
-1,22,"C1, C10, C31, C35, C4, C42, C43, C44, C45, C47, C48, C5, C50, C51, C52, C53, C54, C55, C57, C59, C60, C9",100nF,device:C_Small,Capacitors_SMD:C_0603,C1608X7R1E104K080AA,
-2,3,"C11, C38, C39",100uF,device:CP_Small,Capacitors_SMD:c_elec_6.3x5.3,UWX1C101MCL1GB,
-3,4,"C12, C20, CA21, CA22",1uF,device:C_Small,Capacitors_SMD:C_0805,C2012X7R1E105K125AB,
-4,9,"C13, C14, C16, C17, C21, C22, C24, C26, C28",100nF,device:C_Small,Capacitors_SMD:C_0402,C1005X7R1E104K050BB,
-5,8,"C15, C18, C19, C3, C30, C49, C58, C7",10uF,device:C_Small,Capacitors_SMD:C_0805,GRM219R61E106KA12D,
-6,2,"C2, C6",1000uF,device:CP_Small,Capacitors_ThroughHole:C_Radial_D10_L20_P5,UVR1E102MPD,
-7,17,"C23, C25, C34, C40, C41, C46, C56, C8, CA10, CA11, CA12, CA17, CA18, CA23, CA24, CA25, CA9",10uF,device:CP_Small,Capacitors_SMD:c_elec_5x5.3,UWX1E100MCL1GB,
-8,2,"C27, C29",47uF,device:CP_Small,Capacitors_SMD:c_elec_6.3x5.3,UUD1E470MCL1GS,
-9,2,"CA1, CA2",2.2nF,device:C_Small,Capacitors_SMD:C_0603,GRM1885C1H222JA01D,
-10,2,"CA13, CA14",33pF,device:C_Small,Capacitors_SMD:C_0603,C1608C0G1H330J080AA,
-11,2,"CA15, CA16",47pF,device:C_Small,Capacitors_SMD:C_0603,C1608C0G1H470J080AA,
-12,2,"CA19, CA20",100uF,device:CP_Small,Capacitors_SMD:c_elec_6.3x7.7,UWT1E101MCL1GS,
-13,4,"CA3, CA4, CA7, CA8",100pF,device:C_Small,Capacitors_SMD:C_0603,C1608C0G1H101J080AA,
-14,2,"CA5, CA6",100nF,device:C_Small,Capacitors_SMD:C_1206,C1206C104J3GACTU,
-15,2,"D1, D2",B130LB,device:D,Diodes_SMD:Diode-SMB_Standard,B130LB-13-F,
-16,8,"D10, D11, D12, D15, D16, D5, D6, D9",1N4148,device:D_Small,Diodes_SMD:SOD-323,1N4148WX-TP,
-17,2,"D13, D14",PRTR5V0U2X,ESD_Protection:PRTR5V0U2X,Housings_SOT-23_SOT-143_TSOT-6:SOT-143,"PRTR5V0U2X,215",
-18,4,"D3, D4, D7, D8",BAS70-04,device:D_Schottky_x2_Serial_AKC,Housings_SOT-23_SOT-143_TSOT-6:SOT-23,BAS70-04-TP,
-19,1,F1,FUSE,device:FUSE,Fuse_Holders_and_Fuses:Fuse_SMD2920,0ZCF0200FF2C,
-20,1,FB1,100uH,device:FILTER,Inductors:SELF-WE-PD-XXL,SRR1260-101M,
-21,3,"FID1, FID2, FID3",FIDUCIAL,local-components:FIDUCIAL,footprints:fiducial_in-circuit,,not a component
-22,5,"H1, H2, H3, H4, H5",HOLE,local-components:HOLE,footprints:Hole_3.5mm,,not a component
-23,1,H6,Standoff,local-components:HOLE,footprints:9774027151R,9774027151R,
-24,5,"J1, J2, J3, J4, J5",JACK_TRS_6PINS,conn:JACK_TRS_6PINS,Connect:NMJ6HCD2,NMJ6HCD2,
-25,1,J6,RJ45_LEDS,conn:RJ45_LEDS,Connect:RJHSE538X,RJHSE-5381,
-26,1,JMP1,0R,device:R,footprints:Jumper_SMD_THT,,not a component
-27,2,"K1, K2",IM06TS,relays:IM06,footprints:Relay_DPDT_IMXXTS,IM06TS,
-28,1,L1,600R 1.5A,device:L_Small,Capacitors_SMD:C_0805,MI0805K601R-10,
-29,1,P1,USB_B,conn:USB_B,Connect:USB_B,61729-1011BLF,
-30,1,P2,USB_A,conn:USB_A,Connect:USB_A_Vertical,73725-0110BLF,
-31,2,"P3, P4",DIN_5,conn:DIN_5,Connect:SDS-50J,SDS-50J,
-32,1,P5,BARREL_JACK,conn:BARREL_JACK,Connect:BARREL_JACK,PJ-002AH,
-33,1,P6,HMI_POWER,conn:CONN_01X02,footprints:B2B-XH-A,B2B-XH-A(LF)(SN),
-34,1,P7,SD_CARD,conn:CONN_01X10,Pin_Headers:Pin_Header_Straight_1x10,,no component
-35,1,P8,HMI_DATA,conn:CONN_02X10,footprints:Pin_Header_Straight_2x10_Shrouded,SBH11-PBPC-D10-ST-BK,
-36,1,P9,SERIAL_DEBUG,conn:CONN_01X03,Pin_Headers:Pin_Header_Straight_1x03,,no component
-37,8,"Q1, Q10, Q12, Q13, Q2, Q7, Q8, Q9",2N7002,device:Q_NMOS_GSD,Housings_SOT-23_SOT-143_TSOT-6:SOT-23,"2N7002P,215",
-38,2,"Q14, Q15",BSS84,device:Q_PMOS_GSD,Housings_SOT-23_SOT-143_TSOT-6:SOT-23,BSS84,
-39,4,"Q3, Q4, Q5, Q6",J112,device:Q_NJFET_DSG,Housings_SOT-23_SOT-143_TSOT-6:SOT-23,MMBFJ112,
-40,29,"R1, R11, R12, R13, R14, R2, R20, R21, R3, R30, R31, R36, R37, R43, R46, R48, R51, R52, R53, R54, R57, R58, R64, R65, R66, R67, R68, R69, R70",10k,device:R_Small,Resistors_SMD:R_0603,RMCF0603JT10K0,
-41,6,"R10, R55, R56, R72, R73, R9",100R,device:R_Small,Resistors_SMD:R_0603,RMCF0603JT100R,
-42,2,"R15, R16",2k7,device:R_Small,Resistors_SMD:R_0603,RMCF0603JT2K70,
-43,6,"R22, R23, R28, R29, R34, R35",100k,device:R_Small,Resistors_SMD:R_0603,RMCF0603JT100K,
-44,4,"R24, R25, R26, R27",1M,device:R_Small,Resistors_SMD:R_0603,RMCF0603JT1M00,
-45,5,"R40, R41, R5, R6, R7",22R,device:R_Small,Resistors_SMD:R_0603,RMCF0603JT22R0,
-46,1,R42,5k6,device:R_Small,Resistors_SMD:R_0603,RMCF0603JT5K60,
-47,3,"R47, R49, R50",220R,device:R_Small,Resistors_SMD:R_0805,ERJ-P06J221V,
-48,4,"R59, R60, R61, R62",56R,device:R_Small,Resistors_SMD:R_0805,ERJ-P6WJ560V,
-49,1,R63,100R,device:R_Small,Resistors_SMD:R_0805,ERJ-P06J101V,
-50,2,"R76, R77",330R,device:R_Small,Resistors_SMD:R_0603,RMCF0603JT330R,
-51,2,"RA1, RA2",47R,device:R_Small,Resistors_SMD:R_0603,ERA-3AEB470V,
-52,2,"RA10, RA9",21k,device:R_Small,Resistors_SMD:R_0603,ERA-3AEB2102V,
-53,4,"RA11, RA12, RA7, RA8",1k5,device:R_Small,Resistors_SMD:R_0603,ERA-3AEB152V,
-54,2,"RA13, RA14",4k99,device:R_Small,Resistors_SMD:R_0603,ERA-3AEB4991V,
-55,2,"RA15, RA16",100R,device:R_Small,Resistors_SMD:R_0603,ERA-3AEB101V,
-56,4,"RA17, RA18, RA19, RA20",1k2,device:R_Small,Resistors_SMD:R_0603,ERA-3AEB122V,
-57,8,"RA21, RA22, RA25, RA26, RA27, RA28, RA29, RA30",10k,device:R_Small,Resistors_SMD:R_0603,ERA-3AEB103V,
-58,2,"RA23, RA24",15k,device:R_Small,Resistors_SMD:R_0603,ERA-3AEB153V,
-59,4,"RA3, RA4, RA5, RA6",1M,device:R_Small,Resistors_SMD:R_0603,CPF0603B1M0E,
-60,2,"RA31, RA33",22k,device:R_Small,Resistors_SMD:R_0603,ERA-3AEB223V,
-61,4,"RA32, RA34, RA36, RA38",33R,device:R_Small,Resistors_SMD:R_0603,CPF0603B33RE,
-62,2,"RA35, RA37",66R,device:R_Small,Resistors_SMD:R_0603,ERA-3AEB66R5V,
-63,2,"RA39, RA40",75k,device:R_Small,Resistors_SMD:R_0603,ERA-3AEB753V,
-64,1,SW1,SW_PUSH,device:SW_PUSH,Buttons_Switches_ThroughHole:SW_Tactile_SPST_Angled,1825027-2,
-65,1,U1,MURATA 5V,regul:LM7805CT,footprints:OKI-78SR_Vertical,OKI-78SR-5/1.5-W36-C,
-66,1,U10,RT9701,Power_Management:RT9701,Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5,RT9701GB,
-67,1,U11,6N137S,opto:6N136,SMD_Packages:DIP-8_SMD,6N137S,
-68,1,U12,ISL83491,interface:ISL83491,Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm,ISL83491IBZ,
-69,1,U2,NCP1117DT50G,regul:NCP1117ST50T3G,SMD_Packages:DPAK-2,NCP1117DT50G,
-70,1,U3,CS4245,digital-audio:CS4245,Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm,CS4245-CQZ,
-71,1,U4,AT24CS08-STUM,memory:AT24CS08-STUM,Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5,AT24CS08-STUM,
-72,1,U5,Core_AW204x,itead:Core_AW204x,footprints:Socket_SODIMM_DDR3_TE_2013289,2-2013289-1,
-73,3,"U6, U7, U8",LM4562,linear:OP275,Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm,LM4562MAX/NOPB,
-74,1,U9,LM4811,digital-audio:LM4811,Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm,LM4811MM/NOPB,
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Comment","MPN","MPN2","MPN3","Note"
+"1","2","C1, C3","2200uF","Device:CP_Small","Capacitor_THT:CP_Radial_D13.0mm_P5.00mm","","","ESK228M025AL4AA","ECA-1EM222","",""
+"2","3","C2, C4, C69","10uF 16V","Device:C_Small","Capacitor_SMD:C_0805_2012Metric","","","CL21A106KOFNNNE","C2012X5R1C106M085AC","",""
+"3","33","C5, C6, C7, C8, C10, C13, C14, C16, C19, C26, C27, C29, C31, C33, C35, C38, C41, C44, C46, C48, C50, C53, C54, C56, C58, C59, C60, C63, C66, C67, C68, C76, C81","10uF","Device:C_Small","Capacitor_SMD:C_0603_1608Metric","","","CL10A106MQ8NNNC","GRM188R60J106KE47D","CC0603MRX5R5BB106",""
+"4","4","C9, C11, C15, C77","1uF","Device:C_Small","Capacitor_SMD:C_0603_1608Metric","","","CL10B105KP8NNNC","GRM188R60J105KA01D","",""
+"5","1","C12","4.7uF","Device:C_Small","Capacitor_SMD:C_0603_1608Metric","","","CL10A475KP8NNNC","CL10B475KQ8NQNC","",""
+"6","37","C17, C18, C20, C21, C22, C24, C25, C28, C30, C32, C34, C36, C37, C39, C40, C42, C43, C45, C47, C49, C51, C52, C55, C57, C61, C62, C64, C65, C70, C71, C72, C75, C78, C79, C80, C82, C83","100nF","Device:C_Small","Capacitor_SMD:C_0603_1608Metric","","","GCM188R71C104KA37D","C0603X104K8RACTU","CS0603KRX7R7BB104",""
+"7","1","C23","47uF","Device:CP_Small","Capacitor_SMD:CP_Elec_5x5.4","","","EDK476M016A9DAA","EEE-1CA470WR","UCD1C470MCL6GS",""
+"8","2","C73, C74","33nF","Device:C_Small","Capacitor_SMD:C_0603_1608Metric","","","C0603C333K4RACTU","CL10B333KO8NNNC","CC0603KRX7R7BB333",""
+"9","1","C84","0.01uF","Device:C_Small","Capacitor_SMD:C_0603_1608Metric","","","CL10B103KA8NNNC","C0603C103M3RACTU","CC0603KRX7R8BB103",""
+"10","1","C85","22pF","Device:C_Small","Capacitor_SMD:C_0603_1608Metric","","","C0603C220K4GACTU","VJ0603A220JXACW1BC","GRM1885C1H220FA01D",""
+"11","2","CA1, CA2","2.2nF","Device:C_Small","Capacitor_SMD:C_0603_1608Metric","","","GRM1885C1H222JA01D","CGA3E2C0G1H222J080AA","C0603C222J5GACTU",""
+"12","8","CA3, CA5, CA7, CA9, CA13, CA14, CA15, CA16","100pF","Device:C_Small","Capacitor_SMD:C_0603_1608Metric","","","C0603C101J3GACTU","06035A101FAT2A","CC0603JRNPO8BN101",""
+"13","2","CA4, CA8","1uF","Device:C_Small","Capacitor_SMD:C_1210_3225Metric","","","FCA1210C105M-G2","ECP-U1C105MA5","",""
+"14","6","CA6, CA10, CA11, CA12, CA19, CA20","10uF","Device:CP_Small","Capacitors_SMD:CP_Elec_4x5.7","","","EEE-HB1C100R","UWT1C100MCL1GB","EDH106M016A9BAA",""
+"15","4","CA17, CA18, CA21, CA22","100uF","Device:CP_Small","Capacitors_SMD:CP_Elec_6.3x7.7","","","UWX1C101MCL1GB","EEE-HA1C101WP","EEV107M016A9GAA",""
+"16","2","D1, D2","MBR230","Device:D_Schottky","Diode_SMD:D_SOD-123F","","","MBR230LSFT1G","MBR230S1F-7","DB2W31800L",""
+"17","4","D3, D4, D5, D6","BAT54S","Diode:BAT54S","Package_TO_SOT_SMD:SOT-23","https://www.diodes.com/assets/Datasheets/ds11005.pdf","","BAT54SFILM","SBAS40-04LT1G","BAS40-04-TP",""
+"18","5","D7, D8, D11, D12, D13","1N4148","Diode:1N4148WS","Diode_SMD:D_SOD-323","","","1N4148WX-TP","1N4148WS-7-F","1N4148WS-G RVG",""
+"19","2","D9, D10","PRTR5V0U2X","Power_Protection:PRTR5V0U2X","Package_TO_SOT_SMD:SOT-143","https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf","","PRTR5V0U2X,215","","",""
+"20","2","D14, D15","BAT54S","Device:D_Schottky_x2_Serial_AKC","Package_TO_SOT_SMD:SOT-23","https://www.diodes.com/assets/Datasheets/ds11005.pdf","","BAT54SFILM","SBAS40-04LT1G","BAS40-04-TP",""
+"21","1","F1","Fuse","Device:Fuse","footprints:Fuse_2920_0ZCF_Bel","","","0ZCF0200FF2C","","",""
+"22","3","FID1, FID2, FID3","FIDUCIAL","local-components:FIDUCIAL","footprints:fiducial_in-circuit","","","","","",""
+"23","5","H1, H2, H3, H4, H5","HOLE","local-components:HOLE","footprints:Hole_3.5mm","","","","","",""
+"24","1","H6","Standoff","local-components:HOLE","footprints:9774027151R","","","9774027151R","","",""
+"25","1","J1","Power Jack","Connector:Barrel_Jack_Switch","Connector_BarrelJack:BarrelJack_Horizontal","","","PJ-002AH","","",""
+"26","1","J2","True Bypass","Connector_Generic:Conn_01x03","footprints:CastellatedBase_P2.00mm_3pins","","","","","",""
+"27","1","J3","Headphones","Connector_Generic:Conn_01x04","footprints:CastellatedBase_P2.00mm_4pins","","","","","",""
+"28","1","J4","Gain Control","Connector_Generic:Conn_01x05","footprints:CastellatedBase_P2.00mm_5pins","","","","","",""
+"29","1","J5","HMI","Connector_Generic:Conn_01x22","footprints:CastellatedBase_P2.00mm_22pins","","","","","",""
+"30","1","J6","Exp Pedal","Connector_Generic:Conn_01x05","footprints:CastellatedBase_P2.00mm_5pins","","","","","",""
+"31","1","J7","MIDI","Connector_Generic:Conn_01x03","footprints:CastellatedBase_P2.00mm_3pins","","","","","",""
+"32","1","J8","CV Output","Connector_Generic:Conn_01x06","footprints:CastellatedBase_P2.00mm_6pins","","","","","",""
+"33","1","J9","UBOOT","Connector_Generic:Conn_01x02","footprints:CastellatedBase_P2.00mm_2pins","","","","","",""
+"34","1","J10","USB","Connector_Generic:Conn_01x14","footprints:CastellatedBase_P2.00mm_14pins","","","","","",""
+"35","1","J11","CV Input","Connector_Generic:Conn_01x08","footprints:CastellatedBase_P2.00mm_8pins","","","","","",""
+"36","1","J12","Control Chain","Connector_Generic:Conn_01x05","footprints:CastellatedBase_P2.00mm_5pins","","","","","",""
+"37","1","J13","CODEC","Connector_Generic:Conn_01x13","footprints:CastellatedBase_P2.00mm_13pins","","","","","",""
+"38","1","J14","Power","Connector_Generic:Conn_01x03","footprints:CastellatedBase_P2.00mm_3pins","","","","","",""
+"39","6","J15, J16, J17, J18, J22, J23","NMJ6HCD2","Connector:AudioJack3_Switch","footprints:NMJ6HCD2","","INPUT1","NMJ6HCD2","","",""
+"40","1","J19","USB_B","Connector:USB_B","Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal","","","61729-1011BLF","","",""
+"41","1","J20","USB_A","Connector:USB_A","footprints:USB_A_Vertical","","","73725-0110BLF","","",""
+"42","1","J21","RJHSE-5381","Connector:RJ45_LED_Shielded","Connector_RJ:RJ45_Amphenol_RJHSE538X","","CONTROL CHAIN","RJHSE-5381","","",""
+"43","1","J24","MJ-3536N","Connector:AudioJack2_Ground_Switch","footprints:MJ-3536N","https://www.cui.com/product/resource/digikeypdf/mj-3536n.pdf","SPDIF","MJ-3536N","","",""
+"44","1","JMP1","0R","Device:R","footprints:Jumper_SMD_THT","","","","","",""
+"45","2","K1, K2","G6S-2","Relay:G6S-2","Relay_SMD:Relay_DPDT_Omron_G6S-2F","http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf","","EE2-12NU-L","G6S-2F-TR DC12","",""
+"46","1","L1","1mH","Device:L","Inductor_SMD:L_Bourns_SRR1260","","","SRR1260-102K","","",""
+"47","1","P1","HMI_POWER","Connector_Generic:Conn_01x02","footprints:B2B-XH-A","","","B2B-XH-A(LF)(SN)","","",""
+"48","1","P2","HMI_DATA","Connector_Generic:Conn_02x10_Odd_Even","footprints:Pin_Header_Straight_2x10_Shrouded","","","302-S201","SBH11-PBPC-D10-ST-BK","",""
+"49","1","P3","SERIAL_DEBUG","Connector_Generic:Conn_01x03","Pin_Headers:Pin_Header_Straight_1x03","","","","","","not populate"
+"50","2","P4, P5","DIN_5","Connector:DIN-5_180degree","Connect:SDS-50J","","","SDS-50J","","",""
+"51","5","Q1, Q2, Q3, Q4, Q8","2N7002","Device:Q_NMOS_GSD","Package_TO_SOT_SMD:SOT-23","","","2N7002P,215","2N7002K-7","TSM2N7002KCX RFG",""
+"52","3","Q5, Q6, Q7","BSS84","Transistor_FET:BSS84","Package_TO_SOT_SMD:SOT-23","","","BSS84-7-F","BSS84LT1G","DMP3099L",""
+"53","15","R1, RA4, RA11, RA15, RA16, RA17, RA18, RA19, RA20, RA21, RA22, RA35, RA36, RA37, RA38","10k 1%","Device:R_Small","Resistor_SMD:R_0603_1608Metric","","","RR0816P-103-D","RT0603DRE0710KL","RJ-PB3D1002V",""
+"54","2","R2, R3","316k 1%","Device:R_Small","Resistor_SMD:R_0603_1608Metric","","","RR0816P-3163-D-49D","RC0603FR-07316KL","ERJ-3EKF3163V",""
+"55","2","R4, R5","100k 1%","Device:R_Small","Resistor_SMD:R_0603_1608Metric","","","RR0816P-104-D","RT0603DRE07100KL","ERJ-PB3D1003V",""
+"56","19","R6, R7, R8, R16, R17, R18, R19, R24, R25, R28, R30, R31, R35, R36, R39, R40, R50, R51, R52","10k","Device:R_Small","Resistor_SMD:R_0603_1608Metric","","","RMCF0603JT10K0","RCA060310K0JNEA","ESR03EZPJ103",""
+"57","11","R9, R10, R11, R12, R13, R14, R15, R26, R27, R37, R38","22R","Device:R_Small","Resistor_SMD:R_0603_1608Metric","","","RMCF0603JT22R0","RC1608J220CS","ESR03EZPJ220",""
+"58","4","R20, R21, R22, R23","2k7","Device:R_Small","Resistor_SMD:R_0603_1608Metric","","","RMCF0603JT2K70","ERJ-3GEYJ272V","ESR03EZPJ272",""
+"59","1","R29","5k6","Device:R_Small","Resistor_SMD:R_0603_1608Metric","","","RMCF0603JT5K60","RC0603JR-075K6L","ESR03EZPJ562",""
+"60","5","R32, R33, R34, R41, R42","220R","Device:R_Small","Resistor_SMD:R_0603_1608Metric","","","ESR03EZPJ221","ERJ-PB3D2200V","CRCW0603220RJNEAHP",""
+"61","4","R43, R44, R45, R46","56R","Device:R_Small","Resistor_SMD:R_0603_1608Metric","","","RMCF0603JT56R0","ESR03EZPJ560","RC1608J560CS",""
+"62","1","R47","100R 0.25W","Device:R_Small","Resistor_SMD:R_0603_1608Metric","","","ESR03EZPJ101","ERJ-PA3J101V","RCA0603100RFKEAHP",""
+"63","8","R48, R49, R53, R54, RA7, RA14, RA31, RA32","100R 1%","Device:R_Small","Resistor_SMD:R_0603_1608Metric","","","RR0816P-101-D","RT0603DRE07100RL","ERA-3AED101V",""
+"64","1","R55","243R","Device:R_Small","Resistor_SMD:R_0603_1608Metric","","","RC0603FR-07243RL","ERJ-3EKF2430V","RMCF0603FT243R",""
+"65","1","R56","107R","Device:R_Small","Resistor_SMD:R_0603_1608Metric","","","RC0603FR-07107RL","ERJ-3EKF1070V","RMCF0603FT107R",""
+"66","2","RA1, RA8","47R 1%","Device:R_Small","Resistor_SMD:R_0603_1608Metric","","","RT0603DRE0747RL","ERA-3AED470V","RNCF0603DTC47R0",""
+"67","2","RA2, RA9","1M 1%","Device:R_Small","Resistor_SMD:R_0603_1608Metric","","","RT0603DRE071ML","RNCF0603DTE1M00","ERJ-S03D1004V",""
+"68","2","RA3, RA10","2k49 1%","Device:R_Small","Resistor_SMD:R_0603_1608Metric","","","RR0816P-2491-D-39H","RT0603DRE072K49L","ERJ-PB3D2491V",""
+"69","4","RA5, RA6, RA12, RA13","1k5 1%","Device:R_Small","Resistor_SMD:R_0603_1608Metric","","","RR0816P-152-D","RT0603DRE071K5L","ERJ-PB3D1501V",""
+"70","2","RA23, RA25","22k 1%","Device:R_Small","Resistor_SMD:R_0603_1608Metric","","","RR0816P-223-D","RT0603DRE0722KL","ERJ-PB3D2202V",""
+"71","4","RA24, RA26, RA28, RA30","33R","Device:R_Small","Resistor_SMD:R_0603_1608Metric","","","RT0603DRE0733RL","RR0816Q-330-D","RNCF0603DTC33R2",""
+"72","2","RA27, RA29","66.5R 1%","Device:R_Small","Resistor_SMD:R_0603_1608Metric","","","RR0816Q-66R5-D-80R","RT0603DRE0766R5L","RNCF0603DTC66R5",""
+"73","2","RA33, RA34","75k 1%","Device:R_Small","Resistor_SMD:R_0603_1608Metric","","","RR0816P-753-D","RT0603DRE0775KL","ERJ-PB3D7502V",""
+"74","1","TR1","PE-65812","Transformer:TRANSF1","footprints:PE-65812NL","https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/PE-65812NL/doc_part/PE-65812NL.pdf","","PE-65812NL","","",""
+"75","1","U1","MURATA 5V","Regulator_Linear:LM7805_TO220","Package_TO_SOT_THT:TO-220-3_Vertical","https://power.murata.com/data/power/oki-78sr.pdf","","OKI-78SR-5/1.5-W36-C","","",""
+"76","1","U2","NCP1117-5.0_TO252","Regulator_Linear:NCP1117-5.0_TO252","Package_TO_SOT_SMD:TO-252-2","http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF","","NCP1117DT50","","",""
+"77","1","U3","NCP1117-3.3_TO252","Regulator_Linear:NCP1117-3.3_TO252","Package_TO_SOT_SMD:TO-252-2","http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF","","NCP1117DT33","","",""
+"78","1","U4","LM27762","Regulator_SwitchedCapacitor:LM27762","Package_SON:WSON-12-1EP_3x2mm_P0.5mm_EP1x2.65_ThermalVias","","","LM27762DSST","","",""
+"79","1","U5","AP2120N-3.3","local-components:AP2120N-3.3","Package_TO_SOT_SMD:SOT-23","","","AP2120N-3.3TRG1","","",""
+"80","1","U6","CS4265","local-components:CS4265","Package_QFP:LQFP-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm","https://d3uzseaevmutz1.cloudfront.net/pubs/proDatasheet/CS4265_F3.pdf","","CS4265-CNZ","","",""
+"81","1","U7","AT24CS08-STUM","Memory_EEPROM:AT24CS08-STUM","Package_TO_SOT_SMD:SOT-23-5","http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8766-SEEPROM-AT24CS04-08-Datasheet.pdf","","AT24CS08-STUM-T","","",""
+"82","1","U8","LM4562","Amplifier_Operational:LM4562","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","http://www.ti.com/lit/ds/symlink/lm4562.pdf","","LM4562MAX/NOPB","LME49720MAX/NOPB","",""
+"83","3","U9, U10, U19","TS5A23166","local-components:TS5A23166","Package_SO:VSSOP-8_2.3x2mm_P0.5mm","","","TS5A23166DCUR","","",""
+"84","3","U11, U12, U13","OPA1678","Amplifier_Operational:LM4562","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","http://www.ti.com/lit/ds/symlink/opa1678.pdf","","OPA1678IDR","","",""
+"85","1","U14","LM4811","local-components:LM4811","Package_SO:MSOP-10_3x3mm_P0.5mm","http://www.ti.com/lit/ds/symlink/lm4811.pdf","","LM4811MM/NOPB","","",""
+"86","1","U15","TS5A23167","local-components:TS5A23167","Package_SO:VSSOP-8_2.3x2mm_P0.5mm","http://www.ti.com/lit/ds/symlink/ts5a23167.pdf","","TS5A23167DCUR","","",""
+"87","1","U16","RT9742","Power_Management:RT9701","Package_TO_SOT_SMD:TSOT-23-5","","","RT9742MNGJ5","","",""
+"88","1","U17","LTV-356T","Isolator:LTV-356T","Package_SO:SO-4_4.4x3.6mm_P2.54mm","http://optoelectronics.liteon.com/upload/download/DS70-2001-010/S_110_LTV-356T%2020140520.pdf","","LTV-356T","","",""
+"89","1","U18","ISL83491","Interface_UART:ISL83491","Package_SO:SOIC-14_3.9x8.7mm_P1.27mm","https://www.intersil.com/content/dam/Intersil/documents/isl8/isl83483-85-88-90-91.pdf","","ISL83491IBZ","","",""
+"90","1","U20","ADC122S021","local-components:ADC122S021","Package_SO:VSSOP-8_2.4x2.1mm_P0.5mm","http://www.ti.com/lit/ds/symlink/adc122s021.pdf","","ADC122S021CIMM/NOPB","","",""
+"91","1","U21","MIC2076A","local-components:MIC2076A","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","http://ww1.microchip.com/downloads/en/DeviceDoc/mic2026a-76a.pdf","","MIC2076A-1YM ","","",""
+"92","1","U22","74LVC3G17","74xGxx:74LVC3G17","Package_SO:VSSOP-8_2.3x2mm_P0.5mm","http://www.ti.com/lit/ds/symlink/sn74lvc3g17.pdf","","SN74LVC3G17DCUR","74LVC3G17DC","",""
+"93","1","U23","LMV321","Amplifier_Operational:LMV321","Package_TO_SOT_SMD:TSOT-23-5","https://www.st.com/content/ccc/resource/technical/document/datasheet/fa/2c/e4/1d/5f/74/45/2a/DM00052423.pdf/files/DM00052423.pdf/jcr:content/translations/en.DM00052423.pdf","","LMV321LILT","LMV321AS5X","LMV321IDBVR",""
+"94","1","U24","MCP4922-EP","Analog_DAC:MCP4922-ESL","Package_SO:SOIC-14_3.9x8.7mm_P1.27mm","http://ww1.microchip.com/downloads/en/DeviceDoc/22250A.pdf","","MCP4922T-E/SL","","",""
+"95","1","X1","24.576MHz","Oscillator:ASV-xxxMHz","Oscillators:Oscillator_SMD_Abracon_ASV-4pin_7.0x5.1mm","","","ASV-24.576MHZ-EJ-T","","",""
