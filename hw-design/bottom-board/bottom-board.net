@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/ricardo/devel/mod/mod-hw-duo/hw-design/bottom-board/bottom-board.sch)
-    (date "Fri 03 Aug 2018 12:44:30 PM CEST")
+    (date "Wed 22 Aug 2018 03:20:23 PM CEST")
     (tool "Eeschema 5.0.0")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -455,7 +455,7 @@
       (tstamp 5B4AF4BE))
     (comp (ref X1)
       (value 24.576MHz)
-      (footprint Oscillators:Oscillator_SMD_Abracon_ASV-4pin_7.0x5.1mm)
+      (footprint Oscillator:Oscillator_SMD_Abracon_ASV-4Pin_7.0x5.1mm)
       (fields
         (field (name MPN) ASV-24.576MHZ-EJ-T))
       (libsource (lib Oscillator) (part ASV-xxxMHz) (description "3.3V HCMOS SMD Crystal Clock Oscillator, Abracon"))
@@ -780,7 +780,7 @@
       (tstamp 5B574FB3))
     (comp (ref P3)
       (value SERIAL_DEBUG)
-      (footprint Pin_Headers:Pin_Header_Straight_1x03)
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical)
       (fields
         (field (name Note) "not populate"))
       (libsource (lib Connector_Generic) (part Conn_01x03) (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"))
@@ -1089,7 +1089,7 @@
       (tstamp 5B52CCE5))
     (comp (ref CA6)
       (value 10uF)
-      (footprint Capacitors_SMD:CP_Elec_4x5.7)
+      (footprint Capacitor_SMD:CP_Elec_4x5.7)
       (fields
         (field (name MPN) EEE-HB1C100R)
         (field (name MPN2) UWT1C100MCL1GB)
@@ -1309,7 +1309,7 @@
       (tstamp 5B6D8BBD))
     (comp (ref CA10)
       (value 10uF)
-      (footprint Capacitors_SMD:CP_Elec_4x5.7)
+      (footprint Capacitor_SMD:CP_Elec_4x5.7)
       (fields
         (field (name MPN) EEE-HB1C100R)
         (field (name MPN2) UWT1C100MCL1GB)
@@ -1339,7 +1339,7 @@
       (tstamp 5B6EB31A))
     (comp (ref CA17)
       (value 100uF)
-      (footprint Capacitors_SMD:CP_Elec_6.3x7.7)
+      (footprint Capacitor_SMD:CP_Elec_6.3x7.7)
       (fields
         (field (name MPN) UWX1C101MCL1GB)
         (field (name MPN2) EEE-HA1C101WP)
@@ -1547,7 +1547,7 @@
       (tstamp 5B709807))
     (comp (ref CA11)
       (value 10uF)
-      (footprint Capacitors_SMD:CP_Elec_4x5.7)
+      (footprint Capacitor_SMD:CP_Elec_4x5.7)
       (fields
         (field (name MPN) EEE-HB1C100R)
         (field (name MPN2) UWT1C100MCL1GB)
@@ -1557,7 +1557,7 @@
       (tstamp 5B786D97))
     (comp (ref CA12)
       (value 10uF)
-      (footprint Capacitors_SMD:CP_Elec_4x5.7)
+      (footprint Capacitor_SMD:CP_Elec_4x5.7)
       (fields
         (field (name MPN) EEE-HB1C100R)
         (field (name MPN2) UWT1C100MCL1GB)
@@ -1626,7 +1626,7 @@
       (tstamp 5B895F54))
     (comp (ref CA18)
       (value 100uF)
-      (footprint Capacitors_SMD:CP_Elec_6.3x7.7)
+      (footprint Capacitor_SMD:CP_Elec_6.3x7.7)
       (fields
         (field (name MPN) UWX1C101MCL1GB)
         (field (name MPN2) EEE-HA1C101WP)
@@ -1962,7 +1962,7 @@
       (tstamp 5B67D779))
     (comp (ref CA21)
       (value 100uF)
-      (footprint Capacitors_SMD:CP_Elec_6.3x7.7)
+      (footprint Capacitor_SMD:CP_Elec_6.3x7.7)
       (fields
         (field (name MPN) UWX1C101MCL1GB)
         (field (name MPN2) EEE-HA1C101WP)
@@ -1972,7 +1972,7 @@
       (tstamp 5B697871))
     (comp (ref CA22)
       (value 100uF)
-      (footprint Capacitors_SMD:CP_Elec_6.3x7.7)
+      (footprint Capacitor_SMD:CP_Elec_6.3x7.7)
       (fields
         (field (name MPN) UWX1C101MCL1GB)
         (field (name MPN2) EEE-HA1C101WP)
@@ -1982,7 +1982,7 @@
       (tstamp 5B699F0A))
     (comp (ref CA19)
       (value 10uF)
-      (footprint Capacitors_SMD:CP_Elec_4x5.7)
+      (footprint Capacitor_SMD:CP_Elec_4x5.7)
       (fields
         (field (name MPN) EEE-HB1C100R)
         (field (name MPN2) UWT1C100MCL1GB)
@@ -1992,7 +1992,7 @@
       (tstamp 5B69E352))
     (comp (ref CA20)
       (value 10uF)
-      (footprint Capacitors_SMD:CP_Elec_4x5.7)
+      (footprint Capacitor_SMD:CP_Elec_4x5.7)
       (fields
         (field (name MPN) EEE-HB1C100R)
         (field (name MPN2) UWT1C100MCL1GB)

@@ -91,7 +91,7 @@ U 1 1 5B574FBA
 P 9750 5700
 F 0 "P3" H 9750 5900 50  0000 C CNN
 F 1 "SERIAL_DEBUG" V 9850 5700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 9750 5700 60  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9750 5700 60  0001 C CNN
 F 3 "" H 9750 5700 60  0000 C CNN
 F 4 "not populate" H 9750 5700 50  0001 C CNN "Note"
 	1    9750 5700
