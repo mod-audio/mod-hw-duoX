@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/ricardo/devel/mod/mod-hw-duo/hw-design/bottom-board/bottom-board.sch)
-    (date "Wed 22 Aug 2018 04:51:40 PM CEST")
+    (date "Wed 22 Aug 2018 05:24:28 PM CEST")
     (tool "Eeschema 5.0.0")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1786,7 +1786,7 @@
       (tstamp 5B953464))
     (comp (ref K1)
       (value G6S-2)
-      (footprint Relay_SMD:Relay_DPDT_Omron_G6S-2F)
+      (footprint footprints:Relay_DPDT_Omron_G6S-2F)
       (datasheet http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf)
       (fields
         (field (name MPN) EE2-12NU-L)
@@ -1796,7 +1796,7 @@
       (tstamp 5B961056))
     (comp (ref K2)
       (value G6S-2)
-      (footprint Relay_SMD:Relay_DPDT_Omron_G6S-2F)
+      (footprint footprints:Relay_DPDT_Omron_G6S-2F)
       (datasheet http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf)
       (fields
         (field (name MPN) EE2-12NU-L)
