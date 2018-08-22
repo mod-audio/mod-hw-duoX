@@ -198,10 +198,10 @@ $EndComp
 Text Notes 1950 7300 0    60   ~ 0
 Op Amp Bypass capacitors
 $Comp
-L Connector:AudioJack3_Switch J15
+L Connector:AudioJack3_Switch J5
 U 1 1 5B52CBD7
 P 4600 6700
-F 0 "J15" H 4600 7150 50  0000 C CNN
+F 0 "J5" H 4600 7150 50  0000 C CNN
 F 1 "NMJ6HCD2" H 4600 7050 50  0000 C CNN
 F 2 "footprints:NMJ6HCD2" H 4600 6700 50  0001 C CNN
 F 3 "" H 4600 6700 50  0001 C CNN
@@ -211,10 +211,10 @@ F 5 "INPUT1" H 4600 6325 50  0000 C CNN "Comment"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:AudioJack3_Switch J16
+L Connector:AudioJack3_Switch J6
 U 1 1 5B52CBDF
 P 5550 6700
-F 0 "J16" H 5550 7150 50  0000 C CNN
+F 0 "J6" H 5550 7150 50  0000 C CNN
 F 1 "NMJ6HCD2" H 5550 7050 50  0000 C CNN
 F 2 "footprints:NMJ6HCD2" H 5550 6700 50  0001 C CNN
 F 3 "" H 5550 6700 50  0001 C CNN

@@ -27,10 +27,10 @@ F 4 "ADC122S021CIMM/NOPB" H 3900 3100 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:AudioJack3_Switch J22
+L Connector:AudioJack3_Switch J14
 U 1 1 5B3B64D1
 P 1700 6850
-F 0 "J22" H 1700 7250 50  0000 C CNN
+F 0 "J14" H 1700 7250 50  0000 C CNN
 F 1 "NMJ6HCD2" H 1700 7175 50  0000 C CNN
 F 2 "footprints:NMJ6HCD2" H 1950 6950 50  0001 C CNN
 F 3 "" H 1950 6950 50  0001 C CNN
@@ -526,10 +526,10 @@ HP_LEFT
 Text Notes 8100 3375 0    60   ~ 0
 DAC outputs have Hi-Z when shutdown is on
 $Comp
-L Connector:AudioJack3_Switch J23
+L Connector:AudioJack3_Switch J15
 U 1 1 5B46F4CC
 P 8850 5900
-F 0 "J23" H 8850 6300 50  0000 C CNN
+F 0 "J15" H 8850 6300 50  0000 C CNN
 F 1 "NMJ6HCD2" H 8850 6225 50  0000 C CNN
 F 2 "footprints:NMJ6HCD2" H 9100 6000 50  0001 C CNN
 F 3 "" H 9100 6000 50  0001 C CNN

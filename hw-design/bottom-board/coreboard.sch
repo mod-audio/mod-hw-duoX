@@ -73,10 +73,10 @@ F 3 "" H 10100 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x10_Odd_Even P2
+L Connector_Generic:Conn_02x10_Odd_Even J3
 U 1 1 5B574FB3
 P 9200 4650
-F 0 "P2" H 9250 5150 50  0000 C CNN
+F 0 "J3" H 9250 5150 50  0000 C CNN
 F 1 "HMI_DATA" H 9250 4050 50  0000 C CNN
 F 2 "footprints:Pin_Header_Straight_2x10_Shrouded" H 9200 4650 50  0001 C CNN
 F 3 "" H 9200 4650 50  0001 C CNN
@@ -86,10 +86,10 @@ F 5 "SBH11-PBPC-D10-ST-BK" H 0   2850 50  0001 C CNN "MPN2"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 P3
+L Connector_Generic:Conn_01x03 J4
 U 1 1 5B574FBA
 P 9750 5700
-F 0 "P3" H 9750 5900 50  0000 C CNN
+F 0 "J4" H 9750 5900 50  0000 C CNN
 F 1 "SERIAL_DEBUG" V 9850 5700 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9750 5700 60  0001 C CNN
 F 3 "" H 9750 5700 60  0000 C CNN
@@ -300,10 +300,10 @@ EXP_EN1
 Text GLabel 2100 4800 1    50   Output ~ 0
 EXP_EN2
 $Comp
-L Connector_Generic:Conn_01x03 J14
+L Connector_Generic:Conn_01x03 P13
 U 1 1 5B58A719
 P 6200 3350
-F 0 "J14" H 6200 3550 50  0000 C CNN
+F 0 "P13" H 6200 3550 50  0000 C CNN
 F 1 "Power" H 6200 3150 50  0000 C CNN
 F 2 "footprints:CastellatedBase_P2.00mm_3pins" H 6200 3350 50  0001 C CNN
 F 3 "" H 6200 3350 50  0001 C CNN
@@ -347,10 +347,10 @@ NoConn ~ 4250 3150
 NoConn ~ 4150 3150
 NoConn ~ 3550 3150
 $Comp
-L Connector_Generic:Conn_01x14 J10
+L Connector_Generic:Conn_01x14 P9
 U 1 1 5B596160
 P 3950 3350
-F 0 "J10" H 3950 4050 50  0000 C CNN
+F 0 "P9" H 3950 4050 50  0000 C CNN
 F 1 "USB" H 3950 2550 50  0000 C CNN
 F 2 "footprints:CastellatedBase_P2.00mm_14pins" H 3950 3350 50  0001 C CNN
 F 3 "" H 3950 3350 50  0001 C CNN
@@ -359,10 +359,10 @@ F 3 "" H 3950 3350 50  0001 C CNN
 $EndComp
 NoConn ~ 3450 3150
 $Comp
-L Connector_Generic:Conn_01x13 J13
+L Connector_Generic:Conn_01x13 P12
 U 1 1 5B59C569
 P 5900 5150
-F 0 "J13" H 5900 5850 50  0000 C CNN
+F 0 "P12" H 5900 5850 50  0000 C CNN
 F 1 "CODEC" H 5900 4450 50  0000 C CNN
 F 2 "footprints:CastellatedBase_P2.00mm_13pins" H 5900 5150 50  0001 C CNN
 F 3 "" H 5900 5150 50  0001 C CNN
@@ -381,10 +381,10 @@ F 3 "" H 6650 5200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J7
+L Connector_Generic:Conn_01x03 P6
 U 1 1 5B5A0EE2
 P 2650 3350
-F 0 "J7" H 2650 3550 50  0000 C CNN
+F 0 "P6" H 2650 3550 50  0000 C CNN
 F 1 "MIDI" H 2650 3150 50  0000 C CNN
 F 2 "footprints:CastellatedBase_P2.00mm_3pins" H 2650 3350 50  0001 C CNN
 F 3 "" H 2650 3350 50  0001 C CNN
@@ -403,10 +403,10 @@ F 3 "" H 2900 3400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x08 J11
+L Connector_Generic:Conn_01x08 P10
 U 1 1 5B5A80D8
 P 4450 5150
-F 0 "J11" H 4450 5550 50  0000 C CNN
+F 0 "P10" H 4450 5550 50  0000 C CNN
 F 1 "CV Input" H 4450 4650 50  0000 C CNN
 F 2 "footprints:CastellatedBase_P2.00mm_8pins" H 4450 5150 50  0001 C CNN
 F 3 "" H 4450 5150 50  0001 C CNN
@@ -425,10 +425,10 @@ F 3 "" H 4900 5200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x05 J12
+L Connector_Generic:Conn_01x05 P11
 U 1 1 5B5B2361
 P 5350 3350
-F 0 "J12" H 5350 3650 50  0000 C CNN
+F 0 "P11" H 5350 3650 50  0000 C CNN
 F 1 "Control Chain" H 5350 3050 50  0000 C CNN
 F 2 "footprints:CastellatedBase_P2.00mm_5pins" H 5350 3350 50  0001 C CNN
 F 3 "" H 5350 3350 50  0001 C CNN
@@ -436,10 +436,10 @@ F 3 "" H 5350 3350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x05 J6
+L Connector_Generic:Conn_01x05 P5
 U 1 1 5B5B284A
 P 2100 5150
-F 0 "J6" H 2100 5450 50  0000 C CNN
+F 0 "P5" H 2100 5450 50  0000 C CNN
 F 1 "Exp Pedal" H 2100 4850 50  0000 C CNN
 F 2 "footprints:CastellatedBase_P2.00mm_5pins" H 2100 5150 50  0001 C CNN
 F 3 "" H 2100 5150 50  0001 C CNN
@@ -469,10 +469,10 @@ F 3 "" H 2450 5200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J3
+L Connector_Generic:Conn_01x04 P2
 U 1 1 5B5B94C6
 P 1200 5150
-F 0 "J3" H 1200 5350 50  0000 C CNN
+F 0 "P2" H 1200 5350 50  0000 C CNN
 F 1 "Headphones" H 1200 4850 50  0000 C CNN
 F 2 "footprints:CastellatedBase_P2.00mm_4pins" H 1200 5150 50  0001 C CNN
 F 3 "" H 1200 5150 50  0001 C CNN
@@ -491,10 +491,10 @@ F 3 "" H 1450 5200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x06 J8
+L Connector_Generic:Conn_01x06 P7
 U 1 1 5B5BF536
 P 3200 5150
-F 0 "J8" H 3200 5450 50  0000 C CNN
+F 0 "P7" H 3200 5450 50  0000 C CNN
 F 1 "CV Output" H 3200 4750 50  0000 C CNN
 F 2 "footprints:CastellatedBase_P2.00mm_6pins" H 3200 5150 50  0001 C CNN
 F 3 "" H 3200 5150 50  0001 C CNN
@@ -513,10 +513,10 @@ F 3 "" H 3550 5200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J2
+L Connector_Generic:Conn_01x03 P1
 U 1 1 5B5C2330
 P 1050 3350
-F 0 "J2" H 1050 3550 50  0000 C CNN
+F 0 "P1" H 1050 3550 50  0000 C CNN
 F 1 "True Bypass" H 1050 3150 50  0000 C CNN
 F 2 "footprints:CastellatedBase_P2.00mm_3pins" H 1050 3350 50  0001 C CNN
 F 3 "" H 1050 3350 50  0001 C CNN
@@ -524,10 +524,10 @@ F 3 "" H 1050 3350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x05 J4
+L Connector_Generic:Conn_01x05 P3
 U 1 1 5B5C271D
 P 1850 3350
-F 0 "J4" H 1850 3650 50  0000 C CNN
+F 0 "P3" H 1850 3650 50  0000 C CNN
 F 1 "Gain Control" H 1850 3050 50  0000 C CNN
 F 2 "footprints:CastellatedBase_P2.00mm_5pins" H 1850 3350 50  0001 C CNN
 F 3 "" H 1850 3350 50  0001 C CNN
@@ -821,10 +821,10 @@ Wire Wire Line
 Wire Wire Line
 	950  3100 1300 3100
 $Comp
-L Connector_Generic:Conn_01x22 J5
+L Connector_Generic:Conn_01x22 P4
 U 1 1 5B5E99A4
 P 2100 1850
-F 0 "J5" H 2100 2950 50  0000 C CNN
+F 0 "P4" H 2100 2950 50  0000 C CNN
 F 1 "HMI" H 2100 650 50  0000 C CNN
 F 2 "footprints:CastellatedBase_P2.00mm_22pins" H 2100 1850 50  0001 C CNN
 F 3 "" H 2100 1850 50  0001 C CNN
@@ -909,10 +909,10 @@ $EndComp
 Wire Wire Line
 	4100 1600 4100 1900
 $Comp
-L Connector_Generic:Conn_01x02 J9
+L Connector_Generic:Conn_01x02 P8
 U 1 1 5B5F1574
 P 3950 1850
-F 0 "J9" H 3950 1950 50  0000 C CNN
+F 0 "P8" H 3950 1950 50  0000 C CNN
 F 1 "UBOOT" H 3950 1650 50  0000 C CNN
 F 2 "footprints:CastellatedBase_P2.00mm_2pins" H 3950 1850 50  0001 C CNN
 F 3 "" H 3950 1850 50  0001 C CNN
