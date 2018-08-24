@@ -7,7 +7,7 @@ Item,Qty,Reference(s),Value,LibPart,Footprint,MPN,Note
 6,2,"C7, C8",39pF,device:C,Capacitors_SMD:C_0603,C1608C0G1H390J080AA,
 7,3,"D1, D2, D3",1N4148,device:D,Diodes_SMD:SOD-323,1N4148WX-TP,
 8,6,"D4, D5, D6, D7, D8, D9",LED_RGB,device:LED_RGB,LEDs:LED_RGB_PLLC-6,LTRBGFSF-ABCB-QKYO-Z,
-9,2,"E1, E2",PEC11R,local-components:PEC11R,footprints:PEC11R-4xxxF-Sxxxx,PEC11R-4020F-S0024,
+9,2,"E1, E2",PEC11R,local-components:PEC11R,footprints:PEC11R-4xxxF-Sxxxx,PEC11R-4220F-S0024,
 10,6,"FID1, FID2, FID3, FID4, FID5, FID6",FIDUCIAL,local-components:FIDUCIAL,footprints:fiducial_in-circuit,,not a component
 11,2,"GLCD1, GLCD2",ERC12864-2,local-components:ERC12864-2,footprints:ER-CON30HB-1,ER-CON30HT-1,
 12,5,"H1, H2, H3, H4, H5",HOLE,local-components:HOLE,footprints:Hole_3.5mm,,not a component
