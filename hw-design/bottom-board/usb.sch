@@ -261,9 +261,9 @@ Wire Wire Line
 	2400 2900 2500 2900
 Wire Wire Line
 	2500 3000 2400 3000
-Text GLabel 3700 3825 3    50   BiDi ~ 0
+Text GLabel 2600 3850 3    50   BiDi ~ 0
 USB_DEV_DP
-Text GLabel 2600 3825 3    50   BiDi ~ 0
+Text GLabel 3700 3850 3    50   BiDi ~ 0
 USB_DEV_DM
 Wire Wire Line
 	3150 3250 3150 2700
@@ -284,11 +284,7 @@ $EndComp
 Wire Wire Line
 	3150 4250 3150 4300
 Wire Wire Line
-	2600 3825 2600 3750
-Wire Wire Line
 	2600 3750 2650 3750
-Wire Wire Line
-	3700 3825 3700 3750
 Wire Wire Line
 	3700 3750 3650 3750
 Wire Wire Line
@@ -457,4 +453,8 @@ F 4 "PRTR5V0U2X,215" H 8625 3750 50  0001 C CNN "MPN"
 	1    8625 3750
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3700 3750 3700 3850
+Wire Wire Line
+	2600 3750 2600 3850
 $EndSCHEMATC
