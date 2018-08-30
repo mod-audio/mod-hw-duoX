@@ -172,15 +172,15 @@ Text GLabel 2900 1500 1    50   Input ~ 0
 CLI_UART_RX
 Text GLabel 2800 1500 1    50   Output ~ 0
 CLI_UART_TX
-Text GLabel 5400 4800 1    50   Output ~ 0
+Text GLabel 6700 4800 1    50   Output ~ 0
 CODEC_RESET
 Text GLabel 5150 3050 1    50   Input ~ 0
 CHAIN_UART_RX
 Text GLabel 5450 3050 1    50   Output ~ 0
 CHAIN_UART_TX
-Text GLabel 1100 4800 1    50   Output ~ 0
+Text GLabel 1300 4800 1    50   Output ~ 0
 HP_CLOCK
-Text GLabel 1000 4800 1    50   Output ~ 0
+Text GLabel 1200 4800 1    50   Output ~ 0
 HP_UP/DN
 Text GLabel 3850 1500 1    50   Input ~ 0
 UBOOT_BUTTON
@@ -194,13 +194,13 @@ Text GLabel 2200 1500 1    50   BiDi ~ 0
 HMI_RFU_01(RX)
 Text GLabel 2100 1500 1    50   BiDi ~ 0
 HMI_RFU_02(TX)
-Text GLabel 6000 4800 1    50   Output ~ 0
+Text GLabel 5700 4800 1    50   Output ~ 0
 CODEC_I2S_SDIN
-Text GLabel 6100 4800 1    50   Input ~ 0
+Text GLabel 5800 4800 1    50   Input ~ 0
 CODEC_I2S_SDOUT
-Text GLabel 6300 4800 1    50   Output ~ 0
+Text GLabel 6000 4800 1    50   Output ~ 0
 CODEC_I2S_BCLK
-Text GLabel 6400 4800 1    50   Output ~ 0
+Text GLabel 6100 4800 1    50   Output ~ 0
 CODEC_I2S_LRCK
 Text GLabel 1300 1500 1    50   Output ~ 0
 HMI_SPI0_MOSI
@@ -210,9 +210,9 @@ Text GLabel 1100 1500 1    50   Output ~ 0
 HMI_SPI0_CS0
 Text GLabel 1400 1500 1    50   Input ~ 0
 HMI_SPI0_MISO
-Text GLabel 5600 4800 1    50   BiDi ~ 0
+Text GLabel 6400 4800 1    50   BiDi ~ 0
 CODEC_I2C_SDA
-Text GLabel 5700 4800 1    50   Output ~ 0
+Text GLabel 6500 4800 1    50   Output ~ 0
 CODEC_I2C_SCL
 Text GLabel 2650 3000 1    50   Input ~ 0
 MIDI_UART_RX
@@ -255,7 +255,7 @@ F 3 "" H 6400 2950 50  0001 C CNN
 	1    6400 2950
 	1    0    0    -1  
 $EndComp
-Text GLabel 5900 4800 1    50   Input ~ 0
+Text GLabel 5600 4800 1    50   Input ~ 0
 CODEC_SPDIF_SDIN
 Text GLabel 2050 3000 1    50   Output ~ 0
 IN1_GC1
@@ -269,7 +269,7 @@ Text GLabel 1150 3000 1    50   Output ~ 0
 IN1_TBP
 Text GLabel 1050 3000 1    50   Output ~ 0
 IN2_TBP
-Text GLabel 1200 4800 1    50   Output ~ 0
+Text GLabel 1100 4800 1    50   Output ~ 0
 HP_DISABLE
 Text GLabel 4350 4800 1    50   Output ~ 0
 CV_ADC_SCLK
@@ -361,23 +361,23 @@ NoConn ~ 3450 3150
 $Comp
 L Connector_Generic:Conn_01x13 P12
 U 1 1 5B59C569
-P 5900 5150
-F 0 "P12" H 5900 5850 50  0000 C CNN
-F 1 "CODEC" H 5900 4450 50  0000 C CNN
-F 2 "footprints:CastellatedBase_P1.50mm_13pins" H 5900 5150 50  0001 C CNN
-F 3 "" H 5900 5150 50  0001 C CNN
-	1    5900 5150
+P 6100 5150
+F 0 "P12" H 6100 5850 50  0000 C CNN
+F 1 "CODEC" H 6100 4450 50  0000 C CNN
+F 2 "footprints:CastellatedBase_P1.50mm_13pins" H 6100 5150 50  0001 C CNN
+F 3 "" H 6100 5150 50  0001 C CNN
+	1    6100 5150
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GNDD #PWR086
 U 1 1 5B59E442
-P 6650 5200
-F 0 "#PWR086" H 6650 4950 50  0001 C CNN
-F 1 "GNDD" H 6650 5050 50  0000 C CNN
-F 2 "" H 6650 5200 60  0000 C CNN
-F 3 "" H 6650 5200 60  0000 C CNN
-	1    6650 5200
+P 6850 5200
+F 0 "#PWR086" H 6850 4950 50  0001 C CNN
+F 1 "GNDD" H 6850 5050 50  0000 C CNN
+F 2 "" H 6850 5200 60  0000 C CNN
+F 3 "" H 6850 5200 60  0000 C CNN
+	1    6850 5200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -472,8 +472,8 @@ $Comp
 L Connector_Generic:Conn_01x04 P2
 U 1 1 5B5B94C6
 P 1200 5150
-F 0 "P2" H 1200 5350 50  0000 C CNN
-F 1 "Headphones" H 1200 4850 50  0000 C CNN
+F 0 "P2" H 1200 4850 50  0000 C CNN
+F 1 "Headphones" H 1200 5350 50  0000 C CNN
 F 2 "footprints:CastellatedBase_P1.50mm_4pins" H 1200 5150 50  0001 C CNN
 F 3 "" H 1200 5150 50  0001 C CNN
 	1    1200 5150
@@ -482,13 +482,13 @@ $EndComp
 $Comp
 L power:GNDD #PWR068
 U 1 1 5B5B9953
-P 1450 5200
-F 0 "#PWR068" H 1450 4950 50  0001 C CNN
-F 1 "GNDD" H 1450 5050 50  0000 C CNN
-F 2 "" H 1450 5200 60  0000 C CNN
-F 3 "" H 1450 5200 60  0000 C CNN
-	1    1450 5200
-	1    0    0    -1  
+P 850 5200
+F 0 "#PWR068" H 850 4950 50  0001 C CNN
+F 1 "GNDD" H 850 5050 50  0000 C CNN
+F 2 "" H 850 5200 60  0000 C CNN
+F 3 "" H 850 5200 60  0000 C CNN
+	1    850  5200
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x06 P7
@@ -675,33 +675,23 @@ Wire Wire Line
 	4350 3150 4350 3100
 Connection ~ 4350 3100
 Wire Wire Line
-	6650 4900 6650 5200
+	6850 4900 6850 5200
 Wire Wire Line
-	5500 4900 5800 4900
+	6700 4800 6700 4950
 Wire Wire Line
-	5500 4900 5500 4950
+	6400 4800 6400 4950
 Wire Wire Line
-	5800 4950 5800 4900
-Connection ~ 5800 4900
-Wire Wire Line
-	6500 4950 6500 4900
-Connection ~ 6500 4900
-Wire Wire Line
-	5400 4800 5400 4950
+	6500 4950 6500 4800
 Wire Wire Line
 	5600 4800 5600 4950
 Wire Wire Line
 	5700 4950 5700 4800
 Wire Wire Line
-	5900 4800 5900 4950
+	5800 4800 5800 4950
 Wire Wire Line
-	6000 4950 6000 4800
+	6000 4800 6000 4950
 Wire Wire Line
-	6100 4800 6100 4950
-Wire Wire Line
-	6300 4800 6300 4950
-Wire Wire Line
-	6400 4950 6400 4800
+	6100 4950 6100 4800
 Wire Wire Line
 	2900 3100 2900 3400
 Wire Wire Line
@@ -748,13 +738,13 @@ Wire Wire Line
 Wire Wire Line
 	1900 4950 1900 4800
 Wire Wire Line
-	1300 4900 1300 4950
+	1000 4900 1000 4950
+Wire Wire Line
+	1100 4800 1100 4950
+Wire Wire Line
+	1300 4950 1300 4800
 Wire Wire Line
 	1200 4800 1200 4950
-Wire Wire Line
-	1100 4950 1100 4800
-Wire Wire Line
-	1000 4800 1000 4950
 Wire Wire Line
 	3550 4900 3550 5200
 Wire Wire Line
@@ -795,9 +785,9 @@ Wire Wire Line
 Wire Wire Line
 	1150 3150 1150 3000
 Wire Wire Line
-	1450 5200 1450 4900
+	850  5200 850  4900
 Wire Wire Line
-	1450 4900 1300 4900
+	850  4900 1000 4900
 Wire Wire Line
 	2450 5200 2450 4900
 Wire Wire Line
@@ -1095,10 +1085,6 @@ Wire Wire Line
 Wire Wire Line
 	4350 3100 4700 3100
 Wire Wire Line
-	5800 4900 6500 4900
-Wire Wire Line
-	6500 4900 6650 4900
-Wire Wire Line
 	4750 4900 4900 4900
 Wire Wire Line
 	3400 4900 3550 4900
@@ -1159,10 +1145,10 @@ Text GLabel 10150 2800 2    50   BiDi ~ 0
 PM_LEDS_SDA
 Text GLabel 10150 2900 2    50   Input ~ 0
 PM_LEDS_SCL
-Text GLabel 5300 4800 1    50   Input ~ 0
+Text GLabel 5500 4800 1    50   Input ~ 0
 CODEC_MUTEC
 Wire Wire Line
-	5300 4800 5300 4950
+	5500 4800 5500 4950
 NoConn ~ 6200 4950
 $Comp
 L Device:R_Small R17
@@ -1318,4 +1304,18 @@ F 6 "ESR03EZPJ103" H 1750 6450 50  0001 C CNN "MPN3"
 	1    0    0    -1  
 $EndComp
 Connection ~ 1500 6300
+Wire Wire Line
+	5900 4900 5900 4950
+Wire Wire Line
+	6850 4900 6600 4900
+Wire Wire Line
+	6300 4950 6300 4900
+Connection ~ 6300 4900
+Wire Wire Line
+	6300 4900 5900 4900
+Wire Wire Line
+	6600 4950 6600 4900
+Connection ~ 6600 4900
+Wire Wire Line
+	6600 4900 6300 4900
 $EndSCHEMATC
