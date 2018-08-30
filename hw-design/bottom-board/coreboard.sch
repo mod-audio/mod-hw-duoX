@@ -305,7 +305,7 @@ U 1 1 5B58A719
 P 6200 3350
 F 0 "P13" H 6200 3550 50  0000 C CNN
 F 1 "Power" H 6200 3150 50  0000 C CNN
-F 2 "footprints:CastellatedBase_P2.00mm_3pins" H 6200 3350 50  0001 C CNN
+F 2 "footprints:CastellatedBase_P1.50mm_3pins" H 6200 3350 50  0001 C CNN
 F 3 "" H 6200 3350 50  0001 C CNN
 	1    6200 3350
 	0    1    1    0   
@@ -352,7 +352,7 @@ U 1 1 5B596160
 P 3950 3350
 F 0 "P9" H 3950 4050 50  0000 C CNN
 F 1 "USB" H 3950 2550 50  0000 C CNN
-F 2 "footprints:CastellatedBase_P2.00mm_14pins" H 3950 3350 50  0001 C CNN
+F 2 "footprints:CastellatedBase_P1.50mm_14pins" H 3950 3350 50  0001 C CNN
 F 3 "" H 3950 3350 50  0001 C CNN
 	1    3950 3350
 	0    1    1    0   
@@ -364,7 +364,7 @@ U 1 1 5B59C569
 P 5900 5150
 F 0 "P12" H 5900 5850 50  0000 C CNN
 F 1 "CODEC" H 5900 4450 50  0000 C CNN
-F 2 "footprints:CastellatedBase_P2.00mm_13pins" H 5900 5150 50  0001 C CNN
+F 2 "footprints:CastellatedBase_P1.50mm_13pins" H 5900 5150 50  0001 C CNN
 F 3 "" H 5900 5150 50  0001 C CNN
 	1    5900 5150
 	0    1    1    0   
@@ -386,7 +386,7 @@ U 1 1 5B5A0EE2
 P 2650 3350
 F 0 "P6" H 2650 3550 50  0000 C CNN
 F 1 "MIDI" H 2650 3150 50  0000 C CNN
-F 2 "footprints:CastellatedBase_P2.00mm_3pins" H 2650 3350 50  0001 C CNN
+F 2 "footprints:CastellatedBase_P1.50mm_3pins" H 2650 3350 50  0001 C CNN
 F 3 "" H 2650 3350 50  0001 C CNN
 	1    2650 3350
 	0    1    1    0   
@@ -408,7 +408,7 @@ U 1 1 5B5A80D8
 P 4450 5150
 F 0 "P10" H 4450 5550 50  0000 C CNN
 F 1 "CV Input" H 4450 4650 50  0000 C CNN
-F 2 "footprints:CastellatedBase_P2.00mm_8pins" H 4450 5150 50  0001 C CNN
+F 2 "footprints:CastellatedBase_P1.50mm_8pins" H 4450 5150 50  0001 C CNN
 F 3 "" H 4450 5150 50  0001 C CNN
 	1    4450 5150
 	0    1    1    0   
@@ -430,7 +430,7 @@ U 1 1 5B5B2361
 P 5350 3350
 F 0 "P11" H 5350 3650 50  0000 C CNN
 F 1 "Control Chain" H 5350 3050 50  0000 C CNN
-F 2 "footprints:CastellatedBase_P2.00mm_5pins" H 5350 3350 50  0001 C CNN
+F 2 "footprints:CastellatedBase_P1.50mm_5pins" H 5350 3350 50  0001 C CNN
 F 3 "" H 5350 3350 50  0001 C CNN
 	1    5350 3350
 	0    1    1    0   
@@ -441,7 +441,7 @@ U 1 1 5B5B284A
 P 2100 5150
 F 0 "P5" H 2100 5450 50  0000 C CNN
 F 1 "Exp Pedal" H 2100 4850 50  0000 C CNN
-F 2 "footprints:CastellatedBase_P2.00mm_5pins" H 2100 5150 50  0001 C CNN
+F 2 "footprints:CastellatedBase_P1.50mm_5pins" H 2100 5150 50  0001 C CNN
 F 3 "" H 2100 5150 50  0001 C CNN
 	1    2100 5150
 	0    1    1    0   
@@ -474,7 +474,7 @@ U 1 1 5B5B94C6
 P 1200 5150
 F 0 "P2" H 1200 5350 50  0000 C CNN
 F 1 "Headphones" H 1200 4850 50  0000 C CNN
-F 2 "footprints:CastellatedBase_P2.00mm_4pins" H 1200 5150 50  0001 C CNN
+F 2 "footprints:CastellatedBase_P1.50mm_4pins" H 1200 5150 50  0001 C CNN
 F 3 "" H 1200 5150 50  0001 C CNN
 	1    1200 5150
 	0    1    1    0   
@@ -496,7 +496,7 @@ U 1 1 5B5BF536
 P 3200 5150
 F 0 "P7" H 3200 5450 50  0000 C CNN
 F 1 "CV Output" H 3200 4750 50  0000 C CNN
-F 2 "footprints:CastellatedBase_P2.00mm_6pins" H 3200 5150 50  0001 C CNN
+F 2 "footprints:CastellatedBase_P1.50mm_6pins" H 3200 5150 50  0001 C CNN
 F 3 "" H 3200 5150 50  0001 C CNN
 	1    3200 5150
 	0    1    1    0   
@@ -518,7 +518,7 @@ U 1 1 5B5C2330
 P 1050 3350
 F 0 "P1" H 1050 3550 50  0000 C CNN
 F 1 "True Bypass" H 1050 3150 50  0000 C CNN
-F 2 "footprints:CastellatedBase_P2.00mm_3pins" H 1050 3350 50  0001 C CNN
+F 2 "footprints:CastellatedBase_P1.50mm_3pins" H 1050 3350 50  0001 C CNN
 F 3 "" H 1050 3350 50  0001 C CNN
 	1    1050 3350
 	0    1    1    0   
@@ -529,7 +529,7 @@ U 1 1 5B5C271D
 P 1850 3350
 F 0 "P3" H 1850 3650 50  0000 C CNN
 F 1 "Gain Control" H 1850 3050 50  0000 C CNN
-F 2 "footprints:CastellatedBase_P2.00mm_5pins" H 1850 3350 50  0001 C CNN
+F 2 "footprints:CastellatedBase_P1.50mm_5pins" H 1850 3350 50  0001 C CNN
 F 3 "" H 1850 3350 50  0001 C CNN
 	1    1850 3350
 	0    1    1    0   
@@ -826,7 +826,7 @@ U 1 1 5B5E99A4
 P 2100 1850
 F 0 "P4" H 2100 2950 50  0000 C CNN
 F 1 "HMI" H 2100 650 50  0000 C CNN
-F 2 "footprints:CastellatedBase_P2.00mm_22pins" H 2100 1850 50  0001 C CNN
+F 2 "footprints:CastellatedBase_P1.50mm_22pins" H 2100 1850 50  0001 C CNN
 F 3 "" H 2100 1850 50  0001 C CNN
 	1    2100 1850
 	0    1    1    0   
@@ -914,7 +914,7 @@ U 1 1 5B5F1574
 P 3950 1850
 F 0 "P8" H 3950 1950 50  0000 C CNN
 F 1 "UBOOT" H 3950 1650 50  0000 C CNN
-F 2 "footprints:CastellatedBase_P2.00mm_2pins" H 3950 1850 50  0001 C CNN
+F 2 "footprints:CastellatedBase_P1.50mm_2pins" H 3950 1850 50  0001 C CNN
 F 3 "" H 3950 1850 50  0001 C CNN
 	1    3950 1850
 	0    1    1    0   
