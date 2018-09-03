@@ -95,7 +95,7 @@ F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9750 5700 60 
 F 3 "" H 9750 5700 60  0000 C CNN
 F 4 "not populate" H 9750 5700 50  0001 C CNN "Note"
 	1    9750 5700
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GNDD #PWR079
@@ -158,10 +158,6 @@ Text GLabel 9700 4450 2    50   Output ~ 0
 HMI_SPI0_MOSI
 Text GLabel 8850 4850 0    50   Output ~ 0
 POWER_BUTTON
-Text GLabel 8850 5150 0    50   BiDi ~ 0
-TWI4_SDA
-Text GLabel 8850 5050 0    50   Input ~ 0
-TWI4_SCL
 Text GLabel 8850 4250 0    50   BiDi ~ 0
 HMI_RFU_01(RX)
 Text GLabel 8850 4350 0    50   BiDi ~ 0
@@ -390,10 +386,6 @@ Wire Wire Line
 Wire Wire Line
 	2650 6300 2400 6300
 Connection ~ 2400 6300
-Text GLabel 2650 6650 3    50   BiDi ~ 0
-TWI4_SDA
-Text GLabel 2400 6650 3    50   Output ~ 0
-TWI4_SCL
 Wire Wire Line
 	2400 6550 2400 6650
 Wire Wire Line
@@ -635,11 +627,11 @@ F 4 "DF12(3.0)-60DP-0.5V(86)" V 3200 2225 50  0001 C CNN "MPN"
 	1    3200 2225
 	0    -1   -1   0   
 $EndComp
-Text GLabel 4300 1825 1    50   Input ~ 0
+Text GLabel 4400 1825 1    50   Input ~ 0
 CHAIN_UART_RX
 Text GLabel 4600 1825 1    50   Output ~ 0
 CHAIN_UART_TX
-Text GLabel 4400 1825 1    50   Output ~ 0
+Text GLabel 4300 1825 1    50   Output ~ 0
 CHAIN_UART_RE
 Text GLabel 4500 1825 1    50   Output ~ 0
 CHAIN_UART_DE
@@ -665,11 +657,11 @@ F 3 "" H 4875 2350 60  0000 C CNN
 	1    4875 2350
 	1    0    0    -1  
 $EndComp
-Text GLabel 3250 3975 1    50   Output ~ 0
+Text GLabel 3450 3975 1    50   Output ~ 0
 CV_ADC_SCLK
 Text GLabel 3350 3975 1    50   Input ~ 0
 CV_ADC_DOUT
-Text GLabel 3450 3975 1    50   Output ~ 0
+Text GLabel 3250 3975 1    50   Output ~ 0
 CV_ADC_DIN
 Text GLabel 3550 3975 1    50   Output ~ 0
 CV_ADC_~CS~
@@ -681,59 +673,59 @@ Text GLabel 3400 1825 1    50   BiDi ~ 0
 USB_DEV_DP
 Text GLabel 3300 1825 1    50   BiDi ~ 0
 USB_DEV_DM
-Text GLabel 4000 1825 1    50   BiDi ~ 0
+Text GLabel 3800 1825 1    50   BiDi ~ 0
 USB_HOST_DP
-Text GLabel 4100 1825 1    50   BiDi ~ 0
+Text GLabel 3900 1825 1    50   BiDi ~ 0
 USB_HOST_DM
 Text GLabel 2900 1825 1    50   Input ~ 0
 USB_DEV_DET
-Text GLabel 3600 1825 1    50   Output ~ 0
+Text GLabel 4100 1825 1    50   Output ~ 0
 USB_HOST_DRV
-Text GLabel 2600 1825 1    50   Input ~ 0
+Text GLabel 2700 1825 1    50   Input ~ 0
 MIDI_UART_RX
-Text GLabel 2700 1825 1    50   Output ~ 0
+Text GLabel 2600 1825 1    50   Output ~ 0
 MIDI_UART_TX
-Text GLabel 1900 1825 1    50   Input ~ 0
+Text GLabel 2400 1825 1    50   Input ~ 0
 UBOOT_BUTTON
-Text GLabel 2000 2525 3    50   Input ~ 0
+Text GLabel 2400 2525 3    50   Input ~ 0
 CLI_UART_RX
-Text GLabel 2100 2525 3    50   Output ~ 0
-CLI_UART_TX
-Text GLabel 1800 2525 3    50   Input ~ 0
-POWER_BUTTON
-Text GLabel 2700 2525 3    50   BiDi ~ 0
-HMI_RFU_01(RX)
-Text GLabel 2800 2525 3    50   BiDi ~ 0
-HMI_RFU_02(TX)
-Text GLabel 3600 2525 3    50   Output ~ 0
-HMI_SPI0_MOSI
-Text GLabel 3700 2525 3    50   Output ~ 0
-HMI_SPI0_CLK
-Text GLabel 3800 2525 3    50   Output ~ 0
-HMI_SPI0_CS0
-Text GLabel 3500 2525 3    50   Input ~ 0
-HMI_SPI0_MISO
-Text GLabel 2400 2525 3    50   BiDi ~ 0
-PM_LEDS_SDA
-Text GLabel 2300 2525 3    50   Output ~ 0
-PM_LEDS_SCL
 Text GLabel 2500 2525 3    50   Output ~ 0
-PM_LEDS_OE
-Text GLabel 3100 2525 3    50   Input ~ 0
-HMI_UART_RX
-Text GLabel 3000 2525 3    50   Output ~ 0
-HMI_UART_TX
+CLI_UART_TX
+Text GLabel 2200 2525 3    50   Input ~ 0
+POWER_BUTTON
+Text GLabel 2800 2525 3    50   BiDi ~ 0
+HMI_RFU_01(RX)
+Text GLabel 2700 2525 3    50   BiDi ~ 0
+HMI_RFU_02(TX)
+Text GLabel 3100 2525 3    50   Output ~ 0
+HMI_SPI0_MOSI
 Text GLabel 3200 2525 3    50   Output ~ 0
-HMI_ISP_ENABLE
+HMI_SPI0_CLK
 Text GLabel 3300 2525 3    50   Output ~ 0
+HMI_SPI0_CS0
+Text GLabel 3000 2525 3    50   Input ~ 0
+HMI_SPI0_MISO
+Text GLabel 1900 2525 3    50   BiDi ~ 0
+PM_LEDS_SDA
+Text GLabel 2000 2525 3    50   Output ~ 0
+PM_LEDS_SCL
+Text GLabel 2100 2525 3    50   Output ~ 0
+PM_LEDS_OE
+Text GLabel 3800 2525 3    50   Input ~ 0
+HMI_UART_RX
+Text GLabel 3700 2525 3    50   Output ~ 0
+HMI_UART_TX
+Text GLabel 3500 2525 3    50   Output ~ 0
+HMI_ISP_ENABLE
+Text GLabel 3600 2525 3    50   Output ~ 0
 HMI_RESET
-Text GLabel 3750 3975 1    50   Input ~ 0
-EXP_FLAG2
 Text GLabel 3850 3975 1    50   Input ~ 0
+EXP_FLAG2
+Text GLabel 3950 3975 1    50   Input ~ 0
 EXP_FLAG1
 Text GLabel 4050 3975 1    50   Output ~ 0
 EXP_EN1
-Text GLabel 3950 3975 1    50   Output ~ 0
+Text GLabel 3750 3975 1    50   Output ~ 0
 EXP_EN2
 Text GLabel 2450 4675 3    50   Output ~ 0
 CODEC_RESET
@@ -763,9 +755,9 @@ Text GLabel 4150 4675 3    50   Output ~ 0
 IN2_GC2
 Text GLabel 2650 3975 1    50   Output ~ 0
 CV_OUT_BIAS
-Text GLabel 2950 3975 1    50   Output ~ 0
-CV_DAC_SCK
 Text GLabel 3050 3975 1    50   Output ~ 0
+CV_DAC_SCK
+Text GLabel 2950 3975 1    50   Output ~ 0
 CV_DAC_SDI
 Text GLabel 2850 3975 1    50   Output ~ 0
 CV_DAC_~CS~
@@ -801,14 +793,14 @@ F 3 "" H 1425 1925 60  0000 C CNN
 	1    1425 1925
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3800 1925
 NoConn ~ 3700 1925
+NoConn ~ 3600 1925
 NoConn ~ 3100 1925
 NoConn ~ 3000 1925
 Wire Wire Line
 	1425 1925 1425 1875
 Wire Wire Line
-	1425 1875 2800 1875
+	1425 1875 2500 1875
 Wire Wire Line
 	4700 1875 4700 1925
 Wire Wire Line
@@ -816,30 +808,23 @@ Wire Wire Line
 Wire Wire Line
 	4500 1925 4500 1825
 Wire Wire Line
-	4400 1825 4400 1925
-Wire Wire Line
 	4300 1825 4300 1925
+Wire Wire Line
+	4400 1825 4400 1925
 Wire Wire Line
 	4200 1925 4200 1875
 Connection ~ 4200 1875
 Wire Wire Line
 	4200 1875 4700 1875
 Wire Wire Line
+	3900 1825 3900 1925
+Wire Wire Line
+	3800 1925 3800 1825
+Wire Wire Line
 	4100 1825 4100 1925
-Wire Wire Line
-	4000 1925 4000 1825
-Wire Wire Line
-	3900 1925 3900 1875
-Connection ~ 3900 1875
-Wire Wire Line
-	3900 1875 4200 1875
-Wire Wire Line
-	3600 1825 3600 1925
 Wire Wire Line
 	3500 1925 3500 1875
 Connection ~ 3500 1875
-Wire Wire Line
-	3500 1875 3900 1875
 Wire Wire Line
 	3400 1825 3400 1925
 Wire Wire Line
@@ -857,26 +842,13 @@ Connection ~ 2800 1875
 Wire Wire Line
 	2800 1875 3200 1875
 Wire Wire Line
-	2700 1825 2700 1925
+	2600 1825 2600 1925
 Wire Wire Line
-	2600 1925 2600 1825
+	2700 1925 2700 1825
 Wire Wire Line
-	1900 1825 1900 1925
-Wire Wire Line
-	4100 2425 4100 2525
-Wire Wire Line
-	4000 2425 4000 2525
+	2400 1825 2400 1925
 Wire Wire Line
 	1425 2575 1425 2475
-Wire Wire Line
-	1425 2475 1900 2475
-Wire Wire Line
-	4300 2475 4300 2425
-Wire Wire Line
-	4200 2425 4200 2475
-Connection ~ 4200 2475
-Wire Wire Line
-	4200 2475 4300 2475
 Wire Wire Line
 	4600 2425 4600 2475
 Wire Wire Line
@@ -900,68 +872,6 @@ Wire Wire Line
 Wire Wire Line
 	4700 2700 4500 2700
 Wire Wire Line
-	1800 2425 1800 2525
-Wire Wire Line
-	2000 2525 2000 2425
-Wire Wire Line
-	1900 2425 1900 2475
-Connection ~ 1900 2475
-Wire Wire Line
-	1900 2475 2200 2475
-Wire Wire Line
-	2100 2425 2100 2525
-Wire Wire Line
-	2200 2425 2200 2475
-Connection ~ 2200 2475
-Wire Wire Line
-	2200 2475 2600 2475
-Wire Wire Line
-	2300 2425 2300 2525
-Wire Wire Line
-	2400 2525 2400 2425
-Wire Wire Line
-	2500 2425 2500 2525
-Wire Wire Line
-	2600 2425 2600 2475
-Connection ~ 2600 2475
-Wire Wire Line
-	2600 2475 2900 2475
-Wire Wire Line
-	2700 2425 2700 2525
-Wire Wire Line
-	2800 2525 2800 2425
-Wire Wire Line
-	2900 2425 2900 2475
-Connection ~ 2900 2475
-Wire Wire Line
-	2900 2475 3400 2475
-Wire Wire Line
-	3000 2425 3000 2525
-Wire Wire Line
-	3100 2425 3100 2525
-Wire Wire Line
-	3200 2525 3200 2425
-Wire Wire Line
-	3300 2425 3300 2525
-Wire Wire Line
-	3500 2525 3500 2425
-Wire Wire Line
-	3400 2425 3400 2475
-Connection ~ 3400 2475
-Wire Wire Line
-	3400 2475 3900 2475
-Wire Wire Line
-	3600 2525 3600 2425
-Wire Wire Line
-	3700 2425 3700 2525
-Wire Wire Line
-	3800 2525 3800 2425
-Wire Wire Line
-	3900 2425 3900 2475
-Connection ~ 3900 2475
-Wire Wire Line
-	3900 2475 4200 2475
-Wire Wire Line
 	4050 3975 4050 4075
 Wire Wire Line
 	3950 4075 3950 3975
@@ -972,11 +882,11 @@ Wire Wire Line
 Wire Wire Line
 	3550 3975 3550 4075
 Wire Wire Line
-	3450 3975 3450 4075
+	3250 3975 3250 4075
 Wire Wire Line
 	3350 3975 3350 4075
 Wire Wire Line
-	3250 3975 3250 4075
+	3450 3975 3450 4075
 Wire Wire Line
 	3050 3975 3050 4075
 Wire Wire Line
@@ -1095,4 +1005,111 @@ Wire Wire Line
 Connection ~ 2550 4625
 Wire Wire Line
 	2550 4625 2850 4625
+Wire Wire Line
+	3500 1875 4000 1875
+Wire Wire Line
+	4000 1925 4000 1875
+Connection ~ 4000 1875
+Wire Wire Line
+	4000 1875 4200 1875
+Wire Wire Line
+	2500 1925 2500 1875
+Connection ~ 2500 1875
+Wire Wire Line
+	2500 1875 2800 1875
+NoConn ~ 2300 1925
+NoConn ~ 2200 1925
+NoConn ~ 2100 1925
+NoConn ~ 2000 1925
+NoConn ~ 1900 1925
+NoConn ~ 1800 1925
+$Comp
+L power:GNDD #PWR0225
+U 1 1 5C59848E
+P 4300 2525
+F 0 "#PWR0225" H 4300 2275 50  0001 C CNN
+F 1 "GNDD" H 4300 2375 50  0000 C CNN
+F 2 "" H 4300 2525 60  0000 C CNN
+F 3 "" H 4300 2525 60  0000 C CNN
+	1    4300 2525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 2525 4300 2475
+Wire Wire Line
+	4200 2425 4200 2475
+Wire Wire Line
+	4200 2475 4300 2475
+Connection ~ 4300 2475
+Wire Wire Line
+	4300 2475 4300 2425
+Wire Wire Line
+	3800 2425 3800 2525
+Wire Wire Line
+	3700 2525 3700 2425
+Wire Wire Line
+	3600 2425 3600 2525
+Wire Wire Line
+	3500 2525 3500 2425
+Wire Wire Line
+	3300 2425 3300 2525
+Wire Wire Line
+	3200 2525 3200 2425
+Wire Wire Line
+	3100 2425 3100 2525
+Wire Wire Line
+	3000 2525 3000 2425
+Text GLabel 8850 5150 0    50   BiDi ~ 0
+PM_LEDS_SDA
+Text GLabel 8850 5050 0    50   Input ~ 0
+PM_LEDS_SCL
+Text GLabel 2650 6650 3    50   BiDi ~ 0
+PM_LEDS_SDA
+Text GLabel 2400 6650 3    50   Input ~ 0
+PM_LEDS_SCL
+Wire Wire Line
+	4000 2425 4000 2525
+Wire Wire Line
+	4100 2525 4100 2425
+Wire Wire Line
+	3900 2475 3900 2425
+Wire Wire Line
+	3400 2425 3400 2475
+Connection ~ 3400 2475
+Wire Wire Line
+	3400 2475 3900 2475
+Wire Wire Line
+	2900 2425 2900 2475
+Connection ~ 2900 2475
+Wire Wire Line
+	2900 2475 3400 2475
+NoConn ~ 1800 2425
+Wire Wire Line
+	2800 2425 2800 2525
+Wire Wire Line
+	2700 2425 2700 2525
+Wire Wire Line
+	2600 2425 2600 2475
+Wire Wire Line
+	1425 2475 2300 2475
+Connection ~ 2600 2475
+Wire Wire Line
+	2600 2475 2900 2475
+Wire Wire Line
+	2500 2425 2500 2525
+Wire Wire Line
+	2400 2525 2400 2425
+Wire Wire Line
+	2300 2425 2300 2475
+Connection ~ 2300 2475
+Wire Wire Line
+	2300 2475 2600 2475
+Wire Wire Line
+	2200 2525 2200 2425
+Wire Wire Line
+	2100 2425 2100 2525
+Wire Wire Line
+	2000 2425 2000 2525
+Wire Wire Line
+	1900 2525 1900 2425
 $EndSCHEMATC
