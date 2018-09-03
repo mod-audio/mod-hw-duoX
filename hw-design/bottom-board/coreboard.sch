@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:GNDD #PWR091
+L power:GNDD #PWR082
 U 1 1 55FAFACA
 P 9650 3300
-F 0 "#PWR091" H 9650 3050 50  0001 C CNN
+F 0 "#PWR082" H 9650 3050 50  0001 C CNN
 F 1 "GNDD" H 9650 3150 50  0000 C CNN
 F 2 "" H 9650 3300 60  0000 C CNN
 F 3 "" H 9650 3300 60  0000 C CNN
@@ -26,10 +26,10 @@ F 3 "" H 9650 3300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR090
+L power:+3.3V #PWR081
 U 1 1 55FAFDCC
 P 9650 2400
-F 0 "#PWR090" H 9650 2250 50  0001 C CNN
+F 0 "#PWR081" H 9650 2250 50  0001 C CNN
 F 1 "+3.3V" H 9650 2540 50  0000 C CNN
 F 2 "" H 9650 2400 60  0000 C CNN
 F 3 "" H 9650 2400 60  0000 C CNN
@@ -51,10 +51,10 @@ F 6 "ESR03EZPJ272" H 2400 6450 50  0001 C CNN "MPN3"
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+3.3V #PWR070
+L power:+3.3V #PWR071
 U 1 1 55FB0BEE
 P 2400 6250
-F 0 "#PWR070" H 2400 6100 50  0001 C CNN
+F 0 "#PWR071" H 2400 6100 50  0001 C CNN
 F 1 "+3.3V" H 2400 6390 50  0000 C CNN
 F 2 "" H 2400 6250 60  0000 C CNN
 F 3 "" H 2400 6250 60  0000 C CNN
@@ -62,10 +62,10 @@ F 3 "" H 2400 6250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDD #PWR092
+L power:GNDD #PWR083
 U 1 1 567B8370
 P 10100 2550
-F 0 "#PWR092" H 10100 2300 50  0001 C CNN
+F 0 "#PWR083" H 10100 2300 50  0001 C CNN
 F 1 "GNDD" H 10100 2400 50  0000 C CNN
 F 2 "" H 10100 2550 60  0000 C CNN
 F 3 "" H 10100 2550 60  0000 C CNN
@@ -73,10 +73,10 @@ F 3 "" H 10100 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x10_Odd_Even J3
+L Connector_Generic:Conn_02x10_Odd_Even J5
 U 1 1 5B574FB3
 P 9200 4650
-F 0 "J3" H 9250 5150 50  0000 C CNN
+F 0 "J5" H 9250 5150 50  0000 C CNN
 F 1 "HMI_DATA" H 9250 4050 50  0000 C CNN
 F 2 "footprints:Pin_Header_Straight_2x10_Shrouded" H 9200 4650 50  0001 C CNN
 F 3 "" H 9200 4650 50  0001 C CNN
@@ -86,10 +86,10 @@ F 5 "SBH11-PBPC-D10-ST-BK" H 0   2850 50  0001 C CNN "MPN2"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J4
+L Connector_Generic:Conn_01x03 J6
 U 1 1 5B574FBA
 P 9750 5700
-F 0 "J4" H 9750 5900 50  0000 C CNN
+F 0 "J6" H 9750 5900 50  0000 C CNN
 F 1 "SERIAL_DEBUG" V 9850 5700 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9750 5700 60  0001 C CNN
 F 3 "" H 9750 5700 60  0000 C CNN
@@ -98,10 +98,10 @@ F 4 "not populate" H 9750 5700 50  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDD #PWR088
+L power:GNDD #PWR079
 U 1 1 5B574FC1
 P 9500 5900
-F 0 "#PWR088" H 9500 5650 50  0001 C CNN
+F 0 "#PWR079" H 9500 5650 50  0001 C CNN
 F 1 "GNDD" H 9500 5750 50  0000 C CNN
 F 2 "" H 9500 5900 60  0000 C CNN
 F 3 "" H 9500 5900 60  0000 C CNN
@@ -109,10 +109,10 @@ F 3 "" H 9500 5900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDD #PWR087
+L power:GNDD #PWR078
 U 1 1 5B574FC7
 P 8900 5250
-F 0 "#PWR087" H 8900 5000 50  0001 C CNN
+F 0 "#PWR078" H 8900 5000 50  0001 C CNN
 F 1 "GNDD" H 8900 5100 50  0000 C CNN
 F 2 "" H 8900 5250 60  0000 C CNN
 F 3 "" H 8900 5250 60  0000 C CNN
@@ -120,10 +120,10 @@ F 3 "" H 8900 5250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDD #PWR089
+L power:GNDD #PWR080
 U 1 1 5B574FCD
 P 9600 5200
-F 0 "#PWR089" H 9600 4950 50  0001 C CNN
+F 0 "#PWR080" H 9600 4950 50  0001 C CNN
 F 1 "GNDD" H 9600 5050 50  0000 C CNN
 F 2 "" H 9600 5200 60  0000 C CNN
 F 3 "" H 9600 5200 60  0000 C CNN
@@ -168,394 +168,6 @@ Text GLabel 8850 4350 0    50   BiDi ~ 0
 HMI_RFU_02(TX)
 Text GLabel 8850 4950 0    50   Input ~ 0
 PM_LEDS_OE
-Text GLabel 2900 1500 1    50   Input ~ 0
-CLI_UART_RX
-Text GLabel 2800 1500 1    50   Output ~ 0
-CLI_UART_TX
-Text GLabel 6700 4800 1    50   Output ~ 0
-CODEC_RESET
-Text GLabel 5150 3050 1    50   Input ~ 0
-CHAIN_UART_RX
-Text GLabel 5450 3050 1    50   Output ~ 0
-CHAIN_UART_TX
-Text GLabel 1300 4800 1    50   Output ~ 0
-HP_CLOCK
-Text GLabel 1200 4800 1    50   Output ~ 0
-HP_UP/DN
-Text GLabel 3850 1500 1    50   Input ~ 0
-UBOOT_BUTTON
-Text GLabel 3100 1500 1    50   Input ~ 0
-POWER_BUTTON
-Text GLabel 5250 3050 1    50   Output ~ 0
-CHAIN_UART_RE
-Text GLabel 5350 3050 1    50   Output ~ 0
-CHAIN_UART_DE
-Text GLabel 2200 1500 1    50   BiDi ~ 0
-HMI_RFU_01(RX)
-Text GLabel 2100 1500 1    50   BiDi ~ 0
-HMI_RFU_02(TX)
-Text GLabel 5700 4800 1    50   Output ~ 0
-CODEC_I2S_SDIN
-Text GLabel 5800 4800 1    50   Input ~ 0
-CODEC_I2S_SDOUT
-Text GLabel 6000 4800 1    50   Output ~ 0
-CODEC_I2S_BCLK
-Text GLabel 6100 4800 1    50   Output ~ 0
-CODEC_I2S_LRCK
-Text GLabel 1300 1500 1    50   Output ~ 0
-HMI_SPI0_MOSI
-Text GLabel 1200 1500 1    50   Output ~ 0
-HMI_SPI0_CLK
-Text GLabel 1100 1500 1    50   Output ~ 0
-HMI_SPI0_CS0
-Text GLabel 1400 1500 1    50   Input ~ 0
-HMI_SPI0_MISO
-Text GLabel 6400 4800 1    50   BiDi ~ 0
-CODEC_I2C_SDA
-Text GLabel 6500 4800 1    50   Output ~ 0
-CODEC_I2C_SCL
-Text GLabel 2650 3000 1    50   Input ~ 0
-MIDI_UART_RX
-Text GLabel 2750 3000 1    50   Output ~ 0
-MIDI_UART_TX
-Text GLabel 3850 3000 1    50   BiDi ~ 0
-USB_DEV_DP
-Text GLabel 3750 3000 1    50   BiDi ~ 0
-USB_DEV_DM
-Text GLabel 4450 3000 1    50   BiDi ~ 0
-USB_HOST_DP
-Text GLabel 4550 3000 1    50   BiDi ~ 0
-USB_HOST_DM
-Text GLabel 3350 3000 1    50   Input ~ 0
-USB_DEV_DET
-Text GLabel 2500 1500 1    50   BiDi ~ 0
-PM_LEDS_SDA
-Text GLabel 2600 1500 1    50   Output ~ 0
-PM_LEDS_SCL
-Text GLabel 2400 1500 1    50   Output ~ 0
-PM_LEDS_OE
-Text GLabel 1800 1500 1    50   Input ~ 0
-HMI_UART_RX
-Text GLabel 1900 1500 1    50   Output ~ 0
-HMI_UART_TX
-Text GLabel 1700 1500 1    50   Output ~ 0
-HMI_ISP_ENABLE
-Text GLabel 1600 1500 1    50   Output ~ 0
-HMI_RESET
-Text GLabel 4050 3000 1    50   Output ~ 0
-USB_HOST_DRV
-$Comp
-L power:+5VD #PWR084
-U 1 1 5B588028
-P 6400 2950
-F 0 "#PWR084" H 6400 2800 50  0001 C CNN
-F 1 "+5VD" H 6400 3090 50  0000 C CNN
-F 2 "" H 6400 2950 50  0001 C CNN
-F 3 "" H 6400 2950 50  0001 C CNN
-	1    6400 2950
-	1    0    0    -1  
-$EndComp
-Text GLabel 5600 4800 1    50   Input ~ 0
-CODEC_SPDIF_SDIN
-Text GLabel 2050 3000 1    50   Output ~ 0
-IN1_GC1
-Text GLabel 1950 3000 1    50   Output ~ 0
-IN1_GC2
-Text GLabel 1850 3000 1    50   Output ~ 0
-IN2_GC1
-Text GLabel 1750 3000 1    50   Output ~ 0
-IN2_GC2
-Text GLabel 1150 3000 1    50   Output ~ 0
-IN1_TBP
-Text GLabel 1050 3000 1    50   Output ~ 0
-IN2_TBP
-Text GLabel 1100 4800 1    50   Output ~ 0
-HP_DISABLE
-Text GLabel 4350 4800 1    50   Output ~ 0
-CV_ADC_SCLK
-Text GLabel 4450 4800 1    50   Input ~ 0
-CV_ADC_DOUT
-Text GLabel 4550 4800 1    50   Output ~ 0
-CV_ADC_DIN
-Text GLabel 4650 4800 1    50   Output ~ 0
-CV_ADC_~CS~
-Text GLabel 4150 4800 1    50   Output ~ 0
-CV_IN_BIAS
-Text GLabel 2900 4800 1    50   Output ~ 0
-CV_OUT_BIAS
-Text GLabel 3200 4800 1    50   Output ~ 0
-CV_DAC_SCK
-Text GLabel 3300 4800 1    50   Output ~ 0
-CV_DAC_SDI
-Text GLabel 3100 4800 1    50   Output ~ 0
-CV_DAC_~CS~
-Text GLabel 1900 4800 1    50   Input ~ 0
-EXP_FLAG2
-Text GLabel 2000 4800 1    50   Input ~ 0
-EXP_FLAG1
-Text GLabel 4050 4800 1    50   Input ~ 0
-CV_IN_DET
-Text GLabel 2200 4800 1    50   Output ~ 0
-EXP_EN1
-Text GLabel 2100 4800 1    50   Output ~ 0
-EXP_EN2
-$Comp
-L Connector_Generic:Conn_01x03 P13
-U 1 1 5B58A719
-P 6200 3350
-F 0 "P13" H 6200 3550 50  0000 C CNN
-F 1 "Power" H 6200 3150 50  0000 C CNN
-F 2 "footprints:CastellatedBase_P1.50mm_3pins" H 6200 3350 50  0001 C CNN
-F 3 "" H 6200 3350 50  0001 C CNN
-	1    6200 3350
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GNDD #PWR085
-U 1 1 5B58B840
-P 6450 3400
-F 0 "#PWR085" H 6450 3150 50  0001 C CNN
-F 1 "GNDD" H 6450 3250 50  0000 C CNN
-F 2 "" H 6450 3400 60  0000 C CNN
-F 3 "" H 6450 3400 60  0000 C CNN
-	1    6450 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR083
-U 1 1 5B58BDE3
-P 6100 2950
-F 0 "#PWR083" H 6100 2800 50  0001 C CNN
-F 1 "+3.3V" H 6100 3090 50  0000 C CNN
-F 2 "" H 6100 2950 60  0000 C CNN
-F 3 "" H 6100 2950 60  0000 C CNN
-	1    6100 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDD #PWR080
-U 1 1 5B5925F2
-P 4700 3400
-F 0 "#PWR080" H 4700 3150 50  0001 C CNN
-F 1 "GNDD" H 4700 3250 50  0000 C CNN
-F 2 "" H 4700 3400 60  0000 C CNN
-F 3 "" H 4700 3400 60  0000 C CNN
-	1    4700 3400
-	1    0    0    -1  
-$EndComp
-NoConn ~ 4250 3150
-NoConn ~ 4150 3150
-NoConn ~ 3550 3150
-$Comp
-L Connector_Generic:Conn_01x14 P9
-U 1 1 5B596160
-P 3950 3350
-F 0 "P9" H 3950 4050 50  0000 C CNN
-F 1 "USB" H 3950 2550 50  0000 C CNN
-F 2 "footprints:CastellatedBase_P1.50mm_14pins" H 3950 3350 50  0001 C CNN
-F 3 "" H 3950 3350 50  0001 C CNN
-	1    3950 3350
-	0    1    1    0   
-$EndComp
-NoConn ~ 3450 3150
-$Comp
-L Connector_Generic:Conn_01x13 P12
-U 1 1 5B59C569
-P 6100 5150
-F 0 "P12" H 6100 5850 50  0000 C CNN
-F 1 "CODEC" H 6100 4450 50  0000 C CNN
-F 2 "footprints:CastellatedBase_P1.50mm_13pins" H 6100 5150 50  0001 C CNN
-F 3 "" H 6100 5150 50  0001 C CNN
-	1    6100 5150
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GNDD #PWR086
-U 1 1 5B59E442
-P 6850 5200
-F 0 "#PWR086" H 6850 4950 50  0001 C CNN
-F 1 "GNDD" H 6850 5050 50  0000 C CNN
-F 2 "" H 6850 5200 60  0000 C CNN
-F 3 "" H 6850 5200 60  0000 C CNN
-	1    6850 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x03 P6
-U 1 1 5B5A0EE2
-P 2650 3350
-F 0 "P6" H 2650 3550 50  0000 C CNN
-F 1 "MIDI" H 2650 3150 50  0000 C CNN
-F 2 "footprints:CastellatedBase_P1.50mm_3pins" H 2650 3350 50  0001 C CNN
-F 3 "" H 2650 3350 50  0001 C CNN
-	1    2650 3350
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GNDD #PWR072
-U 1 1 5B5A1422
-P 2900 3400
-F 0 "#PWR072" H 2900 3150 50  0001 C CNN
-F 1 "GNDD" H 2900 3250 50  0000 C CNN
-F 2 "" H 2900 3400 60  0000 C CNN
-F 3 "" H 2900 3400 60  0000 C CNN
-	1    2900 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x08 P10
-U 1 1 5B5A80D8
-P 4450 5150
-F 0 "P10" H 4450 5550 50  0000 C CNN
-F 1 "CV Input" H 4450 4650 50  0000 C CNN
-F 2 "footprints:CastellatedBase_P1.50mm_8pins" H 4450 5150 50  0001 C CNN
-F 3 "" H 4450 5150 50  0001 C CNN
-	1    4450 5150
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GNDD #PWR081
-U 1 1 5B5A820D
-P 4900 5200
-F 0 "#PWR081" H 4900 4950 50  0001 C CNN
-F 1 "GNDD" H 4900 5050 50  0000 C CNN
-F 2 "" H 4900 5200 60  0000 C CNN
-F 3 "" H 4900 5200 60  0000 C CNN
-	1    4900 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x05 P11
-U 1 1 5B5B2361
-P 5350 3350
-F 0 "P11" H 5350 3650 50  0000 C CNN
-F 1 "Control Chain" H 5350 3050 50  0000 C CNN
-F 2 "footprints:CastellatedBase_P1.50mm_5pins" H 5350 3350 50  0001 C CNN
-F 3 "" H 5350 3350 50  0001 C CNN
-	1    5350 3350
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x05 P5
-U 1 1 5B5B284A
-P 2100 5150
-F 0 "P5" H 2100 5450 50  0000 C CNN
-F 1 "Exp Pedal" H 2100 4850 50  0000 C CNN
-F 2 "footprints:CastellatedBase_P1.50mm_5pins" H 2100 5150 50  0001 C CNN
-F 3 "" H 2100 5150 50  0001 C CNN
-	1    2100 5150
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GNDD #PWR082
-U 1 1 5B5B2F19
-P 5700 3400
-F 0 "#PWR082" H 5700 3150 50  0001 C CNN
-F 1 "GNDD" H 5700 3250 50  0000 C CNN
-F 2 "" H 5700 3400 60  0000 C CNN
-F 3 "" H 5700 3400 60  0000 C CNN
-	1    5700 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDD #PWR071
-U 1 1 5B5B454B
-P 2450 5200
-F 0 "#PWR071" H 2450 4950 50  0001 C CNN
-F 1 "GNDD" H 2450 5050 50  0000 C CNN
-F 2 "" H 2450 5200 60  0000 C CNN
-F 3 "" H 2450 5200 60  0000 C CNN
-	1    2450 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x04 P2
-U 1 1 5B5B94C6
-P 1200 5150
-F 0 "P2" H 1200 4850 50  0000 C CNN
-F 1 "Headphones" H 1200 5350 50  0000 C CNN
-F 2 "footprints:CastellatedBase_P1.50mm_4pins" H 1200 5150 50  0001 C CNN
-F 3 "" H 1200 5150 50  0001 C CNN
-	1    1200 5150
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GNDD #PWR068
-U 1 1 5B5B9953
-P 850 5200
-F 0 "#PWR068" H 850 4950 50  0001 C CNN
-F 1 "GNDD" H 850 5050 50  0000 C CNN
-F 2 "" H 850 5200 60  0000 C CNN
-F 3 "" H 850 5200 60  0000 C CNN
-	1    850  5200
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x06 P7
-U 1 1 5B5BF536
-P 3200 5150
-F 0 "P7" H 3200 5450 50  0000 C CNN
-F 1 "CV Output" H 3200 4750 50  0000 C CNN
-F 2 "footprints:CastellatedBase_P1.50mm_6pins" H 3200 5150 50  0001 C CNN
-F 3 "" H 3200 5150 50  0001 C CNN
-	1    3200 5150
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GNDD #PWR074
-U 1 1 5B5C0830
-P 3550 5200
-F 0 "#PWR074" H 3550 4950 50  0001 C CNN
-F 1 "GNDD" H 3550 5050 50  0000 C CNN
-F 2 "" H 3550 5200 60  0000 C CNN
-F 3 "" H 3550 5200 60  0000 C CNN
-	1    3550 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x03 P1
-U 1 1 5B5C2330
-P 1050 3350
-F 0 "P1" H 1050 3550 50  0000 C CNN
-F 1 "True Bypass" H 1050 3150 50  0000 C CNN
-F 2 "footprints:CastellatedBase_P1.50mm_3pins" H 1050 3350 50  0001 C CNN
-F 3 "" H 1050 3350 50  0001 C CNN
-	1    1050 3350
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x05 P3
-U 1 1 5B5C271D
-P 1850 3350
-F 0 "P3" H 1850 3650 50  0000 C CNN
-F 1 "Gain Control" H 1850 3050 50  0000 C CNN
-F 2 "footprints:CastellatedBase_P1.50mm_5pins" H 1850 3350 50  0001 C CNN
-F 3 "" H 1850 3350 50  0001 C CNN
-	1    1850 3350
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GNDD #PWR067
-U 1 1 5B5C2FDF
-P 1300 3400
-F 0 "#PWR067" H 1300 3150 50  0001 C CNN
-F 1 "GNDD" H 1300 3250 50  0000 C CNN
-F 2 "" H 1300 3400 60  0000 C CNN
-F 3 "" H 1300 3400 60  0000 C CNN
-	1    1300 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDD #PWR069
-U 1 1 5B5C5424
-P 2200 3400
-F 0 "#PWR069" H 2200 3150 50  0001 C CNN
-F 1 "GNDD" H 2200 3250 50  0000 C CNN
-F 2 "" H 2200 3400 60  0000 C CNN
-F 3 "" H 2200 3400 60  0000 C CNN
-	1    2200 3400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9650 3200 9650 3300
 Wire Wire Line
@@ -635,286 +247,6 @@ Wire Wire Line
 	8450 4550 8300 4550
 Wire Wire Line
 	8300 4650 8450 4650
-Wire Wire Line
-	6100 3150 6100 3100
-Wire Wire Line
-	6450 3100 6450 3400
-Wire Wire Line
-	5150 3050 5150 3150
-Wire Wire Line
-	5250 3150 5250 3050
-Wire Wire Line
-	5350 3050 5350 3150
-Wire Wire Line
-	5450 3150 5450 3050
-Wire Wire Line
-	4700 3100 4700 3400
-Wire Wire Line
-	3750 3000 3750 3150
-Wire Wire Line
-	3850 3150 3850 3000
-Wire Wire Line
-	3950 3100 3950 3150
-Connection ~ 3950 3100
-Wire Wire Line
-	4050 3150 4050 3000
-Wire Wire Line
-	4450 3000 4450 3150
-Wire Wire Line
-	4550 3000 4550 3150
-Wire Wire Line
-	3350 3150 3350 3000
-Wire Wire Line
-	3650 3150 3650 3100
-Connection ~ 3650 3100
-Wire Wire Line
-	3250 3150 3250 3100
-Wire Wire Line
-	3250 3100 3650 3100
-Wire Wire Line
-	4350 3150 4350 3100
-Connection ~ 4350 3100
-Wire Wire Line
-	6850 4900 6850 5200
-Wire Wire Line
-	6700 4800 6700 4950
-Wire Wire Line
-	6400 4800 6400 4950
-Wire Wire Line
-	6500 4950 6500 4800
-Wire Wire Line
-	5600 4800 5600 4950
-Wire Wire Line
-	5700 4950 5700 4800
-Wire Wire Line
-	5800 4800 5800 4950
-Wire Wire Line
-	6000 4800 6000 4950
-Wire Wire Line
-	6100 4950 6100 4800
-Wire Wire Line
-	2900 3100 2900 3400
-Wire Wire Line
-	2550 3100 2550 3150
-Wire Wire Line
-	2750 3000 2750 3150
-Wire Wire Line
-	2650 3150 2650 3000
-Wire Wire Line
-	4900 4900 4900 5200
-Wire Wire Line
-	4750 4950 4750 4900
-Connection ~ 4750 4900
-Wire Wire Line
-	4650 4950 4650 4800
-Wire Wire Line
-	4550 4800 4550 4950
-Wire Wire Line
-	4450 4800 4450 4950
-Wire Wire Line
-	4350 4950 4350 4800
-Wire Wire Line
-	4250 4900 4750 4900
-Wire Wire Line
-	4250 4900 4250 4950
-Wire Wire Line
-	4050 4800 4050 4950
-Wire Wire Line
-	4150 4800 4150 4950
-Wire Wire Line
-	5700 3400 5700 3100
-Wire Wire Line
-	5700 3100 5550 3100
-Wire Wire Line
-	5550 3100 5550 3150
-Wire Wire Line
-	2300 4900 2300 4950
-Wire Wire Line
-	2200 4800 2200 4950
-Wire Wire Line
-	2100 4950 2100 4800
-Wire Wire Line
-	2000 4800 2000 4950
-Wire Wire Line
-	1900 4950 1900 4800
-Wire Wire Line
-	1000 4900 1000 4950
-Wire Wire Line
-	1100 4800 1100 4950
-Wire Wire Line
-	1300 4950 1300 4800
-Wire Wire Line
-	1200 4800 1200 4950
-Wire Wire Line
-	3550 4900 3550 5200
-Wire Wire Line
-	3000 4900 3400 4900
-Wire Wire Line
-	3000 4900 3000 4950
-Wire Wire Line
-	2900 4950 2900 4800
-Wire Wire Line
-	3100 4800 3100 4950
-Wire Wire Line
-	3200 4950 3200 4800
-Wire Wire Line
-	3300 4800 3300 4950
-Wire Wire Line
-	3400 4950 3400 4900
-Connection ~ 3400 4900
-Wire Wire Line
-	1300 3100 1300 3400
-Wire Wire Line
-	950  3100 950  3150
-Wire Wire Line
-	2200 3100 2200 3400
-Wire Wire Line
-	2200 3100 1650 3100
-Wire Wire Line
-	1650 3100 1650 3150
-Wire Wire Line
-	1750 3150 1750 3000
-Wire Wire Line
-	1850 3000 1850 3150
-Wire Wire Line
-	1950 3150 1950 3000
-Wire Wire Line
-	2050 3000 2050 3150
-Wire Wire Line
-	1050 3000 1050 3150
-Wire Wire Line
-	1150 3150 1150 3000
-Wire Wire Line
-	850  5200 850  4900
-Wire Wire Line
-	850  4900 1000 4900
-Wire Wire Line
-	2450 5200 2450 4900
-Wire Wire Line
-	2450 4900 2300 4900
-Wire Wire Line
-	6100 3100 6450 3100
-Wire Wire Line
-	6100 2950 6100 3000
-Wire Wire Line
-	6100 3000 6200 3000
-Wire Wire Line
-	6200 3000 6200 3150
-Wire Wire Line
-	6300 3150 6300 3000
-Wire Wire Line
-	6300 3000 6400 3000
-Wire Wire Line
-	6400 3000 6400 2950
-Wire Wire Line
-	2900 3100 2550 3100
-Wire Wire Line
-	950  3100 1300 3100
-$Comp
-L Connector_Generic:Conn_01x22 P4
-U 1 1 5B5E99A4
-P 2100 1850
-F 0 "P4" H 2100 2950 50  0000 C CNN
-F 1 "HMI" H 2100 650 50  0000 C CNN
-F 2 "footprints:CastellatedBase_P1.50mm_22pins" H 2100 1850 50  0001 C CNN
-F 3 "" H 2100 1850 50  0001 C CNN
-	1    2100 1850
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GNDD #PWR073
-U 1 1 5B5EB2C4
-P 3250 1900
-F 0 "#PWR073" H 3250 1650 50  0001 C CNN
-F 1 "GNDD" H 3250 1750 50  0000 C CNN
-F 2 "" H 3250 1900 60  0000 C CNN
-F 3 "" H 3250 1900 60  0000 C CNN
-	1    3250 1900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3250 1600 3250 1900
-Wire Wire Line
-	1000 1600 1500 1600
-Wire Wire Line
-	1000 1600 1000 1650
-Wire Wire Line
-	1200 1500 1200 1650
-Wire Wire Line
-	1100 1650 1100 1500
-Wire Wire Line
-	1300 1650 1300 1500
-Wire Wire Line
-	1400 1500 1400 1650
-Wire Wire Line
-	2100 1650 2100 1500
-Wire Wire Line
-	2200 1500 2200 1650
-Wire Wire Line
-	1500 1650 1500 1600
-Connection ~ 1500 1600
-Wire Wire Line
-	2000 1600 2000 1650
-Connection ~ 2000 1600
-Wire Wire Line
-	2300 1650 2300 1600
-Connection ~ 2300 1600
-Wire Wire Line
-	2700 1650 2700 1600
-Connection ~ 2700 1600
-Wire Wire Line
-	1700 1500 1700 1650
-Wire Wire Line
-	1600 1650 1600 1500
-Wire Wire Line
-	1800 1650 1800 1500
-Wire Wire Line
-	1900 1500 1900 1650
-Wire Wire Line
-	2500 1500 2500 1650
-Wire Wire Line
-	2400 1650 2400 1500
-Wire Wire Line
-	2600 1650 2600 1500
-Wire Wire Line
-	2800 1650 2800 1500
-Wire Wire Line
-	2900 1500 2900 1650
-Wire Wire Line
-	3100 1650 3100 1500
-Wire Wire Line
-	3000 1650 3000 1600
-Connection ~ 3000 1600
-$Comp
-L power:GNDD #PWR077
-U 1 1 5B5F08EA
-P 4100 1900
-F 0 "#PWR077" H 4100 1650 50  0001 C CNN
-F 1 "GNDD" H 4100 1750 50  0000 C CNN
-F 2 "" H 4100 1900 60  0000 C CNN
-F 3 "" H 4100 1900 60  0000 C CNN
-	1    4100 1900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4100 1600 4100 1900
-$Comp
-L Connector_Generic:Conn_01x02 P8
-U 1 1 5B5F1574
-P 3950 1850
-F 0 "P8" H 3950 1950 50  0000 C CNN
-F 1 "UBOOT" H 3950 1650 50  0000 C CNN
-F 2 "footprints:CastellatedBase_P1.50mm_2pins" H 3950 1850 50  0001 C CNN
-F 3 "" H 3950 1850 50  0001 C CNN
-	1    3950 1850
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4100 1600 3950 1600
-Wire Wire Line
-	3950 1600 3950 1650
-Wire Wire Line
-	3850 1500 3850 1650
 Text Notes 8800 2100 0    100  ~ 0
 HW ID
 Wire Notes Line
@@ -957,10 +289,10 @@ Wire Wire Line
 Text GLabel 1000 6650 3    50   Output ~ 0
 POWER_BUTTON
 $Comp
-L power:+5VD #PWR075
+L power:+5VD #PWR072
 U 1 1 5B60632C
 P 3600 6200
-F 0 "#PWR075" H 3600 6050 50  0001 C CNN
+F 0 "#PWR072" H 3600 6050 50  0001 C CNN
 F 1 "+5VD" H 3600 6340 50  0000 C CNN
 F 2 "" H 3600 6200 50  0001 C CNN
 F 3 "" H 3600 6200 50  0001 C CNN
@@ -996,10 +328,10 @@ Wire Wire Line
 	3750 6300 3600 6300
 Connection ~ 3600 6300
 $Comp
-L power:GNDD #PWR076
+L power:GNDD #PWR073
 U 1 1 5B607396
 P 3600 6700
-F 0 "#PWR076" H 3600 6450 50  0001 C CNN
+F 0 "#PWR073" H 3600 6450 50  0001 C CNN
 F 1 "GNDD" H 3600 6550 50  0000 C CNN
 F 2 "" H 3600 6700 60  0000 C CNN
 F 3 "" H 3600 6700 60  0000 C CNN
@@ -1021,10 +353,10 @@ Wire Wire Line
 	4250 6300 4100 6300
 Connection ~ 4100 6300
 $Comp
-L power:GNDD #PWR079
+L power:GNDD #PWR075
 U 1 1 5B60934A
 P 4100 6700
-F 0 "#PWR079" H 4100 6450 50  0001 C CNN
+F 0 "#PWR075" H 4100 6450 50  0001 C CNN
 F 1 "GNDD" H 4100 6550 50  0000 C CNN
 F 2 "" H 4100 6700 60  0000 C CNN
 F 3 "" H 4100 6700 60  0000 C CNN
@@ -1032,10 +364,10 @@ F 3 "" H 4100 6700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR078
+L power:+3.3V #PWR074
 U 1 1 5B609396
 P 4100 6200
-F 0 "#PWR078" H 4100 6050 50  0001 C CNN
+F 0 "#PWR074" H 4100 6050 50  0001 C CNN
 F 1 "+3.3V" H 4100 6340 50  0000 C CNN
 F 2 "" H 4100 6200 60  0000 C CNN
 F 3 "" H 4100 6200 60  0000 C CNN
@@ -1079,26 +411,6 @@ Wire Wire Line
 Wire Wire Line
 	8900 4750 8900 5250
 Wire Wire Line
-	3950 3100 4350 3100
-Wire Wire Line
-	3650 3100 3950 3100
-Wire Wire Line
-	4350 3100 4700 3100
-Wire Wire Line
-	4750 4900 4900 4900
-Wire Wire Line
-	3400 4900 3550 4900
-Wire Wire Line
-	1500 1600 2000 1600
-Wire Wire Line
-	2000 1600 2300 1600
-Wire Wire Line
-	2300 1600 2700 1600
-Wire Wire Line
-	2700 1600 3000 1600
-Wire Wire Line
-	3000 1600 3250 1600
-Wire Wire Line
 	3600 6600 3600 6700
 Wire Wire Line
 	3600 6300 3600 6350
@@ -1127,10 +439,10 @@ $EndComp
 Wire Wire Line
 	10150 2900 10050 2900
 $Comp
-L power:GNDD #PWR093
+L power:GNDD #PWR084
 U 1 1 5B8606AE
 P 10100 3100
-F 0 "#PWR093" H 10100 2850 50  0001 C CNN
+F 0 "#PWR084" H 10100 2850 50  0001 C CNN
 F 1 "GNDD" H 10100 2950 50  0000 C CNN
 F 2 "" H 10100 3100 60  0000 C CNN
 F 3 "" H 10100 3100 60  0000 C CNN
@@ -1145,11 +457,6 @@ Text GLabel 10150 2800 2    50   BiDi ~ 0
 PM_LEDS_SDA
 Text GLabel 10150 2900 2    50   Input ~ 0
 PM_LEDS_SCL
-Text GLabel 5500 4800 1    50   Input ~ 0
-CODEC_MUTEC
-Wire Wire Line
-	5500 4800 5500 4950
-NoConn ~ 6200 4950
 $Comp
 L Device:R_Small R17
 U 1 1 5B633415
@@ -1304,18 +611,488 @@ F 6 "ESR03EZPJ103" H 1750 6450 50  0001 C CNN "MPN3"
 	1    0    0    -1  
 $EndComp
 Connection ~ 1500 6300
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J3
+U 1 1 5B8A1F13
+P 3150 4375
+F 0 "J3" V 3246 5354 50  0000 L CNN
+F 1 "CB Adapter" V 3155 5354 50  0000 L CNN
+F 2 "footprints:DF12(3.0)-40DP-0.5V(86)" H 3150 4375 50  0001 C CNN
+F 3 "~" H 3150 4375 50  0001 C CNN
+F 4 "DF12(3.0)-40DP-0.5V(86)" V 3150 4375 50  0001 C CNN "MPN"
+	1    3150 4375
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x30_Odd_Even J4
+U 1 1 5B8A20B9
+P 3200 2225
+F 0 "J4" V 3296 3704 50  0000 L CNN
+F 1 "CB Adapter" V 3205 3704 50  0000 L CNN
+F 2 "footprints:DF12(3.0)-60DP-0.5V(86)" H 3200 2225 50  0001 C CNN
+F 3 "~" H 3200 2225 50  0001 C CNN
+F 4 "DF12(3.0)-60DP-0.5V(86)" V 3200 2225 50  0001 C CNN "MPN"
+	1    3200 2225
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4300 1825 1    50   Input ~ 0
+CHAIN_UART_RX
+Text GLabel 4600 1825 1    50   Output ~ 0
+CHAIN_UART_TX
+Text GLabel 4400 1825 1    50   Output ~ 0
+CHAIN_UART_RE
+Text GLabel 4500 1825 1    50   Output ~ 0
+CHAIN_UART_DE
+$Comp
+L power:+5VD #PWR076
+U 1 1 5B905C15
+P 4700 2700
+F 0 "#PWR076" H 4700 2550 50  0001 C CNN
+F 1 "+5VD" H 4700 2840 50  0000 C CNN
+F 2 "" H 4700 2700 50  0001 C CNN
+F 3 "" H 4700 2700 50  0001 C CNN
+	1    4700 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR077
+U 1 1 5B905C1B
+P 4875 2350
+F 0 "#PWR077" H 4875 2200 50  0001 C CNN
+F 1 "+3.3V" H 4875 2490 50  0000 C CNN
+F 2 "" H 4875 2350 60  0000 C CNN
+F 3 "" H 4875 2350 60  0000 C CNN
+	1    4875 2350
+	1    0    0    -1  
+$EndComp
+Text GLabel 3250 3975 1    50   Output ~ 0
+CV_ADC_SCLK
+Text GLabel 3350 3975 1    50   Input ~ 0
+CV_ADC_DOUT
+Text GLabel 3450 3975 1    50   Output ~ 0
+CV_ADC_DIN
+Text GLabel 3550 3975 1    50   Output ~ 0
+CV_ADC_~CS~
+Text GLabel 4000 2525 3    50   Output ~ 0
+CV_IN_BIAS
+Text GLabel 4100 2525 3    50   Input ~ 0
+CV_IN_DET
+Text GLabel 3400 1825 1    50   BiDi ~ 0
+USB_DEV_DP
+Text GLabel 3300 1825 1    50   BiDi ~ 0
+USB_DEV_DM
+Text GLabel 4000 1825 1    50   BiDi ~ 0
+USB_HOST_DP
+Text GLabel 4100 1825 1    50   BiDi ~ 0
+USB_HOST_DM
+Text GLabel 2900 1825 1    50   Input ~ 0
+USB_DEV_DET
+Text GLabel 3600 1825 1    50   Output ~ 0
+USB_HOST_DRV
+Text GLabel 2600 1825 1    50   Input ~ 0
+MIDI_UART_RX
+Text GLabel 2700 1825 1    50   Output ~ 0
+MIDI_UART_TX
+Text GLabel 1900 1825 1    50   Input ~ 0
+UBOOT_BUTTON
+Text GLabel 2000 2525 3    50   Input ~ 0
+CLI_UART_RX
+Text GLabel 2100 2525 3    50   Output ~ 0
+CLI_UART_TX
+Text GLabel 1800 2525 3    50   Input ~ 0
+POWER_BUTTON
+Text GLabel 2700 2525 3    50   BiDi ~ 0
+HMI_RFU_01(RX)
+Text GLabel 2800 2525 3    50   BiDi ~ 0
+HMI_RFU_02(TX)
+Text GLabel 3600 2525 3    50   Output ~ 0
+HMI_SPI0_MOSI
+Text GLabel 3700 2525 3    50   Output ~ 0
+HMI_SPI0_CLK
+Text GLabel 3800 2525 3    50   Output ~ 0
+HMI_SPI0_CS0
+Text GLabel 3500 2525 3    50   Input ~ 0
+HMI_SPI0_MISO
+Text GLabel 2400 2525 3    50   BiDi ~ 0
+PM_LEDS_SDA
+Text GLabel 2300 2525 3    50   Output ~ 0
+PM_LEDS_SCL
+Text GLabel 2500 2525 3    50   Output ~ 0
+PM_LEDS_OE
+Text GLabel 3100 2525 3    50   Input ~ 0
+HMI_UART_RX
+Text GLabel 3000 2525 3    50   Output ~ 0
+HMI_UART_TX
+Text GLabel 3200 2525 3    50   Output ~ 0
+HMI_ISP_ENABLE
+Text GLabel 3300 2525 3    50   Output ~ 0
+HMI_RESET
+Text GLabel 3750 3975 1    50   Input ~ 0
+EXP_FLAG2
+Text GLabel 3850 3975 1    50   Input ~ 0
+EXP_FLAG1
+Text GLabel 4050 3975 1    50   Output ~ 0
+EXP_EN1
+Text GLabel 3950 3975 1    50   Output ~ 0
+EXP_EN2
+Text GLabel 2450 4675 3    50   Output ~ 0
+CODEC_RESET
+Text GLabel 3450 4675 3    50   Output ~ 0
+CODEC_I2S_SDIN
+Text GLabel 3350 4675 3    50   Input ~ 0
+CODEC_I2S_SDOUT
+Text GLabel 3150 4675 3    50   Output ~ 0
+CODEC_I2S_BCLK
+Text GLabel 3050 4675 3    50   Output ~ 0
+CODEC_I2S_LRCK
+Text GLabel 2750 4675 3    50   BiDi ~ 0
+CODEC_I2C_SDA
+Text GLabel 2650 4675 3    50   Output ~ 0
+CODEC_I2C_SCL
+Text GLabel 3550 4675 3    50   Input ~ 0
+CODEC_SPDIF_SDIN
+Text GLabel 3650 4675 3    50   Input ~ 0
+CODEC_MUTEC
+Text GLabel 3850 4675 3    50   Output ~ 0
+IN1_GC1
+Text GLabel 3950 4675 3    50   Output ~ 0
+IN1_GC2
+Text GLabel 4050 4675 3    50   Output ~ 0
+IN2_GC1
+Text GLabel 4150 4675 3    50   Output ~ 0
+IN2_GC2
+Text GLabel 2650 3975 1    50   Output ~ 0
+CV_OUT_BIAS
+Text GLabel 2950 3975 1    50   Output ~ 0
+CV_DAC_SCK
+Text GLabel 3050 3975 1    50   Output ~ 0
+CV_DAC_SDI
+Text GLabel 2850 3975 1    50   Output ~ 0
+CV_DAC_~CS~
+Text GLabel 2450 3975 1    50   Output ~ 0
+HP_CLOCK
+Text GLabel 2350 3975 1    50   Output ~ 0
+HP_UP/DN
+Text GLabel 2250 3975 1    50   Output ~ 0
+HP_DISABLE
+Text GLabel 2250 4675 3    50   Output ~ 0
+IN1_TBP
+Text GLabel 2350 4675 3    50   Output ~ 0
+IN2_TBP
+$Comp
+L power:GNDD #PWR068
+U 1 1 5B8E088D
+P 1425 2575
+F 0 "#PWR068" H 1425 2325 50  0001 C CNN
+F 1 "GNDD" H 1425 2425 50  0000 C CNN
+F 2 "" H 1425 2575 60  0000 C CNN
+F 3 "" H 1425 2575 60  0000 C CNN
+	1    1425 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR067
+U 1 1 5B8EE8EA
+P 1425 1925
+F 0 "#PWR067" H 1425 1675 50  0001 C CNN
+F 1 "GNDD" H 1425 1775 50  0000 C CNN
+F 2 "" H 1425 1925 60  0000 C CNN
+F 3 "" H 1425 1925 60  0000 C CNN
+	1    1425 1925
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3800 1925
+NoConn ~ 3700 1925
+NoConn ~ 3100 1925
+NoConn ~ 3000 1925
 Wire Wire Line
-	5900 4900 5900 4950
+	1425 1925 1425 1875
 Wire Wire Line
-	6850 4900 6600 4900
+	1425 1875 2800 1875
 Wire Wire Line
-	6300 4950 6300 4900
-Connection ~ 6300 4900
+	4700 1875 4700 1925
 Wire Wire Line
-	6300 4900 5900 4900
+	4600 1825 4600 1925
 Wire Wire Line
-	6600 4950 6600 4900
-Connection ~ 6600 4900
+	4500 1925 4500 1825
 Wire Wire Line
-	6600 4900 6300 4900
+	4400 1825 4400 1925
+Wire Wire Line
+	4300 1825 4300 1925
+Wire Wire Line
+	4200 1925 4200 1875
+Connection ~ 4200 1875
+Wire Wire Line
+	4200 1875 4700 1875
+Wire Wire Line
+	4100 1825 4100 1925
+Wire Wire Line
+	4000 1925 4000 1825
+Wire Wire Line
+	3900 1925 3900 1875
+Connection ~ 3900 1875
+Wire Wire Line
+	3900 1875 4200 1875
+Wire Wire Line
+	3600 1825 3600 1925
+Wire Wire Line
+	3500 1925 3500 1875
+Connection ~ 3500 1875
+Wire Wire Line
+	3500 1875 3900 1875
+Wire Wire Line
+	3400 1825 3400 1925
+Wire Wire Line
+	3300 1925 3300 1825
+Wire Wire Line
+	3200 1925 3200 1875
+Connection ~ 3200 1875
+Wire Wire Line
+	3200 1875 3500 1875
+Wire Wire Line
+	2900 1925 2900 1825
+Wire Wire Line
+	2800 1925 2800 1875
+Connection ~ 2800 1875
+Wire Wire Line
+	2800 1875 3200 1875
+Wire Wire Line
+	2700 1825 2700 1925
+Wire Wire Line
+	2600 1925 2600 1825
+Wire Wire Line
+	1900 1825 1900 1925
+Wire Wire Line
+	4100 2425 4100 2525
+Wire Wire Line
+	4000 2425 4000 2525
+Wire Wire Line
+	1425 2575 1425 2475
+Wire Wire Line
+	1425 2475 1900 2475
+Wire Wire Line
+	4300 2475 4300 2425
+Wire Wire Line
+	4200 2425 4200 2475
+Connection ~ 4200 2475
+Wire Wire Line
+	4200 2475 4300 2475
+Wire Wire Line
+	4600 2425 4600 2475
+Wire Wire Line
+	4600 2475 4700 2475
+Wire Wire Line
+	4875 2475 4875 2350
+Wire Wire Line
+	4700 2425 4700 2475
+Connection ~ 4700 2475
+Wire Wire Line
+	4700 2475 4875 2475
+Wire Wire Line
+	4400 2425 4400 2475
+Wire Wire Line
+	4400 2475 4500 2475
+Wire Wire Line
+	4500 2425 4500 2475
+Connection ~ 4500 2475
+Wire Wire Line
+	4500 2475 4500 2700
+Wire Wire Line
+	4700 2700 4500 2700
+Wire Wire Line
+	1800 2425 1800 2525
+Wire Wire Line
+	2000 2525 2000 2425
+Wire Wire Line
+	1900 2425 1900 2475
+Connection ~ 1900 2475
+Wire Wire Line
+	1900 2475 2200 2475
+Wire Wire Line
+	2100 2425 2100 2525
+Wire Wire Line
+	2200 2425 2200 2475
+Connection ~ 2200 2475
+Wire Wire Line
+	2200 2475 2600 2475
+Wire Wire Line
+	2300 2425 2300 2525
+Wire Wire Line
+	2400 2525 2400 2425
+Wire Wire Line
+	2500 2425 2500 2525
+Wire Wire Line
+	2600 2425 2600 2475
+Connection ~ 2600 2475
+Wire Wire Line
+	2600 2475 2900 2475
+Wire Wire Line
+	2700 2425 2700 2525
+Wire Wire Line
+	2800 2525 2800 2425
+Wire Wire Line
+	2900 2425 2900 2475
+Connection ~ 2900 2475
+Wire Wire Line
+	2900 2475 3400 2475
+Wire Wire Line
+	3000 2425 3000 2525
+Wire Wire Line
+	3100 2425 3100 2525
+Wire Wire Line
+	3200 2525 3200 2425
+Wire Wire Line
+	3300 2425 3300 2525
+Wire Wire Line
+	3500 2525 3500 2425
+Wire Wire Line
+	3400 2425 3400 2475
+Connection ~ 3400 2475
+Wire Wire Line
+	3400 2475 3900 2475
+Wire Wire Line
+	3600 2525 3600 2425
+Wire Wire Line
+	3700 2425 3700 2525
+Wire Wire Line
+	3800 2525 3800 2425
+Wire Wire Line
+	3900 2425 3900 2475
+Connection ~ 3900 2475
+Wire Wire Line
+	3900 2475 4200 2475
+Wire Wire Line
+	4050 3975 4050 4075
+Wire Wire Line
+	3950 4075 3950 3975
+Wire Wire Line
+	3850 3975 3850 4075
+Wire Wire Line
+	3750 4075 3750 3975
+Wire Wire Line
+	3550 3975 3550 4075
+Wire Wire Line
+	3450 3975 3450 4075
+Wire Wire Line
+	3350 3975 3350 4075
+Wire Wire Line
+	3250 3975 3250 4075
+Wire Wire Line
+	3050 3975 3050 4075
+Wire Wire Line
+	2950 3975 2950 4075
+Wire Wire Line
+	2850 3975 2850 4075
+Wire Wire Line
+	2650 3975 2650 4075
+Wire Wire Line
+	2450 3975 2450 4075
+Wire Wire Line
+	2350 4075 2350 3975
+Wire Wire Line
+	2250 3975 2250 4075
+$Comp
+L power:GNDD #PWR069
+U 1 1 5C0DE467
+P 1925 4075
+F 0 "#PWR069" H 1925 3825 50  0001 C CNN
+F 1 "GNDD" H 1925 3925 50  0000 C CNN
+F 2 "" H 1925 4075 60  0000 C CNN
+F 3 "" H 1925 4075 60  0000 C CNN
+	1    1925 4075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1925 4075 1925 4025
+Wire Wire Line
+	1925 4025 2550 4025
+Wire Wire Line
+	4150 4025 4150 4075
+Wire Wire Line
+	2550 4075 2550 4025
+Connection ~ 2550 4025
+Wire Wire Line
+	2550 4025 2750 4025
+Wire Wire Line
+	2750 4025 2750 4075
+Connection ~ 2750 4025
+Wire Wire Line
+	2750 4025 3150 4025
+Wire Wire Line
+	3150 4075 3150 4025
+Connection ~ 3150 4025
+Wire Wire Line
+	3150 4025 3650 4025
+Wire Wire Line
+	3650 4075 3650 4025
+Connection ~ 3650 4025
+Wire Wire Line
+	3650 4025 4150 4025
+Wire Wire Line
+	4150 4575 4150 4675
+Wire Wire Line
+	4050 4575 4050 4675
+Wire Wire Line
+	3950 4675 3950 4575
+Wire Wire Line
+	3850 4575 3850 4675
+Wire Wire Line
+	3650 4575 3650 4675
+Wire Wire Line
+	3550 4575 3550 4675
+Wire Wire Line
+	3450 4575 3450 4675
+Wire Wire Line
+	3350 4575 3350 4675
+Wire Wire Line
+	3150 4575 3150 4675
+Wire Wire Line
+	3050 4675 3050 4575
+Wire Wire Line
+	2750 4575 2750 4675
+Wire Wire Line
+	2650 4675 2650 4575
+Wire Wire Line
+	2450 4575 2450 4675
+Wire Wire Line
+	2350 4575 2350 4675
+Wire Wire Line
+	2250 4575 2250 4675
+$Comp
+L power:GNDD #PWR070
+U 1 1 5C3492CC
+P 1925 4675
+F 0 "#PWR070" H 1925 4425 50  0001 C CNN
+F 1 "GNDD" H 1925 4525 50  0000 C CNN
+F 2 "" H 1925 4675 60  0000 C CNN
+F 3 "" H 1925 4675 60  0000 C CNN
+	1    1925 4675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1925 4675 1925 4625
+Wire Wire Line
+	1925 4625 2550 4625
+Wire Wire Line
+	3750 4625 3750 4575
+Wire Wire Line
+	3250 4575 3250 4625
+Connection ~ 3250 4625
+Wire Wire Line
+	3250 4625 3750 4625
+Wire Wire Line
+	2950 4575 2950 4625
+Connection ~ 2950 4625
+Wire Wire Line
+	2950 4625 3250 4625
+Wire Wire Line
+	2850 4575 2850 4625
+Connection ~ 2850 4625
+Wire Wire Line
+	2850 4625 2950 4625
+Wire Wire Line
+	2550 4575 2550 4625
+Connection ~ 2550 4625
+Wire Wire Line
+	2550 4625 2850 4625
 $EndSCHEMATC
