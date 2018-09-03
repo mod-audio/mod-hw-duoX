@@ -727,7 +727,7 @@ Text GLabel 4050 3975 1    50   Output ~ 0
 EXP_EN1
 Text GLabel 3750 3975 1    50   Output ~ 0
 EXP_EN2
-Text GLabel 2450 4675 3    50   Output ~ 0
+Text GLabel 2650 4675 3    50   Output ~ 0
 CODEC_RESET
 Text GLabel 3450 4675 3    50   Output ~ 0
 CODEC_I2S_SDIN
@@ -737,9 +737,9 @@ Text GLabel 3150 4675 3    50   Output ~ 0
 CODEC_I2S_BCLK
 Text GLabel 3050 4675 3    50   Output ~ 0
 CODEC_I2S_LRCK
-Text GLabel 2750 4675 3    50   BiDi ~ 0
+Text GLabel 2850 4675 3    50   BiDi ~ 0
 CODEC_I2C_SDA
-Text GLabel 2650 4675 3    50   Output ~ 0
+Text GLabel 2750 4675 3    50   Output ~ 0
 CODEC_I2C_SCL
 Text GLabel 3550 4675 3    50   Input ~ 0
 CODEC_SPDIF_SDIN
@@ -767,9 +767,9 @@ Text GLabel 2350 3975 1    50   Output ~ 0
 HP_UP/DN
 Text GLabel 2250 3975 1    50   Output ~ 0
 HP_DISABLE
-Text GLabel 2250 4675 3    50   Output ~ 0
-IN1_TBP
 Text GLabel 2350 4675 3    50   Output ~ 0
+IN1_TBP
+Text GLabel 2450 4675 3    50   Output ~ 0
 IN2_TBP
 $Comp
 L power:GNDD #PWR068
@@ -959,15 +959,15 @@ Wire Wire Line
 Wire Wire Line
 	3050 4675 3050 4575
 Wire Wire Line
-	2750 4575 2750 4675
+	2850 4575 2850 4675
 Wire Wire Line
-	2650 4675 2650 4575
+	2750 4675 2750 4575
+Wire Wire Line
+	2650 4575 2650 4675
 Wire Wire Line
 	2450 4575 2450 4675
 Wire Wire Line
 	2350 4575 2350 4675
-Wire Wire Line
-	2250 4575 2250 4675
 $Comp
 L power:GNDD #PWR070
 U 1 1 5C3492CC
@@ -982,8 +982,6 @@ $EndComp
 Wire Wire Line
 	1925 4675 1925 4625
 Wire Wire Line
-	1925 4625 2550 4625
-Wire Wire Line
 	3750 4625 3750 4575
 Wire Wire Line
 	3250 4575 3250 4625
@@ -995,16 +993,6 @@ Wire Wire Line
 Connection ~ 2950 4625
 Wire Wire Line
 	2950 4625 3250 4625
-Wire Wire Line
-	2850 4575 2850 4625
-Connection ~ 2850 4625
-Wire Wire Line
-	2850 4625 2950 4625
-Wire Wire Line
-	2550 4575 2550 4625
-Connection ~ 2550 4625
-Wire Wire Line
-	2550 4625 2850 4625
 Wire Wire Line
 	3500 1875 4000 1875
 Wire Wire Line
@@ -1112,4 +1100,16 @@ Wire Wire Line
 	2000 2425 2000 2525
 Wire Wire Line
 	1900 2525 1900 2425
+Wire Wire Line
+	1925 4625 2250 4625
+Wire Wire Line
+	2250 4575 2250 4625
+Connection ~ 2250 4625
+Wire Wire Line
+	2250 4625 2550 4625
+Wire Wire Line
+	2550 4575 2550 4625
+Connection ~ 2550 4625
+Wire Wire Line
+	2550 4625 2950 4625
 $EndSCHEMATC
