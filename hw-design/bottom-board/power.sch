@@ -1070,4 +1070,12 @@ F 6 "DB2W31800L" H 3350 3700 50  0001 C CNN "MPN3"
 	1    3350 3700
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	6700 5400 6700 5175
+Wire Wire Line
+	6700 5175 7400 5175
+Wire Wire Line
+	7400 5175 7400 5400
+Connection ~ 6700 5400
+Connection ~ 7400 5400
 $EndSCHEMATC
