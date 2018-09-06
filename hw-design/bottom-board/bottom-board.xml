@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/ricardo/devel/mod/mod-hw-duo/hw-design/bottom-board/bottom-board.sch</source>
-    <date>Wed 05 Sep 2018 05:35:44 PM CEST</date>
+    <date>Thu 06 Sep 2018 11:52:00 AM CEST</date>
     <tool>Eeschema 5.0.0</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -351,7 +351,8 @@
       <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
       <datasheet>http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF</datasheet>
       <fields>
-        <field name="MPN">NCP1117DT33</field>
+        <field name="MPN">NCP1117DT33RKG</field>
+        <field name="MPN2">LD1086DT33TR</field>
       </fields>
       <libsource lib="Regulator_Linear" part="NCP1117-3.3_TO252" description="1A Low drop-out regulator, Fixed Output 3.3V, TO-252 (DPAK)"/>
       <sheetpath names="/power/" tstamps="/54F7244B/"/>
@@ -362,7 +363,8 @@
       <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
       <datasheet>http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF</datasheet>
       <fields>
-        <field name="MPN">NCP1117DT50</field>
+        <field name="MPN">LD1117DT50CTR</field>
+        <field name="MPN2">NCP1117DT50</field>
       </fields>
       <libsource lib="Regulator_Linear" part="NCP1117-5.0_TO252" description="1A Low drop-out regulator, Fixed Output 5.0V, TO-252 (DPAK)"/>
       <sheetpath names="/power/" tstamps="/54F7244B/"/>
