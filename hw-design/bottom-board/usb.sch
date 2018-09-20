@@ -261,9 +261,9 @@ Wire Wire Line
 	2400 2900 2500 2900
 Wire Wire Line
 	2500 3000 2400 3000
-Text GLabel 2600 3850 3    50   BiDi ~ 0
-USB_DEV_DP
 Text GLabel 3700 3850 3    50   BiDi ~ 0
+USB_DEV_DP
+Text GLabel 2600 3850 3    50   BiDi ~ 0
 USB_DEV_DM
 Wire Wire Line
 	3150 3250 3150 2700
