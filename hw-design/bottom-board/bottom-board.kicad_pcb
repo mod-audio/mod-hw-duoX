@@ -3266,7 +3266,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5B7E8727) (tstamp 5B805B21)
-    (at 188.207587 133.573247 90)
+    (at 189.817947 133.573247 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /54F72C8D/5B626611)
@@ -3302,7 +3302,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5B7E8735) (tstamp 5B8C46B5)
-    (at 189.817947 133.573247 270)
+    (at 188.207587 133.573247 270)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /54F72C8D/5B626625)
@@ -3986,7 +3986,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5B83E3FF) (tstamp 5B8C47F8)
-    (at 100.281367 104.709739)
+    (at 100.281367 103.109539)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /54F72F64/5B66E4CC)
@@ -4022,7 +4022,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5B83E401) (tstamp 5B8C4809)
-    (at 100.281367 103.109539 180)
+    (at 100.281367 104.709739 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /54F72F64/5B66E4E0)
