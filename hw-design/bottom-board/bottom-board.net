@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/ricardo/devel/mod/mod-hw-duo/hw-design/bottom-board/bottom-board.sch)
-    (date "Thu 20 Sep 2018 06:08:49 PM CEST")
+    (date "Fri 21 Sep 2018 11:04:47 AM CEST")
     (tool "Eeschema 5.0.0")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -465,7 +465,7 @@
       (tstamp 5B4D5341))
     (comp (ref U6)
       (value CS4265)
-      (footprint Package_QFP:LQFP-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm)
+      (footprint Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm)
       (datasheet https://d3uzseaevmutz1.cloudfront.net/pubs/proDatasheet/CS4265_F3.pdf)
       (fields
         (field (name MPN) CS4265-CNZ))
@@ -2446,7 +2446,7 @@
       (tstamp 55FC22B0))
     (comp (ref U20)
       (value ADC122S021)
-      (footprint Package_SO:VSSOP-8_2.4x2.1mm_P0.5mm)
+      (footprint Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm)
       (datasheet http://www.ti.com/lit/ds/symlink/adc122s021.pdf)
       (fields
         (field (name MPN) ADC122S021CIMM/NOPB))
