@@ -246,10 +246,8 @@ F 3 "" H 8700 3550 50  0001 C CNN
 	1    8700 3550
 	1    0    0    -1  
 $EndComp
-Text GLabel 7650 2950 2    50   Output ~ 0
+Text GLabel 7650 3000 2    50   Output ~ 0
 UBOOT_BUTTON
-Wire Wire Line
-	7550 2950 7650 2950
 Text Notes 5900 4750 0    60   ~ 0
 MIDI Out connector can be used to trigger a special\nboot mode by connecting pin 3 to pin 2.
 $Comp
@@ -314,7 +312,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 3425 7550 3550
 Wire Wire Line
-	7550 3125 7550 2950
+	7550 3125 7550 3000
 Text Notes 3475 4600 0    60   ~ 0
 Opto:\nIf = 16mA, Vf = 1.4V
 $Comp
@@ -389,4 +387,24 @@ Wire Wire Line
 	4575 3700 4725 3700
 Wire Wire Line
 	4275 3700 4175 3700
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5BF1B6BE
+P 7450 2975
+AR Path="/54F7244B/5BF1B6BE" Ref="TP?"  Part="1" 
+AR Path="/54F72FB4/5BF1B6BE" Ref="TP12"  Part="1" 
+F 0 "TP12" V 7375 3025 50  0000 L CNN
+F 1 "TestPoint" H 7508 3004 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7650 2975 50  0001 C CNN
+F 3 "~" H 7650 2975 50  0001 C CNN
+	1    7450 2975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 3000 7550 3000
+Connection ~ 7550 3000
+Wire Wire Line
+	7450 3000 7450 2975
+Wire Wire Line
+	7650 3000 7550 3000
 $EndSCHEMATC

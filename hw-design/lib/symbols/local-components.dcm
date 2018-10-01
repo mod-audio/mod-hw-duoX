@@ -123,9 +123,15 @@ F http://www.ti.com/lit/ds/symlink/ts5a23167.pdf
 $ENDCMP
 #
 $CMP TS5A3166
-D 0.9-Ohm SPST Analog Switch, Low THD
-K SDST Switch
+D 0.9-Ohm SPST Analog Switch, NO, Low THD
+K audio video signal routing
 F http://www.ti.com/lit/ds/symlink/ts5a3166.pdf
+$ENDCMP
+#
+$CMP TS5A3167
+D 0.9-Ohm SPST Analog Switch, NC, Low THD
+K audio video signal routing
+F http://www.ti.com/lit/ds/symlink/ts5a3167.pdf
 $ENDCMP
 #
 #End Doc Library
