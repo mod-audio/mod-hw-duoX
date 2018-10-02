@@ -114,4 +114,15 @@ F 4 "9774027151R" H 5100 1400 50  0001 C CNN "MPN"
 	1    5100 1400
 	1    0    0    -1  
 $EndComp
+$Comp
+L local-components:Logo IMG1
+U 1 1 5BB36ADD
+P 1450 2375
+F 0 "IMG1" H 1350 2450 60  0000 L CNN
+F 1 "Logo" H 1350 2325 60  0000 L CNN
+F 2 "footprints:mod-logo" H 1450 2375 60  0001 C CNN
+F 3 "" H 1450 2375 60  0001 C CNN
+	1    1450 2375
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
