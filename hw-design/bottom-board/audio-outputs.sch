@@ -1634,4 +1634,19 @@ F 3 "~" H 8800 5725 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8600 5725 8600 5800
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5BB7AFB0
+P 850 6600
+AR Path="/54F7244B/5BB7AFB0" Ref="TP?"  Part="1" 
+AR Path="/54F72CD0/5BB7AFB0" Ref="TP21"  Part="1" 
+F 0 "TP21" H 900 6725 50  0000 L CNN
+F 1 "TestPoint" H 908 6629 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1050 6600 50  0001 C CNN
+F 3 "~" H 1050 6600 50  0001 C CNN
+	1    850  6600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	850  6600 925  6600
 $EndSCHEMATC
