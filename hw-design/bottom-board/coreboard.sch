@@ -646,7 +646,7 @@ Text GLabel 4050 4675 3    50   Output ~ 0
 IN2_GC1
 Text GLabel 4150 4675 3    50   Output ~ 0
 IN2_GC2
-Text GLabel 2550 3975 1    50   Output ~ 0
+Text GLabel 2650 3975 1    50   Output ~ 0
 CV_OUT_BIAS
 Text GLabel 3050 3975 1    50   Output ~ 0
 CV_DAC_SCK
@@ -654,11 +654,11 @@ Text GLabel 2950 3975 1    50   Output ~ 0
 CV_DAC_SDI
 Text GLabel 2850 3975 1    50   Output ~ 0
 CV_DAC_~CS~
-Text GLabel 2350 3975 1    50   Output ~ 0
-HP_CLOCK
 Text GLabel 2250 3975 1    50   Output ~ 0
+HP_CLOCK
+Text GLabel 2350 3975 1    50   Output ~ 0
 HP_UP/DN
-Text GLabel 2650 3975 1    50   Output ~ 0
+Text GLabel 2550 3975 1    50   Output ~ 0
 HP_DISABLE
 Text GLabel 2350 4675 3    50   Output ~ 0
 IN1_TBP
