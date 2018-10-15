@@ -66,7 +66,7 @@ F 0 "JMP1" V 7150 5400 50  0000 C CNN
 F 1 "0R" V 6950 5400 50  0000 C CNN
 F 2 "footprints:Jumper_SMD_THT" V 6980 5400 30  0001 C CNN
 F 3 "" H 7050 5400 30  0000 C CNN
-F 4 "" H 700 4150 50  0001 C CNN "MPN"
+F 4 "not a component" V 7050 5400 50  0001 C CNN "Note"
 	1    7050 5400
 	0    1    1    0   
 $EndComp

@@ -51,7 +51,7 @@ F 3 "" H 1575 5500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Schottky_x2_Serial_AKC D14
+L Diode:BAT54S D14
 U 1 1 5B3B75B8
 P 2800 1900
 F 0 "D14" H 2700 1800 50  0000 C CNN
@@ -96,7 +96,7 @@ $EndComp
 Text GLabel 1750 4950 1    50   Input ~ 0
 CV_IN_BIAS
 $Comp
-L Device:D_Schottky_x2_Serial_AKC D15
+L Diode:BAT54S D15
 U 1 1 5B3C23DA
 P 3450 1900
 F 0 "D15" H 3350 1800 50  0000 C CNN
