@@ -299,9 +299,9 @@ Wire Wire Line
 	8625 3250 8625 3100
 Wire Wire Line
 	8075 3100 8175 3100
-Text GLabel 9175 3825 3    50   BiDi ~ 0
-USB_HOST_DP
 Text GLabel 8075 3825 3    50   BiDi ~ 0
+USB_HOST_DP
+Text GLabel 9175 3825 3    50   BiDi ~ 0
 USB_HOST_DN
 Wire Wire Line
 	9175 3825 9175 3750
