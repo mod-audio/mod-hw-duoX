@@ -60,9 +60,9 @@ Text GLabel 4600 3050 0    50   Input ~ 0
 CODEC_ADC_B
 Text GLabel 4600 2950 0    50   Input ~ 0
 CODEC_ADC_A
-Text GLabel 6850 2950 2    50   Output ~ 0
-CODEC_DAC_B
 Text GLabel 6850 3050 2    50   Output ~ 0
+CODEC_DAC_B
+Text GLabel 6850 2950 2    50   Output ~ 0
 CODEC_DAC_A
 Text GLabel 4700 4050 0    50   Input ~ 0
 CODEC_I2S_SDIN
