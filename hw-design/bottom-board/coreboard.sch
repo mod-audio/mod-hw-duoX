@@ -562,14 +562,14 @@ Text GLabel 4000 2525 3    50   Output ~ 0
 CV_IN_BIAS
 Text GLabel 4100 2525 3    50   Input ~ 0
 CV_IN_DET
-Text GLabel 3400 1825 1    50   BiDi ~ 0
+Text GLabel 3100 1825 1    50   BiDi ~ 0
 USB_DEV_DP
-Text GLabel 3300 1825 1    50   BiDi ~ 0
-USB_DEV_DM
-Text GLabel 3800 1825 1    50   BiDi ~ 0
-USB_HOST_DP
+Text GLabel 3000 1825 1    50   BiDi ~ 0
+USB_DEV_DN
 Text GLabel 3900 1825 1    50   BiDi ~ 0
-USB_HOST_DM
+USB_HOST_DP
+Text GLabel 3800 1825 1    50   BiDi ~ 0
+USB_HOST_DN
 Text GLabel 2900 1825 1    50   Input ~ 0
 USB_DEV_DET
 Text GLabel 4100 1825 1    50   Output ~ 0
@@ -688,8 +688,8 @@ F 3 "" H 1425 1925 60  0000 C CNN
 $EndComp
 NoConn ~ 3700 1925
 NoConn ~ 3600 1925
-NoConn ~ 3100 1925
-NoConn ~ 3000 1925
+NoConn ~ 3400 1925
+NoConn ~ 3300 1925
 Wire Wire Line
 	1425 1925 1425 1875
 Wire Wire Line
@@ -719,9 +719,9 @@ Wire Wire Line
 	3500 1925 3500 1875
 Connection ~ 3500 1875
 Wire Wire Line
-	3400 1825 3400 1925
+	3100 1825 3100 1925
 Wire Wire Line
-	3300 1925 3300 1825
+	3000 1925 3000 1825
 Wire Wire Line
 	3200 1925 3200 1875
 Connection ~ 3200 1875
