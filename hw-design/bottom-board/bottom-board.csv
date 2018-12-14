@@ -42,7 +42,7 @@
 "41","4","Q10, Q11, Q14, Q15","J110","Device:Q_NJFET_DSG","Package_TO_SOT_SMD:SOT-23","https://www.nxp.com/docs/en/data-sheet/PMBFJ108_109_110.pdf","","PMBFJ110,215","","",""
 "42","23","R1, R2, R3, R4, R6, R7, R8, R16, R17, R24, R25, R28, R30, R31, R35, R36, R39, R40, R50, R51, R52, R63, R64","10k","Device:R_Small","Resistor_SMD:R_0603_1608Metric","","","RMCF0603JT10K0","RCA060310K0JNEA","ESR03EZPJ103",""
 "43","4","R5, R58, R59, R62","100k","Device:R_Small","Resistor_SMD:R_0603_1608Metric","","","RMCF0603JT100K","RCA0603100KJNEC","ESR03EZPJ104",""
-"44","11","R9, R10, R11, R12, R13, R14, R15, R26, R27, R37, R38","22R","Device:R_Small","Resistor_SMD:R_0603_1608Metric","","","RMCF0603JT22R0","RC1608J220CS","ESR03EZPJ220",""
+"44","12","R9, R10, R11, R12, R13, R14, R15, R19, R26, R27, R37, R38","22R","Device:R_Small","Resistor_SMD:R_0603_1608Metric","","","RMCF0603JT22R0","RC1608J220CS","ESR03EZPJ220","do not populate"
 "45","4","R18, R57, R60, R61","1M","Device:R_Small","Resistor_SMD:R_0603_1608Metric","","","RMCF0603JT1M00","RCA06031M00JNEA","ESR03EZPJ105",""
 "46","8","R20, R21, R22, R23, R65, R66, R67, R68","2k7","Device:R_Small","Resistor_SMD:R_0603_1608Metric","","","RMCF0603JT2K70","ERJ-3GEYJ272V","ESR03EZPJ272",""
 "47","1","R29","5k6","Device:R_Small","Resistor_SMD:R_0603_1608Metric","","","RMCF0603JT5K60","RC0603JR-075K6L","ESR03EZPJ562",""
