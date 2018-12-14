@@ -844,11 +844,6 @@ Connection ~ 3250 4625
 Wire Wire Line
 	3250 4625 3750 4625
 Wire Wire Line
-	2950 4575 2950 4625
-Connection ~ 2950 4625
-Wire Wire Line
-	2950 4625 3250 4625
-Wire Wire Line
 	3500 1875 4000 1875
 Wire Wire Line
 	4000 1925 4000 1875
@@ -965,8 +960,6 @@ Wire Wire Line
 Wire Wire Line
 	2550 4575 2550 4625
 Connection ~ 2550 4625
-Wire Wire Line
-	2550 4625 2950 4625
 Wire Wire Line
 	1925 4025 2450 4025
 Wire Wire Line
@@ -1157,4 +1150,10 @@ Wire Wire Line
 	8150 2925 8150 2850
 Text Notes 6750 3675 0    60   ~ 0
 Used for I/O reference and to\npower the AT24 memory
+Wire Wire Line
+	2550 4625 3250 4625
+Text GLabel 2950 4675 3    50   Output ~ 0
+CODEC_I2S_MCLK
+Wire Wire Line
+	2950 4575 2950 4675
 $EndSCHEMATC
