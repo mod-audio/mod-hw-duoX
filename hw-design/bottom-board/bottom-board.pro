@@ -1,4 +1,4 @@
-update=Mon 15 Jan 2018 07:47:42 PM -02
+update=Fri 21 Dec 2018 04:50:57 PM CET
 version=1
 last_client=kicad
 [cvpcb]
@@ -41,21 +41,4 @@ LabSize=60
 ERC_TestSimilarLabels=1
 [eeschema]
 version=1
-LibDir=/home/ricardo/devel/kicad-stuff/kicad-library-ricardocrudo/library;../lib/symbols
-[eeschema/libraries]
-LibName1=bottom-board-rescue
-LibName2=conn
-LibName3=device
-LibName4=digital-audio
-LibName5=interface
-LibName6=linear
-LibName7=opto
-LibName8=power
-LibName9=regul
-LibName10=relays
-LibName11=switches
-LibName12=ESD_Protection
-LibName13=Power_Management
-LibName14=memory
-LibName15=/home/ricardo/devel/mod-hw-duo/hw-design/lib/symbols/itead
-LibName16=/home/ricardo/devel/mod-hw-duo/hw-design/lib/symbols/local-components
+LibDir=

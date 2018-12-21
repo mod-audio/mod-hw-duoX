@@ -1,22 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:bottom-board-rescue
-LIBS:conn
-LIBS:device
-LIBS:digital-audio
-LIBS:interface
-LIBS:linear
-LIBS:opto
-LIBS:power
-LIBS:regul
-LIBS:relays
-LIBS:switches
-LIBS:ESD_Protection
-LIBS:Power_Management
-LIBS:memory
-LIBS:itead
-LIBS:local-components
+EESchema Schematic File Version 4
 LIBS:bottom-board-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -31,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L R_Small R47
+L bottom-board-rescue:R_Small R47
 U 1 1 550EB368
 P 2850 3550
 F 0 "R47" H 2900 3600 50  0000 L CNN
@@ -43,7 +27,7 @@ F 4 "ERJ-P06J221V" H 100 0   50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L D_Small D15
+L bottom-board-rescue:D_Small D15
 U 1 1 550EB3B5
 P 3150 3750
 F 0 "D15" H 3000 3800 50  0000 L CNN
@@ -55,7 +39,7 @@ F 4 "1N4148WX-TP" H 100 0   50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R49
+L bottom-board-rescue:R_Small R49
 U 1 1 550EE5CB
 P 6500 3350
 F 0 "R49" H 6550 3400 50  0000 L CNN
@@ -67,7 +51,7 @@ F 4 "ERJ-P06J221V" H 200 0   50  0001 C CNN "MPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L R_Small R50
+L bottom-board-rescue:R_Small R50
 U 1 1 550EEE00
 P 7700 3550
 F 0 "R50" H 7750 3600 50  0000 L CNN
@@ -79,7 +63,7 @@ F 4 "ERJ-P06J221V" H 350 0   50  0001 C CNN "MPN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_Small R51
+L bottom-board-rescue:R_Small R51
 U 1 1 550EEF86
 P 7950 3350
 F 0 "R51" H 8000 3400 50  0000 L CNN
@@ -91,7 +75,7 @@ F 4 "RMCF0603JT10K0" H 350 0   50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R52
+L bottom-board-rescue:R_Small R52
 U 1 1 550EFE8C
 P 8500 3650
 F 0 "R52" H 8550 3700 50  0000 L CNN
@@ -103,7 +87,7 @@ F 4 "RMCF0603JT10K0" H 150 0   50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR0134
+L power:GNDD #PWR0134
 U 1 1 550D1DBB
 P 4100 3950
 F 0 "#PWR0134" H 4100 3700 50  0001 C CNN
@@ -114,7 +98,7 @@ F 3 "" H 4100 3950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR0135
+L power:GNDD #PWR0135
 U 1 1 550D24C3
 P 7050 3850
 F 0 "#PWR0135" H 7050 3600 50  0001 C CNN
@@ -125,7 +109,7 @@ F 3 "" H 7050 3850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR0136
+L power:GNDD #PWR0136
 U 1 1 550D24EA
 P 7950 4150
 F 0 "#PWR0136" H 7950 3900 50  0001 C CNN
@@ -136,7 +120,7 @@ F 3 "" H 7950 4150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR0137
+L power:GNDD #PWR0137
 U 1 1 550D2511
 P 8500 4450
 F 0 "#PWR0137" H 8500 4200 50  0001 C CNN
@@ -147,7 +131,7 @@ F 3 "" H 8500 4450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR0138
+L power:+5V #PWR0138
 U 1 1 550D422C
 P 4100 3100
 F 0 "#PWR0138" H 4100 2950 50  0001 C CNN
@@ -158,7 +142,7 @@ F 3 "" H 4100 3100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR0139
+L power:+5V #PWR0139
 U 1 1 550D42BC
 P 6500 3200
 F 0 "#PWR0139" H 6500 3050 50  0001 C CNN
@@ -169,7 +153,7 @@ F 3 "" H 6500 3200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR0140
+L power:+5V #PWR0140
 U 1 1 550D4337
 P 7950 3200
 F 0 "#PWR0140" H 7950 3050 50  0001 C CNN
@@ -180,7 +164,7 @@ F 3 "" H 7950 3200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR0141
+L power:+5V #PWR0141
 U 1 1 550D435E
 P 8500 3450
 F 0 "#PWR0141" H 8500 3300 50  0001 C CNN
@@ -191,7 +175,7 @@ F 3 "" H 8500 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R48
+L bottom-board-rescue:R_Small R48
 U 1 1 55092D4D
 P 4500 3550
 F 0 "R48" H 4550 3600 50  0000 L CNN
@@ -203,7 +187,7 @@ F 4 "RMCF0603JT10K0" H 100 0   50  0001 C CNN "MPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L +3.3V #PWR0142
+L power:+3.3V #PWR0142
 U 1 1 55093BE7
 P 4500 3400
 F 0 "#PWR0142" H 4500 3250 50  0001 C CNN
@@ -214,7 +198,7 @@ F 3 "" H 4500 3400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_Small D16
+L bottom-board-rescue:D_Small D16
 U 1 1 550F7A15
 P 4300 3750
 F 0 "D16" H 4150 3800 50  0000 L CNN
@@ -226,9 +210,11 @@ F 4 "1N4148WX-TP" H 100 0   50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 6N136 U11
+L bottom-board-rescue:6N136 U11
 U 1 1 5518A50A
 P 3750 3650
+AR Path="/5518A50A" Ref="U11"  Part="1" 
+AR Path="/54F72FB4/5518A50A" Ref="U11"  Part="1" 
 F 0 "U11" H 3500 3350 50  0000 L CNN
 F 1 "6N137S" H 3750 3350 50  0000 L CNN
 F 2 "SMD_Packages:DIP-8_SMD" H 3550 3350 50  0001 L CIN
@@ -238,7 +224,7 @@ F 4 "6N137S" H 100 0   50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C53
+L bottom-board-rescue:C_Small C53
 U 1 1 5518B571
 P 3900 3150
 F 0 "C53" V 3950 3200 50  0000 L CNN
@@ -250,7 +236,7 @@ F 4 "C1608X7R1E104K080AA" H 100 0   50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L GNDD #PWR0143
+L power:GNDD #PWR0143
 U 1 1 5518B6A5
 P 3700 3200
 F 0 "#PWR0143" H 3700 2950 50  0001 C CNN
@@ -261,7 +247,7 @@ F 3 "" H 3700 3200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIN_5 P3
+L bottom-board-rescue:DIN_5 P3
 U 1 1 552F68D2
 P 2250 3350
 F 0 "P3" H 2250 3350 50  0000 C CNN
@@ -273,7 +259,7 @@ F 4 "SDS-50J" H 2250 3350 60  0001 C CNN "MPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L DIN_5 P4
+L bottom-board-rescue:DIN_5 P4
 U 1 1 552F86CD
 P 7050 3350
 F 0 "P4" H 7050 3350 50  0000 C CNN
@@ -285,7 +271,7 @@ F 4 "SDS-50J" H 7050 3350 60  0001 C CNN "MPN"
 	1    0    0    1   
 $EndComp
 $Comp
-L Q_NMOS_GSD Q12
+L bottom-board-rescue:Q_NMOS_GSD Q12
 U 1 1 5550D667
 P 8050 3850
 F 0 "Q12" H 8400 3900 50  0000 R CNN
@@ -297,7 +283,7 @@ F 4 "2N7002P,215" H 8050 3850 60  0001 C CNN "MPN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_GSD Q13
+L bottom-board-rescue:Q_NMOS_GSD Q13
 U 1 1 5550D961
 P 8600 4150
 F 0 "Q13" H 8950 4200 50  0000 R CNN

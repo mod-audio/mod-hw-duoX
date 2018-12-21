@@ -1,22 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:bottom-board-rescue
-LIBS:conn
-LIBS:device
-LIBS:digital-audio
-LIBS:interface
-LIBS:linear
-LIBS:opto
-LIBS:power
-LIBS:regul
-LIBS:relays
-LIBS:switches
-LIBS:ESD_Protection
-LIBS:Power_Management
-LIBS:memory
-LIBS:itead
-LIBS:local-components
+EESchema Schematic File Version 4
 LIBS:bottom-board-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -31,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L R_Small R63
+L bottom-board-rescue:R_Small R63
 U 1 1 550F230C
 P 6650 3300
 F 0 "R63" H 6700 3350 50  0000 L CNN
@@ -43,7 +27,7 @@ F 4 "ERJ-P06J101V" H 100 1000 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R59
+L bottom-board-rescue:R_Small R59
 U 1 1 550F26CE
 P 6100 3200
 F 0 "R59" H 5900 3250 50  0000 L CNN
@@ -55,7 +39,7 @@ F 4 "ERJ-P6WJ560V" H 100 1000 50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R60
+L bottom-board-rescue:R_Small R60
 U 1 1 550F2702
 P 6100 3400
 F 0 "R60" H 6150 3450 50  0000 L CNN
@@ -67,7 +51,7 @@ F 4 "ERJ-P6WJ560V" H 100 1000 50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C54
+L bottom-board-rescue:C_Small C54
 U 1 1 550F8A1E
 P 5650 2750
 F 0 "C54" V 5700 2800 50  0000 L CNN
@@ -79,7 +63,7 @@ F 4 "C1608X7R1E104K080AA" H 800 1000 50  0001 C CNN "MPN"
 	0    -1   1    0   
 $EndComp
 $Comp
-L GNDD #PWR0144
+L power:GNDD #PWR0144
 U 1 1 550C7BE5
 P 5850 2800
 F 0 "#PWR0144" H 5850 2550 50  0001 C CNN
@@ -90,7 +74,7 @@ F 3 "" H 5850 2800 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR0145
+L power:GNDD #PWR0145
 U 1 1 550C7C57
 P 5500 4450
 F 0 "#PWR0145" H 5500 4200 50  0001 C CNN
@@ -101,7 +85,7 @@ F 3 "" H 5500 4450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R56
+L bottom-board-rescue:R_Small R56
 U 1 1 5508D60C
 P 4650 3300
 F 0 "R56" V 4550 3200 50  0000 L CNN
@@ -113,7 +97,7 @@ F 4 "RMCF0603JT100R" H 100 1000 50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R55
+L bottom-board-rescue:R_Small R55
 U 1 1 5508D6F9
 P 4600 3800
 F 0 "R55" V 4500 3700 50  0000 L CNN
@@ -125,7 +109,7 @@ F 4 "RMCF0603JT100R" H 50  1000 50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L ISL83491 U12
+L bottom-board-rescue:ISL83491 U12
 U 1 1 5519DD90
 P 5400 3600
 F 0 "U12" H 5200 2950 50  0000 L CNN
@@ -137,7 +121,7 @@ F 4 "ISL83491IBZ" H 100 1000 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR0146
+L power:+3.3V #PWR0146
 U 1 1 551A1FF5
 P 5300 2650
 F 0 "#PWR0146" H 5300 2500 50  0001 C CNN
@@ -148,7 +132,7 @@ F 3 "" H 5300 2650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R61
+L bottom-board-rescue:R_Small R61
 U 1 1 551AA590
 P 6350 3700
 F 0 "R61" H 6150 3750 50  0000 L CNN
@@ -160,7 +144,7 @@ F 4 "ERJ-P6WJ560V" H 100 1000 50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R62
+L bottom-board-rescue:R_Small R62
 U 1 1 551AAAAD
 P 6350 3900
 F 0 "R62" H 6400 3950 50  0000 L CNN
@@ -254,7 +238,7 @@ Connection ~ 4800 3800
 Wire Wire Line
 	4800 3650 4800 3800
 $Comp
-L GNDD #PWR0147
+L power:GNDD #PWR0147
 U 1 1 5522D8E7
 P 2850 4300
 F 0 "#PWR0147" H 2850 4050 50  0001 C CNN
@@ -269,7 +253,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 3650 4800 3650
 $Comp
-L R_Small R54
+L bottom-board-rescue:R_Small R54
 U 1 1 5522DDB6
 P 3350 3250
 F 0 "R54" H 3400 3300 50  0000 L CNN
@@ -283,7 +267,7 @@ $EndComp
 Wire Wire Line
 	3650 2750 4450 2750
 $Comp
-L R_Small R53
+L bottom-board-rescue:R_Small R53
 U 1 1 5522FFCB
 P 2850 4150
 F 0 "R53" H 2900 4200 50  0000 L CNN
@@ -295,7 +279,7 @@ F 4 "RMCF0603JT10K0" H -400 1350 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR0148
+L power:GNDD #PWR0148
 U 1 1 5522FFC1
 P 3350 3400
 F 0 "#PWR0148" H 3350 3150 50  0001 C CNN
@@ -306,7 +290,7 @@ F 3 "" H 3350 3400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_PMOS_GSD Q15
+L bottom-board-rescue:Q_PMOS_GSD Q15
 U 1 1 55FA4B32
 P 3450 2750
 F 0 "Q15" H 3750 2800 50  0000 R CNN
@@ -318,7 +302,7 @@ F 4 "BSS84" H 3450 2750 60  0001 C CNN "MPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Q_PMOS_GSD Q14
+L bottom-board-rescue:Q_PMOS_GSD Q14
 U 1 1 55FA4BE1
 P 2950 3650
 F 0 "Q14" H 3250 3700 50  0000 R CNN
@@ -330,7 +314,7 @@ F 4 "BSS84" H 2950 3650 60  0001 C CNN "MPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L +3.3V #PWR0149
+L power:+3.3V #PWR0149
 U 1 1 55FA5E06
 P 3350 2450
 F 0 "#PWR0149" H 3350 2300 50  0001 C CNN
@@ -350,7 +334,7 @@ Wire Wire Line
 	3200 3050 3350 3050
 Connection ~ 3350 3050
 $Comp
-L +3.3V #PWR0150
+L power:+3.3V #PWR0150
 U 1 1 55FA859A
 P 2850 3350
 F 0 "#PWR0150" H 2850 3200 50  0001 C CNN
@@ -370,7 +354,7 @@ Wire Wire Line
 	2700 3950 2850 3950
 Connection ~ 2850 3950
 $Comp
-L R_Small R57
+L bottom-board-rescue:R_Small R57
 U 1 1 55FB1923
 P 4800 3000
 F 0 "R57" H 4850 3050 50  0000 L CNN
@@ -382,7 +366,7 @@ F 4 "RMCF0603JT10K0" H 1550 1700 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R58
+L bottom-board-rescue:R_Small R58
 U 1 1 55FB198B
 P 4800 4200
 F 0 "R58" H 4850 4250 50  0000 L CNN
@@ -397,7 +381,7 @@ Wire Wire Line
 	4800 4100 4800 4000
 Connection ~ 4800 4000
 $Comp
-L GNDD #PWR0151
+L power:GNDD #PWR0151
 U 1 1 55FB1C75
 P 4800 4350
 F 0 "#PWR0151" H 4800 4100 50  0001 C CNN
@@ -415,7 +399,7 @@ Wire Wire Line
 	4800 3100 4800 3500
 Connection ~ 4800 3500
 $Comp
-L +3.3V #PWR0152
+L power:+3.3V #PWR0152
 U 1 1 55FB2896
 P 4800 2800
 F 0 "#PWR0152" H 4800 2650 50  0001 C CNN

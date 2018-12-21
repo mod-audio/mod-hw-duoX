@@ -1,22 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:bottom-board-rescue
-LIBS:conn
-LIBS:device
-LIBS:digital-audio
-LIBS:interface
-LIBS:linear
-LIBS:opto
-LIBS:power
-LIBS:regul
-LIBS:relays
-LIBS:switches
-LIBS:ESD_Protection
-LIBS:Power_Management
-LIBS:memory
-LIBS:itead
-LIBS:local-components
+EESchema Schematic File Version 4
 LIBS:bottom-board-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -31,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LM4811 U9
+L bottom-board-rescue:LM4811 U9
 U 1 1 550D498D
 P 5350 3050
 F 0 "U9" H 5350 3150 60  0000 C CNN
@@ -43,7 +27,7 @@ F 4 "LM4811MM/NOPB" H 0   1050 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small CA22
+L bottom-board-rescue:C_Small CA22
 U 1 1 550D4F2F
 P 4450 2750
 F 0 "CA22" V 4500 2800 50  0000 L CNN
@@ -55,7 +39,7 @@ F 4 "C2012X7R1E105K125AB" H 0   1050 50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L CP_Small CA23
+L bottom-board-rescue:CP_Small CA23
 U 1 1 550D590E
 P 5550 3850
 F 0 "CA23" H 5650 3850 50  0000 L CNN
@@ -67,7 +51,7 @@ F 4 "UWX1E100MCL1GB" H 0   1050 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C47
+L bottom-board-rescue:C_Small C47
 U 1 1 550E0879
 P 5600 2300
 F 0 "C47" V 5650 2250 50  0000 R CNN
@@ -79,7 +63,7 @@ F 4 "C1608X7R1E104K080AA" H 50  1050 50  0001 C CNN "MPN"
 	0    -1   1    0   
 $EndComp
 $Comp
-L CP_Small CA25
+L bottom-board-rescue:CP_Small CA25
 U 1 1 550E5193
 P 6750 3550
 F 0 "CA25" V 6700 3650 50  0000 L CNN
@@ -91,7 +75,7 @@ F 4 "UWX1E100MCL1GB" H 0   1050 50  0001 C CNN "MPN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_Small RA40
+L bottom-board-rescue:R_Small RA40
 U 1 1 550E519B
 P 7000 3800
 F 0 "RA40" H 7050 3850 50  0000 L CNN
@@ -103,7 +87,7 @@ F 4 "ERA-3AEB753V" H 0   1050 50  0001 C CNN "MPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L CP_Small CA24
+L bottom-board-rescue:CP_Small CA24
 U 1 1 550E8C8D
 P 6750 2750
 F 0 "CA24" V 6700 2850 50  0000 L CNN
@@ -115,7 +99,7 @@ F 4 "UWX1E100MCL1GB" H 0   1050 50  0001 C CNN "MPN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_Small RA39
+L bottom-board-rescue:R_Small RA39
 U 1 1 550E8C95
 P 7000 3000
 F 0 "RA39" H 7050 3050 50  0000 L CNN
@@ -127,7 +111,7 @@ F 4 "ERA-3AEB753V" H 0   1050 50  0001 C CNN "MPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GNDA #PWR0119
+L power:GNDA #PWR0119
 U 1 1 550C34F1
 P 7000 4000
 F 0 "#PWR0119" H 7000 3750 50  0001 C CNN
@@ -138,7 +122,7 @@ F 3 "" H 7000 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR0120
+L power:GNDA #PWR0120
 U 1 1 550C353B
 P 7000 3200
 F 0 "#PWR0120" H 7000 2950 50  0001 C CNN
@@ -149,7 +133,7 @@ F 3 "" H 7000 3200 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C_Small CA21
+L bottom-board-rescue:C_Small CA21
 U 1 1 551BDF86
 P 4050 2850
 F 0 "CA21" V 4100 2900 50  0000 L CNN
@@ -219,7 +203,7 @@ Connection ~ 7000 2750
 Connection ~ 5350 4050
 Connection ~ 5350 2300
 $Comp
-L GNDA #PWR0121
+L power:GNDA #PWR0121
 U 1 1 5570B05D
 P 5350 4100
 F 0 "#PWR0121" H 5350 3850 50  0001 C CNN
@@ -230,7 +214,7 @@ F 3 "" H 5350 4100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR0122
+L power:GNDA #PWR0122
 U 1 1 5570B0BB
 P 4600 3450
 F 0 "#PWR0122" H 4600 3200 50  0001 C CNN
@@ -241,7 +225,7 @@ F 3 "" H 4600 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5VA #PWR0123
+L power:+5VA #PWR0123
 U 1 1 5570BCEC
 P 5350 1950
 F 0 "#PWR0123" H 5350 1800 50  0001 C CNN
@@ -252,7 +236,7 @@ F 3 "" H 5350 1950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR0124
+L power:GNDA #PWR0124
 U 1 1 5570D8B7
 P 5850 2350
 F 0 "#PWR0124" H 5850 2100 50  0001 C CNN
@@ -263,7 +247,7 @@ F 3 "" H 5850 2350 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L CP_Small C46
+L bottom-board-rescue:CP_Small C46
 U 1 1 56607FC6
 P 5600 2050
 F 0 "C46" V 5550 2000 50  0000 R CNN
@@ -293,7 +277,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 3150 4150 3150
 $Comp
-L R_Small R40
+L bottom-board-rescue:R_Small R40
 U 1 1 5660F264
 P 4450 3050
 F 0 "R40" V 4400 2850 50  0000 L CNN
@@ -305,7 +289,7 @@ F 4 "RMCF0603JT22R0" H 150 700 50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R41
+L bottom-board-rescue:R_Small R41
 U 1 1 5660F321
 P 4450 3150
 F 0 "R41" V 4400 2950 50  0000 L CNN

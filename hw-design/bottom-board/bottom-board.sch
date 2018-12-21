@@ -1,22 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:bottom-board-rescue
-LIBS:conn
-LIBS:device
-LIBS:digital-audio
-LIBS:interface
-LIBS:linear
-LIBS:opto
-LIBS:power
-LIBS:regul
-LIBS:relays
-LIBS:switches
-LIBS:ESD_Protection
-LIBS:Power_Management
-LIBS:memory
-LIBS:itead
-LIBS:local-components
+EESchema Schematic File Version 4
 LIBS:bottom-board-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -95,15 +79,11 @@ Text Notes 1350 5050 0    80   ~ 0
 Text Notes 1300 4450 0    100  ~ 20
 Notes\n
 Wire Notes Line
-	1200 4450 1200 5650
-Wire Notes Line
 	1200 5650 6850 5650
 Wire Notes Line
 	6850 5650 6850 4250
 Wire Notes Line
 	6850 4250 1200 4250
-Wire Notes Line
-	1200 4250 1200 4500
 Wire Notes Line
 	1200 4500 6850 4500
 $Sheet
@@ -112,4 +92,6 @@ U 55FC02AF
 F0 "mechanics" 60
 F1 "mechanics.sch" 60
 $EndSheet
+Wire Notes Line
+	1200 4250 1200 5650
 $EndSCHEMATC
