@@ -280,8 +280,6 @@ F 3 "" H 1000 6250 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	1000 6550 1000 6650
-Wire Wire Line
-	1000 6250 1000 6300
 Text GLabel 1000 6650 3    50   Output ~ 0
 POWER_BUTTON
 $Comp
@@ -334,15 +332,6 @@ F 3 "" H 5300 2425 60  0000 C CNN
 	1    5300 2425
 	1    0    0    -1  
 $EndComp
-Text GLabel 1250 6650 3    50   Output ~ 0
-UBOOT_BUTTON
-Wire Wire Line
-	1250 6350 1250 6300
-Connection ~ 1000 6300
-Wire Wire Line
-	1250 6550 1250 6650
-Wire Wire Line
-	1000 6300 1250 6300
 Wire Wire Line
 	1900 6250 1900 6300
 Wire Wire Line
@@ -364,8 +353,6 @@ Wire Wire Line
 	5300 2325 5300 2425
 Wire Wire Line
 	5300 2025 5300 2075
-Wire Wire Line
-	1000 6300 1000 6350
 Wire Wire Line
 	1900 6300 1900 6350
 $Comp
@@ -401,20 +388,6 @@ Text GLabel 9650 3000 2    50   BiDi ~ 0
 PM_LEDS_SDA
 Text GLabel 9650 3100 2    50   Input ~ 0
 PM_LEDS_SCL
-$Comp
-L Device:R_Small R17
-U 1 1 5B633415
-P 1250 6450
-F 0 "R17" H 1300 6500 50  0000 L CNN
-F 1 "10k" H 1300 6400 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 1250 6450 60  0001 C CNN
-F 3 "" H 1250 6450 60  0000 C CNN
-F 4 "RMCF0603JT10K0" H -500 -200 50  0001 C CNN "MPN"
-F 5 "RCA060310K0JNEA" H 1250 6450 50  0001 C CNN "MPN2"
-F 6 "ESR03EZPJ103" H 1250 6450 50  0001 C CNN "MPN3"
-	1    1250 6450
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R_Small R21
 U 1 1 5B633AA0
@@ -968,7 +941,7 @@ Connection ~ 2450 4025
 Wire Wire Line
 	2450 4025 2750 4025
 $Comp
-L local-components:AP2120N-3.3 U?
+L bottom-board-rescue:AP2120N-3.3-local-components U?
 U 1 1 5BB762DC
 P 7325 2850
 AR Path="/54F72B97/5BB762DC" Ref="U?"  Part="1" 
@@ -1156,4 +1129,6 @@ Text GLabel 2950 4675 3    50   Output ~ 0
 CODEC_I2S_MCLK
 Wire Wire Line
 	2950 4575 2950 4675
+Wire Wire Line
+	1000 6250 1000 6350
 $EndSCHEMATC

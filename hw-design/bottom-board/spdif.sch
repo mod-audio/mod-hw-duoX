@@ -137,9 +137,11 @@ NoConn ~ 5375 1850
 Wire Wire Line
 	5300 2350 5300 2450
 $Comp
-L Connector:AudioJack2_Ground_Switch J18
+L bottom-board-rescue:AudioJack2_Ground_Switch-Connector J18
 U 1 1 5B5D552C
 P 5575 1950
+AR Path="/5B5D552C" Ref="J18"  Part="1" 
+AR Path="/5B6E0697/5B5D552C" Ref="J18"  Part="1" 
 F 0 "J18" H 5342 1929 50  0000 R CNN
 F 1 "MJ-3536N" H 5342 2020 50  0000 R CNN
 F 2 "footprints:MJ-3536N" H 5575 1950 50  0001 C CNN
@@ -154,11 +156,11 @@ Wire Wire Line
 Wire Wire Line
 	5300 2050 5300 2350
 Connection ~ 5300 2350
-Wire Wire Line
-	5375 1950 4600 1950
 Connection ~ 3775 1950
 Wire Wire Line
 	3775 1950 4200 1950
 Wire Wire Line
 	3550 1950 3775 1950
+Wire Wire Line
+	4600 1950 5375 1950
 $EndSCHEMATC

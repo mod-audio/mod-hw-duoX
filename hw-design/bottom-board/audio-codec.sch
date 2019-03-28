@@ -351,7 +351,7 @@ CODEC_SPDIF_OUT
 Wire Wire Line
 	7025 3850 6650 3850
 $Comp
-L local-components:CS4265 U6
+L bottom-board-rescue:CS4265-local-components U6
 U 1 1 5B4ABC46
 P 5900 3700
 F 0 "U6" H 5900 3800 50  0000 C CNN
@@ -527,7 +527,7 @@ F 3 "" H 2500 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L local-components:AP2120N-3.3 U5
+L bottom-board-rescue:AP2120N-3.3-local-components U5
 U 1 1 5B509C46
 P 2100 2050
 F 0 "U5" H 2200 1800 50  0000 C CNN

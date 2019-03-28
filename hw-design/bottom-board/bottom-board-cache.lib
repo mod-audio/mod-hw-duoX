@@ -96,36 +96,19 @@ X ~SHDN~ 9 -600 -200 150 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Connector_AudioJack2_Ground_Switch
-#
-DEF Connector_AudioJack2_Ground_Switch J 0 40 Y Y 1 F N
-F0 "J" 0 350 50 H V C CNN
-F1 "Connector_AudioJack2_Ground_Switch" 0 250 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -175 -100 -205 0 0 1 0 F
-S 100 -125 -180 175 0 1 10 f
-P 2 0 1 0 70 -10 80 -30 N
-P 4 0 1 10 0 0 25 -25 50 0 100 0 N
-P 4 0 1 0 100 -100 70 -100 70 -10 60 -30 N
-P 5 0 1 10 100 100 -100 100 -100 0 -125 -25 -150 0 N
-X ~ S 200 100 100 L 50 50 1 1 P
-X ~ T 200 0 100 L 50 50 1 1 P
-X ~ TN 200 -100 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Connector_AudioJack3_Switch
 #
-DEF Connector_AudioJack3_Switch J 0 40 Y Y 1 F N
+DEF Connector_AudioJack3_Switch J 0 20 Y Y 1 F N
 F0 "J" 0 450 50 H V C CNN
 F1 "Connector_AudioJack3_Switch" 0 350 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Jack*
+$ENDFPLIST
 DRAW
-S -175 -300 -205 -200 0 1 0 F
-S 100 -325 -180 275 0 1 10 f
+S -200 -200 -250 -300 0 1 10 F
+S 100 250 -200 -350 0 1 10 f
 P 2 0 1 0 -50 190 -40 170 N
 P 2 0 1 0 20 -10 30 -30 N
 P 2 0 1 0 70 -210 80 -230 N
@@ -1241,11 +1224,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# local-components_ADC122S021
+# bottom-board-rescue_ADC122S021-local-components
 #
-DEF local-components_ADC122S021 U 0 40 Y Y 1 F N
+DEF bottom-board-rescue_ADC122S021-local-components U 0 40 Y Y 1 F N
 F0 "U" -300 300 50 H V L CNN
-F1 "local-components_ADC122S021" 550 300 50 H V R CNN
+F1 "bottom-board-rescue_ADC122S021-local-components" 550 300 50 H V R CNN
 F2 "" 100 0 50 H I C CIN
 F3 "" 100 0 50 H I C CNN
 $FPLIST
@@ -1264,11 +1247,11 @@ X SCLK 8 650 150 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# local-components_AP2120N-3.3
+# bottom-board-rescue_AP2120N-3.3-local-components
 #
-DEF local-components_AP2120N-3.3 U 0 10 Y Y 1 F N
+DEF bottom-board-rescue_AP2120N-3.3-local-components U 0 10 Y Y 1 F N
 F0 "U" -150 125 50 H V C CNN
-F1 "local-components_AP2120N-3.3" 0 125 50 H V L CNN
+F1 "bottom-board-rescue_AP2120N-3.3-local-components" 0 125 50 H V L CNN
 F2 "TO_SOT_Packages_SMD:SOT-23" 0 200 50 H I C CNN
 F3 "" 100 -250 50 H I C CNN
 $FPLIST
@@ -1282,11 +1265,11 @@ X VI 3 -300 0 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# local-components_CS4265
+# bottom-board-rescue_CS4265-local-components
 #
-DEF local-components_CS4265 U 0 20 Y Y 1 F N
+DEF bottom-board-rescue_CS4265-local-components U 0 20 Y Y 1 F N
 F0 "U" 650 1200 50 H V C CNN
-F1 "local-components_CS4265" 650 1100 50 H V C CNN
+F1 "bottom-board-rescue_CS4265-local-components" 650 1100 50 H V C CNN
 F2 "Housings_QFP:LQFP-32-1EP_5x5mm_Pitch0.5mm" 0 -1250 50 H I C CNN
 F3 "" 0 150 50 H I C CNN
 $FPLIST
@@ -1330,11 +1313,11 @@ X SGND 9 -50 -1150 100 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# local-components_FIDUCIAL
+# bottom-board-rescue_FIDUCIAL-local-components
 #
-DEF local-components_FIDUCIAL FID 0 40 N Y 1 F N
+DEF bottom-board-rescue_FIDUCIAL-local-components FID 0 40 N Y 1 F N
 F0 "FID" 0 -275 50 H V C CNN
-F1 "local-components_FIDUCIAL" 0 275 50 H V C CNN
+F1 "bottom-board-rescue_FIDUCIAL-local-components" 0 275 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -1347,11 +1330,11 @@ P 2 0 1 10 0 225 0 -200 N
 ENDDRAW
 ENDDEF
 #
-# local-components_HOLE
+# bottom-board-rescue_HOLE-local-components
 #
-DEF local-components_HOLE H 0 40 N Y 1 F N
+DEF bottom-board-rescue_HOLE-local-components H 0 40 N Y 1 F N
 F0 "H" 0 -180 50 H V C CNN
-F1 "local-components_HOLE" 0 170 50 H V C CNN
+F1 "bottom-board-rescue_HOLE-local-components" 0 170 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -1365,11 +1348,11 @@ P 2 0 1 10 -25 25 25 -25 N
 ENDDRAW
 ENDDEF
 #
-# local-components_LM4811
+# bottom-board-rescue_LM4811-local-components
 #
-DEF local-components_LM4811 U 0 40 Y Y 1 F N
+DEF bottom-board-rescue_LM4811-local-components U 0 40 Y Y 1 F N
 F0 "U" 0 100 50 H V C CNN
-F1 "local-components_LM4811" 0 0 50 H V C CNN
+F1 "bottom-board-rescue_LM4811-local-components" 0 0 50 H V C CNN
 F2 "" 0 -100 50 H V C CIN
 F3 "" 0 -100 50 H V C CNN
 $FPLIST
@@ -1392,11 +1375,11 @@ X VOUT2 9 600 200 100 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# local-components_Logo
+# bottom-board-rescue_Logo-local-components
 #
-DEF local-components_Logo IMG 0 0 N N 1 F N
+DEF bottom-board-rescue_Logo-local-components IMG 0 0 N N 1 F N
 F0 "IMG" 0 50 60 H V C CNN
-F1 "local-components_Logo" 0 -50 60 H V C CNN
+F1 "bottom-board-rescue_Logo-local-components" 0 -50 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -1404,11 +1387,11 @@ S -200 150 200 -150 0 1 0 N
 ENDDRAW
 ENDDEF
 #
-# local-components_MIC2076A
+# bottom-board-rescue_MIC2076A-local-components
 #
-DEF local-components_MIC2076A U 0 30 Y Y 1 F N
+DEF bottom-board-rescue_MIC2076A-local-components U 0 30 Y Y 1 F N
 F0 "U" -300 450 50 H V L CNN
-F1 "local-components_MIC2076A" 0 450 50 H V L CNN
+F1 "bottom-board-rescue_MIC2076A-local-components" 0 450 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1428,11 +1411,11 @@ X OUTA 8 400 300 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# local-components_TS5A23166
+# bottom-board-rescue_TS5A23166-local-components
 #
-DEF local-components_TS5A23166 U 0 40 Y Y 1 F N
+DEF bottom-board-rescue_TS5A23166-local-components U 0 40 Y Y 1 F N
 F0 "U" -100 425 50 H V R CNN
-F1 "local-components_TS5A23166" -100 350 50 H V R CNN
+F1 "bottom-board-rescue_TS5A23166-local-components" -100 350 50 H V R CNN
 F2 "" 50 -150 50 H I L CNN
 F3 "" 100 100 50 H I C CNN
 $FPLIST
@@ -1451,11 +1434,11 @@ X V+ 8 0 400 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# local-components_TS5A23167
+# bottom-board-rescue_TS5A23167-local-components
 #
-DEF local-components_TS5A23167 U 0 40 Y Y 1 F N
+DEF bottom-board-rescue_TS5A23167-local-components U 0 40 Y Y 1 F N
 F0 "U" -100 425 50 H V R CNN
-F1 "local-components_TS5A23167" -100 350 50 H V R CNN
+F1 "bottom-board-rescue_TS5A23167-local-components" -100 350 50 H V R CNN
 F2 "" 50 -150 50 H I L CNN
 F3 "" 100 100 50 H I C CNN
 $FPLIST
@@ -1474,11 +1457,11 @@ X V+ 8 0 400 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# local-components_TS5A3167
+# bottom-board-rescue_TS5A3167-local-components
 #
-DEF local-components_TS5A3167 U 0 20 Y Y 1 F N
+DEF bottom-board-rescue_TS5A3167-local-components U 0 20 Y Y 1 F N
 F0 "U" -100 325 50 H V R CNN
-F1 "local-components_TS5A3167" -100 250 50 H V R CNN
+F1 "bottom-board-rescue_TS5A3167-local-components" -100 250 50 H V R CNN
 F2 "" 50 -250 50 H I L CNN
 F3 "" 100 0 50 H I C CNN
 $FPLIST

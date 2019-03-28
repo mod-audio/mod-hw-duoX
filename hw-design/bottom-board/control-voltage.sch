@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L local-components:ADC122S021 U20
+L bottom-board-rescue:ADC122S021-local-components U20
 U 1 1 5B3B49D8
 P 3900 3100
 F 0 "U20" H 3600 3400 50  0000 L CNN
@@ -82,7 +82,7 @@ $EndComp
 Text GLabel 2175 6525 2    50   Output ~ 0
 CV_IN_DET
 $Comp
-L local-components:TS5A23166 U19
+L bottom-board-rescue:TS5A23166-local-components U19
 U 1 1 5B3BAA10
 P 2250 5250
 F 0 "U19" H 2300 4825 50  0000 L CNN
@@ -402,7 +402,7 @@ EXP_EN1
 Text Notes 4300 4300 0    60   ~ 0
 Exp. Pedal Enable
 $Comp
-L local-components:MIC2076A U21
+L bottom-board-rescue:MIC2076A-local-components U21
 U 1 1 5B462C68
 P 4850 5300
 F 0 "U21" H 4550 4850 50  0000 L CNN
@@ -1400,7 +1400,7 @@ Connection ~ 8825 4850
 Wire Wire Line
 	8825 4850 8825 4925
 $Comp
-L local-components:TS5A3167 U4
+L bottom-board-rescue:TS5A3167-local-components U4
 U 1 1 5C159903
 P 8300 4950
 F 0 "U4" H 8350 4625 50  0000 L CNN
