@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:R_Small RA1
+L bottom-board-rescue:R_Small-Device RA1
 U 1 1 5B52CAFF
 P 1800 2000
 F 0 "RA1" H 1750 2050 50  0000 R CNN
@@ -29,7 +29,7 @@ F 6 "RNCF0603DTC47R0" H 1800 2000 50  0001 C CNN "MPN3"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small RA2
+L bottom-board-rescue:R_Small-Device RA2
 U 1 1 5B52CB07
 P 2050 2200
 F 0 "RA2" H 2100 2250 50  0000 L CNN
@@ -43,7 +43,7 @@ F 6 "CPF0603B1M0E1" H 2050 2200 50  0001 C CNN "MPN3"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small RA3
+L bottom-board-rescue:R_Small-Device RA3
 U 1 1 5B52CB0F
 P 3050 3300
 F 0 "RA3" H 3000 3325 50  0000 R CNN
@@ -57,7 +57,7 @@ F 6 "RG1608P-5621-B-T5" H 3050 3300 50  0001 C CNN "MPN3"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small RA6
+L bottom-board-rescue:R_Small-Device RA6
 U 1 1 5B52CB1F
 P 4150 3000
 F 0 "RA6" V 4075 3000 50  0000 C CNN
@@ -71,7 +71,7 @@ F 6 "RG1608P-4991-B-T5" V 4150 3000 50  0001 C CNN "MPN3"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small RA7
+L bottom-board-rescue:R_Small-Device RA7
 U 1 1 5B52CB2F
 P 4275 2100
 F 0 "RA7" H 4325 2075 50  0000 L CNN
@@ -85,7 +85,7 @@ F 6 "ERA-3AED101V" H 4275 2100 50  0001 C CNN "MPN3"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GNDA #PWR090
+L bottom-board-rescue:GNDA-power #PWR090
 U 1 1 5B52CB36
 P 2050 2350
 F 0 "#PWR090" H 2050 2100 50  0001 C CNN
@@ -96,7 +96,7 @@ F 3 "" H 2050 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small CA3
+L bottom-board-rescue:C_Small-Device CA3
 U 1 1 5B52CB45
 P 2300 2200
 F 0 "CA3" H 2200 2175 50  0000 R CNN
@@ -110,7 +110,7 @@ F 6 "CC0603JRNPO8BN101" H 2300 2200 50  0001 C CNN "MPN3"
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GNDA #PWR093
+L bottom-board-rescue:GNDA-power #PWR093
 U 1 1 5B52CB4C
 P 2300 2350
 F 0 "#PWR093" H 2300 2100 50  0001 C CNN
@@ -131,7 +131,7 @@ IN1_GC2
 Text Notes 2575 7400 0    60   ~ 0
 Op Amp Bypass\ncapacitors
 $Comp
-L Connector:AudioJack3_Switch J7
+L bottom-board-rescue:AudioJack3_Switch-Connector J7
 U 1 1 5B52CBD7
 P 4600 6700
 F 0 "J7" H 4600 7150 50  0000 C CNN
@@ -144,7 +144,7 @@ F 5 "INPUT1" H 4600 6325 50  0000 C CNN "Comment"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:AudioJack3_Switch J8
+L bottom-board-rescue:AudioJack3_Switch-Connector J8
 U 1 1 5B52CBDF
 P 5550 6700
 F 0 "J8" H 5550 7150 50  0000 C CNN
@@ -161,7 +161,7 @@ IN1
 Text GLabel 5850 6900 2    50   Input ~ 0
 IN2
 $Comp
-L power:GNDA #PWR099
+L bottom-board-rescue:GNDA-power #PWR099
 U 1 1 5B52CBE8
 P 4850 7150
 F 0 "#PWR099" H 4850 6900 50  0001 C CNN
@@ -176,7 +176,7 @@ NoConn ~ 4800 7000
 NoConn ~ 5750 6600
 NoConn ~ 5750 7000
 $Comp
-L power:GNDA #PWR0100
+L bottom-board-rescue:GNDA-power #PWR0100
 U 1 1 5B52CBF2
 P 5800 7150
 F 0 "#PWR0100" H 5800 6900 50  0001 C CNN
@@ -244,7 +244,7 @@ Wire Wire Line
 Wire Wire Line
 	5750 6900 5850 6900
 $Comp
-L power:GNDA #PWR0102
+L bottom-board-rescue:GNDA-power #PWR0102
 U 1 1 5B52CC91
 P 7100 2350
 F 0 "#PWR0102" H 7100 2100 50  0001 C CNN
@@ -255,7 +255,7 @@ F 3 "" H 7100 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR0105
+L bottom-board-rescue:GNDA-power #PWR0105
 U 1 1 5B52CCA7
 P 7350 2350
 F 0 "#PWR0105" H 7350 2100 50  0001 C CNN
@@ -337,7 +337,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 2100 4900 2100
 $Comp
-L Device:CP_Small CA6
+L bottom-board-rescue:CP_Small-Device CA6
 U 1 1 5B52CC4A
 P 4700 2100
 F 0 "CA6" H 4775 2150 50  0000 L CNN
@@ -385,7 +385,7 @@ Wire Wire Line
 Wire Wire Line
 	7350 2000 7500 2000
 $Comp
-L Amplifier_Operational:LM4562 U8
+L bottom-board-rescue:LM4562-Amplifier_Operational U8
 U 1 1 5B5FADF6
 P 8650 2100
 F 0 "U8" H 8650 2400 50  0000 C CNN
@@ -398,7 +398,7 @@ F 5 "LME49720MAX/NOPB" H 8650 2100 50  0001 C CNN "MPN2"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:LM4562 U8
+L bottom-board-rescue:LM4562-Amplifier_Operational U8
 U 2 1 5B5FBC10
 P 3600 2100
 F 0 "U8" H 3600 2375 50  0000 C CNN
@@ -411,7 +411,7 @@ F 5 "LME49720MAX/NOPB" H 3600 2100 50  0001 C CNN "MPN2"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:LM4562 U8
+L bottom-board-rescue:LM4562-Amplifier_Operational U8
 U 3 1 5B5FC925
 P 2175 6700
 F 0 "U8" H 2133 6746 50  0000 L CNN
@@ -424,7 +424,7 @@ F 5 "LME49720MAX/NOPB" H 2175 6700 50  0001 C CNN "MPN2"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RA?
+L bottom-board-rescue:R_Small-Device RA?
 U 1 1 5B6A7A98
 P 3400 3000
 AR Path="/54F7244B/5B6A7A98" Ref="RA?"  Part="1" 
@@ -440,7 +440,7 @@ F 6 "ERJ-PB3B2102V" V 3400 3000 50  0001 C CNN "MPN3"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GNDA #PWR?
+L bottom-board-rescue:GNDA-power #PWR?
 U 1 1 5B626602
 P 2725 6975
 AR Path="/54F72B97/5B626602" Ref="#PWR?"  Part="1" 
@@ -453,7 +453,7 @@ F 3 "" H 2725 6975 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L bottom-board-rescue:C_Small-Device C?
 U 1 1 5B626611
 P 2725 6725
 AR Path="/54F725AE/5B626611" Ref="C?"  Part="1" 
@@ -488,7 +488,7 @@ Wire Wire Line
 Wire Wire Line
 	2725 6575 2725 6625
 $Comp
-L Diode:BAT54S D?
+L bottom-board-rescue:BAT54S-Diode D?
 U 1 1 5B6507CA
 P 3250 1450
 AR Path="/54F72B97/5B6507CA" Ref="D?"  Part="1" 
@@ -508,7 +508,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 1650 3250 2000
 $Comp
-L Diode:BAT54S D?
+L bottom-board-rescue:BAT54S-Diode D?
 U 1 1 5B68B9A2
 P 8300 1450
 AR Path="/54F72B97/5B68B9A2" Ref="D?"  Part="1" 
@@ -529,7 +529,7 @@ Wire Wire Line
 	8300 2000 8350 2000
 Connection ~ 8300 2000
 $Comp
-L Device:R_Small RA5
+L bottom-board-rescue:R_Small-Device RA5
 U 1 1 5B6B74CD
 P 3750 3300
 F 0 "RA5" H 3800 3275 50  0000 L CNN
@@ -543,7 +543,7 @@ F 6 "RG1608P-4991-B-T5" V 3750 3300 50  0001 C CNN "MPN3"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RA8
+L bottom-board-rescue:R_Small-Device RA8
 U 1 1 5B6C0073
 P 6850 2000
 F 0 "RA8" H 6800 2050 50  0000 R CNN
@@ -557,7 +557,7 @@ F 6 "RNCF0603DTC47R0" H 6850 2000 50  0001 C CNN "MPN3"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small RA9
+L bottom-board-rescue:R_Small-Device RA9
 U 1 1 5B6C2019
 P 7100 2200
 F 0 "RA9" H 7150 2250 50  0000 L CNN
@@ -571,7 +571,7 @@ F 6 "CPF0603B1M0E1" H 7100 2200 50  0001 C CNN "MPN3"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small RA14
+L bottom-board-rescue:R_Small-Device RA14
 U 1 1 5B6C8FDD
 P 9325 2100
 F 0 "RA14" H 9375 2075 50  0000 L CNN
@@ -585,7 +585,7 @@ F 6 "ERA-3AED101V" H 9325 2100 50  0001 C CNN "MPN3"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small CA7
+L bottom-board-rescue:C_Small-Device CA7
 U 1 1 5B6CD494
 P 7350 2200
 F 0 "CA7" H 7250 2175 50  0000 R CNN
@@ -599,7 +599,7 @@ F 6 "CC0603JRNPO8BN101" H 7350 2200 50  0001 C CNN "MPN3"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small CA4
+L bottom-board-rescue:C_Small-Device CA4
 U 1 1 5B617F91
 P 2550 2000
 F 0 "CA4" H 2650 2050 50  0000 L CNN
@@ -612,7 +612,7 @@ F 5 "ECP-U1C105MA5" H 2550 2000 50  0001 C CNN "MPN2"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:C_Small CA8
+L bottom-board-rescue:C_Small-Device CA8
 U 1 1 5B6D8BBD
 P 7600 2000
 F 0 "CA8" H 7700 2050 50  0000 L CNN
@@ -625,7 +625,7 @@ F 5 "ECP-U1C105MA5" H 7600 2000 50  0001 C CNN "MPN2"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:CP_Small CA10
+L bottom-board-rescue:CP_Small-Device CA10
 U 1 1 5B6D9BCB
 P 9750 2100
 F 0 "CA10" H 9825 2150 50  0000 L CNN
@@ -639,7 +639,7 @@ F 6 "EDH106M016A9BAA" H 9750 2100 50  0001 C CNN "MPN3"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small CA5
+L bottom-board-rescue:C_Small-Device CA5
 U 1 1 5B6DF7B4
 P 3575 2550
 F 0 "CA5" V 3675 2550 50  0000 C CNN
@@ -653,7 +653,7 @@ F 6 "CC0603JRNPO8BN101" H 3575 2550 50  0001 C CNN "MPN3"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small CA9
+L bottom-board-rescue:C_Small-Device CA9
 U 1 1 5B6EB31A
 P 8700 2550
 F 0 "CA9" V 8800 2550 50  0000 C CNN
@@ -667,7 +667,7 @@ F 6 "CC0603JRNPO8BN101" H 8700 2550 50  0001 C CNN "MPN3"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GNDA #PWR087
+L bottom-board-rescue:GNDA-power #PWR087
 U 1 1 5BB3954F
 P 2900 1500
 F 0 "#PWR087" H 2900 1250 50  0001 C CNN
@@ -682,7 +682,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 1450 2950 1450
 $Comp
-L Device:Q_NJFET_DSG Q10
+L bottom-board-rescue:Q_NJFET_DSG-Device Q10
 U 1 1 5BB43691
 P 2950 3725
 F 0 "Q10" H 3141 3771 50  0000 L CNN
@@ -694,7 +694,7 @@ F 4 "PMBFJ110,215" H 2950 3725 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NMOS_GSD Q?
+L bottom-board-rescue:Q_NMOS_GSD-Device Q?
 U 1 1 5BB57EF7
 P 2150 4025
 AR Path="/54F72CD0/5BB57EF7" Ref="Q?"  Part="1" 
@@ -710,7 +710,7 @@ F 6 "TSM2N7002KCX RFG" H 2150 4025 50  0001 C CNN "MPN3"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148WS D?
+L bottom-board-rescue:1N4148WS-Diode D?
 U 1 1 5BB62783
 P 2500 3725
 AR Path="/54F72CD0/5BB62783" Ref="D?"  Part="1" 
@@ -726,7 +726,7 @@ F 6 "1N4148WS-G RVG" H 2500 3725 50  0001 C CNN "MPN3"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R?
+L bottom-board-rescue:R_Small-Device R?
 U 1 1 5BB7939C
 P 2700 3925
 AR Path="/54F725AE/5BB7939C" Ref="R?"  Part="1" 
@@ -743,7 +743,7 @@ F 6 "ESR03EZPJ105" H 2700 3925 50  0001 C CNN "MPN3"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR085
+L bottom-board-rescue:GNDA-power #PWR085
 U 1 1 5BB7DC27
 P 2250 4275
 F 0 "#PWR085" H 2250 4025 50  0001 C CNN
@@ -775,7 +775,7 @@ Wire Wire Line
 Wire Wire Line
 	1575 4025 1725 4025
 $Comp
-L power:+12VA #PWR?
+L bottom-board-rescue:+12VA-power #PWR?
 U 1 1 5BBC50FA
 P 3600 1400
 AR Path="/54F7244B/5BBC50FA" Ref="#PWR?"  Part="1" 
@@ -788,7 +788,7 @@ F 3 "" H 3600 1400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L bottom-board-rescue:R_Small-Device R?
 U 1 1 5BBD2527
 P 2250 3525
 AR Path="/54F725AE/5BBD2527" Ref="R?"  Part="1" 
@@ -805,7 +805,7 @@ F 6 "ESR03EZPJ104" H 2250 3525 50  0001 C CNN "MPN3"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:+12VA #PWR?
+L bottom-board-rescue:+12VA-power #PWR?
 U 1 1 5BBD6CE9
 P 2250 3350
 AR Path="/54F7244B/5BBD6CE9" Ref="#PWR?"  Part="1" 
@@ -823,7 +823,7 @@ Wire Wire Line
 	2250 3625 2250 3725
 Connection ~ 2250 3725
 $Comp
-L Device:R_Small RA?
+L bottom-board-rescue:R_Small-Device RA?
 U 1 1 5BBE6B93
 P 1250 6475
 AR Path="/54F7244B/5BBE6B93" Ref="RA?"  Part="1" 
@@ -839,7 +839,7 @@ F 6 "ERJ-PB3D1002V" V 1250 6475 50  0001 C CNN "MPN3"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RA?
+L bottom-board-rescue:R_Small-Device RA?
 U 1 1 5BBE6ED1
 P 1250 6825
 AR Path="/54F7244B/5BBE6ED1" Ref="RA?"  Part="1" 
@@ -857,7 +857,7 @@ $EndComp
 Wire Wire Line
 	1250 6575 1250 6650
 $Comp
-L power:GNDA #PWR?
+L bottom-board-rescue:GNDA-power #PWR?
 U 1 1 5BBEFBFA
 P 1250 7075
 AR Path="/54F72B97/5BBEFBFA" Ref="#PWR?"  Part="1" 
@@ -886,7 +886,7 @@ Connection ~ 1250 6650
 Wire Wire Line
 	1250 6650 1250 6725
 $Comp
-L power:+12VA #PWR?
+L bottom-board-rescue:+12VA-power #PWR?
 U 1 1 5BC01362
 P 1250 6300
 AR Path="/54F7244B/5BC01362" Ref="#PWR?"  Part="1" 
@@ -905,7 +905,7 @@ INPUT_BIAS
 Text Label 3275 4125 0    39   ~ 0
 INPUT_BIAS
 $Comp
-L power:+12VA #PWR?
+L bottom-board-rescue:+12VA-power #PWR?
 U 1 1 5BC3E56B
 P 2075 6350
 AR Path="/54F7244B/5BC3E56B" Ref="#PWR?"  Part="1" 
@@ -918,7 +918,7 @@ F 3 "" H 2075 6350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR?
+L bottom-board-rescue:GNDA-power #PWR?
 U 1 1 5BC47DC7
 P 2075 7050
 AR Path="/54F72B97/5BC47DC7" Ref="#PWR?"  Part="1" 
@@ -931,7 +931,7 @@ F 3 "" H 2075 7050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12VA #PWR?
+L bottom-board-rescue:+12VA-power #PWR?
 U 1 1 5BC5122D
 P 2725 6475
 AR Path="/54F7244B/5BC5122D" Ref="#PWR?"  Part="1" 
@@ -944,7 +944,7 @@ F 3 "" H 2725 6475 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NJFET_DSG Q11
+L bottom-board-rescue:Q_NJFET_DSG-Device Q11
 U 1 1 5BC852A5
 P 3850 3725
 F 0 "Q11" H 4041 3771 50  0000 L CNN
@@ -956,7 +956,7 @@ F 4 "PMBFJ110,215" H 3850 3725 50  0001 C CNN "MPN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NMOS_GSD Q?
+L bottom-board-rescue:Q_NMOS_GSD-Device Q?
 U 1 1 5BC852AE
 P 4650 4025
 AR Path="/54F72CD0/5BC852AE" Ref="Q?"  Part="1" 
@@ -972,7 +972,7 @@ F 6 "TSM2N7002KCX RFG" H 4650 4025 50  0001 C CNN "MPN3"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148WS D?
+L bottom-board-rescue:1N4148WS-Diode D?
 U 1 1 5BC852B7
 P 4300 3725
 AR Path="/54F72CD0/5BC852B7" Ref="D?"  Part="1" 
@@ -988,7 +988,7 @@ F 6 "1N4148WS-G RVG" H 4300 3725 50  0001 C CNN "MPN3"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R?
+L bottom-board-rescue:R_Small-Device R?
 U 1 1 5BC852C0
 P 4100 3925
 AR Path="/54F725AE/5BC852C0" Ref="R?"  Part="1" 
@@ -1005,7 +1005,7 @@ F 6 "ESR03EZPJ105" H 4100 3925 50  0001 C CNN "MPN3"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR092
+L bottom-board-rescue:GNDA-power #PWR092
 U 1 1 5BC852C6
 P 4550 4275
 F 0 "#PWR092" H 4550 4025 50  0001 C CNN
@@ -1037,7 +1037,7 @@ Wire Wire Line
 Wire Wire Line
 	5225 4025 5075 4025
 $Comp
-L Device:R_Small R?
+L bottom-board-rescue:R_Small-Device R?
 U 1 1 5BC852DA
 P 4550 3525
 AR Path="/54F725AE/5BC852DA" Ref="R?"  Part="1" 
@@ -1054,7 +1054,7 @@ F 6 "ESR03EZPJ104" H 4550 3525 50  0001 C CNN "MPN3"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12VA #PWR?
+L bottom-board-rescue:+12VA-power #PWR?
 U 1 1 5BC852E0
 P 4550 3350
 AR Path="/54F7244B/5BC852E0" Ref="#PWR?"  Part="1" 
@@ -1084,7 +1084,7 @@ Wire Wire Line
 Wire Wire Line
 	8650 1450 8650 1400
 $Comp
-L power:+12VA #PWR?
+L bottom-board-rescue:+12VA-power #PWR?
 U 1 1 5BCB9B34
 P 8650 1400
 AR Path="/54F7244B/5BCB9B34" Ref="#PWR?"  Part="1" 
@@ -1097,7 +1097,7 @@ F 3 "" H 8650 1400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR096
+L bottom-board-rescue:GNDA-power #PWR096
 U 1 1 5BCBEDFC
 P 7950 1500
 F 0 "#PWR096" H 7950 1250 50  0001 C CNN
@@ -1112,7 +1112,7 @@ Wire Wire Line
 Wire Wire Line
 	7950 1450 8000 1450
 $Comp
-L Device:R_Small RA41
+L bottom-board-rescue:R_Small-Device RA41
 U 1 1 5BCC6E02
 P 2825 2225
 F 0 "RA41" V 2900 2325 50  0000 R CNN
@@ -1138,7 +1138,7 @@ Wire Wire Line
 Text Label 2825 2325 3    39   ~ 0
 INPUT_BIAS
 $Comp
-L Device:R_Small RA42
+L bottom-board-rescue:R_Small-Device RA42
 U 1 1 5BCE4FCB
 P 7875 2225
 F 0 "RA42" V 7950 2325 50  0000 R CNN
@@ -1161,7 +1161,7 @@ Connection ~ 7875 2000
 Wire Wire Line
 	7875 2000 8300 2000
 $Comp
-L Device:Q_NJFET_DSG Q14
+L bottom-board-rescue:Q_NJFET_DSG-Device Q14
 U 1 1 5BCFC1D1
 P 8000 3725
 F 0 "Q14" H 8191 3771 50  0000 L CNN
@@ -1173,7 +1173,7 @@ F 4 "PMBFJ110,215" H 8000 3725 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NMOS_GSD Q?
+L bottom-board-rescue:Q_NMOS_GSD-Device Q?
 U 1 1 5BCFC1DA
 P 7200 4025
 AR Path="/54F72CD0/5BCFC1DA" Ref="Q?"  Part="1" 
@@ -1189,7 +1189,7 @@ F 6 "TSM2N7002KCX RFG" H 7200 4025 50  0001 C CNN "MPN3"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148WS D?
+L bottom-board-rescue:1N4148WS-Diode D?
 U 1 1 5BCFC1E3
 P 7550 3725
 AR Path="/54F72CD0/5BCFC1E3" Ref="D?"  Part="1" 
@@ -1205,7 +1205,7 @@ F 6 "1N4148WS-G RVG" H 7550 3725 50  0001 C CNN "MPN3"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R?
+L bottom-board-rescue:R_Small-Device R?
 U 1 1 5BCFC1EC
 P 7750 3925
 AR Path="/54F725AE/5BCFC1EC" Ref="R?"  Part="1" 
@@ -1222,7 +1222,7 @@ F 6 "ESR03EZPJ105" H 7750 3925 50  0001 C CNN "MPN3"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR095
+L bottom-board-rescue:GNDA-power #PWR095
 U 1 1 5BCFC1F2
 P 7300 4275
 F 0 "#PWR095" H 7300 4025 50  0001 C CNN
@@ -1254,7 +1254,7 @@ Wire Wire Line
 Wire Wire Line
 	6625 4025 6775 4025
 $Comp
-L Device:R_Small R?
+L bottom-board-rescue:R_Small-Device R?
 U 1 1 5BCFC206
 P 7300 3525
 AR Path="/54F725AE/5BCFC206" Ref="R?"  Part="1" 
@@ -1276,7 +1276,7 @@ Connection ~ 7300 3725
 Text Label 8325 4125 0    39   ~ 0
 INPUT_BIAS
 $Comp
-L Device:Q_NJFET_DSG Q15
+L bottom-board-rescue:Q_NJFET_DSG-Device Q15
 U 1 1 5BCFC210
 P 8900 3725
 F 0 "Q15" H 9090 3771 50  0000 L CNN
@@ -1288,7 +1288,7 @@ F 4 "PMBFJ110,215" H 8900 3725 50  0001 C CNN "MPN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NMOS_GSD Q?
+L bottom-board-rescue:Q_NMOS_GSD-Device Q?
 U 1 1 5BCFC219
 P 9700 4025
 AR Path="/54F72CD0/5BCFC219" Ref="Q?"  Part="1" 
@@ -1304,7 +1304,7 @@ F 6 "TSM2N7002KCX RFG" H 9700 4025 50  0001 C CNN "MPN3"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148WS D?
+L bottom-board-rescue:1N4148WS-Diode D?
 U 1 1 5BCFC222
 P 9350 3725
 AR Path="/54F72CD0/5BCFC222" Ref="D?"  Part="1" 
@@ -1320,7 +1320,7 @@ F 6 "1N4148WS-G RVG" H 9350 3725 50  0001 C CNN "MPN3"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R?
+L bottom-board-rescue:R_Small-Device R?
 U 1 1 5BCFC22B
 P 9150 3925
 AR Path="/54F725AE/5BCFC22B" Ref="R?"  Part="1" 
@@ -1337,7 +1337,7 @@ F 6 "ESR03EZPJ105" H 9150 3925 50  0001 C CNN "MPN3"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR0101
+L bottom-board-rescue:GNDA-power #PWR0101
 U 1 1 5BCFC231
 P 9600 4275
 F 0 "#PWR0101" H 9600 4025 50  0001 C CNN
@@ -1369,7 +1369,7 @@ Wire Wire Line
 Wire Wire Line
 	10275 4025 10125 4025
 $Comp
-L Device:R_Small R?
+L bottom-board-rescue:R_Small-Device R?
 U 1 1 5BCFC245
 P 9600 3525
 AR Path="/54F725AE/5BCFC245" Ref="R?"  Part="1" 
@@ -1397,7 +1397,7 @@ Wire Wire Line
 Wire Wire Line
 	8800 3525 8800 3400
 $Comp
-L power:+12VA #PWR?
+L bottom-board-rescue:+12VA-power #PWR?
 U 1 1 5BD09B56
 P 7300 3350
 AR Path="/54F7244B/5BD09B56" Ref="#PWR?"  Part="1" 
@@ -1412,7 +1412,7 @@ $EndComp
 Wire Wire Line
 	7300 3350 7300 3425
 $Comp
-L power:+12VA #PWR?
+L bottom-board-rescue:+12VA-power #PWR?
 U 1 1 5BD0F58F
 P 9600 3350
 AR Path="/54F7244B/5BD0F58F" Ref="#PWR?"  Part="1" 
@@ -1429,7 +1429,7 @@ Wire Wire Line
 Text Notes 9475 5500 0    60   ~ 0
 The gain calculation includes\nthe RDSon value\n\nJ110: RDSon = 18R
 $Comp
-L Device:C_Small C?
+L bottom-board-rescue:C_Small-Device C?
 U 1 1 5BD34D79
 P 1475 6825
 AR Path="/54F7244B/5BD34D79" Ref="C?"  Part="1" 
@@ -1444,7 +1444,7 @@ F 5 "C2012X5R1C106M085AC" H 1475 6825 50  0001 C CNN "MPN2"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L bottom-board-rescue:C_Small-Device C?
 U 1 1 5BD40943
 P 2875 6725
 AR Path="/54F7244B/5BD40943" Ref="C?"  Part="1" 
@@ -1459,7 +1459,7 @@ F 5 "C2012X5R1C106M085AC" H 2875 6725 50  0001 C CNN "MPN2"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L bottom-board-rescue:TestPoint-Connector TP?
 U 1 1 5BDB8F48
 P 1725 3925
 AR Path="/54F7244B/5BDB8F48" Ref="TP?"  Part="1" 
@@ -1475,7 +1475,7 @@ Connection ~ 1875 4025
 Wire Wire Line
 	1875 4025 1950 4025
 $Comp
-L Connector:TestPoint TP?
+L bottom-board-rescue:TestPoint-Connector TP?
 U 1 1 5BDD221B
 P 5075 3925
 AR Path="/54F7244B/5BDD221B" Ref="TP?"  Part="1" 
@@ -1491,7 +1491,7 @@ Connection ~ 4925 4025
 Wire Wire Line
 	4925 4025 4850 4025
 $Comp
-L Connector:TestPoint TP?
+L bottom-board-rescue:TestPoint-Connector TP?
 U 1 1 5BDE5F12
 P 6775 3925
 AR Path="/54F7244B/5BDE5F12" Ref="TP?"  Part="1" 
@@ -1507,7 +1507,7 @@ Connection ~ 6925 4025
 Wire Wire Line
 	6925 4025 7000 4025
 $Comp
-L Connector:TestPoint TP?
+L bottom-board-rescue:TestPoint-Connector TP?
 U 1 1 5BDFDFD7
 P 10125 3925
 AR Path="/54F7244B/5BDFDFD7" Ref="TP?"  Part="1" 
@@ -1523,7 +1523,7 @@ Connection ~ 9975 4025
 Wire Wire Line
 	9975 4025 9900 4025
 $Comp
-L Connector:TestPoint TP?
+L bottom-board-rescue:TestPoint-Connector TP?
 U 1 1 5BB4E9C8
 P 1175 6650
 AR Path="/54F7244B/5BB4E9C8" Ref="TP?"  Part="1" 
@@ -1538,7 +1538,7 @@ $EndComp
 Wire Wire Line
 	1175 6650 1250 6650
 $Comp
-L Device:R_Small R?
+L bottom-board-rescue:R_Small-Device R?
 U 1 1 5BBEADC0
 P 1875 3850
 AR Path="/54F725AE/5BBEADC0" Ref="R?"  Part="1" 
@@ -1554,7 +1554,7 @@ F 6 "ESR03EZPJ103" H 1875 3850 50  0001 C CNN "MPN3"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L bottom-board-rescue:R_Small-Device R?
 U 1 1 5BBEADCA
 P 4925 3850
 AR Path="/54F725AE/5BBEADCA" Ref="R?"  Part="1" 
@@ -1570,7 +1570,7 @@ F 6 "ESR03EZPJ103" H 4925 3850 50  0001 C CNN "MPN3"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L bottom-board-rescue:R_Small-Device R?
 U 1 1 5BBEADD4
 P 6925 3850
 AR Path="/54F725AE/5BBEADD4" Ref="R?"  Part="1" 
@@ -1586,7 +1586,7 @@ F 6 "ESR03EZPJ103" H 6925 3850 50  0001 C CNN "MPN3"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L bottom-board-rescue:R_Small-Device R?
 U 1 1 5BBEADDE
 P 9975 3850
 AR Path="/54F725AE/5BBEADDE" Ref="R?"  Part="1" 
@@ -1610,7 +1610,7 @@ Wire Wire Line
 Wire Wire Line
 	6925 4025 6925 3950
 $Comp
-L Device:R_Small R?
+L bottom-board-rescue:R_Small-Device R?
 U 1 1 5C22DFF1
 P 1875 4200
 AR Path="/54F725AE/5C22DFF1" Ref="R?"  Part="1" 
@@ -1628,7 +1628,7 @@ $EndComp
 Wire Wire Line
 	1875 4100 1875 4025
 $Comp
-L power:GNDA #PWR0178
+L bottom-board-rescue:GNDA-power #PWR0178
 U 1 1 5C243297
 P 1875 4350
 F 0 "#PWR0178" H 1875 4100 50  0001 C CNN
@@ -1643,7 +1643,7 @@ Wire Wire Line
 Wire Wire Line
 	1725 3925 1725 4025
 $Comp
-L power:+12VA #PWR?
+L bottom-board-rescue:+12VA-power #PWR?
 U 1 1 5C272347
 P 1875 3700
 AR Path="/54F7244B/5C272347" Ref="#PWR?"  Part="1" 
@@ -1658,7 +1658,7 @@ $EndComp
 Wire Wire Line
 	1875 3700 1875 3750
 $Comp
-L Device:R_Small R?
+L bottom-board-rescue:R_Small-Device R?
 U 1 1 5C28536A
 P 4925 4200
 AR Path="/54F725AE/5C28536A" Ref="R?"  Part="1" 
@@ -1674,7 +1674,7 @@ F 6 "ESR03EZPJ272" H 4925 4200 50  0001 C CNN "MPN3"
 	1    0    0    1   
 $EndComp
 $Comp
-L power:GNDA #PWR0208
+L bottom-board-rescue:GNDA-power #PWR0208
 U 1 1 5C285370
 P 4925 4350
 F 0 "#PWR0208" H 4925 4100 50  0001 C CNN
@@ -1689,7 +1689,7 @@ Wire Wire Line
 Wire Wire Line
 	4925 4100 4925 4025
 $Comp
-L power:+12VA #PWR?
+L bottom-board-rescue:+12VA-power #PWR?
 U 1 1 5C2A3316
 P 4925 3700
 AR Path="/54F7244B/5C2A3316" Ref="#PWR?"  Part="1" 
@@ -1712,7 +1712,7 @@ Connection ~ 5075 4025
 Wire Wire Line
 	4925 4025 5075 4025
 $Comp
-L Device:R_Small R?
+L bottom-board-rescue:R_Small-Device R?
 U 1 1 5C2FC122
 P 6925 4200
 AR Path="/54F725AE/5C2FC122" Ref="R?"  Part="1" 
@@ -1728,7 +1728,7 @@ F 6 "ESR03EZPJ272" H 6925 4200 50  0001 C CNN "MPN3"
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GNDA #PWR0210
+L bottom-board-rescue:GNDA-power #PWR0210
 U 1 1 5C2FC128
 P 6925 4350
 F 0 "#PWR0210" H 6925 4100 50  0001 C CNN
@@ -1743,7 +1743,7 @@ Wire Wire Line
 Wire Wire Line
 	6925 4100 6925 4025
 $Comp
-L Device:R_Small R?
+L bottom-board-rescue:R_Small-Device R?
 U 1 1 5C30CE4F
 P 9975 4200
 AR Path="/54F725AE/5C30CE4F" Ref="R?"  Part="1" 
@@ -1759,7 +1759,7 @@ F 6 "ESR03EZPJ272" H 9975 4200 50  0001 C CNN "MPN3"
 	1    0    0    1   
 $EndComp
 $Comp
-L power:GNDA #PWR0226
+L bottom-board-rescue:GNDA-power #PWR0226
 U 1 1 5C30CE55
 P 9975 4350
 F 0 "#PWR0226" H 9975 4100 50  0001 C CNN
@@ -1774,7 +1774,7 @@ Wire Wire Line
 Wire Wire Line
 	9975 4100 9975 4025
 $Comp
-L power:+12VA #PWR?
+L bottom-board-rescue:+12VA-power #PWR?
 U 1 1 5C31CA1A
 P 6925 3675
 AR Path="/54F7244B/5C31CA1A" Ref="#PWR?"  Part="1" 
@@ -1789,7 +1789,7 @@ $EndComp
 Wire Wire Line
 	6925 3675 6925 3750
 $Comp
-L power:+12VA #PWR?
+L bottom-board-rescue:+12VA-power #PWR?
 U 1 1 5C32613A
 P 9975 3675
 AR Path="/54F7244B/5C32613A" Ref="#PWR?"  Part="1" 
@@ -1814,7 +1814,7 @@ Connection ~ 10125 4025
 Wire Wire Line
 	10125 4025 9975 4025
 $Comp
-L Device:R_Small RA?
+L bottom-board-rescue:R_Small-Device RA?
 U 1 1 5C3BF4A5
 P 8450 3000
 AR Path="/54F7244B/5C3BF4A5" Ref="RA?"  Part="1" 
@@ -1830,7 +1830,7 @@ F 6 "ERJ-PB3B2102V" V 8450 3000 50  0001 C CNN "MPN3"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small RA13
+L bottom-board-rescue:R_Small-Device RA13
 U 1 1 5C3BF57D
 P 9200 3000
 F 0 "RA13" V 9125 3000 50  0000 C CNN
@@ -1844,7 +1844,7 @@ F 6 "RG1608P-4991-B-T5" V 9200 3000 50  0001 C CNN "MPN3"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small RA10
+L bottom-board-rescue:R_Small-Device RA10
 U 1 1 5C3C120E
 P 8100 3300
 F 0 "RA10" H 8050 3325 50  0000 R CNN
@@ -1858,7 +1858,7 @@ F 6 "RG1608P-5621-B-T5" H 8100 3300 50  0001 C CNN "MPN3"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small RA12
+L bottom-board-rescue:R_Small-Device RA12
 U 1 1 5C3C12F4
 P 8800 3300
 F 0 "RA12" H 8850 3275 50  0000 L CNN

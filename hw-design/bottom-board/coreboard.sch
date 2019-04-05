@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:GNDD #PWR082
+L bottom-board-rescue:GNDD-power #PWR082
 U 1 1 55FAFACA
 P 9150 3500
 F 0 "#PWR082" H 9150 3250 50  0001 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 9150 3500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR081
+L bottom-board-rescue:+3.3V-power #PWR081
 U 1 1 55FAFDCC
 P 9150 2600
 F 0 "#PWR081" H 9150 2450 50  0001 C CNN
@@ -37,7 +37,7 @@ F 3 "" H 9150 2600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R20
+L bottom-board-rescue:R_Small-Device R20
 U 1 1 55FB0BE7
 P 1900 6450
 F 0 "R20" H 1850 6400 50  0000 R CNN
@@ -51,7 +51,7 @@ F 6 "ESR03EZPJ272" H 1900 6450 50  0001 C CNN "MPN3"
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+3.3V #PWR071
+L bottom-board-rescue:+3.3V-power #PWR071
 U 1 1 55FB0BEE
 P 1900 6250
 F 0 "#PWR071" H 1900 6100 50  0001 C CNN
@@ -62,7 +62,7 @@ F 3 "" H 1900 6250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDD #PWR083
+L bottom-board-rescue:GNDD-power #PWR083
 U 1 1 567B8370
 P 9600 2750
 F 0 "#PWR083" H 9600 2500 50  0001 C CNN
@@ -73,7 +73,7 @@ F 3 "" H 9600 2750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x10_Odd_Even J5
+L bottom-board-rescue:Conn_02x10_Odd_Even-Connector_Generic J5
 U 1 1 5B574FB3
 P 8425 4650
 F 0 "J5" H 8475 5150 50  0000 C CNN
@@ -86,7 +86,7 @@ F 5 "SBH11-PBPC-D10-ST-BK" H -775 2850 50  0001 C CNN "MPN2"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J6
+L bottom-board-rescue:Conn_01x03-Connector_Generic J6
 U 1 1 5B574FBA
 P 8975 5700
 F 0 "J6" H 8975 5900 50  0000 C CNN
@@ -98,7 +98,7 @@ F 4 "do not populate" H 8975 5700 50  0001 C CNN "Note"
 	1    0    0    1   
 $EndComp
 $Comp
-L power:GNDD #PWR079
+L bottom-board-rescue:GNDD-power #PWR079
 U 1 1 5B574FC1
 P 8725 5900
 F 0 "#PWR079" H 8725 5650 50  0001 C CNN
@@ -109,7 +109,7 @@ F 3 "" H 8725 5900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDD #PWR078
+L bottom-board-rescue:GNDD-power #PWR078
 U 1 1 5B574FC7
 P 8125 5250
 F 0 "#PWR078" H 8125 5000 50  0001 C CNN
@@ -120,7 +120,7 @@ F 3 "" H 8125 5250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDD #PWR080
+L bottom-board-rescue:GNDD-power #PWR080
 U 1 1 5B574FCD
 P 8825 5200
 F 0 "#PWR080" H 8825 4950 50  0001 C CNN
@@ -254,7 +254,7 @@ Wire Notes Line
 Wire Notes Line
 	10300 2150 8550 2150
 $Comp
-L Device:R_Small R16
+L bottom-board-rescue:R_Small-Device R16
 U 1 1 5B5FEE00
 P 1000 6450
 F 0 "R16" H 1050 6500 50  0000 L CNN
@@ -268,7 +268,7 @@ F 6 "ESR03EZPJ103" H 1000 6450 50  0001 C CNN "MPN3"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR066
+L bottom-board-rescue:+3.3V-power #PWR066
 U 1 1 5B5FEE06
 P 1000 6250
 F 0 "#PWR066" H 1000 6100 50  0001 C CNN
@@ -283,7 +283,7 @@ Wire Wire Line
 Text GLabel 1000 6650 3    50   Output ~ 0
 POWER_BUTTON
 $Comp
-L power:+5VD #PWR072
+L bottom-board-rescue:+5VD-power #PWR072
 U 1 1 5B60632C
 P 5300 1925
 F 0 "#PWR072" H 5300 1775 50  0001 C CNN
@@ -294,7 +294,7 @@ F 3 "" H 5300 1925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C32
+L bottom-board-rescue:C_Small-Device C32
 U 1 1 5B6071EC
 P 5300 2175
 F 0 "C32" V 5350 2125 50  0000 R CNN
@@ -322,7 +322,7 @@ Wire Wire Line
 	5450 2025 5300 2025
 Connection ~ 5300 2025
 $Comp
-L power:GNDD #PWR073
+L bottom-board-rescue:GNDD-power #PWR073
 U 1 1 5B607396
 P 5300 2425
 F 0 "#PWR073" H 5300 2175 50  0001 C CNN
@@ -356,7 +356,7 @@ Wire Wire Line
 Wire Wire Line
 	1900 6300 1900 6350
 $Comp
-L Memory_EEPROM:AT24CS08-STUM U7
+L bottom-board-rescue:AT24CS08-STUM-Memory_EEPROM U7
 U 1 1 5B819253
 P 9150 3100
 F 0 "U7" H 9050 3425 50  0000 R CNN
@@ -370,7 +370,7 @@ $EndComp
 Wire Wire Line
 	9650 3100 9550 3100
 $Comp
-L power:GNDD #PWR084
+L bottom-board-rescue:GNDD-power #PWR084
 U 1 1 5B8606AE
 P 9600 3300
 F 0 "#PWR084" H 9600 3050 50  0001 C CNN
@@ -389,7 +389,7 @@ PM_LEDS_SDA
 Text GLabel 9650 3100 2    50   Input ~ 0
 PM_LEDS_SCL
 $Comp
-L Device:R_Small R21
+L bottom-board-rescue:R_Small-Device R21
 U 1 1 5B633AA0
 P 2150 6450
 F 0 "R21" H 2100 6400 50  0000 R CNN
@@ -403,7 +403,7 @@ F 6 "ESR03EZPJ272" H 2150 6450 50  0001 C CNN "MPN3"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C?
+L bottom-board-rescue:C_Small-Device C?
 U 1 1 5B652F5E
 P 5450 2175
 AR Path="/54F7244B/5B652F5E" Ref="C?"  Part="1" 
@@ -419,7 +419,7 @@ F 6 "CC0603MRX5R5BB106" V 5450 2175 50  0001 C CNN "MPN3"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C36
+L bottom-board-rescue:C_Small-Device C36
 U 1 1 5B66658B
 P 9400 2700
 F 0 "C36" V 9325 2650 50  0000 R CNN
@@ -433,7 +433,7 @@ F 6 "CS0603KRX7R7BB104" V 9400 2700 50  0001 C CNN "MPN3"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R22
+L bottom-board-rescue:R_Small-Device R22
 U 1 1 5B67191F
 P 7775 4550
 F 0 "R22" V 7725 4475 50  0000 R CNN
@@ -447,7 +447,7 @@ F 6 "ESR03EZPJ272" H 7775 4550 50  0001 C CNN "MPN3"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R23
+L bottom-board-rescue:R_Small-Device R23
 U 1 1 5B69B8C5
 P 7775 4650
 F 0 "R23" V 7725 4575 50  0000 R CNN
@@ -461,7 +461,7 @@ F 6 "ESR03EZPJ272" H 7775 4650 50  0001 C CNN "MPN3"
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x20_Odd_Even J3
+L bottom-board-rescue:Conn_02x20_Odd_Even-Connector_Generic J3
 U 1 1 5B8A1F13
 P 3150 4375
 F 0 "J3" V 3246 5354 50  0000 L CNN
@@ -473,7 +473,7 @@ F 4 "DF12(3.0)-40DP-0.5V(86)" V 3150 4375 50  0001 C CNN "MPN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x30_Odd_Even J4
+L bottom-board-rescue:Conn_02x30_Odd_Even-Connector_Generic J4
 U 1 1 5B8A20B9
 P 3200 2225
 F 0 "J4" V 3296 3704 50  0000 L CNN
@@ -493,7 +493,7 @@ CHAIN_UART_RE
 Text GLabel 4500 1825 1    50   Output ~ 0
 CHAIN_UART_DE
 $Comp
-L power:+5VD #PWR076
+L bottom-board-rescue:+5VD-power #PWR076
 U 1 1 5B905C15
 P 4875 2350
 F 0 "#PWR076" H 4875 2200 50  0001 C CNN
@@ -618,7 +618,7 @@ IN1_TBP
 Text GLabel 2450 4675 3    50   Output ~ 0
 IN2_TBP
 $Comp
-L power:GNDD #PWR068
+L bottom-board-rescue:GNDD-power #PWR068
 U 1 1 5B8E088D
 P 1425 2575
 F 0 "#PWR068" H 1425 2325 50  0001 C CNN
@@ -629,7 +629,7 @@ F 3 "" H 1425 2575 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDD #PWR067
+L bottom-board-rescue:GNDD-power #PWR067
 U 1 1 5B8EE8EA
 P 1425 1925
 F 0 "#PWR067" H 1425 1675 50  0001 C CNN
@@ -737,7 +737,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 3975 2650 4075
 $Comp
-L power:GNDD #PWR069
+L bottom-board-rescue:GNDD-power #PWR069
 U 1 1 5C0DE467
 P 1925 4075
 F 0 "#PWR069" H 1925 3825 50  0001 C CNN
@@ -797,7 +797,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 4575 2350 4675
 $Comp
-L power:GNDD #PWR070
+L bottom-board-rescue:GNDD-power #PWR070
 U 1 1 5C3492CC
 P 1925 4675
 F 0 "#PWR070" H 1925 4425 50  0001 C CNN
@@ -835,7 +835,7 @@ NoConn ~ 2000 1925
 NoConn ~ 1900 1925
 NoConn ~ 1800 1925
 $Comp
-L power:GNDD #PWR0225
+L bottom-board-rescue:GNDD-power #PWR0225
 U 1 1 5C59848E
 P 4300 2525
 F 0 "#PWR0225" H 4300 2275 50  0001 C CNN
@@ -955,7 +955,7 @@ F 4 "AP2120N-3.3TRG1" H 7325 2850 60  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR?
+L bottom-board-rescue:GNDA-power #PWR?
 U 1 1 5BB762E3
 P 7325 3200
 AR Path="/54F72B97/5BB762E3" Ref="#PWR?"  Part="1" 
@@ -970,7 +970,7 @@ $EndComp
 Wire Wire Line
 	7325 3150 7325 3200
 $Comp
-L power:GNDA #PWR?
+L bottom-board-rescue:GNDA-power #PWR?
 U 1 1 5BB762EA
 P 6925 3200
 AR Path="/54F72B97/5BB762EA" Ref="#PWR?"  Part="1" 
@@ -995,7 +995,7 @@ Wire Wire Line
 	7625 2850 7725 2850
 Connection ~ 7725 2850
 $Comp
-L power:GNDA #PWR?
+L bottom-board-rescue:GNDA-power #PWR?
 U 1 1 5BB762F7
 P 7725 3200
 AR Path="/54F72B97/5BB762F7" Ref="#PWR?"  Part="1" 
@@ -1014,7 +1014,7 @@ Wire Wire Line
 Wire Wire Line
 	7725 2850 7725 2950
 $Comp
-L power:PWR_FLAG #FLG?
+L bottom-board-rescue:PWR_FLAG-power #FLG?
 U 1 1 5BB76300
 P 8150 2775
 AR Path="/54F72B97/5BB76300" Ref="#FLG?"  Part="1" 
@@ -1029,7 +1029,7 @@ $EndComp
 Wire Wire Line
 	8150 2850 7725 2850
 $Comp
-L Device:C_Small C?
+L bottom-board-rescue:C_Small-Device C?
 U 1 1 5BB7630A
 P 6925 3050
 AR Path="/54F7244B/5BB7630A" Ref="C?"  Part="1" 
@@ -1045,7 +1045,7 @@ F 5 "GRM188R60J105KA01D" V 6925 3050 50  0001 C CNN "MPN2"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L bottom-board-rescue:C_Small-Device C?
 U 1 1 5BB76314
 P 7725 3050
 AR Path="/54F7244B/5BB76314" Ref="C?"  Part="1" 
@@ -1072,7 +1072,7 @@ Wire Notes Line
 Wire Notes Line
 	8400 2150 6625 2150
 $Comp
-L power:+5VD #PWR08
+L bottom-board-rescue:+5VD-power #PWR08
 U 1 1 5BBD702A
 P 6925 2750
 F 0 "#PWR08" H 6925 2600 50  0001 C CNN
@@ -1083,7 +1083,7 @@ F 3 "" H 6925 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR023
+L bottom-board-rescue:+3.3V-power #PWR023
 U 1 1 5BBD7030
 P 7725 2750
 F 0 "#PWR023" H 7725 2600 50  0001 C CNN
@@ -1104,7 +1104,7 @@ Connection ~ 4500 2475
 Wire Wire Line
 	4500 2475 4400 2475
 $Comp
-L Connector:TestPoint TP?
+L bottom-board-rescue:TestPoint-Connector TP?
 U 1 1 5BC9981D
 P 8150 2925
 AR Path="/54F7244B/5BC9981D" Ref="TP?"  Part="1" 

@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:R_Small R35
+L bottom-board-rescue:R_Small-Device R35
 U 1 1 550EEF86
 P 8150 3450
 F 0 "R35" H 8200 3500 50  0000 L CNN
@@ -29,7 +29,7 @@ F 6 "ESR03EZPJ103" H 0   0   50  0001 C CNN "MPN3"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R36
+L bottom-board-rescue:R_Small-Device R36
 U 1 1 550EFE8C
 P 8700 3750
 F 0 "R36" H 8750 3800 50  0000 L CNN
@@ -43,7 +43,7 @@ F 6 "ESR03EZPJ103" H 0   0   50  0001 C CNN "MPN3"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDD #PWR0164
+L bottom-board-rescue:GNDD-power #PWR0164
 U 1 1 550D1DBB
 P 4300 4100
 F 0 "#PWR0164" H 4300 3850 50  0001 C CNN
@@ -54,7 +54,7 @@ F 3 "" H 4300 4100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDD #PWR0166
+L bottom-board-rescue:GNDD-power #PWR0166
 U 1 1 550D24C3
 P 7150 3950
 F 0 "#PWR0166" H 7150 3700 50  0001 C CNN
@@ -65,7 +65,7 @@ F 3 "" H 7150 3950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDD #PWR0168
+L bottom-board-rescue:GNDD-power #PWR0168
 U 1 1 550D24EA
 P 8150 4250
 F 0 "#PWR0168" H 8150 4000 50  0001 C CNN
@@ -76,7 +76,7 @@ F 3 "" H 8150 4250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDD #PWR0170
+L bottom-board-rescue:GNDD-power #PWR0170
 U 1 1 550D2511
 P 8700 4550
 F 0 "#PWR0170" H 8700 4300 50  0001 C CNN
@@ -87,7 +87,7 @@ F 3 "" H 8700 4550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:DIN-5_180degree J13
+L bottom-board-rescue:DIN-5_180degree-Connector J13
 U 1 1 552F68D2
 P 2675 3450
 F 0 "J13" H 2800 3675 50  0000 C CNN
@@ -99,7 +99,7 @@ F 4 "SDS-50J" H 2675 3450 60  0001 C CNN "MPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:DIN-5_180degree J14
+L bottom-board-rescue:DIN-5_180degree-Connector J14
 U 1 1 552F86CD
 P 7150 3550
 F 0 "J14" H 7275 3775 50  0000 C CNN
@@ -111,7 +111,7 @@ F 4 "SDS-50J" H 7150 3550 60  0001 C CNN "MPN"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:Q_NMOS_GSD Q3
+L bottom-board-rescue:Q_NMOS_GSD-Device Q3
 U 1 1 5550D667
 P 8250 3950
 F 0 "Q3" H 8475 3975 50  0000 L CNN
@@ -125,7 +125,7 @@ F 6 "TSM2N7002KCX RFG" H 0   0   50  0001 C CNN "MPN3"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NMOS_GSD Q4
+L bottom-board-rescue:Q_NMOS_GSD-Device Q4
 U 1 1 5550D961
 P 8800 4250
 F 0 "Q4" H 9000 4275 50  0000 L CNN
@@ -210,7 +210,7 @@ Connection ~ 8700 3950
 NoConn ~ 2675 3750
 NoConn ~ 2975 3450
 $Comp
-L power:+5VD #PWR0165
+L bottom-board-rescue:+5VD-power #PWR0165
 U 1 1 5B503FC7
 P 6350 3600
 F 0 "#PWR0165" H 6350 3450 50  0001 C CNN
@@ -221,7 +221,7 @@ F 3 "" H 6350 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5VD #PWR0167
+L bottom-board-rescue:+5VD-power #PWR0167
 U 1 1 5B503FFF
 P 8150 3300
 F 0 "#PWR0167" H 8150 3150 50  0001 C CNN
@@ -232,7 +232,7 @@ F 3 "" H 8150 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5VD #PWR0169
+L bottom-board-rescue:+5VD-power #PWR0169
 U 1 1 5B504181
 P 8700 3550
 F 0 "#PWR0169" H 8700 3400 50  0001 C CNN
@@ -247,7 +247,7 @@ UBOOT_BUTTON
 Text Notes 5900 4650 0    60   ~ 0
 MIDI Out connector exposes the debug serial.
 $Comp
-L Diode:1N4148WS D?
+L bottom-board-rescue:1N4148WS-Diode D?
 U 1 1 5B5D9D6F
 P 2150 3700
 AR Path="/54F72CD0/5B5D9D6F" Ref="D?"  Part="1" 
@@ -263,7 +263,7 @@ F 6 "1N4148WS-G RVG" H -5400 425 50  0001 C CNN "MPN3"
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:1N4148WS D?
+L bottom-board-rescue:1N4148WS-Diode D?
 U 1 1 5B7DD60D
 P 4500 3900
 AR Path="/54F72CD0/5B7DD60D" Ref="D?"  Part="1" 
@@ -279,7 +279,7 @@ F 6 "1N4148WS-G RVG" H 0   0   50  0001 C CNN "MPN3"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148WS D?
+L bottom-board-rescue:1N4148WS-Diode D?
 U 1 1 5B7E2A8C
 P 3475 3800
 AR Path="/54F72CD0/5B7E2A8C" Ref="D?"  Part="1" 
@@ -306,7 +306,7 @@ Wire Wire Line
 Text Notes 4450 3125 0    60   ~ 0
 Opto:\nIf = 16mA, Vf = 1.4V
 $Comp
-L Device:R_Small R?
+L bottom-board-rescue:R_Small-Device R?
 U 1 1 5B8305A1
 P 3175 3550
 AR Path="/54F72FB6/5B8305A1" Ref="R?"  Part="1" 
@@ -322,7 +322,7 @@ F 6 "CRCW0603220RJNEAHP" H 3175 3550 50  0001 C CNN "MPN3"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L bottom-board-rescue:R_Small-Device R?
 U 1 1 5B830E90
 P 6575 3650
 AR Path="/54F72FB6/5B830E90" Ref="R?"  Part="1" 
@@ -338,7 +338,7 @@ F 6 "CRCW0603220RJNEAHP" H 6575 3650 50  0001 C CNN "MPN3"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L bottom-board-rescue:R_Small-Device R?
 U 1 1 5B8317A5
 P 7900 3650
 AR Path="/54F72FB6/5B8317A5" Ref="R?"  Part="1" 
@@ -362,7 +362,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 3900 4250 3900
 $Comp
-L Connector:TestPoint TP?
+L bottom-board-rescue:TestPoint-Connector TP?
 U 1 1 5BF1B6BE
 P 2025 3925
 AR Path="/54F7244B/5BF1B6BE" Ref="TP?"  Part="1" 
@@ -375,7 +375,7 @@ F 3 "~" H 2225 3925 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Isolator:6N136S U17
+L bottom-board-rescue:6N136S-Isolator U17
 U 1 1 5C14B0B8
 P 3950 3800
 F 0 "U17" H 3950 4175 50  0000 C CNN
@@ -388,7 +388,7 @@ F 5 "6N136S-TA1" H 3950 3800 50  0001 C CNN "MPN2"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5VD #PWR0227
+L bottom-board-rescue:+5VD-power #PWR0227
 U 1 1 5C14D75D
 P 4300 3550
 F 0 "#PWR0227" H 4300 3400 50  0001 C CNN

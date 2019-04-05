@@ -17,7 +17,7 @@ $EndDescr
 Text GLabel 2775 1950 0    50   Input ~ 0
 CODEC_SPDIF_OUT
 $Comp
-L Device:R_Small R56
+L bottom-board-rescue:R_Small-Device R56
 U 1 1 5B562CEC
 P 3775 2150
 F 0 "R56" H 3825 2200 50  0000 L CNN
@@ -31,7 +31,7 @@ F 6 "RMCF0603FT107R" H 3775 2150 50  0001 C CNN "MPN3"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C84
+L bottom-board-rescue:C_Small-Device C84
 U 1 1 5B562D29
 P 3100 1950
 F 0 "C84" V 2925 1950 50  0000 C CNN
@@ -45,7 +45,7 @@ F 6 "CC0603KRX7R8BB103" V 3100 1950 50  0001 C CNN "MPN3"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R55
+L bottom-board-rescue:R_Small-Device R55
 U 1 1 5B562ED8
 P 3450 1950
 F 0 "R55" H 3500 1900 50  0000 L CNN
@@ -59,7 +59,7 @@ F 6 "RMCF0603FT243R" H 3450 1950 50  0001 C CNN "MPN3"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GNDD #PWR0222
+L bottom-board-rescue:GNDD-power #PWR0222
 U 1 1 5B56348E
 P 3775 2350
 F 0 "#PWR0222" H 3775 2100 50  0001 C CNN
@@ -70,7 +70,7 @@ F 3 "" H 3775 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transformer:TRANSF1 TR1
+L bottom-board-rescue:TRANSF1-Transformer TR1
 U 1 1 5B56F2F0
 P 4400 2150
 F 0 "TR1" H 4400 2400 50  0000 C CNN
@@ -86,7 +86,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 1950 3350 1950
 $Comp
-L power:GNDD #PWR0223
+L bottom-board-rescue:GNDD-power #PWR0223
 U 1 1 5B56F49A
 P 4100 2450
 F 0 "#PWR0223" H 4100 2200 50  0001 C CNN
@@ -105,7 +105,7 @@ Wire Wire Line
 Wire Wire Line
 	3775 2050 3775 1950
 $Comp
-L Device:C_Small C85
+L bottom-board-rescue:C_Small-Device C85
 U 1 1 5B56F530
 P 5300 2550
 F 0 "C85" H 5200 2525 50  0000 R CNN
@@ -121,7 +121,7 @@ $EndComp
 Wire Wire Line
 	4600 2350 5300 2350
 $Comp
-L power:GNDD #PWR0224
+L bottom-board-rescue:GNDD-power #PWR0224
 U 1 1 5B56F62E
 P 5300 2725
 F 0 "#PWR0224" H 5300 2475 50  0001 C CNN
