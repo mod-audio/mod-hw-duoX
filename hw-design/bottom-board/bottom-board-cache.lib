@@ -1508,27 +1508,6 @@ X V+ 8 0 400 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# bottom-board-rescue_TS5A3167-local-components
-#
-DEF bottom-board-rescue_TS5A3167-local-components U 0 20 Y Y 1 F N
-F0 "U" -100 325 50 H V R CNN
-F1 "bottom-board-rescue_TS5A3167-local-components" -100 250 50 H V R CNN
-F2 "" 50 -250 50 H I L CNN
-F3 "" 100 0 50 H I C CNN
-$FPLIST
- *SOT-23*
- *SC-70*
-$ENDFPLIST
-DRAW
-S -300 200 300 -200 0 1 10 f
-X NC 1 400 100 100 L 50 50 1 1 P
-X COM 2 -400 -100 100 R 50 50 1 1 P
-X GND 3 0 -300 100 U 50 50 1 1 W
-X IN 4 -400 100 100 R 50 50 1 1 P
-X VCC 5 0 300 100 D 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
 # bottom-board-rescue_TestPoint-Connector
 #
 DEF bottom-board-rescue_TestPoint-Connector TP 0 30 N N 1 F N
