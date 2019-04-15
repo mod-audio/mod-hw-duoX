@@ -1,0 +1,7 @@
+20190217
+- Swapped HMI_UART and HMI_RFU Lines.
+- Fixed the Debug and Reset Block in Schematic Symbol
+20190312
+- Changed 10Mhz Crystal to 12Mhz Crystal.
+- C29 moved from bottom to top side.
+- Added Fiducial marks for PnP.
