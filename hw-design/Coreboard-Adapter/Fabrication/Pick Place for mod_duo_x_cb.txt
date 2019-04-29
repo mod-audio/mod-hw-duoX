@@ -1,0 +1,35 @@
+Designator Footprint               Mid X         Mid Y         Ref X         Ref Y         Pad X         Pad Y TB      Rotation Comment        
+
+C1         CAPC1005N              6.34mm      47.117mm        6.34mm      47.117mm        6.34mm      46.517mm  B         90.00 0.1uF          
+C12        CAPC2012N             8.001mm      47.117mm       8.001mm      47.117mm       8.001mm      46.267mm  B         90.00 10uF           
+C15        CAPC1608N             12.65mm      64.554mm       12.65mm      64.554mm       12.65mm      65.354mm  T        270.00 4.7uF          
+P1         TE_2-2013289-1           38mm       51.05mm          38mm          55mm       69.65mm        59.1mm  T        270.00 2-2013289-1    
+P2         DF12-60             38.9925mm      55.001mm     38.9925mm      55.001mm     31.7425mm      53.201mm  B        180.00 DF12(3.0)-60DS-0.5V(86)
+P3         DF12-40              38.993mm      15.001mm      38.993mm      15.001mm      34.243mm      13.201mm  B        180.00 DF12(3.0)-40DS-0.5V(86)
+C16        CAPC1005N            63.246mm      66.124mm      63.246mm      66.124mm      63.246mm      65.524mm  B         90.00 120pF          
+C17        CAPC2012N            65.151mm      62.357mm      65.151mm      62.357mm      64.301mm      62.357mm  B          0.00 4.7uF          
+C18        CAPC2012N            74.041mm      63.627mm      74.041mm      63.627mm      74.041mm      64.477mm  B        270.00 10uF           
+L1         IHLP-1212AE-11        71.12mm      63.627mm       71.12mm      63.627mm       71.12mm      64.977mm  B        270.00 470nH          
+R1         RESC1005N            62.103mm      66.132mm      62.103mm      66.132mm      62.103mm      65.532mm  B         90.00 604K           
+R2         RESC1005N            61.468mm      64.262mm      61.468mm      64.262mm      60.868mm      64.262mm  B        360.00 100K           
+R3         RESC1005N            60.833mm      66.132mm      60.833mm      66.132mm      60.833mm      66.732mm  B        270.00 100K           
+U1         DMQ0006A            65.4312mm      65.024mm     65.5312mm      65.024mm     64.8812mm      64.524mm  B        360.00 TPS62825       
+R4         RESC1608N            19.685mm      47.117mm      19.685mm      47.117mm      19.685mm      47.967mm  T        270.00 0R             
+C20        CAPC1005N            21.082mm      47.117mm      21.082mm      47.117mm      21.082mm      47.717mm  T        270.00 0.1uF          
+R5         RESC1005N             13.55mm      47.059mm       13.55mm      47.059mm       13.55mm      47.659mm  T        270.00 100K           
+C2         CAPC1005N             11.75mm       47.09mm       11.75mm       47.09mm       11.75mm       46.49mm  B         90.00 0.1uF          
+C3         CAPC1005N             17.15mm      47.075mm       17.15mm      47.075mm       17.15mm      46.475mm  B         90.00 0.1uF          
+C4         CAPC1005N             22.55mm      47.075mm       22.55mm      47.075mm       22.55mm      46.475mm  B         90.00 0.1uF          
+C5         CAPC1005N             27.95mm      47.075mm       27.95mm      47.075mm       27.95mm      46.475mm  B         90.00 0.1uF          
+C14        CAPC2012N            35.017mm      47.075mm      35.017mm      47.075mm      35.017mm      46.225mm  B         90.00 10uF           
+C6         CAPC1005N             33.35mm      47.075mm       33.35mm      47.075mm       33.35mm      46.475mm  B         90.00 0.1uF          
+C7         CAPC1005N             38.75mm      47.075mm       38.75mm      47.075mm       38.75mm      46.475mm  B         90.00 0.1uF          
+C8         CAPC1005N             44.15mm      47.075mm       44.15mm      47.075mm       44.15mm      46.475mm  B         90.00 0.1uF          
+C9         CAPC1005N             50.75mm      47.075mm       50.75mm      47.075mm       50.75mm      46.475mm  B         90.00 0.1uF          
+C10        CAPC1005N             56.15mm      47.075mm       56.15mm      47.075mm       56.15mm      46.475mm  B         90.00 0.1uF          
+C11        CAPC1005N             61.55mm      47.075mm       61.55mm      47.075mm       61.55mm      46.475mm  B         90.00 0.1uF          
+C19        CAPC1005N             66.95mm      47.075mm       66.95mm      47.075mm       66.95mm      46.475mm  B         90.00 0.1uF          
+C13        CAPC2012N             68.58mm      47.117mm       68.58mm      47.117mm       68.58mm      46.267mm  B         90.00 10uF           
+P4         9774030243R           16.19mm      12.994mm      16.063mm      12.994mm       16.19mm      12.994mm  T          0.00 9774030243R    
+P5         9774030243R           59.79mm      12.994mm      59.663mm      12.994mm       59.79mm      12.994mm  T          0.00 9774030243R    
+
