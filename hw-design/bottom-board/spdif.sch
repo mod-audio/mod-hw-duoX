@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:bottom-board-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -137,7 +137,7 @@ NoConn ~ 5375 1850
 Wire Wire Line
 	5300 2350 5300 2450
 $Comp
-L bottom-board-rescue:AudioJack2_Ground_Switch-Connector J18
+L Connector:AudioJack2_SwitchT J18
 U 1 1 5B5D552C
 P 5575 1950
 AR Path="/5B5D552C" Ref="J18"  Part="1" 
