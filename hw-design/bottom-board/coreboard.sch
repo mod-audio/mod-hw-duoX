@@ -1102,10 +1102,10 @@ CODEC_I2S_MCLK
 Wire Wire Line
 	2950 4575 2950 4675
 $Comp
-L bottom-board-rescue:R_Small-Device R?
+L bottom-board-rescue:R_Small-Device R16
 U 1 1 5E1A59DA
 P 1525 5800
-F 0 "R?" H 1475 5750 50  0000 R CNN
+F 0 "R16" H 1475 5750 50  0000 R CNN
 F 1 "10K" H 1475 5850 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 1525 5800 60  0001 C CNN
 F 3 "" H 1525 5800 60  0000 C CNN
@@ -1113,10 +1113,10 @@ F 3 "" H 1525 5800 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L bottom-board-rescue:R_Small-Device R?
+L bottom-board-rescue:R_Small-Device R81
 U 1 1 5E1A6459
 P 1650 6675
-F 0 "R?" H 1600 6625 50  0000 R CNN
+F 0 "R81" H 1600 6625 50  0000 R CNN
 F 1 "10" H 1600 6725 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 1650 6675 60  0001 C CNN
 F 3 "" H 1650 6675 60  0000 C CNN
@@ -1134,10 +1134,10 @@ Wire Wire Line
 Wire Wire Line
 	1625 5800 1675 5800
 $Comp
-L bottom-board-rescue:GNDD-power #PWR?
+L bottom-board-rescue:GNDD-power #PWR0236
 U 1 1 5E1F986C
 P 1650 6850
-F 0 "#PWR?" H 1650 6600 50  0001 C CNN
+F 0 "#PWR0236" H 1650 6600 50  0001 C CNN
 F 1 "GNDD" H 1650 6700 50  0000 C CNN
 F 2 "" H 1650 6850 60  0000 C CNN
 F 3 "" H 1650 6850 60  0000 C CNN
@@ -1149,8 +1149,8 @@ L bottom-board-rescue:TestPoint-Connector TP?
 U 1 1 5E1FD5AF
 P 1650 6525
 AR Path="/54F7244B/5E1FD5AF" Ref="TP?"  Part="1" 
-AR Path="/54F725AE/5E1FD5AF" Ref="TP?"  Part="1" 
-F 0 "TP?" H 1600 6750 50  0000 L CNN
+AR Path="/54F725AE/5E1FD5AF" Ref="TP18"  Part="1" 
+F 0 "TP18" H 1600 6750 50  0000 L CNN
 F 1 "TestPoint" H 1708 6554 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1850 6525 50  0001 C CNN
 F 3 "~" H 1850 6525 50  0001 C CNN
@@ -1162,8 +1162,8 @@ L bottom-board-rescue:TestPoint-Connector TP?
 U 1 1 5E20E0E2
 P 1675 6000
 AR Path="/54F7244B/5E20E0E2" Ref="TP?"  Part="1" 
-AR Path="/54F725AE/5E20E0E2" Ref="TP?"  Part="1" 
-F 0 "TP?" H 1625 6225 50  0000 L CNN
+AR Path="/54F725AE/5E20E0E2" Ref="TP22"  Part="1" 
+F 0 "TP22" H 1625 6225 50  0000 L CNN
 F 1 "TestPoint" H 1733 6029 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1875 6000 50  0001 C CNN
 F 3 "~" H 1875 6000 50  0001 C CNN
