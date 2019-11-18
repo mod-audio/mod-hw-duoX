@@ -39,26 +39,26 @@ $EndComp
 $Comp
 L bottom-board-rescue:R_Small-Device R20
 U 1 1 55FB0BE7
-P 1900 6450
-F 0 "R20" H 1850 6400 50  0000 R CNN
-F 1 "2k7" H 1850 6500 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 1900 6450 60  0001 C CNN
-F 3 "" H 1900 6450 60  0000 C CNN
-F 4 "RMCF0603JT2K70" H -6550 4600 50  0001 C CNN "MPN"
-F 5 "ERJ-3GEYJ272V" H 1900 6450 50  0001 C CNN "MPN2"
-F 6 "ESR03EZPJ272" H 1900 6450 50  0001 C CNN "MPN3"
-	1    1900 6450
+P 5425 6100
+F 0 "R20" H 5375 6050 50  0000 R CNN
+F 1 "2k7" H 5375 6150 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5425 6100 60  0001 C CNN
+F 3 "" H 5425 6100 60  0000 C CNN
+F 4 "RMCF0603JT2K70" H -3025 4250 50  0001 C CNN "MPN"
+F 5 "ERJ-3GEYJ272V" H 5425 6100 50  0001 C CNN "MPN2"
+F 6 "ESR03EZPJ272" H 5425 6100 50  0001 C CNN "MPN3"
+	1    5425 6100
 	-1   0    0    1   
 $EndComp
 $Comp
 L bottom-board-rescue:+3.3V-power #PWR071
 U 1 1 55FB0BEE
-P 1900 6250
-F 0 "#PWR071" H 1900 6100 50  0001 C CNN
-F 1 "+3.3V" H 1900 6390 50  0000 C CNN
-F 2 "" H 1900 6250 60  0000 C CNN
-F 3 "" H 1900 6250 60  0000 C CNN
-	1    1900 6250
+P 5425 5900
+F 0 "#PWR071" H 5425 5750 50  0001 C CNN
+F 1 "+3.3V" H 5425 6040 50  0000 C CNN
+F 2 "" H 5425 5900 60  0000 C CNN
+F 3 "" H 5425 5900 60  0000 C CNN
+	1    5425 5900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -130,7 +130,7 @@ F 3 "" H 8825 5200 60  0000 C CNN
 	1    8825 5200
 	1    0    0    -1  
 $EndComp
-Text Notes 950  5900 0    100  ~ 0
+Text Notes 5250 5600 0    100  ~ 0
 Pull-up
 Text GLabel 8575 5600 0    50   Input ~ 0
 CLI_UART_TX
@@ -253,34 +253,7 @@ Wire Notes Line
 	10300 3750 10300 2150
 Wire Notes Line
 	10300 2150 8550 2150
-$Comp
-L bottom-board-rescue:R_Small-Device R16
-U 1 1 5B5FEE00
-P 1000 6450
-F 0 "R16" H 1050 6500 50  0000 L CNN
-F 1 "10k" H 1050 6400 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 1000 6450 60  0001 C CNN
-F 3 "" H 1000 6450 60  0000 C CNN
-F 4 "RMCF0603JT10K0" H -750 -200 50  0001 C CNN "MPN"
-F 5 "RCA060310K0JNEA" H 1000 6450 50  0001 C CNN "MPN2"
-F 6 "ESR03EZPJ103" H 1000 6450 50  0001 C CNN "MPN3"
-	1    1000 6450
-	1    0    0    -1  
-$EndComp
-$Comp
-L bottom-board-rescue:+3.3V-power #PWR066
-U 1 1 5B5FEE06
-P 1000 6250
-F 0 "#PWR066" H 1000 6100 50  0001 C CNN
-F 1 "+3.3V" H 1000 6390 50  0000 C CNN
-F 2 "" H 1000 6250 60  0000 C CNN
-F 3 "" H 1000 6250 60  0000 C CNN
-	1    1000 6250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1000 6550 1000 6650
-Text GLabel 1000 6650 3    50   Output ~ 0
+Text GLabel 1800 5800 2    50   Output ~ 0
 POWER_BUTTON
 $Comp
 L bottom-board-rescue:+5VD-power #PWR072
@@ -333,16 +306,16 @@ F 3 "" H 5300 2425 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1900 6250 1900 6300
+	5425 5900 5425 5950
 Wire Wire Line
-	2150 6350 2150 6300
+	5675 6000 5675 5950
 Wire Wire Line
-	2150 6300 1900 6300
-Connection ~ 1900 6300
+	5675 5950 5425 5950
+Connection ~ 5425 5950
 Wire Wire Line
-	1900 6550 1900 6650
+	5425 6200 5425 6300
 Wire Wire Line
-	2150 6650 2150 6550
+	5675 6300 5675 6200
 Wire Wire Line
 	9150 2700 9150 2800
 Wire Wire Line
@@ -354,7 +327,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 2025 5300 2075
 Wire Wire Line
-	1900 6300 1900 6350
+	5425 5950 5425 6000
 $Comp
 L bottom-board-rescue:AT24CS08-STUM-Memory_EEPROM U7
 U 1 1 5B819253
@@ -391,15 +364,15 @@ PM_LEDS_SCL
 $Comp
 L bottom-board-rescue:R_Small-Device R21
 U 1 1 5B633AA0
-P 2150 6450
-F 0 "R21" H 2100 6400 50  0000 R CNN
-F 1 "2k7" H 2100 6500 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 2150 6450 60  0001 C CNN
-F 3 "" H 2150 6450 60  0000 C CNN
-F 4 "RMCF0603JT2K70" H -6300 4600 50  0001 C CNN "MPN"
-F 5 "ERJ-3GEYJ272V" H 2150 6450 50  0001 C CNN "MPN2"
-F 6 "ESR03EZPJ272" H 2150 6450 50  0001 C CNN "MPN3"
-	1    2150 6450
+P 5675 6100
+F 0 "R21" H 5625 6050 50  0000 R CNN
+F 1 "2k7" H 5625 6150 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5675 6100 60  0001 C CNN
+F 3 "" H 5675 6100 60  0000 C CNN
+F 4 "RMCF0603JT2K70" H -2775 4250 50  0001 C CNN "MPN"
+F 5 "ERJ-3GEYJ272V" H 5675 6100 50  0001 C CNN "MPN2"
+F 6 "ESR03EZPJ272" H 5675 6100 50  0001 C CNN "MPN3"
+	1    5675 6100
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -874,9 +847,9 @@ Text GLabel 8075 5150 0    50   BiDi ~ 0
 PM_LEDS_SDA
 Text GLabel 8075 5050 0    50   Input ~ 0
 PM_LEDS_SCL
-Text GLabel 2150 6650 3    50   BiDi ~ 0
+Text GLabel 5675 6300 3    50   BiDi ~ 0
 PM_LEDS_SDA
-Text GLabel 1900 6650 3    50   Input ~ 0
+Text GLabel 5425 6300 3    50   Input ~ 0
 PM_LEDS_SCL
 Wire Wire Line
 	4000 2425 4000 2525
@@ -894,7 +867,6 @@ Wire Wire Line
 Connection ~ 2900 2475
 Wire Wire Line
 	2900 2475 3400 2475
-NoConn ~ 1800 2425
 Wire Wire Line
 	2800 2425 2800 2525
 Wire Wire Line
@@ -1129,6 +1101,84 @@ Text GLabel 2950 4675 3    50   Output ~ 0
 CODEC_I2S_MCLK
 Wire Wire Line
 	2950 4575 2950 4675
+$Comp
+L bottom-board-rescue:R_Small-Device R?
+U 1 1 5E1A59DA
+P 1525 5800
+F 0 "R?" H 1475 5750 50  0000 R CNN
+F 1 "10K" H 1475 5850 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1525 5800 60  0001 C CNN
+F 3 "" H 1525 5800 60  0000 C CNN
+	1    1525 5800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L bottom-board-rescue:R_Small-Device R?
+U 1 1 5E1A6459
+P 1650 6675
+F 0 "R?" H 1600 6625 50  0000 R CNN
+F 1 "10" H 1600 6725 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1650 6675 60  0001 C CNN
+F 3 "" H 1650 6675 60  0000 C CNN
+	1    1650 6675
+	-1   0    0    1   
+$EndComp
+Text GLabel 1800 2525 3    60   Input ~ 0
+VCC_SYS_1V8
 Wire Wire Line
-	1000 6250 1000 6350
+	1800 2525 1800 2425
+Text GLabel 1275 5800 0    60   Input ~ 0
+VCC_SYS_1V8
+Wire Wire Line
+	1425 5800 1275 5800
+Wire Wire Line
+	1625 5800 1675 5800
+$Comp
+L bottom-board-rescue:GNDD-power #PWR?
+U 1 1 5E1F986C
+P 1650 6850
+F 0 "#PWR?" H 1650 6600 50  0001 C CNN
+F 1 "GNDD" H 1650 6700 50  0000 C CNN
+F 2 "" H 1650 6850 60  0000 C CNN
+F 3 "" H 1650 6850 60  0000 C CNN
+	1    1650 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:TestPoint-Connector TP?
+U 1 1 5E1FD5AF
+P 1650 6525
+AR Path="/54F7244B/5E1FD5AF" Ref="TP?"  Part="1" 
+AR Path="/54F725AE/5E1FD5AF" Ref="TP?"  Part="1" 
+F 0 "TP?" H 1600 6750 50  0000 L CNN
+F 1 "TestPoint" H 1708 6554 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1850 6525 50  0001 C CNN
+F 3 "~" H 1850 6525 50  0001 C CNN
+	1    1650 6525
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:TestPoint-Connector TP?
+U 1 1 5E20E0E2
+P 1675 6000
+AR Path="/54F7244B/5E20E0E2" Ref="TP?"  Part="1" 
+AR Path="/54F725AE/5E20E0E2" Ref="TP?"  Part="1" 
+F 0 "TP?" H 1625 6225 50  0000 L CNN
+F 1 "TestPoint" H 1733 6029 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1875 6000 50  0001 C CNN
+F 3 "~" H 1875 6000 50  0001 C CNN
+	1    1675 6000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1675 6000 1675 5800
+Connection ~ 1675 5800
+Wire Wire Line
+	1675 5800 1800 5800
+Wire Wire Line
+	1650 6525 1650 6575
+Wire Wire Line
+	1650 6775 1650 6850
+Text Notes 525  5650 0    60   ~ 0
+By connecting the 2 test pins the board boots in revocery mode
 $EndSCHEMATC
