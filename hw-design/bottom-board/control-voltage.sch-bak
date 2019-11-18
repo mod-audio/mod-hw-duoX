@@ -68,7 +68,7 @@ F 3 "" H 2125 7025 60  0000 C CNN
 	1    2125 7025
 	1    0    0    -1  
 $EndComp
-Text GLabel 2175 6525 2    50   Output ~ 0
+Text GLabel 2500 6525 2    50   Output ~ 0
 CV_IN_DET
 $Comp
 L bottom-board-rescue:TS5A23166-local-components U19
@@ -515,8 +515,6 @@ Wire Wire Line
 	2075 6825 2175 6825
 Wire Wire Line
 	2125 6425 2075 6425
-Wire Wire Line
-	2175 6525 2075 6525
 Wire Wire Line
 	1850 5350 1750 5350
 Wire Wire Line
@@ -2005,4 +2003,38 @@ Wire Wire Line
 Connection ~ 5525 5300
 Wire Wire Line
 	5525 5300 5625 5300
+$Comp
+L bottom-board-rescue:R_Small-Device R?
+U 1 1 5E269291
+P 2350 6300
+F 0 "R?" H 2400 6350 50  0000 L CNN
+F 1 "10k" H 2400 6250 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2350 6300 60  0001 C CNN
+F 3 "" H 2350 6300 60  0000 C CNN
+F 4 "RMCF0603JT10K0" H -4400 3325 50  0001 C CNN "MPN"
+F 5 "RCA060310K0JNEA" H -4400 3325 50  0001 C CNN "MPN2"
+F 6 "ESR03EZPJ103" H -4400 3325 50  0001 C CNN "MPN3"
+	1    2350 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VP #PWR?
+U 1 1 5E269905
+P 2350 6150
+F 0 "#PWR?" H 2350 6000 50  0001 C CNN
+F 1 "+5VP" H 2365 6323 50  0000 C CNN
+F 2 "" H 2350 6150 50  0001 C CNN
+F 3 "" H 2350 6150 50  0001 C CNN
+	1    2350 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2075 6525 2350 6525
+Wire Wire Line
+	2350 6400 2350 6525
+Connection ~ 2350 6525
+Wire Wire Line
+	2350 6525 2500 6525
+Wire Wire Line
+	2350 6150 2350 6200
 $EndSCHEMATC
