@@ -355,9 +355,9 @@ F 3 "" H 4800 4700 60  0000 C CNN
 	1    4800 4700
 	1    0    0    -1  
 $EndComp
-Text GLabel 5300 5450 2    50   Output ~ 0
+Text GLabel 5625 5450 2    50   Output ~ 0
 EXP_FLAG2
-Text GLabel 5300 5300 2    50   Output ~ 0
+Text GLabel 5625 5300 2    50   Output ~ 0
 EXP_FLAG1
 Text Notes 3800 6200 0    60   ~ 0
 MIC2076A outputs have Hi-Z when disabled
@@ -612,10 +612,6 @@ Wire Wire Line
 	4400 4550 4400 4650
 Wire Wire Line
 	4400 5000 4450 5000
-Wire Wire Line
-	5300 5300 5250 5300
-Wire Wire Line
-	5250 5450 5300 5450
 Wire Wire Line
 	9800 5050 9900 5050
 Wire Wire Line
@@ -1924,10 +1920,10 @@ Wire Wire Line
 Text Notes 6150 5575 0    60   ~ 0
 Amplify the signel by a factor of 2, to scale back to the 0 to 10V range
 $Comp
-L power:+5VP #PWR?
+L power:+5VP #PWR0187
 U 1 1 5E06B313
 P 2800 1550
-F 0 "#PWR?" H 2800 1400 50  0001 C CNN
+F 0 "#PWR0187" H 2800 1400 50  0001 C CNN
 F 1 "+5VP" H 2815 1723 50  0000 C CNN
 F 2 "" H 2800 1550 50  0001 C CNN
 F 3 "" H 2800 1550 50  0001 C CNN
@@ -1935,14 +1931,78 @@ F 3 "" H 2800 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5VP #PWR?
+L power:+5VP #PWR0200
 U 1 1 5E06BABB
 P 3450 1550
-F 0 "#PWR?" H 3450 1400 50  0001 C CNN
+F 0 "#PWR0200" H 3450 1400 50  0001 C CNN
 F 1 "+5VP" H 3465 1723 50  0000 C CNN
 F 2 "" H 3450 1550 50  0001 C CNN
 F 3 "" H 3450 1550 50  0001 C CNN
 	1    3450 1550
 	1    0    0    -1  
 $EndComp
+$Comp
+L bottom-board-rescue:R_Small-Device R80
+U 1 1 5E0C0760
+P 5525 5650
+F 0 "R80" H 5575 5700 50  0000 L CNN
+F 1 "10k" H 5575 5600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5525 5650 60  0001 C CNN
+F 3 "" H 5525 5650 60  0000 C CNN
+F 4 "RMCF0603JT10K0" H 1125 0   50  0001 C CNN "MPN"
+F 5 "RCA060310K0JNEA" H 1125 0   50  0001 C CNN "MPN2"
+F 6 "ESR03EZPJ103" H 1125 0   50  0001 C CNN "MPN3"
+	1    5525 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:R_Small-Device R79
+U 1 1 5E0C0E97
+P 5400 5650
+F 0 "R79" H 5250 5750 50  0000 L CNN
+F 1 "10k" H 5225 5650 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5400 5650 60  0001 C CNN
+F 3 "" H 5400 5650 60  0000 C CNN
+F 4 "RMCF0603JT10K0" H 1000 0   50  0001 C CNN "MPN"
+F 5 "RCA060310K0JNEA" H 1000 0   50  0001 C CNN "MPN2"
+F 6 "ESR03EZPJ103" H 1000 0   50  0001 C CNN "MPN3"
+	1    5400 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:+5VA-power #PWR?
+U 1 1 5E0D8F89
+P 5725 5850
+AR Path="/54F72B97/5E0D8F89" Ref="#PWR?"  Part="1" 
+AR Path="/5B3B40FB/5E0D8F89" Ref="#PWR0235"  Part="1" 
+F 0 "#PWR0235" H 5725 5700 50  0001 C CNN
+F 1 "+5VA" H 5725 5990 50  0000 C CNN
+F 2 "" H 5725 5850 60  0000 C CNN
+F 3 "" H 5725 5850 60  0000 C CNN
+	1    5725 5850
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	5725 5850 5525 5850
+Wire Wire Line
+	5400 5850 5400 5750
+Wire Wire Line
+	5525 5750 5525 5850
+Connection ~ 5525 5850
+Wire Wire Line
+	5525 5850 5400 5850
+Wire Wire Line
+	5250 5450 5400 5450
+Wire Wire Line
+	5250 5300 5525 5300
+Wire Wire Line
+	5400 5550 5400 5450
+Connection ~ 5400 5450
+Wire Wire Line
+	5400 5450 5625 5450
+Wire Wire Line
+	5525 5550 5525 5300
+Connection ~ 5525 5300
+Wire Wire Line
+	5525 5300 5625 5300
 $EndSCHEMATC
