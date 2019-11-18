@@ -1,0 +1,3 @@
+[submodule "hw-design/Coreboard-Adapter"]
+	path = hw-design/Coreboard-Adapter
+	url = https://github.com/moddevices/hw-duox-cb-adapter-RK3399.git
