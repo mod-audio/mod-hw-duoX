@@ -5,3 +5,8 @@
 - Changed 10Mhz Crystal to 12Mhz Crystal.
 - C29 moved from bottom to top side.
 - Added Fiducial marks for PnP.
+20191811
+- Removed LED1A-LED1G
+- Changed R14A-R14G to 470Ohm
+- Changed R15A-R15A to 470Ohm
+- Changed R16A-R16G to 560Ohm
