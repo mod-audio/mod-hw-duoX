@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:bottom-board-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -69,6 +69,18 @@ F 3 "" H 3775 2350 50  0001 C CNN
 	1    3775 2350
 	1    0    0    -1  
 $EndComp
+$Comp
+L bottom-board-rescue:TRANSF1-Transformer TR1
+U 1 1 5B56F2F0
+P 4400 2150
+F 0 "TR1" H 4400 2400 50  0000 C CNN
+F 1 "PE-65812" H 4400 1900 50  0000 C CNN
+F 2 "footprints:PE-65812NL" H 4400 2150 50  0001 C CNN
+F 3 "https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/PE-65812NL/doc_part/PE-65812NL.pdf" H 4400 2150 50  0001 C CNN
+F 4 "PE-65812NL" H 4400 2150 60  0001 C CNN "MPN"
+	1    4400 2150
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	2775 1950 3000 1950
 Wire Wire Line
@@ -106,6 +118,8 @@ F 6 "GRM1885C1H220FA01D" H 5300 2550 50  0001 C CNN "MPN3"
 	1    5300 2550
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	4600 2350 5300 2350
 $Comp
 L bottom-board-rescue:GNDD-power #PWR0224
 U 1 1 5B56F62E
@@ -119,48 +133,34 @@ F 3 "" H 5300 2725 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5300 2650 5300 2725
+NoConn ~ 5375 1850
+Wire Wire Line
+	5300 2350 5300 2450
 $Comp
 L Connector:AudioJack2_SwitchT J18
 U 1 1 5B5D552C
-P 5580 1950
+P 5575 1950
 AR Path="/5B5D552C" Ref="J18"  Part="1" 
 AR Path="/5B6E0697/5B5D552C" Ref="J18"  Part="1" 
-F 0 "J18" H 5347 1929 50  0000 R CNN
-F 1 "MJ-3536N" H 5347 2020 50  0000 R CNN
-F 2 "footprints:MJ-3536N" H 5580 1950 50  0001 C CNN
-F 3 "https://www.cui.com/product/resource/digikeypdf/mj-3536n.pdf" H 5580 1950 50  0001 C CNN
-F 4 "MJ-3536N" H 5580 1950 50  0001 C CNN "MPN"
-F 5 "SPDIF" H 5   0   50  0001 C CNN "Comment"
-	1    5580 1950
+F 0 "J18" H 5342 1929 50  0000 R CNN
+F 1 "MJ-3536N" H 5342 2020 50  0000 R CNN
+F 2 "footprints:MJ-3536N" H 5575 1950 50  0001 C CNN
+F 3 "https://www.cui.com/product/resource/digikeypdf/mj-3536n.pdf" H 5575 1950 50  0001 C CNN
+F 4 "MJ-3536N" H 5575 1950 50  0001 C CNN "MPN"
+F 5 "SPDIF" H 0   0   50  0001 C CNN "Comment"
+	1    5575 1950
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	5375 2050 5300 2050
+Wire Wire Line
+	5300 2050 5300 2350
+Connection ~ 5300 2350
 Connection ~ 3775 1950
 Wire Wire Line
 	3775 1950 4200 1950
 Wire Wire Line
 	3550 1950 3775 1950
-$Comp
-L Device:Transformer_1P_1S_SO8 TR1
-U 1 1 5DD2AB94
-P 4500 2150
-F 0 "TR1" H 4500 2531 50  0000 C CNN
-F 1 "Transformer_1P_1S_SO8" H 4500 2440 50  0000 C CNN
-F 2 "footprints:PE-65812NL" H 4500 2150 50  0001 C CNN
-F 3 "https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/PE-65812NL/doc_part/PE-65812NL.pdf" H 4500 2150 50  0001 C CNN
-F 4 "PE-65812NL" H 4500 2150 50  0001 C CNN "MPN"
-	1    4500 2150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	5300 2050 5300 2350
-Wire Wire Line
-	5380 1950 4800 1950
-Wire Wire Line
-	5300 2050 5380 2050
-Wire Wire Line
-	4800 2350 5300 2350
-Connection ~ 5300 2350
-Wire Wire Line
-	5300 2350 5300 2450
-NoConn ~ 5380 1850
+	4600 1950 5375 1950
 $EndSCHEMATC
