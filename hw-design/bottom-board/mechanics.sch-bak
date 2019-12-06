@@ -126,4 +126,16 @@ F 4 "not a component" H 1450 2375 50  0001 C CNN "Note"
 	1    1450 2375
 	1    0    0    -1  
 $EndComp
+$Comp
+L bottom-board-rescue:HOLE-local-components H7
+U 1 1 5DECBEF5
+P 5475 1400
+F 0 "H7" H 5475 1220 50  0000 C CNN
+F 1 "Standoff" H 5475 1570 50  0000 C CNN
+F 2 "footprints:9774027151R" H 5475 1400 60  0001 C CNN
+F 3 "" H 5475 1400 60  0000 C CNN
+F 4 "9774027151R" H 5475 1400 50  0001 C CNN "MPN"
+	1    5475 1400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

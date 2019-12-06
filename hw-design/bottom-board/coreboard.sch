@@ -156,7 +156,7 @@ Text GLabel 8925 4650 2    50   Output ~ 0
 HMI_SPI0_CS0
 Text GLabel 8925 4450 2    50   Output ~ 0
 HMI_SPI0_MOSI
-Text GLabel 8075 4850 0    50   Output ~ 0
+Text GLabel 7750 4850 0    50   Output ~ 0
 POWER_BUTTON
 Text GLabel 8075 4250 0    50   BiDi ~ 0
 HMI_RFU_01(RX)
@@ -253,8 +253,6 @@ Wire Notes Line
 	10300 3750 10300 2150
 Wire Notes Line
 	10300 2150 8550 2150
-Text GLabel 1800 5800 2    50   Output ~ 0
-POWER_BUTTON
 $Comp
 L bottom-board-rescue:+5VD-power #PWR072
 U 1 1 5B60632C
@@ -612,10 +610,6 @@ F 3 "" H 1425 1925 60  0000 C CNN
 	1    1425 1925
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3700 1925
-NoConn ~ 3600 1925
-NoConn ~ 3400 1925
-NoConn ~ 3300 1925
 Wire Wire Line
 	1425 1925 1425 1875
 Wire Wire Line
@@ -1174,11 +1168,42 @@ Wire Wire Line
 	1675 6000 1675 5800
 Connection ~ 1675 5800
 Wire Wire Line
-	1675 5800 1800 5800
-Wire Wire Line
 	1650 6525 1650 6575
 Wire Wire Line
 	1650 6775 1650 6850
 Text Notes 525  5650 0    60   ~ 0
 By connecting the 2 test pins the board boots in revocery mode
+Text GLabel 2000 5800 2    50   Output ~ 0
+UBOOT_BUTTON
+$Comp
+L bottom-board-rescue:R_Small-Device R83
+U 1 1 5DDEA700
+P 7975 4850
+F 0 "R83" V 7925 4775 50  0000 R CNN
+F 1 "0" V 7925 4950 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7975 4850 60  0001 C CNN
+F 3 "" H 7975 4850 60  0000 C CNN
+	1    7975 4850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7875 4850 7750 4850
+Wire Wire Line
+	1675 5800 2000 5800
+Text GLabel 3600 1800 1    50   Input ~ 0
+IN1_DETECT
+Text GLabel 3700 1800 1    50   Input ~ 0
+IN2_DETECT
+Text GLabel 3300 1800 1    50   Input ~ 0
+OUT1_DETECT
+Text GLabel 3400 1800 1    50   Input ~ 0
+OUT2_DETECT
+Wire Wire Line
+	3700 1925 3700 1800
+Wire Wire Line
+	3600 1800 3600 1925
+Wire Wire Line
+	3400 1800 3400 1925
+Wire Wire Line
+	3300 1800 3300 1925
 $EndSCHEMATC

@@ -242,26 +242,8 @@ F 3 "" H 8700 3550 50  0001 C CNN
 	1    8700 3550
 	1    0    0    -1  
 $EndComp
-Text GLabel 2150 4050 3    50   Output ~ 0
-UBOOT_BUTTON
 Text Notes 5900 4650 0    60   ~ 0
 MIDI Out connector exposes the debug serial.
-$Comp
-L bottom-board-rescue:1N4148WS-Diode D?
-U 1 1 5B5D9D6F
-P 2150 3700
-AR Path="/54F72CD0/5B5D9D6F" Ref="D?"  Part="1" 
-AR Path="/54F72FB4/5B5D9D6F" Ref="D13"  Part="1" 
-F 0 "D13" H 2150 3525 50  0000 C CNN
-F 1 "1N4148" H 2150 3600 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323" H 2150 3525 50  0001 C CNN
-F 3 "" H 2150 3700 50  0001 C CNN
-F 4 "1N4148WX-TP" H -5400 425 50  0001 C CNN "MPN"
-F 5 "1N4148WS-7-F" H -5400 425 50  0001 C CNN "MPN2"
-F 6 "1N4148WS-G RVG" H -5400 425 50  0001 C CNN "MPN3"
-	1    2150 3700
-	0    1    1    0   
-$EndComp
 $Comp
 L bottom-board-rescue:1N4148WS-Diode D?
 U 1 1 5B7DD60D
@@ -362,19 +344,6 @@ Wire Wire Line
 Wire Wire Line
 	4350 3900 4250 3900
 $Comp
-L bottom-board-rescue:TestPoint-Connector TP?
-U 1 1 5BF1B6BE
-P 2025 3925
-AR Path="/54F7244B/5BF1B6BE" Ref="TP?"  Part="1" 
-AR Path="/54F72FB4/5BF1B6BE" Ref="TP12"  Part="1" 
-F 0 "TP12" V 1950 3950 50  0000 L CNN
-F 1 "TestPoint" H 2083 3954 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2225 3925 50  0001 C CNN
-F 3 "~" H 2225 3925 50  0001 C CNN
-	1    2025 3925
-	0    -1   -1   0   
-$EndComp
-$Comp
 L bottom-board-rescue:6N136S-Isolator U17
 U 1 1 5C14B0B8
 P 3950 3800
@@ -417,17 +386,7 @@ Wire Wire Line
 	6725 3100 7450 3100
 Wire Wire Line
 	7450 3100 7450 3550
-Wire Wire Line
-	2150 3550 2150 3450
-Wire Wire Line
-	2150 3450 2375 3450
-Wire Wire Line
-	2150 3850 2150 3925
-Wire Wire Line
-	2025 3925 2150 3925
-Connection ~ 2150 3925
-Wire Wire Line
-	2150 3925 2150 4050
 Text Notes 2825 4625 0    60   ~ 0
 MIDI In connector can be used to trigger a special\nboot mode by connecting pin 3 to GND.
+NoConn ~ 2375 3450
 $EndSCHEMATC
