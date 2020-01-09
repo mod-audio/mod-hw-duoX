@@ -5,14 +5,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 13
-Title "MOD Duo - Bottom Board"
-Date ""
-Rev ""
-Comp "MOD"
-Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Title "MOD DuoX - Bottom Board"
+Date "2019-12-19"
+Rev "Rev 1.1"
+Comp "MOD Devices GmbH"
+Comment1 "DuoX Audio processing board"
+Comment2 "https://github.com/moddevices/mod-hw-duoX"
+Comment3 "Inp Power: 12V 700mA"
+Comment4 "USB outp Power: 1.5A"
 $EndDescr
 $Sheet
 S 1300 850  2150 400 
