@@ -10,3 +10,5 @@
 - Changed R14A-R14G to 470Ohm
 - Changed R15A-R15A to 470Ohm
 - Changed R16A-R16G to 560Ohm
+20200111
+-Modified board contour.
