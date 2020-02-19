@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:bottom-board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -151,10 +150,10 @@ F 3 "" H 2650 3050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bottom-board-rescue:R_Small-Device R48
+L bottom-board-rescue:R_Small-Device RA?
 U 1 1 5B3D52D5
 P 2450 2750
-F 0 "R48" V 2350 2850 50  0000 R CNN
+F 0 "RA?" V 2350 2850 50  0000 R CNN
 F 1 "100K 1%" V 2550 2850 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2450 2750 60  0001 C CNN
 F 3 "" H 2450 2750 60  0000 C CNN
@@ -162,10 +161,10 @@ F 3 "" H 2450 2750 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L bottom-board-rescue:R_Small-Device R49
+L bottom-board-rescue:R_Small-Device RA?
 U 1 1 5B3D5DC6
 P 2450 3450
-F 0 "R49" V 2350 3550 50  0000 R CNN
+F 0 "RA?" V 2350 3550 50  0000 R CNN
 F 1 "100K 1%" V 2550 3550 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2450 3450 60  0001 C CNN
 F 3 "" H 2450 3450 60  0000 C CNN
@@ -203,10 +202,10 @@ CV_DAC_~CS~
 Text Notes 7500 1050 0    100  ~ 0
 CV OUTPUT
 $Comp
-L bottom-board-rescue:R_Small-Device R53
+L bottom-board-rescue:R_Small-Device RA?
 U 1 1 5B4010C9
 P 10250 2025
-F 0 "R53" V 10150 2125 50  0000 R CNN
+F 0 "RA?" V 10150 2125 50  0000 R CNN
 F 1 "1K 1%" V 10350 2125 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 10250 2025 60  0001 C CNN
 F 3 "" H 10250 2025 60  0000 C CNN
@@ -1046,10 +1045,10 @@ Wire Wire Line
 Wire Wire Line
 	9100 4850 9100 4900
 $Comp
-L bottom-board-rescue:R_Small-Device R54
+L bottom-board-rescue:R_Small-Device RA?
 U 1 1 5CB0D2E6
 P 10250 2425
-F 0 "R54" V 10150 2525 50  0000 R CNN
+F 0 "RA?" V 10150 2525 50  0000 R CNN
 F 1 "1K 1%" V 10350 2525 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 10250 2425 60  0001 C CNN
 F 3 "" H 10250 2425 60  0000 C CNN
@@ -1231,10 +1230,10 @@ F 3 "" H 3900 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bottom-board-rescue:R_Small-Device R73
+L bottom-board-rescue:R_Small-Device RA?
 U 1 1 5DE7C45A
 P 2235 2540
-F 0 "R73" V 2135 2640 50  0000 R CNN
+F 0 "RA?" V 2135 2640 50  0000 R CNN
 F 1 "10K 1%" V 2335 2640 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2235 2540 60  0001 C CNN
 F 3 "" H 2235 2540 60  0000 C CNN
@@ -1242,10 +1241,10 @@ F 3 "" H 2235 2540 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bottom-board-rescue:R_Small-Device R74
+L bottom-board-rescue:R_Small-Device RA?
 U 1 1 5DE7CA2D
 P 2240 2920
-F 0 "R74" V 2140 3020 50  0000 R CNN
+F 0 "RA?" V 2140 3020 50  0000 R CNN
 F 1 "10K 1%" V 2340 3020 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2240 2920 60  0001 C CNN
 F 3 "" H 2240 2920 60  0000 C CNN
@@ -1264,10 +1263,10 @@ F 3 "" H 2245 3105 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bottom-board-rescue:R_Small-Device R17
+L bottom-board-rescue:R_Small-Device RA?
 U 1 1 5DE7E9AA
 P 2035 3245
-F 0 "R17" V 1935 3345 50  0000 R CNN
+F 0 "RA?" V 1935 3345 50  0000 R CNN
 F 1 "10K 1%" V 2135 3345 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2035 3245 60  0001 C CNN
 F 3 "" H 2035 3245 60  0000 C CNN
@@ -1275,10 +1274,10 @@ F 3 "" H 2035 3245 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bottom-board-rescue:R_Small-Device R63
+L bottom-board-rescue:R_Small-Device RA?
 U 1 1 5DE7EF4D
 P 2035 3590
-F 0 "R63" V 1935 3690 50  0000 R CNN
+F 0 "RA?" V 1935 3690 50  0000 R CNN
 F 1 "10K 1%" V 2135 3690 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2035 3590 60  0001 C CNN
 F 3 "" H 2035 3590 60  0000 C CNN
@@ -1374,10 +1373,10 @@ CV_OUT_1
 Text GLabel 6800 4875 0    60   Input ~ 0
 CV_OUT_2
 $Comp
-L bottom-board-rescue:R_Small-Device R77
+L bottom-board-rescue:R_Small-Device RA?
 U 1 1 5DF4EDDD
 P 7175 4625
-F 0 "R77" V 7250 4875 50  0000 R CNN
+F 0 "RA?" V 7250 4875 50  0000 R CNN
 F 1 "10K 1%" V 7275 4725 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 7175 4625 60  0001 C CNN
 F 3 "" H 7175 4625 60  0000 C CNN
@@ -1385,10 +1384,10 @@ F 3 "" H 7175 4625 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L bottom-board-rescue:R_Small-Device R75
+L bottom-board-rescue:R_Small-Device RA?
 U 1 1 5DF5B673
 P 6650 4350
-F 0 "R75" V 6550 4450 50  0000 R CNN
+F 0 "RA?" V 6550 4450 50  0000 R CNN
 F 1 "10K 1%" V 6750 4450 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 6650 4350 60  0001 C CNN
 F 3 "" H 6650 4350 60  0000 C CNN
@@ -1396,10 +1395,10 @@ F 3 "" H 6650 4350 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L bottom-board-rescue:R_Small-Device R76
+L bottom-board-rescue:R_Small-Device RA?
 U 1 1 5DF5BC6E
 P 6675 5075
-F 0 "R76" V 6575 5175 50  0000 R CNN
+F 0 "RA?" V 6575 5175 50  0000 R CNN
 F 1 "10K 1%" V 6775 5175 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 6675 5075 60  0001 C CNN
 F 3 "" H 6675 5075 60  0000 C CNN
@@ -1407,10 +1406,10 @@ F 3 "" H 6675 5075 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L bottom-board-rescue:R_Small-Device R78
+L bottom-board-rescue:R_Small-Device RA?
 U 1 1 5DF5C0A5
 P 7175 5350
-F 0 "R78" V 7075 5450 50  0000 R CNN
+F 0 "RA?" V 7075 5450 50  0000 R CNN
 F 1 "10K 1%" V 7275 5450 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 7175 5350 60  0001 C CNN
 F 3 "" H 7175 5350 60  0000 C CNN

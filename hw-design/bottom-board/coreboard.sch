@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 13
-Title "MOD Duo - Bottom Board"
-Date ""
-Rev ""
+Title "MOD DuoX - Bottom Board"
+Date "2020-02-19"
+Rev "2.1"
 Comp "MOD"
 Comment1 ""
 Comment2 ""
