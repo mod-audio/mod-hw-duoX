@@ -97,68 +97,10 @@ F 3 "" H 6650 2350 60  0000 C CNN
 $EndComp
 Text Notes 4850 4500 0    60   ~ 0
 HP circuit values designed for Dual 70mW @ RL=32ohm
-$Comp
-L bottom-board-rescue:+5VA-power #PWR0152
-U 1 1 5B3EA214
-P 7600 2250
-F 0 "#PWR0152" H 7600 2100 50  0001 C CNN
-F 1 "+5VA" H 7600 2390 50  0000 C CNN
-F 2 "" H 7600 2250 60  0000 C CNN
-F 3 "" H 7600 2250 60  0000 C CNN
-	1    7600 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L bottom-board-rescue:GNDA-power #PWR0153
-U 1 1 5B3EA32E
-P 7600 3300
-F 0 "#PWR0153" H 7600 3050 50  0001 C CNN
-F 1 "GNDA" H 7600 3150 50  0000 C CNN
-F 2 "" H 7600 3300 60  0000 C CNN
-F 3 "" H 7600 3300 60  0000 C CNN
-	1    7600 3300
-	1    0    0    -1  
-$EndComp
-Text GLabel 7050 2400 1    50   Input ~ 0
-HP_DISABLE
-$Comp
-L bottom-board-rescue:TS5A23167-local-components U15
-U 1 1 5B49C507
-P 7600 2850
-F 0 "U15" H 7500 3275 50  0000 R CNN
-F 1 "TS5A23167" H 7500 3200 50  0000 R CNN
-F 2 "Package_SO:VSSOP-8_2.3x2mm_P0.5mm" H 7650 2700 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ts5a23167.pdf" H 7700 2950 50  0001 C CNN
-F 4 "TS5A23167DCUR" H 7600 2850 50  0001 C CNN "MPN"
-	1    7600 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L bottom-board-rescue:GNDA-power #PWR0151
-U 1 1 5B4CAAE0
-P 7050 3400
-F 0 "#PWR0151" H 7050 3150 50  0001 C CNN
-F 1 "GNDA" H 7050 3250 50  0000 C CNN
-F 2 "" H 7050 3400 60  0000 C CNN
-F 3 "" H 7050 3400 60  0000 C CNN
-	1    7050 3400
-	1    0    0    -1  
-$EndComp
 Text GLabel 2350 1850 0    50   Input ~ 0
 CODEC_DAC_A
 Text GLabel 2350 3300 0    50   Input ~ 0
 CODEC_DAC_B
-$Comp
-L bottom-board-rescue:GNDA-power #PWR0154
-U 1 1 5B6044C6
-P 8050 2400
-F 0 "#PWR0154" H 8050 2150 50  0001 C CNN
-F 1 "GNDA" H 8050 2250 50  0000 C CNN
-F 2 "" H 8050 2400 60  0000 C CNN
-F 3 "" H 8050 2400 60  0000 C CNN
-	1    8050 2400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5400 3350 5400 3450
 Wire Wire Line
@@ -210,17 +152,6 @@ Wire Wire Line
 Wire Wire Line
 	5400 3350 5550 3350
 Wire Wire Line
-	7600 2250 7600 2350
-Wire Wire Line
-	7600 3250 7600 3300
-Wire Wire Line
-	7050 2950 7200 2950
-Wire Wire Line
-	7200 2650 7050 2650
-Connection ~ 7050 2650
-Wire Wire Line
-	7050 3350 7050 3400
-Wire Wire Line
 	2350 1850 2500 1850
 Wire Wire Line
 	2350 3300 2500 3300
@@ -233,13 +164,6 @@ Wire Wire Line
 Wire Wire Line
 	4250 2850 5550 2850
 Wire Wire Line
-	8050 2350 8050 2400
-Wire Wire Line
-	8050 2350 7950 2350
-Wire Wire Line
-	7750 2350 7600 2350
-Connection ~ 7600 2350
-Wire Wire Line
 	8950 3200 9300 3200
 Wire Wire Line
 	8950 2400 9300 2400
@@ -251,12 +175,6 @@ Wire Wire Line
 	6150 2050 6150 2300
 Wire Wire Line
 	6650 2300 6650 2350
-Wire Wire Line
-	7050 2950 7050 3150
-Wire Wire Line
-	7050 2650 7050 2950
-Wire Wire Line
-	7600 2350 7600 2450
 $Comp
 L bottom-board-rescue:+5VA-power #PWR0139
 U 1 1 5B78CF07
@@ -350,23 +268,6 @@ F 4 "CL10A106MQ8NNNC" H 1075 -3300 50  0001 C CNN "MPN"
 	0    1    -1   0   
 $EndComp
 $Comp
-L bottom-board-rescue:C_Small-Device C?
-U 1 1 5B67D779
-P 7850 2350
-AR Path="/54F725AE/5B67D779" Ref="C?"  Part="1" 
-AR Path="/54F72B97/5B67D779" Ref="C?"  Part="1" 
-AR Path="/54F72C8D/5B67D779" Ref="C?"  Part="1" 
-AR Path="/54F72CD0/5B67D779" Ref="C?"  Part="1" 
-AR Path="/54F72F64/5B67D779" Ref="C62"  Part="1" 
-F 0 "C62" V 8050 2350 50  0000 C CNN
-F 1 "100nF" V 7975 2350 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7850 2350 60  0001 C CNN
-F 3 "" H 7850 2350 60  0000 C CNN
-F 4 "GCM188R71C104KA37D" H 2550 -3000 50  0001 C CNN "MPN"
-	1    7850 2350
-	0    -1   -1   0   
-$EndComp
-$Comp
 L bottom-board-rescue:CP_Small-Device CA?
 U 1 1 5B697871
 P 8700 2400
@@ -408,20 +309,6 @@ F 3 "" H 3975 2100 60  0000 C CNN
 F 4 "EEE-HB1C100R" H -1125 600 50  0001 C CNN "MPN"
 	1    3975 2100
 	0    -1   -1   0   
-$EndComp
-$Comp
-L bottom-board-rescue:R_Small-Device R?
-U 1 1 5B6B4786
-P 7050 3250
-AR Path="/54F725AE/5B6B4786" Ref="R?"  Part="1" 
-AR Path="/54F72F64/5B6B4786" Ref="R28"  Part="1" 
-F 0 "R28" H 7100 3300 50  0000 L CNN
-F 1 "10k" H 7100 3200 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 7050 3250 60  0001 C CNN
-F 3 "" H 7050 3250 60  0000 C CNN
-F 4 "RMCF0603JT10K0" H 5300 -3400 50  0001 C CNN "MPN"
-	1    7050 3250
-	1    0    0    -1  
 $EndComp
 $Comp
 L bottom-board-rescue:R_Small-Device RA?
@@ -475,18 +362,11 @@ HP_RIGHT
 Text GLabel 9300 2400 2    50   Output ~ 0
 HP_LEFT
 Wire Wire Line
-	7050 2400 7050 2650
-Wire Wire Line
 	6750 2750 7200 2750
-Connection ~ 7050 2950
 Wire Wire Line
 	6750 2850 6850 2850
 Wire Wire Line
 	6850 2850 6850 3050
-Wire Wire Line
-	6850 3050 7200 3050
-Wire Wire Line
-	8000 2650 8400 2650
 Wire Wire Line
 	8400 2650 8400 2400
 Wire Wire Line
@@ -722,4 +602,16 @@ Wire Wire Line
 Connection ~ 3250 2100
 Wire Wire Line
 	3250 2100 3250 2050
+Wire Wire Line
+	7201 2650 8400 2650
+Wire Wire Line
+	7200 2750 7200 2689
+Wire Wire Line
+	7200 2689 7201 2689
+Wire Wire Line
+	7201 2689 7201 2650
+Wire Wire Line
+	8000 3050 8000 2950
+Wire Wire Line
+	6850 3050 8000 3050
 $EndSCHEMATC
