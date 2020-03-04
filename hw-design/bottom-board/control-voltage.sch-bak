@@ -307,7 +307,6 @@ Text GLabel 9800 5050 0    50   Input ~ 0
 HP_RIGHT
 NoConn ~ 9900 5150
 NoConn ~ 9900 5350
-NoConn ~ 9900 4950
 $Comp
 L bottom-board-rescue:GNDA-power #PWR0214
 U 1 1 5B48B0A4
@@ -1030,22 +1029,18 @@ NoConn ~ 2075 6925
 $Comp
 L bottom-board-rescue:GNDA-power #PWR?
 U 1 1 5CAD20C3
-P 9100 4900
+P 9425 4775
 AR Path="/54F72B97/5CAD20C3" Ref="#PWR?"  Part="1" 
 AR Path="/54F72C8D/5CAD20C3" Ref="#PWR?"  Part="1" 
 AR Path="/54F72CD0/5CAD20C3" Ref="#PWR?"  Part="1" 
 AR Path="/5B3B40FB/5CAD20C3" Ref="#PWR0115"  Part="1" 
-F 0 "#PWR0115" H 9100 4650 50  0001 C CNN
-F 1 "GNDA" H 9100 4750 50  0000 C CNN
-F 2 "" H 9100 4900 60  0000 C CNN
-F 3 "" H 9100 4900 60  0000 C CNN
-	1    9100 4900
-	1    0    0    -1  
+F 0 "#PWR0115" H 9425 4525 50  0001 C CNN
+F 1 "GNDA" H 9425 4625 50  0000 C CNN
+F 2 "" H 9425 4775 60  0000 C CNN
+F 3 "" H 9425 4775 60  0000 C CNN
+	1    9425 4775
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	9900 4850 9100 4850
-Wire Wire Line
-	9100 4850 9100 4900
 $Comp
 L bottom-board-rescue:R_Small-Device RA54
 U 1 1 5CB0D2E6
@@ -1649,32 +1644,68 @@ Wire Wire Line
 	5725 5150 5625 5150
 Wire Wire Line
 	5325 5150 5250 5150
+Text GLabel 9250 4950 0    50   Input ~ 0
+CV_OUT_DET
 $Comp
-L bottom-board-rescue:D_Schottky-Device D?
-U 1 1 5E51004E
-P 5475 5000
-AR Path="/54F7244B/5E51004E" Ref="D?"  Part="1" 
-AR Path="/5B3B40FB/5E51004E" Ref="D13"  Part="1" 
-F 0 "D13" H 5475 5100 50  0000 C CNN
-F 1 "MBR230" H 5475 4900 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123F" H 5475 5000 50  0001 C CNN
-F 3 "" H 5475 5000 50  0001 C CNN
-F 4 "MBR230LSFT1G" H 2625 2450 50  0001 C CNN "MPN"
-	1    5475 5000
-	-1   0    0    1   
+L bottom-board-rescue:R_Small-Device R17
+U 1 1 5E64EE2D
+P 9625 4650
+F 0 "R17" H 9675 4700 50  0000 L CNN
+F 1 "10k" H 9675 4600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 9625 4650 60  0001 C CNN
+F 3 "" H 9625 4650 60  0000 C CNN
+F 4 "RMCF0603JT10K0" H 2875 1675 50  0001 C CNN "MPN"
+	1    9625 4650
+	1    0    0    -1  
 $EndComp
 $Comp
-L bottom-board-rescue:D_Schottky-Device D?
-U 1 1 5E52EDDD
-P 5475 5150
-AR Path="/54F7244B/5E52EDDD" Ref="D?"  Part="1" 
-AR Path="/5B3B40FB/5E52EDDD" Ref="D20"  Part="1" 
-F 0 "D20" H 5475 5250 50  0000 C CNN
-F 1 "MBR230" H 5475 5050 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123F" H 5475 5150 50  0001 C CNN
-F 3 "" H 5475 5150 50  0001 C CNN
-F 4 "MBR230LSFT1G" H 2625 2600 50  0001 C CNN "MPN"
-	1    5475 5150
-	-1   0    0    1   
+L bottom-board-rescue:+5VA-power #PWR0140
+U 1 1 5E67347B
+P 9625 4475
+F 0 "#PWR0140" H 9625 4325 50  0001 C CNN
+F 1 "+5VA" H 9625 4615 50  0000 C CNN
+F 2 "" H 9625 4475 60  0000 C CNN
+F 3 "" H 9625 4475 60  0000 C CNN
+	1    9625 4475
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 4850 9425 4850
+Wire Wire Line
+	9425 4850 9425 4775
+Wire Wire Line
+	9900 4950 9625 4950
+Wire Wire Line
+	9625 4550 9625 4475
+Wire Wire Line
+	9625 4750 9625 4950
+Connection ~ 9625 4950
+Wire Wire Line
+	9625 4950 9250 4950
+$Comp
+L bottom-board-rescue:TestPoint-Connector TP?
+U 1 1 5E61F97A
+P 5300 4525
+AR Path="/54F7244B/5E61F97A" Ref="TP?"  Part="1" 
+AR Path="/5B3B40FB/5E61F97A" Ref="TP?"  Part="1" 
+F 0 "TP?" V 5300 4775 50  0000 C CNN
+F 1 "TestPoint" H 5358 4554 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5500 4525 50  0001 C CNN
+F 3 "~" H 5500 4525 50  0001 C CNN
+	1    5300 4525
+	-1   0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:TestPoint-Connector TP?
+U 1 1 5E61FEA0
+P 5650 4550
+AR Path="/54F7244B/5E61FEA0" Ref="TP?"  Part="1" 
+AR Path="/5B3B40FB/5E61FEA0" Ref="TP?"  Part="1" 
+F 0 "TP?" V 5650 4800 50  0000 C CNN
+F 1 "TestPoint" H 5708 4579 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5850 4550 50  0001 C CNN
+F 3 "~" H 5850 4550 50  0001 C CNN
+	1    5650 4550
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

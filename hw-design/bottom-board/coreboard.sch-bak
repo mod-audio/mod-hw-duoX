@@ -466,10 +466,10 @@ Text GLabel 3250 3975 1    50   Output ~ 0
 CV_ADC_DIN
 Text GLabel 3550 3975 1    50   Output ~ 0
 CV_ADC_~CS~
-Text GLabel 4000 2525 3    50   Output ~ 0
-CV_IN_BIAS
 Text GLabel 4100 2525 3    50   Input ~ 0
 CV_IN_DET
+Text GLabel 4000 2525 3    50   Input ~ 0
+CV_OUT_DET
 Text GLabel 3100 1825 1    50   BiDi ~ 0
 USB_DEV_DP
 Text GLabel 3000 1825 1    50   BiDi ~ 0
@@ -830,10 +830,6 @@ PM_LEDS_SDA
 Text GLabel 5425 6300 3    50   Input ~ 0
 PM_LEDS_SCL
 Wire Wire Line
-	4000 2425 4000 2525
-Wire Wire Line
-	4100 2525 4100 2425
-Wire Wire Line
 	3900 2475 3900 2425
 Wire Wire Line
 	3400 2425 3400 2475
@@ -1188,4 +1184,8 @@ Wire Wire Line
 	3400 1800 3400 1925
 Wire Wire Line
 	3300 1800 3300 1925
+Wire Wire Line
+	4100 2525 4100 2425
+Wire Wire Line
+	4000 2525 4000 2425
 $EndSCHEMATC
