@@ -1,0 +1,22 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [mod_duo_x.PrjPCB]
+   Generated File[duo_x.GTL]
+   Generated File[duo_x.GBL]
+   Generated File[duo_x.GTO]
+   Generated File[duo_x.GTP]
+   Generated File[duo_x.GTS]
+   Generated File[duo_x.GBS]
+   Generated File[duo_x.GBP]
+   Generated File[duo_x.GBO]
+   Generated File[duo_x.GKO]
+   Generated File[duo_x.GM1]
+   Generated File[duo_x.RUL]
+   Generated File[duo_x.EXTREP]
+   Generated File[duo_x.REP]
+
+
+Files Generated   : 13
+Documents Printed : 0
+
+Finished Output Generation At 11:26:39 On 5-3-2020
