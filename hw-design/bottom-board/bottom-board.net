@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "/home/jan/Mod Github HW/mod-hw-duoX/hw-design/bottom-board/bottom-board.sch")
-    (date "Wed 04 Mar 2020 06:05:00 PM CET")
+    (date "Thu 05 Mar 2020 11:17:56 AM CET")
     (tool "Eeschema 5.1.5-52549c5~84~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -163,7 +163,7 @@
       (tstamp 5B4F66E6))
     (comp (ref C1)
       (value 2200uF)
-      (footprint Capacitor_THT:CP_Radial_D13.0mm_P5.00mm)
+      (footprint Capacitor_THT:CP_Radial_D10.0mm_P5.00mm)
       (fields
         (field (name MPN) ESK228M025AL4AA))
       (libsource (lib bottom-board-rescue) (part CP_Small-Device) (description ""))
@@ -179,7 +179,7 @@
       (tstamp 5B4F672C))
     (comp (ref C3)
       (value 2200uF)
-      (footprint Capacitor_THT:CP_Radial_D13.0mm_P5.00mm)
+      (footprint Capacitor_THT:CP_Radial_D10.0mm_P5.00mm)
       (fields
         (field (name MPN) ESK228M025AL4AA))
       (libsource (lib bottom-board-rescue) (part CP_Small-Device) (description ""))
