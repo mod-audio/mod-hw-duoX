@@ -1,7 +1,7 @@
 Title,MOD DuoX - Bottom Board
 Revision,Rev 1.1
 Date,2019-12-19
-Generated,Wed 04 Mar 2020 06:08:56 PM CET
+Generated,Tue 10 Mar 2020 10:39:29 AM CET
 Company,MOD Devices GmbH
 Comment 1,DuoX Audio processing board
 Comment 2,https://github.com/moddevices/mod-hw-duoX
@@ -13,7 +13,7 @@ Total Unique Parts,96
 
 
 Ref,Qty,Value,Footprint,MPN,
-C1 C3 ,2,2200uF,Capacitor_THT:CP_Radial_D13.0mm_P5.00mm,,ESK228M025AL4AA
+C1 C3 ,2,2200uF,Capacitor_THT:CP_Radial_D10.0mm_P5.00mm,,ESK228M025AL4AA
 C2 C4 C9 C10 C11 C13 C34 C38 C69 ,9,10uF 16V,Capacitor_SMD:C_0805_2012Metric,,CL21A106KOFNNNE
 C5 C6 C8 C16 C19 C26 C27 C29 C31 C33 C35 C59 C60 C63 C66 C67 C68 C76 C81 ,19,10uF,Capacitor_SMD:C_0603_1608Metric,,CL10A106MQ8NNNC
 C7 C15 C77 ,3,1uF,Capacitor_SMD:C_0603_1608Metric,,CL10B105KP8NNNC
@@ -39,13 +39,13 @@ FID1 FID2 FID3 ,3,FIDUCIAL,footprints:fiducial_in-circuit,,
 H1 H2 H3 H4 H5 ,5,HOLE,footprints:Hole_3.5mm,, 
 H6 H7 ,2,Standoff,footprints:9774027151R,,9774027151R
 IMG1 ,1,Logo,footprints:mod-logo,, 
-J1 ,1,Power Jack,Connector_BarrelJack:BarrelJack_Horizontal,,PJ-002AH
+J1 ,1,Power Jack,Connector_BarrelJack:BarrelJack_Horizontal,,Adafruit Industries LLC 3643
 J2 ,1,HMI_POWER,footprints:B2B-XH-A,,B2B-XH-A(LF)(SN)
 J3 ,1,CB Adapter,footprints:DF12(3.0)-40DP-0.5V(86),,DF12(3.0)-40DP-0.5V(86)
 J4 ,1,CB Adapter,footprints:DF12(3.0)-60DP-0.5V(86),,DF12(3.0)-60DP-0.5V(86)
 J5 ,1,HMI_DATA,footprints:Pin_Header_Straight_2x10_Shrouded,,302-S201
 J6 ,1,SERIAL_DEBUG,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,,DO NOT PLACE
-J7 J8 J9 J10 J16 J17 ,6,NMJ6HCD2,footprints:NMJ6HCD2,,NYS215
+J7 J8 J9 J10 J16 J17 ,6,NYS215,footprints:NMJ6HCD2,,NYS215
 J11 ,1,USB_B,Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal,,61729-1011BLF
 J12 ,1,USB_A,footprints:USB_A_Vertical,,73725-0110BLF
 J13 J14 ,2,DIN_5,footprints:SDS-50J,,SDS-50J
@@ -114,4 +114,4 @@ X1 ,1,24.576MHz,Oscillator:Oscillator_SMD_Abracon_ASV-4Pin_7.0x5.1mm,,ASV-24.576
 
 
 Property of MOD Devices (https://www.moddevices.com)
-Generated Wed 04 Mar 2020 06:08:56 PM CET
+Generated Tue 10 Mar 2020 10:39:29 AM CET

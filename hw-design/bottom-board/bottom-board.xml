@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/jan/Mod Github HW/mod-hw-duoX/hw-design/bottom-board/bottom-board.sch</source>
-    <date>Wed 04 Mar 2020 06:08:58 PM CET</date>
+    <date>Tue 10 Mar 2020 10:39:29 AM CET</date>
     <tool>Eeschema 5.1.5-52549c5~84~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -194,7 +194,7 @@
     </comp>
     <comp ref="C1">
       <value>2200uF</value>
-      <footprint>Capacitor_THT:CP_Radial_D13.0mm_P5.00mm</footprint>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
       <fields>
         <field name="MPN">ESK228M025AL4AA</field>
       </fields>
@@ -214,7 +214,7 @@
     </comp>
     <comp ref="C3">
       <value>2200uF</value>
-      <footprint>Capacitor_THT:CP_Radial_D13.0mm_P5.00mm</footprint>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
       <fields>
         <field name="MPN">ESK228M025AL4AA</field>
       </fields>
@@ -226,7 +226,7 @@
       <value>Power Jack</value>
       <footprint>Connector_BarrelJack:BarrelJack_Horizontal</footprint>
       <fields>
-        <field name="MPN">PJ-002AH</field>
+        <field name="MPN">Adafruit Industries LLC 3643</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="Barrel_Jack_Switch-Connector" description=""/>
       <sheetpath names="/power/" tstamps="/54F7244B/"/>
@@ -989,7 +989,7 @@
       <tstamp>5B52CB45</tstamp>
     </comp>
     <comp ref="J8">
-      <value>NMJ6HCD2</value>
+      <value>NYS215</value>
       <footprint>footprints:NMJ6HCD2</footprint>
       <fields>
         <field name="MPN">NYS215</field>
@@ -1606,7 +1606,7 @@
       <tstamp>5DF7D990</tstamp>
     </comp>
     <comp ref="J7">
-      <value>NMJ6HCD2</value>
+      <value>NYS215</value>
       <footprint>footprints:NMJ6HCD2</footprint>
       <fields>
         <field name="MPN">NYS215</field>
@@ -1646,7 +1646,7 @@
       <tstamp>5B54B0AB</tstamp>
     </comp>
     <comp ref="J9">
-      <value>NMJ6HCD2</value>
+      <value>NYS215</value>
       <footprint>footprints:NMJ6HCD2</footprint>
       <fields>
         <field name="MPN">NYS215</field>
@@ -1787,7 +1787,7 @@
       <tstamp>5B81215F</tstamp>
     </comp>
     <comp ref="J10">
-      <value>NMJ6HCD2</value>
+      <value>NYS215</value>
       <footprint>footprints:NMJ6HCD2</footprint>
       <fields>
         <field name="MPN">NYS215</field>
@@ -2925,7 +2925,7 @@
       <tstamp>5B3B49D8</tstamp>
     </comp>
     <comp ref="J16">
-      <value>NMJ6HCD2</value>
+      <value>NYS215</value>
       <footprint>footprints:NMJ6HCD2</footprint>
       <fields>
         <field name="MPN">NYS215</field>
@@ -3039,7 +3039,7 @@
       <tstamp>5B462C68</tstamp>
     </comp>
     <comp ref="J17">
-      <value>NMJ6HCD2</value>
+      <value>NYS215</value>
       <footprint>footprints:NMJ6HCD2</footprint>
       <fields>
         <field name="MPN">NYS215</field>

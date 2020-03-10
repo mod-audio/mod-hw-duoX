@@ -138,7 +138,7 @@ Text GLabel 8925 5050 2    50   Input ~ 0
 HMI_UART_TX
 Text GLabel 8925 4850 2    50   Input ~ 0
 HMI_ISP_ENABLE
-Text GLabel 8925 4950 2    50   Input ~ 0
+Text GLabel 9650 4950 2    50   Input ~ 0
 HMI_RESET
 Text GLabel 7525 4550 0    50   Input ~ 0
 CLI_UART_TX
@@ -185,8 +185,6 @@ Wire Wire Line
 	7875 4650 8225 4650
 Wire Wire Line
 	8225 4550 7875 4550
-Wire Wire Line
-	8925 4950 8725 4950
 Wire Wire Line
 	8725 4850 8925 4850
 Wire Wire Line
@@ -1188,4 +1186,36 @@ Wire Wire Line
 	4100 2525 4100 2425
 Wire Wire Line
 	4000 2525 4000 2425
+$Comp
+L bottom-board-rescue:R_Small-Device R49
+U 1 1 5E61451D
+P 9550 5180
+F 0 "R49" H 9750 5130 50  0000 R CNN
+F 1 "10k" H 9740 5220 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 9550 5180 60  0001 C CNN
+F 3 "" H 9550 5180 60  0000 C CNN
+F 4 "RMCF0603JT22R0" H 9550 5180 50  0001 C CNN "MPN"
+	1    9550 5180
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:GNDD-power #PWR0152
+U 1 1 5E61C8AD
+P 9550 5320
+F 0 "#PWR0152" H 9550 5070 50  0001 C CNN
+F 1 "GNDD" H 9550 5170 50  0000 C CNN
+F 2 "" H 9550 5320 60  0000 C CNN
+F 3 "" H 9550 5320 60  0000 C CNN
+	1    9550 5320
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8725 4950 9550 4950
+Wire Wire Line
+	9550 4950 9550 5080
+Connection ~ 9550 4950
+Wire Wire Line
+	9550 4950 9650 4950
+Wire Wire Line
+	9550 5320 9550 5280
 $EndSCHEMATC
