@@ -149,30 +149,6 @@ F 3 "" H 2650 3050 60  0000 C CNN
 	1    2650 3050
 	1    0    0    -1  
 $EndComp
-$Comp
-L bottom-board-rescue:R_Small-Device RA37
-U 1 1 5B3D52D5
-P 2450 2750
-F 0 "RA37" V 2350 2850 50  0000 R CNN
-F 1 "100K 1%" V 2550 2850 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 2450 2750 60  0001 C CNN
-F 3 "" H 2450 2750 60  0000 C CNN
-F 4 "RR0816P-104-D" V 2450 2750 50  0001 C CNN "MPN"
-	1    2450 2750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L bottom-board-rescue:R_Small-Device RA38
-U 1 1 5B3D5DC6
-P 2450 3450
-F 0 "RA38" V 2350 3550 50  0000 R CNN
-F 1 "100K 1%" V 2550 3550 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 2450 3450 60  0001 C CNN
-F 3 "" H 2450 3450 60  0000 C CNN
-F 4 "RR0816P-104-D" V 2450 3450 50  0001 C CNN "MPN"
-	1    2450 3450
-	0    -1   -1   0   
-$EndComp
 Text Notes 3050 1050 0    100  ~ 0
 CV INPUT
 Text GLabel 4650 2950 2    50   Input ~ 0
@@ -435,8 +411,6 @@ Wire Wire Line
 Wire Wire Line
 	3900 2750 3900 2700
 Wire Wire Line
-	2550 3450 2650 3450
-Wire Wire Line
 	2650 3500 2650 3450
 Connection ~ 2650 3450
 Wire Wire Line
@@ -460,8 +434,6 @@ Wire Wire Line
 	3200 1900 3250 1900
 Wire Wire Line
 	3200 3200 3250 3200
-Wire Wire Line
-	2550 2750 2587 2750
 Wire Wire Line
 	3200 3000 3250 3000
 Wire Wire Line
@@ -552,8 +524,6 @@ Wire Wire Line
 	2650 2750 3200 2750
 Wire Wire Line
 	3200 2750 3200 3000
-Wire Wire Line
-	3050 3450 3098 3450
 Wire Wire Line
 	3535 5611 3535 5661
 Wire Wire Line
@@ -1681,8 +1651,6 @@ Wire Wire Line
 Wire Wire Line
 	2195 2837 2252 2837
 Wire Wire Line
-	2350 2750 2252 2750
-Wire Wire Line
 	2252 2377 2252 2750
 Connection ~ 2252 2750
 Wire Wire Line
@@ -1717,8 +1685,6 @@ Wire Wire Line
 	2195 3738 2252 3738
 Wire Wire Line
 	2252 3274 2252 3450
-Wire Wire Line
-	2252 3450 2350 3450
 Connection ~ 2252 3450
 Wire Wire Line
 	2252 3450 2252 3738
@@ -2112,66 +2078,6 @@ Connection ~ 4580 4961
 Wire Wire Line
 	4580 4961 4960 4961
 $Comp
-L bottom-board-rescue:R_Small-Device RA56
-U 1 1 5F61CDCE
-P 3098 3686
-F 0 "RA56" V 2998 3786 50  0000 R CNN
-F 1 "100K 1%" V 3198 3786 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3098 3686 60  0001 C CNN
-F 3 "" H 3098 3686 60  0000 C CNN
-F 4 "RR0816P-104-D" V 3098 3686 50  0001 C CNN "MPN"
-	1    3098 3686
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3098 3844 3098 3786
-$Comp
-L bottom-board-rescue:GNDA-power #PWR0243
-U 1 1 5F632C5A
-P 3098 3844
-F 0 "#PWR0243" H 3098 3594 50  0001 C CNN
-F 1 "GNDA" H 3098 3694 50  0000 C CNN
-F 2 "" H 3098 3844 60  0000 C CNN
-F 3 "" H 3098 3844 60  0000 C CNN
-	1    3098 3844
-	1    0    0    -1  
-$EndComp
-$Comp
-L bottom-board-rescue:R_Small-Device RA55
-U 1 1 5F67C1A9
-P 2587 2466
-F 0 "RA55" V 2487 2566 50  0000 R CNN
-F 1 "100K 1%" V 2687 2566 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 2587 2466 60  0001 C CNN
-F 3 "" H 2587 2466 60  0000 C CNN
-F 4 "RR0816P-104-D" V 2587 2466 50  0001 C CNN "MPN"
-	1    2587 2466
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2587 2308 2587 2366
-$Comp
-L bottom-board-rescue:GNDA-power #PWR0244
-U 1 1 5F67C1B0
-P 2587 2308
-F 0 "#PWR0244" H 2587 2058 50  0001 C CNN
-F 1 "GNDA" H 2587 2158 50  0000 C CNN
-F 2 "" H 2587 2308 60  0000 C CNN
-F 3 "" H 2587 2308 60  0000 C CNN
-	1    2587 2308
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2587 2566 2587 2750
-Connection ~ 2587 2750
-Wire Wire Line
-	2587 2750 2650 2750
-Wire Wire Line
-	3098 3586 3098 3450
-Connection ~ 3098 3450
-Wire Wire Line
-	3098 3450 3200 3450
-$Comp
 L bottom-board-rescue:+5VA-power #PWR0173
 U 1 1 5F71ABAB
 P 1590 4735
@@ -2232,4 +2138,10 @@ F 3 "" H 9771 3950 60  0000 C CNN
 	1    9771 3950
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3050 3450 3200 3450
+Wire Wire Line
+	2252 2750 2650 2750
+Wire Wire Line
+	2252 3450 2650 3450
 $EndSCHEMATC
