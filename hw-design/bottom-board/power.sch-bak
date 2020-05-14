@@ -182,7 +182,7 @@ F 0 "J1" H 1850 2260 50  0000 C CNN
 F 1 "Power Jack" H 1850 1875 50  0000 C CNN
 F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 1900 2010 50  0001 C CNN
 F 3 "" H 1900 2010 50  0001 C CNN
-F 4 "PJ-002AH" H 1850 2050 60  0001 C CNN "MPN"
+F 4 "Adafruit Industries LLC 3643" H 1850 2050 60  0001 C CNN "MPN"
 	1    1850 2050
 	1    0    0    -1  
 $EndComp

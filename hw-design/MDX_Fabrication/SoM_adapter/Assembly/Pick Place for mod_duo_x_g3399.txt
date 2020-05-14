@@ -1,0 +1,44 @@
+Altium Designer Pick and Place Locations
+E:\Clients\MOD Devices GmbH\MOD DUO X-CB-G3399\Project Outputs for mod_x_cb_g3399\Pick Place for mod_duo_x_g3399.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       17/02/20
+Time:       20:35
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mil
+
+Designator Comment                 Layer       Footprint      Center-X(mil) Center-Y(mil) Rotation Description                        
+C13        0.1uF                   TopLayer    CAPC1005N      783.189       -499.646      360      "CAP CER 0.1UF 50V X7R 0402"       
+U5         TXS0104EPWR             BottomLayer TSSOP_PW14     -539.094      619.724       270      "IC TRNSLTR BIDIRECTIONAL 14TSSOP" 
+U4         TXS0104EPWR             BottomLayer TSSOP_PW14     -1106.811     1450.354      90       "IC TRNSLTR BIDIRECTIONAL 14TSSOP" 
+U3         TXS0104EPWR             BottomLayer TSSOP_PW14     -539.094      1155.354      90       "IC TRNSLTR BIDIRECTIONAL 14TSSOP" 
+R6         100K                    BottomLayer RESC1005N      -391.811      614.724       90       "RES SMD 100K OHM 1% 1/16W 0402"   
+R5         100K                    BottomLayer RESC1005N      -1251.811     1456.654      270      "RES SMD 100K OHM 1% 1/16W 0402"   
+R4         100K                    BottomLayer RESC1005N      -681.811      1160.354      270      "RES SMD 100K OHM 1% 1/16W 0402"   
+C12        0.1uF                   BottomLayer CAPC1005N      -670.005      425.354       360      "CAP CER 0.1UF 50V X7R 0402"       
+C11        0.1uF                   BottomLayer CAPC1005N      -670.005      820.354       360      "CAP CER 0.1UF 50V X7R 0402"       
+C10        0.1uF                   BottomLayer CAPC1005N      -960.748      1653.504      180      "CAP CER 0.1UF 50V X7R 0402"       
+C9         0.1uF                   BottomLayer CAPC1005N      -960.748      1245.354      180      "CAP CER 0.1UF 50V X7R 0402"       
+C8         0.1uF                   BottomLayer CAPC1005N      -427.511      1361.854      180      "CAP CER 0.1UF 50V X7R 0402"       
+C7         0.1uF                   BottomLayer CAPC1005N      -427.511      944.843       180      "CAP CER 0.1UF 50V X7R 0402"       
+D1         1N4148WQ-7-F            BottomLayer SOD123         658.189       -184.646      360      "DIODE GEN PURP 100V 300MA SOD123" 
+C1         22uF                    BottomLayer CAPC1608N      1601.700      -217.417      270      "CAP CER 22UF 6.3V X5R 0603"       
+U2         G3399                   TopLayer    G3399-MOD      189.252       688.937       360      "ROCKCHIP R3399 SoM"               
+C6         1uF                     BottomLayer CAPC1005N      618.189       -259.646      180      "CAP CER 1UF 6.3V X5R 0402"        
+C5         22uF                    BottomLayer CAPC1608N      100.374       1918.539      360      "CAP CER 22UF 6.3V X5R 0603"       
+C3         22uF                    BottomLayer CAPC1608N      1543.189      -217.417      270      "CAP CER 22UF 6.3V X5R 0603"       
+C2         22uF                    BottomLayer CAPC1608N      1483.189      -217.417      270      "CAP CER 22UF 6.3V X5R 0603"       
+U1         TPS62825                BottomLayer DMQ0006A       1269.220      1910.354      360      "IC STEP DOWN CONV 1-5V 2A QFN"    
+R3         100K                    BottomLayer RESC1005N      1088.189      1953.976      270      "RES SMD 100K OHM 1% 1/16W 0402"   
+R2         100K                    BottomLayer RESC1005N      1113.189      1880.354      360      "RES SMD 100K OHM 1% 1/16W 0402"   
+R1         453K                    BottomLayer RESC1005N      1138.189      1953.976      90       "RES SMD 453K OHM 1% 1/16W 0402"   
+L1         470nH                   BottomLayer IHLP-1212AE-11 1493.189      1855.354      270      "FIXED IND 470NH 6.7A 15 MOHM SMD" 
+C18        10uF                    BottomLayer CAPC2012N      1608.189      1855.354      270      "CAP CER 10UF 10V X7R 0805"        
+C17        4.7uF                   BottomLayer CAPC2012N      1258.189      1805.354      0        "CAP CER 4.7UF 25V X5R 0805"       
+C16        120pF                   BottomLayer CAPC1005N      1183.189      1953.661      90       "CAP CER 120PF 50V C0G/NP0 0402"   
+P3         DF12(3.0)-40DS-0.5V(86) BottomLayer DF12-40        228.346       -59.055       180      "CONN RECEPT 40POS 3MM SMD 0.5MM"  
+P2         DF12(3.0)-60DS-0.5V(86) BottomLayer DF12-60        228.327       1515.748      180      "CONN RECEPT 60POS 3MM SMD 0.5MM"  
+C4         0.1uF                   BottomLayer CAPC1005N      1433.189      -217.417      270      "CAP CER 0.1UF 50V X7R 0402"       
