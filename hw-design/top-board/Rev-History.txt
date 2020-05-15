@@ -12,3 +12,5 @@
 - Changed R16A-R16G to 560Ohm
 20200111
 -Modified board contour.
+20200410
+-Modified board contour.
