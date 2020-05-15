@@ -4,12 +4,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 12 13
-Title "MOD Duo - Bottom Board"
-Date ""
-Rev ""
-Comp "MOD"
-Comment1 ""
-Comment2 ""
+Title "MOD DuoX - Bottom Board"
+Date "2020-05-15"
+Rev "Rev 1.12"
+Comp "MOD Devices GmbH"
+Comment1 "DuoX Audio processing board"
+Comment2 "https://github.com/moddevices/mod-hw-duoX"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -1571,6 +1571,7 @@ F 0 "U9" H 1935 3012 50  0000 C CNN
 F 1 "DG9426E" H 1935 3103 50  0000 C CNN
 F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 1935 2737 50  0001 C CNN
 F 3 "http://pdf.datasheetcatalog.com/datasheets/70/494502_DS.pdf" H 1935 2837 50  0001 C CNN
+F 4 "DG9426EDQ-T1-GE3" H 1935 2837 50  0001 C CNN "MPN"
 	4    1935 2837
 	1    0    0    1   
 $EndComp
@@ -1786,6 +1787,7 @@ F 0 "U13" H 7731 4018 50  0000 C CNN
 F 1 "DG9426E" H 7731 3927 50  0000 C CNN
 F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 7731 3651 50  0001 C CNN
 F 3 "http://pdf.datasheetcatalog.com/datasheets/70/494502_DS.pdf" H 7731 3751 50  0001 C CNN
+F 4 "DG9426EDQ-T1-GE3" H 7731 3751 50  0001 C CNN "MPN"
 	3    7731 3751
 	1    0    0    -1  
 $EndComp

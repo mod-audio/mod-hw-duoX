@@ -2,14 +2,14 @@
 <export version="D">
   <design>
     <source>/home/jan/Mod Github HW/mod-hw-duoX/hw-design/bottom-board/bottom-board.sch</source>
-    <date>Fri 15 May 2020 11:27:45 AM CEST</date>
+    <date>Fri 15 May 2020 11:44:13 AM CEST</date>
     <tool>Eeschema 5.1.5-52549c5~84~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>MOD DuoX - Bottom Board</title>
         <company>MOD Devices GmbH</company>
-        <rev>Rev 1.1</rev>
-        <date>2019-12-19</date>
+        <rev>Rev 1.2</rev>
+        <date>2020-05-15</date>
         <source>bottom-board.sch</source>
         <comment number="1" value="DuoX Audio processing board"/>
         <comment number="2" value="https://github.com/moddevices/mod-hw-duoX"/>
@@ -19,26 +19,26 @@
     </sheet>
     <sheet number="2" name="/power/" tstamps="/54F7244B/">
       <title_block>
-        <title>MOD Duo - Bottom Board</title>
-        <company>MOD</company>
-        <rev/>
-        <date/>
+        <title>MOD DuoX - Bottom Board</title>
+        <company>MOD Devices GmbH</company>
+        <rev>Rev 1.12</rev>
+        <date>2020-05-15</date>
         <source>power.sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
+        <comment number="1" value="DuoX Audio processing board"/>
+        <comment number="2" value="https://github.com/moddevices/mod-hw-duoX"/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
     <sheet number="3" name="/audio-codec/" tstamps="/54F72B97/">
       <title_block>
-        <title>MOD Duo - Bottom Board</title>
-        <company>MOD</company>
-        <rev/>
-        <date/>
+        <title>MOD DuoX - Bottom Board</title>
+        <company>MOD Devices GmbH</company>
+        <rev>Rev 1.12</rev>
+        <date>2020-05-15</date>
         <source>audio-codec.sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
+        <comment number="1" value="DuoX Audio processing board"/>
+        <comment number="2" value="https://github.com/moddevices/mod-hw-duoX"/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
@@ -46,129 +46,129 @@
     <sheet number="4" name="/coreboard/" tstamps="/54F725AE/">
       <title_block>
         <title>MOD DuoX - Bottom Board</title>
-        <company>MOD</company>
-        <rev>2.1</rev>
-        <date>2020-02-19</date>
+        <company>MOD Devices GmbH</company>
+        <rev>Rev 1.12</rev>
+        <date>2020-05-15</date>
         <source>coreboard.sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
+        <comment number="1" value="DuoX Audio processing board"/>
+        <comment number="2" value="https://github.com/moddevices/mod-hw-duoX"/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
     <sheet number="5" name="/audio-inputs/" tstamps="/54F72C8D/">
       <title_block>
-        <title>MOD Duo - Bottom Board</title>
-        <company>MOD</company>
-        <rev/>
-        <date/>
+        <title>MOD DuoX - Bottom Board</title>
+        <company>MOD Devices GmbH</company>
+        <rev>Rev 1.12</rev>
+        <date>2020-05-15</date>
         <source>audio-inputs.sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
+        <comment number="1" value="DuoX Audio processing board"/>
+        <comment number="2" value="https://github.com/moddevices/mod-hw-duoX"/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
     <sheet number="6" name="/audio-outputs/" tstamps="/54F72CD0/">
       <title_block>
-        <title>MOD Duo - Bottom Board</title>
-        <company>MOD</company>
-        <rev/>
-        <date/>
+        <title>MOD DuoX - Bottom Board</title>
+        <company>MOD Devices GmbH</company>
+        <rev>Rev 1.12</rev>
+        <date>2020-05-15</date>
         <source>audio-outputs.sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
+        <comment number="1" value="DuoX Audio processing board"/>
+        <comment number="2" value="https://github.com/moddevices/mod-hw-duoX"/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
     <sheet number="7" name="/audio-headphones/" tstamps="/54F72F64/">
       <title_block>
-        <title>MOD Duo - Bottom Board</title>
-        <company>MOD</company>
-        <rev/>
-        <date/>
+        <title>MOD DuoX - Bottom Board</title>
+        <company>MOD Devices GmbH</company>
+        <rev>Rev 1.12</rev>
+        <date>2020-05-15</date>
         <source>audio-headphones.sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
+        <comment number="1" value="DuoX Audio processing board"/>
+        <comment number="2" value="https://github.com/moddevices/mod-hw-duoX"/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
     <sheet number="8" name="/usb/" tstamps="/54F72FB2/">
       <title_block>
-        <title>MOD Duo - Bottom Board</title>
-        <company>MOD</company>
-        <rev/>
-        <date/>
+        <title>MOD DuoX - Bottom Board</title>
+        <company>MOD Devices GmbH</company>
+        <rev>Rev 1.12</rev>
+        <date>2020-05-15</date>
         <source>usb.sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
+        <comment number="1" value="DuoX Audio processing board"/>
+        <comment number="2" value="https://github.com/moddevices/mod-hw-duoX"/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
     <sheet number="9" name="/midi/" tstamps="/54F72FB4/">
       <title_block>
-        <title>MOD Duo - Bottom Board</title>
-        <company>MOD</company>
-        <rev/>
-        <date/>
+        <title>MOD DuoX - Bottom Board</title>
+        <company>MOD Devices GmbH</company>
+        <rev>Rev 1.12</rev>
+        <date>2020-05-15</date>
         <source>midi.sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
+        <comment number="1" value="DuoX Audio processing board"/>
+        <comment number="2" value="https://github.com/moddevices/mod-hw-duoX"/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
     <sheet number="10" name="/control-chain/" tstamps="/54F72FB6/">
       <title_block>
-        <title>MOD Duo - Bottom Board</title>
-        <company>MOD</company>
-        <rev/>
-        <date/>
+        <title>MOD DuoX - Bottom Board</title>
+        <company>MOD Devices GmbH</company>
+        <rev>Rev 1.12</rev>
+        <date>2020-05-15</date>
         <source>control-chain.sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
+        <comment number="1" value="DuoX Audio processing board"/>
+        <comment number="2" value="https://github.com/moddevices/mod-hw-duoX"/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
     <sheet number="11" name="/mechanics/" tstamps="/55FC02AF/">
       <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
+        <title>MOD DuoX - Bottom Board</title>
+        <company>MOD Devices GmbH</company>
+        <rev>Rev 1.12</rev>
+        <date>2020-05-15</date>
         <source>mechanics.sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
+        <comment number="1" value="DuoX Audio processing board"/>
+        <comment number="2" value="https://github.com/moddevices/mod-hw-duoX"/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
     <sheet number="12" name="/control-voltage/" tstamps="/5B3B40FB/">
       <title_block>
-        <title>MOD Duo - Bottom Board</title>
-        <company>MOD</company>
-        <rev/>
-        <date/>
+        <title>MOD DuoX - Bottom Board</title>
+        <company>MOD Devices GmbH</company>
+        <rev>Rev 1.12</rev>
+        <date>2020-05-15</date>
         <source>control-voltage.sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
+        <comment number="1" value="DuoX Audio processing board"/>
+        <comment number="2" value="https://github.com/moddevices/mod-hw-duoX"/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
     <sheet number="13" name="/spdif/" tstamps="/5B6E0697/">
       <title_block>
-        <title>MOD Duo - Bottom Board</title>
-        <company>MOD</company>
-        <rev/>
-        <date/>
+        <title>MOD DuoX - Bottom Board</title>
+        <company>MOD Devices GmbH</company>
+        <rev>Rev 1.12</rev>
+        <date>2020-05-15</date>
         <source>spdif.sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
+        <comment number="1" value="DuoX Audio processing board"/>
+        <comment number="2" value="https://github.com/moddevices/mod-hw-duoX"/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
@@ -3345,6 +3345,9 @@
       <value>DG9426E</value>
       <footprint>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</footprint>
       <datasheet>http://pdf.datasheetcatalog.com/datasheets/70/494502_DS.pdf</datasheet>
+      <fields>
+        <field name="MPN">DG9426EDQ-T1-GE3</field>
+      </fields>
       <libsource lib="bottom-board-rescue" part="DG9426E" description="Quad SPST Analog Switches, normally ON, 60Ohm Ron, SOIC-16"/>
       <sheetpath names="/control-voltage/" tstamps="/5B3B40FB/"/>
       <tstamp>5E6DC73D</tstamp>
@@ -3368,7 +3371,7 @@
       <footprint>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</footprint>
       <datasheet>http://pdf.datasheetcatalog.com/datasheets/70/494502_DS.pdf</datasheet>
       <fields>
-        <field name="MPN">LM358DGKR</field>
+        <field name="MPN">DG9426EDQ-T1-GE3</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="DG9426E" description="Quad SPST Analog Switches, normally ON, 60Ohm Ron, SOIC-16"/>
       <sheetpath names="/control-voltage/" tstamps="/5B3B40FB/"/>
@@ -3395,7 +3398,7 @@
       <tstamp>5B562CEC</tstamp>
     </comp>
     <comp ref="C84">
-      <value>0.01uF</value>
+      <value>10nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="MPN">CL10B103KA8NNNC</field>

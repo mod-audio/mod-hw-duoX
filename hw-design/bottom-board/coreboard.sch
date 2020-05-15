@@ -5,11 +5,11 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 13
 Title "MOD DuoX - Bottom Board"
-Date "2020-02-19"
-Rev "2.1"
-Comp "MOD"
-Comment1 ""
-Comment2 ""
+Date "2020-05-15"
+Rev "Rev 1.12"
+Comp "MOD Devices GmbH"
+Comment1 "DuoX Audio processing board"
+Comment2 "https://github.com/moddevices/mod-hw-duoX"
 Comment3 ""
 Comment4 ""
 $EndDescr

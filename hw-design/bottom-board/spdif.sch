@@ -4,12 +4,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 13 13
-Title "MOD Duo - Bottom Board"
-Date ""
-Rev ""
-Comp "MOD"
-Comment1 ""
-Comment2 ""
+Title "MOD DuoX - Bottom Board"
+Date "2020-05-15"
+Rev "Rev 1.12"
+Comp "MOD Devices GmbH"
+Comment1 "DuoX Audio processing board"
+Comment2 "https://github.com/moddevices/mod-hw-duoX"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -32,7 +32,7 @@ L bottom-board-rescue:C_Small-Device C84
 U 1 1 5B562D29
 P 3100 1950
 F 0 "C84" V 2925 1950 50  0000 C CNN
-F 1 "0.01uF" V 3000 1950 50  0000 C CNN
+F 1 "10nF" V 3000 1950 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3100 1950 50  0001 C CNN
 F 3 "" H 3100 1950 50  0001 C CNN
 F 4 "CL10B103KA8NNNC" H 3100 1950 50  0001 C CNN "MPN"
