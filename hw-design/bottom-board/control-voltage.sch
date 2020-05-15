@@ -1789,29 +1789,15 @@ F 3 "http://pdf.datasheetcatalog.com/datasheets/70/494502_DS.pdf" H 7731 3751 50
 	3    7731 3751
 	1    0    0    -1  
 $EndComp
-$Comp
-L bottom-board-rescue:DG9426E U13
-U 4 1 5EE404EB
-P 7731 4215
-F 0 "U13" H 7731 4390 50  0000 C CNN
-F 1 "DG9426E" H 7731 4481 50  0000 C CNN
-F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 7731 4115 50  0001 C CNN
-F 3 "http://pdf.datasheetcatalog.com/datasheets/70/494502_DS.pdf" H 7731 4215 50  0001 C CNN
-	4    7731 4215
-	-1   0    0    1   
-$EndComp
 Text GLabel 7367 3751 0    50   Input ~ 0
 CV_10V_OUT1
 Wire Wire Line
 	7367 3751 7471 3751
 Wire Wire Line
-	7086 3977 7731 3977
+	7086 3977 7730 3977
 Wire Wire Line
 	7731 3951 7731 3977
-Connection ~ 7731 3977
-Wire Wire Line
-	7731 3977 7731 4015
-Text GLabel 7416 4215 0    50   Output ~ 0
+Text GLabel 7415 4215 0    50   Output ~ 0
 HP_LEFT
 Text GLabel 7389 2854 0    50   Output ~ 0
 HP_RIGHT
@@ -1893,20 +1879,12 @@ F 3 "" H 10648 4159 60  0000 C CNN
 	1    10648 4159
 	-1   0    0    -1  
 $EndComp
-Text GLabel 7407 3310 0    50   Input ~ 0
+Text GLabel 7408 3311 0    50   Input ~ 0
 CV_10V_OUT2
 Wire Wire Line
 	7991 2854 8053 2854
 Wire Wire Line
-	7990 3310 8053 3310
-Wire Wire Line
-	7470 3310 7407 3310
-Wire Wire Line
-	7471 4215 7416 4215
-Wire Wire Line
 	7991 3751 8064 3751
-Wire Wire Line
-	7991 4215 8064 4215
 Wire Wire Line
 	8064 3751 8064 3967
 Text GLabel 8094 3058 2    50   Input ~ 0
@@ -1923,8 +1901,6 @@ Wire Wire Line
 Wire Wire Line
 	8094 3058 8053 3058
 Connection ~ 8053 3058
-Wire Wire Line
-	8053 3058 8053 3310
 Wire Wire Line
 	4485 4811 4750 4811
 Wire Wire Line
@@ -1989,17 +1965,6 @@ Wire Wire Line
 Connection ~ 1430 2590
 Wire Wire Line
 	1430 2590 1935 2590
-$Comp
-L bottom-board-rescue:DG9426E U13
-U 1 1 5EE404D7
-P 7730 3310
-F 0 "U13" H 7730 3485 50  0000 C CNN
-F 1 "DG9426E" H 7730 3576 50  0000 C CNN
-F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 7730 3210 50  0001 C CNN
-F 3 "http://pdf.datasheetcatalog.com/datasheets/70/494502_DS.pdf" H 7730 3310 50  0001 C CNN
-	1    7730 3310
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	7731 3054 7731 3067
 Text GLabel 7086 3067 0    50   Input ~ 0
@@ -2015,15 +1980,6 @@ F 3 "http://pdf.datasheetcatalog.com/datasheets/70/494502_DS.pdf" H 7731 2854 50
 	2    7731 2854
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7730 3110 7730 3087
-Wire Wire Line
-	7730 3087 7693 3087
-Wire Wire Line
-	7693 3087 7693 3067
-Connection ~ 7693 3067
-Wire Wire Line
-	7693 3067 7731 3067
 Text GLabel 7086 3977 0    50   Input ~ 0
 HP_DISABLE
 Wire Wire Line
@@ -2034,7 +1990,52 @@ Wire Wire Line
 	7174 3177 7174 3067
 Wire Wire Line
 	7086 3067 7174 3067
-Wire Wire Line
-	7174 3067 7693 3067
 Connection ~ 7174 3067
+$Comp
+L bottom-board-rescue:DG9426E U13
+U 4 1 5EE404EB
+P 7728 3311
+F 0 "U13" H 7728 3486 50  0000 C CNN
+F 1 "DG9426E" H 7728 3577 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 7728 3211 50  0001 C CNN
+F 3 "http://pdf.datasheetcatalog.com/datasheets/70/494502_DS.pdf" H 7728 3311 50  0001 C CNN
+	4    7728 3311
+	-1   0    0    1   
+$EndComp
+$Comp
+L bottom-board-rescue:DG9426E U13
+U 1 1 5EE404D7
+P 7730 4215
+F 0 "U13" H 7730 4390 50  0000 C CNN
+F 1 "DG9426E" H 7730 4481 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 7730 4115 50  0001 C CNN
+F 3 "http://pdf.datasheetcatalog.com/datasheets/70/494502_DS.pdf" H 7730 4215 50  0001 C CNN
+	1    7730 4215
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7990 4215 8064 4215
+Connection ~ 8064 4215
+Wire Wire Line
+	8064 4215 8065 4215
+Wire Wire Line
+	7470 4215 7415 4215
+Wire Wire Line
+	7730 4015 7730 3977
+Connection ~ 7730 3977
+Wire Wire Line
+	7730 3977 7731 3977
+Wire Wire Line
+	7468 3311 7408 3311
+Wire Wire Line
+	7988 3311 8053 3311
+Wire Wire Line
+	8053 3058 8053 3311
+Wire Wire Line
+	7728 3111 7728 3067
+Wire Wire Line
+	7174 3067 7728 3067
+Connection ~ 7728 3067
+Wire Wire Line
+	7728 3067 7731 3067
 $EndSCHEMATC
