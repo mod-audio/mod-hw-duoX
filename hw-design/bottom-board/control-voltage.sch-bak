@@ -294,42 +294,17 @@ F 3 "" H 8772 2219 60  0000 C CNN
 	1    8772 2219
 	1    0    0    -1  
 $EndComp
-Text GLabel 9321 3350 0    50   Input ~ 0
-HP_DISABLE
-$Comp
-L bottom-board-rescue:BSS84-Transistor_FET Q7
-U 1 1 5B4CC381
-P 9671 3350
-F 0 "Q7" V 9671 3200 50  0000 R CNN
-F 1 "BSS84" V 9571 3300 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 9871 3450 29  0001 C CNN
-F 3 "" H 9671 3350 60  0000 C CNN
-F 4 "BSS84-7-F" H 9671 3350 60  0001 C CNN "MPN"
-	1    9671 3350
-	1    0    0    1   
-$EndComp
 $Comp
 L bottom-board-rescue:R_Small-Device R52
 U 1 1 5B4D3677
-P 9771 3800
-F 0 "R52" H 9821 3850 50  0000 L CNN
-F 1 "10k" H 9821 3750 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 9771 3800 60  0001 C CNN
-F 3 "" H 9771 3800 60  0000 C CNN
-F 4 "RMCF0603JT10K0" H 3021 825 50  0001 C CNN "MPN"
-	1    9771 3800
+P 6541 3417
+F 0 "R52" H 6591 3467 50  0000 L CNN
+F 1 "10k" H 6591 3367 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6541 3417 60  0001 C CNN
+F 3 "" H 6541 3417 60  0000 C CNN
+F 4 "RMCF0603JT10K0" H -209 442 50  0001 C CNN "MPN"
+	1    6541 3417
 	1    0    0    -1  
-$EndComp
-$Comp
-L bottom-board-rescue:+5VA-power #PWR0206
-U 1 1 5B4D1C74
-P 9771 3100
-F 0 "#PWR0206" H 9771 2950 50  0001 C CNN
-F 1 "+5VA" H 9771 3240 50  0000 C CNN
-F 2 "" H 9771 3100 60  0000 C CNN
-F 3 "" H 9771 3100 60  0000 C CNN
-	1    9771 3100
-	-1   0    0    -1  
 $EndComp
 $Comp
 L bottom-board-rescue:+5VA-power #PWR0213
@@ -482,11 +457,7 @@ Wire Wire Line
 Wire Wire Line
 	8772 2169 8772 2219
 Wire Wire Line
-	9321 3350 9396 3350
-Wire Wire Line
-	9771 3900 9771 3950
-Wire Wire Line
-	9771 3100 9771 3150
+	6541 3517 6541 3567
 Wire Wire Line
 	8772 1069 8772 1119
 Wire Wire Line
@@ -840,22 +811,6 @@ Text GLabel 3285 5261 0    50   Input ~ 0
 EXP_EN2
 Wire Notes Line
 	6100 825  6100 7550
-$Comp
-L bottom-board-rescue:TestPoint-Connector TP?
-U 1 1 5BE58471
-P 9396 3425
-AR Path="/54F7244B/5BE58471" Ref="TP?"  Part="1" 
-AR Path="/5B3B40FB/5BE58471" Ref="TP17"  Part="1" 
-F 0 "TP17" H 9421 3550 50  0000 L CNN
-F 1 "TestPoint" H 9454 3454 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9596 3425 50  0001 C CNN
-F 3 "~" H 9596 3425 50  0001 C CNN
-	1    9396 3425
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	9396 3425 9396 3350
-Connection ~ 9396 3350
 $Comp
 L bottom-board-rescue:TestPoint-Connector TP?
 U 1 1 5BE9CBD3
@@ -1747,62 +1702,6 @@ Connection ~ 4750 4376
 Wire Wire Line
 	4750 4376 4750 4346
 Connection ~ 4665 4376
-Text GLabel 1225 4985 0    60   Input ~ 0
-CV_EXP_SW
-$Comp
-L bottom-board-rescue:GNDA-power #PWR0144
-U 1 1 5EC5145B
-P 1590 5585
-F 0 "#PWR0144" H 1590 5335 50  0001 C CNN
-F 1 "GNDA" H 1590 5435 50  0000 C CNN
-F 2 "" H 1590 5585 60  0000 C CNN
-F 3 "" H 1590 5585 60  0000 C CNN
-	1    1590 5585
-	1    0    0    -1  
-$EndComp
-$Comp
-L bottom-board-rescue:BSS84-Transistor_FET Q18
-U 1 1 5EC51462
-P 1490 4985
-F 0 "Q18" V 1490 4835 50  0000 R CNN
-F 1 "BSS84" V 1390 4935 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 1690 5085 29  0001 C CNN
-F 3 "" H 1490 4985 60  0000 C CNN
-F 4 "BSS84-7-F" H 1490 4985 60  0001 C CNN "MPN"
-	1    1490 4985
-	1    0    0    1   
-$EndComp
-$Comp
-L bottom-board-rescue:R_Small-Device R48
-U 1 1 5EC51469
-P 1590 5435
-F 0 "R48" H 1640 5485 50  0000 L CNN
-F 1 "10k" H 1640 5385 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 1590 5435 60  0001 C CNN
-F 3 "" H 1590 5435 60  0000 C CNN
-F 4 "RMCF0603JT10K0" H -5160 2460 50  0001 C CNN "MPN"
-	1    1590 5435
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1590 5535 1590 5585
-Wire Wire Line
-	1590 4735 1590 4785
-Wire Wire Line
-	1290 4985 1225 4985
-Text GLabel 1695 5250 2    60   Input ~ 0
-CV_EXP_PWR_SW
-Wire Wire Line
-	1590 5185 1590 5250
-Wire Wire Line
-	1695 5250 1590 5250
-Connection ~ 1590 5250
-Wire Wire Line
-	1590 5250 1590 5335
-Text GLabel 1290 2590 0    60   Input ~ 0
-CV_EXP_PWR_SW
-Text GLabel 1290 3500 0    60   Input ~ 0
-CV_EXP_PWR_SW
 Wire Wire Line
 	1290 3500 1935 3500
 Wire Wire Line
@@ -1810,8 +1709,6 @@ Wire Wire Line
 Connection ~ 1935 3500
 Wire Wire Line
 	1935 3500 1935 3538
-Wire Wire Line
-	1290 2590 1935 2590
 Connection ~ 1935 2590
 Wire Wire Line
 	1935 2590 1935 2637
@@ -1820,10 +1717,6 @@ Wire Wire Line
 Connection ~ 8222 1869
 Wire Wire Line
 	8222 1869 8222 1769
-Text GLabel 9831 3613 2    60   Input ~ 0
-CV_HP_PWR_SW
-Wire Wire Line
-	9771 3550 9771 3613
 Wire Wire Line
 	6500 6040 6500 5890
 $Comp
@@ -1897,30 +1790,6 @@ F 3 "http://pdf.datasheetcatalog.com/datasheets/70/494502_DS.pdf" H 7731 3751 50
 $EndComp
 $Comp
 L bottom-board-rescue:DG9426E U13
-U 1 1 5EE404D7
-P 7730 3310
-F 0 "U13" H 7730 3485 50  0000 C CNN
-F 1 "DG9426E" H 7730 3576 50  0000 C CNN
-F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 7730 3210 50  0001 C CNN
-F 3 "http://pdf.datasheetcatalog.com/datasheets/70/494502_DS.pdf" H 7730 3310 50  0001 C CNN
-	1    7730 3310
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7731 3054 7731 3067
-$Comp
-L bottom-board-rescue:DG9426E U13
-U 2 1 5EE404E0
-P 7731 2854
-F 0 "U13" H 7731 3121 50  0000 C CNN
-F 1 "DG9426E" H 7731 3030 50  0000 C CNN
-F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 7731 2754 50  0001 C CNN
-F 3 "http://pdf.datasheetcatalog.com/datasheets/70/494502_DS.pdf" H 7731 2854 50  0001 C CNN
-	2    7731 2854
-	1    0    0    -1  
-$EndComp
-$Comp
-L bottom-board-rescue:DG9426E U13
 U 4 1 5EE404EB
 P 7731 4215
 F 0 "U13" H 7731 4390 50  0000 C CNN
@@ -1934,10 +1803,6 @@ Text GLabel 7367 3751 0    50   Input ~ 0
 CV_10V_OUT1
 Wire Wire Line
 	7367 3751 7471 3751
-Text GLabel 7086 3067 0    60   Input ~ 0
-CV_HP_PWR_SW
-Text GLabel 7086 3977 0    60   Input ~ 0
-CV_HP_PWR_SW
 Wire Wire Line
 	7086 3977 7731 3977
 Wire Wire Line
@@ -1945,11 +1810,6 @@ Wire Wire Line
 Connection ~ 7731 3977
 Wire Wire Line
 	7731 3977 7731 4015
-Wire Wire Line
-	9831 3613 9771 3613
-Connection ~ 9771 3613
-Wire Wire Line
-	9771 3613 9771 3700
 Text GLabel 7416 4215 0    50   Output ~ 0
 HP_LEFT
 Text GLabel 7389 2854 0    50   Output ~ 0
@@ -2031,13 +1891,6 @@ F 3 "" H 10648 4159 60  0000 C CNN
 	1    10648 4159
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	7730 3110 7730 3067
-Wire Wire Line
-	7086 3067 7730 3067
-Connection ~ 7730 3067
-Wire Wire Line
-	7730 3067 7731 3067
 Text GLabel 7407 3310 0    50   Input ~ 0
 CV_10V_OUT2
 Wire Wire Line
@@ -2078,64 +1931,14 @@ Connection ~ 4580 4961
 Wire Wire Line
 	4580 4961 4960 4961
 $Comp
-L bottom-board-rescue:+5VA-power #PWR0173
-U 1 1 5F71ABAB
-P 1590 4735
-F 0 "#PWR0173" H 1590 4585 50  0001 C CNN
-F 1 "+5VA" H 1590 4875 50  0000 C CNN
-F 2 "" H 1590 4735 60  0000 C CNN
-F 3 "" H 1590 4735 60  0000 C CNN
-	1    1590 4735
-	-1   0    0    -1  
-$EndComp
-$Comp
-L bottom-board-rescue:R_Small-Device R?
-U 1 1 5F7946BC
-P 9398 3158
-AR Path="/54F725AE/5F7946BC" Ref="R?"  Part="1" 
-AR Path="/54F72F64/5F7946BC" Ref="R?"  Part="1" 
-AR Path="/5B3B40FB/5F7946BC" Ref="R28"  Part="1" 
-F 0 "R28" H 9448 3208 50  0000 L CNN
-F 1 "10k" H 9448 3108 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 9398 3158 60  0001 C CNN
-F 3 "" H 9398 3158 60  0000 C CNN
-F 4 "RMCF0603JT10K0" H 7648 -3492 50  0001 C CNN "MPN"
-	1    9398 3158
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9398 3058 9398 3014
-Wire Wire Line
-	9396 3350 9433 3350
-Wire Wire Line
-	9398 3258 9398 3323
-Wire Wire Line
-	9398 3323 9433 3323
-Wire Wire Line
-	9433 3323 9433 3350
-Connection ~ 9433 3350
-Wire Wire Line
-	9433 3350 9471 3350
-$Comp
-L bottom-board-rescue:GNDA-power #PWR0207
-U 1 1 5B4C4945
-P 9398 3014
-F 0 "#PWR0207" H 9398 2764 50  0001 C CNN
-F 1 "GNDA" H 9398 2864 50  0000 C CNN
-F 2 "" H 9398 3014 60  0000 C CNN
-F 3 "" H 9398 3014 60  0000 C CNN
-	1    9398 3014
-	-1   0    0    1   
-$EndComp
-$Comp
 L bottom-board-rescue:GNDA-power #PWR0151
 U 1 1 5F86C4B0
-P 9771 3950
-F 0 "#PWR0151" H 9771 3700 50  0001 C CNN
-F 1 "GNDA" H 9771 3800 50  0000 C CNN
-F 2 "" H 9771 3950 60  0000 C CNN
-F 3 "" H 9771 3950 60  0000 C CNN
-	1    9771 3950
+P 6541 3567
+F 0 "#PWR0151" H 6541 3317 50  0001 C CNN
+F 1 "GNDA" H 6541 3417 50  0000 C CNN
+F 2 "" H 6541 3567 60  0000 C CNN
+F 3 "" H 6541 3567 60  0000 C CNN
+	1    6541 3567
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2144,4 +1947,92 @@ Wire Wire Line
 	2252 2750 2650 2750
 Wire Wire Line
 	2252 3450 2650 3450
+Text GLabel 1290 2590 0    60   Input ~ 0
+CV_EXP_SW
+Text GLabel 1290 3500 0    60   Input ~ 0
+CV_EXP_SW
+Wire Wire Line
+	1290 2590 1430 2590
+$Comp
+L bottom-board-rescue:GNDA-power #PWR0144
+U 1 1 5EC5145B
+P 880 3115
+F 0 "#PWR0144" H 880 2865 50  0001 C CNN
+F 1 "GNDA" H 880 2965 50  0000 C CNN
+F 2 "" H 880 3115 60  0000 C CNN
+F 3 "" H 880 3115 60  0000 C CNN
+	1    880  3115
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:R_Small-Device R48
+U 1 1 5EC51469
+P 880 2965
+F 0 "R48" H 930 3015 50  0000 L CNN
+F 1 "10k" H 930 2915 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 880 2965 60  0001 C CNN
+F 3 "" H 880 2965 60  0000 C CNN
+F 4 "RMCF0603JT10K0" H -5870 -10 50  0001 C CNN "MPN"
+	1    880  2965
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	880  3065 880  3115
+Wire Wire Line
+	880  2865 880  2720
+Wire Wire Line
+	1430 2720 1430 2590
+Wire Wire Line
+	880  2720 1430 2720
+Connection ~ 1430 2590
+Wire Wire Line
+	1430 2590 1935 2590
+$Comp
+L bottom-board-rescue:DG9426E U13
+U 1 1 5EE404D7
+P 7730 3310
+F 0 "U13" H 7730 3485 50  0000 C CNN
+F 1 "DG9426E" H 7730 3576 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 7730 3210 50  0001 C CNN
+F 3 "http://pdf.datasheetcatalog.com/datasheets/70/494502_DS.pdf" H 7730 3310 50  0001 C CNN
+	1    7730 3310
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7731 3054 7731 3067
+Text GLabel 7086 3067 0    50   Input ~ 0
+HP_DISABLE
+$Comp
+L bottom-board-rescue:DG9426E U13
+U 2 1 5EE404E0
+P 7731 2854
+F 0 "U13" H 7731 3121 50  0000 C CNN
+F 1 "DG9426E" H 7731 3030 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 7731 2754 50  0001 C CNN
+F 3 "http://pdf.datasheetcatalog.com/datasheets/70/494502_DS.pdf" H 7731 2854 50  0001 C CNN
+	2    7731 2854
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7730 3110 7730 3087
+Wire Wire Line
+	7730 3087 7693 3087
+Wire Wire Line
+	7693 3087 7693 3067
+Connection ~ 7693 3067
+Wire Wire Line
+	7693 3067 7731 3067
+Text GLabel 7086 3977 0    50   Input ~ 0
+HP_DISABLE
+Wire Wire Line
+	6541 3317 6541 3177
+Wire Wire Line
+	6541 3177 7174 3177
+Wire Wire Line
+	7174 3177 7174 3067
+Wire Wire Line
+	7086 3067 7174 3067
+Wire Wire Line
+	7174 3067 7693 3067
+Connection ~ 7174 3067
 $EndSCHEMATC
