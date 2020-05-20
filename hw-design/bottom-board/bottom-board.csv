@@ -1,7 +1,7 @@
 Title,MOD DuoX - Bottom Board
 Revision,Rev 1.2
 Date,2020-05-15
-Generated,Fri 15 May 2020 11:44:11 AM CEST
+Generated,Wed 20 May 2020 01:06:33 PM CEST
 Company,MOD Devices GmbH
 Comment 1,DuoX Audio processing board
 Comment 2,https://github.com/moddevices/mod-hw-duoX
@@ -109,4 +109,4 @@ X1 ,1,24.576MHz,Oscillator:Oscillator_SMD_Abracon_ASV-4Pin_7.0x5.1mm,,ASV-24.576
 
 
 Property of MOD Devices (https://www.moddevices.com)
-Generated Fri 15 May 2020 11:44:11 AM CEST
+Generated Wed 20 May 2020 01:06:33 PM CEST
