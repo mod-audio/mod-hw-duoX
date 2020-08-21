@@ -1,0 +1,1209 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 13
+Title "MOD DuoX - Bottom Board"
+Date "2020-05-15"
+Rev "Rev 1.12"
+Comp "MOD Devices GmbH"
+Comment1 "DuoX Audio processing board"
+Comment2 "https://github.com/moddevices/mod-hw-duoX"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L bottom-board-rescue:GNDD-power #PWR082
+U 1 1 55FAFACA
+P 9150 3500
+F 0 "#PWR082" H 9150 3250 50  0001 C CNN
+F 1 "GNDD" H 9150 3350 50  0000 C CNN
+F 2 "" H 9150 3500 60  0000 C CNN
+F 3 "" H 9150 3500 60  0000 C CNN
+	1    9150 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:+3.3V-power #PWR081
+U 1 1 55FAFDCC
+P 9150 2600
+F 0 "#PWR081" H 9150 2450 50  0001 C CNN
+F 1 "+3.3V" H 9150 2740 50  0000 C CNN
+F 2 "" H 9150 2600 60  0000 C CNN
+F 3 "" H 9150 2600 60  0000 C CNN
+	1    9150 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:R_Small-Device R20
+U 1 1 55FB0BE7
+P 5425 6100
+F 0 "R20" H 5375 6050 50  0000 R CNN
+F 1 "2K7" H 5375 6150 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5425 6100 60  0001 C CNN
+F 3 "" H 5425 6100 60  0000 C CNN
+F 4 "RMCF0603JT2K70" H -3025 4250 50  0001 C CNN "MPN"
+	1    5425 6100
+	-1   0    0    1   
+$EndComp
+$Comp
+L bottom-board-rescue:+3.3V-power #PWR071
+U 1 1 55FB0BEE
+P 5425 5900
+F 0 "#PWR071" H 5425 5750 50  0001 C CNN
+F 1 "+3.3V" H 5425 6040 50  0000 C CNN
+F 2 "" H 5425 5900 60  0000 C CNN
+F 3 "" H 5425 5900 60  0000 C CNN
+	1    5425 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:GNDD-power #PWR083
+U 1 1 567B8370
+P 9600 2750
+F 0 "#PWR083" H 9600 2500 50  0001 C CNN
+F 1 "GNDD" H 9600 2600 50  0000 C CNN
+F 2 "" H 9600 2750 60  0000 C CNN
+F 3 "" H 9600 2750 60  0000 C CNN
+	1    9600 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:Conn_02x10_Odd_Even-Connector_Generic J5
+U 1 1 5B574FB3
+P 8425 4650
+F 0 "J5" H 8475 5150 50  0000 C CNN
+F 1 "HMI_DATA" H 8475 4050 50  0000 C CNN
+F 2 "footprints:Pin_Header_Straight_2x10_Shrouded" H 8425 4650 50  0001 C CNN
+F 3 "" H 8425 4650 50  0001 C CNN
+F 4 "302-S201" H 8425 4650 50  0001 C CNN "MPN"
+	1    8425 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:Conn_01x03-Connector_Generic J6
+U 1 1 5B574FBA
+P 8975 5700
+F 0 "J6" H 8975 5900 50  0000 C CNN
+F 1 "SERIAL_DEBUG" V 9075 5700 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8975 5700 60  0001 C CNN
+F 3 "" H 8975 5700 60  0000 C CNN
+F 4 "DO NOT PLACE" H 8975 5700 50  0001 C CNN "MPN"
+	1    8975 5700
+	1    0    0    1   
+$EndComp
+$Comp
+L bottom-board-rescue:GNDD-power #PWR079
+U 1 1 5B574FC1
+P 8725 5900
+F 0 "#PWR079" H 8725 5650 50  0001 C CNN
+F 1 "GNDD" H 8725 5750 50  0000 C CNN
+F 2 "" H 8725 5900 60  0000 C CNN
+F 3 "" H 8725 5900 60  0000 C CNN
+	1    8725 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:GNDD-power #PWR078
+U 1 1 5B574FC7
+P 8125 5250
+F 0 "#PWR078" H 8125 5000 50  0001 C CNN
+F 1 "GNDD" H 8125 5100 50  0000 C CNN
+F 2 "" H 8125 5250 60  0000 C CNN
+F 3 "" H 8125 5250 60  0000 C CNN
+	1    8125 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:GNDD-power #PWR080
+U 1 1 5B574FCD
+P 8825 5200
+F 0 "#PWR080" H 8825 4950 50  0001 C CNN
+F 1 "GNDD" H 8825 5050 50  0000 C CNN
+F 2 "" H 8825 5200 60  0000 C CNN
+F 3 "" H 8825 5200 60  0000 C CNN
+	1    8825 5200
+	1    0    0    -1  
+$EndComp
+Text Notes 5250 5600 0    100  ~ 0
+Pull-up
+Text GLabel 8575 5600 0    50   Input ~ 0
+CLI_UART_TX
+Text GLabel 8575 5700 0    50   Output ~ 0
+CLI_UART_RX
+Text GLabel 8925 5150 2    50   Output ~ 0
+HMI_UART_RX
+Text GLabel 8925 5050 2    50   Input ~ 0
+HMI_UART_TX
+Text GLabel 8925 4850 2    50   Input ~ 0
+HMI_ISP_ENABLE
+Text GLabel 9650 4950 2    50   Input ~ 0
+HMI_RESET
+Text GLabel 7525 4550 0    50   Input ~ 0
+CLI_UART_TX
+Text GLabel 7525 4650 0    50   Output ~ 0
+CLI_UART_RX
+Text GLabel 8925 4350 2    50   Input ~ 0
+HMI_SPI0_MISO
+Text GLabel 8925 4550 2    50   Output ~ 0
+HMI_SPI0_CLK
+Text GLabel 8925 4650 2    50   Output ~ 0
+HMI_SPI0_CS0
+Text GLabel 8925 4450 2    50   Output ~ 0
+HMI_SPI0_MOSI
+Text GLabel 7750 4850 0    50   Output ~ 0
+POWER_BUTTON
+Text GLabel 8075 4250 0    50   BiDi ~ 0
+HMI_RFU_01(RX)
+Text GLabel 8075 4350 0    50   BiDi ~ 0
+HMI_RFU_02(TX)
+Text GLabel 8075 4950 0    50   Input ~ 0
+PM_LEDS_OE
+Wire Wire Line
+	9150 3400 9150 3500
+Wire Wire Line
+	9500 2700 9600 2700
+Wire Wire Line
+	9600 2700 9600 2750
+Wire Wire Line
+	9300 2700 9150 2700
+Connection ~ 9150 2700
+Wire Wire Line
+	9650 3000 9550 3000
+Wire Wire Line
+	9150 2600 9150 2700
+Wire Wire Line
+	8725 5900 8725 5800
+Wire Wire Line
+	8725 5800 8775 5800
+Wire Wire Line
+	8575 5600 8775 5600
+Wire Wire Line
+	8775 5700 8575 5700
+Wire Wire Line
+	7875 4650 8225 4650
+Wire Wire Line
+	8225 4550 7875 4550
+Wire Wire Line
+	8725 4850 8925 4850
+Wire Wire Line
+	8925 5150 8725 5150
+Wire Wire Line
+	8725 5050 8925 5050
+Wire Notes Line
+	6625 3900 6625 6200
+Wire Notes Line
+	6625 6200 10125 6200
+Wire Notes Line
+	10125 6200 10125 3900
+Wire Notes Line
+	10125 3900 6625 3900
+Wire Wire Line
+	8925 4350 8725 4350
+Wire Wire Line
+	8725 4450 8925 4450
+Wire Wire Line
+	8925 4550 8725 4550
+Wire Wire Line
+	8725 4650 8925 4650
+Wire Wire Line
+	8825 4250 8825 4750
+Wire Wire Line
+	8725 4750 8825 4750
+Wire Wire Line
+	8225 4350 8075 4350
+Wire Wire Line
+	8825 4250 8725 4250
+Wire Wire Line
+	8075 4250 8225 4250
+Wire Wire Line
+	8225 4450 8125 4450
+Wire Wire Line
+	8125 4450 8125 4750
+Wire Wire Line
+	8075 5050 8225 5050
+Wire Wire Line
+	8075 5150 8225 5150
+Wire Wire Line
+	8225 4750 8125 4750
+Wire Wire Line
+	8075 4950 8225 4950
+Connection ~ 8825 4750
+Connection ~ 8125 4750
+Wire Wire Line
+	7675 4550 7525 4550
+Wire Wire Line
+	7525 4650 7675 4650
+Text Notes 8800 2350 0    100  ~ 0
+HW ID
+Wire Notes Line
+	8550 2150 8550 3750
+Wire Notes Line
+	8550 3750 10300 3750
+Wire Notes Line
+	10300 3750 10300 2150
+Wire Notes Line
+	10300 2150 8550 2150
+$Comp
+L bottom-board-rescue:+5VD-power #PWR072
+U 1 1 5B60632C
+P 5300 1925
+F 0 "#PWR072" H 5300 1775 50  0001 C CNN
+F 1 "+5VD" H 5300 2065 50  0000 C CNN
+F 2 "" H 5300 1925 50  0001 C CNN
+F 3 "" H 5300 1925 50  0001 C CNN
+	1    5300 1925
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:C_Small-Device C32
+U 1 1 5B6071EC
+P 5300 2175
+F 0 "C32" V 5350 2125 50  0000 R CNN
+F 1 "100nF" V 5350 2225 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5300 2175 60  0001 C CNN
+F 3 "" H 5300 2175 60  0000 C CNN
+F 4 "GCM188R71C104KA37D" H 0   -3175 50  0001 C CNN "MPN"
+	1    5300 2175
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5300 1925 5300 2025
+Wire Wire Line
+	5300 2275 5300 2325
+Wire Wire Line
+	5450 2275 5450 2325
+Wire Wire Line
+	5450 2325 5300 2325
+Connection ~ 5300 2325
+Wire Wire Line
+	5450 2075 5450 2025
+Wire Wire Line
+	5450 2025 5300 2025
+Connection ~ 5300 2025
+$Comp
+L bottom-board-rescue:GNDD-power #PWR073
+U 1 1 5B607396
+P 5300 2425
+F 0 "#PWR073" H 5300 2175 50  0001 C CNN
+F 1 "GNDD" H 5300 2275 50  0000 C CNN
+F 2 "" H 5300 2425 60  0000 C CNN
+F 3 "" H 5300 2425 60  0000 C CNN
+	1    5300 2425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5425 5900 5425 5950
+Wire Wire Line
+	5675 6000 5675 5950
+Wire Wire Line
+	5675 5950 5425 5950
+Connection ~ 5425 5950
+Wire Wire Line
+	5425 6200 5425 6300
+Wire Wire Line
+	5675 6300 5675 6200
+Wire Wire Line
+	9150 2700 9150 2800
+Wire Wire Line
+	8825 4750 8825 5200
+Wire Wire Line
+	8125 4750 8125 5250
+Wire Wire Line
+	5300 2325 5300 2425
+Wire Wire Line
+	5300 2025 5300 2075
+Wire Wire Line
+	5425 5950 5425 6000
+$Comp
+L bottom-board-rescue:AT24CS08-STUM-Memory_EEPROM U7
+U 1 1 5B819253
+P 9150 3100
+F 0 "U7" H 9050 3425 50  0000 R CNN
+F 1 "AT24CS08" H 9050 3350 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9150 3100 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8766-SEEPROM-AT24CS04-08-Datasheet.pdf" H 9150 3100 50  0001 C CNN
+F 4 "AT24CS08-STUM-T" H 9150 3100 50  0001 C CNN "MPN"
+	1    9150 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 3100 9550 3100
+$Comp
+L bottom-board-rescue:GNDD-power #PWR084
+U 1 1 5B8606AE
+P 9600 3300
+F 0 "#PWR084" H 9600 3050 50  0001 C CNN
+F 1 "GNDD" H 9600 3150 50  0000 C CNN
+F 2 "" H 9600 3300 60  0000 C CNN
+F 3 "" H 9600 3300 60  0000 C CNN
+	1    9600 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 3200 9600 3300
+Wire Wire Line
+	9600 3200 9550 3200
+Text GLabel 9650 3000 2    50   BiDi ~ 0
+PM_LEDS_SDA
+Text GLabel 9650 3100 2    50   Input ~ 0
+PM_LEDS_SCL
+$Comp
+L bottom-board-rescue:R_Small-Device R21
+U 1 1 5B633AA0
+P 5675 6100
+F 0 "R21" H 5625 6050 50  0000 R CNN
+F 1 "2K7" H 5625 6150 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5675 6100 60  0001 C CNN
+F 3 "" H 5675 6100 60  0000 C CNN
+F 4 "RMCF0603JT2K70" H -2775 4250 50  0001 C CNN "MPN"
+	1    5675 6100
+	-1   0    0    1   
+$EndComp
+$Comp
+L bottom-board-rescue:C_Small-Device C?
+U 1 1 5B652F5E
+P 5450 2175
+AR Path="/54F7244B/5B652F5E" Ref="C?"  Part="1" 
+AR Path="/54F725AE/5B652F5E" Ref="C33"  Part="1" 
+F 0 "C33" V 5400 2225 50  0000 L CNN
+F 1 "10uF" V 5400 2125 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5450 2175 60  0001 C CNN
+F 3 "" H 5450 2175 60  0000 C CNN
+F 4 "CL10A106MQ8NNNC" H 150 -3175 50  0001 C CNN "MPN"
+	1    5450 2175
+	-1   0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:C_Small-Device C36
+U 1 1 5B66658B
+P 9400 2700
+F 0 "C36" V 9325 2650 50  0000 R CNN
+F 1 "100nF" V 9450 2650 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9400 2700 60  0001 C CNN
+F 3 "" H 9400 2700 60  0000 C CNN
+F 4 "GCM188R71C104KA37D" H 4100 -2650 50  0001 C CNN "MPN"
+	1    9400 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L bottom-board-rescue:R_Small-Device R22
+U 1 1 5B67191F
+P 7775 4550
+F 0 "R22" V 7725 4475 50  0000 R CNN
+F 1 "2K7" V 7725 4650 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7775 4550 60  0001 C CNN
+F 3 "" H 7775 4550 60  0000 C CNN
+F 4 "RMCF0603JT2K70" H -675 2700 50  0001 C CNN "MPN"
+	1    7775 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L bottom-board-rescue:R_Small-Device R23
+U 1 1 5B69B8C5
+P 7775 4650
+F 0 "R23" V 7725 4575 50  0000 R CNN
+F 1 "2K7" V 7725 4750 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7775 4650 60  0001 C CNN
+F 3 "" H 7775 4650 60  0000 C CNN
+F 4 "RMCF0603JT2K70" H -675 2800 50  0001 C CNN "MPN"
+	1    7775 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L bottom-board-rescue:Conn_02x20_Odd_Even-Connector_Generic J3
+U 1 1 5B8A1F13
+P 3150 4375
+F 0 "J3" V 3246 5354 50  0000 L CNN
+F 1 "CB Adapter" V 3155 5354 50  0000 L CNN
+F 2 "footprints:DF12(3.0)-40DP-0.5V(86)" H 3150 4375 50  0001 C CNN
+F 3 "~" H 3150 4375 50  0001 C CNN
+F 4 "DF12(3.0)-40DP-0.5V(86)" V 3150 4375 50  0001 C CNN "MPN"
+	1    3150 4375
+	0    -1   -1   0   
+$EndComp
+$Comp
+L bottom-board-rescue:Conn_02x30_Odd_Even-Connector_Generic J4
+U 1 1 5B8A20B9
+P 3200 2225
+F 0 "J4" V 3296 3704 50  0000 L CNN
+F 1 "CB Adapter" V 3205 3704 50  0000 L CNN
+F 2 "footprints:DF12(3.0)-60DP-0.5V(86)" H 3200 2225 50  0001 C CNN
+F 3 "~" H 3200 2225 50  0001 C CNN
+F 4 "DF12(3.0)-60DP-0.5V(86)" V 3200 2225 50  0001 C CNN "MPN"
+	1    3200 2225
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4400 1825 1    50   Input ~ 0
+CHAIN_UART_RX
+Text GLabel 4600 1825 1    50   Output ~ 0
+CHAIN_UART_TX
+Text GLabel 4300 1825 1    50   Output ~ 0
+CHAIN_UART_RE
+Text GLabel 4500 1825 1    50   Output ~ 0
+CHAIN_UART_DE
+$Comp
+L bottom-board-rescue:+5VD-power #PWR076
+U 1 1 5B905C15
+P 4875 2350
+F 0 "#PWR076" H 4875 2200 50  0001 C CNN
+F 1 "+5VD" H 4875 2490 50  0000 C CNN
+F 2 "" H 4875 2350 50  0001 C CNN
+F 3 "" H 4875 2350 50  0001 C CNN
+	1    4875 2350
+	1    0    0    -1  
+$EndComp
+Text GLabel 3450 3975 1    50   Output ~ 0
+CV_ADC_SCLK
+Text GLabel 3350 3975 1    50   Input ~ 0
+CV_ADC_DOUT
+Text GLabel 3250 3975 1    50   Output ~ 0
+CV_ADC_DIN
+Text GLabel 3550 3975 1    50   Output ~ 0
+CV_ADC_~CS~
+Text GLabel 4100 2525 3    50   Input ~ 0
+CV_IN_DET
+Text GLabel 4000 2525 3    50   Input ~ 0
+CV_OUT_DET
+Text GLabel 3100 1825 1    50   BiDi ~ 0
+USB_DEV_DP
+Text GLabel 3000 1825 1    50   BiDi ~ 0
+USB_DEV_DN
+Text GLabel 3900 1825 1    50   BiDi ~ 0
+USB_HOST_DP
+Text GLabel 3800 1825 1    50   BiDi ~ 0
+USB_HOST_DN
+Text GLabel 2900 1825 1    50   Input ~ 0
+USB_DEV_DET
+Text GLabel 4100 1825 1    50   Output ~ 0
+USB_HOST_DRV
+Text GLabel 2700 1825 1    50   Input ~ 0
+MIDI_UART_RX
+Text GLabel 2600 1825 1    50   Output ~ 0
+MIDI_UART_TX
+Text GLabel 2400 1825 1    50   Input ~ 0
+UBOOT_BUTTON
+Text GLabel 2400 2525 3    50   Input ~ 0
+CLI_UART_RX
+Text GLabel 2500 2525 3    50   Output ~ 0
+CLI_UART_TX
+Text GLabel 2200 2525 3    50   Input ~ 0
+POWER_BUTTON
+Text GLabel 2800 2525 3    50   BiDi ~ 0
+HMI_RFU_01(RX)
+Text GLabel 2700 2525 3    50   BiDi ~ 0
+HMI_RFU_02(TX)
+Text GLabel 3100 2525 3    50   Output ~ 0
+HMI_SPI0_MOSI
+Text GLabel 3200 2525 3    50   Output ~ 0
+HMI_SPI0_CLK
+Text GLabel 3300 2525 3    50   Output ~ 0
+HMI_SPI0_CS0
+Text GLabel 3000 2525 3    50   Input ~ 0
+HMI_SPI0_MISO
+Text GLabel 1900 2525 3    50   BiDi ~ 0
+PM_LEDS_SDA
+Text GLabel 2000 2525 3    50   Output ~ 0
+PM_LEDS_SCL
+Text GLabel 2100 2525 3    50   Output ~ 0
+PM_LEDS_OE
+Text GLabel 3800 2525 3    50   Input ~ 0
+HMI_UART_RX
+Text GLabel 3700 2525 3    50   Output ~ 0
+HMI_UART_TX
+Text GLabel 3500 2525 3    50   Output ~ 0
+HMI_ISP_ENABLE
+Text GLabel 3600 2525 3    50   Output ~ 0
+HMI_RESET
+Text GLabel 3850 3975 1    50   Input ~ 0
+EXP_FLAG2
+Text GLabel 3950 3975 1    50   Input ~ 0
+EXP_FLAG1
+Text GLabel 4050 3975 1    50   Output ~ 0
+EXP_EN1
+Text GLabel 3750 3975 1    50   Output ~ 0
+EXP_EN2
+Text GLabel 2650 4675 3    50   Output ~ 0
+CODEC_RESET
+Text GLabel 3450 4675 3    50   Output ~ 0
+CODEC_I2S_SDIN
+Text GLabel 3350 4675 3    50   Input ~ 0
+CODEC_I2S_SDOUT
+Text GLabel 3150 4675 3    50   Output ~ 0
+CODEC_I2S_BCLK
+Text GLabel 3050 4675 3    50   Output ~ 0
+CODEC_I2S_LRCK
+Text GLabel 2850 4675 3    50   BiDi ~ 0
+CODEC_I2C_SDA
+Text GLabel 2750 4675 3    50   Output ~ 0
+CODEC_I2C_SCL
+Text GLabel 3550 4675 3    50   Input ~ 0
+CODEC_SPDIF_SDIN
+Text GLabel 3650 4675 3    50   Input ~ 0
+CODEC_MUTEC
+Text GLabel 3950 4675 3    50   Output ~ 0
+IN1_GC1
+Text GLabel 3850 4675 3    50   Output ~ 0
+IN1_GC2
+Text GLabel 4050 4675 3    50   Output ~ 0
+IN2_GC1
+Text GLabel 4150 4675 3    50   Output ~ 0
+IN2_GC2
+Text GLabel 2650 3975 1    50   Output ~ 0
+CV_OUT_BIAS
+Text GLabel 3050 3975 1    50   Output ~ 0
+CV_DAC_SCK
+Text GLabel 2950 3975 1    50   Output ~ 0
+CV_DAC_SDI
+Text GLabel 2850 3975 1    50   Output ~ 0
+CV_DAC_~CS~
+Text GLabel 2250 3975 1    50   Output ~ 0
+HP_CLOCK
+Text GLabel 2350 3975 1    50   Output ~ 0
+HP_UP/DN
+Text GLabel 2550 3975 1    50   Output ~ 0
+HP_DISABLE
+Text GLabel 2350 4675 3    50   Output ~ 0
+IN1_TBP
+Text GLabel 2450 4675 3    50   Output ~ 0
+IN2_TBP
+$Comp
+L bottom-board-rescue:GNDD-power #PWR068
+U 1 1 5B8E088D
+P 1425 2575
+F 0 "#PWR068" H 1425 2325 50  0001 C CNN
+F 1 "GNDD" H 1425 2425 50  0000 C CNN
+F 2 "" H 1425 2575 60  0000 C CNN
+F 3 "" H 1425 2575 60  0000 C CNN
+	1    1425 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:GNDD-power #PWR067
+U 1 1 5B8EE8EA
+P 1425 1925
+F 0 "#PWR067" H 1425 1675 50  0001 C CNN
+F 1 "GNDD" H 1425 1775 50  0000 C CNN
+F 2 "" H 1425 1925 60  0000 C CNN
+F 3 "" H 1425 1925 60  0000 C CNN
+	1    1425 1925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1425 1925 1425 1875
+Wire Wire Line
+	1425 1875 2500 1875
+Wire Wire Line
+	4700 1875 4700 1925
+Wire Wire Line
+	4600 1825 4600 1925
+Wire Wire Line
+	4500 1925 4500 1825
+Wire Wire Line
+	4300 1825 4300 1925
+Wire Wire Line
+	4400 1825 4400 1925
+Wire Wire Line
+	4200 1925 4200 1875
+Connection ~ 4200 1875
+Wire Wire Line
+	4200 1875 4700 1875
+Wire Wire Line
+	3900 1825 3900 1925
+Wire Wire Line
+	3800 1925 3800 1825
+Wire Wire Line
+	4100 1825 4100 1925
+Wire Wire Line
+	3500 1925 3500 1875
+Connection ~ 3500 1875
+Wire Wire Line
+	3100 1825 3100 1925
+Wire Wire Line
+	3000 1925 3000 1825
+Wire Wire Line
+	3200 1925 3200 1875
+Connection ~ 3200 1875
+Wire Wire Line
+	3200 1875 3500 1875
+Wire Wire Line
+	2900 1925 2900 1825
+Wire Wire Line
+	2800 1925 2800 1875
+Connection ~ 2800 1875
+Wire Wire Line
+	2800 1875 3200 1875
+Wire Wire Line
+	2600 1825 2600 1925
+Wire Wire Line
+	2700 1925 2700 1825
+Wire Wire Line
+	2400 1825 2400 1925
+Wire Wire Line
+	1425 2575 1425 2475
+Wire Wire Line
+	4600 2425 4600 2475
+Wire Wire Line
+	4600 2475 4700 2475
+Wire Wire Line
+	4875 2475 4875 2350
+Wire Wire Line
+	4700 2425 4700 2475
+Connection ~ 4700 2475
+Wire Wire Line
+	4700 2475 4875 2475
+Wire Wire Line
+	4050 3975 4050 4075
+Wire Wire Line
+	3950 4075 3950 3975
+Wire Wire Line
+	3850 3975 3850 4075
+Wire Wire Line
+	3750 4075 3750 3975
+Wire Wire Line
+	3550 3975 3550 4075
+Wire Wire Line
+	3250 3975 3250 4075
+Wire Wire Line
+	3350 3975 3350 4075
+Wire Wire Line
+	3450 3975 3450 4075
+Wire Wire Line
+	3050 3975 3050 4075
+Wire Wire Line
+	2950 3975 2950 4075
+Wire Wire Line
+	2850 3975 2850 4075
+Wire Wire Line
+	2550 3975 2550 4075
+Wire Wire Line
+	2350 3975 2350 4075
+Wire Wire Line
+	2250 4075 2250 3975
+Wire Wire Line
+	2650 3975 2650 4075
+$Comp
+L bottom-board-rescue:GNDD-power #PWR069
+U 1 1 5C0DE467
+P 1925 4075
+F 0 "#PWR069" H 1925 3825 50  0001 C CNN
+F 1 "GNDD" H 1925 3925 50  0000 C CNN
+F 2 "" H 1925 4075 60  0000 C CNN
+F 3 "" H 1925 4075 60  0000 C CNN
+	1    1925 4075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1925 4075 1925 4025
+Wire Wire Line
+	4150 4025 4150 4075
+Wire Wire Line
+	2750 4025 2750 4075
+Connection ~ 2750 4025
+Wire Wire Line
+	2750 4025 3150 4025
+Wire Wire Line
+	3150 4075 3150 4025
+Connection ~ 3150 4025
+Wire Wire Line
+	3150 4025 3650 4025
+Wire Wire Line
+	3650 4075 3650 4025
+Connection ~ 3650 4025
+Wire Wire Line
+	3650 4025 4150 4025
+Wire Wire Line
+	4150 4575 4150 4675
+Wire Wire Line
+	4050 4575 4050 4675
+Wire Wire Line
+	3850 4675 3850 4575
+Wire Wire Line
+	3950 4575 3950 4675
+Wire Wire Line
+	3650 4575 3650 4675
+Wire Wire Line
+	3550 4575 3550 4675
+Wire Wire Line
+	3450 4575 3450 4675
+Wire Wire Line
+	3350 4575 3350 4675
+Wire Wire Line
+	3150 4575 3150 4675
+Wire Wire Line
+	3050 4675 3050 4575
+Wire Wire Line
+	2850 4575 2850 4675
+Wire Wire Line
+	2750 4675 2750 4575
+Wire Wire Line
+	2650 4575 2650 4675
+Wire Wire Line
+	2450 4575 2450 4675
+Wire Wire Line
+	2350 4575 2350 4675
+$Comp
+L bottom-board-rescue:GNDD-power #PWR070
+U 1 1 5C3492CC
+P 1925 4675
+F 0 "#PWR070" H 1925 4425 50  0001 C CNN
+F 1 "GNDD" H 1925 4525 50  0000 C CNN
+F 2 "" H 1925 4675 60  0000 C CNN
+F 3 "" H 1925 4675 60  0000 C CNN
+	1    1925 4675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1925 4675 1925 4625
+Wire Wire Line
+	3750 4625 3750 4575
+Wire Wire Line
+	3250 4575 3250 4625
+Connection ~ 3250 4625
+Wire Wire Line
+	3250 4625 3750 4625
+Wire Wire Line
+	3500 1875 4000 1875
+Wire Wire Line
+	4000 1925 4000 1875
+Connection ~ 4000 1875
+Wire Wire Line
+	4000 1875 4200 1875
+Wire Wire Line
+	2500 1925 2500 1875
+Connection ~ 2500 1875
+Wire Wire Line
+	2500 1875 2800 1875
+NoConn ~ 2300 1925
+NoConn ~ 2200 1925
+NoConn ~ 2100 1925
+NoConn ~ 2000 1925
+NoConn ~ 1900 1925
+NoConn ~ 1800 1925
+$Comp
+L bottom-board-rescue:GNDD-power #PWR0225
+U 1 1 5C59848E
+P 4300 2525
+F 0 "#PWR0225" H 4300 2275 50  0001 C CNN
+F 1 "GNDD" H 4300 2375 50  0000 C CNN
+F 2 "" H 4300 2525 60  0000 C CNN
+F 3 "" H 4300 2525 60  0000 C CNN
+	1    4300 2525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 2525 4300 2475
+Wire Wire Line
+	4200 2425 4200 2475
+Wire Wire Line
+	4200 2475 4300 2475
+Connection ~ 4300 2475
+Wire Wire Line
+	4300 2475 4300 2425
+Wire Wire Line
+	3800 2425 3800 2525
+Wire Wire Line
+	3700 2525 3700 2425
+Wire Wire Line
+	3600 2425 3600 2525
+Wire Wire Line
+	3500 2525 3500 2425
+Wire Wire Line
+	3300 2425 3300 2525
+Wire Wire Line
+	3200 2525 3200 2425
+Wire Wire Line
+	3100 2425 3100 2525
+Wire Wire Line
+	3000 2525 3000 2425
+Text GLabel 8075 5150 0    50   BiDi ~ 0
+PM_LEDS_SDA
+Text GLabel 8075 5050 0    50   Input ~ 0
+PM_LEDS_SCL
+Text GLabel 5675 6300 3    50   BiDi ~ 0
+PM_LEDS_SDA
+Text GLabel 5425 6300 3    50   Input ~ 0
+PM_LEDS_SCL
+Wire Wire Line
+	3900 2475 3900 2425
+Wire Wire Line
+	3400 2425 3400 2475
+Connection ~ 3400 2475
+Wire Wire Line
+	3400 2475 3900 2475
+Wire Wire Line
+	2900 2425 2900 2475
+Connection ~ 2900 2475
+Wire Wire Line
+	2900 2475 3400 2475
+Wire Wire Line
+	2800 2425 2800 2525
+Wire Wire Line
+	2700 2425 2700 2525
+Wire Wire Line
+	2600 2425 2600 2475
+Wire Wire Line
+	1425 2475 2300 2475
+Connection ~ 2600 2475
+Wire Wire Line
+	2600 2475 2900 2475
+Wire Wire Line
+	2500 2425 2500 2525
+Wire Wire Line
+	2400 2525 2400 2425
+Wire Wire Line
+	2300 2425 2300 2475
+Connection ~ 2300 2475
+Wire Wire Line
+	2300 2475 2600 2475
+Wire Wire Line
+	2200 2525 2200 2425
+Wire Wire Line
+	2100 2425 2100 2525
+Wire Wire Line
+	2000 2425 2000 2525
+Wire Wire Line
+	1900 2525 1900 2425
+Wire Wire Line
+	1925 4625 2250 4625
+Wire Wire Line
+	2250 4575 2250 4625
+Connection ~ 2250 4625
+Wire Wire Line
+	2250 4625 2550 4625
+Wire Wire Line
+	2550 4575 2550 4625
+Connection ~ 2550 4625
+Wire Wire Line
+	1925 4025 2450 4025
+Wire Wire Line
+	2450 4075 2450 4025
+Connection ~ 2450 4025
+Wire Wire Line
+	2450 4025 2750 4025
+$Comp
+L bottom-board-rescue:AP2120N-3.3-local-components U?
+U 1 1 5BB762DC
+P 7325 2850
+AR Path="/54F72B97/5BB762DC" Ref="U?"  Part="1" 
+AR Path="/54F725AE/5BB762DC" Ref="U3"  Part="1" 
+F 0 "U3" H 7425 2600 50  0000 C CNN
+F 1 "AP2120N-3.3" H 7075 3000 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7325 3050 50  0001 C CNN
+F 3 "" H 7425 2600 50  0001 C CNN
+F 4 "AP2120N-3.3TRG1" H 7325 2850 60  0001 C CNN "MPN"
+	1    7325 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:GNDA-power #PWR?
+U 1 1 5BB762E3
+P 7325 3200
+AR Path="/54F72B97/5BB762E3" Ref="#PWR?"  Part="1" 
+AR Path="/54F725AE/5BB762E3" Ref="#PWR021"  Part="1" 
+F 0 "#PWR021" H 7325 2950 50  0001 C CNN
+F 1 "GNDA" H 7325 3050 50  0000 C CNN
+F 2 "" H 7325 3200 60  0000 C CNN
+F 3 "" H 7325 3200 60  0000 C CNN
+	1    7325 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7325 3150 7325 3200
+$Comp
+L bottom-board-rescue:GNDA-power #PWR?
+U 1 1 5BB762EA
+P 6925 3200
+AR Path="/54F72B97/5BB762EA" Ref="#PWR?"  Part="1" 
+AR Path="/54F725AE/5BB762EA" Ref="#PWR020"  Part="1" 
+F 0 "#PWR020" H 6925 2950 50  0001 C CNN
+F 1 "GNDA" H 6925 3050 50  0000 C CNN
+F 2 "" H 6925 3200 60  0000 C CNN
+F 3 "" H 6925 3200 60  0000 C CNN
+	1    6925 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6925 3150 6925 3200
+Wire Wire Line
+	6925 2750 6925 2850
+Wire Wire Line
+	7025 2850 6925 2850
+Connection ~ 6925 2850
+Wire Wire Line
+	7725 2750 7725 2850
+Wire Wire Line
+	7625 2850 7725 2850
+Connection ~ 7725 2850
+$Comp
+L bottom-board-rescue:GNDA-power #PWR?
+U 1 1 5BB762F7
+P 7725 3200
+AR Path="/54F72B97/5BB762F7" Ref="#PWR?"  Part="1" 
+AR Path="/54F725AE/5BB762F7" Ref="#PWR025"  Part="1" 
+F 0 "#PWR025" H 7725 2950 50  0001 C CNN
+F 1 "GNDA" H 7725 3050 50  0000 C CNN
+F 2 "" H 7725 3200 60  0000 C CNN
+F 3 "" H 7725 3200 60  0000 C CNN
+	1    7725 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7725 3150 7725 3200
+Wire Wire Line
+	6925 2850 6925 2950
+Wire Wire Line
+	7725 2850 7725 2950
+$Comp
+L bottom-board-rescue:PWR_FLAG-power #FLG?
+U 1 1 5BB76300
+P 8150 2775
+AR Path="/54F72B97/5BB76300" Ref="#FLG?"  Part="1" 
+AR Path="/54F725AE/5BB76300" Ref="#FLG01"  Part="1" 
+F 0 "#FLG01" H 8150 2850 50  0001 C CNN
+F 1 "PWR_FLAG" H 8150 2925 50  0000 C CNN
+F 2 "" H 8150 2775 50  0001 C CNN
+F 3 "~" H 8150 2775 50  0001 C CNN
+	1    8150 2775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 2850 7725 2850
+$Comp
+L bottom-board-rescue:C_Small-Device C?
+U 1 1 5BB7630A
+P 6925 3050
+AR Path="/54F7244B/5BB7630A" Ref="C?"  Part="1" 
+AR Path="/54F72B97/5BB7630A" Ref="C?"  Part="1" 
+AR Path="/54F725AE/5BB7630A" Ref="C7"  Part="1" 
+F 0 "C7" V 7100 3050 50  0000 C CNN
+F 1 "1uF" V 7025 3050 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6925 3050 60  0001 C CNN
+F 3 "" H 6925 3050 60  0000 C CNN
+F 4 "CL10B105KP8NNNC" H 2725 2050 50  0001 C CNN "MPN"
+	1    6925 3050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:C_Small-Device C?
+U 1 1 5BB76314
+P 7725 3050
+AR Path="/54F7244B/5BB76314" Ref="C?"  Part="1" 
+AR Path="/54F72B97/5BB76314" Ref="C?"  Part="1" 
+AR Path="/54F725AE/5BB76314" Ref="C8"  Part="1" 
+F 0 "C8" V 7525 3050 50  0000 C CNN
+F 1 "10uF" V 7600 3050 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7725 3050 60  0001 C CNN
+F 3 "" H 7725 3050 60  0000 C CNN
+F 4 "CL10A106MQ8NNNC" H 2425 -2300 50  0001 C CNN "MPN"
+	1    7725 3050
+	-1   0    0    -1  
+$EndComp
+Text Notes 6725 2350 0    100  ~ 0
+POWER
+Wire Notes Line
+	6625 2150 6625 3750
+Wire Notes Line
+	6625 3750 8400 3750
+Wire Notes Line
+	8400 3750 8400 2150
+Wire Notes Line
+	8400 2150 6625 2150
+$Comp
+L bottom-board-rescue:+5VD-power #PWR08
+U 1 1 5BBD702A
+P 6925 2750
+F 0 "#PWR08" H 6925 2600 50  0001 C CNN
+F 1 "+5VD" H 6925 2890 50  0000 C CNN
+F 2 "" H 6925 2750 50  0001 C CNN
+F 3 "" H 6925 2750 50  0001 C CNN
+	1    6925 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:+3.3V-power #PWR023
+U 1 1 5BBD7030
+P 7725 2750
+F 0 "#PWR023" H 7725 2600 50  0001 C CNN
+F 1 "+3.3V" H 7725 2890 50  0000 C CNN
+F 2 "" H 7725 2750 60  0000 C CNN
+F 3 "" H 7725 2750 60  0000 C CNN
+	1    7725 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2475 4500 2475
+Wire Wire Line
+	4400 2475 4400 2425
+Connection ~ 4600 2475
+Wire Wire Line
+	4500 2425 4500 2475
+Connection ~ 4500 2475
+Wire Wire Line
+	4500 2475 4400 2475
+$Comp
+L bottom-board-rescue:TestPoint-Connector TP?
+U 1 1 5BC9981D
+P 8150 2925
+AR Path="/54F7244B/5BC9981D" Ref="TP?"  Part="1" 
+AR Path="/54F725AE/5BC9981D" Ref="TP19"  Part="1" 
+F 0 "TP19" H 8100 3150 50  0000 L CNN
+F 1 "TestPoint" H 8208 2954 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8350 2925 50  0001 C CNN
+F 3 "~" H 8350 2925 50  0001 C CNN
+	1    8150 2925
+	-1   0    0    1   
+$EndComp
+Connection ~ 8150 2850
+Wire Wire Line
+	8150 2775 8150 2850
+Wire Wire Line
+	8150 2925 8150 2850
+Text Notes 6750 3675 0    60   ~ 0
+Used for I/O reference and to\npower the AT24 memory
+Wire Wire Line
+	2550 4625 3250 4625
+Text GLabel 2950 4675 3    50   Output ~ 0
+CODEC_I2S_MCLK
+Wire Wire Line
+	2950 4575 2950 4675
+$Comp
+L bottom-board-rescue:R_Small-Device R16
+U 1 1 5E1A59DA
+P 1525 5800
+F 0 "R16" H 1475 5750 50  0000 R CNN
+F 1 "10K" H 1475 5850 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1525 5800 60  0001 C CNN
+F 3 "" H 1525 5800 60  0000 C CNN
+F 4 "RR0816P-103-D" H 1525 5800 50  0001 C CNN "MPN"
+	1    1525 5800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L bottom-board-rescue:R_Small-Device R81
+U 1 1 5E1A6459
+P 1650 6675
+F 0 "R81" H 1600 6625 50  0000 R CNN
+F 1 "10R" H 1600 6725 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1650 6675 60  0001 C CNN
+F 3 "" H 1650 6675 60  0000 C CNN
+F 4 "CRGCQ0603J10R" H 1650 6675 50  0001 C CNN "MPN"
+	1    1650 6675
+	-1   0    0    1   
+$EndComp
+Text GLabel 1800 2525 3    60   Input ~ 0
+VCC_SYS_1V8
+Wire Wire Line
+	1800 2525 1800 2425
+Text GLabel 1275 5800 0    60   Input ~ 0
+VCC_SYS_1V8
+Wire Wire Line
+	1425 5800 1275 5800
+Wire Wire Line
+	1625 5800 1675 5800
+$Comp
+L bottom-board-rescue:GNDD-power #PWR0236
+U 1 1 5E1F986C
+P 1650 6850
+F 0 "#PWR0236" H 1650 6600 50  0001 C CNN
+F 1 "GNDD" H 1650 6700 50  0000 C CNN
+F 2 "" H 1650 6850 60  0000 C CNN
+F 3 "" H 1650 6850 60  0000 C CNN
+	1    1650 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:TestPoint-Connector TP?
+U 1 1 5E1FD5AF
+P 1650 6525
+AR Path="/54F7244B/5E1FD5AF" Ref="TP?"  Part="1" 
+AR Path="/54F725AE/5E1FD5AF" Ref="TP18"  Part="1" 
+F 0 "TP18" H 1600 6750 50  0000 L CNN
+F 1 "TestPoint" H 1708 6554 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1850 6525 50  0001 C CNN
+F 3 "~" H 1850 6525 50  0001 C CNN
+	1    1650 6525
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:TestPoint-Connector TP?
+U 1 1 5E20E0E2
+P 1675 6000
+AR Path="/54F7244B/5E20E0E2" Ref="TP?"  Part="1" 
+AR Path="/54F725AE/5E20E0E2" Ref="TP22"  Part="1" 
+F 0 "TP22" H 1625 6225 50  0000 L CNN
+F 1 "TestPoint" H 1733 6029 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1875 6000 50  0001 C CNN
+F 3 "~" H 1875 6000 50  0001 C CNN
+	1    1675 6000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1675 6000 1675 5800
+Connection ~ 1675 5800
+Wire Wire Line
+	1650 6525 1650 6575
+Wire Wire Line
+	1650 6775 1650 6850
+Text Notes 525  5650 0    60   ~ 0
+By connecting the 2 test pins the board boots in revocery mode
+Text GLabel 2000 5800 2    50   Output ~ 0
+UBOOT_BUTTON
+Wire Wire Line
+	1675 5800 2000 5800
+Text GLabel 3600 1800 1    50   Input ~ 0
+IN1_DETECT
+Text GLabel 3700 1800 1    50   Input ~ 0
+IN2_DETECT
+Text GLabel 3300 1800 1    50   Input ~ 0
+OUT1_DETECT
+Text GLabel 3400 1800 1    50   Input ~ 0
+OUT2_DETECT
+Wire Wire Line
+	3700 1925 3700 1800
+Wire Wire Line
+	3600 1800 3600 1925
+Wire Wire Line
+	3400 1800 3400 1925
+Wire Wire Line
+	3300 1800 3300 1925
+Wire Wire Line
+	4100 2525 4100 2425
+Wire Wire Line
+	4000 2525 4000 2425
+$Comp
+L bottom-board-rescue:R_Small-Device R49
+U 1 1 5E61451D
+P 9550 5180
+F 0 "R49" H 9750 5130 50  0000 R CNN
+F 1 "10K" H 9740 5220 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 9550 5180 60  0001 C CNN
+F 3 "" H 9550 5180 60  0000 C CNN
+F 4 "RR0816P-103-D" H 9550 5180 50  0001 C CNN "MPN"
+	1    9550 5180
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:GNDD-power #PWR0152
+U 1 1 5E61C8AD
+P 9550 5320
+F 0 "#PWR0152" H 9550 5070 50  0001 C CNN
+F 1 "GNDD" H 9550 5170 50  0000 C CNN
+F 2 "" H 9550 5320 60  0000 C CNN
+F 3 "" H 9550 5320 60  0000 C CNN
+	1    9550 5320
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8725 4950 9550 4950
+Wire Wire Line
+	9550 4950 9550 5080
+Connection ~ 9550 4950
+Wire Wire Line
+	9550 4950 9650 4950
+Wire Wire Line
+	9550 5320 9550 5280
+Wire Wire Line
+	7750 4850 8225 4850
+$EndSCHEMATC
