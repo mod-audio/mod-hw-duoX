@@ -546,18 +546,6 @@ Wire Wire Line
 	4200 3700 4350 3700
 Wire Wire Line
 	5900 1950 6100 1950
-$Comp
-L bottom-board-rescue:C_Small-Device C6
-U 1 1 5B5D1557
-P 5900 2150
-F 0 "C6" V 5700 2150 50  0000 C CNN
-F 1 "10uF" V 5775 2150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5900 2150 60  0001 C CNN
-F 3 "" H 5900 2150 60  0000 C CNN
-F 4 "CL10A106MQ8NNNC" H 600 -3200 50  0001 C CNN "MPN"
-	1    5900 2150
-	1    0    0    -1  
-$EndComp
 Text Notes 3650 2750 0    60   ~ 0
 LPF Fc=107Hz\n1/(2*pi*sqrt(L*C))
 $Comp
@@ -665,4 +653,18 @@ Wire Wire Line
 	8750 5350 8750 5300
 Wire Wire Line
 	8750 5300 8800 5300
+$Comp
+L bottom-board-rescue:CP_Small-Device CA?
+U 1 1 5FDC0C8E
+P 5900 2150
+AR Path="/54F72C8D/5FDC0C8E" Ref="CA?"  Part="1" 
+AR Path="/54F7244B/5FDC0C8E" Ref="CA27"  Part="1" 
+F 0 "CA27" H 5975 2200 50  0000 L CNN
+F 1 "10uF" H 5975 2125 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_4x5.7" H 5900 2150 60  0001 C CNN
+F 3 "" H 5900 2150 60  0000 C CNN
+F 4 "EEE-HB1C100R" H 800 650 50  0001 C CNN "MPN"
+	1    5900 2150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -348,13 +348,13 @@ $EndComp
 $Comp
 L bottom-board-rescue:GNDA-power #PWR0211
 U 1 1 5B49B2F6
-P 8222 1969
-F 0 "#PWR0211" H 8222 1719 50  0001 C CNN
-F 1 "GNDA" H 8222 1819 50  0000 C CNN
-F 2 "" H 8222 1969 60  0000 C CNN
-F 3 "" H 8222 1969 60  0000 C CNN
-	1    8222 1969
-	1    0    0    -1  
+P 8222 1769
+F 0 "#PWR0211" H 8222 1519 50  0001 C CNN
+F 1 "GNDA" V 8250 1576 50  0000 C CNN
+F 2 "" H 8222 1769 60  0000 C CNN
+F 3 "" H 8222 1769 60  0000 C CNN
+	1    8222 1769
+	0    1    1    0   
 $EndComp
 $Comp
 L bottom-board-rescue:+5VA-power #PWR0215
@@ -430,7 +430,7 @@ Wire Wire Line
 Wire Wire Line
 	10297 1869 10147 1869
 Wire Wire Line
-	3285 5111 3535 5111
+	3285 5111 3339 5111
 Wire Wire Line
 	3535 5561 3535 5611
 Wire Wire Line
@@ -500,7 +500,7 @@ Wire Wire Line
 Wire Wire Line
 	3535 5111 3685 5111
 Wire Wire Line
-	3435 5261 3685 5261
+	3435 5261 3636 5261
 Wire Wire Line
 	8772 1119 8772 1169
 Wire Wire Line
@@ -779,8 +779,6 @@ F 4 "SN74LVC3G17DCUR" H 7972 1569 50  0001 C CNN "MPN"
 $EndComp
 Wire Wire Line
 	7172 1394 7272 1394
-Wire Wire Line
-	8222 1969 8222 1869
 Wire Wire Line
 	8222 1769 8272 1769
 Wire Wire Line
@@ -1656,54 +1654,19 @@ Wire Wire Line
 Connection ~ 1194 3889
 Wire Wire Line
 	1194 3889 1270 3889
-Text GLabel 4665 4286 1    60   Input ~ 0
+Text GLabel 3085 4456 1    60   Input ~ 0
 CV_EXP_SW
-$Comp
-L bottom-board-rescue:1N4148WS-Diode D13
-U 1 1 5EB82573
-P 4580 4561
-F 0 "D13" V 4534 4641 50  0000 L CNN
-F 1 "1N4148WS-Diode" V 4625 4641 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-323" H 4580 4386 50  0001 C CNN
-F 3 "" H 4580 4561 50  0001 C CNN
-	1    4580 4561
-	0    1    1    0   
-$EndComp
-$Comp
-L bottom-board-rescue:1N4148WS-Diode D20
-U 1 1 5EB82FFF
-P 4750 4561
-F 0 "D20" V 4704 4641 50  0000 L CNN
-F 1 "1N4148WS-Diode" V 4795 4641 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-323" H 4750 4386 50  0001 C CNN
-F 3 "" H 4750 4561 50  0001 C CNN
-	1    4750 4561
-	0    1    1    0   
-$EndComp
 Wire Wire Line
-	4485 4961 4580 4961
+	3000 4581 3000 4546
 Wire Wire Line
-	4750 4711 4750 4811
-Connection ~ 4750 4811
+	3170 4581 3170 4546
 Wire Wire Line
-	4750 4811 4960 4811
+	3000 4546 3085 4546
 Wire Wire Line
-	4580 4411 4580 4376
+	3085 4546 3085 4456
 Wire Wire Line
-	4750 4411 4750 4376
-Wire Wire Line
-	4580 4376 4665 4376
-Wire Wire Line
-	4665 4376 4665 4286
-Connection ~ 4580 4376
-Wire Wire Line
-	4580 4376 4580 4351
-Wire Wire Line
-	4750 4376 4665 4376
-Connection ~ 4750 4376
-Wire Wire Line
-	4750 4376 4750 4346
-Connection ~ 4665 4376
+	3170 4546 3085 4546
+Connection ~ 3085 4546
 Wire Wire Line
 	1290 3500 1935 3500
 Wire Wire Line
@@ -1714,11 +1677,6 @@ Wire Wire Line
 Connection ~ 1935 2590
 Wire Wire Line
 	1935 2590 1935 2637
-Wire Wire Line
-	8272 1869 8222 1869
-Connection ~ 8222 1869
-Wire Wire Line
-	8222 1869 8222 1769
 Wire Wire Line
 	6500 6040 6500 5890
 $Comp
@@ -1903,13 +1861,6 @@ Wire Wire Line
 Wire Wire Line
 	8094 3058 8053 3058
 Connection ~ 8053 3058
-Wire Wire Line
-	4485 4811 4750 4811
-Wire Wire Line
-	4580 4711 4580 4961
-Connection ~ 4580 4961
-Wire Wire Line
-	4580 4961 4960 4961
 $Comp
 L bottom-board-rescue:GNDA-power #PWR0151
 U 1 1 5F86C4B0
@@ -2040,4 +1991,66 @@ Wire Wire Line
 Connection ~ 7728 3067
 Wire Wire Line
 	7728 3067 7731 3067
+Wire Wire Line
+	4485 4961 4960 4961
+$Comp
+L bottom-board-rescue:1N4148WS-Diode D20
+U 1 1 5EB82FFF
+P 3170 4731
+F 0 "D20" V 3039 4781 50  0000 L CNN
+F 1 "1N4148WS-Diode" V 2949 3836 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323" H 3170 4556 50  0001 C CNN
+F 3 "" H 3170 4731 50  0001 C CNN
+	1    3170 4731
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4485 4811 4960 4811
+$Comp
+L bottom-board-rescue:1N4148WS-Diode D13
+U 1 1 5EB82573
+P 3000 4731
+F 0 "D13" V 2968 4504 50  0000 L CNN
+F 1 "1N4148WS-Diode" V 2859 4011 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323" H 3000 4556 50  0001 C CNN
+F 3 "" H 3000 4731 50  0001 C CNN
+	1    3000 4731
+	0    1    1    0   
+$EndComp
+Connection ~ 3636 5261
+Wire Wire Line
+	3636 5261 3685 5261
+Wire Wire Line
+	3636 4894 3170 4894
+Wire Wire Line
+	3170 4894 3170 4881
+Wire Wire Line
+	3636 4894 3636 5261
+Wire Wire Line
+	3000 4881 3000 4989
+Wire Wire Line
+	3000 4989 3339 4989
+Wire Wire Line
+	3339 4989 3339 5111
+Connection ~ 3339 5111
+Wire Wire Line
+	3339 5111 3535 5111
+$Comp
+L bottom-board-rescue:+5VA-power #PWR0153
+U 1 1 5FC78457
+P 8229 1870
+F 0 "#PWR0153" H 8229 1720 50  0001 C CNN
+F 1 "+5VA" V 8305 1936 50  0000 C CNN
+F 2 "" H 8229 1870 60  0000 C CNN
+F 3 "" H 8229 1870 60  0000 C CNN
+	1    8229 1870
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	8273 1869 8272 1869
+Wire Wire Line
+	8229 1869 8229 1870
+Connection ~ 8272 1869
+Wire Wire Line
+	8272 1869 8229 1869
 $EndSCHEMATC

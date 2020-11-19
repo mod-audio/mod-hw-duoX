@@ -307,7 +307,7 @@ Wire Wire Line
 Wire Wire Line
 	7650 4400 7650 4450
 Wire Wire Line
-	7650 4450 7500 4450
+	7650 4450 7649 4450
 Connection ~ 7500 4450
 Wire Wire Line
 	6100 4850 6100 4900
@@ -1202,4 +1202,33 @@ Wire Wire Line
 	4800 5075 4800 5000
 Text Notes 3025 5625 0    60   ~ 0
 The series resistor at I2S_MCLK \nmust only be placed when the xtal\nis not placed, and vice versa.
+$Comp
+L power:GNDS #PWR0207
+U 1 1 5FE9F786
+P 7649 5120
+F 0 "#PWR0207" H 7649 4870 50  0001 C CNN
+F 1 "GNDS" H 7654 4947 50  0000 C CNN
+F 2 "" H 7649 5120 50  0001 C CNN
+F 3 "" H 7649 5120 50  0001 C CNN
+	1    7649 5120
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper JP1
+U 1 1 5FEA81D1
+P 7649 4787
+F 0 "JP1" V 7603 4914 50  0000 L CNN
+F 1 "Jumper" V 7694 4914 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 7649 4787 50  0001 C CNN
+F 3 "~" H 7649 4787 50  0001 C CNN
+	1    7649 4787
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7649 4487 7649 4450
+Connection ~ 7649 4450
+Wire Wire Line
+	7649 4450 7500 4450
+Wire Wire Line
+	7649 5087 7649 5120
 $EndSCHEMATC

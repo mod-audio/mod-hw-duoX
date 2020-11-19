@@ -117,18 +117,6 @@ Text GLabel 5225 4025 2    50   Input ~ 0
 IN1_GC2
 Text Notes 2575 7400 0    60   ~ 0
 Op Amp Bypass\ncapacitors
-$Comp
-L bottom-board-rescue:AudioJack3_Switch-Connector J8
-U 1 1 5B52CBDF
-P 4700 5425
-F 0 "J8" H 4700 5875 50  0000 C CNN
-F 1 "NYS215" H 4700 5775 50  0000 C CNN
-F 2 "footprints:NMJ6HCD2" H 4700 5425 50  0001 C CNN
-F 3 "" H 4700 5425 50  0001 C CNN
-F 4 "NYS215" H 4700 5425 60  0001 C CNN "MPN"
-	1    4700 5425
-	1    0    0    -1  
-$EndComp
 Text GLabel 4900 6900 2    50   Input ~ 0
 IN1
 Text GLabel 5000 5625 2    50   Input ~ 0
@@ -202,14 +190,6 @@ Wire Wire Line
 	2050 2100 2050 2000
 Wire Wire Line
 	4900 6900 4800 6900
-Wire Wire Line
-	4800 6500 4850 6500
-Wire Wire Line
-	4850 6500 4850 6700
-Wire Wire Line
-	4900 5225 4950 5225
-Wire Wire Line
-	4950 5225 4950 5425
 Wire Wire Line
 	4900 5625 5000 5625
 $Comp
@@ -748,80 +728,8 @@ Wire Wire Line
 Wire Wire Line
 	2250 3625 2250 3725
 Connection ~ 2250 3725
-$Comp
-L bottom-board-rescue:R_Small-Device RA?
-U 1 1 5BBE6B93
-P 1250 6475
-AR Path="/54F7244B/5BBE6B93" Ref="RA?"  Part="1" 
-AR Path="/54F72C8D/5BBE6B93" Ref="RA39"  Part="1" 
-F 0 "RA39" V 1175 6475 50  0000 C CNN
-F 1 "10K 1%" V 1325 6475 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 1250 6475 50  0001 C CNN
-F 3 "" H 1250 6475 50  0001 C CNN
-F 4 "RR0816P-103-D" V 1250 6475 60  0001 C CNN "MPN"
-	1    1250 6475
-	1    0    0    -1  
-$EndComp
-$Comp
-L bottom-board-rescue:R_Small-Device RA?
-U 1 1 5BBE6ED1
-P 1250 6825
-AR Path="/54F7244B/5BBE6ED1" Ref="RA?"  Part="1" 
-AR Path="/54F72C8D/5BBE6ED1" Ref="RA40"  Part="1" 
-F 0 "RA40" V 1175 6825 50  0000 C CNN
-F 1 "10K 1%" V 1325 6825 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 1250 6825 50  0001 C CNN
-F 3 "" H 1250 6825 50  0001 C CNN
-F 4 "RR0816P-103-D" V 1250 6825 60  0001 C CNN "MPN"
-	1    1250 6825
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1250 6575 1250 6650
-$Comp
-L bottom-board-rescue:GNDA-power #PWR?
-U 1 1 5BBEFBFA
-P 1250 7075
-AR Path="/54F72B97/5BBEFBFA" Ref="#PWR?"  Part="1" 
-AR Path="/54F72C8D/5BBEFBFA" Ref="#PWR031"  Part="1" 
-F 0 "#PWR031" H 1250 6825 50  0001 C CNN
-F 1 "GNDA" H 1250 6925 50  0000 C CNN
-F 2 "" H 1250 7075 60  0000 C CNN
-F 3 "" H 1250 7075 60  0000 C CNN
-	1    1250 7075
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1250 6925 1250 7000
-Wire Wire Line
-	1475 6925 1475 7000
-Wire Wire Line
-	1475 7000 1250 7000
-Connection ~ 1250 7000
-Wire Wire Line
-	1250 7000 1250 7075
 Wire Wire Line
 	1475 6725 1475 6650
-Wire Wire Line
-	1475 6650 1250 6650
-Connection ~ 1250 6650
-Wire Wire Line
-	1250 6650 1250 6725
-$Comp
-L bottom-board-rescue:+12VA-power #PWR?
-U 1 1 5BC01362
-P 1250 6300
-AR Path="/54F7244B/5BC01362" Ref="#PWR?"  Part="1" 
-AR Path="/54F72C8D/5BC01362" Ref="#PWR028"  Part="1" 
-F 0 "#PWR028" H 1250 6150 50  0001 C CNN
-F 1 "+12VA" H 1250 6440 50  0000 C CNN
-F 2 "" H 1250 6300 60  0000 C CNN
-F 3 "" H 1250 6300 60  0000 C CNN
-	1    1250 6300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1250 6300 1250 6375
 Text Label 1400 6650 0    39   ~ 0
 INPUT_BIAS
 Text Label 3275 4125 0    39   ~ 0
@@ -1324,20 +1232,6 @@ Text Notes 9475 5500 0    60   ~ 0
 The gain calculation includes\nthe RDSon value\n\nJ110: RDSon = 18R
 $Comp
 L bottom-board-rescue:C_Small-Device C?
-U 1 1 5BD34D79
-P 1475 6825
-AR Path="/54F7244B/5BD34D79" Ref="C?"  Part="1" 
-AR Path="/54F72C8D/5BD34D79" Ref="C9"  Part="1" 
-F 0 "C9" V 1300 6825 50  0000 C CNN
-F 1 "10uF 16V" V 1375 6825 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1475 6825 60  0001 C CNN
-F 3 "" H 1475 6825 60  0000 C CNN
-F 4 "CL21A106KOFNNNE" H -3825 1475 50  0001 C CNN "MPN"
-	1    1475 6825
-	-1   0    0    -1  
-$EndComp
-$Comp
-L bottom-board-rescue:C_Small-Device C?
 U 1 1 5BD40943
 P 2875 6725
 AR Path="/54F7244B/5BD40943" Ref="C?"  Part="1" 
@@ -1427,8 +1321,6 @@ F 3 "~" H 1375 6650 50  0001 C CNN
 	1    1175 6650
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	1175 6650 1250 6650
 $Comp
 L bottom-board-rescue:R_Small-Device R?
 U 1 1 5BBEADC0
@@ -1828,35 +1720,147 @@ F 4 "NYS215" H 4600 6700 60  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4900 5425 4950 5425
-Connection ~ 4950 5425
-Wire Wire Line
-	4950 5425 4950 5525
-Wire Wire Line
-	4900 5525 4950 5525
-Connection ~ 4950 5525
-Wire Wire Line
-	4950 5525 4950 5725
-Wire Wire Line
 	4900 5725 4950 5725
-Connection ~ 4950 5725
 Wire Wire Line
 	4950 5725 4950 5875
 Wire Wire Line
 	4800 7000 4850 7000
-Connection ~ 4850 7000
 Wire Wire Line
 	4850 7000 4850 7150
-Wire Wire Line
-	4800 6800 4850 6800
-Connection ~ 4850 6800
-Wire Wire Line
-	4850 6800 4850 7000
-Wire Wire Line
-	4800 6700 4850 6700
-Connection ~ 4850 6700
-Wire Wire Line
-	4850 6700 4850 6800
 Text Notes 8205 4925 0    60   ~ 0
 GPIO controllable gain spec:
+Wire Wire Line
+	1175 6650 1297 6650
+Wire Wire Line
+	1475 6925 1475 6999
+$Comp
+L bottom-board-rescue:GNDA-power #PWR?
+U 1 1 5BBEFBFA
+P 1475 6999
+AR Path="/54F72B97/5BBEFBFA" Ref="#PWR?"  Part="1" 
+AR Path="/54F72C8D/5BBEFBFA" Ref="#PWR031"  Part="1" 
+F 0 "#PWR031" H 1475 6749 50  0001 C CNN
+F 1 "GNDA" H 1475 6849 50  0000 C CNN
+F 2 "" H 1475 6999 60  0000 C CNN
+F 3 "" H 1475 6999 60  0000 C CNN
+	1    1475 6999
+	1    0    0    -1  
+$EndComp
+Connection ~ 1475 6999
+Wire Wire Line
+	1475 6999 1475 7000
+$Comp
+L bottom-board-rescue:CP_Small-Device C?
+U 1 1 5FD12E58
+P 1475 6825
+AR Path="/54F72B97/5FD12E58" Ref="C?"  Part="1" 
+AR Path="/54F72C8D/5FD12E58" Ref="C6"  Part="1" 
+F 0 "C6" H 1523 6726 50  0000 L CNN
+F 1 "47uF" H 1253 6737 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_5x5.4" H 1475 6825 60  0001 C CNN
+F 3 "" H 1475 6825 60  0000 C CNN
+F 4 "EDK476M016A9DAA" H -3875 5175 50  0001 C CNN "MPN"
+	1    1475 6825
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:+5VA-power #PWR?
+U 1 1 5FD12E5E
+P 1297 6337
+AR Path="/54F72B97/5FD12E5E" Ref="#PWR?"  Part="1" 
+AR Path="/54F72C8D/5FD12E5E" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 1297 6187 50  0001 C CNN
+F 1 "+5VA" H 1297 6477 50  0000 C CNN
+F 2 "" H 1297 6337 60  0000 C CNN
+F 3 "" H 1297 6337 60  0000 C CNN
+	1    1297 6337
+	-1   0    0    -1  
+$EndComp
+Connection ~ 1297 6650
+Wire Wire Line
+	1297 6650 1475 6650
+Wire Wire Line
+	1297 6590 1297 6591
+Wire Wire Line
+	1297 6337 1297 6391
+$Comp
+L bottom-board-rescue:R_Small-Device RA37
+U 1 1 5FCF26B2
+P 1297 6491
+F 0 "RA37" H 1347 6466 50  0000 L CNN
+F 1 "100R 1%" H 1347 6541 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1297 6491 60  0001 C CNN
+F 3 "" H 1297 6491 60  0000 C CNN
+F 4 "RR0816P-101-D" H -3353 4991 50  0001 C CNN "MPN"
+	1    1297 6491
+	1    0    0    -1  
+$EndComp
+Connection ~ 1297 6391
+Wire Wire Line
+	1297 6391 1297 6392
+Connection ~ 1297 6591
+Wire Wire Line
+	1297 6591 1297 6650
+$Comp
+L bottom-board-rescue:AudioJack3_Switch-Connector J8
+U 1 1 5B52CBDF
+P 4700 5425
+F 0 "J8" H 4700 5875 50  0000 C CNN
+F 1 "NYS215" H 4700 5775 50  0000 C CNN
+F 2 "footprints:NMJ6HCD2" H 4700 5425 50  0001 C CNN
+F 3 "" H 4700 5425 50  0001 C CNN
+F 4 "NYS215" H 4700 5425 60  0001 C CNN "MPN"
+	1    4700 5425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR0173
+U 1 1 5FE0AF18
+P 4861 4924
+F 0 "#PWR0173" H 4861 4674 50  0001 C CNN
+F 1 "GNDS" H 4866 4751 50  0000 C CNN
+F 2 "" H 4861 4924 50  0001 C CNN
+F 3 "" H 4861 4924 50  0001 C CNN
+	1    4861 4924
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4900 5425 4955 5425
+Wire Wire Line
+	4955 4968 4861 4968
+Wire Wire Line
+	4861 4968 4861 4924
+Wire Wire Line
+	4955 5425 4955 5225
+Wire Wire Line
+	4900 5225 4955 5225
+Connection ~ 4955 5225
+Wire Wire Line
+	4955 5225 4955 4968
+$Comp
+L power:GNDS #PWR0206
+U 1 1 5FE3ABB7
+P 4734 6263
+F 0 "#PWR0206" H 4734 6013 50  0001 C CNN
+F 1 "GNDS" H 4739 6090 50  0000 C CNN
+F 2 "" H 4734 6263 50  0001 C CNN
+F 3 "" H 4734 6263 50  0001 C CNN
+	1    4734 6263
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4800 6700 4834 6700
+Wire Wire Line
+	4834 6700 4834 6500
+Wire Wire Line
+	4834 6286 4734 6286
+Wire Wire Line
+	4734 6286 4734 6263
+Wire Wire Line
+	4800 6500 4834 6500
+Connection ~ 4834 6500
+Wire Wire Line
+	4834 6500 4834 6286
+NoConn ~ 4900 5525
+NoConn ~ 4800 6800
 $EndSCHEMATC

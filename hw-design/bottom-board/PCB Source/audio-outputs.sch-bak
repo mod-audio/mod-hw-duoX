@@ -1079,36 +1079,6 @@ F 4 "OPA1678IDR" H 1400 3000 50  0001 C CNN "MPN"
 	2    4650 4650
 	1    0    0    1   
 $EndComp
-$Comp
-L bottom-board-rescue:R_Small-Device RA?
-U 1 1 5BD4AC71
-P 925 6425
-AR Path="/54F7244B/5BD4AC71" Ref="RA?"  Part="1" 
-AR Path="/54F72C8D/5BD4AC71" Ref="RA?"  Part="1" 
-AR Path="/54F72CD0/5BD4AC71" Ref="RA43"  Part="1" 
-F 0 "RA43" V 850 6425 50  0000 C CNN
-F 1 "10K 1%" V 1000 6425 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 925 6425 50  0001 C CNN
-F 3 "" H 925 6425 50  0001 C CNN
-F 4 "RR0816P-103-D" V 925 6425 60  0001 C CNN "MPN"
-	1    925  6425
-	1    0    0    -1  
-$EndComp
-$Comp
-L bottom-board-rescue:R_Small-Device RA?
-U 1 1 5BD4AC7B
-P 925 6775
-AR Path="/54F7244B/5BD4AC7B" Ref="RA?"  Part="1" 
-AR Path="/54F72C8D/5BD4AC7B" Ref="RA?"  Part="1" 
-AR Path="/54F72CD0/5BD4AC7B" Ref="RA44"  Part="1" 
-F 0 "RA44" V 850 6775 50  0000 C CNN
-F 1 "10K 1%" V 1000 6775 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 925 6775 50  0001 C CNN
-F 3 "" H 925 6775 50  0001 C CNN
-F 4 "RR0816P-103-D" V 925 6775 60  0001 C CNN "MPN"
-	1    925  6775
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	925  6525 925  6600
 $Comp
@@ -1126,54 +1096,14 @@ F 3 "" H 925 7025 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	925  6875 925  6950
-Wire Wire Line
-	1150 6875 1150 6950
-Wire Wire Line
-	1150 6950 925  6950
-Connection ~ 925  6950
-Wire Wire Line
-	925  6950 925  7025
-Wire Wire Line
-	1150 6675 1150 6600
-Wire Wire Line
 	1150 6600 925  6600
 Connection ~ 925  6600
 Wire Wire Line
 	925  6600 925  6675
-$Comp
-L bottom-board-rescue:+12VA-power #PWR?
-U 1 1 5BD4AC92
-P 925 6250
-AR Path="/54F7244B/5BD4AC92" Ref="#PWR?"  Part="1" 
-AR Path="/54F72C8D/5BD4AC92" Ref="#PWR?"  Part="1" 
-AR Path="/54F72CD0/5BD4AC92" Ref="#PWR0103"  Part="1" 
-F 0 "#PWR0103" H 925 6100 50  0001 C CNN
-F 1 "+12VA" H 925 6390 50  0000 C CNN
-F 2 "" H 925 6250 60  0000 C CNN
-F 3 "" H 925 6250 60  0000 C CNN
-	1    925  6250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	925  6250 925  6325
 Text Label 1075 6600 0    39   ~ 0
 OUTPUT_BIAS
-$Comp
-L bottom-board-rescue:C_Small-Device C?
-U 1 1 5BD4AC9C
-P 1150 6775
-AR Path="/54F7244B/5BD4AC9C" Ref="C?"  Part="1" 
-AR Path="/54F72C8D/5BD4AC9C" Ref="C?"  Part="1" 
-AR Path="/54F72CD0/5BD4AC9C" Ref="C11"  Part="1" 
-F 0 "C11" V 975 6775 50  0000 C CNN
-F 1 "10uF 16V" V 1050 6775 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1150 6775 60  0001 C CNN
-F 3 "" H 1150 6775 60  0000 C CNN
-F 4 "CL21A106KOFNNNE" H -4150 1425 50  0001 C CNN "MPN"
-	1    1150 6775
-	-1   0    0    -1  
-$EndComp
 $Comp
 L bottom-board-rescue:GNDA-power #PWR?
 U 1 1 5BDA190C
@@ -1631,4 +1561,47 @@ F 3 "" H 8800 2475 50  0001 C CNN
 	1    8800 2475
 	-1   0    0    1   
 $EndComp
+$Comp
+L bottom-board-rescue:CP_Small-Device C?
+U 1 1 5FD8C51F
+P 925 6775
+AR Path="/54F72B97/5FD8C51F" Ref="C?"  Part="1" 
+AR Path="/54F72CD0/5FD8C51F" Ref="C9"  Part="1" 
+F 0 "C9" H 985 6688 50  0000 L CNN
+F 1 "47uF" H 685 6679 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_5x5.4" H 925 6775 60  0001 C CNN
+F 3 "" H 925 6775 60  0000 C CNN
+F 4 "EDK476M016A9DAA" H -4425 5125 50  0001 C CNN "MPN"
+	1    925  6775
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:+5VA-power #PWR?
+U 1 1 5FD8C525
+P 925 6250
+AR Path="/54F72B97/5FD8C525" Ref="#PWR?"  Part="1" 
+AR Path="/54F72CD0/5FD8C525" Ref="#PWR0154"  Part="1" 
+F 0 "#PWR0154" H 925 6100 50  0001 C CNN
+F 1 "+5VA" H 925 6390 50  0000 C CNN
+F 2 "" H 925 6250 60  0000 C CNN
+F 3 "" H 925 6250 60  0000 C CNN
+	1    925  6250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:R_Small-Device RA?
+U 1 1 5FD8C52C
+P 925 6425
+AR Path="/54F72C8D/5FD8C52C" Ref="RA?"  Part="1" 
+AR Path="/54F72CD0/5FD8C52C" Ref="RA38"  Part="1" 
+F 0 "RA38" H 975 6400 50  0000 L CNN
+F 1 "100R 1%" H 975 6475 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 925 6425 60  0001 C CNN
+F 3 "" H 925 6425 60  0000 C CNN
+F 4 "RR0816P-101-D" H -3725 4925 50  0001 C CNN "MPN"
+	1    925  6425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	925  6875 925  7025
 $EndSCHEMATC
