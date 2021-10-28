@@ -59,6 +59,47 @@ X ~ TN 200 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Device_CP_Small
+#
+DEF Device_CP_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Device_CP_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ CP_*
+$ENDFPLIST
+DRAW
+S -60 -12 60 -27 0 1 0 F
+S -60 27 60 12 0 1 0 N
+P 2 0 1 0 -50 60 -30 60 N
+P 2 0 1 0 -40 50 -40 70 N
+X ~ 1 0 100 73 D 50 50 1 1 P
+X ~ 2 0 -100 73 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_Ferrite_Bead
+#
+DEF Device_Ferrite_Bead FB 0 0 N Y 1 F N
+F0 "FB" -150 25 50 V V C CNN
+F1 "Device_Ferrite_Bead" 150 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Inductor_*
+ L_*
+ *Ferrite*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 0 -50 0 -48 N
+P 2 0 1 0 0 50 0 51 N
+P 5 0 1 0 -109 16 -67 89 109 -12 66 -85 -109 16 N
+X ~ 1 0 150 100 D 50 50 1 1 P
+X ~ 2 0 -150 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_Jumper
 #
 DEF Device_Jumper JP 0 30 Y N 1 F N
@@ -111,6 +152,27 @@ X AA 1 -300 200 200 R 50 50 1 1 P
 X AB 4 -300 -200 200 R 50 50 1 1 P
 X SA 5 300 -200 200 L 50 50 1 1 P
 X SB 8 300 200 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Regulator_Switching_LM2596S-5
+#
+DEF Regulator_Switching_LM2596S-5 U 0 20 Y Y 1 F N
+F0 "U" -400 250 50 H V L CNN
+F1 "Regulator_Switching_LM2596S-5" 0 250 50 H V L CNN
+F2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" 50 -250 50 H I L CIN
+F3 "" 0 0 50 H I C CNN
+ALIAS LM2596S-5 LM2596S-3.3 LM2596S-ADJ
+$FPLIST
+ TO?263*
+$ENDFPLIST
+DRAW
+S -400 200 400 -200 0 1 10 f
+X VIN 1 -500 100 100 R 50 50 1 1 W
+X OUT 2 500 -100 100 L 50 50 1 1 O
+X GND 3 0 -300 100 U 50 50 1 1 W
+X FB 4 500 100 100 L 50 50 1 1 I
+X ~ON~/OFF 5 -500 -100 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -1127,19 +1189,6 @@ X ~ 9 400 -300 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# bottom-board-rescue_GND-power
-#
-DEF bottom-board-rescue_GND-power #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "bottom-board-rescue_GND-power" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
 # bottom-board-rescue_GNDA-power
 #
 DEF bottom-board-rescue_GNDA-power #PWR 0 0 Y Y 1 F P
@@ -1327,24 +1376,6 @@ X VOUT2 9 600 200 100 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# bottom-board-rescue_LM7805_TO220-Regulator_Linear
-#
-DEF bottom-board-rescue_LM7805_TO220-Regulator_Linear U 0 10 Y Y 1 F N
-F0 "U" -150 125 50 H V C CNN
-F1 "bottom-board-rescue_LM7805_TO220-Regulator_Linear" 0 125 50 H V L CNN
-F2 "Package_TO_SOT_THT:TO-220-3_Vertical" 0 225 50 H I C CIN
-F3 "" 0 -50 50 H I C CNN
-$FPLIST
- TO?220*
-$ENDFPLIST
-DRAW
-S -200 75 200 -200 0 1 10 f
-X VI 1 -300 0 100 R 50 50 1 1 W
-X GND 2 0 -300 100 U 50 50 1 1 W
-X VO 3 300 0 100 L 50 50 1 1 w
-ENDDRAW
-ENDDEF
-#
 # bottom-board-rescue_Logo-local-components
 #
 DEF bottom-board-rescue_Logo-local-components IMG 0 0 N N 1 F N
@@ -1512,23 +1543,6 @@ P 4 0 1 0 130 15 115 -10 145 -10 130 15 N
 X G 1 -200 0 200 R 50 50 1 1 I
 X S 2 100 -200 100 U 50 50 1 1 P
 X D 3 100 200 100 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# bottom-board-rescue_R-Device
-#
-DEF bottom-board-rescue_R-Device R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "bottom-board-rescue_R-Device" 0 0 50 V V C CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -1721,6 +1735,21 @@ DRAW
 C 0 75 25 0 1 0 N
 P 2 0 1 0 0 0 0 50 N
 X VCC 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+10V
+#
+DEF power_+10V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+10V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +10V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
