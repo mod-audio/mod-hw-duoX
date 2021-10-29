@@ -18,10 +18,10 @@ L bottom-board-rescue:R_Small-Device R30
 U 1 1 5509EF09
 P 3850 3150
 F 0 "R30" H 3900 3200 50  0000 L CNN
-F 1 "10K" H 3900 3100 50  0000 L CNN
+F 1 "15K" H 3900 3100 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 3850 3150 60  0001 C CNN
 F 3 "" H 3850 3150 60  0000 C CNN
-F 4 "RR0816P-103-D" H 0   0   50  0001 C CNN "MPN"
+F 4 "" H 0   0   50  0001 C CNN "MPN"
 	1    3850 3150
 	-1   0    0    -1  
 $EndComp
@@ -49,62 +49,39 @@ F 3 "" H 3850 3350 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L bottom-board-rescue:RT9701-Power_Management U16
-U 1 1 55080DFB
-P 7575 3200
-F 0 "U16" H 7775 3450 50  0000 C CNN
-F 1 "RT9742" H 7775 3050 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23-5" H 7575 3200 60  0001 C CNN
-F 3 "" H 7575 3200 60  0000 C CNN
-F 4 "RT9742MNGJ5" H -25 -350 50  0001 C CNN "MPN"
-	1    7575 3200
-	1    0    0    -1  
-$EndComp
-$Comp
 L bottom-board-rescue:R_Small-Device R31
 U 1 1 55083C10
-P 6925 2950
-F 0 "R31" H 6975 3000 50  0000 L CNN
-F 1 "10K" H 6975 2900 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6925 2950 60  0001 C CNN
-F 3 "" H 6925 2950 60  0000 C CNN
-F 4 "RR0816P-103-D" H 0   -500 50  0001 C CNN "MPN"
-	1    6925 2950
+P 6995 3480
+F 0 "R31" H 7045 3530 50  0000 L CNN
+F 1 "10K" H 7045 3430 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6995 3480 60  0001 C CNN
+F 3 "" H 6995 3480 60  0000 C CNN
+F 4 "RR0816P-103-D" H 70  30  50  0001 C CNN "MPN"
+	1    6995 3480
 	-1   0    0    1   
-$EndComp
-$Comp
-L bottom-board-rescue:GNDD-power #PWR0160
-U 1 1 55084544
-P 7575 3650
-F 0 "#PWR0160" H 7575 3400 50  0001 C CNN
-F 1 "GNDD" H 7575 3500 50  0000 C CNN
-F 2 "" H 7575 3650 60  0000 C CNN
-F 3 "" H 7575 3650 60  0000 C CNN
-	1    7575 3650
-	1    0    0    -1  
 $EndComp
 $Comp
 L bottom-board-rescue:GNDD-power #PWR0159
 U 1 1 5508613A
-P 7550 2800
-F 0 "#PWR0159" H 7550 2550 50  0001 C CNN
-F 1 "GNDD" H 7550 2650 50  0000 C CNN
-F 2 "" H 7550 2800 60  0000 C CNN
-F 3 "" H 7550 2800 60  0000 C CNN
-	1    7550 2800
+P 6995 3615
+F 0 "#PWR0159" H 6995 3365 50  0001 C CNN
+F 1 "GNDD" H 6995 3465 50  0000 C CNN
+F 2 "" H 6995 3615 60  0000 C CNN
+F 3 "" H 6995 3615 60  0000 C CNN
+	1    6995 3615
 	1    0    0    -1  
 $EndComp
 $Comp
 L bottom-board-rescue:C_Small-Device C65
 U 1 1 55085190
-P 7300 2750
-F 0 "C65" H 7400 2750 50  0000 L CNN
-F 1 "100nF" H 7350 2650 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7300 2750 60  0001 C CNN
-F 3 "" H 7300 2750 60  0000 C CNN
-F 4 "GCM188R71C104KA37D" H 75  0   50  0001 C CNN "MPN"
-	1    7300 2750
-	0    -1   -1   0   
+P 8120 2680
+F 0 "C65" H 8220 2680 50  0000 L CNN
+F 1 "100nF" H 8170 2580 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8120 2680 60  0001 C CNN
+F 3 "" H 8120 2680 60  0000 C CNN
+F 4 "GCM188R71C104KA37D" H 895 -70 50  0001 C CNN "MPN"
+	1    8120 2680
+	-1   0    0    1   
 $EndComp
 Text GLabel 4300 3000 2    50   Output ~ 0
 USB_DEV_DET
@@ -116,7 +93,7 @@ Text GLabel 9650 3300 0    50   BiDi ~ 0
 USB_HOST_DP
 Text GLabel 9650 3400 0    50   BiDi ~ 0
 USB_HOST_DN
-Text GLabel 6775 3200 0    50   Input ~ 0
+Text GLabel 6895 3300 0    50   Input ~ 0
 USB_HOST_DRV
 Text Notes 1050 2350 0    100  ~ 0
 USB DEVICE
@@ -139,16 +116,6 @@ Wire Notes Line
 Wire Notes Line
 	900  2150 5550 2150
 Wire Wire Line
-	7550 2750 7550 2800
-Wire Wire Line
-	7400 2750 7550 2750
-Wire Wire Line
-	7200 2750 7050 2750
-Wire Wire Line
-	7050 2650 7050 2750
-Wire Wire Line
-	6925 3200 6925 3050
-Wire Wire Line
 	3600 2700 3600 2900
 Wire Wire Line
 	3850 2700 3850 2750
@@ -166,10 +133,6 @@ Wire Wire Line
 	4100 3050 4100 3000
 Wire Wire Line
 	3850 2950 3850 3000
-Wire Wire Line
-	6775 3200 6925 3200
-Connection ~ 7050 2750
-Connection ~ 6925 3200
 Connection ~ 4100 3000
 Connection ~ 3600 2700
 Connection ~ 3850 3300
@@ -179,18 +142,14 @@ Wire Wire Line
 $Comp
 L bottom-board-rescue:+5VD-power #PWR0158
 U 1 1 5B50357D
-P 7050 2650
-F 0 "#PWR0158" H 7050 2500 50  0001 C CNN
-F 1 "+5VD" H 7050 2790 50  0000 C CNN
-F 2 "" H 7050 2650 50  0001 C CNN
-F 3 "" H 7050 2650 50  0001 C CNN
-	1    7050 2650
+P 8295 2720
+F 0 "#PWR0158" H 8295 2570 50  0001 C CNN
+F 1 "+5VD" H 8295 2860 50  0000 C CNN
+F 2 "" H 8295 2720 50  0001 C CNN
+F 3 "" H 8295 2720 50  0001 C CNN
+	1    8295 2720
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7050 2750 7050 3100
-Wire Wire Line
-	6925 3200 7075 3200
 Wire Wire Line
 	4100 3000 3850 3000
 Wire Wire Line
@@ -285,11 +244,7 @@ F 3 "" H 10050 3850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10050 3700 10050 3775
-Wire Wire Line
 	8625 3250 8625 3100
-Wire Wire Line
-	8075 3100 8175 3100
 Text GLabel 8075 3825 3    50   BiDi ~ 0
 USB_HOST_DP
 Text GLabel 9175 3825 3    50   BiDi ~ 0
@@ -319,10 +274,6 @@ Connection ~ 8625 3100
 Wire Wire Line
 	8625 3100 9750 3100
 Wire Wire Line
-	8075 3200 8175 3200
-Wire Wire Line
-	8175 3200 8175 3100
-Wire Wire Line
 	8625 2975 8625 3100
 $Comp
 L bottom-board-rescue:GNDD-power #PWR0162
@@ -341,13 +292,6 @@ Wire Wire Line
 	8625 2775 8625 2725
 Wire Wire Line
 	8625 2725 8900 2725
-Wire Wire Line
-	10150 3700 10150 3775
-Wire Wire Line
-	10150 3775 10050 3775
-Connection ~ 10050 3775
-Wire Wire Line
-	10050 3775 10050 3850
 $Comp
 L bottom-board-rescue:GNDD-power #PWR0155
 U 1 1 5B686921
@@ -359,15 +303,6 @@ F 3 "" H 2100 3450 60  0000 C CNN
 	1    2100 3450
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	2100 3300 2100 3375
-Wire Wire Line
-	2000 3300 2000 3375
-Wire Wire Line
-	2000 3375 2100 3375
-Connection ~ 2100 3375
-Wire Wire Line
-	2100 3375 2100 3450
 $Comp
 L bottom-board-rescue:R_Small-Device R?
 U 1 1 5B845377
@@ -375,10 +310,10 @@ P 3850 2850
 AR Path="/54F72FB4/5B845377" Ref="R?"  Part="1" 
 AR Path="/54F72FB2/5B845377" Ref="R29"  Part="1" 
 F 0 "R29" H 3900 2900 50  0000 L CNN
-F 1 "5K6" H 3900 2800 50  0000 L CNN
+F 1 "10K" H 3900 2800 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 3850 2850 60  0001 C CNN
 F 3 "" H 3850 2850 60  0000 C CNN
-F 4 "ERA-3AEB5621V" H -550 -700 50  0001 C CNN "MPN"
+F 4 "" H -550 -700 50  0001 C CNN "MPN"
 	1    3850 2850
 	-1   0    0    1   
 $EndComp
@@ -432,17 +367,6 @@ Wire Wire Line
 	3700 3750 3700 3850
 Wire Wire Line
 	2600 3750 2600 3850
-Wire Wire Line
-	7575 3400 7575 3650
-Connection ~ 8175 3100
-Wire Wire Line
-	8175 3100 8625 3100
-Wire Wire Line
-	7050 3100 7075 3100
-Wire Wire Line
-	6925 2850 6925 2750
-Wire Wire Line
-	6925 2750 7050 2750
 $Comp
 L bottom-board-rescue:C_Small-Device C39
 U 1 1 5E57C8FE
@@ -472,4 +396,192 @@ Wire Wire Line
 	3150 2300 3150 2375
 Wire Wire Line
 	3150 2575 3150 2700
+Wire Wire Line
+	2100 3300 2100 3450
+$Comp
+L bottom-board-rescue:C_Small-Device C?
+U 1 1 628B0513
+P 1735 3415
+AR Path="/54F7244B/628B0513" Ref="C?"  Part="1" 
+AR Path="/54F725AE/628B0513" Ref="C?"  Part="1" 
+AR Path="/54F72B97/628B0513" Ref="C?"  Part="1" 
+AR Path="/54F72FB2/628B0513" Ref="C?"  Part="1" 
+F 0 "C?" V 1900 3370 50  0000 L CNN
+F 1 "1uF" V 1830 3335 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1735 3415 60  0001 C CNN
+F 3 "" H 1735 3415 60  0000 C CNN
+F 4 "" H -3565 -1935 50  0001 C CNN "MPN"
+	1    1735 3415
+	0    1    -1   0   
+$EndComp
+$Comp
+L bottom-board-rescue:R_Small-Device R?
+U 1 1 628B5088
+P 1740 3535
+AR Path="/54F72B97/628B5088" Ref="R?"  Part="1" 
+AR Path="/54F72F64/628B5088" Ref="R?"  Part="1" 
+AR Path="/54F72FB2/628B5088" Ref="R?"  Part="1" 
+F 0 "R?" V 1650 3570 50  0000 R CNN
+F 1 "1M" V 1580 3475 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1740 3535 60  0001 C CNN
+F 3 "" H 1740 3535 60  0000 C CNN
+F 4 "RT0603BRD071ML" H -2560 1185 50  0001 C CNN "MPN"
+	1    1740 3535
+	0    -1   -1   0   
+$EndComp
+$Comp
+L bottom-board-rescue:GNDD-power #PWR?
+U 1 1 628B8AC6
+P 1530 3475
+F 0 "#PWR?" H 1530 3225 50  0001 C CNN
+F 1 "GNDD" H 1530 3325 50  0000 C CNN
+F 2 "" H 1530 3475 60  0000 C CNN
+F 3 "" H 1530 3475 60  0000 C CNN
+	1    1530 3475
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2000 3300 2000 3415
+Wire Wire Line
+	2000 3415 1835 3415
+Wire Wire Line
+	1840 3535 2000 3535
+Wire Wire Line
+	2000 3535 2000 3415
+Connection ~ 2000 3415
+Wire Wire Line
+	1640 3535 1570 3535
+Wire Wire Line
+	1570 3535 1570 3475
+Wire Wire Line
+	1570 3475 1530 3475
+Wire Wire Line
+	1635 3415 1570 3415
+Wire Wire Line
+	1570 3415 1570 3475
+Connection ~ 1570 3475
+Wire Wire Line
+	10050 3700 10050 3850
+$Comp
+L bottom-board-rescue:C_Small-Device C?
+U 1 1 628C5334
+P 10240 4145
+AR Path="/54F7244B/628C5334" Ref="C?"  Part="1" 
+AR Path="/54F725AE/628C5334" Ref="C?"  Part="1" 
+AR Path="/54F72B97/628C5334" Ref="C?"  Part="1" 
+AR Path="/54F72FB2/628C5334" Ref="C?"  Part="1" 
+F 0 "C?" H 10335 4190 50  0000 L CNN
+F 1 "1uF" H 10340 4125 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10240 4145 60  0001 C CNN
+F 3 "" H 10240 4145 60  0000 C CNN
+F 4 "" H 4940 -1205 50  0001 C CNN "MPN"
+	1    10240 4145
+	-1   0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:R_Small-Device R?
+U 1 1 628C533B
+P 10360 4140
+AR Path="/54F72B97/628C533B" Ref="R?"  Part="1" 
+AR Path="/54F72F64/628C533B" Ref="R?"  Part="1" 
+AR Path="/54F72FB2/628C533B" Ref="R?"  Part="1" 
+F 0 "R?" H 10305 4085 50  0000 R CNN
+F 1 "1M" H 10205 4155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 10360 4140 60  0001 C CNN
+F 3 "" H 10360 4140 60  0000 C CNN
+F 4 "RT0603BRD071ML" H 6060 1790 50  0001 C CNN "MPN"
+	1    10360 4140
+	-1   0    0    1   
+$EndComp
+$Comp
+L bottom-board-rescue:GNDD-power #PWR?
+U 1 1 628C5341
+P 10300 4350
+F 0 "#PWR?" H 10300 4100 50  0001 C CNN
+F 1 "GNDD" H 10300 4200 50  0000 C CNN
+F 2 "" H 10300 4350 60  0000 C CNN
+F 3 "" H 10300 4350 60  0000 C CNN
+	1    10300 4350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10240 3880 10240 4045
+Wire Wire Line
+	10360 4040 10360 3880
+Wire Wire Line
+	10360 4240 10360 4310
+Wire Wire Line
+	10360 4310 10300 4310
+Wire Wire Line
+	10300 4310 10300 4350
+Wire Wire Line
+	10240 4245 10240 4310
+Wire Wire Line
+	10240 4310 10300 4310
+Connection ~ 10300 4310
+Wire Wire Line
+	10240 3880 10360 3880
+Connection ~ 10240 3880
+Wire Wire Line
+	10150 3700 10150 3880
+Wire Wire Line
+	10150 3880 10240 3880
+$Comp
+L bottom-board-rescue:GNDD-power #PWR0160
+U 1 1 55084544
+P 7575 3735
+F 0 "#PWR0160" H 7575 3485 50  0001 C CNN
+F 1 "GNDD" H 7575 3585 50  0000 C CNN
+F 2 "" H 7575 3735 60  0000 C CNN
+F 3 "" H 7575 3735 60  0000 C CNN
+	1    7575 3735
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8075 3100 8625 3100
+$Comp
+L Power_Management:TPS2041B U?
+U 1 1 628D6A2B
+P 7575 3100
+F 0 "U?" H 7575 3567 50  0000 C CNN
+F 1 "TPS2041B" H 7575 3476 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 7575 3600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps2041.pdf" H 7525 3400 50  0001 C CNN
+	1    7575 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:GNDD-power #PWR?
+U 1 1 6290EE22
+P 8120 2535
+F 0 "#PWR?" H 8120 2285 50  0001 C CNN
+F 1 "GNDD" H 8120 2385 50  0000 C CNN
+F 2 "" H 8120 2535 60  0000 C CNN
+F 3 "" H 8120 2535 60  0000 C CNN
+	1    8120 2535
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	8120 2580 8120 2535
+Wire Wire Line
+	8075 2900 8120 2900
+Wire Wire Line
+	8120 2900 8120 2780
+Wire Wire Line
+	8295 2720 8295 2900
+Wire Wire Line
+	8295 2900 8120 2900
+Connection ~ 8120 2900
+NoConn ~ 7075 2900
+Wire Wire Line
+	7075 3300 6995 3300
+Wire Wire Line
+	6995 3380 6995 3300
+Connection ~ 6995 3300
+Wire Wire Line
+	6995 3300 6895 3300
+Wire Wire Line
+	6995 3615 6995 3580
+Wire Wire Line
+	7575 3735 7575 3700
 $EndSCHEMATC
