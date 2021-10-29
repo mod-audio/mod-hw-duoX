@@ -107,7 +107,7 @@ F 4 "UCM1C102MNL1GS" H 685 1170 50  0001 C CNN "MPN"
 	1    4185 3970
 	1    0    0    -1  
 $EndComp
-Text Notes 4875 1450 2    100  ~ 0
+Text Notes 5185 955  2    100  ~ 0
 Analog
 $Comp
 L bottom-board-rescue:L-Device L1
@@ -194,7 +194,7 @@ F 4 "0ZCF0200FF2C" H 950 -1500 50  0001 C CNN "MPN"
 	1    2800 1950
 	0    1    1    0   
 $EndComp
-Text Notes 4900 3250 2    100  ~ 0
+Text Notes 6285 3210 2    100  ~ 0
 Digital
 Wire Wire Line
 	7810 3900 7810 3750
@@ -935,4 +935,6 @@ Wire Wire Line
 Connection ~ 2575 1950
 Wire Wire Line
 	2575 1950 2650 1950
+Text Notes 3245 1545 0    60   ~ 0
+10V for audio opamp supply. 5V as input Bias + codec supply
 $EndSCHEMATC
