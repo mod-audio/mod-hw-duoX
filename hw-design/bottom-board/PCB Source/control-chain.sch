@@ -99,20 +99,12 @@ Text GLabel 5250 3150 0    50   Input ~ 0
 CHAIN_UART_DE
 Text GLabel 5250 2650 0    50   Input ~ 0
 CHAIN_UART_RE
-Text GLabel 3600 3100 0    50   Output ~ 0
-RS485_TX_LED
-Text GLabel 4100 2200 0    50   Output ~ 0
-RS485_RX_LED
 Wire Wire Line
 	5650 2450 5800 2450
-Wire Wire Line
-	5600 2950 5700 2950
 Wire Wire Line
 	6750 1950 6750 1900
 Wire Wire Line
 	6750 1900 6650 1900
-Wire Wire Line
-	5250 2450 5350 2450
 Wire Wire Line
 	5250 2950 5400 2950
 Wire Wire Line
@@ -159,68 +151,6 @@ Connection ~ 6200 1900
 Connection ~ 6400 3550
 Connection ~ 7550 2600
 Connection ~ 7550 2300
-Connection ~ 5350 2450
-Connection ~ 5700 2950
-Wire Wire Line
-	5700 2800 5700 2950
-$Comp
-L bottom-board-rescue:GNDD-power #PWR0172
-U 1 1 5522D8E7
-P 3750 3450
-F 0 "#PWR0172" H 3750 3200 50  0001 C CNN
-F 1 "GNDD" H 3750 3300 50  0000 C CNN
-F 2 "" H 3750 3450 60  0000 C CNN
-F 3 "" H 3750 3450 60  0000 C CNN
-	1    3750 3450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5350 1900 5350 2450
-Wire Wire Line
-	4050 2800 5700 2800
-Wire Wire Line
-	4550 1900 5350 1900
-$Comp
-L bottom-board-rescue:GNDD-power #PWR0174
-U 1 1 5522FFC1
-P 4250 2550
-F 0 "#PWR0174" H 4250 2300 50  0001 C CNN
-F 1 "GNDD" H 4250 2400 50  0000 C CNN
-F 2 "" H 4250 2550 60  0000 C CNN
-F 3 "" H 4250 2550 60  0000 C CNN
-	1    4250 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L bottom-board-rescue:BSS84-Transistor_FET Q6
-U 1 1 55FA4B32
-P 4350 1900
-F 0 "Q6" H 4550 1825 50  0000 L CNN
-F 1 "BSS84" H 4550 1900 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 4550 2000 29  0001 C CNN
-F 3 "" H 4350 1900 60  0000 C CNN
-F 4 "BSS84-7-F" H 0   0   50  0001 C CNN "MPN"
-	1    4350 1900
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4250 1600 4250 1700
-Wire Wire Line
-	4250 2100 4250 2200
-Wire Wire Line
-	4250 2500 4250 2550
-Wire Wire Line
-	4100 2200 4250 2200
-Connection ~ 4250 2200
-Wire Wire Line
-	3750 2500 3750 2600
-Wire Wire Line
-	3750 3400 3750 3450
-Wire Wire Line
-	3750 3000 3750 3100
-Wire Wire Line
-	3600 3100 3750 3100
-Connection ~ 3750 3100
 $Comp
 L bottom-board-rescue:R_Small-Device R39
 U 1 1 55FB1923
@@ -290,18 +220,6 @@ F 3 "" H 4750 5650 60  0000 C CNN
 	1    4750 5650
 	1    0    0    -1  
 $EndComp
-$Comp
-L bottom-board-rescue:R_Small-Device R41
-U 1 1 5B60F849
-P 6750 4800
-F 0 "R41" H 6800 4850 50  0000 L CNN
-F 1 "220R" H 6800 4750 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6750 4800 60  0001 C CNN
-F 3 "" H 6750 4800 60  0000 C CNN
-F 4 "ESR03EZPJ221" H -3200 600 50  0001 C CNN "MPN"
-	1    6750 4800
-	0    -1   -1   0   
-$EndComp
 Text GLabel 5600 5000 0    50   Output ~ 0
 RS485_RX+
 Text GLabel 5600 5300 0    50   Output ~ 0
@@ -310,10 +228,6 @@ Text GLabel 5600 4800 0    50   Input ~ 0
 RS485_TX+
 Text GLabel 5600 4900 0    50   Input ~ 0
 RS485_TX-
-Text GLabel 6950 5400 2    50   Input ~ 0
-RS485_TX_LED
-Text GLabel 6950 4800 2    50   Input ~ 0
-RS485_RX_LED
 Wire Wire Line
 	5750 4800 5600 4800
 Wire Wire Line
@@ -338,46 +252,8 @@ Wire Wire Line
 	4950 5600 4950 5450
 Wire Wire Line
 	4750 5650 4750 5600
-Wire Wire Line
-	6650 4800 6550 4800
-Wire Wire Line
-	6650 5400 6550 5400
 Connection ~ 4950 5100
 Connection ~ 4750 5600
-$Comp
-L bottom-board-rescue:GNDD-power #PWR0183
-U 1 1 5B60F872
-P 6650 4950
-F 0 "#PWR0183" H 6650 4700 50  0001 C CNN
-F 1 "GNDD" H 6650 4800 50  0000 C CNN
-F 2 "" H 6650 4950 60  0000 C CNN
-F 3 "" H 6650 4950 60  0000 C CNN
-	1    6650 4950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6550 4900 6650 4900
-Wire Wire Line
-	6650 4900 6650 4950
-$Comp
-L bottom-board-rescue:GNDD-power #PWR0184
-U 1 1 5B60F87A
-P 6650 5600
-F 0 "#PWR0184" H 6650 5350 50  0001 C CNN
-F 1 "GNDD" H 6650 5450 50  0000 C CNN
-F 2 "" H 6650 5600 60  0000 C CNN
-F 3 "" H 6650 5600 60  0000 C CNN
-	1    6650 5600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6550 5500 6650 5500
-Wire Wire Line
-	6650 5500 6650 5600
-Wire Wire Line
-	6950 5400 6850 5400
-Wire Wire Line
-	6950 4800 6850 4800
 $Comp
 L bottom-board-rescue:+12V-power #PWR0176
 U 1 1 5B60F884
@@ -405,14 +281,6 @@ Wire Wire Line
 Wire Wire Line
 	7550 2300 7850 2300
 Wire Wire Line
-	5350 2450 5450 2450
-Wire Wire Line
-	5700 2950 5800 2950
-Wire Wire Line
-	4250 2200 4250 2300
-Wire Wire Line
-	3750 3100 3750 3200
-Wire Wire Line
 	5700 3150 5800 3150
 Wire Wire Line
 	5700 2650 5800 2650
@@ -422,18 +290,6 @@ Wire Wire Line
 	4750 5600 4950 5600
 Wire Wire Line
 	5650 5500 5650 5600
-$Comp
-L bottom-board-rescue:RJ45_LED_Shielded-Connector J15
-U 1 1 5B7F0E1E
-P 6150 5100
-F 0 "J15" H 6150 5674 50  0000 C CNN
-F 1 "RJHSE-5381" H 6150 5765 50  0000 C CNN
-F 2 "Connector_RJ:RJ45_Amphenol_RJHSE538X" V 6150 5125 50  0001 C CNN
-F 3 "" V 6150 5125 50  0001 C CNN
-F 4 "RJHSE-5381" H 6150 5100 50  0001 C CNN "MPN"
-	1    6150 5100
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	4950 5100 5675 5100
 Wire Wire Line
@@ -443,23 +299,6 @@ Wire Wire Line
 Connection ~ 5675 5100
 Wire Wire Line
 	5675 5100 5750 5100
-$Comp
-L bottom-board-rescue:GNDD-power #PWR0180
-U 1 1 5B6371E3
-P 5925 4450
-F 0 "#PWR0180" H 5925 4200 50  0001 C CNN
-F 1 "GNDD" H 5925 4300 50  0000 C CNN
-F 2 "" H 5925 4450 60  0000 C CNN
-F 3 "" H 5925 4450 60  0000 C CNN
-	1    5925 4450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5925 4450 5925 4375
-Wire Wire Line
-	5925 4375 6150 4375
-Wire Wire Line
-	6150 4375 6150 4600
 $Comp
 L bottom-board-rescue:R_Small-Device R?
 U 1 1 5B8069C2
@@ -473,50 +312,6 @@ F 3 "" H 5500 2950 60  0000 C CNN
 F 4 "RMCF0603JT22R0" H 1200 600 50  0001 C CNN "MPN"
 	1    5500 2950
 	0    -1   -1   0   
-$EndComp
-$Comp
-L bottom-board-rescue:BSS84-Transistor_FET Q5
-U 1 1 5B80AEE9
-P 3850 2800
-F 0 "Q5" H 4050 2725 50  0000 L CNN
-F 1 "BSS84" H 4050 2800 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 4050 2900 29  0001 C CNN
-F 3 "" H 3850 2800 60  0000 C CNN
-F 4 "BSS84-7-F" H -500 900 50  0001 C CNN "MPN"
-	1    3850 2800
-	-1   0    0    1   
-$EndComp
-$Comp
-L bottom-board-rescue:C_Small-Device C?
-U 1 1 5B80C0B0
-P 4250 2400
-AR Path="/54F7244B/5B80C0B0" Ref="C?"  Part="1" 
-AR Path="/54F725AE/5B80C0B0" Ref="C?"  Part="1" 
-AR Path="/54F72B97/5B80C0B0" Ref="C?"  Part="1" 
-AR Path="/54F72FB6/5B80C0B0" Ref="C68"  Part="1" 
-F 0 "C68" V 4125 2400 50  0000 C CNN
-F 1 "10uF" V 4050 2400 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4250 2400 60  0001 C CNN
-F 3 "" H 4250 2400 60  0000 C CNN
-F 4 "CL10A106MQ8NNNC" H -1050 -2950 50  0001 C CNN "MPN"
-	1    4250 2400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L bottom-board-rescue:C_Small-Device C?
-U 1 1 5B80EB2C
-P 3750 3300
-AR Path="/54F7244B/5B80EB2C" Ref="C?"  Part="1" 
-AR Path="/54F725AE/5B80EB2C" Ref="C?"  Part="1" 
-AR Path="/54F72B97/5B80EB2C" Ref="C?"  Part="1" 
-AR Path="/54F72FB6/5B80EB2C" Ref="C67"  Part="1" 
-F 0 "C67" V 3625 3300 50  0000 C CNN
-F 1 "10uF" V 3550 3300 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3750 3300 60  0001 C CNN
-F 3 "" H 3750 3300 60  0000 C CNN
-F 4 "CL10A106MQ8NNNC" H -1550 -2050 50  0001 C CNN "MPN"
-	1    3750 3300
-	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	6800 2850 7150 2850
@@ -558,18 +353,6 @@ F 2 "Resistor_SMD:R_0603_1608Metric" H 5550 2450 60  0001 C CNN
 F 3 "" H 5550 2450 60  0000 C CNN
 F 4 "RMCF0603JT22R0" H 1250 100 50  0001 C CNN "MPN"
 	1    5550 2450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L bottom-board-rescue:R_Small-Device R42
-U 1 1 5B82F078
-P 6750 5400
-F 0 "R42" H 6800 5450 50  0000 L CNN
-F 1 "220R" H 6800 5350 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6750 5400 60  0001 C CNN
-F 3 "" H 6750 5400 60  0000 C CNN
-F 4 "ESR03EZPJ221" H -3200 1200 50  0001 C CNN "MPN"
-	1    6750 5400
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -634,30 +417,19 @@ F 3 "" H 5700 1950 50  0001 C CNN
 	1    5700 1950
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5250 2450 5450 2450
+Wire Wire Line
+	5600 2950 5800 2950
 $Comp
-L bottom-board-rescue:+5VD-power #PWR?
-U 1 1 5BB6BE63
-P 4250 1600
-AR Path="/54F7244B/5BB6BE63" Ref="#PWR?"  Part="1" 
-AR Path="/54F72FB6/5BB6BE63" Ref="#PWR075"  Part="1" 
-F 0 "#PWR075" H 4250 1450 50  0001 C CNN
-F 1 "+5VD" H 4250 1740 50  0000 C CNN
-F 2 "" H 4250 1600 50  0001 C CNN
-F 3 "" H 4250 1600 50  0001 C CNN
-	1    4250 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L bottom-board-rescue:+5VD-power #PWR?
-U 1 1 5BB6BF06
-P 3750 2500
-AR Path="/54F7244B/5BB6BF06" Ref="#PWR?"  Part="1" 
-AR Path="/54F72FB6/5BB6BF06" Ref="#PWR074"  Part="1" 
-F 0 "#PWR074" H 3750 2350 50  0001 C CNN
-F 1 "+5VD" H 3750 2640 50  0000 C CNN
-F 2 "" H 3750 2500 50  0001 C CNN
-F 3 "" H 3750 2500 50  0001 C CNN
-	1    3750 2500
-	1    0    0    -1  
+L Connector:RJ45 J?
+U 1 1 631709FF
+P 6150 5100
+F 0 "J?" H 5820 5104 50  0000 R CNN
+F 1 "RJ45" H 5820 5195 50  0000 R CNN
+F 2 "digikey-footprints:Ethernet_Jack_54602-908LF" V 6150 5125 50  0001 C CNN
+F 3 "" V 6150 5125 50  0001 C CNN
+	1    6150 5100
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
