@@ -1416,26 +1416,10 @@ F 4 "RR0816P-103-D" H 235 -189 50  0001 C CNN "MPN"
 	1    4635 5461
 	1    0    0    -1  
 $EndComp
-$Comp
-L bottom-board-rescue:+5VA-power #PWR?
-U 1 1 5E0D8F89
-P 4960 5661
-AR Path="/54F72B97/5E0D8F89" Ref="#PWR?"  Part="1" 
-AR Path="/5B3B40FB/5E0D8F89" Ref="#PWR0235"  Part="1" 
-F 0 "#PWR0235" H 4960 5511 50  0001 C CNN
-F 1 "+5VA" H 4960 5801 50  0000 C CNN
-F 2 "" H 4960 5661 60  0000 C CNN
-F 3 "" H 4960 5661 60  0000 C CNN
-	1    4960 5661
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	4960 5661 4760 5661
 Wire Wire Line
 	4635 5661 4635 5561
 Wire Wire Line
-	4760 5561 4760 5661
-Connection ~ 4760 5661
+	4760 5561 4760 5660
 Wire Wire Line
 	4760 5661 4635 5661
 Wire Wire Line
@@ -2115,4 +2099,20 @@ Wire Wire Line
 	10480 5640 10480 6030
 Wire Wire Line
 	10480 6030 10680 6030
+$Comp
+L power:+3V0 #PWR?
+U 1 1 6220C4B4
+P 4995 5660
+F 0 "#PWR?" H 4995 5510 50  0001 C CNN
+F 1 "+3V0" V 5010 5788 50  0000 L CNN
+F 2 "" H 4995 5660 50  0001 C CNN
+F 3 "" H 4995 5660 50  0001 C CNN
+	1    4995 5660
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4995 5660 4760 5660
+Connection ~ 4760 5660
+Wire Wire Line
+	4760 5660 4760 5661
 $EndSCHEMATC
