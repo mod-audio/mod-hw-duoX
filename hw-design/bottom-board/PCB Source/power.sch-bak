@@ -88,10 +88,10 @@ L bottom-board-rescue:D_Schottky-Device D1
 U 1 1 5B4F66E6
 P 3350 1950
 F 0 "D1" H 3350 2050 50  0000 C CNN
-F 1 "MBR230" H 3350 1850 50  0000 C CNN
+F 1 "RSX205" H 3350 1850 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-123F" H 3350 1950 50  0001 C CNN
 F 3 "" H 3350 1950 50  0001 C CNN
-F 4 "MBR230LSFT1G" H 500 -600 50  0001 C CNN "MPN"
+F 4 "RSX205LAM30TR" H 500 -600 50  0001 C CNN "MPN"
 	1    3350 1950
 	-1   0    0    1   
 $EndComp
@@ -286,10 +286,10 @@ L bottom-board-rescue:D_Schottky-Device D2
 U 1 1 5B643709
 P 3350 3700
 F 0 "D2" H 3350 3800 50  0000 C CNN
-F 1 "MBR230" H 3350 3600 50  0000 C CNN
+F 1 "RSX205" H 3350 3600 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-123F" H 3350 3700 50  0001 C CNN
 F 3 "" H 3350 3700 50  0001 C CNN
-F 4 "MBR230LSFT1G" H 500 1150 50  0001 C CNN "MPN"
+F 4 "RSX205LAM30TR" H 500 1150 50  0001 C CNN "MPN"
 	1    3350 3700
 	-1   0    0    1   
 $EndComp
@@ -313,12 +313,12 @@ Wire Wire Line
 Text Notes 8795 5515 0    60   ~ 0
 Controller power connector
 $Comp
-L Device:Jumper JP?
+L Device:Jumper JP1
 U 1 1 617E85F0
 P 9420 4270
-F 0 "JP?" H 9420 4534 50  0000 C CNN
+F 0 "JP1" H 9420 4534 50  0000 C CNN
 F 1 "Jumper" H 9420 4443 50  0000 C CNN
-F 2 "" H 9420 4270 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm" H 9420 4270 50  0001 C CNN
 F 3 "~" H 9420 4270 50  0001 C CNN
 	1    9420 4270
 	1    0    0    -1  
@@ -343,10 +343,10 @@ Wire Wire Line
 	4510 3700 4510 3875
 Connection ~ 4185 3700
 $Comp
-L bottom-board-rescue:C_Small-Device C?
+L bottom-board-rescue:C_Small-Device C5
 U 1 1 61810EC3
 P 4850 3935
-F 0 "C?" H 4935 3850 50  0000 C CNN
+F 0 "C5" H 4935 3850 50  0000 C CNN
 F 1 "1nF" H 4940 4005 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4850 3935 60  0001 C CNN
 F 3 "" H 4850 3935 60  0000 C CNN
@@ -355,10 +355,10 @@ F 4 "C0603X7R500-103KNP" H -450 -1415 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L bottom-board-rescue:C_Small-Device C?
+L bottom-board-rescue:C_Small-Device C40
 U 1 1 61817703
 P 5070 3935
-F 0 "C?" H 5155 3850 50  0000 C CNN
+F 0 "C40" H 5155 3850 50  0000 C CNN
 F 1 "100nF" H 5210 4010 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5070 3935 60  0001 C CNN
 F 3 "" H 5070 3935 60  0000 C CNN
@@ -411,13 +411,14 @@ Connection ~ 4710 3700
 Wire Wire Line
 	4710 3700 4850 3700
 $Comp
-L Regulator_Switching:LM2596S-5 U?
+L Regulator_Switching:LM2596S-5 U15
 U 1 1 618312DF
 P 6090 3800
-F 0 "U?" H 6090 4167 50  0000 C CNN
+F 0 "U15" H 6090 4167 50  0000 C CNN
 F 1 "LM2596S-5" H 6090 4076 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 6140 3550 50  0001 L CIN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2596.pdf" H 6090 3800 50  0001 C CNN
+F 4 "TS2596CM550 RNG" H 6090 3800 50  0001 C CNN "MPN"
 	1    6090 3800
 	1    0    0    -1  
 $EndComp
@@ -425,10 +426,10 @@ Wire Wire Line
 	5070 3700 5590 3700
 Connection ~ 5070 3700
 $Comp
-L bottom-board-rescue:GNDD-power #PWR?
+L bottom-board-rescue:GNDD-power #PWR0106
 U 1 1 61837415
 P 4185 4120
-F 0 "#PWR?" H 4185 3870 50  0001 C CNN
+F 0 "#PWR0106" H 4185 3870 50  0001 C CNN
 F 1 "GNDD" H 4185 3970 50  0000 C CNN
 F 2 "" H 4185 4120 60  0000 C CNN
 F 3 "" H 4185 4120 60  0000 C CNN
@@ -436,10 +437,10 @@ F 3 "" H 4185 4120 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bottom-board-rescue:GNDD-power #PWR?
+L bottom-board-rescue:GNDD-power #PWR0108
 U 1 1 61837F6D
 P 4510 4125
-F 0 "#PWR?" H 4510 3875 50  0001 C CNN
+F 0 "#PWR0108" H 4510 3875 50  0001 C CNN
 F 1 "GNDD" H 4510 3975 50  0000 C CNN
 F 2 "" H 4510 4125 60  0000 C CNN
 F 3 "" H 4510 4125 60  0000 C CNN
@@ -447,10 +448,10 @@ F 3 "" H 4510 4125 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bottom-board-rescue:GNDD-power #PWR?
+L bottom-board-rescue:GNDD-power #PWR0110
 U 1 1 61838262
 P 4850 4120
-F 0 "#PWR?" H 4850 3870 50  0001 C CNN
+F 0 "#PWR0110" H 4850 3870 50  0001 C CNN
 F 1 "GNDD" H 4850 3970 50  0000 C CNN
 F 2 "" H 4850 4120 60  0000 C CNN
 F 3 "" H 4850 4120 60  0000 C CNN
@@ -460,10 +461,10 @@ $EndComp
 Wire Wire Line
 	4850 4120 4850 4035
 $Comp
-L bottom-board-rescue:GNDD-power #PWR?
+L bottom-board-rescue:GNDD-power #PWR0112
 U 1 1 61838EDA
 P 5070 4130
-F 0 "#PWR?" H 5070 3880 50  0001 C CNN
+F 0 "#PWR0112" H 5070 3880 50  0001 C CNN
 F 1 "GNDD" H 5070 3980 50  0000 C CNN
 F 2 "" H 5070 4130 60  0000 C CNN
 F 3 "" H 5070 4130 60  0000 C CNN
@@ -473,10 +474,10 @@ $EndComp
 Wire Wire Line
 	5070 4130 5070 4035
 $Comp
-L bottom-board-rescue:GNDD-power #PWR?
+L bottom-board-rescue:GNDD-power #PWR0116
 U 1 1 6183966A
 P 5460 4135
-F 0 "#PWR?" H 5460 3885 50  0001 C CNN
+F 0 "#PWR0116" H 5460 3885 50  0001 C CNN
 F 1 "GNDD" H 5460 3985 50  0000 C CNN
 F 2 "" H 5460 4135 60  0000 C CNN
 F 3 "" H 5460 4135 60  0000 C CNN
@@ -488,10 +489,10 @@ Wire Wire Line
 Wire Wire Line
 	5460 3900 5460 4135
 $Comp
-L bottom-board-rescue:GNDD-power #PWR?
+L bottom-board-rescue:GNDD-power #PWR0121
 U 1 1 6183B4C7
 P 6090 4135
-F 0 "#PWR?" H 6090 3885 50  0001 C CNN
+F 0 "#PWR0121" H 6090 3885 50  0001 C CNN
 F 1 "GNDD" H 6090 3985 50  0000 C CNN
 F 2 "" H 6090 4135 60  0000 C CNN
 F 3 "" H 6090 4135 60  0000 C CNN
@@ -501,10 +502,10 @@ $EndComp
 Wire Wire Line
 	6090 4135 6090 4100
 $Comp
-L bottom-board-rescue:GNDD-power #PWR?
+L bottom-board-rescue:GNDD-power #PWR0123
 U 1 1 6183D80C
 P 6920 4350
-F 0 "#PWR?" H 6920 4100 50  0001 C CNN
+F 0 "#PWR0123" H 6920 4100 50  0001 C CNN
 F 1 "GNDD" H 6920 4200 50  0000 C CNN
 F 2 "" H 6920 4350 60  0000 C CNN
 F 3 "" H 6920 4350 60  0000 C CNN
@@ -512,21 +513,22 @@ F 3 "" H 6920 4350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bottom-board-rescue:D_Schottky-Device D?
+L bottom-board-rescue:D_Schottky-Device D21
 U 1 1 6183E29F
 P 6920 4130
-F 0 "D?" V 6874 4209 50  0000 L CNN
+F 0 "D21" V 6874 4209 50  0000 L CNN
 F 1 "D_Schottky-Device" V 7010 3405 50  0000 L CNN
-F 2 "" H 6920 4130 50  0001 C CNN
+F 2 "Diode_SMD:D_MELF" H 6920 4130 50  0001 C CNN
 F 3 "" H 6920 4130 50  0001 C CNN
+F 4 "TSSA3U45 R3G" V 6920 4130 50  0001 C CNN "MPN"
 	1    6920 4130
 	0    1    1    0   
 $EndComp
 $Comp
-L bottom-board-rescue:L-Device L?
+L bottom-board-rescue:L-Device L2
 U 1 1 6184282B
 P 7240 3900
-F 0 "L?" V 7185 3900 50  0000 C CNN
+F 0 "L2" V 7185 3900 50  0000 C CNN
 F 1 "47UH 2A 135 MOHM" V 7310 3895 50  0000 C CNN
 F 2 "Uno:SRN8040TA" H 7293 3809 50  0001 L CNN
 F 3 "" H 7240 3900 50  0000 C CNN
@@ -537,10 +539,10 @@ $EndComp
 Wire Wire Line
 	6590 3900 6920 3900
 $Comp
-L bottom-board-rescue:C_Small-Device C?
+L bottom-board-rescue:C_Small-Device C42
 U 1 1 61845521
 P 7580 4160
-F 0 "C?" H 7665 4075 50  0000 C CNN
+F 0 "C42" H 7665 4075 50  0000 C CNN
 F 1 "100nF" H 7720 4235 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7580 4160 60  0001 C CNN
 F 3 "" H 7580 4160 60  0000 C CNN
@@ -549,10 +551,10 @@ F 4 "GCM188R71C104KA37D" H 2280 -1190 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP_Small C?
+L Device:CP_Small C43
 U 1 1 618473C1
 P 7885 4170
-F 0 "C?" H 7973 4216 50  0000 L CNN
+F 0 "C43" H 7973 4216 50  0000 L CNN
 F 1 "470uF" H 7973 4125 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_8x10.5" H 7885 4170 50  0001 C CNN
 F 3 "" H 7885 4170 50  0001 C CNN
@@ -575,10 +577,10 @@ Wire Wire Line
 	7885 4070 7885 3900
 Connection ~ 7580 3900
 $Comp
-L bottom-board-rescue:GNDD-power #PWR?
+L bottom-board-rescue:GNDD-power #PWR0124
 U 1 1 6184EFFB
 P 7580 4350
-F 0 "#PWR?" H 7580 4100 50  0001 C CNN
+F 0 "#PWR0124" H 7580 4100 50  0001 C CNN
 F 1 "GNDD" H 7580 4200 50  0000 C CNN
 F 2 "" H 7580 4350 60  0000 C CNN
 F 3 "" H 7580 4350 60  0000 C CNN
@@ -586,10 +588,10 @@ F 3 "" H 7580 4350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bottom-board-rescue:GNDD-power #PWR?
+L bottom-board-rescue:GNDD-power #PWR0125
 U 1 1 6184F4A5
 P 7885 4355
-F 0 "#PWR?" H 7885 4105 50  0001 C CNN
+F 0 "#PWR0125" H 7885 4105 50  0001 C CNN
 F 1 "GNDD" H 7885 4205 50  0000 C CNN
 F 2 "" H 7885 4355 60  0000 C CNN
 F 3 "" H 7885 4355 60  0000 C CNN
@@ -612,13 +614,14 @@ Connection ~ 7680 3900
 Wire Wire Line
 	7680 3900 7810 3900
 $Comp
-L bottom-board-rescue:LD1117S50TR_SOT223-Regulator_Linear U?
+L bottom-board-rescue:LD1117S50TR_SOT223-Regulator_Linear U1
 U 1 1 618628D7
 P 4425 1950
-F 0 "U?" H 4425 2192 50  0000 C CNN
-F 1 "LD1117S50TR_SOT223-Regulator_Linear" H 4405 1145 50  0000 C CNN
+F 0 "U1" H 4425 2192 50  0000 C CNN
+F 1 "TL750M10CKVURG3" H 4420 1315 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 4425 2150 50  0001 C CNN
 F 3 "" H 4525 1700 50  0001 C CNN
+F 4 "TL750M10CKVURG3" H 4425 1950 50  0001 C CNN "MPN"
 	1    4425 1950
 	1    0    0    -1  
 $EndComp
@@ -627,9 +630,9 @@ L bottom-board-rescue:CP_Small-Device CA?
 U 1 1 61863CA0
 P 3625 2175
 AR Path="/54F72C8D/61863CA0" Ref="CA?"  Part="1" 
-AR Path="/54F7244B/61863CA0" Ref="CA?"  Part="1" 
-F 0 "CA?" H 3700 2225 50  0000 L CNN
-F 1 "10uF" H 3700 2150 50  0000 L CNN
+AR Path="/54F7244B/61863CA0" Ref="CA15"  Part="1" 
+F 0 "CA15" H 3355 2200 50  0000 L CNN
+F 1 "10uF" H 3360 2130 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_4x5.7" H 3625 2175 60  0001 C CNN
 F 3 "" H 3625 2175 60  0000 C CNN
 F 4 "EEE-HB1C100R" H -1475 675 50  0001 C CNN "MPN"
@@ -637,10 +640,10 @@ F 4 "EEE-HB1C100R" H -1475 675 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L bottom-board-rescue:C_Small-Device C?
+L bottom-board-rescue:C_Small-Device C4
 U 1 1 6186462F
 P 3955 2160
-F 0 "C?" H 4040 2075 50  0000 C CNN
+F 0 "C4" H 4040 2075 50  0000 C CNN
 F 1 "100nF" H 4095 2235 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3955 2160 60  0001 C CNN
 F 3 "" H 3955 2160 60  0000 C CNN
@@ -651,10 +654,10 @@ $EndComp
 Wire Wire Line
 	3500 1950 3625 1950
 $Comp
-L bottom-board-rescue:GNDD-power #PWR?
+L bottom-board-rescue:GNDD-power #PWR0126
 U 1 1 6187F1C6
 P 3625 2300
-F 0 "#PWR?" H 3625 2050 50  0001 C CNN
+F 0 "#PWR0126" H 3625 2050 50  0001 C CNN
 F 1 "GNDD" H 3625 2150 50  0000 C CNN
 F 2 "" H 3625 2300 60  0000 C CNN
 F 3 "" H 3625 2300 60  0000 C CNN
@@ -662,10 +665,10 @@ F 3 "" H 3625 2300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bottom-board-rescue:GNDD-power #PWR?
+L bottom-board-rescue:GNDD-power #PWR0140
 U 1 1 61880A98
 P 3955 2290
-F 0 "#PWR?" H 3955 2040 50  0001 C CNN
+F 0 "#PWR0140" H 3955 2040 50  0001 C CNN
 F 1 "GNDD" H 3955 2140 50  0000 C CNN
 F 2 "" H 3955 2290 60  0000 C CNN
 F 3 "" H 3955 2290 60  0000 C CNN
@@ -687,10 +690,10 @@ Connection ~ 3955 1950
 Wire Wire Line
 	3955 1950 4125 1950
 $Comp
-L bottom-board-rescue:GNDA-power #PWR?
+L bottom-board-rescue:GNDA-power #PWR0172
 U 1 1 6188A8BE
 P 4425 2330
-F 0 "#PWR?" H 4425 2080 50  0001 C CNN
+F 0 "#PWR0172" H 4425 2080 50  0001 C CNN
 F 1 "GNDA" H 4425 2180 50  0000 C CNN
 F 2 "" H 4425 2330 60  0000 C CNN
 F 3 "" H 4425 2330 60  0000 C CNN
@@ -700,10 +703,10 @@ $EndComp
 Wire Wire Line
 	4425 2330 4425 2250
 $Comp
-L bottom-board-rescue:C_Small-Device C?
+L bottom-board-rescue:C_Small-Device C11
 U 1 1 618A329F
 P 4980 2175
-F 0 "C?" H 5065 2090 50  0000 C CNN
+F 0 "C11" H 5065 2090 50  0000 C CNN
 F 1 "100nF" H 4840 2080 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4980 2175 60  0001 C CNN
 F 3 "" H 4980 2175 60  0000 C CNN
@@ -716,8 +719,8 @@ L bottom-board-rescue:CP_Small-Device CA?
 U 1 1 618A37D0
 P 5190 2180
 AR Path="/54F72C8D/618A37D0" Ref="CA?"  Part="1" 
-AR Path="/54F7244B/618A37D0" Ref="CA?"  Part="1" 
-F 0 "CA?" H 5265 2230 50  0000 L CNN
+AR Path="/54F7244B/618A37D0" Ref="CA16"  Part="1" 
+F 0 "CA16" H 5265 2230 50  0000 L CNN
 F 1 "100uF" H 5265 2155 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 5190 2180 60  0001 C CNN
 F 3 "" H 5190 2180 60  0000 C CNN
@@ -726,10 +729,10 @@ F 4 "107SML016M" H 90  680 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L bottom-board-rescue:GNDA-power #PWR?
+L bottom-board-rescue:GNDA-power #PWR0173
 U 1 1 618ADE18
 P 4980 2325
-F 0 "#PWR?" H 4980 2075 50  0001 C CNN
+F 0 "#PWR0173" H 4980 2075 50  0001 C CNN
 F 1 "GNDA" H 4980 2175 50  0000 C CNN
 F 2 "" H 4980 2325 60  0000 C CNN
 F 3 "" H 4980 2325 60  0000 C CNN
@@ -754,10 +757,10 @@ Wire Wire Line
 Wire Wire Line
 	6140 2275 6140 2215
 $Comp
-L bottom-board-rescue:GNDA-power #PWR?
+L bottom-board-rescue:GNDA-power #PWR0174
 U 1 1 6189E6EB
 P 6140 2275
-F 0 "#PWR?" H 6140 2025 50  0001 C CNN
+F 0 "#PWR0174" H 6140 2025 50  0001 C CNN
 F 1 "GNDA" H 6140 2125 50  0000 C CNN
 F 2 "" H 6140 2275 60  0000 C CNN
 F 3 "" H 6140 2275 60  0000 C CNN
@@ -780,10 +783,10 @@ Wire Wire Line
 Wire Wire Line
 	6055 1950 6140 1950
 $Comp
-L bottom-board-rescue:C_Small-Device C?
+L bottom-board-rescue:C_Small-Device C41
 U 1 1 61892FA3
 P 6140 2115
-F 0 "C?" H 6225 2030 50  0000 C CNN
+F 0 "C41" H 6225 2030 50  0000 C CNN
 F 1 "100nF" H 6000 2020 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6140 2115 60  0001 C CNN
 F 3 "" H 6140 2115 60  0000 C CNN
@@ -792,10 +795,10 @@ F 4 "GCM188R71C104KA37D" H 840 -3235 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+10V #PWR?
+L power:+10V #PWR0180
 U 1 1 6188F0DB
 P 5035 1850
-F 0 "#PWR?" H 5035 1700 50  0001 C CNN
+F 0 "#PWR0180" H 5035 1700 50  0001 C CNN
 F 1 "+10V" H 5050 2023 50  0000 C CNN
 F 2 "" H 5035 1850 50  0001 C CNN
 F 3 "" H 5035 1850 50  0001 C CNN
@@ -844,7 +847,7 @@ L bottom-board-rescue:LD1117S50TR_SOT223-Regulator_Linear U2
 U 1 1 5BB0B54F
 P 5755 1950
 F 0 "U2" H 5755 2192 50  0000 C CNN
-F 1 "LD1117S50TR_SOT223" H 5760 1160 50  0000 C CNN
+F 1 "LD1117S50TR" H 5770 1295 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 5755 2150 50  0001 C CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf" H 5855 1700 50  0001 C CNN
 F 4 "LD1117S50TR" H 5755 1950 50  0001 C CNN "MPN"
@@ -899,10 +902,10 @@ Connection ~ 5035 1950
 Wire Wire Line
 	5035 1950 5190 1950
 $Comp
-L bottom-board-rescue:C_Small-Device C?
+L bottom-board-rescue:C_Small-Device C2
 U 1 1 617E5398
 P 2575 2260
-F 0 "C?" H 2660 2175 50  0000 C CNN
+F 0 "C2" H 2660 2175 50  0000 C CNN
 F 1 "100nF" H 2715 2335 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2575 2260 60  0001 C CNN
 F 3 "" H 2575 2260 60  0000 C CNN
@@ -911,10 +914,10 @@ F 4 "GCM188R71C104KA37D" H -2725 -3090 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L bottom-board-rescue:GNDD-power #PWR?
+L bottom-board-rescue:GNDD-power #PWR0183
 U 1 1 617E539E
 P 2575 2390
-F 0 "#PWR?" H 2575 2140 50  0001 C CNN
+F 0 "#PWR0183" H 2575 2140 50  0001 C CNN
 F 1 "GNDD" H 2575 2240 50  0000 C CNN
 F 2 "" H 2575 2390 60  0000 C CNN
 F 3 "" H 2575 2390 60  0000 C CNN

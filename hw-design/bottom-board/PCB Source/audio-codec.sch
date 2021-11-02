@@ -1163,13 +1163,14 @@ Wire Wire Line
 Text Notes 895  6500 0    60   ~ 0
 The series resistor at I2S_MCLK \nmust only be placed when the xtal\nis not placed, and vice versa.
 $Comp
-L Device:Ferrite_Bead FB?
+L Device:Ferrite_Bead FB1
 U 1 1 618FF74E
 P 1850 1170
-F 0 "FB?" V 1576 1170 50  0000 C CNN
+F 0 "FB1" V 1576 1170 50  0000 C CNN
 F 1 "Ferrite_Bead" V 1665 1065 50  0000 C CNN
-F 2 "" V 1780 1170 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1780 1170 50  0001 C CNN
 F 3 "~" H 1850 1170 50  0001 C CNN
+F 4 "BLM18HD102SH1D" V 1850 1170 50  0001 C CNN "MPN"
 	1    1850 1170
 	0    1    1    0   
 $EndComp
@@ -1221,10 +1222,10 @@ Connection ~ 7575 4450
 Wire Wire Line
 	7575 4450 7650 4450
 $Comp
-L bottom-board-rescue:GNDA-power #PWR?
+L bottom-board-rescue:GNDA-power #PWR0184
 U 1 1 618DBE7A
 P 7250 4550
-F 0 "#PWR?" H 7250 4300 50  0001 C CNN
+F 0 "#PWR0184" H 7250 4300 50  0001 C CNN
 F 1 "GNDA" H 7330 4415 50  0000 C CNN
 F 2 "" H 7250 4550 60  0000 C CNN
 F 3 "" H 7250 4550 60  0000 C CNN
