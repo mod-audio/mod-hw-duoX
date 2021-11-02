@@ -1398,8 +1398,6 @@ Wire Notes Line
 	7595 2445 10340 2445
 Text GLabel 4605 6040 0    50   Output ~ 0
 VCC5V_SYS
-Text GLabel 4605 5940 0    50   Output ~ 0
-VCC3V0_CODEC
 Text GLabel 4610 5840 0    50   Output ~ 0
 VCC1V8_CODEC
 Text GLabel 4615 5740 0    50   Output ~ 0
@@ -1417,8 +1415,6 @@ Wire Wire Line
 Wire Wire Line
 	4755 5840 4610 5840
 Wire Wire Line
-	4755 5940 4605 5940
-Wire Wire Line
 	4755 6040 4605 6040
 NoConn ~ 4755 6440
 NoConn ~ 4755 6340
@@ -1429,8 +1425,6 @@ Text GLabel 5875 5640 2    50   Output ~ 0
 VCC3V3_S0
 Text GLabel 5875 5740 2    50   Output ~ 0
 VCC1V8_CODEC
-Text GLabel 5875 5840 2    50   Output ~ 0
-VCC3V0_CODEC
 Text GLabel 5870 5940 2    50   Output ~ 0
 VCC_RTC
 Wire Wire Line
@@ -1440,8 +1434,6 @@ Wire Wire Line
 Wire Wire Line
 	5755 5740 5875 5740
 Wire Wire Line
-	5755 5840 5875 5840
-Wire Wire Line
 	5755 5940 5870 5940
 Text GLabel 9590 1755 1    50   Output ~ 0
 VDDIO_WL
@@ -1449,8 +1441,6 @@ Text GLabel 9910 1350 1    50   Output ~ 0
 VCC3V3_S0
 Text GLabel 10240 1710 1    50   Output ~ 0
 VCC1V8_CODEC
-Text GLabel 8330 1750 1    50   Output ~ 0
-VCC3V0_CODEC
 Text GLabel 8650 1270 1    50   Output ~ 0
 VCC_RTC
 Text GLabel 9300 1355 1    50   Output ~ 0
@@ -1630,8 +1620,6 @@ F 4 "GCM188R71C104KA37D" H 3030 -3350 50  0001 C CNN "MPN"
 	1    8330 2000
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	8330 1750 8330 1850
 Wire Wire Line
 	8330 2100 8330 2150
 Wire Wire Line
@@ -1881,4 +1869,47 @@ F 3 "" H 8950 1235 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	8950 1235 8950 1850
+$Comp
+L power:+3V0 #PWR0261
+U 1 1 640840DE
+P 8330 1335
+F 0 "#PWR0261" H 8330 1185 50  0001 C CNN
+F 1 "+3V0" H 8345 1508 50  0000 C CNN
+F 2 "" H 8330 1335 50  0001 C CNN
+F 3 "" H 8330 1335 50  0001 C CNN
+	1    8330 1335
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8330 1335 8330 1850
+$Comp
+L power:+3V0 #PWR0268
+U 1 1 6409B0C6
+P 6615 5825
+F 0 "#PWR0268" H 6615 5675 50  0001 C CNN
+F 1 "+3V0" H 6630 5998 50  0000 C CNN
+F 2 "" H 6615 5825 50  0001 C CNN
+F 3 "" H 6615 5825 50  0001 C CNN
+	1    6615 5825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6615 5840 6615 5825
+Wire Wire Line
+	5755 5840 6615 5840
+$Comp
+L power:+3V0 #PWR0316
+U 1 1 640B992F
+P 3890 5915
+F 0 "#PWR0316" H 3890 5765 50  0001 C CNN
+F 1 "+3V0" H 3905 6088 50  0000 C CNN
+F 2 "" H 3890 5915 50  0001 C CNN
+F 3 "" H 3890 5915 50  0001 C CNN
+	1    3890 5915
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3890 5940 3890 5915
+Wire Wire Line
+	3890 5940 4755 5940
 $EndSCHEMATC

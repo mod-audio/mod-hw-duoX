@@ -14,28 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L bottom-board-rescue:+12VA-power #PWR011
-U 1 1 55167A27
-P 9855 800
-F 0 "#PWR011" H 9855 650 50  0001 C CNN
-F 1 "+12VA" H 9855 940 50  0000 C CNN
-F 2 "" H 9855 800 60  0000 C CNN
-F 3 "" H 9855 800 60  0000 C CNN
-	1    9855 800 
-	1    0    0    -1  
-$EndComp
-$Comp
-L bottom-board-rescue:PWR_FLAG-power #FLG02
-U 1 1 55169F5C
-P 9855 950
-F 0 "#FLG02" H 9855 1045 50  0001 C CNN
-F 1 "PWR_FLAG" H 9855 1130 50  0000 C CNN
-F 2 "" H 9855 950 60  0000 C CNN
-F 3 "" H 9855 950 60  0000 C CNN
-	1    9855 950 
-	-1   0    0    1   
-$EndComp
-$Comp
 L bottom-board-rescue:GNDA-power #PWR022
 U 1 1 55414B11
 P 9070 4600
@@ -79,8 +57,6 @@ F 3 "" H 10355 950 60  0000 C CNN
 	1    10355 950 
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	9855 800  9855 950 
 Wire Wire Line
 	10355 800  10355 950 
 $Comp

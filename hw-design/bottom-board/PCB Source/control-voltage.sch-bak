@@ -1199,8 +1199,8 @@ P 7300 5065
 F 0 "U10" H 7250 5090 50  0000 C CNN
 F 1 "LM358" H 7300 5265 50  0000 C CNN
 F 2 "Package_SO:TSSOP-8_3x3mm_P0.65mm" H 7300 5065 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 7300 5065 50  0001 C CNN
-F 4 "LM358DGKR" H 7300 5065 50  0001 C CNN "MPN"
+F 3 "" H 7300 5065 50  0001 C CNN
+F 4 "TLV272CM8-13" H 7300 5065 50  0001 C CNN "MPN"
 	1    7300 5065
 	1    0    0    -1  
 $EndComp
@@ -1211,7 +1211,7 @@ P 7300 5790
 F 0 "U10" H 7275 5790 50  0000 C CNN
 F 1 "LM358" H 7300 5990 50  0000 C CNN
 F 2 "Package_SO:TSSOP-8_3x3mm_P0.65mm" H 7300 5790 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 7300 5790 50  0001 C CNN
+F 3 "" H 7300 5790 50  0001 C CNN
 F 4 "LM358DGKR" H 7300 5790 50  0001 C CNN "MPN"
 	2    7300 5790
 	1    0    0    -1  
@@ -1223,7 +1223,7 @@ P 10965 3518
 F 0 "U10" H 10923 3564 50  0000 L CNN
 F 1 "LM358" H 10923 3473 50  0000 L CNN
 F 2 "Package_SO:TSSOP-8_3x3mm_P0.65mm" H 10965 3518 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 10965 3518 50  0001 C CNN
+F 3 "" H 10965 3518 50  0001 C CNN
 	3    10965 3518
 	1    0    0    -1  
 $EndComp
@@ -1368,8 +1368,8 @@ F 3 "" H 10865 3868 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	10865 3868 10865 3818
-Text Notes 6225 6390 0    60   ~ 0
-Amplify the signel by a factor of 2, to scale back to the 0 to 10V range
+Text Notes 6205 6490 0    60   ~ 0
+Amplify the signel by a factor of 2, to scale back to the 0 to 10V range\nNeeds to be rail to rail with 10V as supply
 $Comp
 L power:+5VP #PWR0187
 U 1 1 5E06B313
@@ -2101,8 +2101,8 @@ U 1 1 6403CA77
 P 10785 5495
 AR Path="/54F725AE/6403CA77" Ref="#PWR?"  Part="1" 
 AR Path="/54F72C8D/6403CA77" Ref="#PWR?"  Part="1" 
-AR Path="/5B3B40FB/6403CA77" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10785 5245 50  0001 C CNN
+AR Path="/5B3B40FB/6403CA77" Ref="#PWR0331"  Part="1" 
+F 0 "#PWR0331" H 10785 5245 50  0001 C CNN
 F 1 "GNDD" V 10775 5295 50  0000 C CNN
 F 2 "" H 10785 5495 60  0000 C CNN
 F 3 "" H 10785 5495 60  0000 C CNN
@@ -2115,8 +2115,8 @@ U 1 1 64056BC3
 P 1230 6260
 AR Path="/54F725AE/64056BC3" Ref="#PWR?"  Part="1" 
 AR Path="/54F72C8D/64056BC3" Ref="#PWR?"  Part="1" 
-AR Path="/5B3B40FB/64056BC3" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1230 6010 50  0001 C CNN
+AR Path="/5B3B40FB/64056BC3" Ref="#PWR0332"  Part="1" 
+F 0 "#PWR0332" H 1230 6010 50  0001 C CNN
 F 1 "GNDD" V 1220 6060 50  0000 C CNN
 F 2 "" H 1230 6260 60  0000 C CNN
 F 3 "" H 1230 6260 60  0000 C CNN
