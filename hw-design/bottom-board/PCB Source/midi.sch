@@ -410,20 +410,6 @@ Wire Wire Line
 Wire Wire Line
 	7390 3050 7440 3050
 $Comp
-L power:+10V #PWR?
-U 1 1 62949489
-P 8090 3000
-AR Path="/54F72C8D/62949489" Ref="#PWR?"  Part="1" 
-AR Path="/54F72F64/62949489" Ref="#PWR?"  Part="1" 
-AR Path="/54F72FB4/62949489" Ref="#PWR0310"  Part="1" 
-F 0 "#PWR0310" H 8090 2850 50  0001 C CNN
-F 1 "+10V" H 8105 3173 50  0000 C CNN
-F 2 "" H 8090 3000 50  0001 C CNN
-F 3 "" H 8090 3000 50  0001 C CNN
-	1    8090 3000
-	1    0    0    -1  
-$EndComp
-$Comp
 L bottom-board-rescue:GNDD-power #PWR0311
 U 1 1 62952BDE
 P 7390 3100
@@ -439,4 +425,15 @@ Wire Wire Line
 Connection ~ 7740 3650
 Wire Wire Line
 	7740 3650 7800 3650
+$Comp
+L bottom-board-rescue:+5VD-power #PWR0300
+U 1 1 64390BDB
+P 8090 3000
+F 0 "#PWR0300" H 8090 2850 50  0001 C CNN
+F 1 "+5VD" H 8090 3140 50  0000 C CNN
+F 2 "" H 8090 3000 50  0001 C CNN
+F 3 "" H 8090 3000 50  0001 C CNN
+	1    8090 3000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -14,18 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L bottom-board-rescue:LM4811-local-components U14
-U 1 1 550D498D
-P 6150 3050
-F 0 "U14" H 6150 3150 60  0000 C CNN
-F 1 "LM4811" H 6150 3050 60  0000 C CNN
-F 2 "Package_SO:MSOP-10_3x3mm_P0.5mm" H 6150 3050 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm4811.pdf" H 6150 3050 60  0001 C CNN
-F 4 "LM4811MM/NOPB" H 800 1050 50  0001 C CNN "MPN"
-	1    6150 3050
-	1    0    0    -1  
-$EndComp
-$Comp
 L bottom-board-rescue:GNDA-power #PWR0150
 U 1 1 550C34F1
 P 7640 3365
@@ -353,8 +341,6 @@ Text GLabel 8110 2915 2    50   Output ~ 0
 HP_RIGHT
 Text GLabel 8110 2750 2    50   Output ~ 0
 HP_LEFT
-Wire Wire Line
-	7085 2750 7230 2750
 $Comp
 L bottom-board-rescue:CP_Small-Device CA?
 U 1 1 5B6A0A9C
@@ -638,55 +624,6 @@ Wire Wire Line
 	2850 2995 2850 3035
 Wire Wire Line
 	2850 3235 2850 3300
-Wire Wire Line
-	7580 1740 7530 1740
-$Comp
-L bottom-board-rescue:BAT54S-Diode D?
-U 1 1 62533F5B
-P 7230 1740
-AR Path="/54F72B97/62533F5B" Ref="D?"  Part="1" 
-AR Path="/54F72C8D/62533F5B" Ref="D?"  Part="1" 
-AR Path="/54F72F64/62533F5B" Ref="D27"  Part="1" 
-F 0 "D27" H 7255 1640 50  0000 L CNN
-F 1 "BAT54S" H 7230 1840 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 7305 1865 50  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 7110 1740 50  0001 C CNN
-F 4 "BAT54SFILM" V 7230 1740 50  0001 C CNN "MPN"
-	1    7230 1740
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7580 1740 7580 1690
-$Comp
-L bottom-board-rescue:GNDA-power #PWR?
-U 1 1 62533F62
-P 6880 1790
-AR Path="/54F72C8D/62533F62" Ref="#PWR?"  Part="1" 
-AR Path="/54F72F64/62533F62" Ref="#PWR0300"  Part="1" 
-F 0 "#PWR0300" H 6880 1540 50  0001 C CNN
-F 1 "GNDA" H 6880 1640 50  0000 C CNN
-F 2 "" H 6880 1790 60  0000 C CNN
-F 3 "" H 6880 1790 60  0000 C CNN
-	1    6880 1790
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6880 1790 6880 1740
-Wire Wire Line
-	6880 1740 6930 1740
-$Comp
-L power:+10V #PWR?
-U 1 1 62533F6A
-P 7580 1690
-AR Path="/54F72C8D/62533F6A" Ref="#PWR?"  Part="1" 
-AR Path="/54F72F64/62533F6A" Ref="#PWR0301"  Part="1" 
-F 0 "#PWR0301" H 7580 1540 50  0001 C CNN
-F 1 "+10V" H 7595 1863 50  0000 C CNN
-F 2 "" H 7580 1690 50  0001 C CNN
-F 3 "" H 7580 1690 50  0001 C CNN
-	1    7580 1690
-	1    0    0    -1  
-$EndComp
 $Comp
 L bottom-board-rescue:C_Small-Device C?
 U 1 1 625369F6
@@ -722,8 +659,6 @@ Wire Wire Line
 Wire Wire Line
 	7085 2430 7085 2470
 Connection ~ 7085 2750
-Wire Wire Line
-	7090 2915 7225 2915
 $Comp
 L bottom-board-rescue:C_Small-Device C?
 U 1 1 6254FB96
@@ -802,62 +737,19 @@ Wire Wire Line
 Wire Wire Line
 	8110 2915 8005 2915
 Wire Wire Line
-	7230 1940 7230 2750
-Connection ~ 7230 2750
-Wire Wire Line
-	7230 2750 7285 2750
-Wire Wire Line
-	6875 3930 6925 3930
+	7085 2750 7285 2750
 $Comp
-L bottom-board-rescue:BAT54S-Diode D?
-U 1 1 625BB3AF
-P 7225 3930
-AR Path="/54F72B97/625BB3AF" Ref="D?"  Part="1" 
-AR Path="/54F72C8D/625BB3AF" Ref="D?"  Part="1" 
-AR Path="/54F72F64/625BB3AF" Ref="D26"  Part="1" 
-F 0 "D26" H 7250 3830 50  0000 L CNN
-F 1 "BAT54S" H 7225 4030 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 7300 4055 50  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 7105 3930 50  0001 C CNN
-F 4 "BAT54SFILM" V 7225 3930 50  0001 C CNN "MPN"
-	1    7225 3930
-	-1   0    0    1   
+L bottom-board-rescue:LM4811-local-components U14
+U 1 1 550D498D
+P 6150 3050
+F 0 "U14" H 6150 3150 60  0000 C CNN
+F 1 "LM4811" H 6150 3050 60  0000 C CNN
+F 2 "Package_SO:MSOP-10_3x3mm_P0.5mm" H 6150 3050 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm4811.pdf" H 6150 3050 60  0001 C CNN
+F 4 "LM4811MM/NOPB" H 800 1050 50  0001 C CNN "MPN"
+	1    6150 3050
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6875 3930 6875 3980
-$Comp
-L bottom-board-rescue:GNDA-power #PWR?
-U 1 1 625BB3B6
-P 7575 3880
-AR Path="/54F72C8D/625BB3B6" Ref="#PWR?"  Part="1" 
-AR Path="/54F72F64/625BB3B6" Ref="#PWR0304"  Part="1" 
-F 0 "#PWR0304" H 7575 3630 50  0001 C CNN
-F 1 "GNDA" H 7575 3730 50  0000 C CNN
-F 2 "" H 7575 3880 60  0000 C CNN
-F 3 "" H 7575 3880 60  0000 C CNN
-	1    7575 3880
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7575 3880 7575 3930
-Wire Wire Line
-	7575 3930 7525 3930
-$Comp
-L power:+10V #PWR?
-U 1 1 625BB3BE
-P 6875 3980
-AR Path="/54F72C8D/625BB3BE" Ref="#PWR?"  Part="1" 
-AR Path="/54F72F64/625BB3BE" Ref="#PWR0305"  Part="1" 
-F 0 "#PWR0305" H 6875 3830 50  0001 C CNN
-F 1 "+10V" H 6890 4153 50  0000 C CNN
-F 2 "" H 6875 3980 50  0001 C CNN
-F 3 "" H 6875 3980 50  0001 C CNN
-	1    6875 3980
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7225 2915 7225 3730
-Connection ~ 7225 2915
-Wire Wire Line
-	7225 2915 7290 2915
+	7090 2915 7290 2915
 $EndSCHEMATC
