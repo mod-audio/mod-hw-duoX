@@ -424,7 +424,7 @@ Text GLabel 5960 4040 2    50   Output ~ 0
 CV_ADC_~CS~
 Text GLabel 2835 2690 2    50   Input ~ 0
 CV_IN_DET
-Text GLabel 2765 4490 2    50   Input ~ 0
+Text GLabel 2765 7390 2    50   Input ~ 0
 CV_OUT_DET
 Text GLabel 4640 1040 0    50   BiDi ~ 0
 USB_DEV_DP
@@ -458,7 +458,7 @@ Text GLabel 5960 5040 2    50   BiDi ~ 0
 PM_LEDS_SDA
 Text GLabel 5960 3940 2    50   Output ~ 0
 PM_LEDS_SCL
-Text GLabel 5955 4140 2    50   Output ~ 0
+Text GLabel 5935 4440 2    50   Output ~ 0
 PM_LEDS_OE
 Text GLabel 6005 3740 2    50   Input ~ 0
 HMI_UART_RX
@@ -468,13 +468,13 @@ Text GLabel 5960 4740 2    50   Output ~ 0
 HMI_ISP_ENABLE
 Text GLabel 5965 4640 2    50   Output ~ 0
 HMI_RESET
-Text GLabel 2760 6290 2    50   Input ~ 0
-EXP_FLAG2
 Text GLabel 2765 6390 2    50   Input ~ 0
+EXP_FLAG2
+Text GLabel 2760 6290 2    50   Input ~ 0
 EXP_FLAG1
-Text GLabel 2765 6490 2    50   Output ~ 0
-EXP_EN1
 Text GLabel 2760 6190 2    50   Output ~ 0
+EXP_EN1
+Text GLabel 2765 6490 2    50   Output ~ 0
 EXP_EN2
 Text GLabel 2845 2290 2    50   Output ~ 0
 CODEC_RESET
@@ -595,9 +595,9 @@ Text GLabel 2835 2490 2    50   Input ~ 0
 IN1_DETECT
 Text GLabel 2835 2590 2    50   Input ~ 0
 IN2_DETECT
-Text GLabel 2765 4290 2    50   Input ~ 0
+Text GLabel 2765 7190 2    50   Input ~ 0
 OUT1_DETECT
-Text GLabel 2765 4390 2    50   Input ~ 0
+Text GLabel 2765 7290 2    50   Input ~ 0
 OUT2_DETECT
 $Comp
 L bottom-board-rescue:R_Small-Device R49
@@ -1058,8 +1058,6 @@ Wire Wire Line
 Wire Wire Line
 	5755 4040 5960 4040
 Wire Wire Line
-	5755 4140 5955 4140
-Wire Wire Line
 	5755 4340 5955 4340
 Wire Wire Line
 	5755 4540 5960 4540
@@ -1247,9 +1245,6 @@ NoConn ~ 1650 7090
 NoConn ~ 1650 7190
 NoConn ~ 1650 7290
 NoConn ~ 1650 7390
-NoConn ~ 2650 7390
-NoConn ~ 2650 7290
-NoConn ~ 2650 7190
 NoConn ~ 2650 6790
 NoConn ~ 2650 6690
 NoConn ~ 2650 6590
@@ -1308,7 +1303,6 @@ NoConn ~ 4755 5040
 NoConn ~ 4755 5140
 NoConn ~ 4755 5240
 NoConn ~ 5755 5340
-NoConn ~ 5755 4440
 NoConn ~ 5755 3640
 NoConn ~ 5755 3240
 NoConn ~ 5755 3140
@@ -1341,11 +1335,11 @@ $EndComp
 Wire Wire Line
 	1650 5790 1480 5790
 Wire Wire Line
-	2650 4290 2765 4290
+	2650 7190 2765 7190
 Wire Wire Line
-	2650 4390 2765 4390
+	2650 7290 2765 7290
 Wire Wire Line
-	2650 4490 2765 4490
+	2650 7390 2765 7390
 $Comp
 L bottom-board-rescue:C_Small-Device C44
 U 1 1 63757F97
@@ -1912,4 +1906,10 @@ Wire Wire Line
 	3890 5940 3890 5915
 Wire Wire Line
 	3890 5940 4755 5940
+NoConn ~ 2650 4290
+NoConn ~ 2650 4390
+NoConn ~ 2650 4490
+Wire Wire Line
+	5755 4440 5935 4440
+NoConn ~ 5755 4140
 $EndSCHEMATC
