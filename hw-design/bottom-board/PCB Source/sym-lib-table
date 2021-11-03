@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name local-components)(type Legacy)(uri /home/ricardo/devel/mod/mod-hw-duo/hw-design/lib/symbols/local-components.lib)(options "")(descr ""))
   (lib (name bottom-board-rescue)(type Legacy)(uri ${KIPRJMOD}/bottom-board-rescue.lib)(options "")(descr ""))
+  (lib (name 74xGxx_local)(type Legacy)(uri ${KIPRJMOD}/74xGxx_local.lib)(options "")(descr ""))
 )

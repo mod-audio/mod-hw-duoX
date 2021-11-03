@@ -169,13 +169,13 @@ F 4 "MCP4922T-E/SL" H 8872 1669 50  0001 C CNN "MPN"
 	1    8872 1669
 	1    0    0    -1  
 $EndComp
-Text GLabel 7172 1569 0    50   Input ~ 0
+Text GLabel 7293 1628 0    50   Input ~ 0
 CV_DAC_SCK
-Text GLabel 7172 1394 0    50   Input ~ 0
+Text GLabel 7545 1469 0    50   Input ~ 0
 CV_DAC_SDI
-Text GLabel 7172 1744 0    50   Input ~ 0
+Text GLabel 7128 1800 0    50   Input ~ 0
 CV_DAC_~CS~
-Text Notes 7500 1050 0    100  ~ 0
+Text Notes 7527 916  0    100  ~ 0
 CV OUTPUT
 $Comp
 L bottom-board-rescue:R_Small-Device RA53
@@ -294,34 +294,6 @@ F 3 "" H 8772 1069 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L bottom-board-rescue:74LVC3G17-74xGxx U22
-U 1 1 5B491069
-P 7572 1394
-AR Path="/5B491069" Ref="U22"  Part="1" 
-AR Path="/5B3B40FB/5B491069" Ref="U22"  Part="1" 
-F 0 "U22" H 7322 1344 50  0000 C CNN
-F 1 "74LVC3G17" H 7522 1494 50  0000 L CNN
-F 2 "Package_SO:VSSOP-8_2.3x2mm_P0.5mm" H 7572 1394 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc3g17.pdf" H 7572 1394 50  0001 C CNN
-F 4 "SN74LVC3G17DCUR" H 7572 1394 50  0001 C CNN "MPN"
-	1    7572 1394
-	1    0    0    -1  
-$EndComp
-$Comp
-L bottom-board-rescue:74LVC3G17-74xGxx U22
-U 2 1 5B491D08
-P 7572 1744
-AR Path="/5B491D08" Ref="U22"  Part="2" 
-AR Path="/5B3B40FB/5B491D08" Ref="U22"  Part="2" 
-F 0 "U22" H 7322 1694 50  0000 C CNN
-F 1 "74LVC3G17" H 7847 1694 50  0001 C CNN
-F 2 "Package_SO:VSSOP-8_2.3x2mm_P0.5mm" H 7572 1744 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc3g17.pdf" H 7572 1744 50  0001 C CNN
-F 4 "SN74LVC3G17DCUR" H 7572 1744 50  0001 C CNN "MPN"
-	2    7572 1744
-	1    0    0    -1  
-$EndComp
-$Comp
 L bottom-board-rescue:GNDA-power #PWR0211
 U 1 1 5B49B2F6
 P 8222 1769
@@ -396,8 +368,6 @@ Wire Wire Line
 Wire Wire Line
 	4550 3250 4600 3250
 Wire Wire Line
-	8272 1569 8222 1569
-Wire Wire Line
 	9472 1469 9622 1469
 Wire Wire Line
 	9472 1869 9747 1869
@@ -437,9 +407,7 @@ Wire Wire Line
 Wire Wire Line
 	8772 1069 8772 1119
 Wire Wire Line
-	7172 1744 7272 1744
-Wire Wire Line
-	7172 1569 7672 1569
+	7128 1800 7228 1800
 Wire Wire Line
 	8972 1169 8972 1119
 Wire Wire Line
@@ -728,36 +696,10 @@ F 4 "CL10A106MQ8NNNC" H -825 -3305 50  0001 C CNN "MPN"
 	1    4475 2045
 	-1   0    0    -1  
 $EndComp
-$Comp
-L bottom-board-rescue:74LVC3G17-74xGxx U22
-U 3 1 5B491D8C
-P 7972 1569
-AR Path="/5B491D8C" Ref="U22"  Part="3" 
-AR Path="/5B3B40FB/5B491D8C" Ref="U22"  Part="3" 
-F 0 "U22" H 7697 1519 50  0000 C CNN
-F 1 "74LVC3G17" H 7597 1519 50  0001 C CNN
-F 2 "Package_SO:VSSOP-8_2.3x2mm_P0.5mm" H 7972 1569 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc3g17.pdf" H 7972 1569 50  0001 C CNN
-F 4 "SN74LVC3G17DCUR" H 7972 1569 50  0001 C CNN "MPN"
-	3    7972 1569
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	7172 1394 7272 1394
+	7545 1469 7645 1469
 Wire Wire Line
 	8222 1769 8272 1769
-Wire Wire Line
-	8272 1669 8072 1669
-Wire Wire Line
-	8072 1669 8072 1744
-Wire Wire Line
-	8072 1744 7822 1744
-Wire Wire Line
-	8272 1469 8072 1469
-Wire Wire Line
-	8072 1469 8072 1394
-Wire Wire Line
-	8072 1394 7822 1394
 $Comp
 L bottom-board-rescue:C_Small-Device C74
 U 1 1 5B7C360F
@@ -2199,4 +2141,111 @@ Wire Wire Line
 Connection ~ 10455 5120
 Wire Wire Line
 	10455 5120 10455 5135
+Wire Wire Line
+	8272 1469 8195 1469
+Wire Wire Line
+	7977 1627 8163 1627
+Wire Wire Line
+	8163 1627 8163 1569
+Wire Wire Line
+	8163 1569 8272 1569
+Wire Wire Line
+	7293 1627 7293 1628
+Wire Wire Line
+	8272 1669 7840 1669
+Wire Wire Line
+	7840 1669 7840 1800
+Wire Wire Line
+	7840 1800 7778 1800
+$Comp
+L 74xGxx:74LVC3G17 U3
+U 1 1 61D0A67C
+P 6807 754
+F 0 "U3" H 6128 1149 50  0000 C CNN
+F 1 "74LVC3G17" H 6464 1144 50  0000 C CNN
+F 2 "Package_SO:VSSOP-8_2.3x2mm_P0.5mm" H 6807 754 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 6807 754 50  0001 C CNN
+F 4 "SN74LVC3G17DCUR" H 6807 754 50  0001 C CNN "MPN"
+	1    6807 754 
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx_local:74LVC3G17 U?
+U 1 1 61D8847A
+P 7945 1469
+F 0 "U?" H 7920 1736 50  0000 C CNN
+F 1 "74LVC3G17" H 7920 1645 50  0000 C CNN
+F 2 "" H 7945 1469 50  0001 C CNN
+F 3 "" H 7945 1469 50  0001 C CNN
+	1    7945 1469
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx_local:74LVC3G17 U?
+U 2 1 61D89969
+P 7528 1800
+F 0 "U?" H 7503 2067 50  0000 C CNN
+F 1 "74LVC3G17" H 7503 1976 50  0000 C CNN
+F 2 "" H 7528 1800 50  0001 C CNN
+F 3 "" H 7528 1800 50  0001 C CNN
+	2    7528 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx_local:74LVC3G17 U?
+U 3 1 61D8E160
+P 7727 1627
+F 0 "U?" H 7702 1894 50  0000 C CNN
+F 1 "74LVC3G17" H 7702 1803 50  0000 C CNN
+F 2 "" H 7727 1627 50  0001 C CNN
+F 3 "" H 7727 1627 50  0001 C CNN
+	3    7727 1627
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx_local:74LVC3G17 U?
+U 4 1 61D92B14
+P 7224 1177
+F 0 "U?" H 7199 1444 50  0000 C CNN
+F 1 "74LVC3G17" H 7199 1353 50  0000 C CNN
+F 2 "" H 7224 1177 50  0001 C CNN
+F 3 "" H 7224 1177 50  0001 C CNN
+	4    7224 1177
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:+5VA-power #PWR?
+U 1 1 61D9E0F4
+P 6844 1045
+F 0 "#PWR?" H 6844 895 50  0001 C CNN
+F 1 "+5VA" V 6920 1111 50  0000 C CNN
+F 2 "" H 6844 1045 60  0000 C CNN
+F 3 "" H 6844 1045 60  0000 C CNN
+	1    6844 1045
+	-1   0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:GNDA-power #PWR?
+U 1 1 61DA0901
+P 6945 1335
+F 0 "#PWR?" H 6945 1085 50  0001 C CNN
+F 1 "GNDA" H 6945 1185 50  0000 C CNN
+F 2 "" H 6945 1335 60  0000 C CNN
+F 3 "" H 6945 1335 60  0000 C CNN
+	1    6945 1335
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6945 1335 6945 1288
+Wire Wire Line
+	6945 1288 6944 1288
+Wire Wire Line
+	6944 1288 6944 1287
+Wire Wire Line
+	7293 1627 7427 1627
+Wire Wire Line
+	6844 1045 6844 1087
+Wire Wire Line
+	6844 1042 6844 1045
+Connection ~ 6844 1045
 $EndSCHEMATC

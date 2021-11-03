@@ -458,7 +458,7 @@ Text GLabel 5960 5040 2    50   BiDi ~ 0
 PM_LEDS_SDA
 Text GLabel 5960 3940 2    50   Output ~ 0
 PM_LEDS_SCL
-Text GLabel 5955 4140 2    50   Output ~ 0
+Text GLabel 5935 4440 2    50   Output ~ 0
 PM_LEDS_OE
 Text GLabel 6005 3740 2    50   Input ~ 0
 HMI_UART_RX
@@ -1058,8 +1058,6 @@ Wire Wire Line
 Wire Wire Line
 	5755 4040 5960 4040
 Wire Wire Line
-	5755 4140 5955 4140
-Wire Wire Line
 	5755 4340 5955 4340
 Wire Wire Line
 	5755 4540 5960 4540
@@ -1305,7 +1303,6 @@ NoConn ~ 4755 5040
 NoConn ~ 4755 5140
 NoConn ~ 4755 5240
 NoConn ~ 5755 5340
-NoConn ~ 5755 4440
 NoConn ~ 5755 3640
 NoConn ~ 5755 3240
 NoConn ~ 5755 3140
@@ -1912,4 +1909,7 @@ Wire Wire Line
 NoConn ~ 2650 4290
 NoConn ~ 2650 4390
 NoConn ~ 2650 4490
+Wire Wire Line
+	5755 4440 5935 4440
+NoConn ~ 5755 4140
 $EndSCHEMATC

@@ -1860,7 +1860,7 @@ Wire Wire Line
 Text GLabel 1775 2055 0    50   Input ~ 0
 IN1_DETECT
 Wire Wire Line
-	2495 1365 2095 1365
+	2495 1365 2400 1365
 Wire Wire Line
 	2320 2200 2390 2200
 Wire Wire Line
@@ -1940,7 +1940,7 @@ Connection ~ 1865 5360
 Wire Wire Line
 	1865 5360 1925 5360
 Wire Wire Line
-	1555 4410 2375 4410
+	1555 4410 1870 4410
 Wire Wire Line
 	1555 4710 1865 4710
 Wire Wire Line
@@ -2221,4 +2221,18 @@ F 3 "" H 8660 4590 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8660 4590 8660 4710
+Text GLabel 2400 1105 1    50   Input ~ 0
+IN1
+Wire Wire Line
+	2400 1105 2400 1365
+Connection ~ 2400 1365
+Wire Wire Line
+	2400 1365 2095 1365
+Text GLabel 1870 4285 1    50   Input ~ 0
+IN2
+Wire Wire Line
+	1870 4285 1870 4410
+Connection ~ 1870 4410
+Wire Wire Line
+	1870 4410 2375 4410
 $EndSCHEMATC
