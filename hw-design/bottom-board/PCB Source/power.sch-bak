@@ -5,13 +5,13 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 13
 Title "MOD DuoX - Bottom Board"
-Date "2020-05-15"
-Rev "Rev 1.12"
+Date "2021-11-11"
+Rev "Rev 1.05"
 Comp "MOD Devices GmbH"
 Comment1 "DuoX Audio processing board"
 Comment2 "https://github.com/moddevices/mod-hw-duoX"
-Comment3 ""
-Comment4 ""
+Comment3 "Inp Power: 12V 700mA"
+Comment4 "USB outp Power: 500mA"
 $EndDescr
 $Comp
 L bottom-board-rescue:GNDA-power #PWR022
