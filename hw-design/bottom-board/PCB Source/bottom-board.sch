@@ -5,13 +5,13 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 13
 Title "MOD DuoX - Bottom Board"
-Date "2020-05-15"
-Rev "Rev 1.2"
+Date "2021-11-11"
+Rev "Rev 1.05"
 Comp "MOD Devices GmbH"
 Comment1 "DuoX Audio processing board"
 Comment2 "https://github.com/moddevices/mod-hw-duoX"
 Comment3 "Inp Power: 12V 700mA"
-Comment4 "USB outp Power: 1.5A"
+Comment4 "USB outp Power: 500mA"
 $EndDescr
 $Sheet
 S 1300 850  2150 400 

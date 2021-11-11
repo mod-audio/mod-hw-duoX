@@ -5,13 +5,13 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 11 13
 Title "MOD DuoX - Bottom Board"
-Date "2020-05-15"
-Rev "Rev 1.12"
+Date "2021-11-11"
+Rev "Rev 1.05"
 Comp "MOD Devices GmbH"
 Comment1 "DuoX Audio processing board"
 Comment2 "https://github.com/moddevices/mod-hw-duoX"
-Comment3 ""
-Comment4 ""
+Comment3 "Inp Power: 12V 700mA"
+Comment4 "USB outp Power: 500mA"
 $EndDescr
 $Comp
 L bottom-board-rescue:FIDUCIAL-local-components FID1
@@ -30,7 +30,7 @@ U 1 1 55FC0943
 P 3350 1400
 F 0 "H1" H 3350 1220 50  0000 C CNN
 F 1 "HOLE" H 3350 1570 50  0000 C CNN
-F 2 "footprints:Hole_3.5mm" H 3350 1400 60  0001 C CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 3350 1400 60  0001 C CNN
 F 3 "" H 3350 1400 60  0000 C CNN
 	1    3350 1400
 	1    0    0    -1  
@@ -63,7 +63,7 @@ U 1 1 55FC2212
 P 3700 1400
 F 0 "H2" H 3700 1220 50  0000 C CNN
 F 1 "HOLE" H 3700 1570 50  0000 C CNN
-F 2 "footprints:Hole_3.5mm" H 3700 1400 60  0001 C CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 3700 1400 60  0001 C CNN
 F 3 "" H 3700 1400 60  0000 C CNN
 	1    3700 1400
 	1    0    0    -1  
@@ -74,7 +74,7 @@ U 1 1 55FC224E
 P 4050 1400
 F 0 "H3" H 4050 1220 50  0000 C CNN
 F 1 "HOLE" H 4050 1570 50  0000 C CNN
-F 2 "footprints:Hole_3.5mm" H 4050 1400 60  0001 C CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 4050 1400 60  0001 C CNN
 F 3 "" H 4050 1400 60  0000 C CNN
 	1    4050 1400
 	1    0    0    -1  
@@ -85,7 +85,7 @@ U 1 1 55FC227A
 P 4400 1400
 F 0 "H4" H 4400 1220 50  0000 C CNN
 F 1 "HOLE" H 4400 1570 50  0000 C CNN
-F 2 "footprints:Hole_3.5mm" H 4400 1400 60  0001 C CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 4400 1400 60  0001 C CNN
 F 3 "" H 4400 1400 60  0000 C CNN
 	1    4400 1400
 	1    0    0    -1  
@@ -96,7 +96,7 @@ U 1 1 55FC22B0
 P 4750 1400
 F 0 "H5" H 4750 1220 50  0000 C CNN
 F 1 "HOLE" H 4750 1570 50  0000 C CNN
-F 2 "footprints:Hole_3.5mm" H 4750 1400 60  0001 C CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 4750 1400 60  0001 C CNN
 F 3 "" H 4750 1400 60  0000 C CNN
 	1    4750 1400
 	1    0    0    -1  
@@ -107,9 +107,9 @@ U 1 1 5BE4B840
 P 5100 1400
 F 0 "H6" H 5100 1220 50  0000 C CNN
 F 1 "Standoff" H 5100 1570 50  0000 C CNN
-F 2 "footprints:9774027151R" H 5100 1400 60  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 5100 1400 60  0001 C CNN
 F 3 "" H 5100 1400 60  0000 C CNN
-F 4 "9774030951R" H 5100 1400 50  0001 C CNN "MPN"
+F 4 "9774030243R" H 5100 1400 50  0001 C CNN "MPN"
 	1    5100 1400
 	1    0    0    -1  
 $EndComp
@@ -130,10 +130,32 @@ U 1 1 5DECBEF5
 P 5475 1400
 F 0 "H7" H 5475 1220 50  0000 C CNN
 F 1 "Standoff" H 5475 1570 50  0000 C CNN
-F 2 "footprints:9774027151R" H 5475 1400 60  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 5475 1400 60  0001 C CNN
 F 3 "" H 5475 1400 60  0000 C CNN
-F 4 "9774030951R" H 5475 1400 50  0001 C CNN "MPN"
+F 4 "9774030243R" H 5475 1400 50  0001 C CNN "MPN"
 	1    5475 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:HOLE-local-components H8
+U 1 1 64872247
+P 5891 1413
+F 0 "H8" H 5891 1233 50  0000 C CNN
+F 1 "HOLE" H 5891 1583 50  0000 C CNN
+F 2 "MountingHole:MountingHole_2.7mm" H 5891 1413 60  0001 C CNN
+F 3 "" H 5891 1413 60  0000 C CNN
+	1    5891 1413
+	1    0    0    -1  
+$EndComp
+$Comp
+L bottom-board-rescue:HOLE-local-components H9
+U 1 1 6487280D
+P 6227 1421
+F 0 "H9" H 6227 1241 50  0000 C CNN
+F 1 "HOLE" H 6227 1591 50  0000 C CNN
+F 2 "MountingHole:MountingHole_2.7mm" H 6227 1421 60  0001 C CNN
+F 3 "" H 6227 1421 60  0000 C CNN
+	1    6227 1421
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

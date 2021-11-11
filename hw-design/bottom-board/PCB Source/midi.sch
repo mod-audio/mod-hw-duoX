@@ -5,13 +5,13 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 13
 Title "MOD DuoX - Bottom Board"
-Date "2020-05-15"
-Rev "Rev 1.12"
+Date "2021-11-11"
+Rev "Rev 1.05"
 Comp "MOD Devices GmbH"
 Comment1 "DuoX Audio processing board"
 Comment2 "https://github.com/moddevices/mod-hw-duoX"
-Comment3 ""
-Comment4 ""
+Comment3 "Inp Power: 12V 700mA"
+Comment4 "USB outp Power: 500mA"
 $EndDescr
 $Comp
 L bottom-board-rescue:R_Small-Device R35
@@ -158,7 +158,7 @@ Wire Wire Line
 Wire Wire Line
 	6350 3650 6350 3600
 Wire Wire Line
-	7450 3650 7800 3650
+	7450 3650 7740 3650
 Wire Wire Line
 	8150 3300 8150 3350
 Wire Wire Line
@@ -233,8 +233,6 @@ F 3 "" H 8700 3550 50  0001 C CNN
 	1    8700 3550
 	1    0    0    -1  
 $EndComp
-Text Notes 5900 4650 0    60   ~ 0
-MIDI Out connector exposes the debug serial.
 $Comp
 L bottom-board-rescue:1N4148WS-Diode D?
 U 1 1 5B7DD60D
@@ -284,7 +282,7 @@ F 0 "R32" H 3225 3600 50  0000 L CNN
 F 1 "220R" H 3225 3500 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 3175 3550 60  0001 C CNN
 F 3 "" H 3175 3550 60  0000 C CNN
-F 4 "ESR03EZPJ221" H -6775 -650 50  0001 C CNN "MPN"
+F 4 "RC0603FR-07220RL" H -6775 -650 50  0001 C CNN "MPN"
 	1    3175 3550
 	0    -1   -1   0   
 $EndComp
@@ -298,7 +296,7 @@ F 0 "R33" H 6625 3700 50  0000 L CNN
 F 1 "220R" H 6625 3600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 6575 3650 60  0001 C CNN
 F 3 "" H 6575 3650 60  0000 C CNN
-F 4 "ESR03EZPJ221" H -3375 -550 50  0001 C CNN "MPN"
+F 4 "RC0603FR-07220RL" H -3375 -550 50  0001 C CNN "MPN"
 	1    6575 3650
 	0    1    -1   0   
 $EndComp
@@ -312,7 +310,7 @@ F 0 "R34" H 7950 3700 50  0000 L CNN
 F 1 "220R" H 7950 3600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 7900 3650 60  0001 C CNN
 F 3 "" H 7900 3650 60  0000 C CNN
-F 4 "ESR03EZPJ221" H -2050 -550 50  0001 C CNN "MPN"
+F 4 "RC0603FR-07220RL" H -2050 -550 50  0001 C CNN "MPN"
 	1    7900 3650
 	0    -1   -1   0   
 $EndComp
@@ -354,9 +352,88 @@ Wire Wire Line
 NoConn ~ 4250 3700
 Wire Wire Line
 	6475 3650 6350 3650
-Text Notes 2825 4625 0    60   ~ 0
-MIDI In connector can be used to trigger a special\nboot mode by connecting pin 3 to GND.
 NoConn ~ 2375 3450
 NoConn ~ 7450 3550
 NoConn ~ 6850 3550
+$Comp
+L bottom-board-rescue:C_Small-Device C?
+U 1 1 629375EC
+P 4550 3600
+AR Path="/54F72FB2/629375EC" Ref="C?"  Part="1" 
+AR Path="/54F72FB4/629375EC" Ref="C68"  Part="1" 
+F 0 "C68" V 4660 3655 50  0000 R CNN
+F 1 "100nF" V 4430 3720 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4550 3600 60  0001 C CNN
+F 3 "" H 4550 3600 60  0000 C CNN
+F 4 "GCM188R71C104KA37D" H 450 450 50  0001 C CNN "MPN"
+	1    4550 3600
+	0    1    -1   0   
+$EndComp
+$Comp
+L bottom-board-rescue:GNDD-power #PWR0309
+U 1 1 6293BD51
+P 4715 3600
+F 0 "#PWR0309" H 4715 3350 50  0001 C CNN
+F 1 "GNDD" H 4715 3450 50  0000 C CNN
+F 2 "" H 4715 3600 60  0000 C CNN
+F 3 "" H 4715 3600 60  0000 C CNN
+	1    4715 3600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4300 3600 4450 3600
+Connection ~ 4300 3600
+Wire Wire Line
+	4650 3600 4715 3600
+Wire Wire Line
+	8090 3050 8040 3050
+$Comp
+L bottom-board-rescue:BAT54S-Diode D?
+U 1 1 6294947A
+P 7740 3050
+AR Path="/54F72B97/6294947A" Ref="D?"  Part="1" 
+AR Path="/54F72C8D/6294947A" Ref="D?"  Part="1" 
+AR Path="/54F72F64/6294947A" Ref="D?"  Part="1" 
+AR Path="/54F72FB4/6294947A" Ref="D28"  Part="1" 
+F 0 "D28" H 7765 2950 50  0000 L CNN
+F 1 "BAT54S" H 7740 3150 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7815 3175 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 7620 3050 50  0001 C CNN
+F 4 "BAT54SFILM" V 7740 3050 50  0001 C CNN "MPN"
+	1    7740 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8090 3050 8090 3000
+Wire Wire Line
+	7390 3100 7390 3050
+Wire Wire Line
+	7390 3050 7440 3050
+$Comp
+L bottom-board-rescue:GNDD-power #PWR0311
+U 1 1 62952BDE
+P 7390 3100
+F 0 "#PWR0311" H 7390 2850 50  0001 C CNN
+F 1 "GNDD" H 7390 2950 50  0000 C CNN
+F 2 "" H 7390 3100 60  0000 C CNN
+F 3 "" H 7390 3100 60  0000 C CNN
+	1    7390 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7740 3250 7740 3650
+Connection ~ 7740 3650
+Wire Wire Line
+	7740 3650 7800 3650
+$Comp
+L bottom-board-rescue:+5VD-power #PWR0300
+U 1 1 64390BDB
+P 8090 3000
+F 0 "#PWR0300" H 8090 2850 50  0001 C CNN
+F 1 "+5VD" H 8090 3140 50  0000 C CNN
+F 2 "" H 8090 3000 50  0001 C CNN
+F 3 "" H 8090 3000 50  0001 C CNN
+	1    8090 3000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
