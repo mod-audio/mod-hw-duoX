@@ -1,10 +1,10 @@
-mod-hw-duo
+mod-hw-duoX
 ===========
 
 This repository contains the schematics and PCB design files for the MOD Duo X. 
 
 The MOD DuoX bottom-board is done in Kicad 5. 
-The other 2 boards (controller board and coreboard adapter) are done in Altium.
+The other board (controller board) is done in Altium.
 
 Please, use KiCAD 5 to edit the project.
 
