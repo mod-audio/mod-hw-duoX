@@ -1,14 +1,14 @@
 Title,MOD DuoX - Bottom Board
 Revision,Rev 1.05
 Date,2021-11-11
-Generated,Thu 11 Nov 2021 12:02:31 PM CET
+Generated,Wed 17 Nov 2021 02:44:49 PM CET
 Company,MOD Devices GmbH
 Comment 1,DuoX Audio processing board
 Comment 2,https://github.com/moddevices/mod-hw-duoX
 Comment 3,Inp Power: 12V 700mA
 Comment 4,USB outp Power: 500mA
 Total Parts,390
-Total Unique Parts,94
+Total Unique Parts,95
 
 
 
@@ -86,7 +86,8 @@ R121 R122 R123 R124 R125 R126 R127 R128 ,8,150R,Resistor_SMD:R_0603_1608Metric,,
 R129 R130 ,2,75K,Resistor_SMD:R_0603_1608Metric,,RR0816P-753-D
 R131 R132 ,2,6R8,Resistor_SMD:R_0603_1608Metric,,RMCF0603FT6R80
 R141 R142 ,2,499K,Resistor_SMD:R_0603_1608Metric,,ERJ-3EKF4993V
-TP1 TP2 TP3 TP4 TP5 TP6 TP7 TP8 TP9 TP10 TP11 TP14 TP15 TP16 TP18 TP20 TP21 TP22 ,18,TestPoint,TestPoint:TestPoint_Pad_D1.0mm,, 
+TP1 TP2 TP3 TP4 TP5 TP6 TP7 TP8 TP9 TP10 TP11 TP14 TP15 TP16 TP20 TP21 ,16,TestPoint,TestPoint:TestPoint_Pad_D1.0mm,, 
+TP18 TP22 ,2,TestPoint,TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded,, 
 TR1 ,1,Transformer_1P_1S_SO8,footprints:PE-65812NL,,PE-65812NL
 U1 ,1,TL750M10CKVURG3,Package_TO_SOT_SMD:TO-252-3_TabPin2,,TL750M10CKVURG3
 U2 U4 ,2,LD1117S50TR,Package_TO_SOT_SMD:SOT-223-3_TabPin2,,LD1117S50TR
@@ -112,4 +113,4 @@ X1 ,1,24.576MHz,Oscillator:Oscillator_SMD_Abracon_ASV-4Pin_7.0x5.1mm,,ASV-24.576
 
 
 Property of MOD Devices (https://www.moddevices.com)
-Generated Thu 11 Nov 2021 12:02:31 PM CET
+Generated Wed 17 Nov 2021 02:44:49 PM CET
