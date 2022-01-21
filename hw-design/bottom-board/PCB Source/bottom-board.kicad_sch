@@ -1081,6 +1081,9 @@
     (path "/00000000-0000-0000-0000-000054f72c8d/00000000-0000-0000-0000-0000640039a2"
       (reference "#PWR0318") (unit 1) (value "GNDD") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-000054f725ae/101a1afe-eb8b-4c94-8da6-c092ec5e5995"
+      (reference "#PWR0319") (unit 1) (value "+5VD") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000054f725ae/00000000-0000-0000-0000-000063c26dfb"
       (reference "#PWR0320") (unit 1) (value "GNDD") (footprint "")
     )
@@ -1134,6 +1137,12 @@
     )
     (path "/00000000-0000-0000-0000-000054f72cd0/00000000-0000-0000-0000-0000641e2ee9"
       (reference "#PWR0337") (unit 1) (value "+10V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000054f725ae/478bafb9-f7cc-44e5-be05-02737866d58b"
+      (reference "#PWR0338") (unit 1) (value "+5VD") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000054f725ae/12014cd1-eba9-4eaf-8f54-a12ef6b4c1a2"
+      (reference "#PWR0339") (unit 1) (value "+5VD") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000054f7244b/00000000-0000-0000-0000-00005b4f66f6"
       (reference "C1") (unit 1) (value "1000uF") (footprint "Capacitor_SMD:CP_Elec_10x10.5")
