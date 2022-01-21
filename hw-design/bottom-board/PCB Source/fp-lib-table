@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name footprints)(type KiCad)(uri ${KIPRJMOD}/../lib/footprints.pretty)(options "")(descr ""))
+  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/../lib/footprints.pretty")(options "")(descr ""))
+  (lib (name "LSF0204DPWR")(type "KiCad")(uri "/home/mod-xps/MOD_REPOS/HW/mod-hw-duoX/hw-design/bottom-board/Documentation/Components/LSF0204DPWR/LSF0204DPWR.pretty")(options "")(descr ""))
 )
