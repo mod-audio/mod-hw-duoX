@@ -2303,22 +2303,22 @@
       (reference "U10") (unit 3) (value "LM358") (footprint "Package_SO:TSSOP-8_3x3mm_P0.65mm")
     )
     (path "/00000000-0000-0000-0000-000054f72cd0/00000000-0000-0000-0000-00005b61a26f"
-      (reference "U11") (unit 1) (value "OPA1678") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "U11") (unit 1) (value "RC4580ID") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-000054f72cd0/00000000-0000-0000-0000-00005b62b915"
-      (reference "U11") (unit 2) (value "OPA1678") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "U11") (unit 2) (value "RC4580ID") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-000054f72cd0/00000000-0000-0000-0000-00005b61a27f"
-      (reference "U11") (unit 3) (value "OPA1678") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "U11") (unit 3) (value "RC4580ID") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-000054f72cd0/00000000-0000-0000-0000-00005b633e6e"
-      (reference "U12") (unit 1) (value "OPA1678") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "U12") (unit 1) (value "RC4580ID") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-000054f72cd0/00000000-0000-0000-0000-00005b633f38"
-      (reference "U12") (unit 2) (value "OPA1678") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "U12") (unit 2) (value "RC4580ID") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-000054f72cd0/00000000-0000-0000-0000-00005b62fc7a"
-      (reference "U12") (unit 3) (value "OPA1678") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "U12") (unit 3) (value "RC4580ID") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-00005b3b40fb/00000000-0000-0000-0000-00005ee404d7"
       (reference "U13") (unit 1) (value "DG9426E") (footprint "Package_SO:TSSOP-16_4.4x5mm_P0.65mm")
