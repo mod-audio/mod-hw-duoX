@@ -178,10 +178,10 @@ CV_DAC_~CS~
 Text Notes 7527 916  0    100  ~ 0
 CV OUTPUT
 $Comp
-L bottom-board-rescue:R_Small-Device R?
+L bottom-board-rescue:R_Small-Device R143
 U 1 1 5B4010C9
 P 10047 1469
-F 0 "R?" V 9947 1569 50  0000 R CNN
+F 0 "R143" V 9947 1569 50  0000 R CNN
 F 1 "1K" V 10147 1569 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 10047 1469 60  0001 C CNN
 F 3 "" H 10047 1469 60  0000 C CNN
@@ -769,8 +769,8 @@ L bottom-board-rescue:R_Small-Device RA?
 U 1 1 5C2E986B
 P 9622 1194
 AR Path="/54F7244B/5C2E986B" Ref="RA?"  Part="1" 
-AR Path="/5B3B40FB/5C2E986B" Ref="R?"  Part="1" 
-F 0 "R?" V 9472 1194 50  0000 C CNN
+AR Path="/5B3B40FB/5C2E986B" Ref="R141"  Part="1" 
+F 0 "R141" V 9472 1194 50  0000 C CNN
 F 1 "499K" V 9547 1194 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 9622 1194 50  0001 C CNN
 F 3 "" H 9622 1194 50  0001 C CNN
@@ -783,8 +783,8 @@ L bottom-board-rescue:R_Small-Device RA?
 U 1 1 5C30E322
 P 9747 1194
 AR Path="/54F7244B/5C30E322" Ref="RA?"  Part="1" 
-AR Path="/5B3B40FB/5C30E322" Ref="R?"  Part="1" 
-F 0 "R?" V 9597 1194 50  0000 C CNN
+AR Path="/5B3B40FB/5C30E322" Ref="R142"  Part="1" 
+F 0 "R142" V 9597 1194 50  0000 C CNN
 F 1 "499K" V 9672 1194 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 9747 1194 50  0001 C CNN
 F 3 "" H 9747 1194 50  0001 C CNN
@@ -842,10 +842,10 @@ F 3 "" H 10205 5855 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L bottom-board-rescue:R_Small-Device R?
+L bottom-board-rescue:R_Small-Device R144
 U 1 1 5CB0D2E6
 P 10047 1869
-F 0 "R?" V 9947 1969 50  0000 R CNN
+F 0 "R144" V 9947 1969 50  0000 R CNN
 F 1 "1K" V 10147 1969 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 10047 1869 60  0001 C CNN
 F 3 "" H 10047 1869 60  0000 C CNN
@@ -1014,10 +1014,10 @@ F 3 "" H 3900 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bottom-board-rescue:R_Small-Device R?
+L bottom-board-rescue:R_Small-Device R133
 U 1 1 5DE7C45A
 P 928 1977
-F 0 "R?" V 828 2077 50  0000 R CNN
+F 0 "R133" V 828 2077 50  0000 R CNN
 F 1 "10K" V 1028 2077 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 928 1977 60  0001 C CNN
 F 3 "" H 928 1977 60  0000 C CNN
@@ -1075,10 +1075,10 @@ CV_OUT_1
 Text GLabel 6875 5690 0    60   Input ~ 0
 CV_OUT_2
 $Comp
-L bottom-board-rescue:R_Small-Device R?
+L bottom-board-rescue:R_Small-Device R139
 U 1 1 5DF4EDDD
 P 7250 5440
-F 0 "R?" V 7170 5515 50  0000 R CNN
+F 0 "R139" V 7170 5515 50  0000 R CNN
 F 1 "10K" V 7350 5540 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 7250 5440 60  0001 C CNN
 F 3 "" H 7250 5440 60  0000 C CNN
@@ -1087,10 +1087,10 @@ F 4 "RR0816P-103-D" V 7250 5440 50  0001 C CNN "MPN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L bottom-board-rescue:R_Small-Device R?
+L bottom-board-rescue:R_Small-Device R137
 U 1 1 5DF5B673
 P 6725 5165
-F 0 "R?" V 6625 5265 50  0000 R CNN
+F 0 "R137" V 6625 5265 50  0000 R CNN
 F 1 "10K" V 6825 5265 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 6725 5165 60  0001 C CNN
 F 3 "" H 6725 5165 60  0000 C CNN
@@ -1099,10 +1099,10 @@ F 4 "RR0816P-103-D" V 6725 5165 50  0001 C CNN "MPN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L bottom-board-rescue:R_Small-Device R?
+L bottom-board-rescue:R_Small-Device R138
 U 1 1 5DF5BC6E
 P 6750 5890
-F 0 "R?" V 6650 5990 50  0000 R CNN
+F 0 "R138" V 6650 5990 50  0000 R CNN
 F 1 "10K" V 6850 5990 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 6750 5890 60  0001 C CNN
 F 3 "" H 6750 5890 60  0000 C CNN
@@ -1111,10 +1111,10 @@ F 4 "RR0816P-103-D" V 6750 5890 50  0001 C CNN "MPN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L bottom-board-rescue:R_Small-Device R?
+L bottom-board-rescue:R_Small-Device R140
 U 1 1 5DF5C0A5
 P 7250 6165
-F 0 "R?" V 7150 6265 50  0000 R CNN
+F 0 "R140" V 7150 6265 50  0000 R CNN
 F 1 "10K" V 7350 6265 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 7250 6165 60  0001 C CNN
 F 3 "" H 7250 6165 60  0000 C CNN
@@ -1861,10 +1861,10 @@ F 3 "" H 1495 1985 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L bottom-board-rescue:R_Small-Device R?
+L bottom-board-rescue:R_Small-Device R135
 U 1 1 5DE7CA2D
 P 1320 1985
-F 0 "R?" V 1220 2085 50  0000 R CNN
+F 0 "R135" V 1220 2085 50  0000 R CNN
 F 1 "10K" V 1420 2085 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 1320 1985 60  0001 C CNN
 F 3 "" H 1320 1985 60  0000 C CNN
@@ -1896,10 +1896,10 @@ Wire Wire Line
 Wire Wire Line
 	1125 3889 1194 3889
 $Comp
-L bottom-board-rescue:R_Small-Device R?
+L bottom-board-rescue:R_Small-Device R134
 U 1 1 5DE7E9AA
 P 1025 3889
-F 0 "R?" V 925 3989 50  0000 R CNN
+F 0 "R134" V 925 3989 50  0000 R CNN
 F 1 "10K" V 1125 3989 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 1025 3889 60  0001 C CNN
 F 3 "" H 1025 3889 60  0001 C CNN
@@ -1913,10 +1913,10 @@ Wire Wire Line
 Wire Wire Line
 	1470 3894 1470 3889
 $Comp
-L bottom-board-rescue:R_Small-Device R?
+L bottom-board-rescue:R_Small-Device R136
 U 1 1 5DE7EF4D
 P 1370 3889
-F 0 "R?" V 1270 3989 50  0000 R CNN
+F 0 "R136" V 1270 3989 50  0000 R CNN
 F 1 "10K" V 1470 3989 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 1370 3889 60  0001 C CNN
 F 3 "" H 1370 3889 60  0000 C CNN

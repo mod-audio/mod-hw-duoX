@@ -570,7 +570,7 @@ AR Path="/54F7244B/5E1FD5AF" Ref="TP?"  Part="1"
 AR Path="/54F725AE/5E1FD5AF" Ref="TP18"  Part="1" 
 F 0 "TP18" H 8950 3805 50  0000 L CNN
 F 1 "TestPoint" H 9058 3609 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9200 3580 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 9200 3580 50  0001 C CNN
 F 3 "~" H 9200 3580 50  0001 C CNN
 	1    9000 3580
 	1    0    0    -1  
@@ -583,7 +583,7 @@ AR Path="/54F7244B/5E20E0E2" Ref="TP?"  Part="1"
 AR Path="/54F725AE/5E20E0E2" Ref="TP22"  Part="1" 
 F 0 "TP22" H 8815 3300 50  0000 L CNN
 F 1 "TestPoint" H 8923 3104 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9065 3075 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 9065 3075 50  0001 C CNN
 F 3 "~" H 9065 3075 50  0001 C CNN
 	1    8865 3075
 	0    1    1    0   
