@@ -1597,6 +1597,12 @@
     (path "/00000000-0000-0000-0000-000054f72b97/00000000-0000-0000-0000-0000618ff74e"
       (reference "FB1") (unit 1) (value "Ferrite_Bead") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
+    (path "/00000000-0000-0000-0000-000054f72c8d/b6d6b628-41f5-4d3a-a72e-0fa354d2cc07"
+      (reference "FB2") (unit 1) (value "Ferrite_Bead") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-000054f72c8d/5ba360dc-69e8-4f6f-845e-031cafef0cb4"
+      (reference "FB3") (unit 1) (value "Ferrite_Bead") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
     (path "/00000000-0000-0000-0000-000055fc02af/00000000-0000-0000-0000-000055fc074e"
       (reference "FID1") (unit 1) (value "FIDUCIAL") (footprint "footprints:fiducial_in-circuit")
     )
