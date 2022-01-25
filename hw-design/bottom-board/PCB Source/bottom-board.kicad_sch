@@ -268,12 +268,6 @@
     (path "/00000000-0000-0000-0000-000054f7244b/00000000-0000-0000-0000-000055414e3c"
       (reference "#PWR027") (unit 1) (value "GNDD") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000054f7244b/00000000-0000-0000-0000-00005b57232b"
-      (reference "#PWR029") (unit 1) (value "GNDD") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000054f7244b/00000000-0000-0000-0000-00005b572335"
-      (reference "#PWR030") (unit 1) (value "+12V") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-000054f72c8d/00000000-0000-0000-0000-00005bbefbfa"
       (reference "#PWR031") (unit 1) (value "GNDA") (footprint "")
     )
@@ -381,9 +375,6 @@
     )
     (path "/00000000-0000-0000-0000-000054f725ae/00000000-0000-0000-0000-00005b574fc1"
       (reference "#PWR079") (unit 1) (value "GNDD") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000054f725ae/00000000-0000-0000-0000-00005b574fcd"
-      (reference "#PWR080") (unit 1) (value "GNDD") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000054f725ae/00000000-0000-0000-0000-000055fafdcc"
       (reference "#PWR081") (unit 1) (value "+3.3V") (footprint "")
@@ -1147,6 +1138,18 @@
     (path "/00000000-0000-0000-0000-000054f72fb6/417cc093-9cac-4467-8049-df399248622d"
       (reference "#PWR0342") (unit 1) (value "GNDD") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-000054f725ae/37b54e3c-d675-4e49-b96b-b96b82a5b203"
+      (reference "#PWR0343") (unit 1) (value "GNDD") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000054f725ae/e4f14f57-f6ef-4923-87a3-72433fb8134f"
+      (reference "#PWR0344") (unit 1) (value "GNDD") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000054f725ae/5259496c-74cd-4907-afef-6498b68b64cd"
+      (reference "#PWR0345") (unit 1) (value "GNDD") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000054f725ae/5aa3b26d-2dff-435d-8dab-1aea2f380582"
+      (reference "#PWR0346") (unit 1) (value "+12V") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000054f7244b/00000000-0000-0000-0000-00005b4f66f6"
       (reference "C1") (unit 1) (value "1000uF") (footprint "Capacitor_SMD:CP_Elec_10x10.5")
     )
@@ -1666,8 +1669,8 @@
     (path "/00000000-0000-0000-0000-000054f7244b/00000000-0000-0000-0000-00005b4f673c"
       (reference "J1") (unit 1) (value "Power Jack") (footprint "Connector_BarrelJack:BarrelJack_Horizontal")
     )
-    (path "/00000000-0000-0000-0000-000054f7244b/00000000-0000-0000-0000-00005b572324"
-      (reference "J2") (unit 1) (value "HMI_POWER") (footprint "footprints:B2B-XH-A")
+    (path "/00000000-0000-0000-0000-000054f725ae/cc9827ff-be98-43ac-8558-010cfba6746b"
+      (reference "J2") (unit 1) (value "Conn_01x25") (footprint "F51L-1A7H1-11024:F51L-1A7H1-11024")
     )
     (path "/00000000-0000-0000-0000-000054f725ae/00000000-0000-0000-0000-00006184ff51"
       (reference "J3") (unit 1) (value "AS0A823-H4SB-7H") (footprint "Uno:TE_2309409-1")
@@ -1677,9 +1680,6 @@
     )
     (path "/00000000-0000-0000-0000-000054f72fb6/00000000-0000-0000-0000-0000631709ff"
       (reference "J4") (unit 1) (value "RJ45") (footprint "digikey-footprints:Ethernet_Jack_54602-908LF")
-    )
-    (path "/00000000-0000-0000-0000-000054f725ae/00000000-0000-0000-0000-00005b574fb3"
-      (reference "J5") (unit 1) (value "HMI_DATA") (footprint "footprints:Pin_Header_Straight_2x10_Shrouded")
     )
     (path "/00000000-0000-0000-0000-000054f725ae/00000000-0000-0000-0000-00005b574fba"
       (reference "J6") (unit 1) (value "SERIAL_DEBUG") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")

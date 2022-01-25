@@ -684,7 +684,7 @@
   )
 
   (no_connect (at 110.109 76.454) (uuid 1954a5dd-a56a-4e69-bb4c-5c0f2d902902))
-  (no_connect (at 110.109 78.994) (uuid 1954a5dd-a56a-4e69-bb4c-5c0f2d902902))
+  (no_connect (at 110.109 78.994) (uuid 1954a5dd-a56a-4e69-bb4c-5c0f2d902903))
 
   (wire (pts (xy 64.135 68.834) (xy 69.469 68.834))
     (stroke (width 0) (type default) (color 0 0 0 0))
