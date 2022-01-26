@@ -6,13 +6,12 @@
 
   (title_block
     (title "MOD DuoX - Bottom Board")
-    (date "2021-11-11")
-    (rev "Rev 1.05")
+    (date "2022-01-26")
+    (rev "Rev 2.0P2")
     (company "MOD Devices GmbH")
     (comment 1 "DuoX Audio processing board")
     (comment 2 "https://github.com/moddevices/mod-hw-duoX")
-    (comment 3 "Inp Power: 12V 700mA")
-    (comment 4 "USB outp Power: 500mA")
+    (comment 3 "Inp Power: 12V 1A")
   )
 
   (lib_symbols

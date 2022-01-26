@@ -6,13 +6,12 @@
 
   (title_block
     (title "MOD DuoX - Bottom Board")
-    (date "2021-11-11")
-    (rev "Rev 1.05")
+    (date "2022-01-26")
+    (rev "Rev 2.0P2")
     (company "MOD Devices GmbH")
     (comment 1 "DuoX Audio processing board")
     (comment 2 "https://github.com/moddevices/mod-hw-duoX")
-    (comment 3 "Inp Power: 12V 700mA")
-    (comment 4 "USB outp Power: 500mA")
+    (comment 3 "Inp Power: 12V 1A")
   )
 
   (lib_symbols
@@ -1380,6 +1379,9 @@
     (property "MPN" "DO NOT PLACE" (id 4) (at 181.61 -17.907 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN2" "RT0603BRD071ML" (id 5) (at 72.39 41.783 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
     (pin "1" (uuid 628bd9ab-c640-4854-9a82-6818248251e6))
     (pin "2" (uuid 2710240e-f8ac-492c-aa42-23e9c7f8bfa4))
   )
@@ -1417,6 +1419,9 @@
     )
     (property "MPN" "DO NOT PLACE" (id 4) (at 181.61 19.939 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN2" "RT0603BRD071ML" (id 5) (at 72.39 79.629 0)
+      (effects (font (size 1.524 1.524)) hide)
     )
     (pin "1" (uuid 6bda78c2-7b82-41f0-8163-e07cedfa5330))
     (pin "2" (uuid 5fb8d671-68af-4690-b241-d1e9e47a1d0a))

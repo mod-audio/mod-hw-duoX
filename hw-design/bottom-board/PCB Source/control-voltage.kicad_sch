@@ -6,13 +6,12 @@
 
   (title_block
     (title "MOD DuoX - Bottom Board")
-    (date "2021-11-11")
-    (rev "Rev 1.05")
+    (date "2022-01-26")
+    (rev "Rev 2.0P2")
     (company "MOD Devices GmbH")
     (comment 1 "DuoX Audio processing board")
     (comment 2 "https://github.com/moddevices/mod-hw-duoX")
-    (comment 3 "Inp Power: 12V 700mA")
-    (comment 4 "USB outp Power: 500mA")
+    (comment 3 "Inp Power: 12V 1A")
   )
 
   (lib_symbols
@@ -4991,10 +4990,10 @@
     (property "MPN" "SN74LVC3G17DCUR" (id 4) (at 171.323 28.956 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "4" (uuid dcce84fd-4eac-4a6e-8608-694f66ce7ad5))
-    (pin "8" (uuid 70f03b82-e1dc-4fb2-9e7c-7409cce8636a))
-    (pin "4" (uuid dcce84fd-4eac-4a6e-8608-694f66ce7ad5))
-    (pin "8" (uuid 70f03b82-e1dc-4fb2-9e7c-7409cce8636a))
+    (pin "4" (uuid dcce84fd-4eac-4a6e-8608-694f66ce7ad6))
+    (pin "8" (uuid 70f03b82-e1dc-4fb2-9e7c-7409cce8636b))
+    (pin "4" (uuid dcce84fd-4eac-4a6e-8608-694f66ce7ad6))
+    (pin "8" (uuid 70f03b82-e1dc-4fb2-9e7c-7409cce8636b))
   )
 
   (symbol (lib_id "bottom-board-rescue:+5VA-power") (at 161.671 25.146 0) (mirror y) (unit 1)

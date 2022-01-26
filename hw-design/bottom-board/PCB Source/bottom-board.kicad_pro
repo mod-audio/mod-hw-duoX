@@ -408,7 +408,7 @@
       "idf": "",
       "netlist": "bottom-board.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "bottom-board.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
