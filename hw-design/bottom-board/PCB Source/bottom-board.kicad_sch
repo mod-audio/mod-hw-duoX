@@ -240,8 +240,20 @@
     (path "/00000000-0000-0000-0000-000054f72fb6/247f3c4a-e20d-463f-b1d5-61b1b10682a2"
       (reference "#PWR05") (unit 1) (value "GNDD") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-000054f72c8d/9a249b2d-f785-43c8-a59f-db5079040097"
+      (reference "#PWR06") (unit 1) (value "+10V") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000054f7244b/00000000-0000-0000-0000-00005b4fcd7e"
       (reference "#PWR07") (unit 1) (value "+12V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000054f72c8d/0082e8a3-b300-4d78-b343-f216d308ffbc"
+      (reference "#PWR08") (unit 1) (value "GNDA") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000054f72c8d/e76b4227-1b65-4c37-8ba0-247b6957540b"
+      (reference "#PWR09") (unit 1) (value "+10V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000054f72c8d/7499d590-236e-4ad5-8306-cc132a965d47"
+      (reference "#PWR010") (unit 1) (value "GNDA") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000054f7244b/00000000-0000-0000-0000-000055f9c19e"
       (reference "#PWR014") (unit 1) (value "+12V") (footprint "")
@@ -1437,6 +1449,12 @@
     (path "/00000000-0000-0000-0000-000054f72fb6/1d866d70-1693-4c7b-b12b-14a1359fc1d5"
       (reference "C96") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
+    (path "/00000000-0000-0000-0000-000054f72c8d/becbc654-c776-480f-9d8d-d2f1fb44c1b1"
+      (reference "C97") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-000054f72c8d/44c42e63-857d-4d09-b4a9-95f2907eb8cb"
+      (reference "C98") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
     (path "/00000000-0000-0000-0000-000054f72b97/00000000-0000-0000-0000-00005b4af356"
       (reference "CA1") (unit 1) (value "2.2nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -2402,6 +2420,15 @@
     )
     (path "/00000000-0000-0000-0000-00005b3b40fb/00000000-0000-0000-0000-00005b462c68"
       (reference "U21") (unit 1) (value "MIC2076A") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+    )
+    (path "/00000000-0000-0000-0000-000054f72c8d/c9997557-b04e-4e6f-a2e9-6a429ee096f7"
+      (reference "U22") (unit 1) (value "RC4580ID") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+    )
+    (path "/00000000-0000-0000-0000-000054f72c8d/0eda7144-4458-4812-9292-1643d7583da3"
+      (reference "U22") (unit 2) (value "RC4580ID") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+    )
+    (path "/00000000-0000-0000-0000-000054f72c8d/2b590072-5043-4763-8a00-45ac302126a4"
+      (reference "U22") (unit 3) (value "RC4580ID") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-00005b3b40fb/00000000-0000-0000-0000-00005b3cdbbb"
       (reference "U24") (unit 1) (value "MCP4922-EP") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
