@@ -2365,22 +2365,22 @@
       (reference "U10") (unit 3) (value "LM358") (footprint "Package_SO:TSSOP-8_3x3mm_P0.65mm")
     )
     (path "/00000000-0000-0000-0000-000054f72cd0/00000000-0000-0000-0000-00005b61a26f"
-      (reference "U11") (unit 1) (value "RC4580ID") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "U11") (unit 1) (value "LM833DR2G") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-000054f72cd0/00000000-0000-0000-0000-00005b62b915"
-      (reference "U11") (unit 2) (value "RC4580ID") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "U11") (unit 2) (value "LM833DR2G") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-000054f72cd0/00000000-0000-0000-0000-00005b61a27f"
-      (reference "U11") (unit 3) (value "RC4580ID") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "U11") (unit 3) (value "LM833DR2G") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-000054f72cd0/00000000-0000-0000-0000-00005b633e6e"
-      (reference "U12") (unit 1) (value "RC4580ID") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "U12") (unit 1) (value "LM833DR2G") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-000054f72cd0/00000000-0000-0000-0000-00005b633f38"
-      (reference "U12") (unit 2) (value "RC4580ID") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "U12") (unit 2) (value "LM833DR2G") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-000054f72cd0/00000000-0000-0000-0000-00005b62fc7a"
-      (reference "U12") (unit 3) (value "RC4580ID") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "U12") (unit 3) (value "LM833DR2G") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-00005b3b40fb/00000000-0000-0000-0000-00005ee404d7"
       (reference "U13") (unit 1) (value "DG9426E") (footprint "Package_SO:TSSOP-16_4.4x5mm_P0.65mm")
@@ -2422,13 +2422,13 @@
       (reference "U21") (unit 1) (value "MIC2076A") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-000054f72c8d/c9997557-b04e-4e6f-a2e9-6a429ee096f7"
-      (reference "U22") (unit 1) (value "RC4580ID") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "U22") (unit 1) (value "LM833DR2G") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-000054f72c8d/0eda7144-4458-4812-9292-1643d7583da3"
-      (reference "U22") (unit 2) (value "RC4580ID") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "U22") (unit 2) (value "LM833DR2G") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-000054f72c8d/2b590072-5043-4763-8a00-45ac302126a4"
-      (reference "U22") (unit 3) (value "RC4580ID") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "U22") (unit 3) (value "LM833DR2G") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-00005b3b40fb/00000000-0000-0000-0000-00005b3cdbbb"
       (reference "U24") (unit 1) (value "MCP4922-EP") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
