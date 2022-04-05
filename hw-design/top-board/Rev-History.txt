@@ -14,3 +14,9 @@
 -Modified board contour.
 20200410
 -Modified board contour.
+20220228
+-Changed LEDs
+-Changed Board Shape
+-Changed b2b connector to flex
+-Removed separate power connector
+-Rotated Encoders
