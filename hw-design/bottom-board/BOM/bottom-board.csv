@@ -1,7 +1,7 @@
 Title,MOD DuoX - Bottom Board
 Revision,Rev 2.0P2
 Date,2022-01-26
-Generated,Thu 27 Jan 2022 04:19:40 PM CET
+Generated,Wed 27 Apr 2022 02:05:55 PM CEST
 Company,MOD Devices GmbH
 Comment 1,DuoX Audio processing board
 Comment 2,https://github.com/moddevices/mod-hw-duoX
@@ -121,4 +121,4 @@ X1 ,1,24.576MHz,Oscillator:Oscillator_SMD_Abracon_ASV-4Pin_7.0x5.1mm,ASV-24.576M
 
 
 BOM made with KICAD_BOM_WIZARD (https://github.com/HashDefineElectronics/KiCad_BOM_Wizard.git)
-Generated Thu 27 Jan 2022 04:19:40 PM CET
+Generated Wed 27 Apr 2022 02:05:55 PM CEST

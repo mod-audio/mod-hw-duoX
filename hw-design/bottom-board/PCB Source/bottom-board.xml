@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/home/mod-xps/MOD_REPOS/HW/mod-hw-duoX/hw-design/bottom-board/PCB Source/bottom-board.kicad_sch</source>
-    <date>Thu 27 Jan 2022 04:19:40 PM CET</date>
-    <tool>Eeschema 6.0.1-79c1e3a40b~116~ubuntu20.04.1</tool>
+    <date>Wed 27 Apr 2022 02:05:57 PM CEST</date>
+    <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>MOD DuoX - Bottom Board</title>
@@ -2175,7 +2175,7 @@
       <property name="Sheetname" value="audio-inputs"/>
       <property name="Sheetfile" value="audio-inputs.kicad_sch"/>
       <sheetpath names="/audio-inputs/" tstamps="/00000000-0000-0000-0000-000054f72c8d/"/>
-      <tstamps>00000000-0000-0000-0000-00005b5fbc10 00000000-0000-0000-0000-00005b5fc925 00000000-0000-0000-0000-00005b5fadf6</tstamps>
+      <tstamps>00000000-0000-0000-0000-00005b5fc925 00000000-0000-0000-0000-00005b5fbc10 00000000-0000-0000-0000-00005b5fadf6</tstamps>
     </comp>
     <comp ref="U22">
       <value>LM833DR2G</value>
