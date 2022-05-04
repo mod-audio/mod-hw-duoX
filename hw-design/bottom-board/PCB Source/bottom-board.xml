@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/mod-xps/MOD_REPOS/HW/mod-hw-duoX/hw-design/bottom-board/PCB Source/bottom-board.kicad_sch</source>
-    <date>Wed 27 Apr 2022 02:05:57 PM CEST</date>
+    <date>Wed 04 May 2022 04:07:29 PM CEST</date>
     <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -2178,16 +2178,16 @@
       <tstamps>00000000-0000-0000-0000-00005b5fc925 00000000-0000-0000-0000-00005b5fbc10 00000000-0000-0000-0000-00005b5fadf6</tstamps>
     </comp>
     <comp ref="U22">
-      <value>LM833DR2G</value>
+      <value>OPA1678IDR</value>
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/opa1678.pdf</datasheet>
       <fields>
-        <field name="MPN">LM833DR2G</field>
-        <field name="MPN2">OPA1678IDR</field>
+        <field name="MPN">OPA1678IDR</field>
+        <field name="MPN2">LM833DR2G</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="LM4562-Amplifier_Operational" description=""/>
-      <property name="MPN" value="LM833DR2G"/>
-      <property name="MPN2" value="OPA1678IDR"/>
+      <property name="MPN" value="OPA1678IDR"/>
+      <property name="MPN2" value="LM833DR2G"/>
       <property name="Sheetname" value="audio-inputs"/>
       <property name="Sheetfile" value="audio-inputs.kicad_sch"/>
       <sheetpath names="/audio-inputs/" tstamps="/00000000-0000-0000-0000-000054f72c8d/"/>
@@ -3131,28 +3131,32 @@
       <tstamps>00000000-0000-0000-0000-00005bb7afb0</tstamps>
     </comp>
     <comp ref="U11">
-      <value>LM833DR2G</value>
+      <value>OPA1678IDR</value>
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/opa1678.pdf</datasheet>
       <fields>
-        <field name="MPN">LM833DR2G</field>
+        <field name="MPN">OPA1678IDR</field>
+        <field name="MPN2">LM833DR2G</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="LM4562-Amplifier_Operational" description=""/>
-      <property name="MPN" value="LM833DR2G"/>
+      <property name="MPN" value="OPA1678IDR"/>
+      <property name="MPN2" value="LM833DR2G"/>
       <property name="Sheetname" value="audio-outputs"/>
       <property name="Sheetfile" value="audio-outputs.kicad_sch"/>
       <sheetpath names="/audio-outputs/" tstamps="/00000000-0000-0000-0000-000054f72cd0/"/>
       <tstamps>00000000-0000-0000-0000-00005b62b915 00000000-0000-0000-0000-00005b61a27f 00000000-0000-0000-0000-00005b61a26f</tstamps>
     </comp>
     <comp ref="U12">
-      <value>LM833DR2G</value>
+      <value>OPA1678IDR</value>
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/opa1678.pdf</datasheet>
       <fields>
-        <field name="MPN">LM833DR2G</field>
+        <field name="MPN">OPA1678IDR</field>
+        <field name="MPN2">LM833DR2G</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="LM4562-Amplifier_Operational" description=""/>
-      <property name="MPN" value="LM833DR2G"/>
+      <property name="MPN" value="OPA1678IDR"/>
+      <property name="MPN2" value="LM833DR2G"/>
       <property name="Sheetname" value="audio-outputs"/>
       <property name="Sheetfile" value="audio-outputs.kicad_sch"/>
       <sheetpath names="/audio-outputs/" tstamps="/00000000-0000-0000-0000-000054f72cd0/"/>
@@ -3354,26 +3358,26 @@
       <tstamps>00000000-0000-0000-0000-0000550f230c</tstamps>
     </comp>
     <comp ref="R145">
-      <value>10K</value>
+      <value>0R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">RR0816P-103-D</field>
+        <field name="MPN">CRG0603ZR</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="R_Small-Device" description=""/>
-      <property name="MPN" value="RR0816P-103-D"/>
+      <property name="MPN" value="CRG0603ZR"/>
       <property name="Sheetname" value="control-chain"/>
       <property name="Sheetfile" value="control-chain.kicad_sch"/>
       <sheetpath names="/control-chain/" tstamps="/00000000-0000-0000-0000-000054f72fb6/"/>
       <tstamps>71c80701-5a43-44ff-a4b3-ee93b63d040e</tstamps>
     </comp>
     <comp ref="R146">
-      <value>10K</value>
+      <value>100K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">RR0816P-103-D</field>
+        <field name="MPN">RMCF0603JT100K</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="R_Small-Device" description=""/>
-      <property name="MPN" value="RR0816P-103-D"/>
+      <property name="MPN" value="RMCF0603JT100K"/>
       <property name="Sheetname" value="control-chain"/>
       <property name="Sheetfile" value="control-chain.kicad_sch"/>
       <sheetpath names="/control-chain/" tstamps="/00000000-0000-0000-0000-000054f72fb6/"/>
@@ -3394,13 +3398,13 @@
       <tstamps>00000000-0000-0000-0000-00005519dd90</tstamps>
     </comp>
     <comp ref="U19">
-      <value>LSF0204DPWR</value>
+      <value>TXS0104EPWR</value>
       <footprint>LSF0204DPWR:SOP65P640X120-14N</footprint>
       <fields>
-        <field name="MPN">LSF0204DPWR</field>
+        <field name="MPN">TXS0104EPWR</field>
       </fields>
       <libsource lib="LSF0204DPWR" part="LSF0204DPWR" description=""/>
-      <property name="MPN" value="LSF0204DPWR"/>
+      <property name="MPN" value="TXS0104EPWR"/>
       <property name="Sheetname" value="control-chain"/>
       <property name="Sheetfile" value="control-chain.kicad_sch"/>
       <sheetpath names="/control-chain/" tstamps="/00000000-0000-0000-0000-000054f72fb6/"/>
@@ -3973,9 +3977,11 @@
       <footprint>Package_SO:VSSOP-8_2.3x2mm_P0.5mm</footprint>
       <fields>
         <field name="MPN">SN74LVC3G17DCUR</field>
+        <field name="MPN2">74LVC3G17</field>
       </fields>
       <libsource lib="74xGxx_local" part="74LVC3G17" description=""/>
       <property name="MPN" value="SN74LVC3G17DCUR"/>
+      <property name="MPN2" value="74LVC3G17"/>
       <property name="Sheetname" value="control-voltage"/>
       <property name="Sheetfile" value="control-voltage.kicad_sch"/>
       <sheetpath names="/control-voltage/" tstamps="/00000000-0000-0000-0000-00005b3b40fb/"/>
@@ -4003,10 +4009,11 @@
         <field name="MPN">DG9426EDQ-T1-GE3</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="DG9426E" description="Quad SPST Analog Switches, normally ON, 60Ohm Ron, SOIC-16"/>
+      <property name="MPN" value="DG9426EDQ-T1-GE3"/>
       <property name="Sheetname" value="control-voltage"/>
       <property name="Sheetfile" value="control-voltage.kicad_sch"/>
       <sheetpath names="/control-voltage/" tstamps="/00000000-0000-0000-0000-00005b3b40fb/"/>
-      <tstamps>00000000-0000-0000-0000-00005e6e30a0 00000000-0000-0000-0000-00005e6e0c9d 00000000-0000-0000-0000-00005e6de901 00000000-0000-0000-0000-00005e6dc73d 00000000-0000-0000-0000-00005e6d9fa3</tstamps>
+      <tstamps>00000000-0000-0000-0000-00005e6e30a0 00000000-0000-0000-0000-00005e6e0c9d 00000000-0000-0000-0000-00005e6dc73d 00000000-0000-0000-0000-00005e6de901 00000000-0000-0000-0000-00005e6d9fa3</tstamps>
     </comp>
     <comp ref="U10">
       <value>LM358</value>
@@ -4026,7 +4033,7 @@
       <footprint>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</footprint>
       <datasheet>http://pdf.datasheetcatalog.com/datasheets/70/494502_DS.pdf</datasheet>
       <fields>
-        <field name="MPN">LM358DGKR</field>
+        <field name="MPN">DG9426EDQ-T1-GE3</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="DG9426E" description="Quad SPST Analog Switches, normally ON, 60Ohm Ron, SOIC-16"/>
       <property name="MPN" value="DG9426EDQ-T1-GE3"/>
@@ -4148,10 +4155,10 @@
       <value>1nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">C0603X7R500-103KNP</field>
+        <field name="MPN">C0603X7R500-102KNP</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="C_Small-Device" description=""/>
-      <property name="MPN" value="C0603X7R500-103KNP"/>
+      <property name="MPN" value="C0603X7R500-102KNP"/>
       <property name="Sheetname" value="coreboard"/>
       <property name="Sheetfile" value="coreboard.kicad_sch"/>
       <sheetpath names="/coreboard/" tstamps="/00000000-0000-0000-0000-000054f725ae/"/>
@@ -4828,10 +4835,10 @@
       <value>1nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">C0603X7R500-103KNP</field>
+        <field name="MPN">C0603X7R500-102KNP</field>
       </fields>
       <libsource lib="bottom-board-rescue" part="C_Small-Device" description=""/>
-      <property name="MPN" value="C0603X7R500-103KNP"/>
+      <property name="MPN" value="C0603X7R500-102KNP"/>
       <property name="Sheetname" value="power"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <sheetpath names="/power/" tstamps="/00000000-0000-0000-0000-000054f7244b/"/>
@@ -5105,14 +5112,16 @@
       <tstamps>00000000-0000-0000-0000-00005bb0b54f</tstamps>
     </comp>
     <comp ref="U15">
-      <value>LM2596S-5</value>
+      <value>TS2596CM550</value>
       <footprint>Package_TO_SOT_SMD:TO-263-5_TabPin3</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/lm2596.pdf</datasheet>
       <fields>
         <field name="MPN">TS2596CM550 RNG</field>
+        <field name="MPN2">LM2596S-5</field>
       </fields>
       <libsource lib="Regulator_Switching" part="LM2596S-5" description="5V 3A Step-Down Voltage Regulator, TO-263"/>
       <property name="MPN" value="TS2596CM550 RNG"/>
+      <property name="MPN2" value="LM2596S-5"/>
       <property name="Sheetname" value="power"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <sheetpath names="/power/" tstamps="/00000000-0000-0000-0000-000054f7244b/"/>
@@ -5412,7 +5421,11 @@
       <value>TPS2041B</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/tps2041.pdf</datasheet>
+      <fields>
+        <field name="MPN">TPS2041B</field>
+      </fields>
       <libsource lib="Power_Management" part="TPS2041B" description="Single power-distribution switcher"/>
+      <property name="MPN" value="TPS2041B"/>
       <property name="Sheetname" value="usb"/>
       <property name="Sheetfile" value="usb.kicad_sch"/>
       <sheetpath names="/usb/" tstamps="/00000000-0000-0000-0000-000054f72fb2/"/>
@@ -6849,11 +6862,11 @@
       <node ref="U19" pin="3" pinfunction="A2" pintype="bidirectional"/>
     </net>
     <net code="15" name="CHAIN_UART_RX">
-      <node ref="J3" pin="62" pinfunction="62" pintype="passive"/>
+      <node ref="J3" pin="64" pinfunction="64" pintype="passive"/>
       <node ref="U19" pin="2" pinfunction="A1" pintype="bidirectional"/>
     </net>
     <net code="16" name="CHAIN_UART_TX">
-      <node ref="J3" pin="64" pinfunction="64" pintype="passive"/>
+      <node ref="J3" pin="66" pinfunction="66" pintype="passive"/>
       <node ref="U19" pin="4" pinfunction="A3" pintype="bidirectional"/>
     </net>
     <net code="17" name="CLI_UART_RX">
@@ -8342,11 +8355,11 @@
     <net code="279" name="unconnected-(J3-Pad61)">
       <node ref="J3" pin="61" pinfunction="61" pintype="passive+no_connect"/>
     </net>
-    <net code="280" name="unconnected-(J3-Pad63)">
-      <node ref="J3" pin="63" pinfunction="63" pintype="passive+no_connect"/>
+    <net code="280" name="unconnected-(J3-Pad62)">
+      <node ref="J3" pin="62" pinfunction="62" pintype="passive+no_connect"/>
     </net>
-    <net code="281" name="unconnected-(J3-Pad66)">
-      <node ref="J3" pin="66" pinfunction="66" pintype="passive+no_connect"/>
+    <net code="281" name="unconnected-(J3-Pad63)">
+      <node ref="J3" pin="63" pinfunction="63" pintype="passive+no_connect"/>
     </net>
     <net code="282" name="unconnected-(J3-Pad67)">
       <node ref="J3" pin="67" pinfunction="67" pintype="passive+no_connect"/>

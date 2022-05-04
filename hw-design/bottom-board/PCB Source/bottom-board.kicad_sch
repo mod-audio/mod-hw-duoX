@@ -178,26 +178,26 @@
     )
   )
 
-  (sheet (at 95.25 92.71) (size 54.61 10.16) (fields_autoplaced)
+  (sheet (at 157.6832 74.5744) (size 54.61 10.16) (fields_autoplaced)
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 00000000-0000-0000-0000-00005b3b40fb)
-    (property "Sheet name" "control-voltage" (id 0) (at 95.25 91.8714 0)
+    (property "Sheet name" "control-voltage" (id 0) (at 157.6832 73.7358 0)
       (effects (font (size 1.524 1.524)) (justify left bottom))
     )
-    (property "Sheet file" "control-voltage.kicad_sch" (id 1) (at 95.25 103.5562 0)
+    (property "Sheet file" "control-voltage.kicad_sch" (id 1) (at 157.6832 85.4206 0)
       (effects (font (size 1.524 1.524)) (justify left top))
     )
   )
 
-  (sheet (at 95.25 110.49) (size 54.61 10.16) (fields_autoplaced)
+  (sheet (at 95.1992 91.7956) (size 54.61 10.16) (fields_autoplaced)
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 00000000-0000-0000-0000-00005b6e0697)
-    (property "Sheet name" "spdif" (id 0) (at 95.25 109.6514 0)
+    (property "Sheet name" "spdif" (id 0) (at 95.1992 90.957 0)
       (effects (font (size 1.524 1.524)) (justify left bottom))
     )
-    (property "Sheet file" "spdif.kicad_sch" (id 1) (at 95.25 121.3362 0)
+    (property "Sheet file" "spdif.kicad_sch" (id 1) (at 95.1992 102.6418 0)
       (effects (font (size 1.524 1.524)) (justify left top))
     )
   )
@@ -2224,10 +2224,10 @@
       (reference "R144") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000054f72fb6/71c80701-5a43-44ff-a4b3-ee93b63d040e"
-      (reference "R145") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R145") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000054f72fb6/feece579-ad5d-4a13-bf2d-8a218fcaf096"
-      (reference "R146") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R146") (unit 1) (value "100K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000054f72cd0/07128119-0796-44fa-bc7e-b27db0788a56"
       (reference "R147") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -2365,22 +2365,22 @@
       (reference "U10") (unit 3) (value "LM358") (footprint "Package_SO:TSSOP-8_3x3mm_P0.65mm")
     )
     (path "/00000000-0000-0000-0000-000054f72cd0/00000000-0000-0000-0000-00005b61a26f"
-      (reference "U11") (unit 1) (value "LM833DR2G") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "U11") (unit 1) (value "OPA1678IDR") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-000054f72cd0/00000000-0000-0000-0000-00005b62b915"
-      (reference "U11") (unit 2) (value "LM833DR2G") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "U11") (unit 2) (value "OPA1678IDR") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-000054f72cd0/00000000-0000-0000-0000-00005b61a27f"
-      (reference "U11") (unit 3) (value "LM833DR2G") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "U11") (unit 3) (value "OPA1678IDR") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-000054f72cd0/00000000-0000-0000-0000-00005b633e6e"
-      (reference "U12") (unit 1) (value "LM833DR2G") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "U12") (unit 1) (value "OPA1678IDR") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-000054f72cd0/00000000-0000-0000-0000-00005b633f38"
-      (reference "U12") (unit 2) (value "LM833DR2G") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "U12") (unit 2) (value "OPA1678IDR") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-000054f72cd0/00000000-0000-0000-0000-00005b62fc7a"
-      (reference "U12") (unit 3) (value "LM833DR2G") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "U12") (unit 3) (value "OPA1678IDR") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-00005b3b40fb/00000000-0000-0000-0000-00005ee404d7"
       (reference "U13") (unit 1) (value "DG9426E") (footprint "Package_SO:TSSOP-16_4.4x5mm_P0.65mm")
@@ -2401,7 +2401,7 @@
       (reference "U14") (unit 1) (value "LM4811") (footprint "Package_SO:MSOP-10_3x3mm_P0.5mm")
     )
     (path "/00000000-0000-0000-0000-000054f7244b/00000000-0000-0000-0000-0000618312df"
-      (reference "U15") (unit 1) (value "LM2596S-5") (footprint "Package_TO_SOT_SMD:TO-263-5_TabPin3")
+      (reference "U15") (unit 1) (value "TS2596CM550") (footprint "Package_TO_SOT_SMD:TO-263-5_TabPin3")
     )
     (path "/00000000-0000-0000-0000-000054f72fb2/00000000-0000-0000-0000-0000628d6a2b"
       (reference "U16") (unit 1) (value "TPS2041B") (footprint "Package_TO_SOT_SMD:SOT-23-5")
@@ -2413,7 +2413,7 @@
       (reference "U18") (unit 1) (value "ISL83086E") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-000054f72fb6/cb62da1b-bdbe-4b19-a0a0-f71a467da135"
-      (reference "U19") (unit 1) (value "LSF0204DPWR") (footprint "LSF0204DPWR:SOP65P640X120-14N")
+      (reference "U19") (unit 1) (value "TXS0104EPWR") (footprint "LSF0204DPWR:SOP65P640X120-14N")
     )
     (path "/00000000-0000-0000-0000-00005b3b40fb/00000000-0000-0000-0000-00005b3b49d8"
       (reference "U20") (unit 1) (value "ADC122S021") (footprint "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm")
@@ -2422,13 +2422,13 @@
       (reference "U21") (unit 1) (value "MIC2076A") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-000054f72c8d/c9997557-b04e-4e6f-a2e9-6a429ee096f7"
-      (reference "U22") (unit 1) (value "LM833DR2G") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "U22") (unit 1) (value "OPA1678IDR") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-000054f72c8d/0eda7144-4458-4812-9292-1643d7583da3"
-      (reference "U22") (unit 2) (value "LM833DR2G") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "U22") (unit 2) (value "OPA1678IDR") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-000054f72c8d/2b590072-5043-4763-8a00-45ac302126a4"
-      (reference "U22") (unit 3) (value "LM833DR2G") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "U22") (unit 3) (value "OPA1678IDR") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-00005b3b40fb/00000000-0000-0000-0000-00005b3cdbbb"
       (reference "U24") (unit 1) (value "MCP4922-EP") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
