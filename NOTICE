@@ -1,0 +1,51 @@
+MOD Duo X hardware design files
+Copyright (c) 2014-2026 MOD Audio Limited
+
+Licensing
+---------
+
+Everything in this repository, on every branch and in its history, except the
+third-party files listed below, is licensed under the Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International licence (CC BY-NC-SA 4.0). Full text: LICENSE.
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+Third-party files
+-----------------
+
+The following files were made by their respective manufacturers or authors and
+are included only so the design opens and renders complete. They are NOT
+covered by the licence above. Their owners' terms apply; get them from the
+original source if you want to reuse them.
+
+- Manufacturer 3D models, symbols and footprints of components:
+    hw-design/bottom-board/Documentation/3D libs/
+    hw-design/bottom-board/PCB Source/3D libs/
+    hw-design/bottom-board/Documentation/Components/
+    hw-design/lib/2309407-1.*
+- Vendor symbol libraries:
+    hw-design/lib/symbols/itead.*
+    hw-design/lib/symbols/in-circuit.*
+- Module and chip documentation (Firefly, Graperain, Rockchip):
+    hw-design/bottom-board/Documentation/Core-3399-JD4-Product Specifications.pdf
+    hw-design/bottom-board/Documentation/GR3399 Gold Finger System on Module Introduction.pdf
+    hw-design/bottom-board/Documentation/Rockchip_RK3399_Datasheet_V1.8-20180529.pdf
+    hw-design/bottom-board/Documentation/firefly_rk3399_dev_board.pdf
+    hw-design/bottom-board/Documentation/FF3399_SOM.dxf
+
+Trademarks
+----------
+
+The MOD logo is a registered trademark (EU trade mark no. 016228827; UK trade
+mark no. UK00916228827).
+
+No licence in this repository grants any right to use the MOD name or logo.
+The logo footprint (mod-logo.kicad_mod) and the logo on the board silkscreen
+are included for reference only. Anything you build or derive from these files
+must not carry the MOD logo and must not be presented as a MOD product or as
+made or endorsed by MOD Audio.
+
+No warranty
+-----------
+
+These files are provided as-is, without warranty of any kind. See the
+disclaimer in the licence text.
